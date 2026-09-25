@@ -1,0 +1,2708 @@
+[
+    {
+        "cards":  [
+                      {
+                          "a":  "Cell wall (cellulose), chloroplasts, large permanent vacuole.",
+                          "q":  "Three structures found in plant cells but not animal cells?"
+                      },
+                      {
+                          "a":  "Site of aerobic respiration — release energy from glucose.",
+                          "q":  "Function of mitochondria?"
+                      },
+                      {
+                          "a":  "Protein synthesis.",
+                          "q":  "Function of ribosomes?"
+                      },
+                      {
+                          "a":  "Controls which substances enter and leave the cell (partially permeable).",
+                          "q":  "What does the cell membrane do?"
+                      },
+                      {
+                          "a":  "Free in the cytoplasm as a circular chromosome, plus small plasmids — no nucleus.",
+                          "q":  "Where is the DNA in a bacterial cell?"
+                      },
+                      {
+                          "a":  "Cell → tissue → organ → organ system → organism.",
+                          "q":  "Order the levels of organisation."
+                      },
+                      {
+                          "a":  "Long, thin extension gives a large surface area to absorb water and minerals.",
+                          "q":  "How is a root hair cell adapted?"
+                      },
+                      {
+                          "a":  "No nucleus (room for haemoglobin), biconcave shape (large surface area), contains haemoglobin.",
+                          "q":  "How is a red blood cell adapted to carry oxygen?"
+                      },
+                      {
+                          "a":  "Magnification = image size ÷ actual size (same units!).",
+                          "q":  "Magnification formula?"
+                      },
+                      {
+                          "a":  "1000 µm (micrometres).",
+                          "q":  "1 mm = ? µm"
+                      },
+                      {
+                          "a":  "They are at the top of the leaf where light is strongest — main site of photosynthesis.",
+                          "q":  "Why do palisade cells have many chloroplasts?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# Animal vs plant cells\n\n| Structure | Function | Animal | Plant |\n|---|---|---|---|\n| Cell membrane | Controls what enters and leaves | ✓ | ✓ |\n| Cytoplasm | Jelly where chemical reactions happen | ✓ | ✓ |\n| Nucleus | Contains DNA/chromosomes; controls the cell | ✓ | ✓ |\n| Mitochondria | Aerobic respiration → releases energy | ✓ | ✓ |\n| Ribosomes | Make proteins | ✓ | ✓ |\n| Cell wall | Cellulose; support and shape | ✗ | ✓ |\n| Chloroplasts | Contain chlorophyll; photosynthesis | ✗ | ✓ |\n| Large permanent vacuole | Cell sap; keeps cell turgid | ✗ | ✓ |\n\n\u003e Bacterial cells: cell wall (not cellulose), cell membrane, cytoplasm, ribosomes, **circular DNA + plasmids**, no nucleus.\n\n# Levels of organisation\n\n**Cell → Tissue → Organ → Organ system → Organism**\n\n- **Tissue:** a group of similar cells doing the same job (muscle tissue, xylem).\n- **Organ:** several tissues working together (heart, leaf).\n- **Organ system:** organs working together (digestive system).\n\n# Specialised cells\n\n| Cell | Adaptation | Job |\n|---|---|---|\n| Ciliated cell | Hair-like cilia that beat | Move mucus up the airways |\n| Root hair cell | Long extension → large surface area | Absorb water and mineral ions |\n| Xylem vessel | Hollow tube, no cytoplasm, lignin walls | Transport water; support |\n| Palisade mesophyll | Many chloroplasts, packed at top of leaf | Photosynthesis |\n| Nerve cell (neurone) | Very long, insulated | Carry electrical impulses |\n| Red blood cell | No nucleus, biconcave, haemoglobin | Carry oxygen |\n| Sperm cell | Tail, many mitochondria, enzymes in head | Swim to and fertilise the egg |\n| Egg cell | Large, energy store, jelly coat | Nutrition for the embryo |\n\n# Magnification\n\n**Magnification = image size ÷ actual size**\n\n- Rearrange: actual size = image size ÷ magnification.\n- Both measurements must be in the **same units** before dividing (1 mm = 1000 µm).\n- Magnification has no units; write it as ×400.\n\nExample: a cell image is 40 mm wide; actual cell is 0.05 mm → magnification = 40 ÷ 0.05 = ×800.",
+        "order":  2,
+        "quiz":  [
+                     {
+                         "answer":  3,
+                         "explain":  "Mitochondria release energy from glucose using oxygen.",
+                         "options":  [
+                                         "Nucleus",
+                                         "Chloroplast",
+                                         "Ribosome",
+                                         "Mitochondrion"
+                                     ],
+                         "q":  "Which organelle is the site of aerobic respiration?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Cellulose gives the wall strength and shape. (Xylem walls are additionally strengthened with lignin.)",
+                         "options":  [
+                                         "Protein",
+                                         "Cellulose",
+                                         "Chitin",
+                                         "Lignin"
+                                     ],
+                         "q":  "A plant cell\u0027s cell wall is made of:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "It is made of several tissues (muscle, nerve, connective) working together.",
+                         "options":  [
+                                         "A cell",
+                                         "A tissue",
+                                         "An organ",
+                                         "An organ system"
+                                     ],
+                         "q":  "The heart is an example of:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "60 ÷ 0.03 = 2000.",
+                         "options":  [
+                                         "×20",
+                                         "×200",
+                                         "×2000",
+                                         "×1800"
+                                     ],
+                         "q":  "A drawing of a cell is 60 mm long. The real cell is 0.03 mm. Magnification is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Cilia beat to sweep mucus and trapped dust away from the lungs.",
+                         "options":  [
+                                         "Root hair cell",
+                                         "Ciliated cell lining the trachea",
+                                         "Red blood cell",
+                                         "Xylem vessel"
+                                     ],
+                         "q":  "Which cell has cilia?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Plasmids are small circular DNA loops found in bacteria.",
+                         "options":  [
+                                         "Cell wall",
+                                         "Ribosomes",
+                                         "Plasmids",
+                                         "Cell membrane"
+                                     ],
+                         "q":  "Which structure do bacteria have that plant cells do NOT?"
+                     }
+                 ],
+        "subject":  "biology",
+        "title":  "Cells: structure, organisation, specialised cells",
+        "updated":  "Starter notes",
+        "id":  "bio-cells"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Movement, Respiration, Sensitivity, Growth, Reproduction, Excretion, Nutrition.",
+                          "q":  "What does MRS GREN stand for?"
+                      },
+                      {
+                          "a":  "Removal from organisms of the waste products of metabolism, and of substances in excess of requirements.",
+                          "q":  "Define excretion."
+                      },
+                      {
+                          "a":  "A permanent increase in size and dry mass.",
+                          "q":  "Define growth."
+                      },
+                      {
+                          "a":  "A group of organisms that can reproduce to produce fertile offspring.",
+                          "q":  "Define a species."
+                      },
+                      {
+                          "a":  "Genus (capital) + species (lowercase), in italics: *Panthera leo*.",
+                          "q":  "How is a binomial name written?"
+                      },
+                      {
+                          "a":  "No nucleus (DNA is loose in the cytoplasm); single-celled, e.g. bacteria.",
+                          "q":  "What is the main feature of prokaryotes?"
+                      },
+                      {
+                          "a":  "Fungi have no chloroplasts and don\u0027t photosynthesise; they feed saprophytically; cell walls are not cellulose.",
+                          "q":  "Difference between fungi and plants?"
+                      },
+                      {
+                          "a":  "Insect: 6 legs, 3 body parts, antennae. Arachnid: 8 legs, 2 body parts, no antennae.",
+                          "q":  "Insect vs arachnid?"
+                      },
+                      {
+                          "a":  "Hair/fur, feed young on milk, warm-blooded (constant body temperature).",
+                          "q":  "Features of mammals?"
+                      },
+                      {
+                          "a":  "They are not made of cells and can only reproduce inside a host cell — not considered living.",
+                          "q":  "Why are viruses not classified in a kingdom?"
+                      },
+                      {
+                          "a":  "A tool of paired contrasting statements used to identify organisms step by step.",
+                          "q":  "What is a dichotomous key?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# Characteristics of living organisms — MRS GREN\n\n| Letter | Process | Definition |\n|---|---|---|\n| **M** | Movement | An action by an organism causing a change of position or place |\n| **R** | Respiration | Chemical reactions in cells that break down nutrient molecules and release energy |\n| **S** | Sensitivity | Ability to detect and respond to changes in the environment |\n| **G** | Growth | A permanent increase in size and dry mass |\n| **R** | Reproduction | Processes that make more of the same kind of organism |\n| **E** | Excretion | Removal of the waste products of metabolism and substances in excess |\n| **N** | Nutrition | Taking in materials for energy, growth and development |\n\n\u003e Learn the exact definitions — exam questions often ask for them word for word.\n\n# Classification\n\n- **Species:** a group of organisms that can reproduce to produce **fertile** offspring.\n- **Binomial system:** every species has a two-part Latin name: *Genus species* (e.g. *Homo sapiens*). Genus has a capital letter, species lowercase, whole name in italics or underlined.\n- Organisms are classified by shared features; modern classification uses **DNA base sequences** — the more similar the DNA, the more closely related.\n\n## The five kingdoms\n\n| Kingdom | Key features |\n|---|---|\n| Animals | Multicellular, no cell walls, no chloroplasts, feed on other organisms |\n| Plants | Multicellular, cellulose cell walls, chloroplasts, photosynthesise |\n| Fungi | Cell walls (not cellulose), no chloroplasts, feed by saprophytic or parasitic nutrition, e.g. mushrooms, yeast |\n| Protoctists | Mostly single-celled with a nucleus, e.g. Amoeba, Paramecium |\n| Prokaryotes | Single-celled, **no nucleus**, no membrane-bound organelles, e.g. bacteria |\n\n**Viruses** are not in any kingdom — they are not living (no cells, only reproduce inside host cells).\n\n## Vertebrates (animals with a backbone)\n\n| Group | Features |\n|---|---|\n| Fish | Scales, gills, fins, lay eggs in water |\n| Amphibians | Moist skin, lay eggs in water, larvae have gills, adults have lungs |\n| Reptiles | Dry scaly skin, lay soft-shelled eggs on land |\n| Birds | Feathers, beak, wings, hard-shelled eggs, warm-blooded |\n| Mammals | Hair/fur, feed young on milk, warm-blooded |\n\n## Arthropods (jointed legs, exoskeleton)\n\n- **Insects:** 6 legs, 3 body parts, usually wings, one pair of antennae\n- **Arachnids:** 8 legs, 2 body parts, no antennae\n- **Crustaceans:** more than 4 pairs of legs, 2 pairs of antennae\n- **Myriapods:** many segments, each with legs\n\n## Dichotomous keys\n\nA series of paired statements (yes/no) that lead you to the name of an organism. Each pair splits the group in two.",
+        "order":  1,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "Dry mass is used because water content changes quickly.",
+                         "options":  [
+                                         "Nutrition",
+                                         "Growth",
+                                         "Reproduction",
+                                         "Movement"
+                                     ],
+                         "q":  "\u0027A permanent increase in size and dry mass\u0027 defines:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Prokaryotes (bacteria) have DNA free in the cytoplasm.",
+                         "options":  [
+                                         "Fungi",
+                                         "Protoctists",
+                                         "Prokaryotes",
+                                         "Plants"
+                                     ],
+                         "q":  "Which kingdom has cells with no nucleus?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Genus capitalised, species lowercase, italics.",
+                         "options":  [
+                                         "homo Sapiens",
+                                         "Homo Sapiens",
+                                         "*Homo sapiens*",
+                                         "HOMO SAPIENS"
+                                     ],
+                         "q":  "Which is written correctly?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Spiders and scorpions are arachnids.",
+                         "options":  [
+                                         "An insect",
+                                         "An arachnid",
+                                         "A crustacean",
+                                         "A myriapod"
+                                     ],
+                         "q":  "An animal has 8 legs and 2 body parts. It is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Frogs and newts: larvae with gills, adults with lungs.",
+                         "options":  [
+                                         "Reptiles",
+                                         "Fish",
+                                         "Amphibians",
+                                         "Birds"
+                                     ],
+                         "q":  "Which vertebrate group has moist skin and lays eggs in water?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Similar DNA sequences show a recent common ancestor.",
+                         "options":  [
+                                         "Colour",
+                                         "Size",
+                                         "DNA base sequences",
+                                         "Habitat"
+                                     ],
+                         "q":  "Modern classification of species mainly uses:"
+                     }
+                 ],
+        "subject":  "biology",
+        "title":  "Characteristics \u0026 classification of living things",
+        "updated":  "Starter notes",
+        "id":  "bio-classification"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Net movement of particles from a region of higher concentration to lower concentration, down a gradient, due to random movement. No energy needed.",
+                          "q":  "Define diffusion."
+                      },
+                      {
+                          "a":  "Net movement of water molecules from a region of higher water potential to lower water potential through a partially permeable membrane.",
+                          "q":  "Define osmosis."
+                      },
+                      {
+                          "a":  "Movement of particles through a membrane from lower to higher concentration, against the gradient, using energy from respiration.",
+                          "q":  "Define active transport."
+                      },
+                      {
+                          "a":  "Larger surface area, higher temperature, steeper concentration gradient, shorter distance.",
+                          "q":  "Four factors that speed up diffusion?"
+                      },
+                      {
+                          "a":  "Water enters by osmosis; the cell becomes turgid. The cell wall prevents bursting.",
+                          "q":  "What happens to a plant cell in pure water?"
+                      },
+                      {
+                          "a":  "Water enters; it swells and bursts (lysis) — no cell wall.",
+                          "q":  "What happens to a red blood cell in pure water?"
+                      },
+                      {
+                          "a":  "In a concentrated solution a plant cell loses water; the membrane and cytoplasm pull away from the cell wall.",
+                          "q":  "What is plasmolysis?"
+                      },
+                      {
+                          "a":  "To release energy for active transport of mineral ions from the soil.",
+                          "q":  "Why do root hair cells have many mitochondria?"
+                      },
+                      {
+                          "a":  "Osmosis (and active transport uses carrier proteins in the membrane).",
+                          "q":  "Which process needs a partially permeable membrane?"
+                      },
+                      {
+                          "a":  "Mineral ions into root hair cells; glucose from the small intestine into blood.",
+                          "q":  "Give two examples of active transport."
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# Diffusion\n\n**Definition:** the net movement of particles from a region of their **higher concentration** to a region of their **lower concentration**, down a concentration gradient, as a result of their random movement.\n\n- Needs **no energy** from the cell (passive).\n- Examples: oxygen into cells, carbon dioxide out of cells, oxygen into blood in the lungs.\n\n**Factors that increase the rate of diffusion**\n\n1. Larger **surface area**\n2. Higher **temperature** (particles move faster)\n3. Steeper **concentration gradient**\n4. Shorter **distance** (thinner membrane)\n\n# Osmosis\n\n**Definition:** the net movement of **water molecules** from a region of higher water potential (dilute solution) to a region of lower water potential (concentrated solution), through a **partially permeable membrane**.\n\n| Solution around cell | Animal cell | Plant cell |\n|---|---|---|\n| Dilute (water enters) | Swells and may **burst** (lysis) | Becomes **turgid** — cell wall stops bursting |\n| Same concentration | No change | No change |\n| Concentrated (water leaves) | Shrinks, **crenated** | **Flaccid**, then **plasmolysed** (membrane pulls away from wall) |\n\n\u003e Turgor pressure keeps plants upright. Wilting = cells lose water and become flaccid.\n\n**Osmosis experiment:** potato cylinders in different sucrose concentrations → measure mass change. Gain in mass = water entered (solution more dilute than cell); loss = water left. Where the line crosses zero change, the solution has the same concentration as the potato.\n\n# Active transport\n\n**Definition:** the movement of particles through a cell membrane from a region of **lower** concentration to a region of **higher** concentration (against the gradient) **using energy from respiration**.\n\n- Uses **carrier proteins** in the membrane.\n- Examples: root hair cells absorbing mineral ions from soil; glucose absorbed in the small intestine.\n- Cells doing lots of active transport have **many mitochondria**.\n\n## Comparing the three\n\n| | Diffusion | Osmosis | Active transport |\n|---|---|---|---|\n| What moves | Any particles | Water only | Ions/molecules |\n| Direction | High → low | High water potential → low | Low → high |\n| Energy needed | No | No | Yes (ATP) |\n| Membrane needed | No | Yes, partially permeable | Yes, with carrier proteins |",
+        "order":  3,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "Only active transport goes from low to high, and it needs energy.",
+                         "options":  [
+                                         "Diffusion",
+                                         "Osmosis",
+                                         "Active transport",
+                                         "Evaporation"
+                                     ],
+                         "q":  "Which process moves substances against a concentration gradient?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Water leaves the cells by osmosis, so the strip loses mass and goes soft.",
+                         "options":  [
+                                         "Gain mass and become turgid",
+                                         "Lose mass and become flaccid",
+                                         "Stay the same",
+                                         "Burst"
+                                     ],
+                         "q":  "A potato strip is placed in a concentrated salt solution. It will:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Osmosis is specifically the diffusion of water across a partially permeable membrane.",
+                         "options":  [
+                                         "Any solute",
+                                         "Water",
+                                         "Oxygen",
+                                         "Glucose"
+                                     ],
+                         "q":  "Osmosis is the movement of:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "A longer diffusion distance (thicker membrane) slows the rate.",
+                         "options":  [
+                                         "Increasing temperature",
+                                         "Increasing surface area",
+                                         "Increasing the distance",
+                                         "Increasing the concentration gradient"
+                                     ],
+                         "q":  "Which change would SLOW diffusion?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "The strong cellulose wall stops expansion once the cell is turgid.",
+                         "options":  [
+                                         "It has no membrane",
+                                         "The cell wall resists the pressure",
+                                         "Water cannot enter plant cells",
+                                         "It has a nucleus"
+                                     ],
+                         "q":  "Why does a plant cell not burst in pure water?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Mitochondria release energy (ATP) for the carrier proteins.",
+                         "options":  [
+                                         "Photosynthesis",
+                                         "Osmosis",
+                                         "Respiration",
+                                         "Diffusion"
+                                     ],
+                         "q":  "Energy for active transport comes from:"
+                     }
+                 ],
+        "subject":  "biology",
+        "title":  "Movement in and out of cells",
+        "updated":  "Starter notes",
+        "id":  "bio-transport"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Proton 1, +1 · Neutron 1, 0 · Electron ≈0 (1/1840), −1",
+                          "q":  "Relative mass and charge of a proton, neutron and electron?"
+                      },
+                      {
+                          "a":  "Number of protons (and electrons in a neutral atom). It identifies the element.",
+                          "q":  "What does the proton number tell you?"
+                      },
+                      {
+                          "a":  "Nucleon number − proton number (A − Z).",
+                          "q":  "How do you find the number of neutrons?"
+                      },
+                      {
+                          "a":  "Atoms of the same element with the same number of protons but different numbers of neutrons.",
+                          "q":  "Define isotopes."
+                      },
+                      {
+                          "a":  "They have the same number of electrons, so the same electron arrangement.",
+                          "q":  "Why do isotopes have the same chemical properties?"
+                      },
+                      {
+                          "a":  "2,8,6",
+                          "q":  "Electronic configuration of sulfur (Z = 16)?"
+                      },
+                      {
+                          "a":  "In order of increasing proton number; groups = same outer electrons, periods = same number of shells.",
+                          "q":  "How is the periodic table arranged?"
+                      },
+                      {
+                          "a":  "They have full outer electron shells — no need to gain, lose or share electrons.",
+                          "q":  "Why are noble gases unreactive?"
+                      },
+                      {
+                          "a":  "Group I: increases down the group. Group VII: decreases down the group.",
+                          "q":  "How does reactivity change down Group I and Group VII?"
+                      },
+                      {
+                          "a":  "High melting points and density, form coloured compounds, act as catalysts, variable oxidation states (any three).",
+                          "q":  "Three properties of transition elements?"
+                      },
+                      {
+                          "a":  "(35×75 + 37×25) ÷ 100 = 35.5",
+                          "q":  "Ar of chlorine given 75% Cl-35 and 25% Cl-37?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# Inside the atom\n\n| Particle | Relative mass | Relative charge | Where |\n|---|---|---|---|\n| Proton | 1 | +1 | Nucleus |\n| Neutron | 1 | 0 | Nucleus |\n| Electron | 1/1840 (≈ 0) | −1 | Shells around nucleus |\n\n- **Proton (atomic) number Z** = number of protons = number of electrons in a neutral atom.\n- **Nucleon (mass) number A** = protons + neutrons.\n- Neutrons = A − Z.\n\nNotation: ²³₁₁Na → 11 protons, 11 electrons, 23 − 11 = 12 neutrons.\n\n## Isotopes\n\nAtoms of the **same element** (same number of protons) with **different numbers of neutrons**. E.g. ³⁵Cl and ³⁷Cl. Isotopes have identical chemical properties because they have the same electron arrangement.\n\n**Relative atomic mass (Ar)** is the weighted average of the isotopes. Chlorine: 75% ³⁵Cl, 25% ³⁷Cl → Ar = (35×75 + 37×25)/100 = 35.5.\n\n## Electron shells\n\nElectrons fill the shells nearest the nucleus first: **2, 8, 8** (for the first 20 elements).\n\n| Element | Z | Electronic configuration |\n|---|---|---|\n| Lithium | 3 | 2,1 |\n| Carbon | 6 | 2,4 |\n| Neon | 10 | 2,8 |\n| Sodium | 11 | 2,8,1 |\n| Chlorine | 17 | 2,8,7 |\n| Calcium | 20 | 2,8,8,2 |\n\n\u003e **Outer-shell electrons = group number.** Number of shells = period number. Noble gases have full outer shells → unreactive.\n\n## The periodic table\n\n- Arranged in order of **increasing proton number**.\n- **Groups** (columns): same number of outer electrons → similar chemical properties.\n- **Periods** (rows): same number of shells.\n- Metals on the left/centre, non-metals on the right; the stepped line separates them.\n- Group I = alkali metals (very reactive, reactivity **increases** down the group).\n- Group VII = halogens (reactivity **decreases** down the group; more reactive halogen displaces a less reactive one from its salt).\n- Group VIII/0 = noble gases (unreactive, full outer shell).\n- Transition elements: hard, dense, high melting points, coloured compounds, act as catalysts, variable oxidation states.",
+        "order":  2,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "Nucleon number = protons + neutrons = 39. It is potassium.",
+                         "options":  [
+                                         "19",
+                                         "20",
+                                         "39",
+                                         "1"
+                                     ],
+                         "q":  "An atom has 19 protons and 20 neutrons. Its nucleon number is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "An electron\u0027s mass is about 1/1840 of a proton.",
+                         "options":  [
+                                         "Proton",
+                                         "Neutron",
+                                         "Electron",
+                                         "Nucleus"
+                                     ],
+                         "q":  "Which particle has almost no mass?"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "3 outer electrons → Group III; 3 shells → Period 3. It is aluminium.",
+                         "options":  [
+                                         "Group 3, Period 3",
+                                         "Group 13, Period 2",
+                                         "Group 3, Period 2",
+                                         "Group 8, Period 3"
+                                     ],
+                         "q":  "The electronic configuration 2,8,3 belongs to an element in:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Same element (6 protons), different neutrons (6 vs 8).",
+                         "options":  [
+                                         "Different numbers of protons",
+                                         "Different numbers of electrons",
+                                         "Different numbers of neutrons",
+                                         "Different chemical properties"
+                                     ],
+                         "q":  "¹²C and ¹⁴C are isotopes because they have:"
+                     },
+                     {
+                         "answer":  3,
+                         "explain":  "Reactivity decreases down Group VII, so fluorine at the top is most reactive.",
+                         "options":  [
+                                         "Iodine",
+                                         "Bromine",
+                                         "Chlorine",
+                                         "Fluorine"
+                                     ],
+                         "q":  "Which halogen is the most reactive?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Chemical behaviour depends on the outer electrons.",
+                         "options":  [
+                                         "Number of shells",
+                                         "Number of outer-shell electrons",
+                                         "Mass number",
+                                         "Number of neutrons"
+                                     ],
+                         "q":  "Elements in the same group have similar chemical properties because they have the same:"
+                     }
+                 ],
+        "subject":  "chemistry",
+        "title":  "Atomic structure \u0026 the periodic table",
+        "updated":  "Starter notes",
+        "id":  "chem-atoms"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Element: one type of atom. Compound: elements chemically bonded in fixed ratio. Mixture: substances not bonded, any proportion.",
+                          "q":  "Element vs compound vs mixture — one line each."
+                      },
+                      {
+                          "a":  "A pure substance melts sharply at one temperature; impure melts over a range and at a lower temperature.",
+                          "q":  "How can you tell a substance is pure from its melting point?"
+                      },
+                      {
+                          "a":  "Filtration. Residue stays on the paper; filtrate passes through.",
+                          "q":  "How do you separate an insoluble solid from a liquid?"
+                      },
+                      {
+                          "a":  "Simple distillation — water evaporates, condenses in the condenser and is collected; salt is left behind.",
+                          "q":  "How do you get pure water from salt water?"
+                      },
+                      {
+                          "a":  "To separate miscible liquids with different boiling points, e.g. ethanol and water.",
+                          "q":  "When do you use fractional distillation?"
+                      },
+                      {
+                          "a":  "Pencil is insoluble; ink would dissolve in the solvent and move up the paper.",
+                          "q":  "Why draw the chromatography baseline in pencil?"
+                      },
+                      {
+                          "a":  "Rf = distance moved by substance ÷ distance moved by solvent front.",
+                          "q":  "Rf formula?"
+                      },
+                      {
+                          "a":  "A chemical sprayed on a chromatogram to make colourless substances visible.",
+                          "q":  "What is a locating agent?"
+                      },
+                      {
+                          "a":  "In at the bottom, out at the top, so the jacket stays full.",
+                          "q":  "Which way does water flow through a condenser?"
+                      },
+                      {
+                          "a":  "Separating funnel — they are immiscible and form layers.",
+                          "q":  "How do you separate oil and water?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# Elements, compounds, mixtures\n\n- **Element:** one type of atom only (O₂, Fe, He). Cannot be broken down chemically.\n- **Compound:** two or more elements **chemically bonded** in a fixed ratio (H₂O, NaCl). Properties differ from its elements; needs a chemical reaction to separate.\n- **Mixture:** substances **not chemically bonded**, in any proportion (air, sea water, alloys). Can be separated by physical methods; each part keeps its own properties.\n\n\u003e **Pure substance** = one element or one compound only. A pure substance has a **sharp** melting/boiling point; impurities lower the m.p. and raise the b.p. and spread it over a range.\n\n# Separation techniques\n\n| Technique | Separates | Example |\n|---|---|---|\n| Filtration | Insoluble solid from liquid | Sand from water |\n| Evaporation / crystallisation | Soluble solid from solution | Salt from salt water; copper sulfate crystals |\n| Simple distillation | Solvent from a solution | Pure water from sea water |\n| Fractional distillation | Liquids with **different boiling points** | Ethanol from water; crude oil |\n| Paper chromatography | Dissolved substances (dyes, inks) | Colours in food dye |\n| Separating funnel | Immiscible liquids | Oil and water |\n| Magnet | Magnetic solid | Iron filings from sulfur |\n\n**Key words:** solvent (the liquid), solute (what dissolves), solution, residue (stays on the filter paper), filtrate (passes through), saturated solution (no more solute can dissolve).\n\n## Distillation details\n\n- Thermometer bulb sits at the **side arm** to measure the vapour temperature.\n- Condenser: cold water enters at the **bottom** and leaves at the top.\n- Fractional distillation uses a **fractionating column**; the liquid with the lowest b.p. comes off first.\n\n## Paper chromatography\n\n1. Draw the baseline in **pencil** (ink would dissolve and run).\n2. Put a spot of the mixture on the line; stand the paper in solvent **below** the line.\n3. Solvent rises; more soluble substances travel further.\n4. **Rf = distance moved by substance ÷ distance moved by solvent** (always \u003c 1, no units).\n5. A pure substance gives **one spot**. Colourless substances are shown with a **locating agent**.",
+        "order":  3,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "CO₂ is carbon and oxygen chemically bonded. Air and brass are mixtures; oxygen is an element.",
+                         "options":  [
+                                         "Air",
+                                         "Oxygen",
+                                         "Carbon dioxide",
+                                         "Brass"
+                                     ],
+                         "q":  "Which is a compound?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Salt is dissolved, so it passes through a filter. Evaporating the water leaves the salt.",
+                         "options":  [
+                                         "Filtration",
+                                         "Evaporation",
+                                         "Chromatography",
+                                         "Using a magnet"
+                                     ],
+                         "q":  "The best way to obtain salt from salt water is:"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "6 ÷ 8 = 0.75.",
+                         "options":  [
+                                         "0.75",
+                                         "1.33",
+                                         "2",
+                                         "0.6"
+                                     ],
+                         "q":  "In a chromatogram, the solvent moved 8 cm and a dye moved 6 cm. Rf = ?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "In chemistry \u0027pure\u0027 means a single substance, not \u0027natural\u0027 or \u0027clean\u0027.",
+                         "options":  [
+                                         "Has no colour",
+                                         "Contains only one element or compound",
+                                         "Is safe to drink",
+                                         "Boils over a wide range"
+                                     ],
+                         "q":  "A pure substance is one that:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "They are miscible liquids with different boiling points.",
+                         "options":  [
+                                         "Filtration",
+                                         "Crystallisation",
+                                         "Fractional distillation",
+                                         "Separating funnel"
+                                     ],
+                         "q":  "Which technique separates ethanol (b.p. 78 °C) from water (b.p. 100 °C)?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Residue is what stays behind; filtrate goes through.",
+                         "options":  [
+                                         "Residue",
+                                         "Solute",
+                                         "Filtrate",
+                                         "Solvent front"
+                                     ],
+                         "q":  "The liquid that passes through filter paper is called the:"
+                     }
+                 ],
+        "subject":  "chemistry",
+        "title":  "Elements, compounds, mixtures \u0026 separation",
+        "updated":  "Starter notes",
+        "id":  "chem-mixtures"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Regular lattice, closely packed, vibrating about fixed positions.",
+                          "q":  "Describe the arrangement and movement of particles in a solid."
+                      },
+                      {
+                          "a":  "Gas particles are far apart with empty space between them; liquid particles are already touching.",
+                          "q":  "Why can gases be compressed but liquids can\u0027t?"
+                      },
+                      {
+                          "a":  "Boiling: at the boiling point, throughout the liquid. Evaporation: from the surface only, at any temperature below the b.p.",
+                          "q":  "Difference between boiling and evaporation?"
+                      },
+                      {
+                          "a":  "Solid → gas directly, skipping the liquid state. Solid CO₂ (dry ice), iodine.",
+                          "q":  "What is sublimation? Give an example."
+                      },
+                      {
+                          "a":  "The energy supplied is used to overcome the forces between particles, not to increase their kinetic energy.",
+                          "q":  "Why is the temperature constant during melting?"
+                      },
+                      {
+                          "a":  "Net movement of particles from a region of higher concentration to lower concentration, due to random motion.",
+                          "q":  "Define diffusion."
+                      },
+                      {
+                          "a":  "Nearer the HCl end. NH₃ (Mr 17) is lighter than HCl (Mr 36.5), so it diffuses faster and travels further.",
+                          "q":  "In the NH₃ / HCl tube experiment, where does the white ring form and why?"
+                      },
+                      {
+                          "a":  "Pressure increases: particles move faster and collide with the walls more often and with more force.",
+                          "q":  "Effect of raising temperature on the pressure of a gas in a fixed container?"
+                      },
+                      {
+                          "a":  "It increases — particles have more kinetic energy and move faster.",
+                          "q":  "What happens to the rate of diffusion when temperature rises?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# The three states of matter\n\n| | Solid | Liquid | Gas |\n|---|---|---|---|\n| Arrangement | Regular, closely packed | Close together, random | Far apart, random |\n| Movement | Vibrate about fixed positions | Slide past each other | Move fast and freely in all directions |\n| Forces between particles | Strong | Weaker | Very weak / negligible |\n| Shape | Fixed | Takes shape of container | Fills the container |\n| Volume | Fixed | Fixed | Not fixed (compressible) |\n\n## Changes of state\n\n- **Melting** solid → liquid (at the *melting point*)\n- **Freezing** liquid → solid\n- **Boiling** liquid → gas (at the *boiling point*), throughout the liquid\n- **Evaporation** liquid → gas from the surface only, at any temperature\n- **Condensation** gas → liquid\n- **Sublimation** solid → gas directly (e.g. dry ice, iodine)\n\n\u003e During a change of state the **temperature stays constant** — the energy goes into breaking (or forming) the forces between particles, not into moving them faster. This gives the flat parts on a heating/cooling curve.\n\n## Kinetic particle theory\n\nAll matter is made of tiny particles that are constantly moving. Higher temperature → more kinetic energy → faster movement.\n\n**Effect of temperature and pressure on gases**\n\n- Heating a gas: particles move faster, hit the walls harder and more often → **pressure increases** (fixed volume) or **volume increases** (fixed pressure).\n- Compressing a gas: particles closer together → more collisions with the walls → **pressure increases**.\n\n## Diffusion\n\nThe net movement of particles from a region of **higher concentration** to a region of **lower concentration** because of their random motion. No energy input needed.\n\n- Evidence: bromine vapour spreads through a gas jar; potassium manganate(VII) colour spreads through water.\n- **Lighter molecules diffuse faster.** Classic experiment: ammonia (Mr 17) and hydrogen chloride (Mr 36.5) in a tube — the white ring of ammonium chloride forms **closer to the HCl end** because NH₃ travels faster.\n- Diffusion is faster at higher temperatures.",
+        "order":  1,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "Gas particles are far apart so the forces between them are negligible.",
+                         "options":  [
+                                         "Solid",
+                                         "Liquid",
+                                         "Gas",
+                                         "They are equal"
+                                     ],
+                         "q":  "In which state are the forces between particles weakest?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Temperature stays constant while a change of state happens.",
+                         "options":  [
+                                         "The substance heating up",
+                                         "A change of state",
+                                         "The substance cooling",
+                                         "Evaporation only"
+                                     ],
+                         "q":  "On a heating curve, the flat sections represent:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Lighter molecules move faster, so hydrogen diffuses fastest.",
+                         "options":  [
+                                         "Chlorine (Mr 71)",
+                                         "Oxygen (Mr 32)",
+                                         "Hydrogen (Mr 2)",
+                                         "Carbon dioxide (Mr 44)"
+                                     ],
+                         "q":  "Which gas diffuses fastest at the same temperature?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Sublimation skips the liquid state.",
+                         "options":  [
+                                         "Evaporation",
+                                         "Condensation",
+                                         "Sublimation",
+                                         "Melting"
+                                     ],
+                         "q":  "Solid carbon dioxide turning straight into a gas is called:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Particles are twice as concentrated so they collide with the walls twice as often.",
+                         "options":  [
+                                         "Halves",
+                                         "Stays the same",
+                                         "Doubles",
+                                         "Becomes zero"
+                                     ],
+                         "q":  "A gas is squeezed into half its volume at constant temperature. Its pressure:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Liquid particles touch but are not in a fixed arrangement, so they can flow.",
+                         "options":  [
+                                         "Particles are in fixed positions",
+                                         "Particles are far apart",
+                                         "Particles can slide past each other",
+                                         "Particles do not move"
+                                     ],
+                         "q":  "Which statement about liquids is correct?"
+                     }
+                 ],
+        "subject":  "chemistry",
+        "title":  "States of matter \u0026 kinetic particle theory",
+        "updated":  "Starter notes",
+        "id":  "chem-particles"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Hardware uses transistors/switches with two states: on (1) and off (0).",
+                          "q":  "Why do computers use binary?"
+                      },
+                      {
+                          "a":  "Byte = 8 bits, nibble = 4 bits.",
+                          "q":  "How many bits in a byte? in a nibble?"
+                      },
+                      {
+                          "a":  "128+32+16+2 = 178",
+                          "q":  "Convert 10110010 to denary."
+                      },
+                      {
+                          "a":  "01001101 (64+8+4+1)",
+                          "q":  "Convert 77 to 8-bit binary."
+                      },
+                      {
+                          "a":  "10 (write 0, carry 1)",
+                          "q":  "1 + 1 in binary?"
+                      },
+                      {
+                          "a":  "When a calculation produces a result too large for the number of bits available — the extra carry bit is lost.",
+                          "q":  "What is overflow?"
+                      },
+                      {
+                          "a":  "A=10, B=11, C=12, D=13, E=14, F=15",
+                          "q":  "Hex digits A to F are worth?"
+                      },
+                      {
+                          "a":  "1101 = D, 0111 = 7 → D7",
+                          "q":  "Convert binary 11010111 to hex."
+                      },
+                      {
+                          "a":  "5×16 + 12 = 92",
+                          "q":  "Convert hex 5C to denary."
+                      },
+                      {
+                          "a":  "Shorter and easier for humans to read and write than binary; less error-prone; each digit maps to exactly 4 bits.",
+                          "q":  "Why is hexadecimal used?"
+                      },
+                      {
+                          "a":  "Multiplies the number by 4 (2²).",
+                          "q":  "Effect of a logical left shift by 2?"
+                      },
+                      {
+                          "a":  "11111111",
+                          "q":  "Two\u0027s complement of −1 in 8 bits?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# Why binary?\n\nComputers use **binary** (base 2) because the hardware is made of switches/transistors that are either **on (1)** or **off (0)**. One binary digit is a **bit**; 8 bits = 1 **byte**; 4 bits = a **nibble**.\n\n# Binary ↔ denary\n\nPlace values for 8 bits:\n\n| 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |\n|---|---|---|---|---|---|---|---|\n\n- **Binary → denary:** add the place values under each 1. `10110010` = 128+32+16+2 = **178**.\n- **Denary → binary:** subtract the biggest place value you can, repeat. 205 → 128 (77 left) → 64 (13) → 8 (5) → 4 (1) → 1 → `11001101`.\n- Biggest 8-bit number = 255 (all ones). An n-bit register holds 2ⁿ values (0 to 2ⁿ − 1).\n\n# Binary addition\n\nRules: 0+0=0, 0+1=1, 1+1=**10** (write 0 carry 1), 1+1+1=**11** (write 1 carry 1).\n\n```\n  0 1 1 0 1 1 0 1   (109)\n+ 0 0 1 1 0 1 1 0   ( 54)\n-----------------\n  1 0 1 0 0 0 1 1   (163)\n```\n\n**Overflow:** if the answer needs more bits than the register has (e.g. 9 bits in an 8-bit register), the carry is lost → wrong result.\n\n# Hexadecimal (base 16)\n\nDigits **0–9, A–F** (A=10, B=11, C=12, D=13, E=14, F=15). Each hex digit = **one nibble (4 bits)**.\n\n- **Binary → hex:** split into groups of 4 from the right. `1011 0110` → B 6 → **B6**.\n- **Hex → binary:** each digit to 4 bits. 3F → 0011 1111.\n- **Hex → denary:** place values 16, 1. 2A = 2×16 + 10 = **42**.\n\n**Why programmers use hex:** shorter and easier to read/remember than long binary strings, fewer errors, easy to convert (1 digit = 4 bits). Used in: colour codes (#FF0000), MAC addresses, memory addresses, error messages, HTML.\n\n# Logical shifts\n\n- **Left shift** by 1 = multiply by 2. `00001100` (12) → `00011000` (24).\n- **Right shift** by 1 = divide by 2 (integer). `00001100` → `00000110` (6).\n- Bits shifted off the end are lost; zeros fill in.\n\n# Two\u0027s complement (negative numbers)\n\nThe leftmost bit is worth **−128**. To negate: flip all bits, add 1. −5 → 5 = 00000101 → flip 11111010 → +1 = **11111011**. Range for 8 bits: −128 to +127.",
+        "order":  1,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "64+16+8+2+1 = 91.",
+                         "options":  [
+                                         "89",
+                                         "91",
+                                         "93",
+                                         "75"
+                                     ],
+                         "q":  "What is 01011011 in denary?"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "128+16+4+2 = 150.",
+                         "options":  [
+                                         "10010110",
+                                         "10010101",
+                                         "10100110",
+                                         "10010011"
+                                     ],
+                         "q":  "What is 150 in 8-bit binary?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "10×16 + 3 = 163.",
+                         "options":  [
+                                         "103",
+                                         "163",
+                                         "133",
+                                         "173"
+                                     ],
+                         "q":  "Hex A3 in denary is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "1111 = F, 0000 = 0.",
+                         "options":  [
+                                         "FF",
+                                         "F0",
+                                         "0F",
+                                         "E0"
+                                     ],
+                         "q":  "Binary 11110000 in hex is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "2⁸ − 1 = 255.",
+                         "options":  [
+                                         "256",
+                                         "255",
+                                         "128",
+                                         "127"
+                                     ],
+                         "q":  "What is the largest denary value an 8-bit register can hold (unsigned)?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "A left shift multiplies by 2.",
+                         "options":  [
+                                         "00001010 (10)",
+                                         "00101000 (40)",
+                                         "00010101 (21)",
+                                         "00101001 (41)"
+                                     ],
+                         "q":  "Shifting 00010100 (20) left by 1 gives:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Inside the computer everything is still binary; hex is only a human-friendly way of writing it.",
+                         "options":  [
+                                         "HTML colour codes",
+                                         "MAC addresses",
+                                         "Storing data inside the CPU",
+                                         "Memory addresses in debuggers"
+                                     ],
+                         "q":  "Which is NOT a use of hexadecimal?"
+                     }
+                 ],
+        "subject":  "cs",
+        "title":  "Data representation: binary, denary, hexadecimal",
+        "updated":  "Starter notes",
+        "id":  "cs-binary"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Only when both inputs are 1.",
+                          "q":  "When does an AND gate output 1?"
+                      },
+                      {
+                          "a":  "When at least one input is 1.",
+                          "q":  "When does an OR gate output 1?"
+                      },
+                      {
+                          "a":  "When the inputs are different (exactly one is 1).",
+                          "q":  "When does an XOR gate output 1?"
+                      },
+                      {
+                          "a":  "0 — NAND is the opposite of AND.",
+                          "q":  "What does NAND output for inputs 1,1?"
+                      },
+                      {
+                          "a":  "1 — NOR is 1 only when both inputs are 0.",
+                          "q":  "What does NOR output for inputs 0,0?"
+                      },
+                      {
+                          "a":  "The output is inverted (NOT).",
+                          "q":  "What does a small circle on a gate\u0027s output mean?"
+                      },
+                      {
+                          "a":  "2³ = 8",
+                          "q":  "How many rows in a truth table with 3 inputs?"
+                      },
+                      {
+                          "a":  "X = (NOT A) OR B",
+                          "q":  "Write the logic expression: X is 1 if A is 0 OR B is 1."
+                      },
+                      {
+                          "a":  "NOR",
+                          "q":  "Which single gate is the opposite of OR?"
+                      },
+                      {
+                          "a":  "0",
+                          "q":  "What is 1 XOR 1?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# The six logic gates\n\n| Gate | Symbol shape | Output is 1 when… | Expression |\n|---|---|---|---|\n| NOT | Triangle with circle | input is 0 | X = NOT A |\n| AND | D-shape | **both** inputs are 1 | X = A AND B |\n| OR | Curved arrow shape | **at least one** input is 1 | X = A OR B |\n| NAND | AND + circle | NOT both 1 (opposite of AND) | X = NOT (A AND B) |\n| NOR | OR + circle | both inputs are 0 (opposite of OR) | X = NOT (A OR B) |\n| XOR | OR with extra curve | inputs are **different** | X = A XOR B |\n\n## Truth tables (two inputs)\n\n| A | B | AND | OR | NAND | NOR | XOR |\n|---|---|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 1 | 1 | 0 |\n| 0 | 1 | 0 | 1 | 1 | 0 | 1 |\n| 1 | 0 | 0 | 1 | 1 | 0 | 1 |\n| 1 | 1 | 1 | 1 | 0 | 0 | 0 |\n\n\u003e A small circle on the output means NOT. NAND = AND then NOT; NOR = OR then NOT.\n\n# Building circuits from a description\n\nExample: \"An alarm X sounds if the door sensor A is 1 AND (the window sensor B is 1 OR the motion sensor C is 1).\"\n\n1. Write the expression: **X = A AND (B OR C)**\n2. Draw: B and C go into an **OR** gate; its output and A go into an **AND** gate.\n3. Truth table: 3 inputs → 2³ = **8 rows**. Add a column for the intermediate result (B OR C), then the final output.\n\n| A | B | C | B OR C | X |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 |\n| 0 | 0 | 1 | 1 | 0 |\n| 0 | 1 | 0 | 1 | 0 |\n| 0 | 1 | 1 | 1 | 0 |\n| 1 | 0 | 0 | 0 | 0 |\n| 1 | 0 | 1 | 1 | 1 |\n| 1 | 1 | 0 | 1 | 1 |\n| 1 | 1 | 1 | 1 | 1 |\n\n**Exam tips**\n\n- Always list inputs in binary counting order (000, 001, 010, …) so you don\u0027t miss a row.\n- Work through the circuit gate by gate; add a column for every intermediate output.\n- Read \"NOT A AND B\" carefully — the NOT applies only to A unless brackets say otherwise.",
+        "order":  2,
+        "quiz":  [
+                     {
+                         "answer":  3,
+                         "explain":  "AND needs both inputs to be 1.",
+                         "options":  [
+                                         "OR",
+                                         "XOR",
+                                         "NAND",
+                                         "AND"
+                                     ],
+                         "q":  "For inputs A = 1, B = 0, which gate outputs 0?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "NOR = NOT (A OR B); A OR B is 0 only for 0,0.",
+                         "options":  [
+                                         "NAND",
+                                         "NOR",
+                                         "XOR",
+                                         "OR"
+                                     ],
+                         "q":  "Which gate gives output 1 only when both inputs are 0?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "NOT B = 0, and 1 AND 0 = 0.",
+                         "options":  [
+                                         "1",
+                                         "0",
+                                         "Undefined",
+                                         "Depends on C"
+                                     ],
+                         "q":  "X = A AND (NOT B). For A = 1, B = 1, X = ?"
+                     },
+                     {
+                         "answer":  3,
+                         "explain":  "2⁴ = 16 combinations.",
+                         "options":  [
+                                         "4",
+                                         "8",
+                                         "12",
+                                         "16"
+                                     ],
+                         "q":  "How many rows does a truth table with 4 inputs need?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "\u0027S or M\u0027 is bracketed together, and \u0027not during the day\u0027 means AND NOT D.",
+                         "options":  [
+                                         "X = (S OR M) AND D",
+                                         "X = (S OR M) AND (NOT D)",
+                                         "X = S AND M AND (NOT D)",
+                                         "X = S OR (M AND D)"
+                                     ],
+                         "q":  "\u0027The light turns on if the switch is on OR the sensor detects motion, but NOT during the day.\u0027 Which expression fits (S = switch, M = motion, D = day)?"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "XOR is 1 only when the inputs differ.",
+                         "options":  [
+                                         "0",
+                                         "1",
+                                         "Both",
+                                         "Neither"
+                                     ],
+                         "q":  "Output of XOR with inputs 0 and 0?"
+                     }
+                 ],
+        "subject":  "cs",
+        "title":  "Logic gates \u0026 truth tables",
+        "updated":  "Starter notes",
+        "id":  "cs-logic"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Paraphrase — replace the key words with synonyms; copying the text scores nothing.",
+                          "q":  "What does \u0027explain in your own words\u0027 mean you must do?"
+                      },
+                      {
+                          "a":  "Own words, continuous prose (not bullet points), stay within the word limit — no quotes, examples or opinions.",
+                          "q":  "Three rules for a summary answer?"
+                      },
+                      {
+                          "a":  "12–15 relevant points from the passage.",
+                          "q":  "How many content points should you aim for in a summary?"
+                      },
+                      {
+                          "a":  "Quote it → explain its meaning in context → explain the effect/image/feeling it creates.",
+                          "q":  "The three steps for each word in a writer\u0027s effects answer?"
+                      },
+                      {
+                          "a":  "Describing something as if it IS something else (a sea of faces) — no \u0027like\u0027 or \u0027as\u0027.",
+                          "q":  "What is a metaphor?"
+                      },
+                      {
+                          "a":  "Giving human qualities to something non-human (the wind howled).",
+                          "q":  "What is personification?"
+                      },
+                      {
+                          "a":  "The ideas and feelings a word suggests beyond its literal meaning (e.g. \u0027snake\u0027 → danger, deceit).",
+                          "q":  "What are connotations?"
+                      },
+                      {
+                          "a":  "So you know what to highlight as you read — saves time and keeps your points relevant.",
+                          "q":  "Why should you read the summary question before the passage?"
+                      },
+                      {
+                          "a":  "Simile compares using \u0027like\u0027 or \u0027as\u0027; metaphor says one thing IS another.",
+                          "q":  "Simile vs metaphor?"
+                      },
+                      {
+                          "a":  "Explaining the effect on the reader. Naming alone earns little.",
+                          "q":  "What earns marks in writer\u0027s effects — naming the technique or explaining the effect?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# Paper 1 Reading — what is tested\n\nCambridge IGCSE First Language English (0500) Paper 1 has three question types:\n\n1. **Comprehension** (short answers) — find and explain information; explain words/phrases **in your own words**.\n2. **Summary** — pick out the points on a given topic and rewrite them concisely in your own words.\n3. **Writer\u0027s effects** — explain how the writer\u0027s language creates effects.\n\n# Comprehension tips\n\n- Read the question, then **underline the key words**.\n- Answer **only what is asked**; use the line references given.\n- \"Explain in your own words\" → do **not** copy the text. Replace each key word with a synonym or paraphrase.\n- \"Using your own words, explain what the writer means by…\" — usually 2 marks: one for each idea in the phrase.\n\n# Summary (Question 1f / 2)\n\n1. Read the summary question **first** so you know what to look for.\n2. Highlight every relevant point in the passage (aim for 12–15).\n3. Write the points in your own words, in **continuous prose** (not a list), within the word limit (usually 120 words).\n4. **No** quotations, no examples, no opinions, no introduction or conclusion.\n5. Group related points and use connectives (also, furthermore, however) to keep it fluent.\n\n\u003e Marks are given for **content points** (up to 10) and for **own words + concise, well-organised writing** (up to 5).\n\n# Writer\u0027s effects (Question 2d / 1f)\n\nFor each paragraph you are given, choose **three** powerful words or phrases and for each:\n\n1. **Quote** the word/phrase.\n2. **Meaning** — explain the literal meaning in context.\n3. **Effect** — explain the picture, feeling or idea it creates in the reader\u0027s mind (connotations, imagery, senses).\n\nUseful sentence starters: *The word \"…\" suggests… / creates an image of… / makes the reader feel… / has connotations of…*\n\n**Language techniques to spot**\n\n| Technique | Example | Effect words |\n|---|---|---|\n| Simile | as cold as steel | compares, emphasises |\n| Metaphor | a sea of faces | vivid image, exaggerates scale |\n| Personification | the wind howled | makes it seem alive / threatening |\n| Alliteration | silent, slithering snake | draws attention, mimics sound |\n| Onomatopoeia | crash, hiss | lets the reader hear it |\n| Hyperbole | a million times | exaggeration for emphasis |\n| Sensory imagery | the stench of rot | appeals to the five senses |\n\n\u003e Don\u0027t just name the technique — explaining the **effect on the reader** is what earns the marks.",
+        "order":  1,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "Marks are for concise own-words prose with no quotes, examples or opinion.",
+                         "options":  [
+                                         "As bullet points with quotations",
+                                         "In continuous prose, in your own words",
+                                         "As a letter",
+                                         "With an introduction and conclusion"
+                                     ],
+                         "q":  "A summary should be written:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Groaning is a human/animal action given to a house.",
+                         "options":  [
+                                         "Simile",
+                                         "Onomatopoeia",
+                                         "Personification",
+                                         "Hyperbole"
+                                     ],
+                         "q":  "\u0027The old house groaned in the storm\u0027 uses:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Meaning + effect on the reader is what scores; naming the technique alone does not.",
+                         "options":  [
+                                         "It uses the word bled",
+                                         "It is a metaphor",
+                                         "\u0027Bled\u0027 suggests a wound, making the sunset feel violent and unsettling",
+                                         "The sky was orange"
+                                     ],
+                         "q":  "In a writer\u0027s effects answer, the best explanation of \u0027the sky bled orange\u0027 is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Both ideas (reluctant → didn\u0027t want; warmth → cosy/comfortable place) are paraphrased.",
+                         "options":  [
+                                         "The writer means reluctant to leave the warmth",
+                                         "He did not want to go away from the cosy, comfortable place",
+                                         "He was reluctant",
+                                         "The warmth was nice"
+                                     ],
+                         "q":  "The question asks: \u0027Using your own words, explain what the writer means by \"reluctant to leave the warmth\".\u0027 Best answer:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Repeated \u0027s\u0027 sounds plus words that imitate sounds.",
+                         "options":  [
+                                         "Metaphor",
+                                         "Alliteration and onomatopoeia",
+                                         "Simile",
+                                         "Rhetorical question"
+                                     ],
+                         "q":  "\u0027Sizzling, snapping, spitting\u0027 is mainly an example of:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Summaries report the passage\u0027s content only.",
+                         "options":  [
+                                         "Connectives",
+                                         "Points from the passage",
+                                         "Your own opinion",
+                                         "Paraphrased ideas"
+                                     ],
+                         "q":  "Which should NOT appear in a summary?"
+                     }
+                 ],
+        "subject":  "english",
+        "title":  "Reading skills: comprehension, summary, writer\u0027s effects",
+        "updated":  "Starter notes",
+        "id":  "eng-reading"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Form, Audience, Purpose — decide all three before you start writing.",
+                          "q":  "What does FAP stand for?"
+                      },
+                      {
+                          "a":  "Addresses/date, Dear Sir/Madam or Dear Mr X, clear paragraphs, Yours faithfully (unknown name) / Yours sincerely (known name).",
+                          "q":  "Conventions of a formal letter?"
+                      },
+                      {
+                          "a":  "Alliteration, Facts, Opinions, Rhetorical questions, Emotive language, Statistics, Triples.",
+                          "q":  "What does AFOREST stand for?"
+                      },
+                      {
+                          "a":  "Instead of \u0027He was angry\u0027: \u0027He slammed the door so hard the frame rattled.\u0027",
+                          "q":  "\u0027Show, don\u0027t tell\u0027 — give an example."
+                      },
+                      {
+                          "a":  "Opening → build-up → climax → resolution.",
+                          "q":  "Basic structure of a narrative?"
+                      },
+                      {
+                          "a":  "Through space (far to near / a walk through the scene) or through time (morning to night).",
+                          "q":  "Two ways to structure a descriptive piece?"
+                      },
+                      {
+                          "a":  "Starting a story in the middle of the action to hook the reader.",
+                          "q":  "What is in medias res?"
+                      },
+                      {
+                          "a":  "New time, place, person/speaker, or idea (TiPToP).",
+                          "q":  "When do you start a new paragraph?"
+                      },
+                      {
+                          "a":  "Faithfully when you don\u0027t know the name (Dear Sir/Madam); sincerely when you do (Dear Mrs Smith).",
+                          "q":  "Difference between Yours faithfully and Yours sincerely?"
+                      },
+                      {
+                          "a":  "Both — and evaluate/develop their ideas rather than copying.",
+                          "q":  "In directed writing, how many of the source texts should you use?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# Directed writing (Paper 2, Q1)\n\nYou read one or two texts and write in a given **form** (letter, article, speech, report…) for a given **audience** and **purpose**, using ideas from the texts and adding your own.\n\n**Before writing, identify FAP:**\n\n- **F**orm — what layout and conventions? (letter: address/greeting/sign-off; article: headline, subheadings; speech: address the audience directly)\n- **A**udience — who is reading? (head teacher → formal; friends → informal)\n- **P**urpose — to persuade, argue, inform, explain, describe?\n\n**Marks:** Reading (evaluating and using the texts\u0027 ideas, 15) + Writing (style, structure, accuracy, 25). Use **both** texts, develop the ideas, and give your own evaluation — don\u0027t just copy them.\n\n# Composition (Paper 2, Q2/Q3)\n\nChoose **descriptive** or **narrative**. 350–450 words.\n\n## Descriptive writing\n\n- Paint a picture with all **five senses**; zoom in on details.\n- Use a **structure**: e.g. move through the scene (far → near), or through time (dawn → midday → night).\n- Vary sentence length: short sentences for impact. Long, flowing sentences for calm.\n- Use figurative language (simile, metaphor, personification) but don\u0027t overload it.\n- Avoid telling a story — very little should *happen*.\n\n## Narrative writing\n\n- Plan: **opening → build-up → climax → resolution**. Keep it to one or two characters and a short time span.\n- Start in the middle of the action (*in medias res*) or with dialogue to hook the reader.\n- Show, don\u0027t tell: *Her hands shook as she reached for the door* rather than *She was scared*.\n- Use a twist or a reflective ending, not \"and then I woke up\".\n\n# Persuasive \u0026 argumentative techniques (AFOREST)\n\n| | Technique | Example |\n|---|---|---|\n| A | Alliteration | Brilliant, bold and brave |\n| F | Facts | 70% of students… |\n| O | Opinions | I firmly believe… |\n| R | Rhetorical questions | Do we really want…? |\n| E | Emotive language | heartbreaking, devastating |\n| S | Statistics | Three in four… |\n| T | Triples (rule of three) | Faster, cheaper, cleaner |\n\n# Accuracy checklist (the easy marks)\n\n- Paragraphs: new paragraph for a new time, place, person or idea.\n- Commas do not join sentences — use a full stop or a connective.\n- Their/there/they\u0027re, its/it\u0027s, affect/effect.\n- Keep the same tense throughout a narrative.\n- Leave 5 minutes to proofread.",
+        "order":  2,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "Audience = who the text is addressed to; that decides tone and register.",
+                         "options":  [
+                                         "The examiner",
+                                         "Year 9 students",
+                                         "Teachers",
+                                         "Parents"
+                                     ],
+                         "q":  "Writing a speech to persuade Year 9 students to recycle: the audience is…"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "A question asked for effect, not for an answer.",
+                         "options":  [
+                                         "Statistic",
+                                         "Rhetorical question",
+                                         "Triple",
+                                         "Simile"
+                                     ],
+                         "q":  "\u0027Do we really want to leave this mess for our children?\u0027 is a:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "It shows the feeling through actions and details.",
+                         "options":  [
+                                         "She was very nervous.",
+                                         "She felt nervous about the exam.",
+                                         "Her pen tapped the desk in a frantic rhythm as the clock ticked.",
+                                         "Nervousness filled her."
+                                     ],
+                         "q":  "Which is the best \u0027show, don\u0027t tell\u0027 sentence?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "A crafted ending shows control of structure; the dream ending is a cliché examiners dislike.",
+                         "options":  [
+                                         "\u0027…and then I woke up — it was all a dream.\u0027",
+                                         "A twist or reflective moment that links back to the opening",
+                                         "A list of what happened next",
+                                         "No ending, to keep it mysterious"
+                                     ],
+                         "q":  "The best ending for a narrative is usually:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Two complete sentences joined only by a comma. Use a full stop, semicolon or \u0027but\u0027.",
+                         "options":  [
+                                         "Wrong tense",
+                                         "Comma splice",
+                                         "Spelling",
+                                         "Missing capital letter"
+                                     ],
+                         "q":  "\u0027I went to the shop, it was closed.\u0027 The error is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Description paints a picture; the plot is minimal.",
+                         "options":  [
+                                         "Tell a fast-paced story",
+                                         "Focus on senses and details with little action",
+                                         "Use bullet points",
+                                         "Write only in short sentences"
+                                     ],
+                         "q":  "In descriptive writing you should:"
+                     }
+                 ],
+        "subject":  "english",
+        "title":  "Writing: directed writing \u0026 composition",
+        "updated":  "Starter notes",
+        "id":  "eng-writing"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "ათი: ექვსი სრულმნიშვნელოვანი (არსებითი, ზედსართავი, რიცხვითი, ნაცვალსახელი, ზმნა, ზმნიზედა) და ოთხი არასრულმნიშვნელოვანი (თანდებული, კავშირი, ნაწილაკი, შორისდებული).",
+                          "q":  "რამდენი მეტყველების ნაწილია ქართულში და როგორ იყოფა?"
+                      },
+                      {
+                          "a":  "როგორი? რომელი? (მაღალი, ხის, წითელი)",
+                          "q":  "რა კითხვაზე პასუხობს ზედსართავი სახელი?"
+                      },
+                      {
+                          "a":  "როგორ? სად? როდის? რატომ? (სწრაფად, აქ, გუშინ, ამიტომ) — არ იბრუნება.",
+                          "q":  "რა კითხვაზე პასუხობს ზმნიზედა?"
+                      },
+                      {
+                          "a":  "სახელობითი, მოთხრობითი, მიცემითი, ნათესაობითი, მოქმედებითი, ვითარებითი, წოდებითი.",
+                          "q":  "ჩამოთვალე ბრუნვები."
+                      },
+                      {
+                          "a":  "-მა / -მ; ვინ? რამ? (კაცმა, დედამ)",
+                          "q":  "მოთხრობითი ბრუნვის ნიშანი და კითხვა?"
+                      },
+                      {
+                          "a":  "-ის / -ს; ვისი? რისი? (კაცის, დედის)",
+                          "q":  "ნათესაობითი ბრუნვის ნიშანი და კითხვა?"
+                      },
+                      {
+                          "a":  "შორისდებული.",
+                          "q":  "„ვაი“, „აბა“, „ოჰ“ — რომელი მეტყველების ნაწილია?"
+                      },
+                      {
+                          "a":  "ნაწილაკი (უარყოფითი ნაწილაკები).",
+                          "q":  "„არ“, „ვერ“, „ნუ“ — რომელი მეტყველების ნაწილია?"
+                      },
+                      {
+                          "a":  "თანდებულები.",
+                          "q":  "„-ში“, „-ზე“, „-თან“, „-თვის“ — რა არის?"
+                      },
+                      {
+                          "a":  "ხმოვანფუძიანი სახელი ნათესაობითსა და მოქმედებითში კარგავს ბოლო ხმოვანს: დედა → დედის, დედით.",
+                          "q":  "რა არის კვეცა? მაგალითი."
+                      },
+                      {
+                          "a":  "ფუძე ბოლო მარცვლის ხმოვანს კარგავს: ქვეყანა → ქვეყნის, წყალი → წყლის.",
+                          "q":  "რა არის კუმშვა? მაგალითი."
+                      },
+                      {
+                          "a":  "გარდამავალს აქვს პირდაპირი ობიექტი (წერს წერილს); გარდაუვალს — არა (მიდის, დგას).",
+                          "q":  "გარდამავალი და გარდაუვალი ზმნა?"
+                      }
+                  ],
+        "exam":  "Exam 1 · ოქტომბერი",
+        "lang":  "ka",
+        "notes":  "# მეტყველების ნაწილები\n\nსიტყვები მნიშვნელობისა და გრამატიკული ნიშნების მიხედვით ჯგუფდება **მეტყველების ნაწილებად**. ქართულში **ათი** მეტყველების ნაწილია: ექვსი **სრულმნიშვნელოვანი** (დამოუკიდებელი) და ოთხი **არასრულმნიშვნელოვანი** (დამხმარე).\n\n## სრულმნიშვნელოვანი\n\n| მეტყველების ნაწილი | კითხვა | მაგალითი |\n|---|---|---|\n| **არსებითი სახელი** | ვინ? რა? | კაცი, მთა, სიყვარული |\n| **ზედსართავი სახელი** | როგორი? რომელი? | მაღალი, ლამაზი, ხის |\n| **რიცხვითი სახელი** | რამდენი? მერამდენე? | სამი, მეხუთე, ორჯერ |\n| **ნაცვალსახელი** | (სახელის ნაცვლად) | მე, შენ, ის, ეს, ვინმე, თავისი |\n| **ზმნა** | რას შვრება? რა ხდება? | წერს, მიდის, იზრდება |\n| **ზმნიზედა** | როგორ? სად? როდის? რატომ? | სწრაფად, აქ, გუშინ, ამიტომ |\n\n## არასრულმნიშვნელოვანი\n\n| მეტყველების ნაწილი | ფუნქცია | მაგალითი |\n|---|---|---|\n| **თანდებული** | სახელს დაერთვის, აჩვენებს მიმართებას | -ში, -ზე, -თან, -კენ, -დან, -თვის, გამო, შესახებ |\n| **კავშირი** | აკავშირებს სიტყვებს/წინადადებებს | და, მაგრამ, რომ, თუ, ან, რადგან |\n| **ნაწილაკი** | ემოციურ/მოდალურ ელფერს ანიჭებს | არ, ვერ, ნუ, კი, -ღა, თურმე, ნეტავ |\n| **შორისდებული** | გამოხატავს ემოციას, არ იცვლება | ვაი, ოჰ, აბა, ჰოი, ვაშა |\n\n\u003e **გასარჩევი:** არსებითი სახელი ბრუნება იცის; ზმნა — უღლება (პირი, რიცხვი, დრო); ზმნიზედა არ იბრუნება და ზმნას ახასიათებს.\n\n# არსებითი სახელი — ბრუნვები\n\n| ბრუნვა | კითხვა | ნიშანი | მაგალითი (კაცი) |\n|---|---|---|---|\n| სახელობითი | ვინ? რა? | -ი / -Ø | კაც-ი |\n| მოთხრობითი | ვინ? რამ? | -მა / -მ | კაც-მა |\n| მიცემითი | ვის? რას? | -ს | კაც-ს |\n| ნათესაობითი | ვისი? რისი? | -ის / -ს | კაც-ის |\n| მოქმედებითი | ვისით? რით? | -ით / -თი | კაც-ით |\n| ვითარებითი | ვინად? რად? | -ად / -დ | კაც-ად |\n| წოდებითი | — (მიმართვა) | -ო / -ვ | კაც-ო |\n\n**ფუძის სახეები:** თანხმოვანფუძიანი (კაც-ი, მთ-ა? არა — მთა ხმოვანფუძიანია) და ხმოვანფუძიანი (მთა, დედა, სოკო). ხმოვანფუძიანებში სახელობითი ნიშანი არ ჩანს: მთა, მთა-მ, მთა-ს, მთ-ის.\n\n**კუმშვა და კვეცა:** კუმშვადი ფუძეები ნათესაობითსა და მოქმედებითში კარგავენ ხმოვანს (ქვეყანა → ქვეყნ-ის); კვეცადი ფუძეები კარგავენ ბოლო ხმოვანს (დედა → დედ-ის, სოკო → სოკო-ს არ იკვეცება).\n\n# ზმნა — ძირითადი ნიშნები\n\n- **პირი:** I (მე ვწერ), II (შენ წერ), III (ის წერს)\n- **რიცხვი:** მხოლობითი / მრავლობითი\n- **დრო:** აწმყო (წერს), წარსული (წერდა, დაწერა), მომავალი (დაწერს)\n- **პირიანობა:** ერთპირიანი (ვდგავარ), ორპირიანი (ვწერ წერილს), სამპირიანი (ვწერ წერილს ძმას)\n- **გარდამავალი** ზმნას აქვს პირდაპირი ობიექტი (რას? — წერს წერილ-ს), **გარდაუვალს** — არა (მიდის, იზრდება).",
+        "order":  1,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "პასუხობს კითხვას „როგორ?“ და ზმნას ახასიათებს.",
+                         "options":  [
+                                         "ზედსართავი სახელი",
+                                         "ზმნიზედა",
+                                         "ზმნა",
+                                         "ნაწილაკი"
+                                     ],
+                         "q":  "„ბავშვი სწრაფად გარბოდა.“ — „სწრაფად“ არის:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "ნიშანი -მა, კითხვა „ვინ?/რამ?“ (მოთხრობითი).",
+                         "options":  [
+                                         "სახელობითი",
+                                         "მიცემითი",
+                                         "მოთხრობითი",
+                                         "მოქმედებითი"
+                                     ],
+                         "q":  "„კაცმა“ რომელ ბრუნვაშია?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "„მაგრამ“ კავშირია, „ნუ“ ნაწილაკი, „-კენ“ თანდებული.",
+                         "options":  [
+                                         "მაგრამ",
+                                         "ვაი",
+                                         "ნუ",
+                                         "-კენ"
+                                     ],
+                         "q":  "რომელი სიტყვაა შორისდებული?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "ბოლო ხმოვანი „ა“ დაიკარგა ნათესაობითში (დედა → დედ-ის).",
+                         "options":  [
+                                         "კუმშვა",
+                                         "კვეცა",
+                                         "არაფერი",
+                                         "გაორმაგება"
+                                     ],
+                         "q":  "„დედის“ — რა მოხდა ფუძეში?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "მხოლოდ „წერს“-ს აქვს პირდაპირი ობიექტი — რას? წერილს.",
+                         "options":  [
+                                         "მიდის",
+                                         "იზრდება",
+                                         "წერს (წერილს)",
+                                         "დგას"
+                                     ],
+                         "q":  "რომელი ზმნაა გარდამავალი?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "სახელის ნაცვლად იხმარება.",
+                         "options":  [
+                                         "არსებითი სახელი",
+                                         "ნაცვალსახელი",
+                                         "რიცხვითი სახელი",
+                                         "კავშირი"
+                                     ],
+                         "q":  "„მე, შენ, ის, ვინმე“ — რომელი მეტყველების ნაწილია?"
+                     }
+                 ],
+        "subject":  "georgian",
+        "title":  "მეტყველების ნაწილები",
+        "updated":  "საწყისი ჩანაწერები",
+        "id":  "geo-parts-of-speech"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "ბავშვმა (-მა თანხმოვანფუძიანთან).",
+                          "q":  "„ბავშვ-“ მოთხრობითში?"
+                      },
+                      {
+                          "a":  "დედამ (-მ ხმოვანფუძიანთან).",
+                          "q":  "„დედა“ მოთხრობითში?"
+                      },
+                      {
+                          "a":  "კარგად — ვითარებითი ბრუნვის ნიშანია -ად/-დ, არასდროს -ათ.",
+                          "q":  "სწორია „კარგად“ თუ „კარგათ“?"
+                      },
+                      {
+                          "a":  "ალბათ.",
+                          "q":  "სწორია „ალბათ“ თუ „ალბად“?"
+                      },
+                      {
+                          "a":  "აქედან (და „იქიდან“).",
+                          "q":  "სწორია „აქედან“ თუ „აქიდან“?"
+                      },
+                      {
+                          "a":  "კავშირ „რომ“-ის წინ ყოველთვის იწერება მძიმე.",
+                          "q":  "„ვიცი, რომ მოხვალ“ — რატომ არის მძიმე?"
+                      },
+                      {
+                          "a":  "უყვართ — მრავლობითი სუბიექტი ინვერსიულ ზმნაში -თ ნიშნით.",
+                          "q":  "„მათ უყვარ__ ცეკვა“ — შეავსე."
+                      },
+                      {
+                          "a":  "პირველ პირს: მე ვწერ, მე ვხედავ.",
+                          "q":  "რომელ პირს ერთვის „ვ-“ პრეფიქსი?"
+                      },
+                      {
+                          "a":  "არა — ერთგვარი წევრები „და“-თი მძიმის გარეშე უკავშირდება.",
+                          "q":  "„წიგნი და რვეული“ — მძიმე „და“-ს წინ?"
+                      },
+                      {
+                          "a":  "ბავშვებს — მიცემითი (ვის?); ბავშვების — ნათესაობითი (ვისი?).",
+                          "q":  "„ბავშვებს“ და „ბავშვების“ — რა განსხვავებაა?"
+                      }
+                  ],
+        "exam":  "Exam 1 · ოქტომბერი",
+        "lang":  "ka",
+        "notes":  "# მართლწერის ძირითადი წესები\n\n## 1. მოთხრობითი ბრუნვა — „-მა“ თუ „-მ“?\n\n- თანხმოვანფუძიანი: **-მა** → კაც-მა, ბავშვ-მა\n- ხმოვანფუძიანი: **-მ** → დედა-მ, გოგო-მ\n\n## 2. „-ს“ სუფიქსი მიცემითში — მრავლობითში ორმაგდება\n\n- ბავშვ-ს (მხ.) → ბავშვებ-ს (მრ.); **არა** „ბავშვების“ მიცემითის ნაცვლად.\n- „ბავშვების“ ნათესაობითია: ბავშვების წიგნი. „ბავშვებს“ მიცემითი: ვეუბნები ბავშვებს.\n\n## 3. ხშირად არასწორად ნაწერი სიტყვები\n\n| ✅ სწორია | ❌ არასწორია |\n|---|---|\n| ალბათ | ალბად |\n| სავარაუდოდ | სავარაუდოთ |\n| ერთხელ | ერთხელს |\n| აქედან | აქიდან |\n| იქიდან | იქედან |\n| ამიტომ | ამიტომაც (ორივე სწორია, სხვადასხვა ელფერით) |\n| მაინც | მაინძ |\n| ე.ი. | ე.ი |\n| ვგრძნობ | ვგძნობ |\n| ვხედავ | ვხდავ |\n\n## 4. „თ“ თუ „დ“ ბოლოში (ვითარებითი ბრუნვა და ზმნიზედები)\n\n- ვითარებითის ნიშანია **-ად / -დ**: კარგ-ად, სწრაფ-ად, მასწავლებლ-ად, სავარაუდო-დ. ==არასდროს „-ათ“==.\n- ნუ აგერევა მრავლობითის „-თ“-ში: „ბავშვები მოვიდ-ნენ“, მაგრამ „მათ უყვარ-თ“ — ეს ზმნის ნიშანია, არა ვითარებითის.\n\n## 5. „ვ“ ზმნის დასაწყისში — პირველი პირი\n\n- I პირში ზმნას **ვ-** ერთვის: ვ-წერ, ვ-კითხულობ, ვ-ხედავ.\n- II და III პირში — არა: შენ წერ, ის წერს.\n- გავრცელებული შეცდომა: „მე ვიცი“ ✅ / „მე იცი“ ❌; „მე მინდა“ ✅ (აქ ვ- არ არის, რადგან ზმნა ინვერსიულია).\n\n## 6. ინვერსიული ზმნები („მინდა“, „მიყვარს“, „მაქვს“)\n\nსუბიექტი მიცემითშია: **მე** მიყვარს, **მას** უყვარს, **მათ** უყვართ. მრავლობითის ნიშანი **-თ** ბოლოში: მათ უყვარ-**თ**, ჩვენ გვინდა, თქვენ გინდა-**თ**.\n\n## 7. კავშირი „რომ“ და მძიმე\n\n- „რომ“-ის წინ **ყოველთვის** მძიმეა: ვიცი**,** რომ მოხვალ.\n- „მაგრამ“, „ხოლო“, „თუმცა“-ს წინ მძიმე: წავიდა**,** მაგრამ დაბრუნდა.\n- „და“-ს წინ მძიმე **არ** არის, თუ ერთგვარ წევრებს აკავშირებს: წიგნი და რვეული.\n\n## 8. მიმართვა — წოდებითი\n\nმიმართვა მძიმეებით გამოიყოფა: გამარჯობა**,** ნინო**,** როგორ ხარ? / ბიჭებო**,** მოდით.\n\n\u003e **სწრაფი შემოწმება:** დაწერილი ტექსტი წაიკითხე ხმამაღლა — ბრუნვისა და პირის შეცდომები ყურით უკეთ ისმის.",
+        "order":  2,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "ვითარებითის ნიშანია -ად.",
+                         "options":  [
+                                         "სწრაფათ",
+                                         "სწრაფად",
+                                         "სწრაფათა",
+                                         "სწრაფადა"
+                                     ],
+                         "q":  "რომელი ფორმაა სწორი?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "მძიმე მხოლოდ „რომ“-ის წინ.",
+                         "options":  [
+                                         "ვიცი რომ მოხვალ.",
+                                         "ვიცი, რომ მოხვალ.",
+                                         "ვიცი, რომ, მოხვალ.",
+                                         "ვიცი რომ, მოხვალ."
+                                     ],
+                         "q":  "რომელი წინადადებაა სწორად დაწერილი?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "ხმოვანფუძიანი სახელი -მ-ს იღებს.",
+                         "options":  [
+                                         "გოგომა",
+                                         "გოგოს",
+                                         "გოგომ",
+                                         "გოგოთი"
+                                     ],
+                         "q":  "„გოგო“ მოთხრობით ბრუნვაში:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "-დ, არა -თ.",
+                         "options":  [
+                                         "სავარაუდოთ",
+                                         "სავარაუდოდ",
+                                         "სავარაუდოთა",
+                                         "სავარაუდოდა"
+                                     ],
+                         "q":  "რომელია სწორი მართლწერა?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "მრავლობითი სუბიექტი (თქვენ) ინვერსიულ ზმნაში -თ ნიშანს იღებს.",
+                         "options":  [
+                                         "გინდა",
+                                         "გინდათ",
+                                         "გინდას",
+                                         "გინდან"
+                                     ],
+                         "q":  "„თქვენ გინდა__ წასვლა?“"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "მიმართვა ორივე მხრიდან მძიმეებით გამოიყოფა.",
+                         "options":  [
+                                         "გამარჯობა ნინო როგორ ხარ?",
+                                         "გამარჯობა, ნინო, როგორ ხარ?",
+                                         "გამარჯობა ნინო, როგორ ხარ?",
+                                         "გამარჯობა, ნინო როგორ ხარ?"
+                                     ],
+                         "q":  "რომელ წინადადებაშია მიმართვა სწორად გამოყოფილი?"
+                     }
+                 ],
+        "subject":  "georgian",
+        "title":  "მართლწერა: ხშირი შეცდომები",
+        "updated":  "საწყისი ჩანაწერები",
+        "id":  "geo-spelling"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Personal, national/local, global.",
+                          "q":  "The three perspectives in GP?"
+                      },
+                      {
+                          "a":  "A viewpoint shaped by a person\u0027s culture, values, position or interests.",
+                          "q":  "Define \u0027perspective\u0027."
+                      },
+                      {
+                          "a":  "Cause = why something happens; consequence = what results from it (short/long term, positive/negative).",
+                          "q":  "Cause vs consequence?"
+                      },
+                      {
+                          "a":  "A claim supported by reasons and evidence.",
+                          "q":  "What makes an argument?"
+                      },
+                      {
+                          "a":  "Any person or group affected by an issue or with power over it.",
+                          "q":  "What is a stakeholder?"
+                      },
+                      {
+                          "a":  "Point, Evidence, Explain, Link.",
+                          "q":  "What does PEEL stand for?"
+                      },
+                      {
+                          "a":  "Identify, research, analyse, evaluate, reflect, communicate.",
+                          "q":  "Six stages of the critical thinking cycle?"
+                      },
+                      {
+                          "a":  "Judge its strengths and weaknesses — how effective, practical, affordable and fair it is.",
+                          "q":  "What does \u0027evaluate a course of action\u0027 mean?"
+                      },
+                      {
+                          "a":  "Explaining why — showing analysis and reasoning.",
+                          "q":  "What do examiners reward more: describing or explaining?"
+                      },
+                      {
+                          "a":  "Say how and why your own view has developed or changed after looking at evidence and other perspectives.",
+                          "q":  "What does \u0027reflect\u0027 mean in GP?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# What Global Perspectives is about\n\nCambridge IGCSE Global Perspectives (0457) is a **skills** course, not a facts course. You are assessed on how you **research, analyse, evaluate, reflect, collaborate and communicate** around global issues (e.g. climate change, migration, digital world, human rights, poverty).\n\n# The three perspectives\n\nEvery issue can be looked at from three levels:\n\n| Perspective | Question to ask | Example: plastic waste |\n|---|---|---|\n| **Personal** | How does it affect me and what do I think? | I use plastic bottles daily |\n| **National / local** | How does it affect my country/community? What is the government doing? | Georgia\u0027s recycling laws |\n| **Global** | How does it affect the world? What do international bodies say? | Ocean pollution, UN plastic treaty |\n\n# Key vocabulary\n\n- **Issue** — a problem or topic that people disagree about.\n- **Perspective** — a viewpoint shaped by someone\u0027s culture, values, position or interests.\n- **Cause** — why something happens. **Consequence** — the effect/result. Consequences can be short- or long-term, positive or negative, and affect different groups differently.\n- **Evidence** — facts, statistics, examples, expert opinions used to support a claim.\n- **Argument** — a claim + reasons + evidence.\n- **Course of action** — a possible solution; evaluate how effective, practical and fair it is.\n- **Stakeholder** — anyone affected by the issue or with power over it.\n\n# The critical thinking cycle\n\n1. **Identify** the issue and the different perspectives.\n2. **Research** — gather evidence from a range of sources.\n3. **Analyse** — causes, consequences, who is affected, how perspectives differ.\n4. **Evaluate** — how strong is the evidence? how reliable is the source? what are the strengths and weaknesses of each course of action?\n5. **Reflect** — has my own view changed and why?\n6. **Communicate** — present clearly with structure and evidence.\n\n# Structuring an answer\n\n- **PEEL** paragraphs: **P**oint → **E**vidence → **E**xplain → **L**ink back to the question.\n- Always show **at least two perspectives** and say which you find more convincing and **why**.\n- Use connectives that show analysis: *this leads to…, as a result…, however…, on the other hand…, this suggests…*\n\n\u003e Examiners reward **explaining why** far more than describing what. Every fact should be followed by \"this matters because…\".",
+        "order":  1,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "It is about one country\u0027s action.",
+                         "options":  [
+                                         "Personal",
+                                         "National",
+                                         "Global",
+                                         "None"
+                                     ],
+                         "q":  "\u0027The Georgian government banned thin plastic bags in 2019\u0027 is an example of which perspective?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Consequences are effects; causes are reasons.",
+                         "options":  [
+                                         "The reason something happens",
+                                         "The result of something",
+                                         "A person\u0027s opinion",
+                                         "A research method"
+                                     ],
+                         "q":  "A consequence is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Expert, recent, data-based sources are more reliable.",
+                         "options":  [
+                                         "\u0027Everyone knows it\u0027",
+                                         "A friend\u0027s opinion",
+                                         "A recent study by a university with data",
+                                         "A meme"
+                                     ],
+                         "q":  "Which is the strongest evidence for a claim?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Every paragraph should end by connecting to the question.",
+                         "options":  [
+                                         "List more facts",
+                                         "Link back to the question",
+                                         "Leave a gap",
+                                         "Lead with an opinion"
+                                     ],
+                         "q":  "In PEEL, the \u0027L\u0027 means:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Analysis, evaluation and justified judgement score highest.",
+                         "options":  [
+                                         "Gives only your own opinion",
+                                         "Describes many facts",
+                                         "Compares perspectives and explains which is more convincing and why",
+                                         "Avoids taking a view"
+                                     ],
+                         "q":  "The best answer to a GP question:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Reflection shows learning from the evidence and other perspectives.",
+                         "options":  [
+                                         "Repeating your point",
+                                         "Explaining how your view changed and why",
+                                         "Summarising the sources",
+                                         "Describing a mirror"
+                                     ],
+                         "q":  "\u0027Reflection\u0027 in GP means:"
+                     }
+                 ],
+        "subject":  "gp",
+        "title":  "Key concepts \u0026 the Global Perspectives skills",
+        "updated":  "Starter notes",
+        "id":  "gp-concepts"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Primary = first-hand (interview, survey, eyewitness). Secondary = someone else\u0027s account (article, textbook).",
+                          "q":  "Primary vs secondary source?"
+                      },
+                      {
+                          "a":  "Currency, Relevance, Authority, Accuracy, Purpose.",
+                          "q":  "What does CRAAP stand for?"
+                      },
+                      {
+                          "a":  "A one-sided view that presents only evidence supporting one side.",
+                          "q":  "Define bias."
+                      },
+                      {
+                          "a":  "When the author gains something (money, power, reputation) if you believe their claim.",
+                          "q":  "Define vested interest."
+                      },
+                      {
+                          "a":  "Fact: can be checked/proved. Opinion: a belief. Prediction: a claim about the future, uncertain.",
+                          "q":  "Fact vs opinion vs prediction?"
+                      },
+                      {
+                          "a":  "So the results reflect the whole population, not just one group — makes conclusions more valid.",
+                          "q":  "Why is a large, representative sample important?"
+                      },
+                      {
+                          "a":  "Strength: lots of data fast, easy to compare. Weakness: shallow, people may lie, sample may be unrepresentative.",
+                          "q":  "Strength and weakness of questionnaires?"
+                      },
+                      {
+                          "a":  "No author/organisation, no date, no references/evidence, emotive one-sided language, trying to sell something.",
+                          "q":  "Give three warning signs of an unreliable website."
+                      },
+                      {
+                          "a":  "Confirming a claim by finding it in two or more independent sources.",
+                          "q":  "What is cross-checking (triangulation)?"
+                      },
+                      {
+                          "a":  "The opposing view; strong writing includes it and then responds to it.",
+                          "q":  "What is a counter-argument?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# Types of source\n\n- **Primary:** first-hand — interviews, surveys you ran, eyewitness accounts, original documents, photos.\n- **Secondary:** someone else\u0027s account or analysis — textbooks, news articles, documentaries, websites.\n\nA good research project uses **both**, and a range of source types.\n\n# Judging reliability: the CRAAP test\n\n| | Ask | Warning signs |\n|---|---|---|\n| **C**urrency | When was it published/updated? | Old data on a fast-changing issue |\n| **R**elevance | Does it answer my question? Right level? | Off-topic, too general |\n| **A**uthority | Who wrote it? Qualifications? Organisation? | Anonymous, no credentials |\n| **A**ccuracy | Is it supported by evidence? Can I cross-check it elsewhere? | No references, spelling errors, claims that contradict other sources |\n| **P**urpose | Why was it written — inform, persuade, sell, entertain? | Selling something, one-sided, emotional language |\n\n# Bias and vested interest\n\n- **Bias** — a one-sided view; only presenting evidence that supports one side.\n- **Vested interest** — the author gains something (money, votes, reputation) from you believing them. A tobacco company report on smoking has a vested interest.\n- **Fact vs opinion vs prediction:** facts can be checked; opinions are beliefs; predictions are about the future and are uncertain.\n- Watch for: emotive language, statistics with no source, missing counter-arguments, over-generalisation (\"everyone\", \"always\").\n\n# Evaluating evidence in an answer\n\nUse this pattern:\n\n\u003e *Source A is fairly reliable because it was written by [authority] in [year] and uses [data]. However, it may be biased because [purpose/vested interest], so I would cross-check it with [another type of source].*\n\n# Research methods\n\n| Method | Strength | Weakness |\n|---|---|---|\n| Questionnaire / survey | Lots of data quickly, easy to compare | Shallow answers; people may not be honest; sample may be unrepresentative |\n| Interview | Detailed, can follow up | Time-consuming; small numbers |\n| Observation | See real behaviour | People act differently when watched |\n| Secondary research (internet, books) | Fast, expert data | Reliability varies; may be out of date |\n\n**Sample size** matters: 10 people cannot represent a country. **Representative sample** = reflects the whole population (ages, genders, regions).",
+        "order":  2,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "You collected the data first-hand.",
+                         "options":  [
+                                         "Secondary source",
+                                         "Primary source",
+                                         "Biased source",
+                                         "Prediction"
+                                     ],
+                         "q":  "A survey you carried out in your school is a:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "The company profits if people believe the claim.",
+                         "options":  [
+                                         "Currency",
+                                         "Vested interest",
+                                         "Relevance",
+                                         "Sample size"
+                                     ],
+                         "q":  "A fizzy-drink company publishes a study saying sugar is harmless. The main problem is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "It can be checked. The others are opinion, prediction and opinion.",
+                         "options":  [
+                                         "Tbilisi is the best city",
+                                         "Tbilisi will double in size by 2050",
+                                         "Tbilisi is the capital of Georgia",
+                                         "Tbilisi should build more parks"
+                                     ],
+                         "q":  "Which is a fact?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Authority is about the author\u0027s expertise and the organisation.",
+                         "options":  [
+                                         "How old is it?",
+                                         "Who wrote it and are they qualified?",
+                                         "Is it relevant?",
+                                         "Why was it written?"
+                                     ],
+                         "q":  "The \u0027A\u0027 for Authority in CRAAP asks:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Fifteen similar people cannot represent all teenagers.",
+                         "options":  [
+                                         "Currency",
+                                         "Accuracy",
+                                         "Sample size / representativeness",
+                                         "Purpose"
+                                     ],
+                         "q":  "Asking 15 friends and concluding \u0027most teenagers in Georgia…\u0027 is a problem of:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Triangulation with independent sources confirms accuracy.",
+                         "options":  [
+                                         "Believe it if the site looks professional",
+                                         "Cross-check it in an independent reliable source",
+                                         "Ignore it",
+                                         "Ask a friend"
+                                     ],
+                         "q":  "The best way to check a surprising statistic is to:"
+                     }
+                 ],
+        "subject":  "gp",
+        "title":  "Research skills: sources, reliability \u0026 bias",
+        "updated":  "Starter notes",
+        "id":  "gp-sources"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "ფარნავაზი (ჩვ. წ.-მდე IV–III სს.).",
+                          "q":  "ვინ იყო ქართლის პირველი მეფე?"
+                      },
+                      {
+                          "a":  "337 წ. (ტრადიციული თარიღი), მეფე მირიანის დროს, წმ. ნინოს ქადაგებით.",
+                          "q":  "როდის და ვის დროს გამოცხადდა ქრისტიანობა სახელმწიფო რელიგიად?"
+                      },
+                      {
+                          "a":  "ვახტანგ გორგასალი, V საუკუნე.",
+                          "q":  "ვინ დააარსა თბილისი?"
+                      },
+                      {
+                          "a":  "ბაგრატ III, 1008 წ.",
+                          "q":  "ვინ იყო გაერთიანებული საქართველოს პირველი მეფე?"
+                      },
+                      {
+                          "a":  "1121 წ., დავით IV აღმაშენებელი; გამარჯვება სელჩუკებზე.",
+                          "q":  "დიდგორის ბრძოლა — თარიღი და მეფე?"
+                      },
+                      {
+                          "a":  "თამარ მეფის მმართველობა, 1184–1213.",
+                          "q":  "საქართველოს „ოქროს ხანა“?"
+                      },
+                      {
+                          "a":  "1783 წ., ერეკლე II (ქართლ-კახეთი) და რუსეთის იმპერია.",
+                          "q":  "გეორგიევსკის ტრაქტატი — წელი და მხარეები?"
+                      },
+                      {
+                          "a":  "1801 წ.",
+                          "q":  "როდის გაუქმდა ქართლ-კახეთის სამეფო?"
+                      },
+                      {
+                          "a":  "1918 წლის 26 მაისი.",
+                          "q":  "საქართველოს დამოუკიდებლობის გამოცხადება?"
+                      },
+                      {
+                          "a":  "1921 წლის 25 თებერვალი.",
+                          "q":  "საქართველოს გასაბჭოება?"
+                      },
+                      {
+                          "a":  "1991 წლის 9 აპრილი.",
+                          "q":  "დამოუკიდებლობის აღდგენა?"
+                      },
+                      {
+                          "a":  "1795 წ., აღა-მაჰმად-ხანი, თბილისის აოხრება.",
+                          "q":  "კრწანისის ბრძოლა?"
+                      }
+                  ],
+        "exam":  "Exam 1 · ოქტომბერი",
+        "lang":  "ka",
+        "notes":  "# ქრონოლოგიური ხერხემალი\n\nეს არის ის თარიღები, რომლებიც ნებისმიერ გამოცდაზე გამოგადგება. ისწავლე **მოვლენა + საუკუნე + რატომ არის მნიშვნელოვანი**.\n\n## ძველი ხანა\n\n| თარიღი | მოვლენა |\n|---|---|\n| ჩვ. წ.-მდე VI ს. | კოლხეთის სამეფო დასავლეთ საქართველოში |\n| ჩვ. წ.-მდე IV–III სს. | ფარნავაზი — ქართლის (იბერიის) პირველი მეფე; ტრადიციით — ქართული დამწერლობის შექმნა |\n| ჩვ. წ.-მდე 65 წ. | პომპეუსის ლაშქრობა — რომაელები იბერიასა და კოლხეთში |\n| 337 წ. (ტრად.) | ქრისტიანობის სახელმწიფო რელიგიად გამოცხადება ქართლში — მეფე მირიანი, წმ. ნინო |\n\n## შუა საუკუნეები\n\n| თარიღი | მოვლენა |\n|---|---|\n| V ს. | ვახტანგ გორგასალი — თბილისის დაარსება; ბრძოლა სპარსეთის წინააღმდეგ |\n| VII ს. | არაბთა შემოსევა; თბილისის საამირო |\n| 1008 წ. | ბაგრატ III — გაერთიანებული საქართველოს პირველი მეფე |\n| 1089–1125 | დავით IV აღმაშენებელი |\n| 1121 წ. | **დიდგორის ბრძოლა** — გამარჯვება სელჩუკებზე |\n| 1122 წ. | თბილისის გათავისუფლება, დედაქალაქი |\n| 1184–1213 | თამარ მეფე — „ოქროს ხანა“; შოთა რუსთაველი |\n| 1220-იანი წწ. | მონღოლთა შემოსევა |\n| 1386–1403 | თემურ ლენგის რვა ლაშქრობა |\n| XV ს. ბოლო | ერთიანი საქართველოს დაშლა სამეფო-სამთავროებად |\n\n## ახალი ისტორია\n\n| თარიღი | მოვლენა |\n|---|---|\n| 1783 წ. | **გეორგიევსკის ტრაქტატი** — ერეკლე II და რუსეთის იმპერია (მფარველობა) |\n| 1795 წ. | კრწანისის ბრძოლა — აღა-მაჰმად-ხანი არბევს თბილისს |\n| 1801 წ. | ქართლ-კახეთის სამეფოს გაუქმება, რუსეთთან შეერთება |\n| 1832 წ. | შეთქმულება რუსეთის მმართველობის წინააღმდეგ |\n| 1860-იანი | „თერგდალეულები“ — ილია ჭავჭავაძე, აკაკი წერეთელი; ეროვნული მოძრაობა |\n\n## უახლესი ისტორია\n\n| თარიღი | მოვლენა |\n|---|---|\n| **1918 წ. 26 მაისი** | საქართველოს დამოუკიდებლობის გამოცხადება — დემოკრატიული რესპუბლიკა |\n| 1921 წ. 25 თებერვალი | წითელი არმიის შემოსვლა, გასაბჭოება |\n| 1924 წ. | აგვისტოს აჯანყება |\n| 1989 წ. 9 აპრილი | თბილისის ტრაგედია |\n| **1991 წ. 9 აპრილი** | დამოუკიდებლობის აღდგენა |\n| 2008 წ. აგვისტო | რუსეთ-საქართველოს ომი |\n\n\u003e **რჩევა:** დახატე დროის ხაზი და თითოეულ თარიღს მიაწერე მოკლე „რატომ არის მნიშვნელოვანი“. ტესტებზე ხშირად ეკითხებიან **მიზეზსა და შედეგს**, არა მხოლოდ თარიღს.",
+        "order":  2,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "დავით აღმაშენებელმა დაამარცხა სელჩუკები დიდგორთან.",
+                         "options":  [
+                                         "თბილისის დაარსება",
+                                         "დიდგორის ბრძოლა",
+                                         "გეორგიევსკის ტრაქტატი",
+                                         "კრწანისის ბრძოლა"
+                                     ],
+                         "q":  "1121 წელს მოხდა:"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "1918-ში დაარსდა დემოკრატიული რესპუბლიკა; 1991-ში დამოუკიდებლობა აღდგა.",
+                         "options":  [
+                                         "1918 წ. 26 მაისს",
+                                         "1921 წ. 25 თებერვალს",
+                                         "1991 წ. 9 აპრილს",
+                                         "1989 წ. 9 აპრილს"
+                                     ],
+                         "q":  "საქართველოს დამოუკიდებლობა გამოცხადდა:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "1184–1213, სახელმწიფოს უმაღლესი აყვავება.",
+                         "options":  [
+                                         "ბაგრატ III",
+                                         "ვახტანგ გორგასალი",
+                                         "თამარ მეფე",
+                                         "ერეკლე II"
+                                     ],
+                         "q":  "ვის დროს იყო საქართველოს „ოქროს ხანა“?"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "ერეკლე II-მ რუსეთის მფარველობა მიიღო 1783 წელს.",
+                         "options":  [
+                                         "1783 წ.",
+                                         "1795 წ.",
+                                         "1801 წ.",
+                                         "1832 წ."
+                                     ],
+                         "q":  "გეორგიევსკის ტრაქტატი დაიდო:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "ფარნავაზი — ჩვ. წ.-მდე IV–III სს.; დანარჩენი ჩვ. წ.-ით.",
+                         "options":  [
+                                         "თბილისის დაარსება",
+                                         "ფარნავაზის მეფობა",
+                                         "ქრისტიანობის გამოცხადება",
+                                         "ბაგრატ III-ის გამეფება"
+                                     ],
+                         "q":  "რომელი მოვლენა მოხდა ყველაზე ადრე?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "რუსეთის იმპერიამ ქართლ-კახეთი შეიერთა.",
+                         "options":  [
+                                         "დაიდო გეორგიევსკის ტრაქტატი",
+                                         "გაუქმდა ქართლ-კახეთის სამეფო",
+                                         "მოხდა კრწანისის ბრძოლა",
+                                         "დაიწყო თერგდალეულთა მოძრაობა"
+                                     ],
+                         "q":  "1801 წელს:"
+                     }
+                 ],
+        "subject":  "history",
+        "title":  "საქართველოს ისტორიის ძირითადი თარიღები",
+        "updated":  "საწყისი ჩანაწერები",
+        "id":  "hist-georgia-timeline"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "ყველაფერი, რაც წარსულის შესახებ ინფორმაციას გვაწვდის — წერილობითი, ნივთიერი, ზეპირი, ვიზუალური, ეთნოგრაფიული.",
+                          "q":  "რა არის ისტორიული წყარო?"
+                      },
+                      {
+                          "a":  "მოვლენის დროს ან თვითმხილველის/მონაწილის მიერ შექმნილი წყარო (დღიური, ფოტო, დოკუმენტი).",
+                          "q":  "პირველადი წყარო — რას ნიშნავს?"
+                      },
+                      {
+                          "a":  "სახელმძღვანელო, ისტორიკოსის ნაშრომი — შექმნილია მოგვიანებით, სხვა წყაროებზე დაყრდნობით.",
+                          "q":  "მეორადი წყარო — მაგალითი?"
+                      },
+                      {
+                          "a":  "XIX საუკუნე (18 + 1).",
+                          "q":  "რომელი საუკუნეა 1801 წელი?"
+                      },
+                      {
+                          "a":  "XVI საუკუნე (00-ით მთავრდება → 1600 ÷ 100).",
+                          "q":  "რომელი საუკუნეა 1600 წელი?"
+                      },
+                      {
+                          "a":  "500 წ. ჩვ. წ.-მდე — ჩვ. წ.-მდე წლები უკუღმა ითვლება.",
+                          "q":  "რომელი წელია უფრო ადრე: 300 წ. ჩვ. წ.-მდე თუ 500 წ. ჩვ. წ.-მდე?"
+                      },
+                      {
+                          "a":  "1000 წელი (10 საუკუნე).",
+                          "q":  "რამდენი წელია ათასწლეული?"
+                      },
+                      {
+                          "a":  "14, 19, 21",
+                          "q":  "რომაული ციფრები: XIV, XIX, XXI?"
+                      },
+                      {
+                          "a":  "ვინ შექმნა, როდის, რა მიზნით, ვის ინტერესებს იცავს, ემთხვევა თუ არა სხვა წყაროებს.",
+                          "q":  "რა კითხვები უნდა დაუსვა წყაროს (წყაროს კრიტიკა)?"
+                      },
+                      {
+                          "a":  "476 წ. — დასავლეთ რომის იმპერიის დაცემა.",
+                          "q":  "რომელი მოვლენით მთავრდება ძველი მსოფლიოს ისტორია?"
+                      },
+                      {
+                          "a":  "პირველყოფილი საზოგადოება, ძველი მსოფლიო, შუა საუკუნეები, ახალი ისტორია, უახლესი ისტორია.",
+                          "q":  "ჩამოთვალე ისტორიის ხუთი პერიოდი."
+                      }
+                  ],
+        "exam":  "Exam 1 · ოქტომბერი",
+        "lang":  "ka",
+        "notes":  "# რა არის ისტორია?\n\n**ისტორია** არის მეცნიერება წარსულის შესახებ — სწავლობს, როგორ ცხოვრობდნენ ადამიანები, რა მოხდა და **რატომ** მოხდა. ისტორიკოსი მუშაობს **წყაროებით** და აანალიზებს მათ.\n\n# ისტორიული წყაროების სახეები\n\n| სახეობა | რას მოიცავს | მაგალითი |\n|---|---|---|\n| **წერილობითი** | ყველა ჩანაწერი | მატიანე, წერილი, კანონი, ხელშეკრულება, წარწერა |\n| **ნივთიერი (მატერიალური)** | არქეოლოგიური ნივთები | იარაღი, მონეტა, ჭურჭელი, ნაგებობა, სამარხი |\n| **ზეპირი** | თაობიდან თაობას გადაცემული | ლეგენდა, ზღაპარი, სიმღერა, მოგონება |\n| **ვიზუალური** | გამოსახულებები | ფრესკა, ფოტო, რუკა, ნახატი |\n| **ეთნოგრაფიული** | ხალხის ყოფა და ტრადიციები | ტანსაცმელი, რიტუალი, ყოფითი ნივთები |\n\n## პირველადი და მეორადი წყარო\n\n- **პირველადი წყარო** — შექმნილია მოვლენის **დროს** ან მისი უშუალო მონაწილის/თვითმხილველის მიერ (მაგ. „ქართლის ცხოვრება“-ს თანამედროვე ნაწილები, დღიური, ფოტო).\n- **მეორადი წყარო** — შექმნილია მოგვიანებით, სხვა წყაროებზე დაყრდნობით (სახელმძღვანელო, ისტორიკოსის სტატია).\n\n\u003e **წყაროს კრიტიკა:** ვინ შექმნა? როდის? რა მიზნით? ვის ინტერესებს იცავს? ემთხვევა თუ არა სხვა წყაროებს? — ეს კითხვები ყოველთვის დაუსვი წყაროს.\n\n# დროის აღრიცხვა\n\n- **წელთაღრიცხვა** — ქრისტიანული (ჩვენი) წელთაღრიცხვა იწყება ქრისტეს შობით. **ჩვ. წ.-მდე** (ძვ. წ.) და **ჩვ. წ.** (ახ. წ.).\n- **საუკუნე** = 100 წელი. **ათასწლეული** = 1000 წელი.\n- ჩვ. წ.-მდე წლები **უკუღმა** ითვლება: 500 წ. ჩვ. წ.-მდე უფრო ადრეა, ვიდრე 300 წ. ჩვ. წ.-მდე.\n\n**როგორ ვიპოვოთ საუკუნე:**\n\n1. თუ წელი მთავრდება 00-ით — გავყოთ 100-ზე: 1800 წ. → XVIII ს.\n2. სხვა შემთხვევაში — გავყოთ 100-ზე და **დავამატოთ 1**: 1801 წ. → 18 + 1 → XIX ს.; 337 წ. → 3 + 1 → IV ს.\n\n| წელი | საუკუნე |\n|---|---|\n| 1783 | XVIII |\n| 1801 | XIX |\n| 1918 | XX |\n| 2008 | XXI |\n| 65 ჩვ. წ.-მდე | I ს. ჩვ. წ.-მდე |\n\n**საუკუნის ნაწილები:** პირველი ნახევარი (01–50), მეორე ნახევარი (51–00); დასაწყისი, შუა, დასასრული; 20-იანი, 30-იანი წლები...\n\n# რომაული ციფრები\n\nI = 1, V = 5, X = 10, L = 50, C = 100, M = 1000. IV = 4, IX = 9, XIV = 14, XIX = 19, XX = 20, XXI = 21.\n\n# ისტორიის პერიოდიზაცია\n\n1. **უძველესი (პირველყოფილი) საზოგადოება** — წერილობითი წყაროების გაჩენამდე\n2. **ძველი მსოფლიო (ანტიკური ხანა)** — დაახლ. ჩვ. წ.-მდე IV ათასწლეულიდან V საუკუნემდე (476 წ. — დასავლეთ რომის იმპერიის დაცემა)\n3. **შუა საუკუნეები** — V–XV სს. (1453 წ. — კონსტანტინოპოლის დაცემა / 1492 წ. — ამერიკის აღმოჩენა)\n4. **ახალი ისტორია** — XV/XVI ს. – 1914/1918 წ.\n5. **უახლესი ისტორია** — XX ს.-დან დღემდე",
+        "order":  1,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "მატერიალური ნივთები ნივთიერი წყაროებია (თუმცა წარწერიან მონეტას წერილობითი ინფორმაციაც აქვს).",
+                         "options":  [
+                                         "წერილობითი წყარო",
+                                         "ნივთიერი წყარო",
+                                         "ზეპირი წყარო",
+                                         "მეორადი წყარო"
+                                     ],
+                         "q":  "მონეტა, რომელიც არქეოლოგებმა იპოვეს, არის:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "19 + 1 = 20 → XX საუკუნე.",
+                         "options":  [
+                                         "XVIII",
+                                         "XIX",
+                                         "XX",
+                                         "XXI"
+                                     ],
+                         "q":  "1918 წელი რომელ საუკუნეშია?"
+                     },
+                     {
+                         "answer":  3,
+                         "explain":  "ჩვ. წ.-მდე რაც უფრო დიდი რიცხვია, მით უფრო ადრეა: 100 ჩვ. წ.-მდე \u003c 65 ჩვ. წ.-მდე \u003c 1 \u003c 337.",
+                         "options":  [
+                                         "65 წ. ჩვ. წ.-მდე",
+                                         "337 წ.",
+                                         "1 წ.",
+                                         "100 წ. ჩვ. წ.-მდე"
+                                     ],
+                         "q":  "რომელი ფაქტი დაფიქსირდა უფრო ადრე?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "მოვლენის თანამედროვე მონაწილის მიერ შექმნილია.",
+                         "options":  [
+                                         "მეორადი წყარო",
+                                         "პირველადი წყარო",
+                                         "ზეპირი წყარო",
+                                         "ეთნოგრაფიული წყარო"
+                                     ],
+                         "q":  "მეფის მიერ დაწერილი წერილი, რომელიც იმავე წელს გაიგზავნა, არის:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "X (10) + V (5) + I + I = 17.",
+                         "options":  [
+                                         "15",
+                                         "16",
+                                         "17",
+                                         "22"
+                                     ],
+                         "q":  "რომაული XVII ნიშნავს:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "476 წლიდან (რომის დაცემა) XV საუკუნემდე (1453/1492).",
+                         "options":  [
+                                         "I–V სს.",
+                                         "V–XV სს.",
+                                         "XV–XX სს.",
+                                         "XX–XXI სს."
+                                     ],
+                         "q":  "შუა საუკუნეები მოიცავს დაახლოებით:"
+                     }
+                 ],
+        "subject":  "history",
+        "title":  "ისტორიული წყაროები და ქრონოლოგია",
+        "updated":  "საწყისი ჩანაწერები",
+        "id":  "hist-sources"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "x² − 6x + 4x − 24 = **x² − 2x − 24**",
+                          "q":  "Expand (x + 4)(x − 6)."
+                      },
+                      {
+                          "a":  "a² + 2ab + b² (NOT a² + b²)",
+                          "q":  "(a + b)² = ?"
+                      },
+                      {
+                          "a":  "a² − b² — difference of two squares.",
+                          "q":  "(a + b)(a − b) = ?"
+                      },
+                      {
+                          "a":  "4x(2x − 3)",
+                          "q":  "Factorise 8x² − 12x."
+                      },
+                      {
+                          "a":  "(x + 9)(x − 9)",
+                          "q":  "Factorise x² − 81."
+                      },
+                      {
+                          "a":  "(x + 2)(x + 3) — numbers that multiply to 6 and add to 5.",
+                          "q":  "Factorise x² + 5x + 6."
+                      },
+                      {
+                          "a":  "(x − 5)(x + 2) — multiply to −10, add to −3.",
+                          "q":  "Factorise x² − 3x − 10."
+                      },
+                      {
+                          "a":  "2x = −8 → **x = −4**",
+                          "q":  "Solve 4x + 5 = 2x − 3."
+                      },
+                      {
+                          "a":  "(x − 3)(x − 4) = 0 → x = 3 or x = 4",
+                          "q":  "Solve x² − 7x + 12 = 0."
+                      },
+                      {
+                          "a":  "x = (y − 2)/3",
+                          "q":  "Make x the subject: y = 3x + 2"
+                      },
+                      {
+                          "a":  "Take out the highest common factor.",
+                          "q":  "First step when factorising anything?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# Expanding brackets\n\n**Single bracket:** multiply everything inside by the term outside.\n\n- 3(2x − 5) = 6x − 15\n- −2(x + 4) = −2x − 8 (watch the signs!)\n\n**Double brackets (FOIL):** First, Outer, Inner, Last.\n\n```\n(x + 3)(x − 5) = x² − 5x + 3x − 15 = x² − 2x − 15\n(2x + 1)(x + 4) = 2x² + 8x + x + 4 = 2x² + 9x + 4\n```\n\n**Special cases to memorise**\n\n- (a + b)² = a² + 2ab + b²\n- (a − b)² = a² − 2ab + b²\n- (a + b)(a − b) = a² − b²  ← *difference of two squares*\n\n# Factorising\n\nFactorising is expanding in reverse. **Always take out the highest common factor first.**\n\n1. **Common factor:** 6x² + 9x = 3x(2x + 3)\n2. **Difference of two squares:** x² − 49 = (x + 7)(x − 7); 4x² − 25 = (2x + 5)(2x − 5)\n3. **Quadratic x² + bx + c:** find two numbers that **multiply to c** and **add to b**.\n   - x² + 7x + 12 → 3 and 4 → (x + 3)(x + 4)\n   - x² − x − 6 → −3 and 2 → (x − 3)(x + 2)\n4. **Grouping (four terms):** ax + ay + bx + by = a(x + y) + b(x + y) = (a + b)(x + y)\n\n\u003e Check by expanding your answer back out.\n\n# Solving linear equations\n\nDo the same thing to both sides. Aim to get x on its own.\n\n```\n5x − 7 = 3x + 9\n5x − 3x = 9 + 7\n2x = 16\nx = 8\n```\n\nWith brackets: expand first. With fractions: multiply every term by the denominator.\n\n```\n(x + 2)/3 = 4  →  x + 2 = 12  →  x = 10\n```\n\n# Solving quadratics by factorising\n\nIf a product equals zero, one of the factors must be zero.\n\n```\nx² − 5x + 6 = 0\n(x − 2)(x − 3) = 0\nx = 2  or  x = 3\n```\n\n\u003e The equation **must equal 0** before you factorise. Rearrange first if it doesn\u0027t.\n\n# Rearranging formulae\n\nTreat the subject like x in an equation. Example: make r the subject of A = πr²\n\nA/π = r² → r = √(A/π)",
+        "order":  3,
+        "quiz":  [
+                     {
+                         "answer":  0,
+                         "explain":  "2x·x = 2x², 2x·5 = 10x, −3·x = −3x, −3·5 = −15 → 2x² + 7x − 15.",
+                         "options":  [
+                                         "2x² + 7x − 15",
+                                         "2x² − 7x − 15",
+                                         "2x² + 13x − 15",
+                                         "2x² + 2x − 15"
+                                     ],
+                         "q":  "Expand and simplify (2x − 3)(x + 5)."
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Common factor 3 first, then x² − 9 is a difference of two squares.",
+                         "options":  [
+                                         "3(x² − 9)",
+                                         "3(x − 3)²",
+                                         "3(x + 3)(x − 3)",
+                                         "(3x + 9)(x − 3)"
+                                     ],
+                         "q":  "Factorise fully: 3x² − 27."
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "Numbers that multiply to −15 and add to −2: −5 and +3.",
+                         "options":  [
+                                         "(x − 5)(x + 3)",
+                                         "(x + 5)(x − 3)",
+                                         "(x − 5)(x − 3)",
+                                         "(x + 5)(x + 3)"
+                                     ],
+                         "q":  "Factorise x² − 2x − 15."
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "3x − 6 = 2x + 1 → x = 7.",
+                         "options":  [
+                                         "x = 7",
+                                         "x = −5",
+                                         "x = 5",
+                                         "x = 1"
+                                     ],
+                         "q":  "Solve 3(x − 2) = 2x + 1."
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "(x + 4)(x − 3) = 0 → x = −4 or x = 3.",
+                         "options":  [
+                                         "3 and 4",
+                                         "−3 and 4",
+                                         "3 and −4",
+                                         "−3 and −4"
+                                     ],
+                         "q":  "The solutions of x² + x − 12 = 0 are:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Subtract u, then divide by a.",
+                         "options":  [
+                                         "t = (v + u)/a",
+                                         "t = (v − u)/a",
+                                         "t = a(v − u)",
+                                         "t = v − u − a"
+                                     ],
+                         "q":  "Make t the subject of v = u + at."
+                     }
+                 ],
+        "subject":  "maths",
+        "title":  "Algebra: expanding, factorising, solving",
+        "updated":  "Starter notes",
+        "id":  "maths-algebra"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "aᵐ⁺ⁿ — add the indices when multiplying with the same base.",
+                          "q":  "aᵐ × aⁿ = ?"
+                      },
+                      {
+                          "a":  "aᵐ⁻ⁿ — subtract the indices.",
+                          "q":  "aᵐ ÷ aⁿ = ?"
+                      },
+                      {
+                          "a":  "aᵐⁿ — multiply the indices.",
+                          "q":  "(aᵐ)ⁿ = ?"
+                      },
+                      {
+                          "a":  "1 (for any a ≠ 0).",
+                          "q":  "What is a⁰?"
+                      },
+                      {
+                          "a":  "Reciprocal: 4⁻² = 1/4² = 1/16.",
+                          "q":  "What does a negative index mean? e.g. 4⁻²"
+                      },
+                      {
+                          "a":  "The nth root: 16^(1/2) = √16 = 4, 8^(1/3) = ³√8 = 2.",
+                          "q":  "What does a^(1/n) mean?"
+                      },
+                      {
+                          "a":  "(⁴√16)³ = 2³ = 8",
+                          "q":  "Evaluate 16^(3/4)."
+                      },
+                      {
+                          "a":  "1 ≤ A \u003c 10 and n is an integer (positive, negative or zero).",
+                          "q":  "Rule for standard form A × 10ⁿ?"
+                      },
+                      {
+                          "a":  "5.6 × 10⁻⁴",
+                          "q":  "Write 0.00056 in standard form."
+                      },
+                      {
+                          "a":  "12 × 10⁸ = **1.2 × 10⁹**",
+                          "q":  "(2 × 10³) × (6 × 10⁵) = ?"
+                      },
+                      {
+                          "a":  "27x⁶ — cube the 3 AND the x².",
+                          "q":  "Simplify (3x²)³."
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# Laws of indices\n\nIn aⁿ, **a** is the base and **n** is the index (power/exponent).\n\n| Law | Rule | Example |\n|---|---|---|\n| Multiplying | aᵐ × aⁿ = aᵐ⁺ⁿ | 2³ × 2⁴ = 2⁷ |\n| Dividing | aᵐ ÷ aⁿ = aᵐ⁻ⁿ | 5⁶ ÷ 5² = 5⁴ |\n| Power of a power | (aᵐ)ⁿ = aᵐⁿ | (3²)⁴ = 3⁸ |\n| Zero index | a⁰ = 1 | 17⁰ = 1 |\n| Negative index | a⁻ⁿ = 1/aⁿ | 2⁻³ = 1/8 |\n| Fractional index | a^(1/n) = ⁿ√a | 27^(1/3) = 3 |\n| Fractional index (general) | a^(m/n) = (ⁿ√a)ᵐ | 8^(2/3) = (³√8)² = 4 |\n\n\u003e The laws only work when the **bases are the same**. 2³ × 3² cannot be simplified with index laws.\n\n**Common mistakes**\n\n- (2x)³ = 8x³, not 2x³ — the power applies to everything in the bracket.\n- 3⁻² = 1/9, **not** −9.\n- a negative index does not make the answer negative.\n\n## Standard form\n\nA number written as **A × 10ⁿ** where **1 ≤ A \u003c 10** and n is an integer.\n\n- 340 000 = 3.4 × 10⁵ (decimal point moves 5 places left)\n- 0.00072 = 7.2 × 10⁻⁴ (decimal point moves 4 places right)\n- 5 × 10³ = 5000, 2.5 × 10⁻² = 0.025\n\n**Multiplying / dividing:** deal with the numbers and the powers of 10 separately, then fix the answer so A is between 1 and 10.\n\n```\n(3 × 10⁴) × (4 × 10⁵) = 12 × 10⁹ = 1.2 × 10¹⁰\n(8 × 10⁷) ÷ (2 × 10³) = 4 × 10⁴\n```\n\n**Adding / subtracting:** convert to the same power of 10 first (or to ordinary numbers).\n\n```\n3 × 10⁵ + 2 × 10⁴ = 30 × 10⁴ + 2 × 10⁴ = 32 × 10⁴ = 3.2 × 10⁵\n```\n\n\u003e **Calculator:** use the ×10ˣ (or EXP) key, never type \u0027×10^\u0027. Check your calculator gives answers in standard form when needed (SCI mode).",
+        "order":  2,
+        "quiz":  [
+                     {
+                         "answer":  0,
+                         "explain":  "4 + 3 − 2 = 5.",
+                         "options":  [
+                                         "5⁵",
+                                         "5⁹",
+                                         "5²⁴",
+                                         "5⁶"
+                                     ],
+                         "q":  "Simplify 5⁴ × 5³ ÷ 5²."
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Negative index = reciprocal: 1/2³ = 1/8.",
+                         "options":  [
+                                         "−8",
+                                         "−6",
+                                         "1/8",
+                                         "1/6"
+                                     ],
+                         "q":  "What is 2⁻³?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Cube root of 27 is 3, then square: 3² = 9.",
+                         "options":  [
+                                         "18",
+                                         "9",
+                                         "3",
+                                         "81"
+                                     ],
+                         "q":  "Evaluate 27^(2/3)."
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "A must be between 1 and 10: 4.56, and the point moved 4 places.",
+                         "options":  [
+                                         "45.6 × 10³",
+                                         "4.56 × 10⁴",
+                                         "4.56 × 10⁵",
+                                         "0.456 × 10⁵"
+                                     ],
+                         "q":  "Which is 45 600 in standard form?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "6 ÷ 3 = 2 and 10⁵ ÷ 10⁻² = 10⁵⁻⁽⁻²⁾ = 10⁷.",
+                         "options":  [
+                                         "2 × 10³",
+                                         "2 × 10⁷",
+                                         "2 × 10⁻³",
+                                         "18 × 10³"
+                                     ],
+                         "q":  "(6 × 10⁵) ÷ (3 × 10⁻²) = ?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Square every factor: 2² = 4, (a³)² = a⁶, b² = b².",
+                         "options":  [
+                                         "2a⁶b²",
+                                         "4a⁵b",
+                                         "4a⁶b²",
+                                         "4a⁹b²"
+                                     ],
+                         "q":  "Simplify (2a³b)²."
+                     }
+                 ],
+        "subject":  "maths",
+        "title":  "Indices and standard form",
+        "updated":  "Starter notes",
+        "id":  "maths-indices"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "**No.** A prime has exactly two factors. 1 has only one factor (itself).",
+                          "q":  "Is 1 a prime number?"
+                      },
+                      {
+                          "a":  "A number that can be written as a fraction a/b where a and b are integers and b ≠ 0. Includes all terminating and recurring decimals.",
+                          "q":  "Define a rational number."
+                      },
+                      {
+                          "a":  "√2 and π (also √3, √5, e…). Their decimals never end and never repeat.",
+                          "q":  "Give two irrational numbers."
+                      },
+                      {
+                          "a":  "72 = 2³ × 3²",
+                          "q":  "Write 72 as a product of prime factors."
+                      },
+                      {
+                          "a":  "Multiply the primes both numbers share, using the **lowest** power of each.",
+                          "q":  "How do you find the HCF from prime factorisations?"
+                      },
+                      {
+                          "a":  "Multiply every prime that appears in either number, using the **highest** power of each.",
+                          "q":  "How do you find the LCM from prime factorisations?"
+                      },
+                      {
+                          "a":  "HCF = 12, LCM = 72. (24 = 2³×3, 36 = 2²×3²)",
+                          "q":  "HCF and LCM of 24 and 36?"
+                      },
+                      {
+                          "a":  "2, 3, 5, 7, 11, 13, 17, 19, 23, 29",
+                          "q":  "List the first ten prime numbers."
+                      },
+                      {
+                          "a":  "2",
+                          "q":  "What is the only even prime?"
+                      },
+                      {
+                          "a":  "**LCM** (repeating events). Cutting into the largest equal pieces → **HCF**.",
+                          "q":  "Word problem: \u0027when do two events next happen together?\u0027 — HCF or LCM?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# Types of numbers\n\n| Type | Meaning | Examples |\n|---|---|---|\n| Natural numbers | Counting numbers | 1, 2, 3, … |\n| Integers | Whole numbers, positive, negative and zero | −3, 0, 7 |\n| Rational numbers | Can be written as a fraction a/b with integers a, b (b ≠ 0) | ½, −4, 0.75, 0.333… |\n| Irrational numbers | Cannot be written as a fraction; decimals never repeat or end | √2, π |\n| Real numbers | All rational and irrational numbers | everything above |\n\n\u003e **Trick:** every terminating or recurring decimal is rational. Only never-ending, never-repeating decimals are irrational.\n\n## Primes, factors and multiples\n\n- A **factor** divides exactly into a number: factors of 12 are 1, 2, 3, 4, 6, 12.\n- A **multiple** is in the times table: multiples of 4 are 4, 8, 12, 16, …\n- A **prime** has exactly two factors: 1 and itself. ==1 is not prime.== First primes: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.\n- **Square numbers**: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144.\n- **Cube numbers**: 1, 8, 27, 64, 125, 216, 1000.\n\n## Prime factorisation\n\nUse a factor tree. Always write the answer with **index notation**.\n\n```\n360 = 2 × 180\n    = 2 × 2 × 90\n    = 2 × 2 × 2 × 45\n    = 2 × 2 × 2 × 3 × 15\n    = 2 × 2 × 2 × 3 × 3 × 5\n360 = 2³ × 3² × 5\n```\n\n## HCF and LCM\n\n- **HCF** (highest common factor): biggest number that divides into both.\n- **LCM** (lowest common multiple): smallest number that is in both times tables.\n\n**Method with prime factors** (works every time):\n\n1. Write each number as a product of primes.\n2. HCF = multiply the primes they **share** (lowest power of each).\n3. LCM = multiply **every** prime that appears (highest power of each).\n\nExample: 24 = 2³ × 3 and 36 = 2² × 3².\n\n- HCF = 2² × 3 = **12**\n- LCM = 2³ × 3² = **72**\n\n\u003e Check: HCF × LCM = 12 × 72 = 864 = 24 × 36 ✓ (this always works for two numbers).\n\n## Typical exam questions\n\n- \"Write 84 as a product of its prime factors\" → 2² × 3 × 7.\n- \"Two buses leave at 8:00; one every 12 min, one every 18 min. When do they next leave together?\" → LCM(12, 18) = 36 → 8:36.\n- \"Ribbons of 24 cm and 36 cm are cut into equal pieces of the largest possible length\" → HCF = 12 cm.",
+        "order":  1,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "√7 is not a perfect square, so its decimal never ends or repeats. √16 = 4 is rational, and 0.333… = ⅓.",
+                         "options":  [
+                                         "0.75",
+                                         "√16",
+                                         "√7",
+                                         "0.333…"
+                                     ],
+                         "q":  "Which of these is an irrational number?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "90 = 2 × 45 = 2 × 3 × 15 = 2 × 3 × 3 × 5 = 2 × 3² × 5. Every factor must be prime.",
+                         "options":  [
+                                         "2 × 3 × 15",
+                                         "2 × 3² × 5",
+                                         "2² × 3 × 5",
+                                         "3² × 10"
+                                     ],
+                         "q":  "What is 90 as a product of prime factors?"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "Take the shared primes at their lowest power: 2² and 3¹.",
+                         "options":  [
+                                         "2² × 3 = 12",
+                                         "2³ × 3² × 5 = 360",
+                                         "2 × 3 = 6",
+                                         "2³ × 3² = 72"
+                                     ],
+                         "q":  "The HCF of 2³ × 3 × 5 and 2² × 3² is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "\u0027Next time together\u0027 means LCM. LCM(8, 12) = 24.",
+                         "options":  [
+                                         "4 s",
+                                         "20 s",
+                                         "24 s",
+                                         "96 s"
+                                     ],
+                         "q":  "Two lights flash every 8 s and every 12 s. They flash together now. When do they next flash together?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "1, 2, 3, 4, 6, 9, 12, 18, 36 → nine factors. Square numbers always have an odd number of factors.",
+                         "options":  [
+                                         "6",
+                                         "8",
+                                         "9",
+                                         "10"
+                                     ],
+                         "q":  "How many factors does 36 have?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Any integer n can be written as n/1, so it is rational. The reverse is not true (½ is not an integer).",
+                         "options":  [
+                                         "All integers are natural numbers",
+                                         "All rational numbers are integers",
+                                         "All integers are rational numbers",
+                                         "π is a rational number"
+                                     ],
+                         "q":  "Which statement is true?"
+                     }
+                 ],
+        "subject":  "maths",
+        "title":  "Number: types, factors, HCF \u0026 LCM",
+        "updated":  "Starter notes",
+        "id":  "maths-number"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "metre (m), kilogram (kg), second (s).",
+                          "q":  "SI units for length, mass, time?"
+                      },
+                      {
+                          "a":  "A reading error caused by looking at the scale from an angle. Read at eye level, perpendicular to the scale.",
+                          "q":  "What is parallax error and how do you avoid it?"
+                      },
+                      {
+                          "a":  "Displacement: put it in a measuring cylinder of water; volume = new reading − old reading.",
+                          "q":  "How do you measure the volume of an irregular stone?"
+                      },
+                      {
+                          "a":  "The time for one complete oscillation (swing there and back).",
+                          "q":  "Define the period of a pendulum."
+                      },
+                      {
+                          "a":  "Time 20 (or more) oscillations with a stopwatch and divide by 20; repeat and average.",
+                          "q":  "How do you measure a pendulum period accurately?"
+                      },
+                      {
+                          "a":  "Only its length (longer = slower). Not the mass of the bob or small amplitude changes.",
+                          "q":  "What affects the period of a pendulum?"
+                      },
+                      {
+                          "a":  "Scalar has magnitude only; vector has magnitude and direction.",
+                          "q":  "Scalar vs vector?"
+                      },
+                      {
+                          "a":  "Speed: scalar. Velocity: vector.",
+                          "q":  "Is speed a scalar or vector? Velocity?"
+                      },
+                      {
+                          "a":  "Displacement, velocity, acceleration, force (also weight, momentum).",
+                          "q":  "List four vector quantities."
+                      },
+                      {
+                          "a":  "√(6² + 8²) = 10 N, at tan⁻¹(8/6) ≈ 53° north of east.",
+                          "q":  "Resultant of 6 N east and 8 N north?"
+                      },
+                      {
+                          "a":  "Micrometer screw gauge (precision 0.01 mm).",
+                          "q":  "Instrument for measuring the diameter of a thin wire?"
+                      },
+                      {
+                          "a":  "2500 m; 0.45 m.",
+                          "q":  "Convert 2.5 km to m and 45 cm to m."
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# SI units\n\n| Quantity | Unit | Symbol |\n|---|---|---|\n| Length | metre | m |\n| Mass | kilogram | kg |\n| Time | second | s |\n| Temperature | kelvin | K |\n| Current | ampere | A |\n\n**Derived units:** speed m/s, acceleration m/s², force newton (N), energy joule (J), power watt (W), pressure pascal (Pa), density kg/m³.\n\n**Prefixes:** kilo (k) ×1000 · centi (c) ÷100 · milli (m) ÷1000 · micro (µ) ÷1 000 000 · mega (M) ×1 000 000.\n\n\u003e Convert before calculating: 25 cm = 0.25 m; 300 g = 0.3 kg; 5 minutes = 300 s.\n\n# Measuring length and volume\n\n- **Ruler** — read at eye level to avoid parallax error; precision 1 mm.\n- **Micrometer screw gauge** — small lengths (wire diameter), precision 0.01 mm.\n- **Measuring cylinder** — volume of liquid; read the bottom of the **meniscus** at eye level.\n- **Irregular solid volume** — displacement: volume = final reading − initial reading.\n\n# Measuring time\n\n- Stopwatch (human reaction time ≈ 0.2 s causes error).\n- **Pendulum:** period T = time for **one complete swing** (there and back). Time 20 swings and divide by 20 to reduce error.\n- Period depends on **length** only (not mass, not amplitude for small swings). Longer pendulum → longer period.\n\n# Reducing errors\n\n- Repeat and take the **average**.\n- Measure many (e.g. 10 sheets of paper) and divide.\n- Avoid **parallax** by reading perpendicular to the scale.\n- **Zero error:** check the instrument reads 0 with nothing measured; subtract the zero error.\n\n# Scalars and vectors\n\n- **Scalar** — magnitude (size) only: distance, speed, mass, time, energy, temperature, volume.\n- **Vector** — magnitude **and direction**: displacement, velocity, acceleration, force, weight, momentum.\n\n**Adding vectors at right angles:** use Pythagoras for the size and trigonometry for the angle. Forces 3 N east and 4 N north → resultant 5 N at 53° from east (tan⁻¹(4/3)).\n\nVectors in the same line: add if same direction, subtract if opposite. Two forces 10 N left and 4 N right → 6 N left.",
+        "order":  1,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "Force has a direction; the others are scalars.",
+                         "options":  [
+                                         "Mass",
+                                         "Temperature",
+                                         "Force",
+                                         "Energy"
+                                     ],
+                         "q":  "Which is a vector quantity?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "15.0 ÷ 10 = 1.5 s.",
+                         "options":  [
+                                         "150 s",
+                                         "15 s",
+                                         "1.5 s",
+                                         "0.15 s"
+                                     ],
+                         "q":  "A student times 10 swings of a pendulum as 15.0 s. The period is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Difference in readings = 15 cm³.",
+                         "options":  [
+                                         "95 cm³",
+                                         "15 cm³",
+                                         "40 cm³",
+                                         "55 cm³"
+                                     ],
+                         "q":  "Water level rises from 40 cm³ to 55 cm³ when a stone is added. The stone\u0027s volume is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Gram is not the SI base unit; newton is force.",
+                         "options":  [
+                                         "gram",
+                                         "kilogram",
+                                         "newton",
+                                         "tonne"
+                                     ],
+                         "q":  "The SI unit of mass is the:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "√(12² + 5²) = √169 = 13 N.",
+                         "options":  [
+                                         "17 N",
+                                         "7 N",
+                                         "13 N",
+                                         "60 N"
+                                     ],
+                         "q":  "Forces of 12 N and 5 N act on an object at right angles. The resultant is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Averaging repeated readings cancels random fluctuations.",
+                         "options":  [
+                                         "Use a bigger ruler",
+                                         "Repeat and average",
+                                         "Measure once quickly",
+                                         "Round the answer"
+                                     ],
+                         "q":  "To reduce random error in a measurement you should:"
+                     }
+                 ],
+        "subject":  "physics",
+        "title":  "Measurement: units, instruments, scalars \u0026 vectors",
+        "updated":  "Starter notes",
+        "id":  "phys-measurement"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "speed = distance ÷ time (m/s).",
+                          "q":  "Formula for speed?"
+                      },
+                      {
+                          "a":  "Velocity is speed in a given direction (vector); speed is scalar.",
+                          "q":  "Difference between speed and velocity?"
+                      },
+                      {
+                          "a":  "a = (v − u) / t — change in velocity divided by time, unit m/s².",
+                          "q":  "Formula for acceleration?"
+                      },
+                      {
+                          "a":  "Speed.",
+                          "q":  "What does the gradient of a distance–time graph show?"
+                      },
+                      {
+                          "a":  "Acceleration.",
+                          "q":  "What does the gradient of a speed–time graph show?"
+                      },
+                      {
+                          "a":  "Distance travelled.",
+                          "q":  "What does the area under a speed–time graph show?"
+                      },
+                      {
+                          "a":  "The object is stationary.",
+                          "q":  "A horizontal line on a distance–time graph means…"
+                      },
+                      {
+                          "a":  "Constant speed (zero acceleration).",
+                          "q":  "A horizontal line on a speed–time graph means…"
+                      },
+                      {
+                          "a":  "About 9.8 m/s² (often rounded to 10 m/s²).",
+                          "q":  "Value of g near Earth\u0027s surface?"
+                      },
+                      {
+                          "a":  "The constant maximum speed reached when air resistance equals weight, so the resultant force is zero.",
+                          "q":  "What is terminal velocity?"
+                      },
+                      {
+                          "a":  "(10 − 30)/5 = −4 m/s² (deceleration of 4 m/s²).",
+                          "q":  "A car slows from 30 m/s to 10 m/s in 5 s. Acceleration?"
+                      },
+                      {
+                          "a":  "90 ÷ 3.6 = 25 m/s.",
+                          "q":  "Convert 90 km/h to m/s."
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# Key definitions\n\n- **Speed** = distance ÷ time (m/s). Scalar.\n- **Velocity** = speed in a stated direction (displacement ÷ time). Vector.\n- **Average speed** = total distance ÷ total time.\n- **Acceleration** = change in velocity ÷ time taken: **a = (v − u) / t** (m/s²). Vector. Negative acceleration = deceleration.\n\n\u003e u = initial velocity, v = final velocity, t = time.\n\nExample: a car goes from 5 m/s to 25 m/s in 4 s → a = (25 − 5)/4 = **5 m/s²**.\n\n# Distance–time graphs\n\n| Shape | Meaning |\n|---|---|\n| Horizontal line | Stationary |\n| Straight sloping line | Constant speed |\n| Steeper line | Faster |\n| Curve getting steeper | Accelerating |\n| Curve flattening | Decelerating |\n\n**Gradient = speed.** Gradient = rise ÷ run = distance ÷ time.\n\n# Speed–time (velocity–time) graphs\n\n| Shape | Meaning |\n|---|---|\n| Horizontal line | Constant speed |\n| Horizontal line at 0 | Stationary |\n| Straight line up | Constant acceleration |\n| Straight line down | Constant deceleration |\n| Curve | Changing acceleration |\n\n- **Gradient = acceleration.**\n- **Area under the graph = distance travelled.** Split into rectangles and triangles: area of triangle = ½ × base × height.\n\nExample: accelerates from 0 to 10 m/s in 5 s, then constant for 10 s. Distance = ½×5×10 + 10×10 = 25 + 100 = **125 m**.\n\n# Free fall\n\n- Near Earth\u0027s surface all objects fall with acceleration **g ≈ 9.8 m/s²** (often 10 m/s²) when air resistance is ignored.\n- With air resistance: as speed increases, air resistance increases until it **equals weight** → resultant force zero → **terminal velocity** (constant speed).\n- A parachute increases air resistance → decelerates to a lower terminal velocity.\n\n# Common exam traps\n\n- Distance–time gradient is **speed**; speed–time gradient is **acceleration** — don\u0027t mix them.\n- \"Constant velocity\" means acceleration = 0 and resultant force = 0.\n- Convert km/h to m/s: divide by 3.6 (72 km/h = 20 m/s).",
+        "order":  2,
+        "quiz":  [
+                     {
+                         "answer":  0,
+                         "explain":  "400 ÷ 50 = 8 m/s.",
+                         "options":  [
+                                         "8 m/s",
+                                         "0.125 m/s",
+                                         "20 000 m/s",
+                                         "450 m/s"
+                                     ],
+                         "q":  "A runner covers 400 m in 50 s. Average speed:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "(12 − 0)/6 = 2 m/s².",
+                         "options":  [
+                                         "72 m/s²",
+                                         "0.5 m/s²",
+                                         "2 m/s²",
+                                         "18 m/s²"
+                                     ],
+                         "q":  "A cyclist accelerates from rest to 12 m/s in 6 s. Acceleration:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Negative gradient = negative acceleration.",
+                         "options":  [
+                                         "Constant speed",
+                                         "Constant deceleration",
+                                         "Stationary object",
+                                         "Increasing acceleration"
+                                     ],
+                         "q":  "On a speed–time graph, a straight line sloping downwards shows:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Area = 8 × 20 = 160 m.",
+                         "options":  [
+                                         "0.4 m",
+                                         "28 m",
+                                         "160 m",
+                                         "2.5 m"
+                                     ],
+                         "q":  "A speed–time graph shows constant 8 m/s for 20 s. Distance travelled:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Balanced forces → zero resultant → constant velocity.",
+                         "options":  [
+                                         "Zero weight",
+                                         "Air resistance equal to its weight",
+                                         "Increasing acceleration",
+                                         "No air resistance"
+                                     ],
+                         "q":  "An object at terminal velocity has:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Gradient (speed) is increasing.",
+                         "options":  [
+                                         "Slowing down",
+                                         "Stationary",
+                                         "Accelerating",
+                                         "Moving backwards"
+                                     ],
+                         "q":  "A curve getting steeper on a distance–time graph means the object is:"
+                     }
+                 ],
+        "subject":  "physics",
+        "title":  "Motion: speed, velocity, acceleration \u0026 graphs",
+        "updated":  "Starter notes",
+        "id":  "phys-motion"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "кто? что? — подлежащее, без предлога.",
+                          "q":  "Вопросы именительного падежа?"
+                      },
+                      {
+                          "a":  "кого? чего? — «нет» (нет стола, нет книги).",
+                          "q":  "Вопросы родительного падежа и слово-помощник?"
+                      },
+                      {
+                          "a":  "кому? чему? — «дать» (дать другу, дать маме).",
+                          "q":  "Вопросы дательного падежа и слово-помощник?"
+                      },
+                      {
+                          "a":  "кого? что? — «вижу» (вижу брата, вижу книгу).",
+                          "q":  "Вопросы винительного падежа и слово-помощник?"
+                      },
+                      {
+                          "a":  "кем? чем? — «горжусь» (горжусь братом, столом).",
+                          "q":  "Вопросы творительного падежа и слово-помощник?"
+                      },
+                      {
+                          "a":  "о ком? о чём? — всегда с предлогом (о маме, в школе, на столе).",
+                          "q":  "Вопросы предложного падежа?"
+                      },
+                      {
+                          "a":  "Ж.р. и м.р. на -а/-я: мама, папа, земля, дядя.",
+                          "q":  "Какие слова относятся к 1-му склонению?"
+                      },
+                      {
+                          "a":  "М.р. с нулевым окончанием и ср.р. на -о/-е: стол, конь, окно, море.",
+                          "q":  "Какие слова относятся ко 2-му склонению?"
+                      },
+                      {
+                          "a":  "Ж.р. с ь на конце: ночь, мышь, тетрадь.",
+                          "q":  "Какие слова относятся к 3-му склонению?"
+                      },
+                      {
+                          "a":  "В школу — винительный (куда?); в школе — предложный (где?).",
+                          "q":  "«Иду в школу» и «сижу в школе» — какие падежи?"
+                      },
+                      {
+                          "a":  "-и: (нет) ночи, (дать) ночи, (о) ночи.",
+                          "q":  "Окончание 3-го склонения в Р.п., Д.п., П.п.?"
+                      },
+                      {
+                          "a":  "Винительный (читаю что? книгу; окончание -у).",
+                          "q":  "«Я читаю книгу» — падеж слова «книгу»?"
+                      },
+                      {
+                          "a":  "По роли: подлежащее (стол стоит) — И.п.; дополнение (вижу стол) — В.п.",
+                          "q":  "Как отличить В.п. от И.п. у слова «стол»?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "lang":  "ru",
+        "notes":  "# Шесть падежей\n\nПадеж показывает роль существительного в предложении. Чтобы определить падеж, задай **вопрос** от слова, к которому оно относится.\n\n| Падеж | Вопросы | Слово-помощник | Пример (стол / книга) |\n|---|---|---|---|\n| **Именительный** (И.п.) | кто? что? | есть | стол, книга |\n| **Родительный** (Р.п.) | кого? чего? | нет | стола, книги |\n| **Дательный** (Д.п.) | кому? чему? | дать | столу, книге |\n| **Винительный** (В.п.) | кого? что? | вижу | стол, книгу |\n| **Творительный** (Т.п.) | кем? чем? | горжусь | столом, книгой |\n| **Предложный** (П.п.) | о ком? о чём? | думаю о | о столе, о книге |\n\n\u003e Запомни порядок по фразе: **И**ван **Р**одил **Д**евчонку, **В**елел **Т**ащить **П**елёнку.\n\n## Именительный и винительный — как не перепутать\n\n- Именительный — всегда **подлежащее**, без предлога: *Брат читает.*\n- Винительный — **дополнение** (кого? что?): *Я вижу брата.* *Я читаю книгу.*\n- У **неодушевлённых** слов мужского рода И.п. = В.п. (вижу стол), у **одушевлённых** В.п. = Р.п. (вижу брата = нет брата).\n\n## Предлоги-подсказки\n\n| Падеж | Типичные предлоги |\n|---|---|\n| Родительный | без, у, от, до, из, для, около, после |\n| Дательный | к, по |\n| Винительный | в, на, за, через, про (при движении: иду **в школу**) |\n| Творительный | с, за, над, под, перед, между |\n| Предложный | о, об, в, на (при месте: сижу **в школе**) |\n\n\u003e **в / на:** куда? → винительный (*в школу*); где? → предложный (*в школе*).\n\n# Три склонения\n\n| Склонение | Какие слова | Примеры |\n|---|---|---|\n| 1-е | ж.р. и м.р. на **-а / -я** | мама, папа, земля, дядя |\n| 2-е | м.р. с нулевым окончанием, ср.р. на **-о / -е** | стол, конь, окно, море |\n| 3-е | ж.р. с **ь** на конце | ночь, мышь, тетрадь, дочь |\n\n## Окончания в единственном числе\n\n| Падеж | 1-е скл. (мама) | 2-е скл. (стол / окно) | 3-е скл. (ночь) |\n|---|---|---|---|\n| И.п. | мам**а** | стол / окн**о** | ночь |\n| Р.п. | мам**ы** | стол**а** / окн**а** | ноч**и** |\n| Д.п. | мам**е** | стол**у** / окн**у** | ноч**и** |\n| В.п. | мам**у** | стол / окн**о** | ночь |\n| Т.п. | мам**ой** | стол**ом** / окн**ом** | ноч**ью** |\n| П.п. | о мам**е** | о стол**е** / об окн**е** | о ноч**и** |\n\n**Частые ошибки**\n\n- 1-е скл. Д.п. и П.п. — **-е** (маме, о маме), а Р.п. — **-ы/-и** (мамы).\n- 3-е скл. Р.п., Д.п., П.п. — всегда **-и** (ночи, о ночи).\n- Слова на **-ия, -ий, -ие** (армия, гений, здание) в П.п. имеют **-и**: об армии, о гении, о здании.\n\n# Алгоритм определения падежа\n\n1. Найди слово, от которого зависит существительное.\n2. Задай **оба** вопроса падежа (кого? чего?).\n3. Подставь слово-помощник (*нет* кого? — родительный).\n4. Проверь предлог.\n5. Проверь окончание по таблице склонений.",
+        "order":  1,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "Гордимся чем? школой — творительный (-ой).",
+                         "options":  [
+                                         "Дательный",
+                                         "Творительный",
+                                         "Предложный",
+                                         "Родительный"
+                                     ],
+                         "q":  "«Мы гордимся нашей школой». Падеж слова «школой»:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Предлог «для» + вопрос «для кого?» → родительный.",
+                         "options":  [
+                                         "Винительный",
+                                         "Именительный",
+                                         "Родительный",
+                                         "Дательный"
+                                     ],
+                         "q":  "«Подарок для брата». Падеж слова «брата»:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Женский род, оканчивается на ь → 3-е склонение.",
+                         "options":  [
+                                         "1-е",
+                                         "2-е",
+                                         "3-е",
+                                         "Не склоняется"
+                                     ],
+                         "q":  "К какому склонению относится слово «тетрадь»?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Написал кому? маме — дательный, 1-е склонение → -е.",
+                         "options":  [
+                                         "мамы",
+                                         "маму",
+                                         "маме",
+                                         "мамой"
+                                     ],
+                         "q":  "Выбери правильное окончание: «Я написал письмо (мама)»."
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "Слова на -ие в предложном падеже имеют окончание -и: о здании.",
+                         "options":  [
+                                         "о здании",
+                                         "о здание",
+                                         "о здании",
+                                         "о зданию"
+                                     ],
+                         "q":  "«Мы говорили о (здание)»."
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Поймала кого? мышь — винительный; у 3-го склонения И.п. и В.п. совпадают.",
+                         "options":  [
+                                         "Именительный",
+                                         "Винительный",
+                                         "Родительный",
+                                         "Предложный"
+                                     ],
+                         "q":  "«Кошка поймала мышь». Падеж слова «мышь»:"
+                     }
+                 ],
+        "subject":  "rb",
+        "title":  "Падежи имён существительных",
+        "updated":  "Стартовые заметки",
+        "id":  "rus-cases"
+    }
+]

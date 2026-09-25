@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Grade 9 IGCSE revision: notes, flashcards and quizzes for every class.">
+<title>IGCSE Mock Tests and Notes</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%233A4FD6'/%3E%3Ctext x='32' y='42' font-family='Arial' font-weight='700' font-size='28' fill='white' text-anchor='middle'%3EIX%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Sans+Georgian:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ground:#F2F4F8; --surface:#FFFFFF; --surface2:#E9EDF4; --line:#D7DDE8;
+  --ink:#151C2A; --muted:#5B6678; --faint:#8B95A8;
+  --accent:#3A4FD6; --accent-ink:#FFFFFF; --accent-soft:#E4E8FB;
+  --know:#1F9A63; --know-soft:#DDF4E8; --again:#D9503A; --again-soft:#FBE3DE; --warn:#C98A12; --warn-soft:#FBEFD4;
+  --mark:#FFF1A8;
+  --shadow:0 1px 2px rgba(21,28,42,.06),0 8px 24px -12px rgba(21,28,42,.18);
+  --display:"Sora","Noto Sans","Noto Sans Georgian",system-ui,sans-serif;
+  --body:"Noto Sans","Noto Sans Georgian",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
+  --r:12px;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ground:#0F141E; --surface:#161D2B; --surface2:#1F2837; --line:#2B3547;
+    --ink:#E9EDF5; --muted:#A0AABC; --faint:#6F7A8F;
+    --accent:#8090FF; --accent-ink:#0F141E; --accent-soft:#232B4D;
+    --know:#3FCB8A; --know-soft:#153627; --again:#FF7A62; --again-soft:#43221C; --warn:#F0B542; --warn-soft:#3D2E10;
+    --mark:#5A4E12;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -12px rgba(0,0,0,.6);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ground:#0F141E; --surface:#161D2B; --surface2:#1F2837; --line:#2B3547;
+  --ink:#E9EDF5; --muted:#A0AABC; --faint:#6F7A8F;
+  --accent:#8090FF; --accent-ink:#0F141E; --accent-soft:#232B4D;
+  --know:#3FCB8A; --know-soft:#153627; --again:#FF7A62; --again-soft:#43221C; --warn:#F0B542; --warn-soft:#3D2E10;
+  --mark:#5A4E12;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -12px rgba(0,0,0,.6);
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+:lang(ka){font-family:"Noto Sans Georgian","Noto Sans",system-ui,sans-serif}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;padding:0}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+h1,h2,h3,h4{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.2}
+a{color:var(--accent)}
+.app{display:grid;grid-template-columns:272px 1fr;min-height:100%}
+/* sidebar */
+.side{background:var(--surface);border-right:1px solid var(--line);padding-block:20px;padding-inline:14px;position:sticky;top:env(safe-area-inset-top,0px);height:100vh;overflow:auto;display:flex;flex-direction:column;gap:6px}
+.brand{display:flex;align-items:center;gap:10px;padding:6px 8px 14px}
+.brand .logo{width:34px;height:34px;border-radius:9px;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font-family:var(--display);font-weight:700;font-size:16px}
+.brand h1{font-size:16px;font-weight:600}
+.brand small{display:block;color:var(--muted);font-size:12px;font-family:var(--body)}
+.side .label{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);padding:10px 8px 4px;font-weight:600}
+.navbtn{display:flex;align-items:center;gap:10px;width:100%;text-align:left;padding:8px 10px;border-radius:10px;color:var(--ink)}
+.navbtn:hover{background:var(--surface2)}
+.navbtn.active{background:var(--accent-soft);color:var(--accent);font-weight:600}
+.navbtn .dot{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-family:var(--display);font-weight:600;font-size:13px;color:#fff;flex:none}
+.navbtn .nm{flex:1;min-width:0}
+.navbtn .nm span{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.navbtn .nm small{display:block;color:var(--muted);font-size:11.5px;font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.navbtn .pct{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
+/* main */
+.main{padding-block:22px 60px;padding-inline:clamp(16px,4vw,44px);min-width:0}
+.topbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:22px}
+.search{flex:1;min-width:200px;display:flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px 12px}
+.search input{flex:1;border:0;background:none;color:inherit;font:inherit;min-width:0}
+.search input::placeholder{color:var(--faint)}
+.chip{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 12px;font-size:13px;color:var(--muted);white-space:nowrap}
+.chip.on{background:var(--ink);color:var(--ground);border-color:var(--ink)}
+.status{font-size:12px;color:var(--faint);display:flex;align-items:center;gap:6px}
+.status i{width:8px;height:8px;border-radius:50%;background:var(--warn);display:inline-block}
+.status.ok i{background:var(--know)}
+.status.bad i{background:var(--again)}
+.hero{display:flex;justify-content:space-between;gap:16px;align-items:flex-end;flex-wrap:wrap;margin-bottom:18px}
+.hero h2{font-size:clamp(22px,3vw,30px);font-weight:600}
+.hero p{margin:6px 0 0;color:var(--muted);max-width:60ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;text-align:left;display:flex;flex-direction:column;gap:10px;box-shadow:var(--shadow);transition:transform .12s}
+.card:hover{transform:translateY(-2px)}
+.card .head{display:flex;align-items:center;gap:10px}
+.card .dot{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;color:#fff;font-family:var(--display);font-weight:700}
+.card h3{font-size:15px;font-weight:600}
+.card .teacher{font-size:12px;color:var(--muted)}
+.card .meta{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.bar{height:6px;border-radius:99px;background:var(--surface2);overflow:hidden}
+.bar b{display:block;height:100%;background:var(--accent);border-radius:99px;transition:width .3s}
+.bar b.k{background:var(--know)}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:var(--r);padding:28px;text-align:center;color:var(--muted)}
+.crumb{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted);margin-bottom:10px;flex-wrap:wrap}
+.crumb button{color:var(--accent);font-weight:500}
+.crumb .sep{color:var(--faint)}
+/* topic list */
+.topics{display:flex;flex-direction:column;gap:8px;margin-top:16px}
+.trow{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;text-align:left}
+.trow:hover{border-color:var(--accent)}
+.trow h3{font-size:15px;font-weight:600}
+.trow .sub{font-size:12px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;margin-top:4px}
+.tag{font-size:11px;padding:2px 8px;border-radius:99px;background:var(--surface2);color:var(--muted);font-weight:500}
+.tag.exam{background:var(--warn-soft);color:var(--warn)}
+.tag.ka{background:var(--accent-soft);color:var(--accent)}
+.ring{width:42px;height:42px;position:relative;flex:none}
+.ring svg{width:100%;height:100%;transform:rotate(-90deg)}
+.ring circle{fill:none;stroke-width:4}
+.ring .bg{stroke:var(--surface2)}
+.ring .fg{stroke:var(--know);stroke-linecap:round;transition:stroke-dashoffset .4s}
+.ring span{position:absolute;inset:0;display:grid;place-items:center;font-size:11px;font-weight:600;font-variant-numeric:tabular-nums}
+/* topic page */
+.tabs{display:flex;gap:4px;background:var(--surface2);padding:4px;border-radius:12px;width:max-content;max-width:100%;margin:14px 0 18px}
+.tabs button{padding:7px 16px;border-radius:9px;font-weight:500;color:var(--muted);font-size:14px}
+.tabs button.on{background:var(--surface);color:var(--ink);box-shadow:var(--shadow)}
+.tabs button small{color:var(--faint);font-weight:400;margin-left:4px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:clamp(16px,3vw,32px);max-width:860px}
+.notes{max-width:70ch;font-size:15.5px}
+.notes h1{font-size:24px;margin:0 0 14px}
+.notes h2{font-size:19px;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+.notes h3{font-size:16px;margin:20px 0 8px}
+.notes p{margin:0 0 12px}
+.notes ul,.notes ol{margin:0 0 12px;padding-left:22px}
+.notes li{margin:3px 0}
+.notes blockquote{margin:0 0 12px;padding:10px 14px;border-left:3px solid var(--accent);background:var(--accent-soft);border-radius:0 8px 8px 0}
+.notes blockquote p:last-child{margin:0}
+.notes code{font-family:var(--mono);font-size:.9em;background:var(--surface2);padding:1px 5px;border-radius:4px}
+.notes pre{background:var(--surface2);padding:12px 14px;border-radius:8px;overflow-x:auto;margin:0 0 12px}
+.notes pre code{background:none;padding:0}
+.notes mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:2px}
+.notes .tw{overflow-x:auto;margin:0 0 12px}
+.notes table{border-collapse:collapse;min-width:50%;font-size:14px}
+.notes th,.notes td{border:1px solid var(--line);padding:6px 10px;text-align:left;vertical-align:top}
+.notes th{background:var(--surface2);font-weight:600}
+.notes hr{border:0;border-top:1px solid var(--line);margin:20px 0}
+/* flashcards */
+.fc-wrap{max-width:620px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+.fc-top{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--muted);flex-wrap:wrap;gap:8px}
+.fc{perspective:1200px;min-height:260px}
+.fc .inner{position:relative;width:100%;min-height:260px;transition:transform .45s;transform-style:preserve-3d}
+.fc.flip .inner{transform:rotateY(180deg)}
+.fc .face{position:absolute;inset:0;backface-visibility:hidden;background:var(--surface2);border:1px solid var(--line);border-radius:16px;padding:28px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;font-size:19px;line-height:1.45;overflow:auto}
+.fc .face.back{transform:rotateY(180deg);background:var(--surface);border-color:var(--accent)}
+.fc .face small{position:absolute;top:12px;left:16px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);font-weight:600}
+.fc-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.btn{padding:10px 18px;border-radius:10px;font-weight:600;font-size:14px;border:1px solid var(--line);background:var(--surface)}
+.btn:hover{border-color:var(--accent)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.btn.know{background:var(--know-soft);color:var(--know);border-color:transparent}
+.btn.again{background:var(--again-soft);color:var(--again);border-color:transparent}
+.btn.sm{padding:6px 12px;font-size:13px;font-weight:500}
+.btn:disabled{opacity:.5;cursor:default}
+@media (prefers-reduced-motion:reduce){.fc .inner,.card,.bar b{transition:none}}
+/* quiz */
+.qz{max-width:680px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+.qz .qn{font-size:12px;color:var(--faint);letter-spacing:.06em;text-transform:uppercase;font-weight:600}
+.qz .qt{font-size:18px;font-weight:600;font-family:var(--display)}
+.opts{display:flex;flex-direction:column;gap:8px}
+.opt{display:flex;gap:12px;align-items:flex-start;text-align:left;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface2)}
+.opt:hover{border-color:var(--accent)}
+.opt .k{width:24px;height:24px;border-radius:6px;background:var(--surface);border:1px solid var(--line);display:grid;place-items:center;font-size:12px;font-weight:600;flex:none}
+.opt.right{background:var(--know-soft);border-color:var(--know)}
+.opt.wrong{background:var(--again-soft);border-color:var(--again)}
+.opt:disabled{cursor:default}
+.explain{padding:12px 14px;border-radius:10px;background:var(--accent-soft);font-size:14px}
+.score{text-align:center;padding:20px}
+.score .big{font-family:var(--display);font-size:48px;font-weight:700;font-variant-numeric:tabular-nums}
+.score p{color:var(--muted)}
+.results{display:flex;flex-direction:column;gap:8px}
+.hit{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 14px;text-align:left}
+.hit .p{font-size:12px;color:var(--muted)}
+.hit .s{font-size:13px;color:var(--muted);margin-top:4px;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.hit mark{background:var(--mark);color:inherit}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--ground);padding:9px 16px;border-radius:99px;font-size:13px;box-shadow:var(--shadow);opacity:0;pointer-events:none;transition:opacity .2s}
+.toast.show{opacity:1}
+.foot{margin-top:28px;font-size:12px;color:var(--faint)}
+@media (max-width:820px){
+  .app{grid-template-columns:1fr}
+  .side{position:static;height:auto;border-right:0;border-bottom:1px solid var(--line);flex-direction:row;flex-wrap:nowrap;overflow-x:auto;gap:6px;padding-block:10px;padding-inline:16px;align-items:center}
+  .side .label{display:none}
+  .brand{padding:0 8px 0 0}
+  .brand h1{display:none}
+  .navbtn{width:auto;padding:6px 10px 6px 6px;border:1px solid var(--line);border-radius:999px;flex:none}
+  .navbtn .nm small,.navbtn .pct{display:none}
+  .navbtn .dot{width:24px;height:24px;font-size:11px}
+  .fc .face{font-size:17px;padding:22px}
+}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+
+<div class="app" id="app">
+  <aside class="side" id="side">
+    <div class="brand"><div class="logo">IX</div><div><h1>IGCSE Mock Tests and Notes</h1><small>Grade 9 · IGCSE</small></div></div>
+    <button class="navbtn active" id="nav-home" data-nav="home"><span class="dot" style="background:var(--accent)">⌂</span><span class="nm"><span>All subjects</span></span></button>
+    <div class="label">Classes</div>
+    <div id="nav-subjects"></div>
+  </aside>
+  <main class="main" id="main">
+    <div class="topbar">
+      <label class="search"><span aria-hidden="true">⌕</span><input id="q" type="search" placeholder="Search notes, flashcards, questions…" autocomplete="off"></label>
+      <div id="exam-chips" style="display:flex;gap:6px;flex-wrap:wrap"></div>
+      <span class="status" id="status"><i></i><span>Connecting…</span></span>
+    </div>
+    <div id="view"></div>
+  </main>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+'use strict';
+const $=s=>document.querySelector(s);
+const S={subjects:[],topics:[],progress:{cards:{},quiz:{},seen:{}},view:'home',subject:null,topic:null,tab:'notes',exam:'all',q:'',db:null,uid:null,pdoc:null,ready:false,fc:{i:0,flip:false,order:[],onlyLearn:false},qz:{i:0,picked:null,score:0,done:false,answers:[]}};
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const COLORS=['#5B6CF0','#E0553A','#1F9A63','#C98A12','#8A4FD3','#0F8FA8','#D33C7A','#4A6B2B','#B85C1A','#3B6EA5'];
+function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('show');clearTimeout(t._h);t._h=setTimeout(()=>t.classList.remove('show'),1800);}
+function setStatus(cls,msg){const e=$('#status');e.className='status '+cls;e.querySelector('span').textContent=msg;}
+
+/* ---------- markdown ---------- */
+function inline(s){
+  s=esc(s);
+  s=s.replace(/`([^`]+)`/g,'<code>$1</code>');
+  s=s.replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');
+  s=s.replace(/(^|[^*])\*([^*\n]+)\*/g,'$1<em>$2</em>');
+  s=s.replace(/==([^=]+)==/g,'<mark>$1</mark>');
+  s=s.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>');
+  return s;
+}
+function md(src){
+  const lines=String(src||'').replace(/\r/g,'').split('\n');let out=[],i=0;
+  const para=[];const flush=()=>{if(para.length){out.push('<p>'+inline(para.join(' '))+'</p>');para.length=0;}};
+  while(i<lines.length){
+    let l=lines[i];
+    if(/^```/.test(l)){flush();let b=[];i++;while(i<lines.length&&!/^```/.test(lines[i])){b.push(lines[i]);i++;}i++;out.push('<pre><code>'+esc(b.join('\n'))+'</code></pre>');continue;}
+    if(/^\s*$/.test(l)){flush();i++;continue;}
+    let m;
+    if((m=l.match(/^(#{1,4})\s+(.*)/))){flush();const n=m[1].length;out.push(`<h${n}>${inline(m[2])}</h${n}>`);i++;continue;}
+    if(/^(-{3,}|\*{3,})\s*$/.test(l)){flush();out.push('<hr>');i++;continue;}
+    if(/^\|/.test(l)){flush();let rows=[];while(i<lines.length&&/^\|/.test(lines[i])){rows.push(lines[i]);i++;}
+      const cells=r=>r.replace(/^\||\|$/g,'').split('|').map(c=>c.trim());
+      let h='<div class="tw"><table>';rows.forEach((r,k)=>{if(/^\|\s*:?-+/.test(r))return;const cs=cells(r);const tag=k===0?'th':'td';h+='<tr>'+cs.map(c=>`<${tag}>${inline(c)}</${tag}>`).join('')+'</tr>';});out.push(h+'</table></div>');continue;}
+    if(/^>\s?/.test(l)){flush();let b=[];while(i<lines.length&&/^>\s?/.test(lines[i])){b.push(lines[i].replace(/^>\s?/,''));i++;}out.push('<blockquote>'+md(b.join('\n'))+'</blockquote>');continue;}
+    if(/^\s*[-*•]\s+/.test(l)){flush();let h='<ul>';while(i<lines.length&&/^\s*[-*•]\s+/.test(lines[i])){h+='<li>'+inline(lines[i].replace(/^\s*[-*•]\s+/,''))+'</li>';i++;}out.push(h+'</ul>');continue;}
+    if(/^\s*\d+[.)]\s+/.test(l)){flush();let h='<ol>';while(i<lines.length&&/^\s*\d+[.)]\s+/.test(lines[i])){h+='<li>'+inline(lines[i].replace(/^\s*\d+[.)]\s+/,''))+'</li>';i++;}out.push(h+'</ol>');continue;}
+    para.push(l);i++;
+  }
+  flush();return out.join('\n');
+}
+
+/* ---------- progress ---------- */
+function loadLocal(){try{const j=localStorage.getItem('rd-progress');if(j)S.progress=Object.assign({cards:{},quiz:{},seen:{}},JSON.parse(j));}catch(e){}}
+function saveLocal(){try{localStorage.setItem('rd-progress',JSON.stringify(S.progress));}catch(e){}}
+let saveT=null,saving=Promise.resolve();
+function saveProgress(){
+  saveLocal();
+  if(!S.pdoc)return;
+  clearTimeout(saveT);
+  saveT=setTimeout(()=>{saving=saving.then(()=>S.pdoc.set(JSON.parse(JSON.stringify(S.progress)))).catch(e=>{console.warn('progress save',e);});},600);
+}
+function cardStates(t){return S.progress.cards[t.id]||{};}
+function knownCount(t){const st=cardStates(t);return (t.cards||[]).filter((c,i)=>st[i]==='know').length;}
+function quizBest(t){return (S.progress.quiz[t.id]||{}).best??null;}
+function topicMastery(t){
+  const parts=[];
+  if((t.cards||[]).length)parts.push(knownCount(t)/t.cards.length);
+  if((t.quiz||[]).length){const b=quizBest(t);parts.push(b==null?0:b/100);}
+  if(!parts.length)return S.progress.seen[t.id]?1:0;
+  return parts.reduce((a,b)=>a+b,0)/parts.length;
+}
+function subjectTopics(id){return S.topics.filter(t=>t.subject===id&&(S.exam==='all'||(t.exam||'')===S.exam)).sort((a,b)=>(a.order??99)-(b.order??99)||a.title.localeCompare(b.title));}
+function subjectMastery(id){const ts=S.topics.filter(t=>t.subject===id);if(!ts.length)return 0;return ts.reduce((a,t)=>a+topicMastery(t),0)/ts.length;}
+const subj=id=>S.subjects.find(s=>s.id===id);
+const initial=s=>(s.short||s.name||'?').trim().charAt(0).toUpperCase();
+const color=(s,i)=>s.color||COLORS[i%COLORS.length];
+
+/* ---------- render ---------- */
+function ring(p){const r=17,c=2*Math.PI*r;return `<div class="ring"><svg viewBox="0 0 42 42"><circle class="bg" cx="21" cy="21" r="${r}"></circle><circle class="fg" cx="21" cy="21" r="${r}" stroke-dasharray="${c}" stroke-dashoffset="${c*(1-p)}"></circle></svg><span>${Math.round(p*100)}</span></div>`;}
+function renderNav(){
+  const sorted=[...S.subjects].sort((a,b)=>(a.order??99)-(b.order??99));
+  $('#nav-subjects').innerHTML=sorted.map((s,i)=>`<button class="navbtn ${S.view!=='home'&&S.subject===s.id?'active':''}" data-subject="${esc(s.id)}" ${s.lang==='ka'?'lang="ka"':''}><span class="dot" style="background:${color(s,i)}">${esc(initial(s))}</span><span class="nm"><span>${esc(s.name)}</span>${s.teacher?`<small>${esc(s.teacher)}</small>`:''}</span><span class="pct">${Math.round(subjectMastery(s.id)*100)}%</span></button>`).join('');
+  $('#nav-home').classList.toggle('active',S.view==='home');
+  const exams=[...new Set(S.topics.map(t=>t.exam).filter(Boolean))].sort();
+  $('#exam-chips').innerHTML=exams.length?[`<button class="chip ${S.exam==='all'?'on':''}" data-exam="all">Everything</button>`,...exams.map(e=>`<button class="chip ${S.exam===e?'on':''}" data-exam="${esc(e)}">${esc(e)}</button>`)].join(''):'';
+}
+function render(){
+  renderNav();
+  const v=$('#view');
+  if(S.q.trim())return v.innerHTML=renderSearch();
+  if(S.view==='home')v.innerHTML=renderHome();
+  else if(S.view==='subject')v.innerHTML=renderSubject();
+  else if(S.view==='topic')v.innerHTML=renderTopic();
+  window.scrollTo({top:0});
+}
+function renderHome(){
+  const sorted=[...S.subjects].sort((a,b)=>(a.order??99)-(b.order??99));
+  const total=S.topics.length,cards=S.topics.reduce((a,t)=>a+(t.cards||[]).length,0),qs=S.topics.reduce((a,t)=>a+(t.quiz||[]).length,0);
+  const overall=sorted.length?sorted.reduce((a,s)=>a+subjectMastery(s.id),0)/sorted.length:0;
+  let h=`<div class="hero"><div><h2>Everything for the next exam, in one place.</h2><p>Pick a class, read the notes, flip the flashcards, then take the quiz. Your progress is saved automatically.</p></div>${ring(overall)}</div>`;
+  if(!S.ready&&!S.subjects.length)return h+`<div class="empty">Loading your notes…</div>`;
+  if(!sorted.length)return h+`<div class="empty">No subjects yet. Send Claude photos of your notes or textbook and they will show up here.</div>`;
+  h+=`<div class="grid">`+sorted.map((s,i)=>{const ts=S.topics.filter(t=>t.subject===s.id);const m=subjectMastery(s.id);
+    return `<button class="card" data-subject="${esc(s.id)}" ${s.lang==='ka'?'lang="ka"':''}><div class="head"><span class="dot" style="background:${color(s,i)}">${esc(initial(s))}</span><div><h3>${esc(s.name)}</h3><div class="teacher">${esc(s.teacher||'')}</div></div></div><div class="meta"><span>${ts.length} topic${ts.length===1?'':'s'}</span><span>${Math.round(m*100)}% mastered</span></div><div class="bar"><b class="${m>=.8?'k':''}" style="width:${Math.round(m*100)}%"></b></div></button>`;}).join('')+`</div>`;
+  h+=`<p class="foot">${total} topics · ${cards} flashcards · ${qs} quiz questions</p>`;
+  return h;
+}
+function renderSubject(){
+  const s=subj(S.subject);if(!s)return `<div class="empty">Subject not found.</div>`;
+  const ts=subjectTopics(s.id);const ka=s.lang==='ka';
+  let h=`<div class="crumb"><button data-nav="home">All subjects</button><span class="sep">›</span><span>${esc(s.name)}</span></div>`;
+  h+=`<div class="hero" ${ka?'lang="ka"':''}><div><h2>${esc(s.name)}</h2><p>${esc(s.teacher?s.teacher+' · ':'')}${ts.length} topic${ts.length===1?'':'s'}${s.note?' · '+esc(s.note):''}</p></div>${ring(subjectMastery(s.id))}</div>`;
+  if(!ts.length)return h+`<div class="empty">${ka?'ამ საგანში ჯერ ჩანაწერები არ არის. გამოუგზავნე Claude-ს სახელმძღვანელოს ან რვეულის ფოტოები.':'No notes for this class yet. Send Claude photos of your book or notebook pages and they will appear here.'}</div>`;
+  h+=`<div class="topics" ${ka?'lang="ka"':''}>`+ts.map(t=>{const kc=(t.cards||[]).length,qc=(t.quiz||[]).length,b=quizBest(t);
+    return `<button class="trow" data-topic="${esc(t.id)}"><div><h3>${esc(t.title)}</h3><div class="sub">${t.exam?`<span class="tag exam">${esc(t.exam)}</span>`:''}${kc?`<span>${knownCount(t)}/${kc} cards known</span>`:''}${qc?`<span>quiz best ${b==null?'—':b+'%'}</span>`:''}${t.updated?`<span>${esc(t.updated)}</span>`:''}</div></div>${ring(topicMastery(t))}</button>`;}).join('')+`</div>`;
+  return h;
+}
+function renderTopic(){
+  const t=S.topics.find(x=>x.id===S.topic);if(!t)return `<div class="empty">Topic not found.</div>`;
+  const s=subj(t.subject)||{};const ka=s.lang==='ka'||t.lang==='ka';
+  const nc=(t.cards||[]).length,nq=(t.quiz||[]).length;
+  let h=`<div class="crumb"><button data-nav="home">All subjects</button><span class="sep">›</span><button data-subject="${esc(s.id||'')}">${esc(s.name||'')}</button><span class="sep">›</span><span ${ka?'lang="ka"':''}>${esc(t.title)}</span></div>`;
+  h+=`<div class="hero" ${ka?'lang="ka"':''}><div><h2>${esc(t.title)}</h2><p>${t.exam?`<span class="tag exam">${esc(t.exam)}</span> `:''}${t.source?esc(t.source):''}</p></div>${ring(topicMastery(t))}</div>`;
+  h+=`<div class="tabs" role="tablist"><button class="${S.tab==='notes'?'on':''}" data-tab="notes">${ka?'ჩანაწერები':'Notes'}</button><button class="${S.tab==='cards'?'on':''}" data-tab="cards" ${nc?'':'disabled'}>${ka?'ბარათები':'Flashcards'}<small>${nc}</small></button><button class="${S.tab==='quiz'?'on':''}" data-tab="quiz" ${nq?'':'disabled'}>${ka?'ტესტი':'Quiz'}<small>${nq}</small></button></div>`;
+  h+=`<div class="panel" ${ka?'lang="ka"':''}>`;
+  if(S.tab==='notes')h+=`<div class="notes">${t.notes?md(t.notes):'<p style="color:var(--muted)">No notes yet for this topic.</p>'}</div>`;
+  else if(S.tab==='cards')h+=renderCards(t);
+  else h+=renderQuiz(t);
+  return h+`</div>`;
+}
+function fcOrder(t){const st=cardStates(t);let idx=t.cards.map((c,i)=>i);if(S.fc.onlyLearn){const f=idx.filter(i=>st[i]!=='know');if(f.length)idx=f;}return idx;}
+function renderCards(t){
+  const st=cardStates(t);const order=S.fc.order.length?S.fc.order:fcOrder(t);S.fc.order=order;
+  if(S.fc.i>=order.length)S.fc.i=0;
+  const ci=order[S.fc.i];const c=t.cards[ci];const known=knownCount(t);
+  const state=st[ci];
+  return `<div class="fc-wrap"><div class="fc-top"><span>Card ${S.fc.i+1} of ${order.length} · <b style="color:var(--know)">${known}</b>/${t.cards.length} known</span><span style="display:flex;gap:6px"><button class="btn sm ${S.fc.onlyLearn?'primary':''}" data-fc="learn">Only still learning</button><button class="btn sm" data-fc="shuffle">Shuffle</button><button class="btn sm" data-fc="reset">Reset</button></span></div>
+  <div class="bar"><b class="k" style="width:${Math.round(known/t.cards.length*100)}%"></b></div>
+  <button class="fc ${S.fc.flip?'flip':''}" data-fc="flip" aria-label="Flip card"><div class="inner"><div class="face front"><small>Question${state?' · '+(state==='know'?'known':'learning'):''}</small><div>${md(c.q)}</div></div><div class="face back"><small>Answer</small><div>${md(c.a)}</div></div></div></button>
+  <div class="fc-actions"><button class="btn" data-fc="prev">‹ Back</button><button class="btn again" data-fc="again">Still learning</button><button class="btn know" data-fc="know">Got it ✓</button><button class="btn" data-fc="next">Next ›</button></div></div>`;
+}
+function renderQuiz(t){
+  const q=S.qz;const qs=t.quiz;
+  if(q.done){const pct=Math.round(q.score/qs.length*100);const best=quizBest(t);
+    return `<div class="qz"><div class="score"><div class="big">${pct}%</div><p>${q.score} of ${qs.length} correct${best!=null?` · best ${best}%`:''}</p><button class="btn primary" data-qz="restart">Try again</button></div><div class="results">${qs.map((x,i)=>`<div class="hit"><div class="p">${q.answers[i]===x.answer?'✓':'✗'} Q${i+1}</div><div>${inline(x.q)}</div><div class="s">${inline(x.options[x.answer])}${x.explain?' — '+inline(x.explain):''}</div></div>`).join('')}</div></div>`;}
+  const x=qs[q.i];const picked=q.picked;
+  return `<div class="qz"><div class="bar"><b style="width:${Math.round(q.i/qs.length*100)}%"></b></div><div class="qn">Question ${q.i+1} of ${qs.length}</div><div class="qt">${inline(x.q)}</div><div class="opts">${x.options.map((o,k)=>{let cls='opt';if(picked!=null){if(k===x.answer)cls+=' right';else if(k===picked)cls+=' wrong';}return `<button class="${cls}" data-opt="${k}" ${picked!=null?'disabled':''}><span class="k">${String.fromCharCode(65+k)}</span><span>${inline(o)}</span></button>`;}).join('')}</div>${picked!=null?`<div class="explain">${picked===x.answer?'<b>Correct.</b> ':'<b>Not quite.</b> '}${x.explain?inline(x.explain):''}</div><div style="text-align:right"><button class="btn primary" data-qz="next">${q.i+1<qs.length?'Next question ›':'See score'}</button></div>`:''}</div>`;
+}
+function renderSearch(){
+  const q=S.q.trim().toLowerCase();const hits=[];
+  const hl=s=>esc(s).replace(new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi'),m=>`<mark>${m}</mark>`);
+  for(const t of S.topics){const s=subj(t.subject)||{};const p=(s.name||'')+' › '+t.title;
+    if(t.title.toLowerCase().includes(q))hits.push({t,p,s:t.notes?t.notes.slice(0,140):'' ,tab:'notes'});
+    const ni=(t.notes||'').toLowerCase().indexOf(q);if(ni>=0)hits.push({t,p,s:(t.notes||'').slice(Math.max(0,ni-60),ni+100),tab:'notes'});
+    (t.cards||[]).forEach(c=>{if((c.q+' '+c.a).toLowerCase().includes(q))hits.push({t,p,s:c.q+' → '+c.a,tab:'cards'});});
+    (t.quiz||[]).forEach(c=>{if(c.q.toLowerCase().includes(q))hits.push({t,p,s:c.q,tab:'quiz'});});
+  }
+  if(!hits.length)return `<div class="empty">Nothing found for “${esc(S.q)}”.</div>`;
+  return `<div class="results">${hits.slice(0,40).map(h=>`<button class="hit" data-topic="${esc(h.t.id)}" data-gotab="${h.tab}"><div class="p">${esc(h.p)} · ${h.tab}</div><div class="s">${hl(h.s.replace(/[#*`>|]/g,''))}</div></button>`).join('')}</div>`;
+}
+
+/* ---------- actions ---------- */
+function go(view,extra={}){Object.assign(S,{view},extra);S.q='';$('#q').value='';S.fc={i:0,flip:false,order:[],onlyLearn:false};S.qz={i:0,picked:null,score:0,done:false,answers:[]};
+  if(view==='topic'){S.progress.seen[S.topic]=true;saveProgress();}
+  try{history.replaceState(null,'','#'+(view==='home'?'':view==='subject'?S.subject:S.topic));}catch(e){}
+  render();}
+document.addEventListener('click',e=>{
+  const b=e.target.closest('[data-nav],[data-subject],[data-topic],[data-tab],[data-exam],[data-fc],[data-qz],[data-opt]');if(!b)return;
+  const d=b.dataset;
+  if(d.nav==='home')return go('home');
+  if(d.subject!=null&&!d.topic)return go('subject',{subject:d.subject});
+  if(d.topic!=null){const t=S.topics.find(x=>x.id===d.topic);return go('topic',{topic:d.topic,subject:t?t.subject:S.subject,tab:d.gotab||'notes'});}
+  if(d.exam){S.exam=d.exam;S.fc.order=[];return render();}
+  if(d.tab){S.tab=d.tab;S.fc.flip=false;return render();}
+  const t=S.topics.find(x=>x.id===S.topic);
+  if(d.fc&&t){const f=S.fc;const ci=f.order[f.i];
+    if(d.fc==='flip')f.flip=!f.flip;
+    else if(d.fc==='next'){f.i=(f.i+1)%f.order.length;f.flip=false;}
+    else if(d.fc==='prev'){f.i=(f.i-1+f.order.length)%f.order.length;f.flip=false;}
+    else if(d.fc==='know'||d.fc==='again'){S.progress.cards[t.id]=S.progress.cards[t.id]||{};S.progress.cards[t.id][ci]=d.fc==='know'?'know':'learn';saveProgress();
+      if(f.onlyLearn){f.order=fcOrder(t);if(f.i>=f.order.length)f.i=0;}else{f.i=(f.i+1)%f.order.length;}f.flip=false;
+      if(d.fc==='know'&&knownCount(t)===t.cards.length)toast('All cards known 🎉');}
+    else if(d.fc==='shuffle'){f.order=fcOrder(t).sort(()=>Math.random()-.5);f.i=0;f.flip=false;}
+    else if(d.fc==='learn'){f.onlyLearn=!f.onlyLearn;f.order=fcOrder(t);f.i=0;f.flip=false;}
+    else if(d.fc==='reset'){delete S.progress.cards[t.id];saveProgress();f.order=fcOrder(t);f.i=0;f.flip=false;toast('Card progress reset');}
+    return render();}
+  if(d.opt!=null&&t){const q=S.qz;if(q.picked!=null)return;q.picked=+d.opt;q.answers[q.i]=q.picked;if(q.picked===t.quiz[q.i].answer)q.score++;return render();}
+  if(d.qz&&t){const q=S.qz;
+    if(d.qz==='restart'){S.qz={i:0,picked:null,score:0,done:false,answers:[]};}
+    else if(d.qz==='next'){if(q.i+1<t.quiz.length){q.i++;q.picked=null;}else{q.done=true;const pct=Math.round(q.score/t.quiz.length*100);const rec=S.progress.quiz[t.id]||{best:0,attempts:0};rec.attempts++;rec.last=pct;rec.best=Math.max(rec.best||0,pct);S.progress.quiz[t.id]=rec;saveProgress();if(pct===100)toast('Perfect score!');}}
+    return render();}
+});
+$('#q').addEventListener('input',e=>{S.q=e.target.value;render();});
+document.addEventListener('keydown',e=>{if(S.view!=='topic'||S.tab!=='cards'||e.target.tagName==='INPUT')return;
+  const map={' ':'flip','ArrowRight':'next','ArrowLeft':'prev','1':'again','2':'know'};if(map[e.key]){e.preventDefault();document.querySelector(`[data-fc="${map[e.key]}"]`)?.click();}});
+
+/* ---------- boot ---------- */
+loadLocal();
+function applyHash(){const h=(location.hash||'').slice(1);if(!h)return;if(S.subjects.some(s=>s.id===h)){S.view='subject';S.subject=h;}else{const t=S.topics.find(x=>x.id===h);if(t){S.view='topic';S.topic=t.id;S.subject=t.subject;}}}
+render();
+let hashApplied=false;
+async function boot(){
+  try{
+    const v='?v='+Date.now();
+    const [subs,tops]=await Promise.all([fetch('data/subjects.json'+v).then(r=>r.json()),fetch('data/topics.json'+v).then(r=>r.json())]);
+    S.subjects=subs;S.topics=tops;S.ready=true;
+    setStatus('ok','Progress saved in this browser');
+    if(!hashApplied){hashApplied=true;applyHash();}
+    render();
+  }catch(e){S.ready=true;setStatus('bad','Could not load notes · check your connection');console.warn(e);render();}
+}
+boot();
+})();
+</script>
+</body>
+</html>

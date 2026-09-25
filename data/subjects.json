@@ -1,0 +1,92 @@
+[
+    {
+        "color":  "#C98A12",
+        "lang":  "en",
+        "name":  "Biology",
+        "order":  10,
+        "short":  "B",
+        "teacher":  "Grade 9 · Group 1",
+        "id":  "biology"
+    },
+    {
+        "color":  "#8A4FD3",
+        "lang":  "en",
+        "name":  "Chemistry (Pure)",
+        "order":  3,
+        "short":  "C",
+        "teacher":  "Chemistry – 9",
+        "id":  "chemistry"
+    },
+    {
+        "color":  "#1F9A63",
+        "lang":  "en",
+        "name":  "IGCSE Computer Science",
+        "order":  4,
+        "short":  "9",
+        "teacher":  "Irma Marghania",
+        "id":  "cs"
+    },
+    {
+        "color":  "#0F8FA8",
+        "lang":  "en",
+        "name":  "IGCSE First Language English",
+        "order":  5,
+        "short":  "G",
+        "teacher":  "Ms. Gvantsa",
+        "id":  "english"
+    },
+    {
+        "color":  "#3B6EA5",
+        "lang":  "ka",
+        "name":  "ქართული (IX ლურჯი)",
+        "order":  9,
+        "short":  "ქ",
+        "teacher":  "ნინო მხეიძე",
+        "id":  "georgian"
+    },
+    {
+        "color":  "#E0553A",
+        "lang":  "en",
+        "name":  "Global Perspectives",
+        "order":  7,
+        "short":  "G",
+        "teacher":  "",
+        "id":  "gp"
+    },
+    {
+        "color":  "#B85C1A",
+        "lang":  "ka",
+        "name":  "ისტორია (IX Blue)",
+        "order":  8,
+        "short":  "ი",
+        "teacher":  "IX BLUE – HISTORY",
+        "id":  "history"
+    },
+    {
+        "color":  "#4A6B2B",
+        "lang":  "en",
+        "name":  "Mathematics",
+        "order":  2,
+        "short":  "M",
+        "teacher":  "Natalia Shanidze · IX mix (26/27)",
+        "id":  "maths"
+    },
+    {
+        "color":  "#5B6CF0",
+        "lang":  "en",
+        "name":  "Physics",
+        "order":  1,
+        "short":  "P",
+        "teacher":  "Mr. Temo · Grade 9 pure",
+        "id":  "physics"
+    },
+    {
+        "color":  "#D33C7A",
+        "lang":  "ru",
+        "name":  "Русский язык (9 R/B)",
+        "order":  6,
+        "short":  "Р",
+        "teacher":  "Nata Baghashvili",
+        "id":  "rb"
+    }
+]
