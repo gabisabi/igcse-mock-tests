@@ -434,6 +434,157 @@
     {
         "cards":  [
                       {
+                          "a":  "A substance that increases the rate of a chemical reaction and is not changed or used up by the reaction.",
+                          "q":  "Define a catalyst."
+                      },
+                      {
+                          "a":  "A protein that functions as a biological catalyst.",
+                          "q":  "Define an enzyme."
+                      },
+                      {
+                          "a":  "They speed up the reactions of metabolism enough for life to happen at body temperature.",
+                          "q":  "Why are enzymes important?"
+                      },
+                      {
+                          "a":  "Substrate: the molecule the enzyme acts on. Product: the substance made.",
+                          "q":  "What are substrate and product?"
+                      },
+                      {
+                          "a":  "Amylase: starch → maltose. Protease: protein → amino acids. Lipase: fats → fatty acids + glycerol.",
+                          "q":  "Amylase, protease and lipase act on…?"
+                      },
+                      {
+                          "a":  "The part of the enzyme with a specific shape where the substrate binds.",
+                          "q":  "What is the active site?"
+                      },
+                      {
+                          "a":  "The substrate (key) has a shape complementary to the enzyme\u0027s active site (lock); only the matching substrate fits, so enzymes are specific.",
+                          "q":  "Explain the lock and key model."
+                      },
+                      {
+                          "a":  "Molecules gain kinetic energy, so enzyme and substrate collide more often and more energetically.",
+                          "q":  "Why does rate increase as temperature rises towards the optimum?"
+                      },
+                      {
+                          "a":  "The active site changes shape (the enzyme is denatured), the substrate no longer fits, and the rate falls to zero. This is permanent.",
+                          "q":  "What happens above the optimum temperature?"
+                      },
+                      {
+                          "a":  "About 37 °C.",
+                          "q":  "Optimum temperature of human enzymes?"
+                      },
+                      {
+                          "a":  "No, it only slows them; activity returns on warming. Only heat and extreme pH denature.",
+                          "q":  "Does cold denature enzymes?"
+                      },
+                      {
+                          "a":  "Pepsin: about pH 2 (stomach). Most enzymes: about pH 7.",
+                          "q":  "Optimum pH of pepsin? of most enzymes?"
+                      },
+                      {
+                          "a":  "The enzyme\u0027s 3-D shape, including the active site, has been permanently changed so it no longer works.",
+                          "q":  "What does \u0027denatured\u0027 mean?"
+                      },
+                      {
+                          "a":  "Test samples with iodine every 30 s; time until iodine no longer turns blue-black. Rate = 1/time.",
+                          "q":  "How can you measure the rate of amylase digesting starch?"
+                      },
+                      {
+                          "a":  "To show that it is the working enzyme, not something else, that causes the reaction.",
+                          "q":  "Why include a boiled enzyme control?"
+                      }
+                  ],
+        "chapter":  5,
+        "exam":  "Exam 1 · October",
+        "notes":  "# 5.1 What enzymes are\n\n- A **catalyst** is a substance that **speeds up a chemical reaction without being changed or used up**.\n- **Enzymes are proteins that act as biological catalysts.** They speed up the reactions of metabolism (respiration, photosynthesis, digestion, building proteins) at body temperature; without them these reactions would be far too slow for life.\n- The molecule an enzyme acts on is the **substrate**; what is made is the **product**.\n\n| Enzyme | Substrate | Product |\n|---|---|---|\n| Amylase | Starch | Maltose (a sugar) |\n| Protease | Protein | Amino acids |\n| Lipase | Fats | Fatty acids + glycerol |\n| Catalase | Hydrogen peroxide | Water + oxygen |\n\n# 5.2 How enzymes work — the lock and key model\n\n- Each enzyme has an **active site** with a specific 3-D shape.\n- Only a substrate with the **complementary** shape fits, like a key in a lock → enzymes are **specific** (amylase only breaks down starch).\n- Substrate binds → **enzyme–substrate complex** → reaction happens → products leave → the enzyme is unchanged and can be used again.\n\n# 5.3 Effect of temperature\n\n- **Low temperature:** molecules move slowly, few collisions between enzyme and substrate → slow reaction.\n- **Rising temperature:** more kinetic energy, more frequent and more energetic collisions → rate increases (roughly doubles every 10 °C).\n- **Optimum temperature:** fastest rate — about **37 °C** for human enzymes.\n- **Above the optimum:** the enzyme\u0027s shape (especially the active site) is changed by the heat → substrate no longer fits → the enzyme is **denatured**. Denaturing is **permanent**. Rate falls quickly to zero.\n\n\u003e Cold does **not** denature enzymes — it just slows them. Warming them up again restores activity. Heat denaturation cannot be reversed.\n\n# 5.4 Effect of pH\n\n- Each enzyme has an **optimum pH**. Most work best around pH 7; **pepsin** (stomach protease) works best at **pH 2**; enzymes in the small intestine prefer pH 8.\n- Moving away from the optimum changes the charges on the enzyme, altering the active site → activity falls; extreme pH **denatures** it.\n\nBoth graphs (rate vs temperature, rate vs pH) are **bell-shaped** with a peak at the optimum; the temperature curve is asymmetric (steep drop above the optimum).\n\n# 5.5 Investigating enzymes\n\n**Amylase and starch:** mix amylase with starch solution in water baths at different temperatures; every 30 s take a drop and add to iodine on a spotting tile; the time until iodine **stays orange-brown** (no starch left) is the reaction time. Shorter time = faster enzyme. Rate = 1 ÷ time.\n\n**Catalase and hydrogen peroxide:** potato or liver pieces in hydrogen peroxide; measure the **volume of oxygen** collected in a set time, or the height of foam. Repeat at different temperatures/pH.\n\n**Fair test variables:** keep concentrations, volumes and time the same; change only one factor; use a **control** (boiled enzyme) to show the enzyme is causing the change.",
+        "order":  5,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "All enzymes are proteins.",
+                         "options":  [
+                                         "Carbohydrates",
+                                         "Lipids",
+                                         "Proteins",
+                                         "Nucleic acids"
+                                     ],
+                         "q":  "Enzymes are:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Lock and key: complementary shapes.",
+                         "options":  [
+                                         "It works at only one temperature",
+                                         "Its active site fits only one substrate shape",
+                                         "It is used up in the reaction",
+                                         "It is made of amino acids"
+                                     ],
+                         "q":  "An enzyme is described as specific because:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Heat changes the active site permanently.",
+                         "options":  [
+                                         "The substrate freezes",
+                                         "The enzyme is denatured",
+                                         "There are too few collisions",
+                                         "The pH changes"
+                                     ],
+                         "q":  "At 60 °C a human enzyme stops working because:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Pepsin has an optimum around pH 2.",
+                         "options":  [
+                                         "Amylase",
+                                         "Lipase",
+                                         "Pepsin",
+                                         "Catalase"
+                                     ],
+                         "q":  "Which enzyme works best in the acidic stomach?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Rate rises to the optimum then drops sharply as the enzyme denatures.",
+                         "options":  [
+                                         "A straight line up",
+                                         "A straight line down",
+                                         "A curve rising to a peak then falling steeply",
+                                         "Flat"
+                                     ],
+                         "q":  "A rate–temperature graph for an enzyme is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "2H₂O₂ → 2H₂O + O₂; the oxygen can be collected to measure rate.",
+                         "options":  [
+                                         "Water and carbon dioxide",
+                                         "Water and oxygen",
+                                         "Hydrogen and oxygen",
+                                         "Glucose and oxygen"
+                                     ],
+                         "q":  "Catalase breaks down hydrogen peroxide into:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Starch disappeared faster at 40 °C, so the enzyme was more active.",
+                         "options":  [
+                                         "Amylase is denatured at 40 °C",
+                                         "Amylase works faster at 40 °C",
+                                         "Starch is destroyed by heat",
+                                         "Iodine stops working when warm"
+                                     ],
+                         "q":  "In an amylase experiment, the iodine stops turning blue-black after 3 minutes at 30 °C and after 1 minute at 40 °C. This shows:"
+                     }
+                 ],
+        "subject":  "biology",
+        "title":  "Enzymes",
+        "updated":  "Chapter notes",
+        "id":  "bio-enzymes"
+    },
+    {
+        "cards":  [
+                      {
                           "a":  "A group of organisms that can reproduce to produce fertile offspring.",
                           "q":  "Define species."
                       },
@@ -589,6 +740,312 @@
         "title":  "Biology key terms (Units 1–3)",
         "updated":  "Glossary",
         "id":  "bio-keywords"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Carbohydrates and lipids: C, H, O. Proteins: C, H, O, N (sometimes S).",
+                          "q":  "Elements in carbohydrates and lipids? in proteins?"
+                      },
+                      {
+                          "a":  "Amino acids (about 20 different kinds) joined in a chain; the sequence gives the protein its shape.",
+                          "q":  "What are the building blocks of proteins?"
+                      },
+                      {
+                          "a":  "One glycerol molecule joined to three fatty acids.",
+                          "q":  "What is a lipid made of?"
+                      },
+                      {
+                          "a":  "Starch and glycogen (energy stores) and cellulose (plant cell walls).",
+                          "q":  "Which large molecules are made from glucose?"
+                      },
+                      {
+                          "a":  "Solvent for reactions, transport medium (blood, sap), needed for digestion, excretion and sweating.",
+                          "q":  "Three roles of water in living things?"
+                      },
+                      {
+                          "a":  "Two strands of nucleotides coiled into a double helix; bases pair A–T and C–G.",
+                          "q":  "Describe the structure of DNA."
+                      },
+                      {
+                          "a":  "Adenine with thymine (A–T); cytosine with guanine (C–G).",
+                          "q":  "Which DNA bases pair together?"
+                      },
+                      {
+                          "a":  "Iodine solution: orange-brown → blue-black.",
+                          "q":  "Test for starch: reagent and colour change?"
+                      },
+                      {
+                          "a":  "Benedict\u0027s solution, heat in a water bath: blue → green/yellow/orange → brick red.",
+                          "q":  "Test for reducing sugar: reagent, method, colour change?"
+                      },
+                      {
+                          "a":  "Biuret solution (no heating): blue → purple/lilac.",
+                          "q":  "Test for protein: reagent and colour change?"
+                      },
+                      {
+                          "a":  "Ethanol emulsion test: shake with ethanol, add to water → cloudy white emulsion.",
+                          "q":  "Test for fats: method and result?"
+                      },
+                      {
+                          "a":  "DCPIP: blue → colourless. Fewer drops of juice needed = more vitamin C.",
+                          "q":  "Test for vitamin C?"
+                      },
+                      {
+                          "a":  "The reaction needs heat, and a water bath avoids boiling over/burning (safer than a direct flame).",
+                          "q":  "Why must Benedict\u0027s test be heated in a water bath?"
+                      },
+                      {
+                          "a":  "Glucose, fructose, maltose (but NOT sucrose).",
+                          "q":  "What does \u0027reducing sugar\u0027 include?"
+                      }
+                  ],
+        "chapter":  4,
+        "exam":  "Exam 1 · October",
+        "notes":  "# 4.1 The chemicals of life\n\n| Molecule | Elements | Built from | Examples \u0026 uses |\n|---|---|---|---|\n| **Carbohydrates** | C, H, O | Simple sugars (glucose) | Glucose (energy in respiration), sucrose, starch (plant energy store), glycogen (animal store), cellulose (plant cell walls) |\n| **Proteins** | C, H, O, N (sometimes S) | Amino acids (about 20 kinds) joined in chains | Enzymes, haemoglobin, antibodies, muscle, keratin; the **sequence** of amino acids gives each protein its 3-D shape |\n| **Lipids (fats and oils)** | C, H, O | 1 glycerol + 3 fatty acids | Energy store, insulation, cell membranes, waterproofing |\n\n**Large molecules from small ones:**\n\n- glucose × many → **starch, glycogen, cellulose**\n- amino acids × many → **protein**\n- fatty acids + glycerol → **fat / oil**\n\n# 4.2 Water\n\nAbout 70% of a cell is water. It is a **solvent**: chemical reactions happen in solution, substances are transported dissolved in it (blood plasma, xylem sap), and it is needed for digestion, excretion (urine) and cooling (sweat).\n\n# 4.3 DNA\n\n- **DNA** (deoxyribonucleic acid) carries the genetic code.\n- Two strands coiled into a **double helix**.\n- Each strand is a chain of **nucleotides**; each nucleotide has a **base**: A, T, C, G.\n- The bases pair across the strands: **A with T, C with G** (complementary base pairing).\n- The **sequence of bases** codes for the sequence of amino acids in a protein.\n\n# 4.4 Food tests — learn the reagent, colour change and method\n\n| Test for | Reagent | Method | Positive result |\n|---|---|---|---|\n| **Starch** | Iodine solution | Add a few drops to the food | Orange-brown → **blue-black** |\n| **Reducing sugars** (e.g. glucose) | **Benedict\u0027s** solution | Add to food solution, **heat in a water bath** (80 °C) | Blue → green → yellow → orange → **brick red** (more red = more sugar) |\n| **Protein** | **Biuret** solution (copper sulfate + sodium hydroxide) | Add to food solution, shake, no heating | Blue → **purple / lilac** |\n| **Fats / lipids** | **Ethanol** then water (emulsion test) | Shake food with ethanol, pour into water | Clear → **cloudy white emulsion** |\n| **Vitamin C** | **DCPIP** solution (blue) | Add food juice drop by drop | Blue → **colourless** (fewer drops = more vitamin C) |\n\n\u003e **Exam wording:** always give the colour **before and after**. \"Benedict\u0027s turns brick red\" is not enough — \"Benedict\u0027s changes from blue to brick red when heated\" gets the marks.\n\n**Safety:** Benedict\u0027s test needs a water bath, not a direct flame; ethanol is flammable; biuret contains sodium hydroxide (corrosive) — wear goggles.",
+        "order":  4,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "Amino acids contain nitrogen.",
+                         "options":  [
+                                         "Carbon",
+                                         "Hydrogen",
+                                         "Nitrogen",
+                                         "Oxygen"
+                                     ],
+                         "q":  "Which element is found in proteins but not in carbohydrates?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Animals store glucose as glycogen; plants use starch.",
+                         "options":  [
+                                         "A protein stored in muscle",
+                                         "A carbohydrate energy store in animals",
+                                         "A lipid in cell membranes",
+                                         "A plant cell wall material"
+                                     ],
+                         "q":  "Glycogen is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Biuret tests for protein.",
+                         "options":  [
+                                         "Starch",
+                                         "Glucose",
+                                         "Protein",
+                                         "Fat"
+                                     ],
+                         "q":  "Biuret solution turning purple shows the presence of:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "No colour change = negative result.",
+                         "options":  [
+                                         "Lots of reducing sugar",
+                                         "No reducing sugar",
+                                         "Protein is present",
+                                         "Starch is present"
+                                     ],
+                         "q":  "A food solution is heated with Benedict\u0027s solution and stays blue. This means:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "A–T and C–G.",
+                         "options":  [
+                                         "Cytosine",
+                                         "Guanine",
+                                         "Thymine",
+                                         "Adenine"
+                                     ],
+                         "q":  "In DNA, adenine always pairs with:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Only Benedict\u0027s is heated.",
+                         "options":  [
+                                         "Benedict\u0027s for reducing sugar",
+                                         "Biuret for protein",
+                                         "Both need heating",
+                                         "Neither needs heating"
+                                     ],
+                         "q":  "Which test does NOT need heating?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Fat dissolves in ethanol and comes out of solution in water as tiny droplets.",
+                         "options":  [
+                                         "Vitamin C",
+                                         "Starch",
+                                         "Lipid",
+                                         "Sugar"
+                                     ],
+                         "q":  "The cloudy white emulsion in the ethanol test shows:"
+                     }
+                 ],
+        "subject":  "biology",
+        "title":  "Biological molecules",
+        "updated":  "Chapter notes",
+        "id":  "bio-molecules"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "The process by which plants synthesise carbohydrates from raw materials (CO₂ and water) using energy from light.",
+                          "q":  "Define photosynthesis."
+                      },
+                      {
+                          "a":  "carbon dioxide + water → glucose + oxygen (light energy, chlorophyll).",
+                          "q":  "Word equation for photosynthesis?"
+                      },
+                      {
+                          "a":  "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
+                          "q":  "Balanced symbol equation for photosynthesis?"
+                      },
+                      {
+                          "a":  "Absorbs light energy and transfers it into chemical energy in carbohydrates.",
+                          "q":  "Role of chlorophyll?"
+                      },
+                      {
+                          "a":  "Respiration, storage as starch, making cellulose (and sucrose for transport), making amino acids/proteins with nitrate.",
+                          "q":  "Four uses of glucose in a plant?"
+                      },
+                      {
+                          "a":  "Starch is insoluble so it does not affect osmosis, and it is compact.",
+                          "q":  "Why is glucose stored as starch?"
+                      },
+                      {
+                          "a":  "Palisade mesophyll cells — many chloroplasts, near the top of the leaf.",
+                          "q":  "Where in the leaf does most photosynthesis happen?"
+                      },
+                      {
+                          "a":  "Stomata are pores letting CO₂ in and O₂/water vapour out; guard cells open and close them.",
+                          "q":  "Function of stomata and guard cells?"
+                      },
+                      {
+                          "a":  "Boil in water → boil in ethanol (water bath) to remove chlorophyll → rinse in warm water → add iodine → blue-black = starch.",
+                          "q":  "Steps of the starch test on a leaf?"
+                      },
+                      {
+                          "a":  "Leave it in the dark 48 h so any starch present afterwards must come from the experiment.",
+                          "q":  "Why destarch a plant before an experiment?"
+                      },
+                      {
+                          "a":  "Cover part of a leaf with foil; after a day only the uncovered part tests positive for starch.",
+                          "q":  "How do you show light is needed for photosynthesis?"
+                      },
+                      {
+                          "a":  "Use a variegated leaf; only the green parts turn blue-black with iodine.",
+                          "q":  "How do you show chlorophyll is needed?"
+                      },
+                      {
+                          "a":  "Enclose a plant with soda lime (absorbs CO₂); the leaf gives no starch.",
+                          "q":  "How do you show CO₂ is needed?"
+                      },
+                      {
+                          "a":  "Light intensity, carbon dioxide concentration, temperature.",
+                          "q":  "Three limiting factors of photosynthesis?"
+                      },
+                      {
+                          "a":  "Another factor (CO₂ or temperature) becomes the limiting factor.",
+                          "q":  "Why does a rate–light graph level off?"
+                      },
+                      {
+                          "a":  "Nitrate: amino acids and proteins. Magnesium: chlorophyll.",
+                          "q":  "Nitrate ions are needed for…? Magnesium for…?"
+                      },
+                      {
+                          "a":  "Yellow leaves (chlorosis) because chlorophyll cannot be made.",
+                          "q":  "Symptom of magnesium deficiency?"
+                      }
+                  ],
+        "chapter":  6,
+        "exam":  "Exam 1 · October",
+        "notes":  "# 6.1 Photosynthesis\n\n**Definition:** the process by which plants synthesise carbohydrates from raw materials (carbon dioxide and water) using energy from light.\n\n**Word equation:** carbon dioxide + water → (light, chlorophyll) → glucose + oxygen\n\n**Balanced symbol equation:** **6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂**\n\n- **Chlorophyll** (green pigment in chloroplasts) **absorbs light energy** and transfers it into chemical energy in glucose.\n- Photosynthesis happens mainly in the **palisade mesophyll** cells of leaves.\n\n## What the plant does with glucose\n\n- Used in **respiration** for energy.\n- Stored as **starch** (insoluble, so it doesn\u0027t affect osmosis) in leaves, roots, tubers.\n- Made into **cellulose** for cell walls, **sucrose** for transport in the phloem.\n- Combined with **nitrate ions** to make **amino acids → proteins**.\n\n# 6.2 Leaf structure — adapted for photosynthesis\n\n| Part | Adaptation |\n|---|---|\n| Large, flat, thin shape | Large surface area to absorb light; short diffusion distance for CO₂ |\n| Waxy cuticle | Waterproof, reduces water loss |\n| Upper epidermis | Transparent — lets light through |\n| Palisade mesophyll | Column-shaped cells packed with chloroplasts, near the top for maximum light |\n| Spongy mesophyll | Air spaces let CO₂ diffuse to cells |\n| Stomata (mostly on the lower surface) | Pores that let CO₂ in and O₂ out; opened/closed by guard cells |\n| Vascular bundle (veins) | Xylem brings water; phloem carries away sugars |\n\n# 6.3 Experiments\n\n**Testing a leaf for starch** (shows photosynthesis has happened): 1 boil the leaf in water (kills it, softens it); 2 boil in **ethanol** in a water bath (removes chlorophyll — flame off, ethanol is flammable); 3 rinse in warm water (softens); 4 spread out, add **iodine** → blue-black where starch is present.\n\n- **Destarch** the plant first: 48 hours in the dark so old starch is used up.\n- **Light needed:** cover part of a leaf with foil → only the uncovered part goes blue-black.\n- **Chlorophyll needed:** variegated leaf (green and white) → only the green parts go blue-black.\n- **CO₂ needed:** plant in a sealed bag with **soda lime** (absorbs CO₂) → no starch.\n- **Oxygen produced:** pondweed under a funnel and test tube; bubbles collect; a **glowing splint relights**.\n\n# 6.4 Limiting factors\n\nThe rate of photosynthesis is limited by whichever factor is in **shortest supply**: **light intensity, carbon dioxide concentration, temperature**.\n\n- Raise light intensity → rate rises → then **levels off** (graph goes flat) because something else (CO₂ or temperature) is now limiting.\n- Greenhouses add CO₂, heaters and lamps to raise all three.\n- Measuring rate: count bubbles from pondweed per minute (or volume of gas) at different lamp distances; light intensity ∝ 1/distance².\n\n# 6.5 Mineral ions\n\n| Ion | Needed for | Deficiency symptom |\n|---|---|---|\n| **Nitrate (NO₃⁻)** | Making amino acids → proteins (growth) | Stunted growth, yellow older leaves |\n| **Magnesium (Mg²⁺)** | Making **chlorophyll** | Yellow leaves (chlorosis) |\n\nAbsorbed from soil by root hairs, mostly by **active transport**.",
+        "order":  6,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "6O₂ on the right-hand side; a glowing splint relights.",
+                         "options":  [
+                                         "Carbon dioxide",
+                                         "Nitrogen",
+                                         "Oxygen",
+                                         "Hydrogen"
+                                     ],
+                         "q":  "The gas produced by photosynthesis is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "White parts have no chlorophyll and make no starch.",
+                         "options":  [
+                                         "Light",
+                                         "Water",
+                                         "Chlorophyll",
+                                         "Oxygen"
+                                     ],
+                         "q":  "A variegated leaf tested with iodine goes blue-black only in the green parts. This shows photosynthesis needs:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Green would hide the blue-black colour.",
+                         "options":  [
+                                         "To kill it",
+                                         "To remove chlorophyll so the colour change is visible",
+                                         "To add iodine",
+                                         "To dissolve the starch"
+                                     ],
+                         "q":  "Why is the leaf boiled in ethanol during the starch test?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "CO₂ is only 0.04% of the air, so it usually runs short first.",
+                         "options":  [
+                                         "Light",
+                                         "Temperature",
+                                         "Carbon dioxide concentration",
+                                         "Chlorophyll"
+                                     ],
+                         "q":  "On a bright warm day with plenty of water, the factor most likely limiting photosynthesis is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Magnesium is needed to make chlorophyll.",
+                         "options":  [
+                                         "Oxygen",
+                                         "Magnesium",
+                                         "Glucose",
+                                         "Starch"
+                                     ],
+                         "q":  "A plant with yellow leaves and poor growth probably lacks:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "The lower surface is cooler and shaded, reducing water loss.",
+                         "options":  [
+                                         "Upper surface of the leaf",
+                                         "Lower surface of the leaf",
+                                         "Stem",
+                                         "Roots"
+                                     ],
+                         "q":  "Most stomata are found on the:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "More light energy → more photosynthesis → more oxygen.",
+                         "options":  [
+                                         "The water gets warmer",
+                                         "Light intensity increases so the rate of photosynthesis rises",
+                                         "The pondweed respires faster",
+                                         "CO₂ increases"
+                                     ],
+                         "q":  "Moving a lamp closer to pondweed makes more bubbles because:"
+                     }
+                 ],
+        "subject":  "biology",
+        "title":  "Plant nutrition: photosynthesis",
+        "updated":  "Chapter notes",
+        "id":  "bio-plant-nutrition"
     },
     {
         "cards":  [
@@ -1004,6 +1461,350 @@
         "title":  "Ions, ionic \u0026 covalent bonding",
         "updated":  "Starter notes",
         "id":  "chem-bonding"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "The amount of substance containing 6.02 × 10²³ particles (Avogadro\u0027s constant).",
+                          "q":  "What is a mole?"
+                      },
+                      {
+                          "a":  "The mass of one mole of a substance = Ar or Mr in grams.",
+                          "q":  "What is molar mass?"
+                      },
+                      {
+                          "a":  "moles = mass ÷ Mr (mass = moles × Mr).",
+                          "q":  "Formula linking moles, mass and Mr?"
+                      },
+                      {
+                          "a":  "22 ÷ 44 = 0.5 mol",
+                          "q":  "Moles in 22 g of CO₂?"
+                      },
+                      {
+                          "a":  "3 × 18 = 54 g",
+                          "q":  "Mass of 3 mol of water?"
+                      },
+                      {
+                          "a":  "24 dm³ (24 000 cm³).",
+                          "q":  "Volume of one mole of any gas at r.t.p.?"
+                      },
+                      {
+                          "a":  "0.25 × 24 = 6 dm³",
+                          "q":  "Volume of 0.25 mol of O₂ at r.t.p.?"
+                      },
+                      {
+                          "a":  "concentration (mol/dm³) = moles ÷ volume in dm³.",
+                          "q":  "Concentration formula?"
+                      },
+                      {
+                          "a":  "0.25 dm³ (divide by 1000).",
+                          "q":  "How many dm³ is 250 cm³?"
+                      },
+                      {
+                          "a":  "0.1 ÷ 0.2 = 0.5 mol/dm³",
+                          "q":  "0.1 mol of HCl in 200 cm³ — concentration?"
+                      },
+                      {
+                          "a":  "1 Balanced equation → 2 moles of the known substance → 3 use the mole ratio → 4 convert moles of the unknown to mass (or volume).",
+                          "q":  "Steps for a reacting-mass calculation?"
+                      },
+                      {
+                          "a":  "12/24 = 0.5 mol Mg → 0.5 mol MgO → 0.5 × 40 = 20 g",
+                          "q":  "Mass of MgO from 12 g of Mg? (2Mg + O₂ → 2MgO)"
+                      },
+                      {
+                          "a":  "The reactant that is completely used up first; it limits how much product forms.",
+                          "q":  "What is the limiting reactant?"
+                      },
+                      {
+                          "a":  "Empirical: simplest whole-number ratio (CH₂O). Molecular: actual numbers of atoms (C₆H₁₂O₆).",
+                          "q":  "Empirical vs molecular formula?"
+                      },
+                      {
+                          "a":  "C 0.05, H 0.1 → 1 : 2 → CH₂",
+                          "q":  "Empirical formula of a compound with 0.6 g C and 0.1 g H?"
+                      },
+                      {
+                          "a":  "actual mass ÷ theoretical mass × 100",
+                          "q":  "% yield formula?"
+                      },
+                      {
+                          "a":  "Side reactions, losses on transfer/filtering, reversible reaction not going to completion.",
+                          "q":  "Three reasons yield is below 100%?"
+                      }
+                  ],
+        "chapter":  5,
+        "exam":  "Exam 1 · October",
+        "notes":  "# 5.1 The mole\n\nA **mole** is the amount of substance that contains **6.02 × 10²³** particles (the Avogadro constant) — the same number of atoms as in 12 g of carbon-12.\n\n**Molar mass** = the mass of one mole = Ar or Mr in **grams**. One mole of water (Mr 18) weighs 18 g.\n\n\u003e **moles = mass ÷ Mr**   (n = m / M)   → mass = moles × Mr\n\n| Question | Working |\n|---|---|\n| Moles in 8 g of O₂ (Mr 32)? | 8 ÷ 32 = **0.25 mol** |\n| Mass of 2 mol of CO₂ (Mr 44)? | 2 × 44 = **88 g** |\n| Moles in 10 g of CaCO₃ (Mr 100)? | 10 ÷ 100 = **0.1 mol** |\n\n# 5.2 Moles of gases\n\nAt room temperature and pressure (r.t.p.) **one mole of any gas occupies 24 dm³** (24 000 cm³).\n\n\u003e **moles = volume (dm³) ÷ 24**   → volume = moles × 24\n\n- 0.5 mol of H₂ = 12 dm³. 6 dm³ of CO₂ = 0.25 mol.\n\n# 5.3 Concentration of solutions\n\n\u003e **concentration (mol/dm³) = moles ÷ volume (dm³)**   (1 dm³ = 1000 cm³, so cm³ ÷ 1000 = dm³)\n\n- 0.2 mol NaOH in 500 cm³ → 0.2 ÷ 0.5 = **0.4 mol/dm³**.\n- Concentration can also be in **g/dm³**: multiply mol/dm³ by Mr.\n\n# 5.4 Reacting masses (using equations)\n\nThe big numbers in a balanced equation are the **mole ratio**.\n\n**Example:** What mass of MgO forms when 6 g of Mg burns? (Mg 24, O 16)\n\n1. Equation: 2Mg + O₂ → 2MgO → ratio Mg : MgO = 2 : 2 = **1 : 1**\n2. Moles of Mg = 6 ÷ 24 = 0.25 mol\n3. Moles of MgO = 0.25 mol (1 : 1)\n4. Mass of MgO = 0.25 × 40 = **10 g**\n\n**Example with a gas:** volume of CO₂ from 5 g of CaCO₃ at r.t.p.? CaCO₃ → CaO + CO₂ (1 : 1). Moles = 5/100 = 0.05 → volume = 0.05 × 24 = **1.2 dm³**.\n\n**Limiting reactant:** the one that runs out first; it decides how much product forms. The other is *in excess*.\n\n# 5.5 Empirical and molecular formulae\n\n- **Empirical formula:** simplest whole-number ratio of atoms (CH₂O for glucose).\n- **Molecular formula:** actual numbers of atoms (C₆H₁₂O₆).\n\n**Finding an empirical formula from masses:** divide each mass by its Ar → divide all by the smallest → whole-number ratio.\n\nA compound contains 2.4 g of Mg and 1.6 g of O: Mg 2.4/24 = 0.1; O 1.6/16 = 0.1 → 1 : 1 → **MgO**.\n\n1.2 g C and 0.4 g H: C 0.1, H 0.4 → 1 : 4 → **CH₄**.\n\n**Molecular from empirical:** molecular formula Mr ÷ empirical Mr = multiplier. Empirical CH₂ (14), Mr = 42 → ×3 → **C₃H₆**.\n\n# 5.6 Percentage yield and purity\n\n- **% yield = actual mass obtained ÷ theoretical (calculated) mass × 100.** Less than 100% because of side reactions, losses during filtering/transfer, reversible reactions.\n- **% purity = mass of pure substance ÷ mass of sample × 100.**\n\n# 5.7 Titration calculations\n\n25.0 cm³ of NaOH is neutralised by 20.0 cm³ of 0.1 mol/dm³ HCl. NaOH + HCl → NaCl + H₂O (1 : 1).\n\nMoles HCl = 0.1 × 0.020 = 0.002 mol → moles NaOH = 0.002 → concentration = 0.002 ÷ 0.025 = **0.08 mol/dm³**.",
+        "order":  5,
+        "quiz":  [
+                     {
+                         "answer":  0,
+                         "explain":  "4 ÷ 40 = 0.1 mol.",
+                         "options":  [
+                                         "0.1",
+                                         "10",
+                                         "160",
+                                         "0.4"
+                                     ],
+                         "q":  "How many moles are in 4 g of NaOH (Mr 40)?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "2 × 24 = 48 dm³.",
+                         "options":  [
+                                         "12 dm³",
+                                         "24 dm³",
+                                         "48 dm³",
+                                         "2 dm³"
+                                     ],
+                         "q":  "The volume of 2 mol of hydrogen gas at r.t.p. is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "0.5 ÷ 2 = 0.25 mol/dm³.",
+                         "options":  [
+                                         "1 mol/dm³",
+                                         "0.25 mol/dm³",
+                                         "4 mol/dm³",
+                                         "0.5 mol/dm³"
+                                     ],
+                         "q":  "0.5 mol of KCl dissolved to make 2 dm³ of solution has concentration:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Ratio H₂ : H₂O = 2 : 2 = 1 : 1.",
+                         "options":  [
+                                         "2",
+                                         "4",
+                                         "8",
+                                         "1"
+                                     ],
+                         "q":  "2H₂ + O₂ → 2H₂O. Moles of water from 4 mol of hydrogen:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Divide by the smallest (0.2): N 1, H 3.",
+                         "options":  [
+                                         "NH",
+                                         "N₂H₆",
+                                         "NH₃",
+                                         "N₃H"
+                                     ],
+                         "q":  "A compound has 0.2 mol N and 0.6 mol H. Its empirical formula is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "8 ÷ 10 × 100 = 80%.",
+                         "options":  [
+                                         "125%",
+                                         "80%",
+                                         "20%",
+                                         "8%"
+                                     ],
+                         "q":  "Theoretical yield 10 g, actual 8 g. Percentage yield:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "25/100 = 0.25 mol → 0.25 × 24 = 6 dm³.",
+                         "options":  [
+                                         "0.25 dm³",
+                                         "2.4 dm³",
+                                         "6 dm³",
+                                         "24 dm³"
+                                     ],
+                         "q":  "CaCO₃ → CaO + CO₂. Volume of CO₂ at r.t.p. from 25 g of CaCO₃ (Mr 100):"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "56 ÷ 14 = 4 → C₄H₈.",
+                         "options":  [
+                                         "C₂H₄",
+                                         "C₃H₆",
+                                         "C₄H₈",
+                                         "C₅H₁₀"
+                                     ],
+                         "q":  "Empirical formula CH₂, Mr = 56. Molecular formula:"
+                     }
+                 ],
+        "subject":  "chemistry",
+        "title":  "Chemical calculations: the mole",
+        "updated":  "Chapter notes",
+        "id":  "chem-calculations"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "H₂, O₂, F₂, Br₂, I₂, N₂, Cl₂ — HOFBrINCl.",
+                          "q":  "Which seven elements exist as diatomic molecules?"
+                      },
+                      {
+                          "a":  "1 Mg, 2 O, 2 H.",
+                          "q":  "How many atoms of each element in Mg(OH)₂?"
+                      },
+                      {
+                          "a":  "SO₄²⁻, NO₃⁻, CO₃²⁻, OH⁻, NH₄⁺.",
+                          "q":  "Formulae of sulfate, nitrate, carbonate, hydroxide, ammonium ions?"
+                      },
+                      {
+                          "a":  "Al₂O₃ (Al³⁺ and O²⁻, swap and drop).",
+                          "q":  "Formula of aluminium oxide?"
+                      },
+                      {
+                          "a":  "Ca(NO₃)₂",
+                          "q":  "Formula of calcium nitrate?"
+                      },
+                      {
+                          "a":  "FeCl₃ (Fe³⁺ needs three Cl⁻).",
+                          "q":  "Formula of iron(III) chloride?"
+                      },
+                      {
+                          "a":  "(NH₄)₂SO₄",
+                          "q":  "Formula of ammonium sulfate?"
+                      },
+                      {
+                          "a":  "Atoms are not created or destroyed in reactions (conservation of mass), so each element must have the same number of atoms on both sides.",
+                          "q":  "Why must equations be balanced?"
+                      },
+                      {
+                          "a":  "Change the big numbers in front of formulas; never change the subscripts inside a formula.",
+                          "q":  "What may you change when balancing? What may you not?"
+                      },
+                      {
+                          "a":  "4Al + 3O₂ → 2Al₂O₃",
+                          "q":  "Balance: Al + O₂ → Al₂O₃"
+                      },
+                      {
+                          "a":  "CH₄ + 2O₂ → CO₂ + 2H₂O",
+                          "q":  "Balance: CH₄ + O₂ → CO₂ + H₂O"
+                      },
+                      {
+                          "a":  "2Fe + 3Cl₂ → 2FeCl₃",
+                          "q":  "Balance: Fe + Cl₂ → FeCl₃"
+                      },
+                      {
+                          "a":  "(s) solid, (l) liquid, (g) gas, (aq) aqueous/dissolved in water.",
+                          "q":  "Four state symbols?"
+                      },
+                      {
+                          "a":  "An ion present in the solution that does not take part in the reaction and is left out of the ionic equation.",
+                          "q":  "What is a spectator ion?"
+                      },
+                      {
+                          "a":  "H⁺(aq) + OH⁻(aq) → H₂O(l)",
+                          "q":  "Ionic equation for any neutralisation?"
+                      },
+                      {
+                          "a":  "Ag⁺(aq) + Cl⁻(aq) → AgCl(s)",
+                          "q":  "Ionic equation for silver chloride precipitation?"
+                      },
+                      {
+                          "a":  "CO₂ = 44; Ca(OH)₂ = 40 + 2(17) = 74.",
+                          "q":  "Mr of CO₂? of Ca(OH)₂?"
+                      },
+                      {
+                          "a":  "12/44 × 100 = 27.3%",
+                          "q":  "% by mass of carbon in CO₂?"
+                      }
+                  ],
+        "chapter":  4,
+        "exam":  "Exam 1 · October",
+        "notes":  "# 4.1 Chemical formulae\n\nA **formula** shows which elements are in a substance and how many atoms of each. H₂O = 2 hydrogen + 1 oxygen. Ca(OH)₂ = 1 Ca, 2 O, 2 H (the subscript outside the bracket multiplies everything inside).\n\n## Elements that exist as molecules\n\nH₂, N₂, O₂, F₂, Cl₂, Br₂, I₂ — \"**HOFBrINCl**\". Also P₄ and S₈. All other elements are written as single atoms (Na, Fe, He).\n\n## Common ions — learn these\n\n| Positive (cations) | | Negative (anions) | |\n|---|---|---|---|\n| Sodium | Na⁺ | Chloride | Cl⁻ |\n| Potassium | K⁺ | Bromide | Br⁻ |\n| Silver | Ag⁺ | Iodide | I⁻ |\n| Ammonium | NH₄⁺ | Hydroxide | OH⁻ |\n| Hydrogen | H⁺ | Nitrate | NO₃⁻ |\n| Magnesium | Mg²⁺ | Hydrogencarbonate | HCO₃⁻ |\n| Calcium | Ca²⁺ | Oxide | O²⁻ |\n| Copper(II) | Cu²⁺ | Sulfide | S²⁻ |\n| Zinc | Zn²⁺ | Sulfate | SO₄²⁻ |\n| Iron(II) | Fe²⁺ | Carbonate | CO₃²⁻ |\n| Iron(III) | Fe³⁺ | Phosphate | PO₄³⁻ |\n| Aluminium | Al³⁺ | Nitride | N³⁻ |\n\nRoman numerals show the charge of a transition metal ion: iron(III) = Fe³⁺.\n\n## Writing ionic formulae — \"swap and drop\"\n\nThe total positive charge must equal the total negative charge.\n\n- Sodium chloride: Na⁺ Cl⁻ → **NaCl**\n- Magnesium chloride: Mg²⁺ needs two Cl⁻ → **MgCl₂**\n- Aluminium oxide: Al³⁺ O²⁻ → swap the numbers → **Al₂O₃**\n- Calcium nitrate: Ca²⁺ needs two NO₃⁻ → **Ca(NO₃)₂** (brackets around a polyatomic ion when there is more than one)\n- Ammonium sulfate: NH₄⁺ and SO₄²⁻ → **(NH₄)₂SO₄**\n\n## Covalent compounds\n\nThe name often tells you: carbon **di**oxide CO₂, carbon **mon**oxide CO, sulfur **di**oxide SO₂, dinitrogen tetroxide N₂O₄. Learn: water H₂O, ammonia NH₃, methane CH₄, hydrogen chloride HCl, ethanol C₂H₅OH, glucose C₆H₁₂O₆.\n\n# 4.2 Chemical equations\n\n**Word equation:** magnesium + oxygen → magnesium oxide\n\n**Symbol equation:** 2Mg + O₂ → 2MgO\n\n## Balancing\n\nAtoms are never created or destroyed in a reaction (conservation of mass), so there must be the **same number of each type of atom on both sides**. You may only change the **big numbers in front** of formulas, never the small subscripts.\n\nMethod:\n1. Write the correct formulas (unbalanced).\n2. Count each element on both sides.\n3. Add big numbers to balance, one element at a time — leave hydrogen and oxygen till last.\n4. Re-count everything.\n\n```\nCH₄ + O₂ → CO₂ + H₂O        (H: 4 vs 2, O: 2 vs 3)\nCH₄ + O₂ → CO₂ + 2H₂O       (H balanced; O: 2 vs 4)\nCH₄ + 2O₂ → CO₂ + 2H₂O      ✓\n\nAl + O₂ → Al₂O₃\n4Al + 3O₂ → 2Al₂O₃          ✓ (Al 4=4, O 6=6)\n\nNa + H₂O → NaOH + H₂\n2Na + 2H₂O → 2NaOH + H₂     ✓\n```\n\n## State symbols\n\n**(s)** solid · **(l)** liquid · **(g)** gas · **(aq)** aqueous (dissolved in water)\n\n2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g)\n\n## Ionic equations\n\nShow only the ions that actually change; **spectator ions** (unchanged) are left out.\n\nFull: AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq)\nIonic: **Ag⁺(aq) + Cl⁻(aq) → AgCl(s)** (Na⁺ and NO₃⁻ are spectators)\n\nNeutralisation is always: **H⁺(aq) + OH⁻(aq) → H₂O(l)**\n\n# 4.3 Relative formula mass (Mr)\n\nAdd up the Ar of every atom. (Ar: H 1, C 12, N 14, O 16, Na 23, Mg 24, S 32, Cl 35.5, K 39, Ca 40, Fe 56, Cu 64)\n\n- H₂O = 2(1) + 16 = **18**\n- CO₂ = 12 + 2(16) = **44**\n- Ca(OH)₂ = 40 + 2(16 + 1) = **74**\n- (NH₄)₂SO₄ = 2(14 + 4) + 32 + 4(16) = **132**\n\n**Percentage by mass** of an element = (total Ar of that element in the formula ÷ Mr) × 100. Oxygen in H₂O: 16/18 × 100 = **88.9%**.",
+        "order":  4,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "Mg²⁺ needs two NO₃⁻; brackets round the polyatomic ion.",
+                         "options":  [
+                                         "MgNO₃",
+                                         "Mg(NO₃)₂",
+                                         "Mg₂NO₃",
+                                         "MgN₂O₆"
+                                     ],
+                         "q":  "The formula of magnesium nitrate is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "4 H and 2 O on each side.",
+                         "options":  [
+                                         "H₂ + O₂ → H₂O",
+                                         "2H₂ + O₂ → 2H₂O",
+                                         "H₂ + O₂ → 2H₂O",
+                                         "2H₂ + 2O₂ → 2H₂O"
+                                     ],
+                         "q":  "Which equation is correctly balanced?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Cl₂ = 2 atoms; 2NaCl = 2 atoms.",
+                         "options":  [
+                                         "1",
+                                         "2",
+                                         "3",
+                                         "4"
+                                     ],
+                         "q":  "In 2Na + Cl₂ → 2NaCl, how many chlorine atoms are on each side?"
+                     },
+                     {
+                         "answer":  3,
+                         "explain":  "aq = aqueous.",
+                         "options":  [
+                                         "(s)",
+                                         "(l)",
+                                         "(g)",
+                                         "(aq)"
+                                     ],
+                         "q":  "Dissolved in water is shown by the state symbol:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "23 + 16 + 1 = 40.",
+                         "options":  [
+                                         "39",
+                                         "40",
+                                         "41",
+                                         "24"
+                                     ],
+                         "q":  "The relative formula mass of NaOH is (Na 23, O 16, H 1):"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Only H⁺ + OH⁻ → H₂O; Na⁺ and Cl⁻ stay dissolved unchanged.",
+                         "options":  [
+                                         "H⁺ and OH⁻",
+                                         "Na⁺ and Cl⁻",
+                                         "H⁺ and Na⁺",
+                                         "OH⁻ and Cl⁻"
+                                     ],
+                         "q":  "In the reaction of hydrochloric acid with sodium hydroxide, the spectator ions are:"
+                     },
+                     {
+                         "answer":  3,
+                         "explain":  "K⁺ and O²⁻ give K₂O, not KO.",
+                         "options":  [
+                                         "CaCl₂",
+                                         "Na₂O",
+                                         "AlCl₃",
+                                         "KO"
+                                     ],
+                         "q":  "Which formula is wrong?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "C: 3, H: 8 → 4H₂O, O: 6 + 4 = 10 → 5O₂.",
+                         "options":  [
+                                         "1, 3, 3, 4",
+                                         "1, 5, 3, 4",
+                                         "2, 5, 6, 8",
+                                         "1, 4, 3, 4"
+                                     ],
+                         "q":  "Balance: __C₃H₈ + __O₂ → __CO₂ + __H₂O"
+                     }
+                 ],
+        "subject":  "chemistry",
+        "title":  "Chemical formulae and equations",
+        "updated":  "Chapter notes",
+        "id":  "chem-formulae"
     },
     {
         "cards":  [
@@ -2773,6 +3574,308 @@
     {
         "cards":  [
                       {
+                          "a":  "I სასულიერო, II თავადაზნაურობა, III მესამე წოდება (ბურჟუაზია, გლეხები, ქალაქის ღარიბები — ~97%).",
+                          "q":  "რომელი სამი წოდება იყო რევოლუციამდელ საფრანგეთში?"
+                      },
+                      {
+                          "a":  "მხოლოდ მესამე წოდება; სასულიერო და თავადაზნაურობა თავისუფალი იყო.",
+                          "q":  "რომელი წოდება იხდიდა გადასახადებს?"
+                      },
+                      {
+                          "a":  "ფინანსური კრიზისი, სოციალური უსამართლობა (წოდებრივი წყობა), განმანათლებლობის იდეები (და მოსავლის უკმარისობა, ამერიკის მაგალითი).",
+                          "q":  "დაასახელე რევოლუციის სამი მიზეზი."
+                      },
+                      {
+                          "a":  "ლუი XVI; სიკვდილით დასაჯეს 1793 წლის 21 იანვარს.",
+                          "q":  "ვინ იყო საფრანგეთის მეფე რევოლუციის დროს?"
+                      },
+                      {
+                          "a":  "1789 წლის 14 ივლისი — რევოლუციის დასაწყისი, საფრანგეთის ეროვნული დღესასწაული.",
+                          "q":  "როდის აიღეს ბასტილია და რას ნიშნავს ეს თარიღი?"
+                      },
+                      {
+                          "a":  "1789 წ. 20 ივნისი — მესამე წოდების დეპუტატებმა დაიფიცეს, არ დაშლილიყვნენ კონსტიტუციის მიღებამდე.",
+                          "q":  "რა არის ბურთის სათამაშო დარბაზის ფიცი?"
+                      },
+                      {
+                          "a":  "1789 წ. 26 აგვისტო; გამოაცხადა თავისუფლება, თანასწორობა კანონის წინაშე, ხალხის სუვერენიტეტი.",
+                          "q":  "ადამიანისა და მოქალაქის უფლებათა დეკლარაცია — როდის და რა?"
+                      },
+                      {
+                          "a":  "1792 წლის სექტემბერში, მონარქიის დამხობის შემდეგ.",
+                          "q":  "როდის გამოცხადდა საფრანგეთი რესპუბლიკად?"
+                      },
+                      {
+                          "a":  "რადიკალური რესპუბლიკელები; ლიდერი — მაქსიმილიან რობესპიერი (ასევე დანტონი, მარატი).",
+                          "q":  "ვინ იყვნენ იაკობინელები და ვინ ხელმძღვანელობდა მათ?"
+                      },
+                      {
+                          "a":  "1793–1794 წწ. იაკობინელთა დიქტატურის პერიოდი, როცა „რევოლუციის მტრებს“ მასობრივად სჯიდნენ გილიოტინაზე.",
+                          "q":  "რა იყო „ტერორი“?"
+                      },
+                      {
+                          "a":  "გადატრიალება — რობესპიერი დააპატიმრეს და სიკვდილით დასაჯეს; ტერორი დასრულდა.",
+                          "q":  "რა მოხდა 9 თერმიდორს (1794 წ. 27 ივლისი)?"
+                      },
+                      {
+                          "a":  "1795–1799 წწ. ხუთი დირექტორის მმართველობა; სუსტი და კორუმპირებული.",
+                          "q":  "რა იყო დირექტორია?"
+                      },
+                      {
+                          "a":  "1799 წ. 9 ნოემბერი (18 ბრიუმერი) — ნაპოლეონ ბონაპარტის გადატრიალება.",
+                          "q":  "როდის და როგორ დასრულდა რევოლუცია?"
+                      },
+                      {
+                          "a":  "ქალაქის ღარიბი ფენა, რევოლუციის რადიკალური მხარდამჭერები (სახელი — „უშარვლოები“, არ ეცვათ არისტოკრატული კიულოტი).",
+                          "q":  "ვინ იყვნენ სანკიულოტები?"
+                      },
+                      {
+                          "a":  "თავისუფლება, თანასწორობა, ძმობა.",
+                          "q":  "რევოლუციის დევიზი?"
+                      },
+                      {
+                          "a":  "ვოლტერი, მონტესკიე (ხელისუფლების დანაწილება), რუსო (ხალხის სუვერენიტეტი).",
+                          "q":  "რომელი განმანათლებლების იდეებმა იმოქმედა რევოლუციაზე?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "lang":  "ka",
+        "notes":  "# რევოლუციის მიზეზები\n\n**საფრანგეთი XVIII საუკუნის ბოლოს** — აბსოლუტური მონარქია, მეფე **ლუი XVI** (1774–1792).\n\n**წოდებრივი საზოგადოება — სამი წოდება:**\n\n| წოდება | ვინ | უფლებები |\n|---|---|---|\n| I — სასულიერო | ეპისკოპოსები, მღვდლები (~1%) | გადასახადებისგან თავისუფალი, ფლობდნენ მიწას |\n| II — თავადაზნაურობა | არისტოკრატია (~2%) | გადასახადებისგან თავისუფალი, პრივილეგიები |\n| III — მესამე წოდება | ბურჟუაზია, გლეხები, ქალაქის ღარიბები (~97%) | იხდიდნენ ყველა გადასახადს, პოლიტიკური უფლებები არ ჰქონდათ |\n\n**მიზეზები:**\n\n1. **ფინანსური კრიზისი** — სახელმწიფო ხაზინა ცარიელი იყო (ომები, მათ შორის ამერიკის დამოუკიდებლობის ომში მონაწილეობა, სასახლის ხარჯები — ვერსალი).\n2. **სოციალური უსამართლობა** — მესამე წოდება იხდიდა ყველაფერს, პრივილეგირებული წოდებები — არაფერს.\n3. **განმანათლებლობის იდეები** — ვოლტერი, მონტესკიე (ხელისუფლების დანაწილება), რუსო (ხალხის სუვერენიტეტი): თანასწორობა, თავისუფლება, გონება.\n4. **მოსავლის უკმარისობა 1788 წ.** — პურის ფასი გაიზარდა, შიმშილი.\n5. **ამერიკის რევოლუციის მაგალითი** (1776).\n\n# ძირითადი მოვლენები\n\n| თარიღი | მოვლენა |\n|---|---|\n| 1789 მაისი | **გენერალური შტატების** მოწვევა (1614 წლის შემდეგ პირველად) — მეფეს ფული სჭირდებოდა |\n| 1789 17 ივნისი | მესამე წოდებამ თავი **ეროვნულ კრებად** გამოაცხადა; **ბურთის სათამაშო დარბაზის ფიცი** — არ დაიშლებიან კონსტიტუციის მიღებამდე |\n| **1789 14 ივლისი** | **ბასტილიის აღება** — რევოლუციის დასაწყისი; დღეს საფრანგეთის ეროვნული დღესასწაული |\n| 1789 4 აგვისტო | ფეოდალური პრივილეგიების გაუქმება |\n| 1789 26 აგვისტო | **ადამიანისა და მოქალაქის უფლებათა დეკლარაცია** — „ადამიანები იბადებიან და რჩებიან თავისუფალნი და თანასწორნი უფლებებში“ |\n| 1791 | პირველი კონსტიტუცია — კონსტიტუციური მონარქია |\n| 1792 აგვისტო–სექტემბერი | მონარქიის დამხობა, **რესპუბლიკის** გამოცხადება (21 სექტემბერი) |\n| 1793 21 იანვარი | **ლუი XVI-ის სიკვდილით დასჯა** გილიოტინაზე |\n| 1793–1794 | **იაკობინელთა დიქტატურა**, **ტერორი** — რობესპიერი, საზოგადოებრივი ხსნის კომიტეტი; ათასობით სიკვდილით დასჯილი |\n| 1794 27 ივლისი (9 თერმიდორი) | თერმიდორის გადატრიალება — რობესპიერის დაპატიმრება და სიკვდილით დასჯა |\n| 1795–1799 | **დირექტორია** — ხუთი დირექტორის მმართველობა, კორუფცია, არასტაბილურობა |\n| **1799 9 ნოემბერი (18 ბრიუმერი)** | **ნაპოლეონ ბონაპარტის** გადატრიალება — რევოლუციის დასასრული |\n\n# პოლიტიკური ჯგუფები\n\n- **ჟირონდისტები** — ზომიერი რესპუბლიკელები, მდიდარი ბურჟუაზიის ინტერესები.\n- **იაკობინელები** — რადიკალები (რობესპიერი, დანტონი, მარატი), ეყრდნობოდნენ ქალაქის ღარიბებს — **სანკიულოტებს**.\n- ტერმინი „**მემარცხენე**“ და „**მემარჯვენე**“ სწორედ საფრანგეთის კრებაში დაბადა — ვინ სად იჯდა.\n\n# შედეგები და მნიშვნელობა\n\n- დაემხო აბსოლუტიზმი და წოდებრივი წყობა; დამკვიდრდა კანონის წინაშე **თანასწორობა**.\n- უფლებათა დეკლარაცია გახდა თანამედროვე დემოკრატიის საფუძველი.\n- დევიზი: **„თავისუფლება, თანასწორობა, ძმობა“**; სამფეროვანი დროშა; „მარსელიეზა“.\n- მეტრული სისტემა, ახალი კალენდარი (დროებით).\n- რევოლუციური ომები გავრცელდა ევროპაში → ნაპოლეონის ეპოქა.\n\n\u003e **ცნებები:** აბსოლუტიზმი, წოდება, კონსტიტუცია, რესპუბლიკა, დეკლარაცია, ტერორი, დიქტატურა, სანკიულოტი, გილიოტინა.",
+        "order":  3,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "1789 წლის 14 ივლისი.",
+                         "options":  [
+                                         "ლუი XVI-ის სიკვდილით დასჯა",
+                                         "ბასტილიის აღება",
+                                         "რესპუბლიკის გამოცხადება",
+                                         "ნაპოლეონის გადატრიალება"
+                                     ],
+                         "q":  "რომელი მოვლენა ითვლება რევოლუციის დასაწყისად?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "მოსახლეობის ~97% — ყველა, ვინც არ იყო სასულიერო ან თავადაზნაური.",
+                         "options":  [
+                                         "ეპისკოპოსები",
+                                         "თავადები",
+                                         "ბურჟუაზია და გლეხები",
+                                         "მეფის ოჯახი"
+                                     ],
+                         "q":  "მესამე წოდებაში შედიოდნენ:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "1793 წლის 21 იანვარი.",
+                         "options":  [
+                                         "1789",
+                                         "1791",
+                                         "1793",
+                                         "1799"
+                                     ],
+                         "q":  "რომელ წელს დასაჯეს სიკვდილით ლუი XVI?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "იაკობინელთა ლიდერი რობესპიერი და საზოგადოებრივი ხსნის კომიტეტი.",
+                         "options":  [
+                                         "ნაპოლეონი",
+                                         "ლუი XVI",
+                                         "რობესპიერი",
+                                         "ლაფაიეტი"
+                                     ],
+                         "q":  "ტერორის პერიოდს ხელმძღვანელობდა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "1789 წლის 26 აგვისტოს დეკლარაციის პირველი მუხლი.",
+                         "options":  [
+                                         "1791 წლის კონსტიტუცია",
+                                         "ადამიანისა და მოქალაქის უფლებათა დეკლარაცია",
+                                         "ნაპოლეონის კოდექსი",
+                                         "ბურთის სათამაშო დარბაზის ფიცი"
+                                     ],
+                         "q":  "„ადამიანები იბადებიან და რჩებიან თავისუფალნი და თანასწორნი უფლებებში“ — საიდანაა?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "1799 წლის 9 ნოემბერი — რევოლუციის დასასრული.",
+                         "options":  [
+                                         "რობესპიერი",
+                                         "დირექტორია",
+                                         "ნაპოლეონ ბონაპარტი",
+                                         "ლუი XVIII"
+                                     ],
+                         "q":  "18 ბრიუმერის გადატრიალებით ხელისუფლებაში მოვიდა:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "ინდუსტრიული რევოლუცია საფრანგეთში მოგვიანებით განვითარდა.",
+                         "options":  [
+                                         "ფინანსური კრიზისი",
+                                         "განმანათლებლობის იდეები",
+                                         "ინდუსტრიული რევოლუციის დასრულება",
+                                         "წოდებრივი უთანასწორობა"
+                                     ],
+                         "q":  "რომელი არ იყო რევოლუციის მიზეზი?"
+                     }
+                 ],
+        "subject":  "history",
+        "title":  "საფრანგეთის დიდი რევოლუცია (1789–1799)",
+        "updated":  "თავის ნომერი დასაზუსტებელია",
+        "id":  "hist-french-revolution"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "ქართლ-კახეთის დაცვას და ბაგრატიონთა ტახტის შენარჩუნებას (1783).",
+                          "q":  "რას პირდებოდა რუსეთი გეორგიევსკის ტრაქტატით?"
+                      },
+                      {
+                          "a":  "გიორგი XII (1798–1800).",
+                          "q":  "ვინ იყო ქართლ-კახეთის უკანასკნელი მეფე?"
+                      },
+                      {
+                          "a":  "1801 წლის 12 სექტემბერს ალექსანდრე I-ის მანიფესტით (პავლე I-ის მანიფესტი — 18 იანვარი).",
+                          "q":  "როდის და ვისი მანიფესტით გაუქმდა ქართლ-კახეთის სამეფო?"
+                      },
+                      {
+                          "a":  "რუსეთმა დაარღვია ტრაქტატის პირობა — ბაგრატიონთა ტახტი გააუქმა და სამეფო გუბერნიად აქცია.",
+                          "q":  "რატომ ითვლება 1801 წლის აქტი ანექსიად?"
+                      },
+                      {
+                          "a":  "რუსეთის იმპერატორის უმაღლესი წარმომადგენელი კავკასიაში (მაგ. ციციანოვი, ერმოლოვი).",
+                          "q":  "ვინ იყო მთავარმართებელი?"
+                      },
+                      {
+                          "a":  "1811 წელს; ეკლესიას რუსეთის სინოდის ეგზარქოსი მართავდა.",
+                          "q":  "როდის გაუქმდა ქართული ეკლესიის ავტოკეფალია?"
+                      },
+                      {
+                          "a":  "1810 წელს; მეფე სოლომონ II წინააღმდეგობის შემდეგ თურქეთში გაიქცა.",
+                          "q":  "როდის შეუერთდა იმერეთის სამეფო რუსეთს?"
+                      },
+                      {
+                          "a":  "1812; ჯარისთვის პურის სავალდებულო მიწოდება და ჩინოვნიკთა ძალადობა.",
+                          "q":  "კახეთის აჯანყება — წელი და მიზეზი?"
+                      },
+                      {
+                          "a":  "1819–1820; საეკლესიო რეფორმა — მონასტრების დახურვა, ქართველი ეპისკოპოსების გადაყენება.",
+                          "q":  "იმერეთის აჯანყება — წელი და მიზეზი?"
+                      },
+                      {
+                          "a":  "საქართველოს დამოუკიდებლობის აღდგენა და ბაგრატიონთა მეფობის დაბრუნება.",
+                          "q":  "1832 წლის შეთქმულების მიზანი?"
+                      },
+                      {
+                          "a":  "სოლომონ დოდაშვილი, ალექსანდრე ორბელიანი, ელიზბარ ერისთავი (ასევე გრიგოლ ორბელიანი, დიმიტრი ყიფიანი).",
+                          "q":  "დაასახელე 1832 წლის შეთქმულების სამი მონაწილე."
+                      },
+                      {
+                          "a":  "ერთ-ერთმა მონაწილემ, იასე ფალავანდიშვილმა, გასცა; შეთქმულები დააპატიმრეს და გადაასახლეს.",
+                          "q":  "როგორ დამარცხდა შეთქმულება?"
+                      },
+                      {
+                          "a":  "გადაასახლეს ვიატკაში, სადაც 1836 წელს გარდაიცვალა.",
+                          "q":  "რა ბედი ეწია სოლომონ დოდაშვილს?"
+                      },
+                      {
+                          "a":  "თერგდალეულებმა — ილია ჭავჭავაძემ, აკაკი წერეთელმა — 1860-იან წლებში.",
+                          "q":  "ვინ გააგრძელა 1832 წლის შეთქმულების იდეები?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "lang":  "ka",
+        "notes":  "# ქართლ-კახეთის სამეფოს გაუქმება\n\n**წინაპირობა:** 1783 წ. **გეორგიევსკის ტრაქტატი** — ერეკლე II-მ რუსეთის მფარველობა მიიღო: რუსეთი პირობას დებდა, დაეცვა სამეფო და შეენარჩუნებინა ბაგრატიონთა ტახტი. 1795 წ. **კრწანისის ბრძოლა** — აღა-მაჰმად-ხანმა თბილისი დაანგრია, რუსეთმა დახმარება არ გამოგზავნა.\n\n- 1798 — ერეკლე II გარდაიცვალა; მეფე გახდა **გიორგი XII**, ავადმყოფი და სუსტი; ტახტისთვის ბრძოლა ერეკლეს ვაჟებთან (იულონი, ალექსანდრე).\n- 1800 — გიორგი XII-მ რუსეთს სთხოვა სამეფოს მიღება იმპერიის შემადგენლობაში ბაგრატიონთა მემკვიდრეობითი მეფობის შენარჩუნებით; დეკემბერში გარდაიცვალა.\n- **1801 18 იანვარი** — პავლე I-ის მანიფესტი; **1801 12 სექტემბერი** — **ალექსანდრე I-ის მანიფესტი**: ქართლ-კახეთის სამეფო **გაუქმდა** და რუსეთის იმპერიის გუბერნიად იქცა. ბაგრატიონთა დინასტიის მეფობა შეწყდა; სამეფო ოჯახის წევრები რუსეთში გადაასახლეს.\n\n\u003e ტრაქტატის პირობა — ტახტის შენარჩუნება — დაირღვა. ეს არის ძირითადი არგუმენტი, რომ 1801 წლის აქტი **ანექსია** იყო.\n\n# რუსული მმართველობა\n\n- **მთავარმართებელი** — იმპერიის უმაღლესი წარმომადგენელი კავკასიაში (პირველი: კარლ კნორინგი; შემდეგ პავლე ციციანოვი 1802–1806, რომელიც ბაქოსთან მოკლეს).\n- ქართული სამართლის (ვახტანგ VI-ის სამართალი) თანდათანობით ჩანაცვლება რუსულით; რუსული ენა ადმინისტრაციაში; ქართული ეკლესიის **ავტოკეფალიის გაუქმება (1811)** — ეგზარქოსი რუსეთის სინოდიდან.\n- დასავლეთ საქართველოს შეერთება: **იმერეთის სამეფო — 1810** (სოლომონ II-ის წინააღმდეგობა, გაქცევა თურქეთში); სამეგრელო (1803, მფარველობა), გურია (1810), აფხაზეთი (1810), სვანეთი (1833/1858).\n\n# აჯანყებები რუსული მმართველობის წინააღმდეგ\n\n| წელი | აჯანყება | მიზეზი და შედეგი |\n|---|---|---|\n| 1804 | მთიულეთის აჯანყება | გადასახადები, საგზაო სამუშაოები; ჩაახშეს |\n| **1812** | **კახეთის აჯანყება** | პურის სავალდებულო მიწოდება ჯარისთვის, ჩინოვნიკთა ძალადობა; ალექსანდრე ბატონიშვილის მონაწილეობა; სასტიკად ჩაახშეს |\n| **1819–1820** | **იმერეთის აჯანყება** | საეკლესიო რეფორმა — მონასტრების დახურვა, ქართველი ეპისკოპოსების გადაყენება; ჩაახშო ერმოლოვმა |\n\n# 1832 წლის შეთქმულება\n\n- **მიზანი:** სამეფოს დამოუკიდებლობის აღდგენა, ბაგრატიონთა ტახტზე დაბრუნება.\n- **მონაწილეები:** თავადაზნაურობა და ინტელიგენცია — **ალექსანდრე ორბელიანი, სოლომონ დოდაშვილი** (განმანათლებელი, ჟურნალისტი), ელიზბარ ერისთავი, გრიგოლ ორბელიანი, დიმიტრი ყიფიანი, ფილადელფოს კიკნაძე; სულიერი ლიდერი — **ალექსანდრე ბატონიშვილი** (ერეკლეს ძე, სპარსეთში).\n- **გეგმა:** ბალზე მიეწვიათ რუსი მოხელეები და დაეპატიმრებინათ; შემდეგ აჯანყება.\n- **დამხობა:** ერთ-ერთმა მონაწილემ (**იასე ფალავანდიშვილი**) გასცა; 1832 დეკემბერში დაპატიმრებები დაიწყო.\n- **სასჯელი:** სიკვდილით დასჯა შეცვალეს გადასახლებით რუსეთის შიდა გუბერნიებში; **სოლომონ დოდაშვილი** გადასახლებაში გარდაიცვალა (1836, ვიატკა).\n- **მნიშვნელობა:** ეროვნულ-განმათავისუფლებელი მოძრაობის ბოლო „თავადაზნაურული“ ეტაპი; მისი იდეები გააგრძელეს **თერგდალეულებმა** (ილია ჭავჭავაძე, აკაკი წერეთელი) 1860-იან წლებში.\n\n\u003e **ცნებები:** მფარველობა, ანექსია, მანიფესტი, გუბერნია, მთავარმართებელი, ეგზარქოსი, ავტოკეფალია, შეთქმულება.",
+        "order":  5,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "1801 წლის მანიფესტები — პავლე I (იანვარი) და ალექსანდრე I (სექტემბერი).",
+                         "options":  [
+                                         "1783",
+                                         "1795",
+                                         "1801",
+                                         "1810"
+                                     ],
+                         "q":  "ქართლ-კახეთის სამეფო გაუქმდა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "სოლომონ II-ის სამეფო.",
+                         "options":  [
+                                         "ქართლ-კახეთი",
+                                         "იმერეთი",
+                                         "სამეგრელო",
+                                         "გურია"
+                                     ],
+                         "q":  "რომელი სამეფო შეუერთდა რუსეთს 1810 წელს?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "კახეთის აჯანყება პურის მიწოდებისა და ძალადობის გამო.",
+                         "options":  [
+                                         "იმერეთში",
+                                         "კახეთში",
+                                         "მთიულეთში",
+                                         "სვანეთში"
+                                     ],
+                         "q":  "1812 წლის აჯანყება მოხდა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "მონასტრების დახურვა და ქართველი ეპისკოპოსების გადაყენება.",
+                         "options":  [
+                                         "გადასახადები",
+                                         "საეკლესიო რეფორმა",
+                                         "რეკრუტობა",
+                                         "მიწის ჩამორთმევა"
+                                     ],
+                         "q":  "1819–1820 წლების იმერეთის აჯანყების მთავარი მიზეზი:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "განმანათლებელი და ჟურნალისტი დოდაშვილი შეთქმულების იდეოლოგი იყო.",
+                         "options":  [
+                                         "ილია ჭავჭავაძე",
+                                         "სოლომონ დოდაშვილი",
+                                         "ერეკლე II",
+                                         "პავლე ციციანოვი"
+                                     ],
+                         "q":  "1832 წლის შეთქმულების ერთ-ერთი ლიდერი იყო:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "1811 წელს შემოიღეს ეგზარქოსობა.",
+                         "options":  [
+                                         "1801",
+                                         "1811",
+                                         "1832",
+                                         "1864"
+                                     ],
+                         "q":  "ქართული ეკლესიის ავტოკეფალია გაუქმდა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "ფალავანდიშვილის გაცემით დაიწყო დაპატიმრებები 1832 წლის დეკემბერში.",
+                         "options":  [
+                                         "გრიგოლ ორბელიანმა",
+                                         "იასე ფალავანდიშვილმა",
+                                         "დიმიტრი ყიფიანმა",
+                                         "ალექსანდრე ბატონიშვილმა"
+                                     ],
+                         "q":  "შეთქმულება გასცა:"
+                     }
+                 ],
+        "subject":  "history",
+        "title":  "საქართველო რუსეთის იმპერიაში: 1801–1832",
+        "updated":  "თავის ნომერი დასაზუსტებელია",
+        "id":  "hist-georgia-1801"
+    },
+    {
+        "cards":  [
+                      {
                           "a":  "ფარნავაზი (ჩვ. წ.-მდე IV–III სს.).",
                           "q":  "ვინ იყო ქართლის პირველი მეფე?"
                       },
@@ -2897,6 +4000,300 @@
         "title":  "საქართველოს ისტორიის ძირითადი თარიღები",
         "updated":  "საწყისი ჩანაწერები",
         "id":  "hist-georgia-timeline"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "გადასვლა ხელით შრომიდან მანქანურ, ფაბრიკულ წარმოებაზე; აგრარული საზოგადოებიდან ინდუსტრიულზე.",
+                          "q":  "რა არის ინდუსტრიული რევოლუცია?"
+                      },
+                      {
+                          "a":  "ინგლისში, XVIII საუკუნის 60-იან წლებში.",
+                          "q":  "სად და როდის დაიწყო?"
+                      },
+                      {
+                          "a":  "კაპიტალი კოლონიური ვაჭრობიდან, თავისუფალი მუშახელი (შემოღობვები), ქვანახშირი და რკინა, კოლონიები, სტაბილური პოლიტიკა (ნებისმიერი სამი).",
+                          "q":  "დაასახელე სამი მიზეზი, რატომ დაიწყო ინგლისში."
+                      },
+                      {
+                          "a":  "საერთო მიწების კერძო საკუთრებად შემოღობვა, რის გამოც გლეხები მიწის გარეშე დარჩნენ და ქალაქებში წავიდნენ სამუშაოდ.",
+                          "q":  "რა არის შემოღობვები (enclosures)?"
+                      },
+                      {
+                          "a":  "ჯეიმზ უატი (1769/1784); ფაბრიკები აღარ იყო დამოკიდებული წყლის ძალაზე, ტრანსპორტიც შეიცვალა.",
+                          "q":  "ვინ გააუმჯობესა ორთქლის მანქანა და რატომ იყო ეს მნიშვნელოვანი?"
+                      },
+                      {
+                          "a":  "ჯეიმზ ჰარგრივსი, 1764.",
+                          "q":  "სართავი მანქანა „ჯენი“ — ვინ და როდის?"
+                      },
+                      {
+                          "a":  "ჯორჯ სტეფენსონი; სტოქტონი–დარლინგტონი 1825, ლივერპული–მანჩესტერი 1830.",
+                          "q":  "ვინ ააგო პირველი რკინიგზა და ორთქლმავალი „რაკეტა“?"
+                      },
+                      {
+                          "a":  "ქალაქების და ქალაქის მოსახლეობის სწრაფი ზრდა.",
+                          "q":  "რა არის ურბანიზაცია?"
+                      },
+                      {
+                          "a":  "ბურჟუაზია (მფლობელები) და პროლეტარიატი (მუშები).",
+                          "q":  "რომელი ორი კლასი შეიქმნა?"
+                      },
+                      {
+                          "a":  "1811–1816 წწ. მუშები, რომლებიც მანქანებს ამსხვრევდნენ, რადგან სამუშაოს ართმევდნენ.",
+                          "q":  "ვინ იყვნენ ლუდიტები?"
+                      },
+                      {
+                          "a":  "ინგლისის მუშათა მოძრაობა (1838–1848) საყოველთაო საარჩევნო უფლების მოთხოვნით („ხალხის ქარტია“).",
+                          "q":  "რა იყო ჩარტიზმი?"
+                      },
+                      {
+                          "a":  "კარლ მარქსმა და ფრიდრიხ ენგელსმა, 1848.",
+                          "q":  "ვინ დაწერა „კომუნისტური პარტიის მანიფესტი“ და როდის?"
+                      },
+                      {
+                          "a":  "თავისუფალი ბაზარი და კონკურენცია, სახელმწიფოს მინიმალური ჩარევა (ლიბერალიზმი).",
+                          "q":  "ადამ სმიტის მთავარი იდეა?"
+                      },
+                      {
+                          "a":  "ფოთი–თბილისის რკინიგზა (1872), ბათუმის პორტი, ჭიათურის მარგანეცი, ტყიბულის ქვანახშირი, ბაქო–ბათუმის ნავთობსადენი.",
+                          "q":  "ინდუსტრიული განვითარების ნიშნები საქართველოში?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "lang":  "ka",
+        "notes":  "# რა არის ინდუსტრიული რევოლუცია?\n\n**ინდუსტრიული (სამრეწველო) რევოლუცია** — გადასვლა **ხელით შრომიდან მანქანურ წარმოებაზე**, მანუფაქტურიდან **ფაბრიკაზე**; აგრარული საზოგადოება ინდუსტრიულად იქცა. დაიწყო **ინგლისში XVIII საუკუნის 60-იან წლებში** და XIX საუკუნეში ევროპასა და ამერიკაში გავრცელდა.\n\n# რატომ ინგლისში?\n\n1. **კაპიტალი** — მდიდარი ვაჭრები და კოლონიური ვაჭრობის შემოსავალი.\n2. **თავისუფალი მუშახელი** — „შემოღობვების“ შედეგად მიწააყრილი გლეხები ქალაქებში წავიდნენ.\n3. **ბუნებრივი რესურსები** — ქვანახშირი და რკინა.\n4. **კოლონიები** — ნედლეული (ბამბა) და ბაზარი.\n5. **პოლიტიკური სტაბილურობა**, კერძო საკუთრების დაცვა, პარლამენტი (1688 წლის „დიდებული რევოლუციის“ შემდეგ).\n6. **აგრარული რევოლუცია** — ახალი მეთოდებით მეტი საკვები, მოსახლეობის ზრდა.\n\n# მთავარი გამოგონებები\n\n| წელი | გამოგონება | ავტორი |\n|---|---|---|\n| 1733 | „მფრინავი მაქო“ (ქსოვის დაჩქარება) | ჯონ კეი |\n| 1764 | სართავი მანქანა „ჯენი“ | ჯეიმზ ჰარგრივსი |\n| 1769 | წყლის ძალით მომუშავე სართავი მანქანა | რიჩარდ არკრაითი |\n| **1769/1784** | **გაუმჯობესებული ორთქლის მანქანა** | **ჯეიმზ უატი** |\n| 1785 | მექანიკური საქსოვი დაზგა | ედმუნდ კარტრაითი |\n| 1807 | ორთქლის გემი | რობერტ ფულტონი (აშშ) |\n| **1825/1830** | **პირველი რკინიგზა** (სტოქტონი–დარლინგტონი; ლივერპული–მანჩესტერი), ორთქლმავალი „რაკეტა“ | **ჯორჯ სტეფენსონი** |\n| 1837 | ტელეგრაფი | სამუელ მორზე |\n| 1856 | ფოლადის იაფი წარმოება (ბესემერის მეთოდი) | ჰენრი ბესემერი |\n\nორთქლის მანქანა გახდა რევოლუციის „ძრავა“: ფაბრიკები აღარ იყო დამოკიდებული მდინარეებზე.\n\n# შედეგები\n\n**ეკონომიკური:** ფაბრიკული წარმოება, წარმოების მკვეთრი ზრდა, ტრანსპორტის რევოლუცია (რკინიგზა, ორთქლის გემი), ბანკები, აქციონერული საზოგადოებები, კაპიტალიზმის დამკვიდრება.\n\n**სოციალური:**\n\n- **ურბანიზაცია** — ქალაქების სწრაფი ზრდა (მანჩესტერი, ბირმინგემი); ჭუჭყი, ეპიდემიები, სლამები.\n- ორი ახალი კლასი: **ბურჟუაზია** (ფაბრიკების მფლობელები) და **პროლეტარიატი** (მუშათა კლასი).\n- **მუშათა მდგომარეობა:** 12–16-საათიანი სამუშაო დღე, დაბალი ხელფასი, **ბავშვთა შრომა**, საშიში მანქანები, სოციალური დაცვის არარსებობა.\n- **ლუდიტები** (1811–1816) — მუშები, რომლებიც მანქანებს ამსხვრევდნენ, რადგან სამუშაოს ართმევდნენ.\n- **პროფკავშირები** და მუშათა მოძრაობა; **ჩარტიზმი** ინგლისში (1838–1848) — საარჩევნო უფლების მოთხოვნა; **ფაბრიკული კანონები** — ბავშვთა შრომის შეზღუდვა (1833, 1847 — 10-საათიანი დღე).\n- ახალი იდეოლოგიები: **ლიბერალიზმი** (ადამ სმიტი — თავისუფალი ბაზარი), **სოციალიზმი** და **მარქსიზმი** (კარლ მარქსი, ფრიდრიხ ენგელსი — „კომუნისტური პარტიის მანიფესტი“, 1848).\n\n**გავრცელება:** ბელგია, საფრანგეთი, გერმანია (XIX ს. შუა), აშშ, რუსეთი (XIX ს. ბოლო). საქართველოში — XIX ს. მეორე ნახევარი: **ფოთი–თბილისის რკინიგზა (1872)**, ბათუმის პორტი, ჭიათურის მარგანეცი, ტყიბულის ქვანახშირი, ბაქო–ბათუმის ნავთობსადენი (1906).\n\n\u003e **ცნებები:** მანუფაქტურა, ფაბრიკა, ურბანიზაცია, ბურჟუაზია, პროლეტარიატი, კაპიტალიზმი, პროფკავშირი, ლუდიტები, ჩარტიზმი.",
+        "order":  6,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "XVIII ს. 60-იანი წლები, ინგლისი.",
+                         "options":  [
+                                         "საფრანგეთში",
+                                         "ინგლისში",
+                                         "გერმანიაში",
+                                         "აშშ-ში"
+                                     ],
+                         "q":  "ინდუსტრიული რევოლუცია დაიწყო:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "უატის მანქანა (1769/1784) გახდა ფაბრიკების მთავარი ძრავა.",
+                         "options":  [
+                                         "ჯორჯ სტეფენსონმა",
+                                         "ჯეიმზ უატმა",
+                                         "რიჩარდ არკრაითმა",
+                                         "სამუელ მორზემ"
+                                     ],
+                         "q":  "ორთქლის მანქანა გააუმჯობესა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "მუშები, რომლებიც ხელფასზე ცხოვრობდნენ.",
+                         "options":  [
+                                         "ფაბრიკების მფლობელები",
+                                         "დაქირავებული მუშათა კლასი",
+                                         "მიწის მესაკუთრეები",
+                                         "სასულიერო პირები"
+                                     ],
+                         "q":  "პროლეტარიატი არის:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "მანქანები სამუშაოს ართმევდა — ამიტომ ანადგურებდნენ.",
+                         "options":  [
+                                         "ქმნიდნენ პროფკავშირებს",
+                                         "ამსხვრევდნენ მანქანებს",
+                                         "აშენებდნენ რკინიგზას",
+                                         "ითხოვდნენ საარჩევნო უფლებას"
+                                     ],
+                         "q":  "ლუდიტები:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "სტოქტონი–დარლინგტონი, 1825.",
+                         "options":  [
+                                         "1769",
+                                         "1807",
+                                         "1825",
+                                         "1848"
+                                     ],
+                         "q":  "პირველი რკინიგზა გაიხსნა:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "1872 წელი — საქართველოს პირველი რკინიგზა.",
+                         "options":  [
+                                         "1801",
+                                         "1832",
+                                         "1872",
+                                         "1906"
+                                     ],
+                         "q":  "ფოთი–თბილისის რკინიგზა აშენდა:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "პირიქით — ფეოდალური სისტემა დაიშალა, გაძლიერდა ბურჟუაზია.",
+                         "options":  [
+                                         "ურბანიზაცია",
+                                         "ბავშვთა შრომა ფაბრიკებში",
+                                         "ფეოდალური წოდებების გაძლიერება",
+                                         "პროფკავშირების შექმნა"
+                                     ],
+                         "q":  "რომელი არ იყო ინდუსტრიული რევოლუციის შედეგი?"
+                     }
+                 ],
+        "subject":  "history",
+        "title":  "ინდუსტრიული რევოლუცია",
+        "updated":  "თავის ნომერი დასაზუსტებელია",
+        "id":  "hist-industrial"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "1799 (18 ბრიუმერი) — პირველი კონსული; 1804 — იმპერატორი.",
+                          "q":  "როდის გახდა ნაპოლეონი პირველი კონსული და როდის იმპერატორი?"
+                      },
+                      {
+                          "a":  "1804 წლის სამოქალაქო კოდექსი: თანასწორობა კანონის წინაშე, საკუთრების დაცვა, სამოქალაქო ქორწინება; მრავალი ქვეყნის სამართლის საფუძველი.",
+                          "q":  "რა არის ნაპოლეონის კოდექსი?"
+                      },
+                      {
+                          "a":  "1805, ინგლისის ფლოტი ადმირალ ნელსონის მეთაურობით.",
+                          "q":  "ტრაფალგარის ბრძოლა — წელი, ვინ გაიმარჯვა?"
+                      },
+                      {
+                          "a":  "1805, „სამი იმპერატორის ბრძოლა“ — ნაპოლეონმა დაამარცხა ავსტრია და რუსეთი.",
+                          "q":  "აუსტერლიცის ბრძოლა?"
+                      },
+                      {
+                          "a":  "1806 წლიდან ევროპის ქვეყნებს აეკრძალათ ვაჭრობა ინგლისთან — ეკონომიკური ომი ბრიტანეთის წინააღმდეგ.",
+                          "q":  "რა იყო კონტინენტური ბლოკადა?"
+                      },
+                      {
+                          "a":  "ნაპოლეონის ლაშქრობა რუსეთში: ბოროდინო, მოსკოვი, „დიდი არმიის“ დაღუპვა.",
+                          "q":  "რა მოხდა 1812 წელს?"
+                      },
+                      {
+                          "a":  "1813, „ხალხთა ბრძოლა“ — კოალიციამ დაამარცხა ნაპოლეონი.",
+                          "q":  "ლაიფციგის ბრძოლა?"
+                      },
+                      {
+                          "a":  "1814 — კუნძულ ელბაზე; 1815 — წმინდა ელენეს კუნძულზე.",
+                          "q":  "სად გადაასახლეს ნაპოლეონი 1814-ში და 1815-ში?"
+                      },
+                      {
+                          "a":  "1815 წლის 18 ივნისი — ნაპოლეონის საბოლოო დამარცხება ველინგტონისა და ბლიუხერისგან.",
+                          "q":  "ვატერლოოს ბრძოლა?"
+                      },
+                      {
+                          "a":  "1815 წ. ნაპოლეონის დაბრუნება ელბადან და ხელისუფლების დროებით აღდგენა ვატერლოომდე.",
+                          "q":  "რა იყო „ასი დღე“?"
+                      },
+                      {
+                          "a":  "ლეგიტიმიზმი (ძველი დინასტიების აღდგენა) და ძალთა ბალანსი.",
+                          "q":  "ვენის კონგრესის ორი მთავარი პრინციპი?"
+                      },
+                      {
+                          "a":  "ავსტრიის კანცლერი მეტერნიხი.",
+                          "q":  "ვინ თავმჯდომარეობდა ვენის კონგრესს?"
+                      },
+                      {
+                          "a":  "1815 წ. რუსეთის, ავსტრიისა და პრუსიის კავშირი რევოლუციების ჩასახშობად.",
+                          "q":  "რა იყო წმინდა კავშირი?"
+                      },
+                      {
+                          "a":  "ბურბონები — ლუი XVIII.",
+                          "q":  "რომელი დინასტია აღდგა საფრანგეთში 1814 წელს?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "lang":  "ka",
+        "notes":  "# ნაპოლეონ ბონაპარტი (1769–1821)\n\n- დაიბადა კორსიკაზე; არტილერიის ოფიცერი; გაითქვა სახელი ტულონთან (1793) და იტალიის ლაშქრობაში (1796–97); ეგვიპტის ექსპედიცია (1798–99).\n- **1799, 18 ბრიუმერი** — გადატრიალება, **პირველი კონსული**.\n- **1804** — თავი **იმპერატორად** გამოაცხადა (ნოტრ-დამის ტაძარში გვირგვინი თვითონ დაიდგა).\n\n# შიდა რეფორმები\n\n| რეფორმა | არსი |\n|---|---|\n| **სამოქალაქო კოდექსი (1804, „ნაპოლეონის კოდექსი“)** | კანონის წინაშე თანასწორობა, საკუთრების ხელშეუხებლობა, სამოქალაქო ქორწინება; ევროპის მრავალი ქვეყნის სამართლის საფუძველი |\n| საფრანგეთის ბანკი (1800) | ფინანსების სტაბილიზაცია, ფრანკი |\n| კონკორდატი პაპთან (1801) | ეკლესიასთან შერიგება |\n| განათლება | ლიცეუმები, ცენტრალიზებული სისტემა |\n| ადმინისტრაცია | პრეფექტები დეპარტამენტებში — მკაცრი ცენტრალიზაცია |\n| საპატიო ლეგიონის ორდენი | დამსახურების მიხედვით დაწინაურება |\n\nუარყოფითი მხარე: ცენზურა, პოლიციური კონტროლი (ფუშე), პოლიტიკური თავისუფლების შეზღუდვა.\n\n# ნაპოლეონის ომები\n\n| წელი | მოვლენა |\n|---|---|\n| 1805 | **ტრაფალგარი** — ინგლისის ფლოტმა (ნელსონი) დაამარცხა ფრანგები ზღვაზე; **აუსტერლიცი** („სამი იმპერატორის ბრძოლა“) — ნაპოლეონის უდიდესი გამარჯვება ავსტრია-რუსეთზე |\n| 1806 | **კონტინენტური ბლოკადა** — ევროპას აეკრძალა ვაჭრობა ინგლისთან; პრუსიის დამარცხება (იენა) |\n| 1807 | ტილზიტის ზავი რუსეთთან (ალექსანდრე I) |\n| 1808–1814 | ესპანეთის ომი — პარტიზანული წინააღმდეგობა („გერილია“) |\n| **1812** | **რუსეთის ლაშქრობა** — ბოროდინო, მოსკოვის ხანძარი, „დიდი არმიის“ დაღუპვა უკანდახევისას |\n| 1813 | **ლაიფციგი — „ხალხთა ბრძოლა“**, კოალიციის გამარჯვება |\n| 1814 | პარიზის დაცემა, ნაპოლეონის გადადგომა, გადასახლება **ელბაზე**; ბურბონების რესტავრაცია — ლუი XVIII |\n| 1815 | **„ასი დღე“** — დაბრუნება; **ვატერლოო (18 ივნისი)** — საბოლოო დამარცხება (ველინგტონი, ბლიუხერი); გადასახლება **წმ. ელენეს კუნძულზე**, სადაც 1821 წ. გარდაიცვალა |\n\n# ვენის კონგრესი (1814–1815)\n\n- მონაწილეები: ავსტრია (**მეტერნიხი** — თავმჯდომარე), რუსეთი (ალექსანდრე I), პრუსია, დიდი ბრიტანია, საფრანგეთი (ტალეირანი).\n- **პრინციპები:** **ლეგიტიმიზმი** (ძველი დინასტიების აღდგენა), **ძალთა ბალანსი**, რევოლუციების აღკვეთა.\n- შედეგები: საფრანგეთი 1792 წლის საზღვრებში; რუსეთმა მიიღო პოლონეთის დიდი ნაწილი; პრუსიამ — რაინის მიწები; ავსტრიამ — ჩრდილოეთ იტალია; შეიქმნა **გერმანიის კავშირი**; შვეიცარია — ნეიტრალური.\n- **წმინდა კავშირი** (1815) — რუსეთი, ავსტრია, პრუსია — რევოლუციური მოძრაობების ჩასახშობად.\n\n# მნიშვნელობა\n\n- ნაპოლეონმა გაავრცელა რევოლუციის იდეები (თანასწორობა, კოდექსი) მთელ ევროპაში, თუმცა დაპყრობებით.\n- ეროვნული თვითშეგნების გაღვიძება გერმანიაში, იტალიაში, ესპანეთში.\n- ვენის სისტემა ევროპაში ~40 წლის მშვიდობის საფუძველი გახდა.",
+        "order":  4,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "1804 წლის დეკემბერი, ნოტრ-დამი.",
+                         "options":  [
+                                         "1799",
+                                         "1804",
+                                         "1812",
+                                         "1815"
+                                     ],
+                         "q":  "ნაპოლეონმა თავი იმპერატორად გამოაცხადა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "1805, ადმირალი ნელსონი.",
+                         "options":  [
+                                         "აუსტერლიცი",
+                                         "ტრაფალგარი",
+                                         "ვატერლოო",
+                                         "ლაიფციგი"
+                                     ],
+                         "q":  "რომელ ბრძოლაში დაამარცხა ინგლისმა საფრანგეთის ფლოტი?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "1804 წლის სამოქალაქო კოდექსი.",
+                         "options":  [
+                                         "სამხედრო წესდება",
+                                         "სამოქალაქო კანონთა კრებული",
+                                         "საზავო ხელშეკრულება",
+                                         "კონსტიტუცია"
+                                     ],
+                         "q":  "ნაპოლეონის კოდექსი არის:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "რუსეთში „დიდი არმია“ განადგურდა.",
+                         "options":  [
+                                         "ეგვიპტე 1798",
+                                         "იტალია 1796",
+                                         "რუსეთი 1812",
+                                         "ესპანეთი 1808"
+                                     ],
+                         "q":  "რომელი ლაშქრობა გახდა ნაპოლეონის დაცემის დასაწყისი?"
+                     },
+                     {
+                         "answer":  3,
+                         "explain":  "1815 წლის 18 ივნისი.",
+                         "options":  [
+                                         "1812",
+                                         "1813",
+                                         "1814",
+                                         "1815"
+                                     ],
+                         "q":  "ვატერლოოს ბრძოლა მოხდა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "რევოლუციამდელი „კანონიერი“ მონარქების დაბრუნება ტახტზე.",
+                         "options":  [
+                                         "რესპუბლიკების შექმნას",
+                                         "ძველი დინასტიების აღდგენას",
+                                         "ნაპოლეონის დაბრუნებას",
+                                         "საზღვრების გაუქმებას"
+                                     ],
+                         "q":  "ვენის კონგრესის პრინციპი „ლეგიტიმიზმი“ ნიშნავს:"
+                     },
+                     {
+                         "answer":  3,
+                         "explain":  "სამი მონარქიის კავშირი იყო — რუსეთი, ავსტრია, პრუსია.",
+                         "options":  [
+                                         "რუსეთი",
+                                         "ავსტრია",
+                                         "პრუსია",
+                                         "საფრანგეთი"
+                                     ],
+                         "q":  "წმინდა კავშირში არ შედიოდა:"
+                     }
+                 ],
+        "subject":  "history",
+        "title":  "ნაპოლეონის ეპოქა და ვენის კონგრესი (1799–1815)",
+        "updated":  "თავის ნომერი დასაზუსტებელია",
+        "id":  "hist-napoleon"
     },
     {
         "cards":  [
@@ -3145,6 +4542,311 @@
         "title":  "Algebra: expanding, factorising, solving",
         "updated":  "Starter notes",
         "id":  "maths-algebra"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "180° on a straight line; 360° around a point.",
+                          "q":  "Angles on a straight line add to…? Around a point?"
+                      },
+                      {
+                          "a":  "The angles opposite each other where two lines cross; they are equal.",
+                          "q":  "What are vertically opposite angles?"
+                      },
+                      {
+                          "a":  "180° and 360°.",
+                          "q":  "Angle sum of a triangle? of a quadrilateral?"
+                      },
+                      {
+                          "a":  "Alternate (Z) equal; corresponding (F) equal; co-interior (C) add to 180°. All need parallel lines.",
+                          "q":  "Alternate, corresponding and co-interior angles?"
+                      },
+                      {
+                          "a":  "Equals the sum of the two opposite interior angles.",
+                          "q":  "Exterior angle of a triangle rule?"
+                      },
+                      {
+                          "a":  "Two equal sides and two equal base angles.",
+                          "q":  "Properties of an isosceles triangle?"
+                      },
+                      {
+                          "a":  "(n − 2) × 180°",
+                          "q":  "Sum of interior angles of an n-sided polygon?"
+                      },
+                      {
+                          "a":  "360°",
+                          "q":  "Sum of exterior angles of any polygon?"
+                      },
+                      {
+                          "a":  "Exterior = 360/8 = 45°, interior = 135°.",
+                          "q":  "Interior angle of a regular octagon?"
+                      },
+                      {
+                          "a":  "360 ÷ 20 = 18 sides.",
+                          "q":  "A regular polygon has exterior angle 20°. Sides?"
+                      },
+                      {
+                          "a":  "A rhombus has all four sides equal and diagonals crossing at 90°; a parallelogram only needs opposite sides equal.",
+                          "q":  "Difference between a rhombus and a parallelogram?"
+                      },
+                      {
+                          "a":  "Chord: line joining two points on the circle. Sector: region between two radii and an arc. Segment: region between a chord and an arc.",
+                          "q":  "Define chord, sector and segment."
+                      },
+                      {
+                          "a":  "90°",
+                          "q":  "Angle between a tangent and the radius at the point of contact?"
+                      },
+                      {
+                          "a":  "Equal arcs (radius more than half the line) from both ends, above and below; join the two crossing points.",
+                          "q":  "How do you construct a perpendicular bisector?"
+                      }
+                  ],
+        "chapter":  3,
+        "exam":  "Exam 1 · October",
+        "notes":  "# Angle facts (give the reason in every answer)\n\n| Fact | Reason to write |\n|---|---|\n| Angles on a straight line add to 180° | \"angles on a straight line\" |\n| Angles around a point add to 360° | \"angles at a point\" |\n| Vertically opposite angles are equal | \"vertically opposite angles\" |\n| Angles in a triangle add to 180° | \"angle sum of a triangle\" |\n| Angles in a quadrilateral add to 360° | \"angle sum of a quadrilateral\" |\n| Exterior angle of a triangle = sum of the two opposite interior angles | \"exterior angle of a triangle\" |\n\n**Types of angle:** acute (\u003c 90°), right (90°), obtuse (90°–180°), reflex (180°–360°). **Complementary** angles add to 90°; **supplementary** add to 180°.\n\n# Parallel lines\n\nWhen a line (transversal) crosses two parallel lines:\n\n- **Alternate angles** are equal (Z-shape).\n- **Corresponding angles** are equal (F-shape).\n- **Co-interior (allied) angles** add to 180° (C- or U-shape).\n\n\u003e Write the reason with the word \"parallel\": \"alternate angles, parallel lines\".\n\n# Triangles\n\n| Type | Sides | Angles |\n|---|---|---|\n| Equilateral | 3 equal | all 60° |\n| Isosceles | 2 equal | base angles equal |\n| Scalene | none equal | all different |\n| Right-angled | — | one 90° |\n\n# Quadrilaterals\n\n| Shape | Properties |\n|---|---|\n| Square | 4 equal sides, 4 right angles, diagonals equal and bisect at 90° |\n| Rectangle | opposite sides equal, 4 right angles, diagonals equal |\n| Parallelogram | opposite sides equal and parallel, opposite angles equal, diagonals bisect each other |\n| Rhombus | 4 equal sides, opposite angles equal, diagonals bisect at 90° |\n| Trapezium | one pair of parallel sides |\n| Kite | two pairs of adjacent equal sides, one pair of equal angles, diagonals cross at 90° |\n\n# Polygons\n\n- **Sum of interior angles** of an n-sided polygon = **(n − 2) × 180°**. Pentagon: 540°, hexagon: 720°, octagon: 1080°.\n- **Sum of exterior angles** of any polygon = **360°**.\n- **Regular polygon** (all sides and angles equal): exterior angle = 360° ÷ n; interior angle = 180° − exterior.\n  - Regular hexagon: exterior 60°, interior 120°. Regular decagon: exterior 36°, interior 144°.\n- \"A regular polygon has interior angle 150°. How many sides?\" → exterior = 30° → n = 360 ÷ 30 = **12**.\n\n# Circle vocabulary\n\nCentre, radius (centre to edge), diameter (= 2r, through the centre), circumference (perimeter), chord (line joining two points on the circle), arc (part of the circumference), sector (\"pizza slice\" between two radii), segment (between a chord and the arc), tangent (touches at one point, at 90° to the radius).\n\n# Constructions (ruler and compasses only)\n\n- **Perpendicular bisector** of a line: arcs from each end (same radius, more than half the length), join the crossing points.\n- **Angle bisector:** arc from the vertex cutting both arms; equal arcs from those points; join the vertex to the crossing.\n- **Triangle given 3 sides:** draw the base, arcs of the other two lengths from each end, join.\n\nLeave your construction arcs visible — they earn marks.",
+        "order":  3,
+        "quiz":  [
+                     {
+                         "answer":  0,
+                         "explain":  "5x + 30 = 180 → x = 30.",
+                         "options":  [
+                                         "30",
+                                         "36",
+                                         "42",
+                                         "50"
+                                     ],
+                         "q":  "Two angles on a straight line are 3x and 2x + 30. x = ?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "(6 − 2) × 180 = 720°.",
+                         "options":  [
+                                         "540°",
+                                         "720°",
+                                         "900°",
+                                         "1080°"
+                                     ],
+                         "q":  "The interior angle sum of a hexagon is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Exterior 360/5 = 72°, interior 108°.",
+                         "options":  [
+                                         "72°",
+                                         "108°",
+                                         "120°",
+                                         "135°"
+                                     ],
+                         "q":  "Each interior angle of a regular pentagon is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Exterior 20°, 360/20 = 18.",
+                         "options":  [
+                                         "9 sides",
+                                         "12 sides",
+                                         "18 sides",
+                                         "20 sides"
+                                     ],
+                         "q":  "A regular polygon has interior angles of 160°. It has:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "(180 − 40)/2 = 70°.",
+                         "options":  [
+                                         "40°",
+                                         "50°",
+                                         "70°",
+                                         "140°"
+                                     ],
+                         "q":  "In an isosceles triangle the apex angle is 40°. Each base angle is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Co-interior angles add to 180°.",
+                         "options":  [
+                                         "110°",
+                                         "70°",
+                                         "250°",
+                                         "55°"
+                                     ],
+                         "q":  "Two parallel lines are cut by a transversal. Co-interior angles are 110° and x. x = ?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "That\u0027s the definition of a trapezium.",
+                         "options":  [
+                                         "Rhombus",
+                                         "Kite",
+                                         "Trapezium",
+                                         "Rectangle"
+                                     ],
+                         "q":  "Which quadrilateral has exactly one pair of parallel sides?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "A tangent meets the radius at 90°.",
+                         "options":  [
+                                         "Chord",
+                                         "Tangent",
+                                         "Arc",
+                                         "Sector"
+                                     ],
+                         "q":  "A line that touches a circle at exactly one point is a:"
+                     }
+                 ],
+        "subject":  "maths",
+        "title":  "Lines, angles and shapes",
+        "updated":  "Chapter notes",
+        "id":  "maths-angles"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Discrete: counted whole values (number of pets). Continuous: measured, any value in a range (height, time).",
+                          "q":  "Discrete vs continuous data?"
+                      },
+                      {
+                          "a":  "Non-numerical, in categories: colour, type of pet.",
+                          "q":  "Qualitative data?"
+                      },
+                      {
+                          "a":  "Primary: collected yourself. Secondary: collected by someone else.",
+                          "q":  "Primary vs secondary data?"
+                      },
+                      {
+                          "a":  "Equal-width bars, gaps between bars, both axes labelled, frequency on the vertical axis, a title.",
+                          "q":  "Rules for a bar chart?"
+                      },
+                      {
+                          "a":  "frequency ÷ total × 360°.",
+                          "q":  "How do you find a pie chart angle?"
+                      },
+                      {
+                          "a":  "40/120 × 360 = 120°.",
+                          "q":  "40 out of 120 people chose red. Pie chart angle?"
+                      },
+                      {
+                          "a":  "A key (e.g. 3 | 4 = 34) and ordered leaves.",
+                          "q":  "What must every stem-and-leaf diagram have?"
+                      },
+                      {
+                          "a":  "A table showing frequencies for two categories at once, with row and column totals.",
+                          "q":  "What is a two-way table?"
+                      },
+                      {
+                          "a":  "At the midpoint of each class interval, then join with straight lines.",
+                          "q":  "Where do you plot points for a frequency polygon?"
+                      },
+                      {
+                          "a":  "The class interval with the highest frequency.",
+                          "q":  "What is the modal class?"
+                      },
+                      {
+                          "a":  "Vertical axis not starting at zero, uneven scale, 3-D or picture effects that exaggerate, missing labels.",
+                          "q":  "Three ways a graph can be misleading?"
+                      },
+                      {
+                          "a":  "A line graph with time on the horizontal axis.",
+                          "q":  "Which chart shows change over time best?"
+                      },
+                      {
+                          "a":  "A pie chart.",
+                          "q":  "Which chart shows proportions of a whole?"
+                      },
+                      {
+                          "a":  "Ordered: 2 3 4 6 7 9 → middle two 4 and 6 → median 5.",
+                          "q":  "Median of 4, 9, 2, 7, 6, 3?"
+                      }
+                  ],
+        "chapter":  4,
+        "exam":  "Exam 1 · October",
+        "notes":  "# Types of data\n\n- **Qualitative (categorical):** words — colour, favourite subject.\n- **Quantitative:** numbers.\n  - **Discrete:** counted, whole values — number of siblings, shoe size.\n  - **Continuous:** measured, any value in a range — height, time, mass.\n- **Primary data:** you collect it (survey, experiment). **Secondary data:** someone else collected it (internet, census).\n\n# Collecting and organising\n\n- **Tally chart / frequency table:** tally in groups of five (||||); frequency = total.\n- **Grouped frequency table** for continuous data: classes like 10 ≤ h \u003c 20. Classes must not overlap and must cover every value. The **modal class** is the group with the highest frequency.\n- **Two-way table:** shows two categories at once (boys/girls × walk/bus/car). Totals in the margins; fill missing cells by subtracting.\n\n# Displaying data\n\n| Chart | Use it for | Rules |\n|---|---|---|\n| **Pictogram** | Simple counts | Key shows what one symbol is worth; part symbols allowed |\n| **Bar chart** | Discrete or categorical data | Bars same width, gaps between bars, label both axes, frequency on the vertical axis |\n| **Dual / comparative bar chart** | Two groups side by side | Same scale, key |\n| **Pie chart** | Proportions of a whole | Angle = frequency ÷ total × 360°; label sectors |\n| **Line graph** | Change over time | Time on the horizontal axis; join points |\n| **Stem-and-leaf** | Small sets of numbers, keeps the raw data | Ordered leaves; **key** (e.g. 2 | 3 = 23); back-to-back version compares two sets |\n| **Frequency polygon** | Grouped data | Plot frequency at the **midpoint** of each class, join with straight lines |\n| **Scatter diagram** | Relationship between two variables | (Chapter 16) |\n\n## Pie chart calculation\n\n60 students: 25 walk, 20 bus, 15 car.\n\n- Walk: 25/60 × 360 = **150°**; Bus: 20/60 × 360 = **120°**; Car: 15/60 × 360 = **90°**. Check: 150 + 120 + 90 = 360 ✓\n- Reading a pie chart: a 72° sector out of 360° is 72/360 = 1/5 of the total.\n\n## Stem-and-leaf example\n\nMarks: 23, 27, 31, 31, 35, 42, 48\n\n```\n2 | 3 7\n3 | 1 1 5\n4 | 2 8        Key: 2 | 3 means 23\n```\n\nFrom it you can read the mode (31), median (4th value = 31) and range (48 − 23 = 25).\n\n# Reading charts — common questions\n\n- \"How many more…\" → subtract the two frequencies.\n- \"What fraction / percentage…\" → frequency ÷ total.\n- Misleading graphs: axis not starting at zero, uneven scales, 3-D effects, missing labels — be ready to say **why** a graph is misleading.\n\n# Averages (preview of chapter 12)\n\nMode = most common; median = middle value when ordered (if two middle values, average them); mean = total ÷ number of values; range = largest − smallest.",
+        "order":  4,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "Mass is measured and can take any value.",
+                         "options":  [
+                                         "Qualitative data",
+                                         "Discrete data",
+                                         "Continuous data",
+                                         "Secondary data"
+                                     ],
+                         "q":  "The mass of an apple is an example of:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "30/90 × 360 = 120°.",
+                         "options":  [
+                                         "30°",
+                                         "90°",
+                                         "120°",
+                                         "150°"
+                                     ],
+                         "q":  "In a pie chart of 90 people, 30 chose football. The angle is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "45/360 = 1/8.",
+                         "options":  [
+                                         "1/4",
+                                         "1/6",
+                                         "1/8",
+                                         "1/9"
+                                     ],
+                         "q":  "A pie chart sector is 45°. What fraction of the total is it?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Stem 6 with each leaf.",
+                         "options":  [
+                                         "6, 0, 3, 3, 8",
+                                         "60, 63, 63, 68",
+                                         "603, 38",
+                                         "6.0, 6.3, 6.3, 6.8"
+                                     ],
+                         "q":  "In a stem-and-leaf diagram with key 5 | 2 = 52, the row 6 | 0 3 3 8 represents:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Categorical/discrete data → bar chart with gaps.",
+                         "options":  [
+                                         "Histogram of continuous data",
+                                         "Bar chart of favourite colours",
+                                         "Frequency polygon",
+                                         "Line graph"
+                                     ],
+                         "q":  "Which chart should have gaps between the bars?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "60 − 25 = 35.",
+                         "options":  [
+                                         "15",
+                                         "25",
+                                         "35",
+                                         "45"
+                                     ],
+                         "q":  "A two-way table shows 40 boys, 25 of whom walk. 60 students walk in total. How many girls walk?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Truncated axes exaggerate differences.",
+                         "options":  [
+                                         "Good practice",
+                                         "A misleading graph",
+                                         "A frequency polygon",
+                                         "A pictogram"
+                                     ],
+                         "q":  "A graph\u0027s vertical axis starts at 95 instead of 0, making a small difference look huge. This is:"
+                     }
+                 ],
+        "subject":  "maths",
+        "title":  "Collecting, organising and displaying data",
+        "updated":  "Chapter notes",
+        "id":  "maths-data"
     },
     {
         "cards":  [
@@ -3540,6 +5242,304 @@
         "title":  "Number: types, factors, HCF \u0026 LCM",
         "updated":  "Starter notes",
         "id":  "maths-number"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Joule (J). 1 kJ = 1000 J.",
+                          "q":  "Unit of energy?"
+                      },
+                      {
+                          "a":  "Kinetic, gravitational potential, chemical, elastic, thermal (internal), nuclear, electrostatic, magnetic.",
+                          "q":  "Name the eight energy stores."
+                      },
+                      {
+                          "a":  "Mechanical work, electrical work, heating, radiation (waves such as light and sound).",
+                          "q":  "Name the four energy transfer pathways."
+                      },
+                      {
+                          "a":  "Energy cannot be created or destroyed, only transferred between stores; the total stays constant.",
+                          "q":  "State the principle of conservation of energy."
+                      },
+                      {
+                          "a":  "Kinetic → gravitational potential (going up); GPE → kinetic (coming down); some to thermal via air resistance.",
+                          "q":  "Energy changes when a ball is thrown upwards?"
+                      },
+                      {
+                          "a":  "Eₖ = ½ m v²",
+                          "q":  "Formula for kinetic energy?"
+                      },
+                      {
+                          "a":  "Eₚ = m g h",
+                          "q":  "Formula for gravitational potential energy?"
+                      },
+                      {
+                          "a":  "½ × 2 × 9 = 9 J",
+                          "q":  "KE of a 2 kg ball at 3 m/s?"
+                      },
+                      {
+                          "a":  "10 × 9.8 × 2 = 196 J",
+                          "q":  "GPE gained lifting 10 kg by 2 m (g = 9.8)?"
+                      },
+                      {
+                          "a":  "Four times bigger (v is squared).",
+                          "q":  "If speed doubles, KE becomes…"
+                      },
+                      {
+                          "a":  "Useful energy output ÷ total energy input (× 100 for a percentage).",
+                          "q":  "Define efficiency."
+                      },
+                      {
+                          "a":  "400/500 = 0.8 = 80%",
+                          "q":  "A motor uses 500 J and does 400 J of useful work. Efficiency?"
+                      },
+                      {
+                          "a":  "The amount of energy; wasted energy branches off, useful energy continues.",
+                          "q":  "What does the width of an arrow show in a Sankey diagram?"
+                      },
+                      {
+                          "a":  "Energy spread out into the thermal store of the surroundings, no longer useful.",
+                          "q":  "What does \u0027dissipated\u0027 mean?"
+                      },
+                      {
+                          "a":  "v = √(2gh) — from mgh = ½mv²; independent of mass.",
+                          "q":  "Speed of an object dropped from height h (no air resistance)?"
+                      }
+                  ],
+        "chapter":  6,
+        "exam":  "Exam 1 · October",
+        "notes":  "# 6.1 Energy stores\n\nEnergy is measured in **joules (J)**. 1 kJ = 1000 J, 1 MJ = 1 000 000 J. Energy is stored in different ways:\n\n| Store | Where the energy is | Example |\n|---|---|---|\n| **Kinetic** | A moving object | A running person, a bullet |\n| **Gravitational potential** | An object raised above the ground | Water behind a dam, a book on a shelf |\n| **Chemical** | Bonds between atoms | Food, fuel, batteries |\n| **Elastic (strain)** | A stretched or squashed object | A drawn bow, a compressed spring |\n| **Thermal (internal)** | Hot objects — the vibration of their particles | A cup of tea |\n| **Nuclear** | The nucleus of an atom | Uranium in a reactor, the Sun |\n| **Electrostatic** | Separated charges | Clouds before lightning |\n| **Magnetic** | Magnets pulled apart or pushed together | Two repelling magnets |\n\n# 6.2 Energy transfers\n\nEnergy moves between stores by four **pathways**:\n\n1. **Mechanical work** — a force moving an object (lifting, pushing, friction).\n2. **Electrical work** — a current flowing (a battery to a motor).\n3. **Heating** — conduction, convection, radiation from hot to cold.\n4. **Radiation (waves)** — light, sound, infrared, radio.\n\nExamples written as store → pathway → store:\n\n- Ball falling: gravitational potential → (mechanical) → kinetic.\n- Torch: chemical (battery) → (electrical) → light radiation + thermal.\n- Car braking: kinetic → (friction, mechanical) → thermal in the brakes.\n\n## Principle of conservation of energy\n\n\u003e Energy **cannot be created or destroyed**; it can only be transferred from one store to another. The **total** energy stays the same.\n\nEnergy that ends up as thermal energy spread into the surroundings is **dissipated** (\"wasted\") — it still exists but is no longer useful.\n\n# 6.3 Calculations\n\n**Kinetic energy:** Eₖ = ½ m v²  (m in kg, v in m/s)\n\n- 800 kg car at 20 m/s: Eₖ = ½ × 800 × 20² = ½ × 800 × 400 = **160 000 J**.\n- Doubling the speed **quadruples** the kinetic energy.\n\n**Gravitational potential energy:** Eₚ = m g h  (h = height change in m, g = 9.8 N/kg)\n\n- 50 kg person climbs 3 m: Eₚ = 50 × 9.8 × 3 = **1470 J**.\n\n**Falling objects (no air resistance):** GPE lost = KE gained, so mgh = ½mv² → v = √(2gh). Dropped from 5 m: v = √(2 × 9.8 × 5) ≈ **9.9 m/s** — independent of mass.\n\n# 6.4 Efficiency and Sankey diagrams\n\n**Efficiency = useful energy output ÷ total energy input** (× 100 for %). Never more than 100%.\n\n- Filament lamp: 100 J in → 10 J light + 90 J thermal → efficiency 10%.\n- LED lamp: ~ 90% efficient. Petrol engine ~ 25–30%. Electric motor ~ 80–90%.\n\n**Sankey diagram:** an arrow whose **width** shows the amount of energy; the useful output continues straight on, wasted outputs branch off (usually downwards). Widths are drawn to scale, e.g. 1 cm = 20 J.\n\n\u003e **Exam trap:** \"energy is lost\" is wrong — say \"energy is transferred to the thermal store of the surroundings\" or \"dissipated\".",
+        "order":  6,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "Stretched or squashed objects store elastic (strain) energy.",
+                         "options":  [
+                                         "Kinetic store",
+                                         "Chemical store",
+                                         "Elastic store",
+                                         "Nuclear store"
+                                     ],
+                         "q":  "A stretched catapult stores energy in its:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "½ × 1000 × 100 = 50 000 J.",
+                         "options":  [
+                                         "5000 J",
+                                         "10 000 J",
+                                         "50 000 J",
+                                         "100 000 J"
+                                     ],
+                         "q":  "A 1000 kg car moving at 10 m/s has kinetic energy:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "3 × 10 × 4 = 120 J.",
+                         "options":  [
+                                         "12 J",
+                                         "120 J",
+                                         "1200 J",
+                                         "7 J"
+                                     ],
+                         "q":  "A 3 kg rock on a 4 m ledge has GPE of (g = 10 N/kg):"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "6 ÷ 60 = 0.1 = 10%.",
+                         "options":  [
+                                         "6%",
+                                         "10%",
+                                         "60%",
+                                         "90%"
+                                     ],
+                         "q":  "A lamp is supplied with 60 J and gives out 6 J of light. Its efficiency is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Friction in the brakes heats them.",
+                         "options":  [
+                                         "The chemical store of the fuel",
+                                         "The thermal store of the brakes and surroundings",
+                                         "The gravitational store",
+                                         "The nuclear store"
+                                     ],
+                         "q":  "When a car brakes, most of its kinetic energy is transferred to:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Conservation of energy.",
+                         "options":  [
+                                         "Energy is used up by machines",
+                                         "Energy is created in power stations",
+                                         "Energy is transferred between stores and the total stays the same",
+                                         "Energy is destroyed by friction"
+                                     ],
+                         "q":  "Which statement about energy is correct?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "v = √(2 × 10 × 20) = √400 = 20 m/s.",
+                         "options":  [
+                                         "10 m/s",
+                                         "14 m/s",
+                                         "20 m/s",
+                                         "40 m/s"
+                                     ],
+                         "q":  "A ball is dropped from 20 m (g = 10 N/kg). Its speed just before hitting the ground is about:"
+                     }
+                 ],
+        "subject":  "physics",
+        "title":  "Energy stores and transfers",
+        "updated":  "Chapter notes",
+        "id":  "phys-energy"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "The extension of a spring is directly proportional to the load, up to the limit of proportionality.",
+                          "q":  "State Hooke\u0027s law."
+                      },
+                      {
+                          "a":  "F = k x (load = spring constant × extension).",
+                          "q":  "Hooke\u0027s law formula?"
+                      },
+                      {
+                          "a":  "The force needed per unit extension (N/m); a measure of stiffness.",
+                          "q":  "What is the spring constant?"
+                      },
+                      {
+                          "a":  "Limit of proportionality: extension stops being proportional to load. Elastic limit: beyond this the spring does not return to its original length.",
+                          "q":  "Difference between limit of proportionality and elastic limit?"
+                      },
+                      {
+                          "a":  "k = 8/4 = 2 N/cm.",
+                          "q":  "A spring stretches 4 cm with 8 N. Spring constant?"
+                      },
+                      {
+                          "a":  "p = F/A; pascal (Pa) = N/m².",
+                          "q":  "Pressure formula and unit?"
+                      },
+                      {
+                          "a":  "Small area of the point → very high pressure for a small push.",
+                          "q":  "Why does a drawing pin go in easily?"
+                      },
+                      {
+                          "a":  "Large area spreads the weight → low pressure → the tyres do not sink into soft ground.",
+                          "q":  "Why do tractors have wide tyres?"
+                      },
+                      {
+                          "a":  "p = ρ g h (density × gravitational field strength × depth).",
+                          "q":  "Formula for pressure at a depth in a liquid?"
+                      },
+                      {
+                          "a":  "It increases with depth and acts equally in all directions at a given depth.",
+                          "q":  "Two facts about pressure in a liquid?"
+                      },
+                      {
+                          "a":  "About 100 000 Pa (100 kPa, 1 atmosphere), from the weight of the air above.",
+                          "q":  "Value of atmospheric pressure at sea level?"
+                      },
+                      {
+                          "a":  "The pressure difference between a gas supply and the atmosphere, from the difference in liquid levels (p = ρgh).",
+                          "q":  "What does a manometer measure?"
+                      },
+                      {
+                          "a":  "Particles are closer together and collide with the walls more often.",
+                          "q":  "Why does gas pressure rise when the volume is reduced?"
+                      },
+                      {
+                          "a":  "p₁V₁ = p₂V₂ at constant temperature.",
+                          "q":  "Boyle\u0027s law formula?"
+                      }
+                  ],
+        "chapter":  5,
+        "exam":  "Exam 1 · October",
+        "notes":  "# 5.1 Stretching springs — Hooke\u0027s law\n\n- **Load** = the force stretching the spring (usually weight, in N).\n- **Extension** = stretched length − original length.\n- **Hooke\u0027s law:** extension is **directly proportional** to the load, provided the **limit of proportionality** is not exceeded.\n\n**F = k × x** — F load (N), k spring constant (N/m or N/cm), x extension (m or cm).\n\n- The spring constant tells you how stiff the spring is: bigger k = stiffer.\n- Beyond the limit of proportionality the graph curves. Beyond the **elastic limit** the spring is permanently stretched (plastic deformation).\n- **Springs in series** (end to end): each carries the full load, so total extension doubles. **In parallel** (side by side): the load is shared, so extension halves.\n\n**Experiment:** clamp a spring, hang known weights, measure length each time with a ruler at eye level, calculate extension, plot **load (y) against extension (x)**. Straight line through the origin = Hooke\u0027s law; gradient = k.\n\nExample: a spring is 10 cm long unloaded and 16 cm with 3 N. Extension = 6 cm; k = 3/6 = 0.5 N/cm. With 5 N it extends 10 cm → length 20 cm.\n\n# 5.2 Pressure\n\n**Pressure = force ÷ area**   p = F / A\n\n- Unit: **pascal (Pa)** = 1 N/m². Also N/cm², kPa (1000 Pa).\n- Same force on a **smaller area** → **higher pressure**: drawing pins, knives, needles, stiletto heels sink into grass.\n- Same force on a **larger area** → **lower pressure**: snowshoes, tractor tyres, camel feet, foundations.\n\nExample: an elephant of weight 40 000 N stands on four feet each 0.1 m² → p = 40 000 / 0.4 = **100 000 Pa** (100 kPa). A woman of weight 600 N on one stiletto heel of area 1 cm² (0.0001 m²) → **6 000 000 Pa** — far higher.\n\n# 5.3 Pressure in liquids and gases\n\nPressure in a fluid **increases with depth** and acts **equally in all directions**.\n\n**p = ρ × g × h** (extra pressure due to a column of liquid) — ρ density (kg/m³), g = 9.8 N/kg, h depth (m).\n\n- Total pressure at depth h = atmospheric pressure + ρgh.\n- Dam walls are thicker at the bottom; divers feel pressure in their ears; water shoots further from a lower hole in a can.\n\nExample: at 20 m depth in sea water (ρ = 1030 kg/m³): p = 1030 × 9.8 × 20 ≈ **202 000 Pa** extra (about 2 atmospheres).\n\n**Atmospheric pressure** ≈ **100 000 Pa (100 kPa)** at sea level, caused by the weight of the air above. It decreases with altitude.\n\n## Measuring pressure\n\n- **Manometer:** U-tube containing liquid; the difference in levels h gives the pressure difference p = ρgh between the gas and the atmosphere.\n- **Barometer:** measures atmospheric pressure; a mercury barometer supports a column about 760 mm high.\n\n## Gases (link to the kinetic model)\n\n- Gas pressure is caused by particles **colliding with the walls**.\n- Squeeze a gas (smaller volume) at constant temperature → particles hit the walls more often → **pressure rises**: **p₁V₁ = p₂V₂** (Boyle\u0027s law).\n- Example: 2 m³ of gas at 100 kPa is compressed to 0.5 m³ → p₂ = 100 × 2 / 0.5 = **400 kPa**.",
+        "order":  5,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "k = 2 N/cm; 9 ÷ 2 = 4.5 cm.",
+                         "options":  [
+                                         "3 cm",
+                                         "4.5 cm",
+                                         "6 cm",
+                                         "9 cm"
+                                     ],
+                         "q":  "A spring extends 3 cm under a 6 N load. Under 9 N it extends:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "500 ÷ 2 = 250 Pa.",
+                         "options":  [
+                                         "1000 Pa",
+                                         "250 Pa",
+                                         "500 Pa",
+                                         "0.004 Pa"
+                                     ],
+                         "q":  "A box of weight 500 N rests on a 2 m² base. The pressure on the floor is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Large area → low pressure.",
+                         "options":  [
+                                         "A stiletto heel",
+                                         "A knife edge",
+                                         "A snowshoe",
+                                         "A drawing pin point"
+                                     ],
+                         "q":  "Which object exerts the LEAST pressure on the ground?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "1000 × 10 × 10 = 100 000 Pa (about one atmosphere).",
+                         "options":  [
+                                         "1000 Pa",
+                                         "10 000 Pa",
+                                         "100 000 Pa",
+                                         "1 000 000 Pa"
+                                     ],
+                         "q":  "Pressure due to 10 m of fresh water (ρ = 1000 kg/m³, g = 10 N/kg):"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Proportionality stops there; the elastic limit is usually slightly beyond.",
+                         "options":  [
+                                         "Elastic limit",
+                                         "Limit of proportionality",
+                                         "Spring constant",
+                                         "Origin"
+                                     ],
+                         "q":  "On a load–extension graph, the straight-line section ends at the:"
+                     },
+                     {
+                         "answer":  3,
+                         "explain":  "200 × 3 = p × 1 → 600 kPa.",
+                         "options":  [
+                                         "66.7 kPa",
+                                         "200 kPa",
+                                         "400 kPa",
+                                         "600 kPa"
+                                     ],
+                         "q":  "A gas at 200 kPa in 3 m³ is squeezed to 1 m³ at the same temperature. New pressure:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Deeper water pushes harder, so the base must withstand more pressure.",
+                         "options":  [
+                                         "To look strong",
+                                         "Pressure increases with depth",
+                                         "Water is denser at the bottom",
+                                         "Gravity is stronger there"
+                                     ],
+                         "q":  "Why is a dam wall thicker at the bottom?"
+                     }
+                 ],
+        "subject":  "physics",
+        "title":  "Forces and matter: springs and pressure",
+        "updated":  "Chapter notes",
+        "id":  "phys-forces-matter"
     },
     {
         "cards":  [
@@ -4138,6 +6138,145 @@
         "title":  "Motion: speed, velocity, acceleration \u0026 graphs",
         "updated":  "Starter notes",
         "id":  "phys-motion"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Moment = force × perpendicular distance from the pivot; unit N m.",
+                          "q":  "Define the moment of a force."
+                      },
+                      {
+                          "a":  "Greater distance from the pivot gives a greater moment for the same force.",
+                          "q":  "Why does a longer spanner work better?"
+                      },
+                      {
+                          "a":  "For an object in equilibrium, the sum of clockwise moments equals the sum of anticlockwise moments about any pivot.",
+                          "q":  "State the principle of moments."
+                      },
+                      {
+                          "a":  "No resultant force AND no resultant moment (clockwise = anticlockwise).",
+                          "q":  "Two conditions for equilibrium?"
+                      },
+                      {
+                          "a":  "At its centre (the centre of gravity).",
+                          "q":  "Where does the weight of a uniform beam act?"
+                      },
+                      {
+                          "a":  "That force has zero distance so its moment is zero and it disappears from the equation.",
+                          "q":  "Why take moments about the point where an unknown force acts?"
+                      },
+                      {
+                          "a":  "500 × 2 = F × 4 → F = 250 N.",
+                          "q":  "500 N at 2 m balances what force at 4 m?"
+                      },
+                      {
+                          "a":  "The point through which the whole weight of an object appears to act.",
+                          "q":  "Define centre of gravity."
+                      },
+                      {
+                          "a":  "Suspend it freely from a pin, hang a plumb line from the pin, mark the vertical; repeat from another point; the lines cross at the centre of gravity.",
+                          "q":  "How do you find the centre of gravity of a flat shape?"
+                      },
+                      {
+                          "a":  "When the vertical line from its centre of gravity falls outside its base.",
+                          "q":  "When does an object topple?"
+                      },
+                      {
+                          "a":  "Lower its centre of gravity and widen its base.",
+                          "q":  "Two ways to make an object more stable?"
+                      },
+                      {
+                          "a":  "Stable: cone on its base. Unstable: cone balanced on its tip. Neutral: ball on a flat surface.",
+                          "q":  "Stable, unstable, neutral equilibrium — example of each?"
+                      }
+                  ],
+        "chapter":  4,
+        "exam":  "Exam 1 · October",
+        "notes":  "# 4.1 The moment of a force\n\nA force can make an object **turn** about a **pivot** (fulcrum). The turning effect is called the **moment**.\n\n**Moment = force × perpendicular distance from the pivot**\n\n- Unit: **newton metre (N m)** (or N cm if the distance is in cm).\n- \"Perpendicular\" means at 90° to the line of the force. If the force is at an angle, use the perpendicular distance, not the length of the bar.\n- Moments are **clockwise** or **anticlockwise** — always state which.\n\nExamples: a spanner (long handle = bigger distance = bigger moment for the same force), a door handle placed far from the hinge, a see-saw, a wheelbarrow, a crowbar.\n\nExample: a 20 N force pushes a door 0.8 m from the hinge → moment = 20 × 0.8 = **16 N m clockwise**.\n\n# 4.2 The principle of moments\n\nAn object is in **equilibrium** (balanced, not turning) when:\n\n\u003e **Sum of clockwise moments = sum of anticlockwise moments** about the same pivot\n\nand there is **no resultant force** (forces up = forces down).\n\n## Worked examples\n\n**See-saw:** child of weight 400 N sits 1.5 m left of the pivot. Where must a 600 N adult sit on the right?\n\n400 × 1.5 = 600 × d → 600 = 600d → **d = 1 m**\n\n**Two weights on one side:** 3 N at 20 cm and 2 N at 40 cm on the left; one weight W at 50 cm on the right.\n\nAnticlockwise: 3×20 + 2×40 = 60 + 80 = 140 N cm. Clockwise: W × 50. So W = 140/50 = **2.8 N**.\n\n**Beam on two supports:** a 6 m uniform plank of weight 200 N rests on supports at each end, with a 500 N person 2 m from the left end. Take moments about the **left** support (so the left support force disappears):\n\nClockwise: 500×2 + 200×3 = 1000 + 600 = 1600. Anticlockwise: R_right × 6 → R_right = **266.7 N**. Then R_left = 700 − 266.7 = **433.3 N**.\n\n\u003e **Tips:** (1) choose the pivot where an unknown force acts, so it drops out; (2) the weight of a uniform beam acts at its **centre**; (3) check: total upward force = total downward force.\n\n# 4.3 Centre of gravity\n\nThe **centre of gravity** (centre of mass) is the point through which all the weight of an object appears to act.\n\n- Uniform ruler: at the middle. Uniform sphere: at the centre.\n- **Finding it for a flat (plane) shape:** hang the shape from a pin so it swings freely; hang a **plumb line** from the same pin; draw the vertical line; repeat from a second hole; the centre of gravity is where the lines **cross**.\n\n## Stability\n\nAn object **topples** when a vertical line down from its centre of gravity falls **outside its base**.\n\n- **Lower** centre of gravity → more stable (racing cars, loaded ship\u0027s keel).\n- **Wider** base → more stable (tripod, wide stance).\n- Three states of equilibrium: **stable** (returns after a small push — cone on its base), **unstable** (falls over — cone on its point), **neutral** (stays in the new position — ball on a flat table).",
+        "order":  4,
+        "quiz":  [
+                     {
+                         "answer":  0,
+                         "explain":  "30 × 0.5 = 15 N m.",
+                         "options":  [
+                                         "15 N m",
+                                         "60 N m",
+                                         "0.017 N m",
+                                         "30.5 N m"
+                                     ],
+                         "q":  "A 30 N force acts 0.5 m from a pivot at right angles. The moment is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "200 × 3 = 300 × d → d = 2 m.",
+                         "options":  [
+                                         "1.5 m",
+                                         "2 m",
+                                         "3 m",
+                                         "4.5 m"
+                                     ],
+                         "q":  "A 200 N weight is 3 m from a pivot. A 300 N weight balances it at:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Uniform beam → weight at the centre.",
+                         "options":  [
+                                         "At the left end",
+                                         "At the right end",
+                                         "2 m from either end",
+                                         "At the pivot"
+                                     ],
+                         "q":  "A uniform 4 m beam weighs 100 N. Its weight acts:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "The centre of gravity rises, so it topples more easily.",
+                         "options":  [
+                                         "Increases",
+                                         "Decreases",
+                                         "Stays the same",
+                                         "Becomes neutral"
+                                     ],
+                         "q":  "A bus is loaded with heavy luggage on the roof. Its stability:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Force (N) × distance (m) = N m.",
+                         "options":  [
+                                         "N",
+                                         "N/m",
+                                         "N m",
+                                         "kg m"
+                                     ],
+                         "q":  "Which unit is correct for a moment?"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "Tilt it slightly and it falls back to its original position.",
+                         "options":  [
+                                         "Stable equilibrium",
+                                         "Unstable equilibrium",
+                                         "Neutral equilibrium",
+                                         "No equilibrium"
+                                     ],
+                         "q":  "A book lying flat on a table is in:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "4×10 + 6×30 = 220 N cm; 220 ÷ 40 = 5.5 N.",
+                         "options":  [
+                                         "2.5 N",
+                                         "5.5 N",
+                                         "10 N",
+                                         "22 N"
+                                     ],
+                         "q":  "On a beam, 4 N at 10 cm and 6 N at 30 cm act on the left. A single force on the right at 40 cm that balances them is:"
+                     }
+                 ],
+        "subject":  "physics",
+        "title":  "Turning effects",
+        "updated":  "Chapter notes",
+        "id":  "phys-turning"
     },
     {
         "cards":  [

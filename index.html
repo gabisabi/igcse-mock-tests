@@ -194,6 +194,7 @@ a{color:var(--accent)}
 /* books & chapters */
 .books{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px;margin-bottom:6px}
 .book{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 14px;border-left:4px solid var(--accent)}
+.book.link{text-decoration:none;color:inherit;display:block}.book.link:hover{border-color:var(--accent)}
 .bk-role{font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
 .bk-title{font-weight:600;font-size:14px;margin-top:2px}
 .bk-meta{font-size:12px;color:var(--muted)}
@@ -389,7 +390,7 @@ function renderSubject(){
   h+=`<div class="hero" ${ka?'lang="ka"':''}><div><h2>${esc(s.name)}</h2><p>${esc(s.teacher?s.teacher+' · ':'')}${ts.length} topic${ts.length===1?'':'s'}${s.note?' · '+esc(s.note):''}</p></div>${ring(subjectMastery(s.id))}</div>`;
   const row=t=>{const kc=(t.cards||[]).length,qc=(t.quiz||[]).length,b=quizBest(t);
     return `<button class="trow" data-topic="${esc(t.id)}"><div><h3>${t.chapter?`<span class="chn">${esc(String(t.chapter))}</span> `:''}${esc(t.title)}</h3><div class="sub">${t.exam?`<span class="tag exam">${esc(t.exam)}</span>`:''}${kc?`<span>${knownCount(t)}/${kc} cards known</span>`:''}${qc?`<span>quiz best ${b==null?'—':b+'%'}</span>`:''}${t.updated?`<span>${esc(t.updated)}</span>`:''}</div></div>${ring(topicMastery(t))}</button>`;};
-  if(s.books&&s.books.length)h+=`<div class="books">${s.books.map(b=>`<div class="book"><div class="bk-role">${esc(b.role||'Book')}</div><div class="bk-title">${esc(b.title)}</div><div class="bk-meta">${esc([b.authors,b.edition,b.publisher].filter(Boolean).join(' · '))}</div></div>`).join('')}</div>`;
+  if(s.books&&s.books.length)h+=`<div class="books">${s.books.map(b=>(b.url?`<a class="book link" href="${esc(b.url)}" target="_blank" rel="noopener">`:`<div class="book">`)+`<div class="bk-role">${esc(b.role||'Book')}${b.url?' · open ↗':''}</div><div class="bk-title">${esc(b.title)}</div><div class="bk-meta">${esc([b.authors,b.edition,b.publisher].filter(Boolean).join(' · '))}</div>`+(b.url?`</a>`:`</div>`)).join('')}</div>`;
   if(s.chapters&&s.chapters.length){
     const all=S.topics.filter(t=>t.subject===s.id);const loose=ts.filter(t=>!t.chapter);
     h+=`<h3 class="h3">${ka?'თავები წიგნის მიხედვით':'Chapters, as in the book'}</h3><div class="topics" ${ka?'lang="ka"':''}>`;
