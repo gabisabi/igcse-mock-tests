@@ -123,242 +123,310 @@
         "id":  "bio-cells"
     },
     {
+        "subject":  "biology",
+        "title":  "Unit 1: Characteristics \u0026 classification of living organisms",
+        "exam":  "Exam 1 · October",
+        "order":  1,
+        "updated":  "Full unit notes",
+        "notes":  "# 1.1 Characteristics of living organisms — MRS GREN\n\n| | Process | Definition (learn word for word) |\n|---|---|---|\n| **M** | Movement | An action by an organism or part of an organism causing a change of position or place |\n| **R** | Respiration | The chemical reactions in cells that break down nutrient molecules and release energy for metabolism |\n| **S** | Sensitivity | The ability to detect and respond to changes in the internal or external environment |\n| **G** | Growth | A permanent increase in size and dry mass |\n| **R** | Reproduction | The processes that make more of the same kind of organism |\n| **E** | Excretion | The removal of the waste products of metabolism and substances in excess of requirements |\n| **N** | Nutrition | The taking in of materials for energy, growth and development |\n\n\u003e A car moves, uses fuel and gives off waste, but it does not grow, reproduce or respond — it is not alive. All seven are needed.\n\n# 1.2 Concept and use of a classification system\n\n## Carl Linnaeus — the father of classification\n\n- **Carl Linnaeus** (1707–1778), a Swedish botanist and doctor, published *Systema Naturae* in **1735**.\n- He invented the **binomial system** of naming (two Latin names: genus + species) that we still use, replacing long descriptive names that differed from country to country.\n- He grouped organisms into a **hierarchy** of ranks (kingdom → class → order → genus → species; phylum and family were added later) based on **shared physical features** (morphology).\n- His system was **artificial** — based on appearance only. Modern classification is **natural**, based on evolutionary relationships shown by DNA. Linnaeus grouped whales with fish at first; DNA shows they are mammals.\n\n\u003e Why it matters: before Linnaeus, the same plant could have five different names in five countries. One agreed Latin name lets scientists everywhere know exactly which organism is meant.\n\n- Organisms are classified into groups by the **features they share**.\n- **Species:** a group of organisms that can reproduce to produce **fertile** offspring. (A horse and a donkey produce a mule, which is infertile — so they are different species.)\n- **Binomial system:** an internationally agreed system in which the scientific name of an organism is made up of two parts: the **genus** and the **species**.\n  - Genus first with a capital letter, species second in lowercase; the whole name in *italics* (or underlined when handwritten): *Homo sapiens*, *Panthera leo*.\n  - Why? The same name is used worldwide in every language; it shows which organisms are closely related (same genus).\n- **Hierarchy of classification** (biggest to smallest): Kingdom → Phylum → Class → Order → Family → Genus → Species. *\"King Philip Came Over For Good Soup.\"*\n- **Dichotomous keys:** a series of paired statements; at each step you choose the one that matches, until you reach the name. Used to identify unfamiliar organisms.\n\n## Classification and evolution\n\n- Traditionally, classification used **morphology** (shape) and **anatomy** (internal structure).\n- Now scientists use **DNA base sequences** and the **amino acid sequences of proteins**. Organisms that share a more recent common ancestor have more similar DNA sequences → this reveals **evolutionary relationships** more accurately than appearance.\n\n# 1.3 Features of organisms\n\n## Features of all living organisms\n\nAll living things are made of **cells**. Cells contain cytoplasm, a cell membrane, ribosomes, enzymes and DNA as genetic material.\n\n## The five kingdoms\n\n| Kingdom | Cell type | Cell wall | Nutrition | Examples |\n|---|---|---|---|---|\n| **Animals** | Multicellular, nucleus | None | Heterotrophic (eat other organisms); most have nervous coordination and can move | Humans, insects, fish |\n| **Plants** | Multicellular, nucleus | Cellulose | Autotrophic (photosynthesis); chloroplasts; store starch | Moss, ferns, flowering plants |\n| **Fungi** | Multicellular (or unicellular yeast), nucleus, made of hyphae | Chitin (not cellulose) | Saprotrophic (secrete enzymes onto dead matter, absorb the products) or parasitic | Mushrooms, mould, yeast |\n| **Protoctists** | Mostly unicellular, nucleus | Some have | Some photosynthesise (algae), some feed like animals | Amoeba, Paramecium, Plasmodium (malaria) |\n| **Prokaryotes** | Unicellular, **no nucleus**; circular DNA + plasmids | Yes (not cellulose) | Various | Bacteria, e.g. E. coli |\n\n**Viruses** are not in any kingdom: not made of cells, only a protein coat around genetic material (DNA or RNA), and can only reproduce inside a host cell → not considered living.\n\n## Animal kingdom\n\n### Vertebrates (backbone)\n\n| Class | Body covering | Breathing | Reproduction | Temperature | Example |\n|---|---|---|---|---|---|\n| Fish | Scales | Gills | Eggs in water (external fertilisation) | Cold-blooded | Salmon |\n| Amphibians | Moist smooth skin | Gills as larvae, lungs + skin as adults | Eggs in water | Cold-blooded | Frog |\n| Reptiles | Dry scaly skin | Lungs | Soft-shelled eggs on land | Cold-blooded | Snake, lizard |\n| Birds | Feathers, beak, wings | Lungs | Hard-shelled eggs | Warm-blooded | Eagle |\n| Mammals | Hair/fur | Lungs | Live young; feed milk from mammary glands | Warm-blooded | Human, whale |\n\n### Arthropods (invertebrates with jointed legs and an exoskeleton)\n\n| Group | Legs | Body parts | Antennae | Other | Example |\n|---|---|---|---|---|---|\n| Insects | 6 (3 pairs) | 3 (head, thorax, abdomen) | 1 pair | Usually 2 pairs of wings | Butterfly, ant |\n| Arachnids | 8 (4 pairs) | 2 (cephalothorax, abdomen) | None | Many have simple eyes | Spider, scorpion |\n| Crustaceans | 10 or more (5+ pairs) | 2 | 2 pairs | Hard shell, mostly aquatic | Crab, woodlouse |\n| Myriapods | Many (1 or 2 pairs per segment) | Many segments | 1 pair | Long bodies | Centipede, millipede |\n\n## Plant kingdom\n\n- **Ferns:** roots, stems and leaves (fronds); no flowers; reproduce with **spores** on the underside of leaves.\n- **Flowering plants:** roots, stems, leaves, flowers; reproduce with **seeds** inside fruits.\n\n| | Monocotyledons | Dicotyledons |\n|---|---|---|\n| Seed leaves (cotyledons) | One | Two |\n| Leaf veins | Parallel | Branching network |\n| Flower parts | In multiples of 3 | In multiples of 4 or 5 |\n| Roots | Fibrous | Tap root |\n| Examples | Grass, wheat, maize, lily | Bean, rose, oak, sunflower |\n\n# 1.4 Dichotomous keys\n\n\"Dichotomous\" means **dividing into two**. Each step gives two contrasting statements; you pick the one that fits and follow it.\n\n## Using a key\n\n1. Start at statement 1; decide which of the two options matches your organism.\n2. Follow the instruction at the end of that line (go to another number, or read the name).\n3. Repeat until you reach a name. Always start again from 1 for the next organism.\n\nExample key for four arthropods:\n\n```\n1 a  Has wings ........................ go to 2\n  b  No wings ......................... go to 3\n2 a  One pair of wings ................ housefly\n  b  Two pairs of wings ............... butterfly\n3 a  Six legs ......................... ant\n  b  Eight legs ....................... spider\n```\n\n## Constructing (making) a key — step by step\n\n1. **List** the organisms and draw up a table of their **observable features** (legs, wings, antennae, shell, body segments, leaf shape, flower colour count…).\n2. Pick a feature that **splits the group into two** (ideally roughly in half). Write it as a pair of **contrasting** statements: *a) has a shell / b) no shell*.\n3. For each half, pick another feature that splits it again. Keep going until every branch ends with **one organism**.\n4. Number the steps and add \"go to …\" instructions or the organism\u0027s name.\n5. **Check** by running every organism through the key — each must reach the correct name and only that name.\n\n**Rules for good statements**\n\n- Use features that are **fixed and easy to observe**: number of legs, wings present/absent, leaf edge smooth/toothed, shape.\n- **Avoid** size, colour, behaviour, habitat or anything that changes with age or environment (\"big\", \"green\", \"lives in water\").\n- Both statements in a pair must be about the **same feature** and must be **opposites** (\"has fins / no fins\", not \"has fins / has legs\").\n- Use **yes/no** or **either/or** wording, never \"usually\" or \"sometimes\".\n- A key for *n* organisms needs **n − 1** pairs of statements.\n\n**Worked example** — make a key for: oak leaf (lobed edge, single leaf), holly leaf (spiky edge, single, shiny), rose leaf (toothed edge, made of several leaflets), pine (needle-shaped).\n\n```\n1 a  Leaf needle-shaped ............... pine\n  b  Leaf flat and broad .............. go to 2\n2 a  Leaf made of several leaflets .... rose\n  b  Leaf is a single blade ........... go to 3\n3 a  Edge has spikes .................. holly\n  b  Edge is lobed (rounded) .......... oak\n```\n\nFour organisms → three pairs of statements ✓. Every organism is reached ✓. No colour or size used ✓.\n\n**Keys can also be drawn as a branching diagram** (a \"tree\"): each branch point is one pair of statements. The exam may ask you to convert between the two forms.\n\n\u003e **Exam tip:** in a question comparing groups, quote **two or three specific features** from the tables above, e.g. \"insects have 6 legs and 3 body parts; arachnids have 8 legs and 2 body parts\".",
         "cards":  [
                       {
-                          "a":  "Movement, Respiration, Sensitivity, Growth, Reproduction, Excretion, Nutrition.",
-                          "q":  "What does MRS GREN stand for?"
+                          "q":  "What does MRS GREN stand for?",
+                          "a":  "Movement, Respiration, Sensitivity, Growth, Reproduction, Excretion, Nutrition."
                       },
                       {
-                          "a":  "An action by an organism or part of an organism causing a change of position or place.",
-                          "q":  "Define movement."
+                          "q":  "Define movement.",
+                          "a":  "An action by an organism or part of an organism causing a change of position or place."
                       },
                       {
-                          "a":  "The chemical reactions in cells that break down nutrient molecules and release energy for metabolism.",
-                          "q":  "Define respiration."
+                          "q":  "Define respiration.",
+                          "a":  "The chemical reactions in cells that break down nutrient molecules and release energy for metabolism."
                       },
                       {
-                          "a":  "The ability to detect and respond to changes in the internal or external environment.",
-                          "q":  "Define sensitivity."
+                          "q":  "Define sensitivity.",
+                          "a":  "The ability to detect and respond to changes in the internal or external environment."
                       },
                       {
-                          "a":  "A permanent increase in size and dry mass.",
-                          "q":  "Define growth."
+                          "q":  "Define growth.",
+                          "a":  "A permanent increase in size and dry mass."
                       },
                       {
-                          "a":  "The processes that make more of the same kind of organism.",
-                          "q":  "Define reproduction."
+                          "q":  "Define reproduction.",
+                          "a":  "The processes that make more of the same kind of organism."
                       },
                       {
-                          "a":  "The removal of the waste products of metabolism and substances in excess of requirements.",
-                          "q":  "Define excretion."
+                          "q":  "Define excretion.",
+                          "a":  "The removal of the waste products of metabolism and substances in excess of requirements."
                       },
                       {
-                          "a":  "The taking in of materials for energy, growth and development.",
-                          "q":  "Define nutrition."
+                          "q":  "Define nutrition.",
+                          "a":  "The taking in of materials for energy, growth and development."
                       },
                       {
-                          "a":  "A group of organisms that can reproduce to produce fertile offspring.",
-                          "q":  "Define a species."
+                          "q":  "Define a species.",
+                          "a":  "A group of organisms that can reproduce to produce fertile offspring."
                       },
                       {
-                          "a":  "An internationally agreed system giving each organism a two-part scientific name: genus then species, e.g. Homo sapiens.",
-                          "q":  "What is the binomial system?"
+                          "q":  "What is the binomial system?",
+                          "a":  "An internationally agreed system giving each organism a two-part scientific name: genus then species, e.g. Homo sapiens."
                       },
                       {
-                          "a":  "Same name used worldwide in every language; shows which organisms are closely related (same genus).",
-                          "q":  "Two advantages of the binomial system?"
+                          "q":  "Two advantages of the binomial system?",
+                          "a":  "Same name used worldwide in every language; shows which organisms are closely related (same genus)."
                       },
                       {
-                          "a":  "Kingdom, Phylum, Class, Order, Family, Genus, Species.",
-                          "q":  "Order of the classification hierarchy?"
+                          "q":  "Order of the classification hierarchy?",
+                          "a":  "Kingdom, Phylum, Class, Order, Family, Genus, Species."
                       },
                       {
-                          "a":  "DNA base sequences (and amino acid sequences): more similar sequences mean a more recent common ancestor, so it shows true evolutionary relationships.",
-                          "q":  "What do scientists now use to classify organisms and why?"
+                          "q":  "What do scientists now use to classify organisms and why?",
+                          "a":  "DNA base sequences (and amino acid sequences): more similar sequences mean a more recent common ancestor, so it shows true evolutionary relationships."
                       },
                       {
-                          "a":  "Animals, plants, fungi, protoctists, prokaryotes.",
-                          "q":  "Five kingdoms?"
+                          "q":  "Five kingdoms?",
+                          "a":  "Animals, plants, fungi, protoctists, prokaryotes."
                       },
                       {
-                          "a":  "Cell walls of chitin, no chloroplasts, saprotrophic nutrition (enzymes onto dead matter, absorb products), made of hyphae; e.g. mushrooms, yeast.",
-                          "q":  "Key features of fungi?"
+                          "q":  "Key features of fungi?",
+                          "a":  "Cell walls of chitin, no chloroplasts, saprotrophic nutrition (enzymes onto dead matter, absorb products), made of hyphae; e.g. mushrooms, yeast."
                       },
                       {
-                          "a":  "Unicellular, no nucleus, circular DNA and plasmids, cell wall not made of cellulose; e.g. bacteria.",
-                          "q":  "Key features of prokaryotes?"
+                          "q":  "Key features of prokaryotes?",
+                          "a":  "Unicellular, no nucleus, circular DNA and plasmids, cell wall not made of cellulose; e.g. bacteria."
                       },
                       {
-                          "a":  "Not made of cells (protein coat + DNA/RNA), and only reproduce inside a host cell.",
-                          "q":  "Why are viruses not classified as living?"
+                          "q":  "Why are viruses not classified as living?",
+                          "a":  "Not made of cells (protein coat + DNA/RNA), and only reproduce inside a host cell."
                       },
                       {
-                          "a":  "Moist skin; larvae (tadpoles) breathe with gills, adults with lungs and skin; lay eggs in water; cold-blooded.",
-                          "q":  "Features of amphibians?"
+                          "q":  "Features of amphibians?",
+                          "a":  "Moist skin; larvae (tadpoles) breathe with gills, adults with lungs and skin; lay eggs in water; cold-blooded."
                       },
                       {
-                          "a":  "Dry scaly skin, lungs, lay soft-shelled eggs on land, cold-blooded.",
-                          "q":  "Features of reptiles?"
+                          "q":  "Features of reptiles?",
+                          "a":  "Dry scaly skin, lungs, lay soft-shelled eggs on land, cold-blooded."
                       },
                       {
-                          "a":  "Feathers, beak, wings, lay hard-shelled eggs, warm-blooded.",
-                          "q":  "Features of birds?"
+                          "q":  "Features of birds?",
+                          "a":  "Feathers, beak, wings, lay hard-shelled eggs, warm-blooded."
                       },
                       {
-                          "a":  "Hair or fur, feed young on milk from mammary glands, live young, warm-blooded.",
-                          "q":  "Features of mammals?"
+                          "q":  "Features of mammals?",
+                          "a":  "Hair or fur, feed young on milk from mammary glands, live young, warm-blooded."
                       },
                       {
-                          "a":  "Insects 6, arachnids 8, crustaceans 10 or more, myriapods many (per segment).",
-                          "q":  "Four arthropod groups and leg counts?"
+                          "q":  "Four arthropod groups and leg counts?",
+                          "a":  "Insects 6, arachnids 8, crustaceans 10 or more, myriapods many (per segment)."
                       },
                       {
-                          "a":  "3 body parts (head, thorax, abdomen), 6 legs, 1 pair of antennae, usually wings.",
-                          "q":  "Insect body features?"
+                          "q":  "Insect body features?",
+                          "a":  "3 body parts (head, thorax, abdomen), 6 legs, 1 pair of antennae, usually wings."
                       },
                       {
-                          "a":  "Two pairs of antennae, 5 or more pairs of legs, hard exoskeleton, mostly aquatic (crab, woodlouse).",
-                          "q":  "Crustacean features?"
+                          "q":  "Crustacean features?",
+                          "a":  "Two pairs of antennae, 5 or more pairs of legs, hard exoskeleton, mostly aquatic (crab, woodlouse)."
                       },
                       {
-                          "a":  "By spores, produced on the underside of the fronds; no flowers or seeds.",
-                          "q":  "How do ferns reproduce?"
+                          "q":  "How do ferns reproduce?",
+                          "a":  "By spores, produced on the underside of the fronds; no flowers or seeds."
                       },
                       {
-                          "a":  "Monocot: parallel veins, one cotyledon. Dicot: branching veins, two cotyledons.",
-                          "q":  "Monocot vs dicot: leaf veins and cotyledons?"
+                          "q":  "Monocot vs dicot: leaf veins and cotyledons?",
+                          "a":  "Monocot: parallel veins, one cotyledon. Dicot: branching veins, two cotyledons."
                       },
                       {
-                          "a":  "Monocot: petals in 3s, fibrous roots. Dicot: petals in 4s or 5s, tap root.",
-                          "q":  "Monocot vs dicot: flower parts and roots?"
+                          "q":  "Monocot vs dicot: flower parts and roots?",
+                          "a":  "Monocot: petals in 3s, fibrous roots. Dicot: petals in 4s or 5s, tap root."
                       },
                       {
-                          "a":  "A series of paired contrasting statements used step by step to identify an organism.",
-                          "q":  "What is a dichotomous key?"
+                          "q":  "What is a dichotomous key?",
+                          "a":  "A series of paired contrasting statements used step by step to identify an organism."
                       },
                       {
-                          "a":  "Fixed, easy-to-see features (legs, wings, shell), not size or colour, which vary.",
-                          "q":  "Which features are good for a dichotomous key?"
+                          "q":  "Which features are good for a dichotomous key?",
+                          "a":  "Fixed, easy-to-see features (number of legs, wings present, leaf edge shape). Not size, colour, behaviour or habitat, which vary."
+                      },
+                      {
+                          "q":  "Who was Carl Linnaeus?",
+                          "a":  "Swedish scientist (1707–1778) who published Systema Naturae (1735), invented the binomial naming system and the hierarchy of ranks."
+                      },
+                      {
+                          "q":  "What did Linnaeus base his classification on, and how is modern classification different?",
+                          "a":  "Linnaeus used shared physical features (morphology); modern classification uses DNA and evolutionary relationships."
+                      },
+                      {
+                          "q":  "How many pairs of statements does a key for 6 organisms need?",
+                          "a":  "5 (always n − 1)."
+                      },
+                      {
+                          "q":  "Steps to construct a dichotomous key?",
+                          "a":  "1 Table of observable features. 2 Pick a feature that splits the group in two; write a contrasting pair. 3 Split each half again until each branch ends in one organism. 4 Number the steps with \u0027go to\u0027. 5 Test every organism through the key."
+                      },
+                      {
+                          "q":  "Why must both statements in a pair be about the same feature?",
+                          "a":  "So the choice is a clear either/or: \u0027has wings / no wings\u0027, not \u0027has wings / has six legs\u0027."
+                      },
+                      {
+                          "q":  "Why is \u0027is large\u0027 a bad statement in a key?",
+                          "a":  "Size changes with age and is relative; a key needs fixed features that give the same answer for every individual."
                       }
                   ],
-        "exam":  "Exam 1 · October",
-        "notes":  "# 1.1 Characteristics of living organisms — MRS GREN\n\n| | Process | Definition (learn word for word) |\n|---|---|---|\n| **M** | Movement | An action by an organism or part of an organism causing a change of position or place |\n| **R** | Respiration | The chemical reactions in cells that break down nutrient molecules and release energy for metabolism |\n| **S** | Sensitivity | The ability to detect and respond to changes in the internal or external environment |\n| **G** | Growth | A permanent increase in size and dry mass |\n| **R** | Reproduction | The processes that make more of the same kind of organism |\n| **E** | Excretion | The removal of the waste products of metabolism and substances in excess of requirements |\n| **N** | Nutrition | The taking in of materials for energy, growth and development |\n\n\u003e A car moves, uses fuel and gives off waste, but it does not grow, reproduce or respond — it is not alive. All seven are needed.\n\n# 1.2 Concept and use of a classification system\n\n- Organisms are classified into groups by the **features they share**.\n- **Species:** a group of organisms that can reproduce to produce **fertile** offspring. (A horse and a donkey produce a mule, which is infertile — so they are different species.)\n- **Binomial system:** an internationally agreed system in which the scientific name of an organism is made up of two parts: the **genus** and the **species**.\n  - Genus first with a capital letter, species second in lowercase; the whole name in *italics* (or underlined when handwritten): *Homo sapiens*, *Panthera leo*.\n  - Why? The same name is used worldwide in every language; it shows which organisms are closely related (same genus).\n- **Hierarchy of classification** (biggest to smallest): Kingdom → Phylum → Class → Order → Family → Genus → Species. *\"King Philip Came Over For Good Soup.\"*\n- **Dichotomous keys:** a series of paired statements; at each step you choose the one that matches, until you reach the name. Used to identify unfamiliar organisms.\n\n## Classification and evolution\n\n- Traditionally, classification used **morphology** (shape) and **anatomy** (internal structure).\n- Now scientists use **DNA base sequences** and the **amino acid sequences of proteins**. Organisms that share a more recent common ancestor have more similar DNA sequences → this reveals **evolutionary relationships** more accurately than appearance.\n\n# 1.3 Features of organisms\n\n## Features of all living organisms\n\nAll living things are made of **cells**. Cells contain cytoplasm, a cell membrane, ribosomes, enzymes and DNA as genetic material.\n\n## The five kingdoms\n\n| Kingdom | Cell type | Cell wall | Nutrition | Examples |\n|---|---|---|---|---|\n| **Animals** | Multicellular, nucleus | None | Heterotrophic (eat other organisms); most have nervous coordination and can move | Humans, insects, fish |\n| **Plants** | Multicellular, nucleus | Cellulose | Autotrophic (photosynthesis); chloroplasts; store starch | Moss, ferns, flowering plants |\n| **Fungi** | Multicellular (or unicellular yeast), nucleus, made of hyphae | Chitin (not cellulose) | Saprotrophic (secrete enzymes onto dead matter, absorb the products) or parasitic | Mushrooms, mould, yeast |\n| **Protoctists** | Mostly unicellular, nucleus | Some have | Some photosynthesise (algae), some feed like animals | Amoeba, Paramecium, Plasmodium (malaria) |\n| **Prokaryotes** | Unicellular, **no nucleus**; circular DNA + plasmids | Yes (not cellulose) | Various | Bacteria, e.g. E. coli |\n\n**Viruses** are not in any kingdom: not made of cells, only a protein coat around genetic material (DNA or RNA), and can only reproduce inside a host cell → not considered living.\n\n## Animal kingdom\n\n### Vertebrates (backbone)\n\n| Class | Body covering | Breathing | Reproduction | Temperature | Example |\n|---|---|---|---|---|---|\n| Fish | Scales | Gills | Eggs in water (external fertilisation) | Cold-blooded | Salmon |\n| Amphibians | Moist smooth skin | Gills as larvae, lungs + skin as adults | Eggs in water | Cold-blooded | Frog |\n| Reptiles | Dry scaly skin | Lungs | Soft-shelled eggs on land | Cold-blooded | Snake, lizard |\n| Birds | Feathers, beak, wings | Lungs | Hard-shelled eggs | Warm-blooded | Eagle |\n| Mammals | Hair/fur | Lungs | Live young; feed milk from mammary glands | Warm-blooded | Human, whale |\n\n### Arthropods (invertebrates with jointed legs and an exoskeleton)\n\n| Group | Legs | Body parts | Antennae | Other | Example |\n|---|---|---|---|---|---|\n| Insects | 6 (3 pairs) | 3 (head, thorax, abdomen) | 1 pair | Usually 2 pairs of wings | Butterfly, ant |\n| Arachnids | 8 (4 pairs) | 2 (cephalothorax, abdomen) | None | Many have simple eyes | Spider, scorpion |\n| Crustaceans | 10 or more (5+ pairs) | 2 | 2 pairs | Hard shell, mostly aquatic | Crab, woodlouse |\n| Myriapods | Many (1 or 2 pairs per segment) | Many segments | 1 pair | Long bodies | Centipede, millipede |\n\n## Plant kingdom\n\n- **Ferns:** roots, stems and leaves (fronds); no flowers; reproduce with **spores** on the underside of leaves.\n- **Flowering plants:** roots, stems, leaves, flowers; reproduce with **seeds** inside fruits.\n\n| | Monocotyledons | Dicotyledons |\n|---|---|---|\n| Seed leaves (cotyledons) | One | Two |\n| Leaf veins | Parallel | Branching network |\n| Flower parts | In multiples of 3 | In multiples of 4 or 5 |\n| Roots | Fibrous | Tap root |\n| Examples | Grass, wheat, maize, lily | Bean, rose, oak, sunflower |\n\n# 1.4 Dichotomous keys — how to use one\n\n1. Start at statement 1; decide which of the two options matches.\n2. Follow the instruction (go to another number, or read the name).\n3. Repeat until you reach a name.\n\nWhen **making** a key, use features that are easy to see and don\u0027t change (number of legs, wings or no wings) — not size or colour.\n\n\u003e **Exam tip:** in a question comparing groups, quote **two or three specific features** from the tables above, e.g. \"insects have 6 legs and 3 body parts; arachnids have 8 legs and 2 body parts\".",
-        "order":  1,
         "quiz":  [
                      {
-                         "answer":  2,
-                         "explain":  "Fire never grows in dry mass or reproduces copies of itself in the biological sense; all seven characteristics are needed.",
+                         "q":  "Which feature separates living things from a fire (which moves, uses fuel and gives off waste)?",
                          "options":  [
                                          "Movement",
                                          "Excretion",
                                          "Growth and reproduction of the same kind",
                                          "Respiration"
                                      ],
-                         "q":  "Which feature separates living things from a fire (which moves, uses fuel and gives off waste)?"
+                         "answer":  2,
+                         "explain":  "Fire never grows in dry mass or reproduces copies of itself in the biological sense; all seven characteristics are needed."
                      },
                      {
-                         "answer":  1,
-                         "explain":  "Species must produce FERTILE offspring.",
+                         "q":  "A horse and a donkey produce a mule, which cannot breed. Horses and donkeys are:",
                          "options":  [
                                          "The same species",
                                          "Different species",
                                          "The same genus and species",
                                          "Different kingdoms"
                                      ],
-                         "q":  "A horse and a donkey produce a mule, which cannot breed. Horses and donkeys are:"
+                         "answer":  1,
+                         "explain":  "Species must produce FERTILE offspring."
                      },
                      {
-                         "answer":  2,
-                         "explain":  "First word = genus, second = species.",
+                         "q":  "In *Panthera leo*, \u0027Panthera\u0027 is the:",
                          "options":  [
                                          "Species",
                                          "Family",
                                          "Genus",
                                          "Kingdom"
                                      ],
-                         "q":  "In *Panthera leo*, \u0027Panthera\u0027 is the:"
+                         "answer":  2,
+                         "explain":  "First word = genus, second = species."
                      },
                      {
-                         "answer":  1,
-                         "explain":  "Plant walls are cellulose; fungal walls are chitin.",
+                         "q":  "Which kingdom has cell walls made of chitin?",
                          "options":  [
                                          "Plants",
                                          "Fungi",
                                          "Prokaryotes",
                                          "Animals"
                                      ],
-                         "q":  "Which kingdom has cell walls made of chitin?"
+                         "answer":  1,
+                         "explain":  "Plant walls are cellulose; fungal walls are chitin."
                      },
                      {
-                         "answer":  3,
-                         "explain":  "Arachnids: spiders, scorpions, ticks.",
+                         "q":  "An animal has 8 legs, 2 body parts and no antennae. It is:",
                          "options":  [
                                          "An insect",
                                          "A crustacean",
                                          "A myriapod",
                                          "An arachnid"
                                      ],
-                         "q":  "An animal has 8 legs, 2 body parts and no antennae. It is:"
+                         "answer":  3,
+                         "explain":  "Arachnids: spiders, scorpions, ticks."
                      },
                      {
-                         "answer":  2,
-                         "explain":  "Parallel veins and multiples of 3 are monocot features (grasses, lilies).",
+                         "q":  "A plant has parallel leaf veins and flower parts in threes. It is a:",
                          "options":  [
                                          "Fern",
                                          "Dicotyledon",
                                          "Monocotyledon",
                                          "Fungus"
                                      ],
-                         "q":  "A plant has parallel leaf veins and flower parts in threes. It is a:"
+                         "answer":  2,
+                         "explain":  "Parallel veins and multiples of 3 are monocot features (grasses, lilies)."
                      },
                      {
-                         "answer":  1,
-                         "explain":  "Reptiles lay leathery eggs on land; birds lay hard-shelled eggs.",
+                         "q":  "Which vertebrate group lays soft-shelled eggs on land?",
                          "options":  [
                                          "Amphibians",
                                          "Reptiles",
                                          "Birds",
                                          "Fish"
                                      ],
-                         "q":  "Which vertebrate group lays soft-shelled eggs on land?"
+                         "answer":  1,
+                         "explain":  "Reptiles lay leathery eggs on land; birds lay hard-shelled eggs."
                      },
                      {
-                         "answer":  1,
-                         "explain":  "Similar DNA means a recent common ancestor, even if organisms look different.",
+                         "q":  "Why do scientists now prefer DNA sequences for classification?",
                          "options":  [
                                          "DNA is easier to see",
                                          "DNA shows evolutionary relationships more accurately than appearance",
                                          "All species have identical DNA",
                                          "It is cheaper than looking"
                                      ],
-                         "q":  "Why do scientists now prefer DNA sequences for classification?"
+                         "answer":  1,
+                         "explain":  "Similar DNA means a recent common ancestor, even if organisms look different."
                      },
                      {
-                         "answer":  2,
-                         "explain":  "Prokaryotes have no nucleus but are still living cells.",
+                         "q":  "Which is NOT a feature of all living cells?",
                          "options":  [
                                          "Cytoplasm",
                                          "Cell membrane",
                                          "Nucleus",
                                          "Ribosomes"
                                      ],
-                         "q":  "Which is NOT a feature of all living cells?"
+                         "answer":  2,
+                         "explain":  "Prokaryotes have no nucleus but are still living cells."
                      },
                      {
-                         "answer":  1,
-                         "explain":  "Spores form on the underside of fern fronds.",
+                         "q":  "Ferns reproduce using:",
                          "options":  [
                                          "Seeds in fruits",
                                          "Spores",
                                          "Flowers",
                                          "Cones"
                                      ],
-                         "q":  "Ferns reproduce using:"
+                         "answer":  1,
+                         "explain":  "Spores form on the underside of fern fronds."
+                     },
+                     {
+                         "q":  "Carl Linnaeus is famous for:",
+                         "options":  [
+                                         "Discovering DNA",
+                                         "Inventing the binomial naming system",
+                                         "Discovering cells",
+                                         "Inventing the microscope"
+                                     ],
+                         "answer":  1,
+                         "explain":  "Linnaeus (1735, Systema Naturae) gave every species a two-part Latin name."
+                     },
+                     {
+                         "q":  "Which is the BEST pair of statements for a dichotomous key?",
+                         "options":  [
+                                         "a) large  b) small",
+                                         "a) green  b) brown",
+                                         "a) has 6 legs  b) has 8 legs",
+                                         "a) lives in trees  b) is fast"
+                                     ],
+                         "answer":  2,
+                         "explain":  "Number of legs is fixed and observable; size, colour and habitat vary and the last pair isn\u0027t even about the same feature."
+                     },
+                     {
+                         "q":  "A dichotomous key for 9 organisms needs how many pairs of statements?",
+                         "options":  [
+                                         "9",
+                                         "8",
+                                         "10",
+                                         "18"
+                                     ],
+                         "answer":  1,
+                         "explain":  "n − 1 = 8."
+                     },
+                     {
+                         "q":  "Using the leaf key: a broad single leaf with a spiky edge is:",
+                         "options":  [
+                                         "Pine",
+                                         "Rose",
+                                         "Holly",
+                                         "Oak"
+                                     ],
+                         "answer":  2,
+                         "explain":  "1b → 2b → 3a → holly."
                      }
                  ],
-        "subject":  "biology",
-        "title":  "Unit 1: Characteristics \u0026 classification of living organisms",
-        "updated":  "Full unit notes",
         "id":  "bio-classification"
     },
     {

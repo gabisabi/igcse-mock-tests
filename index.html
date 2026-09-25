@@ -6,6 +6,10 @@
 <meta name="description" content="Grade 9 IGCSE revision: notes, flashcards and quizzes for every class.">
 <title>IGCSE Mock Tests and Notes</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%233A4FD6'/%3E%3Ctext x='32' y='42' font-family='Arial' font-weight='700' font-size='28' fill='white' text-anchor='middle'%3EIX%3C/text%3E%3C/svg%3E">
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+<script src="firebase-config.js"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Sans+Georgian:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
 <style>
 :root{
@@ -166,6 +170,27 @@ a{color:var(--accent)}
 .bi .en{border-left:1px solid var(--line);padding-left:28px}
 .bi-label{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:10px}
 @media (max-width:900px){.bi{grid-template-columns:1fr}.bi .en{border-left:0;padding-left:0;border-top:1px solid var(--line);padding-top:18px}}
+/* accounts */
+.auth{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:860px}
+.auth .box{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px;box-shadow:var(--shadow)}
+.auth h3{font-size:16px;margin-bottom:12px}
+.auth form{display:flex;flex-direction:column;gap:10px}
+.auth input{font:inherit;color:inherit;background:var(--surface2);border:1px solid var(--line);border-radius:10px;padding:10px 12px;min-width:0}
+.auth label{font-size:12px;color:var(--muted);font-weight:500}
+.auth .err{color:var(--again);font-size:13px;min-height:18px}
+.acct{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px;max-width:860px;display:flex;flex-direction:column;gap:14px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px}
+.stat{background:var(--surface2);border-radius:10px;padding:12px 14px}
+.stat b{display:block;font-family:var(--display);font-size:22px;font-variant-numeric:tabular-nums}
+.stat span{font-size:12px;color:var(--muted)}
+.tbl{width:100%;border-collapse:collapse;font-size:14px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.tbl th,.tbl td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line)}
+.tbl th{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);background:var(--surface2)}
+.tbl tr[data-student]{cursor:pointer}
+.tbl tr[data-student]:hover td{background:var(--accent-soft)}
+.tbl td.n{font-variant-numeric:tabular-nums}
+.tw{overflow-x:auto}
+@media (max-width:700px){.auth{grid-template-columns:1fr}}
 /* to-do */
 .todo-form{display:grid;grid-template-columns:1fr auto auto auto;gap:8px;margin-bottom:14px}
 .todo-form input,.todo-form select{font:inherit;color:inherit;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:9px 12px;min-width:0}
@@ -226,6 +251,8 @@ a{color:var(--accent)}
     <div class="brand"><div class="logo">IX</div><div><h1>IGCSE Mock Tests and Notes</h1><small>Grade 9 · IGCSE</small></div></div>
     <button class="navbtn active" id="nav-home" data-nav="home"><span class="dot" style="background:var(--accent)">⌂</span><span class="nm"><span>All subjects</span></span></button>
     <button class="navbtn" id="nav-todo" data-nav="todo"><span class="dot" style="background:var(--warn)">✓</span><span class="nm"><span>To-do</span></span><span class="pct" id="todo-count"></span></button>
+    <button class="navbtn" id="nav-students" data-nav="students" hidden><span class="dot" style="background:var(--again)">★</span><span class="nm"><span>Students</span><small>Admin only</small></span></button>
+    <button class="navbtn" id="nav-account" data-nav="account"><span class="dot" style="background:var(--muted)">☺</span><span class="nm"><span id="account-label">Sign in</span><small id="account-sub">Save progress to an account</small></span></button>
     <div class="label">Classes</div>
     <div id="nav-subjects"></div>
   </aside>
@@ -287,6 +314,7 @@ function saveLocal(){try{localStorage.setItem('rd-progress',JSON.stringify(S.pro
 let saveT=null,saving=Promise.resolve();
 function saveProgress(){
   saveLocal();
+  pushProgress();
   if(!S.pdoc)return;
   clearTimeout(saveT);
   saveT=setTimeout(()=>{saving=saving.then(()=>S.pdoc.set(JSON.parse(JSON.stringify(S.progress)))).catch(e=>{console.warn('progress save',e);});},600);
@@ -314,6 +342,9 @@ function renderNav(){
   $('#nav-subjects').innerHTML=sorted.map((s,i)=>`<button class="navbtn ${S.view!=='home'&&S.subject===s.id?'active':''}" data-subject="${esc(s.id)}" ${s.lang==='ka'?'lang="ka"':''}><span class="dot" style="background:${color(s,i)}">${esc(initial(s))}</span><span class="nm"><span>${esc(s.name)}</span>${s.teacher?`<small>${esc(s.teacher)}</small>`:''}</span><span class="pct">${Math.round(subjectMastery(s.id)*100)}%</span></button>`).join('');
   $('#nav-home').classList.toggle('active',S.view==='home');
   $('#nav-todo').classList.toggle('active',S.view==='todo');
+  $('#nav-account').classList.toggle('active',S.view==='account');
+  $('#nav-students').classList.toggle('active',S.view==='students');
+  $('#nav-students').hidden=!isAdmin();
   const open=(S.progress.todos||[]).filter(t=>!t.done).length;$('#todo-count').textContent=open?open+' open':'';
   const exams=[...new Set(S.topics.map(t=>t.exam).filter(Boolean))].sort();
   $('#exam-chips').innerHTML=exams.length?[`<button class="chip ${S.exam==='all'?'on':''}" data-exam="all">Everything</button>`,...exams.map(e=>`<button class="chip ${S.exam===e?'on':''}" data-exam="${esc(e)}">${esc(e)}</button>`)].join(''):'';
@@ -324,6 +355,8 @@ function render(){
   if(S.q.trim())return v.innerHTML=renderSearch();
   if(S.view==='home')v.innerHTML=renderHome();
   else if(S.view==='todo')v.innerHTML=renderTodo();
+  else if(S.view==='account')v.innerHTML=renderAccount();
+  else if(S.view==='students')v.innerHTML=renderStudents();
   else if(S.view==='subject')v.innerHTML=renderSubject();
   else if(S.view==='topic')v.innerHTML=renderTopic();
   window.scrollTo({top:0});
@@ -423,6 +456,13 @@ document.addEventListener('click',e=>{
   const d=b.dataset;
   if(d.nav==='home')return go('home');
   if(d.nav==='todo')return go('todo');
+  if(d.nav==='account')return go('account');
+  if(d.nav==='students')return go('students',{studentId:null});
+  if(d.authTab){S.authTab=d.authTab;return render();}
+  if(d.auth==='out'){FB.auth.signOut().then(()=>{toast('Signed out');go('home');});return;}
+  if(d.student!=null){S.studentId=d.student;return render();}
+  if(d.students==='back'){S.studentId=null;return render();}
+  if(d.students==='refresh'){S.students=null;return render();}
   if(d.todo){const L=S.progress.todos||[];const i=L.findIndex(x=>x.id===d.id);if(i>=0){if(d.todo==='toggle')L[i].done=!L[i].done;else L.splice(i,1);S.progress.todos=L;saveProgress();render();}return;}
   if(d.subject!=null&&!d.topic)return go('subject',{subject:d.subject});
   if(d.topic!=null){const t=S.topics.find(x=>x.id===d.topic);return go('topic',{topic:d.topic,subject:t?t.subject:S.subject,tab:d.gotab||'notes'});}
@@ -448,10 +488,107 @@ document.addEventListener('click',e=>{
     return render();}
 });
 $('#q').addEventListener('input',e=>{S.q=e.target.value;render();});
-document.addEventListener('submit',e=>{if(e.target.id!=='todo-form')return;e.preventDefault();const text=$('#todo-text').value.trim();if(!text)return;
+document.addEventListener('submit',async e=>{
+  if(e.target.id==='signin-form'||e.target.id==='signup-form'){e.preventDefault();const err=$('#auth-err');err.textContent='';const btn=e.target.querySelector('button[type=submit]');btn.disabled=true;
+    try{if(e.target.id==='signin-form')await signIn($('#si-id').value,$('#si-pw').value);
+      else{if($('#su-pw').value!==$('#su-pw2').value)throw new Error('The two passwords do not match');await signUp($('#su-user').value,$('#su-email').value,$('#su-pw').value);}
+      toast('Welcome!');go('home');}
+    catch(ex){err.textContent=authError(ex);}
+    finally{btn.disabled=false;}
+    return;}
+  if(e.target.id!=='todo-form')return;e.preventDefault();const text=$('#todo-text').value.trim();if(!text)return;
   S.progress.todos=S.progress.todos||[];S.progress.todos.push({id:Date.now().toString(36),text,subject:$('#todo-subject').value,due:$('#todo-due').value,done:false});saveProgress();render();toast('Added to your list');});
 document.addEventListener('keydown',e=>{if(S.view!=='topic'||S.tab!=='cards'||e.target.tagName==='INPUT')return;
   const map={' ':'flip','ArrowRight':'next','ArrowLeft':'prev','1':'again','2':'know'};if(map[e.key]){e.preventDefault();document.querySelector(`[data-fc="${map[e.key]}"]`)?.click();}});
+
+/* ---------- accounts (Firebase) ---------- */
+const FB={auth:null,db:null,user:null,profile:null,enabled:false};
+const ADMIN_EMAILS=(window.ADMIN_EMAILS||[]).map(e=>String(e).toLowerCase());
+function isAdmin(){return !!(FB.user&&ADMIN_EMAILS.includes((FB.user.email||'').toLowerCase()));}
+function tsFn(){return firebase.firestore.FieldValue.serverTimestamp();}
+function initFirebase(){
+  const cfg=window.FIREBASE_CONFIG;
+  if(!cfg||!cfg.apiKey||!window.firebase){renderAccountNav();return;}
+  try{firebase.initializeApp(cfg);FB.auth=firebase.auth();FB.db=firebase.firestore();FB.enabled=true;}catch(e){console.warn('firebase init',e);renderAccountNav();return;}
+  FB.auth.onAuthStateChanged(async u=>{FB.user=u;
+    if(u){try{const ref=FB.db.collection('users').doc(u.uid);const snap=await ref.get();const d=snap.exists?snap.data():{};FB.profile=d;
+        if(d.progress){S.progress=mergeProgress(S.progress,d.progress);saveLocal();}
+        await ref.set({username:d.username||u.displayName||'',email:u.email||'',lastSeen:tsFn()},{merge:true});
+        pushProgress();
+        setStatus('ok','Signed in as '+(d.username||u.email)+' · progress synced');
+      }catch(e){console.warn('profile',e);setStatus('bad','Signed in, but could not load your progress');}}
+    else{FB.profile=null;S.students=null;setStatus('ok','Not signed in · progress saved in this browser only');}
+    renderAccountNav();render();});
+}
+function renderAccountNav(){const l=$('#account-label'),s=$('#account-sub');if(!FB.enabled){l.textContent='Account';s.textContent='Not set up yet';return;}
+  if(FB.user){l.textContent=(FB.profile&&FB.profile.username)||FB.user.displayName||FB.user.email;s.textContent=isAdmin()?'Admin · synced':'Progress synced';}else{l.textContent='Sign in';s.textContent='Save progress to an account';}}
+function mergeProgress(local,remote){
+  const out={cards:Object.assign({},local.cards||{}),quiz:Object.assign({},local.quiz||{},remote.quiz||{}),seen:Object.assign({},local.seen||{},remote.seen||{}),todos:(remote.todos&&remote.todos.length)?remote.todos:(local.todos||[])};
+  for(const k in (remote.cards||{}))out.cards[k]=Object.assign({},(local.cards||{})[k]||{},remote.cards[k]);
+  return out;
+}
+function withProgress(p,fn){const saved=S.progress;S.progress=p||{cards:{},quiz:{},seen:{}};try{return fn();}finally{S.progress=saved;}}
+function progressSummary(p){return withProgress(p,()=>{const ts=S.topics;const m=ts.length?ts.reduce((a,t)=>a+topicMastery(t),0)/ts.length:0;
+  return {mastery:Math.round(m*100),cardsKnown:ts.reduce((a,t)=>a+knownCount(t),0),quizAttempts:Object.values(p.quiz||{}).reduce((a,q)=>a+(q.attempts||0),0),topicsSeen:Object.keys(p.seen||{}).length};});}
+let pushT=null;
+function pushProgress(){if(!FB.enabled||!FB.user)return;clearTimeout(pushT);pushT=setTimeout(()=>{
+  FB.db.collection('users').doc(FB.user.uid).set({progress:JSON.parse(JSON.stringify(S.progress)),summary:progressSummary(S.progress),updatedAt:tsFn()},{merge:true}).catch(e=>console.warn('sync',e));},800);}
+async function signUp(username,email,pw){
+  username=username.trim();const key=username.toLowerCase();email=email.trim();
+  if(!/^[a-z0-9_.]{3,20}$/.test(key))throw new Error('Username must be 3–20 characters: letters, numbers, _ or .');
+  if(pw.length<6)throw new Error('Password must be at least 6 characters');
+  const taken=await FB.db.collection('usernames').doc(key).get();if(taken.exists)throw new Error('That username is already taken');
+  const cred=await FB.auth.createUserWithEmailAndPassword(email,pw);
+  await cred.user.updateProfile({displayName:username});
+  await FB.db.collection('users').doc(cred.user.uid).set({username,email,createdAt:tsFn(),progress:JSON.parse(JSON.stringify(S.progress)),summary:progressSummary(S.progress)},{merge:true});
+  await FB.db.collection('usernames').doc(key).set({uid:cred.user.uid,email});
+  FB.profile={username,email};
+}
+async function signIn(id,pw){id=id.trim();let email=id;
+  if(!id.includes('@')){const s=await FB.db.collection('usernames').doc(id.toLowerCase()).get();if(!s.exists)throw new Error('No account with that username');email=s.data().email;}
+  await FB.auth.signInWithEmailAndPassword(email,pw);}
+function authError(e){const c=e&&e.code||'';
+  if(c==='auth/wrong-password'||c==='auth/invalid-credential'||c==='auth/invalid-login-credentials')return 'Wrong password (or wrong email).';
+  if(c==='auth/user-not-found')return 'No account with that email.';
+  if(c==='auth/email-already-in-use')return 'That email already has an account. Sign in instead.';
+  if(c==='auth/invalid-email')return 'That email address does not look right.';
+  if(c==='auth/weak-password')return 'Password must be at least 6 characters.';
+  if(c==='auth/too-many-requests')return 'Too many attempts. Wait a minute and try again.';
+  if(c==='permission-denied')return 'Permission denied. The Firestore rules may not be set up yet.';
+  return (e&&e.message)||'Something went wrong.';}
+function renderAccount(){
+  if(!FB.enabled)return `<div class="hero"><div><h2>Account</h2><p>Accounts are not switched on for this site yet. Your progress is still saved in this browser.</p></div></div><div class="empty">Once the Firebase project is connected (see the README in the repo), this page becomes the sign-in and sign-up page.</div>`;
+  if(FB.user){const p=FB.profile||{};const sm=progressSummary(S.progress);
+    return `<div class="hero"><div><h2>${esc(p.username||FB.user.displayName||'Your account')}</h2><p>${esc(FB.user.email||'')}${isAdmin()?' · <span class="tag" style="color:var(--again)">Admin</span>':''}</p></div>${ring(sm.mastery/100)}</div>
+    <div class="acct"><div class="stats"><div class="stat"><b>${sm.mastery}%</b><span>Overall mastery</span></div><div class="stat"><b>${sm.cardsKnown}</b><span>Flashcards known</span></div><div class="stat"><b>${sm.quizAttempts}</b><span>Quizzes taken</span></div><div class="stat"><b>${sm.topicsSeen}</b><span>Topics opened</span></div></div>
+    <p style="margin:0;color:var(--muted);font-size:13px">Your progress is saved to your account and follows you to any device. Only you${isAdmin()?'':' (and the site admin)'} can see it.</p>
+    <div><button class="btn" data-auth="out">Sign out</button></div></div>`;}
+  const tab=S.authTab||'in';
+  return `<div class="hero"><div><h2>Your account</h2><p>Sign in to save your flashcards, quiz scores and to-do list across every device. Nobody else can see your progress.</p></div></div>
+  <div class="tabs"><button class="${tab==='in'?'on':''}" data-auth-tab="in">Sign in</button><button class="${tab==='up'?'on':''}" data-auth-tab="up">Create account</button></div>
+  <div class="auth"><div class="box">${tab==='in'?`<h3>Sign in</h3><form id="signin-form"><label for="si-id">Email or username</label><input id="si-id" autocomplete="username" required><label for="si-pw">Password</label><input id="si-pw" type="password" autocomplete="current-password" required><div class="err" id="auth-err"></div><button class="btn primary" type="submit">Sign in</button></form>`
+  :`<h3>Create account</h3><form id="signup-form"><label for="su-user">Username</label><input id="su-user" autocomplete="username" placeholder="e.g. beka_9b" required><label for="su-email">Email</label><input id="su-email" type="email" autocomplete="email" required><label for="su-pw">Password (6+ characters)</label><input id="su-pw" type="password" autocomplete="new-password" required minlength="6"><label for="su-pw2">Repeat password</label><input id="su-pw2" type="password" autocomplete="new-password" required><div class="err" id="auth-err"></div><button class="btn primary" type="submit">Create account</button></form>`}</div>
+  <div class="box"><h3>How it works</h3><p style="margin:0 0 10px;font-size:14px;color:var(--muted)">Anything you've already done in this browser is kept and copied to your account the first time you sign in.</p><ul style="margin:0;padding-left:18px;font-size:14px;color:var(--muted)"><li>Flashcards you've marked known</li><li>Quiz scores and best results</li><li>Your to-do list</li></ul></div></div>`;
+}
+async function loadStudents(){try{const snap=await FB.db.collection('users').get();S.students=snap.docs.map(d=>({id:d.id,...d.data()}));}catch(e){console.warn(e);S.students=[];S.studentsErr=authError(e);}render();}
+function fmtDate(ts){try{const d=ts&&ts.toDate?ts.toDate():null;return d?d.toLocaleString():'—';}catch(e){return '—';}}
+function renderStudents(){
+  if(!isAdmin())return `<div class="empty">This page is for the site admin only.</div>`;
+  if(!S.students){loadStudents();return `<div class="hero"><div><h2>Students</h2></div></div><div class="empty">Loading…</div>`;}
+  const list=[...S.students].sort((a,b)=>(a.username||'').localeCompare(b.username||''));
+  if(S.studentId){const u=list.find(x=>x.id===S.studentId);if(!u)return `<div class="empty">Student not found.</div>`;const p=u.progress||{cards:{},quiz:{},seen:{}};const sm=progressSummary(p);
+    const subs=[...S.subjects].sort((a,b)=>(a.order??99)-(b.order??99));
+    return `<div class="crumb"><button data-students="back">Students</button><span class="sep">›</span><span>${esc(u.username||u.email||u.id)}</span></div>
+    <div class="hero"><div><h2>${esc(u.username||'(no username)')}</h2><p>${esc(u.email||'')} · last active ${esc(fmtDate(u.updatedAt||u.lastSeen))}</p></div>${ring(sm.mastery/100)}</div>
+    <div class="stats" style="max-width:860px;margin-bottom:18px"><div class="stat"><b>${sm.mastery}%</b><span>Overall mastery</span></div><div class="stat"><b>${sm.cardsKnown}</b><span>Flashcards known</span></div><div class="stat"><b>${sm.quizAttempts}</b><span>Quizzes taken</span></div><div class="stat"><b>${sm.topicsSeen}</b><span>Topics opened</span></div></div>
+    ${withProgress(p,()=>subs.map(s=>{const ts=S.topics.filter(t=>t.subject===s.id).sort((a,b)=>(a.order??99)-(b.order??99));if(!ts.length)return '';
+      return `<h3 class="h3" ${s.lang==='ka'?'lang="ka"':''}>${esc(s.name)} · ${Math.round(subjectMastery(s.id)*100)}%</h3><div class="tw"><table class="tbl"><tr><th>Topic</th><th>Cards known</th><th>Quiz best</th><th>Attempts</th><th>Mastery</th></tr>${ts.map(t=>{const q=(S.progress.quiz||{})[t.id]||{};return `<tr ${s.lang==='ka'?'lang="ka"':''}><td>${esc(t.title)}</td><td class="n">${knownCount(t)}/${(t.cards||[]).length}</td><td class="n">${q.best!=null?q.best+'%':'—'}</td><td class="n">${q.attempts||0}</td><td class="n">${Math.round(topicMastery(t)*100)}%</td></tr>`;}).join('')}</table></div>`;}).join(''))}`;}
+  let h=`<div class="hero"><div><h2>Students</h2><p>${list.length} account${list.length===1?'':'s'}. Click a row for the full breakdown.</p></div><button class="btn sm" data-students="refresh">Refresh</button></div>`;
+  if(S.studentsErr)h+=`<div class="empty">${esc(S.studentsErr)}</div>`;
+  if(!list.length)return h+`<div class="empty">No accounts yet.</div>`;
+  h+=`<div class="tw"><table class="tbl"><tr><th>Username</th><th>Email</th><th>Mastery</th><th>Cards known</th><th>Quizzes</th><th>Last active</th></tr>${list.map(u=>{const sm=u.summary||{};return `<tr data-student="${esc(u.id)}"><td><b>${esc(u.username||'—')}</b></td><td>${esc(u.email||'')}</td><td class="n">${sm.mastery??0}%</td><td class="n">${sm.cardsKnown??0}</td><td class="n">${sm.quizAttempts??0}</td><td>${esc(fmtDate(u.updatedAt||u.lastSeen))}</td></tr>`;}).join('')}</table></div>`;
+  return h;
+}
 
 /* ---------- boot ---------- */
 loadLocal();
@@ -466,6 +603,7 @@ async function boot(){
     setStatus('ok','Progress saved in this browser');
     if(!hashApplied){hashApplied=true;applyHash();}
     render();
+    initFirebase();
   }catch(e){S.ready=true;setStatus('bad','Could not load notes · check your connection');console.warn(e);render();}
 }
 boot();

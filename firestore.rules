@@ -1,0 +1,35 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() { return request.auth != null; }
+    // Admins: keep this list the same as ADMIN_EMAILS in firebase-config.js
+    function isAdmin() {
+      return signedIn()
+        && request.auth.token.email != null
+        && request.auth.token.email.lower() in ['beka@suada.com', 'gabriel.tomashvili@bga.ge'];
+    }
+
+    // Each user's profile + progress. Only the owner can write it;
+    // only the owner or an admin can read it.
+    match /users/{uid} {
+      allow read: if signedIn() && (request.auth.uid == uid || isAdmin());
+      allow create, update: if signedIn() && request.auth.uid == uid;
+      allow delete: if false;
+    }
+
+    // Username → account lookup so people can sign in with a username.
+    // Anyone can look up ONE exact username (needed before sign-in), nobody can list them all,
+    // and a username can only be claimed once, by the account that owns it.
+    match /usernames/{name} {
+      allow get: if true;
+      allow list: if false;
+      allow create: if signedIn() && request.resource.data.uid == request.auth.uid;
+      allow update, delete: if false;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
