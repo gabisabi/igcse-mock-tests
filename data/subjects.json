@@ -1,5 +1,100 @@
 [
     {
+        "books":  [
+                      {
+                          "authors":  "Mary Jones, Geoff Jones",
+                          "edition":  "4th edition",
+                          "publisher":  "Cambridge University Press",
+                          "role":  "Coursebook",
+                          "title":  "Cambridge IGCSE Biology Coursebook"
+                      }
+                  ],
+        "chapters":  [
+                         {
+                             "n":  1,
+                             "title":  "Characteristics and classification of living organisms"
+                         },
+                         {
+                             "n":  2,
+                             "title":  "Cells"
+                         },
+                         {
+                             "n":  3,
+                             "title":  "Movement into and out of cells"
+                         },
+                         {
+                             "n":  4,
+                             "title":  "Biological molecules"
+                         },
+                         {
+                             "n":  5,
+                             "title":  "Enzymes"
+                         },
+                         {
+                             "n":  6,
+                             "title":  "Plant nutrition"
+                         },
+                         {
+                             "n":  7,
+                             "title":  "Human nutrition"
+                         },
+                         {
+                             "n":  8,
+                             "title":  "Transport in plants"
+                         },
+                         {
+                             "n":  9,
+                             "title":  "Transport in animals"
+                         },
+                         {
+                             "n":  10,
+                             "title":  "Diseases and immunity"
+                         },
+                         {
+                             "n":  11,
+                             "title":  "Respiration and gas exchange"
+                         },
+                         {
+                             "n":  12,
+                             "title":  "Coordination and response"
+                         },
+                         {
+                             "n":  13,
+                             "title":  "Excretion and homeostasis"
+                         },
+                         {
+                             "n":  14,
+                             "title":  "Reproduction in plants"
+                         },
+                         {
+                             "n":  15,
+                             "title":  "Reproduction in humans"
+                         },
+                         {
+                             "n":  16,
+                             "title":  "Chromosomes, genes and proteins"
+                         },
+                         {
+                             "n":  17,
+                             "title":  "Inheritance"
+                         },
+                         {
+                             "n":  18,
+                             "title":  "Variation and selection"
+                         },
+                         {
+                             "n":  19,
+                             "title":  "Organisms and their environment"
+                         },
+                         {
+                             "n":  20,
+                             "title":  "Human influences on ecosystems"
+                         },
+                         {
+                             "n":  21,
+                             "title":  "Biotechnology and genetic modification"
+                         }
+                     ],
         "color":  "#C98A12",
         "lang":  "en",
         "name":  "Biology",
@@ -9,6 +104,105 @@
         "id":  "biology"
     },
     {
+        "books":  [
+                      {
+                          "authors":  "Richard Harwood, Ian Lodge, Chris Millington",
+                          "edition":  "5th edition",
+                          "publisher":  "Cambridge University Press",
+                          "role":  "Coursebook",
+                          "title":  "Cambridge IGCSE Chemistry Coursebook"
+                      }
+                  ],
+        "chapters":  [
+                         {
+                             "n":  1,
+                             "title":  "States of matter"
+                         },
+                         {
+                             "n":  2,
+                             "title":  "Atomic structure"
+                         },
+                         {
+                             "n":  3,
+                             "title":  "Chemical bonding"
+                         },
+                         {
+                             "n":  4,
+                             "title":  "Chemical formulae and equations"
+                         },
+                         {
+                             "n":  5,
+                             "title":  "Chemical calculations"
+                         },
+                         {
+                             "n":  6,
+                             "title":  "Electrochemistry"
+                         },
+                         {
+                             "n":  7,
+                             "title":  "Chemical energetics"
+                         },
+                         {
+                             "n":  8,
+                             "title":  "Rates of reaction"
+                         },
+                         {
+                             "n":  9,
+                             "title":  "Reversible reactions and equilibrium"
+                         },
+                         {
+                             "n":  10,
+                             "title":  "Redox reactions"
+                         },
+                         {
+                             "n":  11,
+                             "title":  "Acids and bases"
+                         },
+                         {
+                             "n":  12,
+                             "title":  "Preparation of salts"
+                         },
+                         {
+                             "n":  13,
+                             "title":  "The Periodic Table"
+                         },
+                         {
+                             "n":  14,
+                             "title":  "Metallic elements and alloys"
+                         },
+                         {
+                             "n":  15,
+                             "title":  "Reactivity of metals"
+                         },
+                         {
+                             "n":  16,
+                             "title":  "Extraction and corrosion of metals"
+                         },
+                         {
+                             "n":  17,
+                             "title":  "Chemistry of our environment"
+                         },
+                         {
+                             "n":  18,
+                             "title":  "Introduction to organic chemistry"
+                         },
+                         {
+                             "n":  19,
+                             "title":  "Reactions of organic compounds"
+                         },
+                         {
+                             "n":  20,
+                             "title":  "Petrochemicals and polymers"
+                         },
+                         {
+                             "n":  21,
+                             "title":  "Experimental design and separation techniques"
+                         },
+                         {
+                             "n":  22,
+                             "title":  "Chemical analysis"
+                         }
+                     ],
         "color":  "#8A4FD3",
         "lang":  "en",
         "name":  "Chemistry (Pure)",
@@ -18,15 +212,119 @@
         "id":  "chemistry"
     },
     {
+        "chapters":  [
+                         {
+                             "n":  1,
+                             "status":  "Covered · 3 topics + glossary",
+                             "title":  "Data representation (binary, hex, text, images, sound, compression)"
+                         },
+                         {
+                             "n":  2,
+                             "status":  "Not written yet · say \"do chapter 2\"",
+                             "title":  "Data transmission"
+                         },
+                         {
+                             "n":  3,
+                             "status":  "Not written yet",
+                             "title":  "Hardware"
+                         },
+                         {
+                             "n":  4,
+                             "status":  "Not written yet",
+                             "title":  "Software"
+                         },
+                         {
+                             "n":  5,
+                             "status":  "Not written yet",
+                             "title":  "The internet and its uses"
+                         },
+                         {
+                             "n":  6,
+                             "status":  "Not written yet",
+                             "title":  "Automated and emerging technologies"
+                         },
+                         {
+                             "n":  7,
+                             "status":  "Not written yet",
+                             "title":  "Algorithm design and problem-solving"
+                         },
+                         {
+                             "n":  8,
+                             "status":  "Not written yet",
+                             "title":  "Programming"
+                         },
+                         {
+                             "n":  9,
+                             "status":  "Not written yet",
+                             "title":  "Databases"
+                         },
+                         {
+                             "n":  10,
+                             "status":  "Covered · Logic gates topic",
+                             "title":  "Boolean logic"
+                         }
+                     ],
         "color":  "#1F9A63",
         "lang":  "en",
         "name":  "IGCSE Computer Science",
+        "note":  "Chapters follow the Cambridge 0478 syllabus · tell Claude which textbook you use",
         "order":  4,
         "short":  "9",
         "teacher":  "Irma Marghania",
         "id":  "cs"
     },
     {
+        "books":  [
+                      {
+                          "authors":  "Graham Elsdon, Helen Rees-Bidder",
+                          "edition":  "6th edition",
+                          "publisher":  "Cambridge University Press",
+                          "role":  "Coursebook",
+                          "title":  "First Language English for Cambridge IGCSE Coursebook"
+                      }
+                  ],
+        "chapters":  [
+                         {
+                             "n":  "R1",
+                             "status":  "Covered in the Reading skills topic",
+                             "title":  "Reading: comprehension and explaining in your own words"
+                         },
+                         {
+                             "n":  "R2",
+                             "status":  "Covered in the Reading skills topic",
+                             "title":  "Reading: summary writing"
+                         },
+                         {
+                             "n":  "R3",
+                             "status":  "Covered in the Reading skills topic",
+                             "title":  "Reading: writer\u0027s effects and language analysis"
+                         },
+                         {
+                             "n":  "W1",
+                             "status":  "Covered in the Writing topic",
+                             "title":  "Directed writing: letters, articles, speeches, reports"
+                         },
+                         {
+                             "n":  "W2",
+                             "status":  "Covered in the Writing topic",
+                             "title":  "Composition: descriptive writing"
+                         },
+                         {
+                             "n":  "W3",
+                             "status":  "Covered in the Writing topic",
+                             "title":  "Composition: narrative writing"
+                         },
+                         {
+                             "n":  "W4",
+                             "status":  "Not written yet · send the book\u0027s contents page for exact chapter numbers",
+                             "title":  "Grammar, punctuation and spelling"
+                         },
+                         {
+                             "n":  "S1",
+                             "status":  "Not written yet",
+                             "title":  "Speaking and listening"
+                         }
+                     ],
         "color":  "#0F8FA8",
         "lang":  "en",
         "name":  "IGCSE First Language English",
@@ -36,6 +334,29 @@
         "id":  "english"
     },
     {
+        "books":  [
+                      {
+                          "authors":  "",
+                          "edition":  "",
+                          "publisher":  "სულაკაურის გამომცემლობა",
+                          "role":  "მოსწავლის წიგნი",
+                          "title":  "ქართული ლიტერატურა 9, ნაწილი I"
+                      },
+                      {
+                          "authors":  "",
+                          "edition":  "",
+                          "publisher":  "სულაკაურის გამომცემლობა",
+                          "role":  "მოსწავლის წიგნი",
+                          "title":  "ქართული ენა 9"
+                      }
+                  ],
+        "chapters":  [
+                         {
+                             "n":  "?",
+                             "status":  "გამომიგზავნე ორივე წიგნის სარჩევის ფოტო და ყველა თავს დავამატებ",
+                             "title":  "თავების სია ჯერ არ არის"
+                         }
+                     ],
         "color":  "#3B6EA5",
         "lang":  "ka",
         "name":  "ქართული (IX ლურჯი)",
@@ -45,6 +366,52 @@
         "id":  "georgian"
     },
     {
+        "books":  [
+                      {
+                          "authors":  "Keely Laycock",
+                          "edition":  "",
+                          "publisher":  "Cambridge University Press",
+                          "role":  "Coursebook",
+                          "title":  "Cambridge IGCSE and O Level Global Perspectives Coursebook"
+                      }
+                  ],
+        "chapters":  [
+                         {
+                             "n":  1,
+                             "status":  "Covered in the Research skills topic",
+                             "title":  "Research"
+                         },
+                         {
+                             "n":  2,
+                             "status":  "Covered in the Key concepts topic",
+                             "title":  "Analysis"
+                         },
+                         {
+                             "n":  3,
+                             "status":  "Covered in the Research skills topic",
+                             "title":  "Evaluation"
+                         },
+                         {
+                             "n":  4,
+                             "status":  "Not written yet · say \"do chapter 4\"",
+                             "title":  "Reflection"
+                         },
+                         {
+                             "n":  5,
+                             "status":  "Not written yet",
+                             "title":  "Collaboration"
+                         },
+                         {
+                             "n":  6,
+                             "status":  "Not written yet",
+                             "title":  "Communication"
+                         },
+                         {
+                             "n":  7,
+                             "status":  "Not written yet · confirm chapter numbers from the contents page",
+                             "title":  "The written examination, team project and individual report"
+                         }
+                     ],
         "color":  "#E0553A",
         "lang":  "en",
         "name":  "Global Perspectives",
@@ -54,6 +421,29 @@
         "id":  "gp"
     },
     {
+        "books":  [
+                      {
+                          "authors":  "ნატო ახმეტელი, ბესიკ ლორთქიფანიძე, ნათია ფირცხალავა",
+                          "edition":  "",
+                          "publisher":  "",
+                          "role":  "მოსწავლის წიგნი",
+                          "title":  "საქართველოსა და მსოფლიოს ისტორია 9, ნაწილი I"
+                      },
+                      {
+                          "authors":  "",
+                          "edition":  "",
+                          "publisher":  "",
+                          "role":  "რვეული",
+                          "title":  "საქართველოსა და მსოფლიოს ისტორია 9 · სამუშაო რვეული"
+                      }
+                  ],
+        "chapters":  [
+                         {
+                             "n":  "?",
+                             "status":  "გამომიგზავნე სარჩევის (შინაარსის) გვერდის ფოტო და ყველა თავს დავამატებ",
+                             "title":  "თავების სია ჯერ არ არის"
+                         }
+                     ],
         "color":  "#B85C1A",
         "lang":  "ka",
         "name":  "ისტორია (IX Blue)",
@@ -63,6 +453,120 @@
         "id":  "history"
     },
     {
+        "books":  [
+                      {
+                          "authors":  "Karen Morrison, Nick Hamshaw",
+                          "edition":  "3rd edition",
+                          "publisher":  "Cambridge University Press",
+                          "role":  "Coursebook",
+                          "title":  "Cambridge IGCSE Mathematics Core and Extended Coursebook"
+                      },
+                      {
+                          "authors":  "Karen Morrison, Lucille Dunne",
+                          "edition":  "3rd edition",
+                          "publisher":  "Cambridge University Press",
+                          "role":  "Practice book",
+                          "title":  "Cambridge IGCSE Mathematics Core and Extended Practice Book"
+                      }
+                  ],
+        "chapters":  [
+                         {
+                             "n":  1,
+                             "title":  "Reviewing number concepts"
+                         },
+                         {
+                             "n":  2,
+                             "title":  "Making sense of algebra"
+                         },
+                         {
+                             "n":  3,
+                             "title":  "Lines, angles and shapes"
+                         },
+                         {
+                             "n":  4,
+                             "title":  "Collecting, organising and displaying data"
+                         },
+                         {
+                             "n":  5,
+                             "title":  "Fractions, percentages and standard form"
+                         },
+                         {
+                             "n":  6,
+                             "title":  "Equations, factors and inequalities"
+                         },
+                         {
+                             "n":  7,
+                             "title":  "Perimeter, area and volume"
+                         },
+                         {
+                             "n":  8,
+                             "title":  "Introduction to probability"
+                         },
+                         {
+                             "n":  9,
+                             "title":  "Sequences, surds and sets"
+                         },
+                         {
+                             "n":  10,
+                             "title":  "Straight lines and quadratic equations"
+                         },
+                         {
+                             "n":  11,
+                             "title":  "Pythagoras\u0027 theorem and similar shapes"
+                         },
+                         {
+                             "n":  12,
+                             "title":  "Averages and measures of spread"
+                         },
+                         {
+                             "n":  13,
+                             "title":  "Understanding measurement"
+                         },
+                         {
+                             "n":  14,
+                             "title":  "Further solving of equations and inequalities"
+                         },
+                         {
+                             "n":  15,
+                             "title":  "Scale drawings, bearings and trigonometry"
+                         },
+                         {
+                             "n":  16,
+                             "title":  "Scatter diagrams and correlation"
+                         },
+                         {
+                             "n":  17,
+                             "title":  "Managing money"
+                         },
+                         {
+                             "n":  18,
+                             "title":  "Curved graphs"
+                         },
+                         {
+                             "n":  19,
+                             "title":  "Symmetry"
+                         },
+                         {
+                             "n":  20,
+                             "title":  "Histograms and frequency distribution diagrams"
+                         },
+                         {
+                             "n":  21,
+                             "title":  "Ratio, rate and proportion"
+                         },
+                         {
+                             "n":  22,
+                             "title":  "More equations, formulae and functions"
+                         },
+                         {
+                             "n":  23,
+                             "title":  "Vectors and transformations"
+                         },
+                         {
+                             "n":  24,
+                             "title":  "Probability using tree diagrams and Venn diagrams"
+                         }
+                     ],
         "color":  "#4A6B2B",
         "lang":  "en",
         "name":  "Mathematics",
@@ -72,6 +576,117 @@
         "id":  "maths"
     },
     {
+        "books":  [
+                      {
+                          "authors":  "David Sang, Mike Follows, Sheila Tarpey",
+                          "edition":  "3rd edition",
+                          "publisher":  "Cambridge University Press",
+                          "role":  "Coursebook",
+                          "title":  "Cambridge IGCSE Physics Coursebook"
+                      }
+                  ],
+        "chapters":  [
+                         {
+                             "n":  1,
+                             "title":  "Making measurements"
+                         },
+                         {
+                             "n":  2,
+                             "title":  "Describing motion"
+                         },
+                         {
+                             "n":  3,
+                             "title":  "Forces and motion"
+                         },
+                         {
+                             "n":  4,
+                             "title":  "Turning effects"
+                         },
+                         {
+                             "n":  5,
+                             "title":  "Forces and matter"
+                         },
+                         {
+                             "n":  6,
+                             "title":  "Energy stores and transfers"
+                         },
+                         {
+                             "n":  7,
+                             "title":  "Energy resources"
+                         },
+                         {
+                             "n":  8,
+                             "title":  "Work and power"
+                         },
+                         {
+                             "n":  9,
+                             "title":  "The kinetic particle model of matter"
+                         },
+                         {
+                             "n":  10,
+                             "title":  "Thermal properties of matter"
+                         },
+                         {
+                             "n":  11,
+                             "title":  "Thermal energy transfers"
+                         },
+                         {
+                             "n":  12,
+                             "title":  "Sound"
+                         },
+                         {
+                             "n":  13,
+                             "title":  "Light"
+                         },
+                         {
+                             "n":  14,
+                             "title":  "Properties of waves"
+                         },
+                         {
+                             "n":  15,
+                             "title":  "The electromagnetic spectrum"
+                         },
+                         {
+                             "n":  16,
+                             "title":  "Magnetism"
+                         },
+                         {
+                             "n":  17,
+                             "title":  "Static electricity"
+                         },
+                         {
+                             "n":  18,
+                             "title":  "Electrical quantities"
+                         },
+                         {
+                             "n":  19,
+                             "title":  "Electrical circuits"
+                         },
+                         {
+                             "n":  20,
+                             "title":  "Electromagnetic forces"
+                         },
+                         {
+                             "n":  21,
+                             "title":  "Electromagnetic induction"
+                         },
+                         {
+                             "n":  22,
+                             "title":  "The nuclear atom"
+                         },
+                         {
+                             "n":  23,
+                             "title":  "Radioactivity"
+                         },
+                         {
+                             "n":  24,
+                             "title":  "Earth and the Solar System"
+                         },
+                         {
+                             "n":  25,
+                             "title":  "Stars and the Universe"
+                         }
+                     ],
         "color":  "#5B6CF0",
         "lang":  "en",
         "name":  "Physics",
@@ -81,6 +696,29 @@
         "id":  "physics"
     },
     {
+        "books":  [
+                      {
+                          "authors":  "",
+                          "edition":  "",
+                          "publisher":  "ოცდამეერთე (Bukia 21st)",
+                          "role":  "Учебник · student book",
+                          "title":  "Русский язык 9 · книга для ученика"
+                      },
+                      {
+                          "authors":  "",
+                          "edition":  "",
+                          "publisher":  "ოცდამეერთე (Bukia 21st)",
+                          "role":  "Рабочая тетрадь · workbook",
+                          "title":  "Русский язык 9 · сборник упражнений"
+                      }
+                  ],
+        "chapters":  [
+                         {
+                             "n":  "?",
+                             "status":  "Send a photo of the contents page (содержание) and I will add every unit",
+                             "title":  "Chapter list not added yet"
+                         }
+                     ],
         "color":  "#D33C7A",
         "lang":  "ru",
         "name":  "Русский язык (9 R/B)",

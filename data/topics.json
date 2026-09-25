@@ -46,6 +46,7 @@
                           "q":  "Why do palisade cells have many chloroplasts?"
                       }
                   ],
+        "chapter":  2,
         "exam":  "Exam 1 · October",
         "notes":  "# Animal vs plant cells\n\n| Structure | Function | Animal | Plant |\n|---|---|---|---|\n| Cell membrane | Controls what enters and leaves | ✓ | ✓ |\n| Cytoplasm | Jelly where chemical reactions happen | ✓ | ✓ |\n| Nucleus | Contains DNA/chromosomes; controls the cell | ✓ | ✓ |\n| Mitochondria | Aerobic respiration → releases energy | ✓ | ✓ |\n| Ribosomes | Make proteins | ✓ | ✓ |\n| Cell wall | Cellulose; support and shape | ✗ | ✓ |\n| Chloroplasts | Contain chlorophyll; photosynthesis | ✗ | ✓ |\n| Large permanent vacuole | Cell sap; keeps cell turgid | ✗ | ✓ |\n\n\u003e Bacterial cells: cell wall (not cellulose), cell membrane, cytoplasm, ribosomes, **circular DNA + plasmids**, no nucleus.\n\n# Levels of organisation\n\n**Cell → Tissue → Organ → Organ system → Organism**\n\n- **Tissue:** a group of similar cells doing the same job (muscle tissue, xylem).\n- **Organ:** several tissues working together (heart, leaf).\n- **Organ system:** organs working together (digestive system).\n\n# Specialised cells\n\n| Cell | Adaptation | Job |\n|---|---|---|\n| Ciliated cell | Hair-like cilia that beat | Move mucus up the airways |\n| Root hair cell | Long extension → large surface area | Absorb water and mineral ions |\n| Xylem vessel | Hollow tube, no cytoplasm, lignin walls | Transport water; support |\n| Palisade mesophyll | Many chloroplasts, packed at top of leaf | Photosynthesis |\n| Nerve cell (neurone) | Very long, insulated | Carry electrical impulses |\n| Red blood cell | No nucleus, biconcave, haemoglobin | Carry oxygen |\n| Sperm cell | Tail, many mitochondria, enzymes in head | Swim to and fertilise the egg |\n| Egg cell | Large, energy store, jelly coat | Nutrition for the embryo |\n\n# Magnification\n\n**Magnification = image size ÷ actual size**\n\n- Rearrange: actual size = image size ÷ magnification.\n- Both measurements must be in the **same units** before dividing (1 mm = 1000 µm).\n- Magnification has no units; write it as ×400.\n\nExample: a cell image is 40 mm wide; actual cell is 0.05 mm → magnification = 40 ÷ 0.05 = ×800.",
         "order":  2,
@@ -123,310 +124,311 @@
         "id":  "bio-cells"
     },
     {
-        "subject":  "biology",
-        "title":  "Unit 1: Characteristics \u0026 classification of living organisms",
-        "exam":  "Exam 1 · October",
-        "order":  1,
-        "updated":  "Full unit notes",
-        "notes":  "# 1.1 Characteristics of living organisms — MRS GREN\n\n| | Process | Definition (learn word for word) |\n|---|---|---|\n| **M** | Movement | An action by an organism or part of an organism causing a change of position or place |\n| **R** | Respiration | The chemical reactions in cells that break down nutrient molecules and release energy for metabolism |\n| **S** | Sensitivity | The ability to detect and respond to changes in the internal or external environment |\n| **G** | Growth | A permanent increase in size and dry mass |\n| **R** | Reproduction | The processes that make more of the same kind of organism |\n| **E** | Excretion | The removal of the waste products of metabolism and substances in excess of requirements |\n| **N** | Nutrition | The taking in of materials for energy, growth and development |\n\n\u003e A car moves, uses fuel and gives off waste, but it does not grow, reproduce or respond — it is not alive. All seven are needed.\n\n# 1.2 Concept and use of a classification system\n\n## Carl Linnaeus — the father of classification\n\n- **Carl Linnaeus** (1707–1778), a Swedish botanist and doctor, published *Systema Naturae* in **1735**.\n- He invented the **binomial system** of naming (two Latin names: genus + species) that we still use, replacing long descriptive names that differed from country to country.\n- He grouped organisms into a **hierarchy** of ranks (kingdom → class → order → genus → species; phylum and family were added later) based on **shared physical features** (morphology).\n- His system was **artificial** — based on appearance only. Modern classification is **natural**, based on evolutionary relationships shown by DNA. Linnaeus grouped whales with fish at first; DNA shows they are mammals.\n\n\u003e Why it matters: before Linnaeus, the same plant could have five different names in five countries. One agreed Latin name lets scientists everywhere know exactly which organism is meant.\n\n- Organisms are classified into groups by the **features they share**.\n- **Species:** a group of organisms that can reproduce to produce **fertile** offspring. (A horse and a donkey produce a mule, which is infertile — so they are different species.)\n- **Binomial system:** an internationally agreed system in which the scientific name of an organism is made up of two parts: the **genus** and the **species**.\n  - Genus first with a capital letter, species second in lowercase; the whole name in *italics* (or underlined when handwritten): *Homo sapiens*, *Panthera leo*.\n  - Why? The same name is used worldwide in every language; it shows which organisms are closely related (same genus).\n- **Hierarchy of classification** (biggest to smallest): Kingdom → Phylum → Class → Order → Family → Genus → Species. *\"King Philip Came Over For Good Soup.\"*\n- **Dichotomous keys:** a series of paired statements; at each step you choose the one that matches, until you reach the name. Used to identify unfamiliar organisms.\n\n## Classification and evolution\n\n- Traditionally, classification used **morphology** (shape) and **anatomy** (internal structure).\n- Now scientists use **DNA base sequences** and the **amino acid sequences of proteins**. Organisms that share a more recent common ancestor have more similar DNA sequences → this reveals **evolutionary relationships** more accurately than appearance.\n\n# 1.3 Features of organisms\n\n## Features of all living organisms\n\nAll living things are made of **cells**. Cells contain cytoplasm, a cell membrane, ribosomes, enzymes and DNA as genetic material.\n\n## The five kingdoms\n\n| Kingdom | Cell type | Cell wall | Nutrition | Examples |\n|---|---|---|---|---|\n| **Animals** | Multicellular, nucleus | None | Heterotrophic (eat other organisms); most have nervous coordination and can move | Humans, insects, fish |\n| **Plants** | Multicellular, nucleus | Cellulose | Autotrophic (photosynthesis); chloroplasts; store starch | Moss, ferns, flowering plants |\n| **Fungi** | Multicellular (or unicellular yeast), nucleus, made of hyphae | Chitin (not cellulose) | Saprotrophic (secrete enzymes onto dead matter, absorb the products) or parasitic | Mushrooms, mould, yeast |\n| **Protoctists** | Mostly unicellular, nucleus | Some have | Some photosynthesise (algae), some feed like animals | Amoeba, Paramecium, Plasmodium (malaria) |\n| **Prokaryotes** | Unicellular, **no nucleus**; circular DNA + plasmids | Yes (not cellulose) | Various | Bacteria, e.g. E. coli |\n\n**Viruses** are not in any kingdom: not made of cells, only a protein coat around genetic material (DNA or RNA), and can only reproduce inside a host cell → not considered living.\n\n## Animal kingdom\n\n### Vertebrates (backbone)\n\n| Class | Body covering | Breathing | Reproduction | Temperature | Example |\n|---|---|---|---|---|---|\n| Fish | Scales | Gills | Eggs in water (external fertilisation) | Cold-blooded | Salmon |\n| Amphibians | Moist smooth skin | Gills as larvae, lungs + skin as adults | Eggs in water | Cold-blooded | Frog |\n| Reptiles | Dry scaly skin | Lungs | Soft-shelled eggs on land | Cold-blooded | Snake, lizard |\n| Birds | Feathers, beak, wings | Lungs | Hard-shelled eggs | Warm-blooded | Eagle |\n| Mammals | Hair/fur | Lungs | Live young; feed milk from mammary glands | Warm-blooded | Human, whale |\n\n### Arthropods (invertebrates with jointed legs and an exoskeleton)\n\n| Group | Legs | Body parts | Antennae | Other | Example |\n|---|---|---|---|---|---|\n| Insects | 6 (3 pairs) | 3 (head, thorax, abdomen) | 1 pair | Usually 2 pairs of wings | Butterfly, ant |\n| Arachnids | 8 (4 pairs) | 2 (cephalothorax, abdomen) | None | Many have simple eyes | Spider, scorpion |\n| Crustaceans | 10 or more (5+ pairs) | 2 | 2 pairs | Hard shell, mostly aquatic | Crab, woodlouse |\n| Myriapods | Many (1 or 2 pairs per segment) | Many segments | 1 pair | Long bodies | Centipede, millipede |\n\n## Plant kingdom\n\n- **Ferns:** roots, stems and leaves (fronds); no flowers; reproduce with **spores** on the underside of leaves.\n- **Flowering plants:** roots, stems, leaves, flowers; reproduce with **seeds** inside fruits.\n\n| | Monocotyledons | Dicotyledons |\n|---|---|---|\n| Seed leaves (cotyledons) | One | Two |\n| Leaf veins | Parallel | Branching network |\n| Flower parts | In multiples of 3 | In multiples of 4 or 5 |\n| Roots | Fibrous | Tap root |\n| Examples | Grass, wheat, maize, lily | Bean, rose, oak, sunflower |\n\n# 1.4 Dichotomous keys\n\n\"Dichotomous\" means **dividing into two**. Each step gives two contrasting statements; you pick the one that fits and follow it.\n\n## Using a key\n\n1. Start at statement 1; decide which of the two options matches your organism.\n2. Follow the instruction at the end of that line (go to another number, or read the name).\n3. Repeat until you reach a name. Always start again from 1 for the next organism.\n\nExample key for four arthropods:\n\n```\n1 a  Has wings ........................ go to 2\n  b  No wings ......................... go to 3\n2 a  One pair of wings ................ housefly\n  b  Two pairs of wings ............... butterfly\n3 a  Six legs ......................... ant\n  b  Eight legs ....................... spider\n```\n\n## Constructing (making) a key — step by step\n\n1. **List** the organisms and draw up a table of their **observable features** (legs, wings, antennae, shell, body segments, leaf shape, flower colour count…).\n2. Pick a feature that **splits the group into two** (ideally roughly in half). Write it as a pair of **contrasting** statements: *a) has a shell / b) no shell*.\n3. For each half, pick another feature that splits it again. Keep going until every branch ends with **one organism**.\n4. Number the steps and add \"go to …\" instructions or the organism\u0027s name.\n5. **Check** by running every organism through the key — each must reach the correct name and only that name.\n\n**Rules for good statements**\n\n- Use features that are **fixed and easy to observe**: number of legs, wings present/absent, leaf edge smooth/toothed, shape.\n- **Avoid** size, colour, behaviour, habitat or anything that changes with age or environment (\"big\", \"green\", \"lives in water\").\n- Both statements in a pair must be about the **same feature** and must be **opposites** (\"has fins / no fins\", not \"has fins / has legs\").\n- Use **yes/no** or **either/or** wording, never \"usually\" or \"sometimes\".\n- A key for *n* organisms needs **n − 1** pairs of statements.\n\n**Worked example** — make a key for: oak leaf (lobed edge, single leaf), holly leaf (spiky edge, single, shiny), rose leaf (toothed edge, made of several leaflets), pine (needle-shaped).\n\n```\n1 a  Leaf needle-shaped ............... pine\n  b  Leaf flat and broad .............. go to 2\n2 a  Leaf made of several leaflets .... rose\n  b  Leaf is a single blade ........... go to 3\n3 a  Edge has spikes .................. holly\n  b  Edge is lobed (rounded) .......... oak\n```\n\nFour organisms → three pairs of statements ✓. Every organism is reached ✓. No colour or size used ✓.\n\n**Keys can also be drawn as a branching diagram** (a \"tree\"): each branch point is one pair of statements. The exam may ask you to convert between the two forms.\n\n\u003e **Exam tip:** in a question comparing groups, quote **two or three specific features** from the tables above, e.g. \"insects have 6 legs and 3 body parts; arachnids have 8 legs and 2 body parts\".",
         "cards":  [
                       {
-                          "q":  "What does MRS GREN stand for?",
-                          "a":  "Movement, Respiration, Sensitivity, Growth, Reproduction, Excretion, Nutrition."
+                          "a":  "Movement, Respiration, Sensitivity, Growth, Reproduction, Excretion, Nutrition.",
+                          "q":  "What does MRS GREN stand for?"
                       },
                       {
-                          "q":  "Define movement.",
-                          "a":  "An action by an organism or part of an organism causing a change of position or place."
+                          "a":  "An action by an organism or part of an organism causing a change of position or place.",
+                          "q":  "Define movement."
                       },
                       {
-                          "q":  "Define respiration.",
-                          "a":  "The chemical reactions in cells that break down nutrient molecules and release energy for metabolism."
+                          "a":  "The chemical reactions in cells that break down nutrient molecules and release energy for metabolism.",
+                          "q":  "Define respiration."
                       },
                       {
-                          "q":  "Define sensitivity.",
-                          "a":  "The ability to detect and respond to changes in the internal or external environment."
+                          "a":  "The ability to detect and respond to changes in the internal or external environment.",
+                          "q":  "Define sensitivity."
                       },
                       {
-                          "q":  "Define growth.",
-                          "a":  "A permanent increase in size and dry mass."
+                          "a":  "A permanent increase in size and dry mass.",
+                          "q":  "Define growth."
                       },
                       {
-                          "q":  "Define reproduction.",
-                          "a":  "The processes that make more of the same kind of organism."
+                          "a":  "The processes that make more of the same kind of organism.",
+                          "q":  "Define reproduction."
                       },
                       {
-                          "q":  "Define excretion.",
-                          "a":  "The removal of the waste products of metabolism and substances in excess of requirements."
+                          "a":  "The removal of the waste products of metabolism and substances in excess of requirements.",
+                          "q":  "Define excretion."
                       },
                       {
-                          "q":  "Define nutrition.",
-                          "a":  "The taking in of materials for energy, growth and development."
+                          "a":  "The taking in of materials for energy, growth and development.",
+                          "q":  "Define nutrition."
                       },
                       {
-                          "q":  "Define a species.",
-                          "a":  "A group of organisms that can reproduce to produce fertile offspring."
+                          "a":  "A group of organisms that can reproduce to produce fertile offspring.",
+                          "q":  "Define a species."
                       },
                       {
-                          "q":  "What is the binomial system?",
-                          "a":  "An internationally agreed system giving each organism a two-part scientific name: genus then species, e.g. Homo sapiens."
+                          "a":  "An internationally agreed system giving each organism a two-part scientific name: genus then species, e.g. Homo sapiens.",
+                          "q":  "What is the binomial system?"
                       },
                       {
-                          "q":  "Two advantages of the binomial system?",
-                          "a":  "Same name used worldwide in every language; shows which organisms are closely related (same genus)."
+                          "a":  "Same name used worldwide in every language; shows which organisms are closely related (same genus).",
+                          "q":  "Two advantages of the binomial system?"
                       },
                       {
-                          "q":  "Order of the classification hierarchy?",
-                          "a":  "Kingdom, Phylum, Class, Order, Family, Genus, Species."
+                          "a":  "Kingdom, Phylum, Class, Order, Family, Genus, Species.",
+                          "q":  "Order of the classification hierarchy?"
                       },
                       {
-                          "q":  "What do scientists now use to classify organisms and why?",
-                          "a":  "DNA base sequences (and amino acid sequences): more similar sequences mean a more recent common ancestor, so it shows true evolutionary relationships."
+                          "a":  "DNA base sequences (and amino acid sequences): more similar sequences mean a more recent common ancestor, so it shows true evolutionary relationships.",
+                          "q":  "What do scientists now use to classify organisms and why?"
                       },
                       {
-                          "q":  "Five kingdoms?",
-                          "a":  "Animals, plants, fungi, protoctists, prokaryotes."
+                          "a":  "Animals, plants, fungi, protoctists, prokaryotes.",
+                          "q":  "Five kingdoms?"
                       },
                       {
-                          "q":  "Key features of fungi?",
-                          "a":  "Cell walls of chitin, no chloroplasts, saprotrophic nutrition (enzymes onto dead matter, absorb products), made of hyphae; e.g. mushrooms, yeast."
+                          "a":  "Cell walls of chitin, no chloroplasts, saprotrophic nutrition (enzymes onto dead matter, absorb products), made of hyphae; e.g. mushrooms, yeast.",
+                          "q":  "Key features of fungi?"
                       },
                       {
-                          "q":  "Key features of prokaryotes?",
-                          "a":  "Unicellular, no nucleus, circular DNA and plasmids, cell wall not made of cellulose; e.g. bacteria."
+                          "a":  "Unicellular, no nucleus, circular DNA and plasmids, cell wall not made of cellulose; e.g. bacteria.",
+                          "q":  "Key features of prokaryotes?"
                       },
                       {
-                          "q":  "Why are viruses not classified as living?",
-                          "a":  "Not made of cells (protein coat + DNA/RNA), and only reproduce inside a host cell."
+                          "a":  "Not made of cells (protein coat + DNA/RNA), and only reproduce inside a host cell.",
+                          "q":  "Why are viruses not classified as living?"
                       },
                       {
-                          "q":  "Features of amphibians?",
-                          "a":  "Moist skin; larvae (tadpoles) breathe with gills, adults with lungs and skin; lay eggs in water; cold-blooded."
+                          "a":  "Moist skin; larvae (tadpoles) breathe with gills, adults with lungs and skin; lay eggs in water; cold-blooded.",
+                          "q":  "Features of amphibians?"
                       },
                       {
-                          "q":  "Features of reptiles?",
-                          "a":  "Dry scaly skin, lungs, lay soft-shelled eggs on land, cold-blooded."
+                          "a":  "Dry scaly skin, lungs, lay soft-shelled eggs on land, cold-blooded.",
+                          "q":  "Features of reptiles?"
                       },
                       {
-                          "q":  "Features of birds?",
-                          "a":  "Feathers, beak, wings, lay hard-shelled eggs, warm-blooded."
+                          "a":  "Feathers, beak, wings, lay hard-shelled eggs, warm-blooded.",
+                          "q":  "Features of birds?"
                       },
                       {
-                          "q":  "Features of mammals?",
-                          "a":  "Hair or fur, feed young on milk from mammary glands, live young, warm-blooded."
+                          "a":  "Hair or fur, feed young on milk from mammary glands, live young, warm-blooded.",
+                          "q":  "Features of mammals?"
                       },
                       {
-                          "q":  "Four arthropod groups and leg counts?",
-                          "a":  "Insects 6, arachnids 8, crustaceans 10 or more, myriapods many (per segment)."
+                          "a":  "Insects 6, arachnids 8, crustaceans 10 or more, myriapods many (per segment).",
+                          "q":  "Four arthropod groups and leg counts?"
                       },
                       {
-                          "q":  "Insect body features?",
-                          "a":  "3 body parts (head, thorax, abdomen), 6 legs, 1 pair of antennae, usually wings."
+                          "a":  "3 body parts (head, thorax, abdomen), 6 legs, 1 pair of antennae, usually wings.",
+                          "q":  "Insect body features?"
                       },
                       {
-                          "q":  "Crustacean features?",
-                          "a":  "Two pairs of antennae, 5 or more pairs of legs, hard exoskeleton, mostly aquatic (crab, woodlouse)."
+                          "a":  "Two pairs of antennae, 5 or more pairs of legs, hard exoskeleton, mostly aquatic (crab, woodlouse).",
+                          "q":  "Crustacean features?"
                       },
                       {
-                          "q":  "How do ferns reproduce?",
-                          "a":  "By spores, produced on the underside of the fronds; no flowers or seeds."
+                          "a":  "By spores, produced on the underside of the fronds; no flowers or seeds.",
+                          "q":  "How do ferns reproduce?"
                       },
                       {
-                          "q":  "Monocot vs dicot: leaf veins and cotyledons?",
-                          "a":  "Monocot: parallel veins, one cotyledon. Dicot: branching veins, two cotyledons."
+                          "a":  "Monocot: parallel veins, one cotyledon. Dicot: branching veins, two cotyledons.",
+                          "q":  "Monocot vs dicot: leaf veins and cotyledons?"
                       },
                       {
-                          "q":  "Monocot vs dicot: flower parts and roots?",
-                          "a":  "Monocot: petals in 3s, fibrous roots. Dicot: petals in 4s or 5s, tap root."
+                          "a":  "Monocot: petals in 3s, fibrous roots. Dicot: petals in 4s or 5s, tap root.",
+                          "q":  "Monocot vs dicot: flower parts and roots?"
                       },
                       {
-                          "q":  "What is a dichotomous key?",
-                          "a":  "A series of paired contrasting statements used step by step to identify an organism."
+                          "a":  "A series of paired contrasting statements used step by step to identify an organism.",
+                          "q":  "What is a dichotomous key?"
                       },
                       {
-                          "q":  "Which features are good for a dichotomous key?",
-                          "a":  "Fixed, easy-to-see features (number of legs, wings present, leaf edge shape). Not size, colour, behaviour or habitat, which vary."
+                          "a":  "Fixed, easy-to-see features (number of legs, wings present, leaf edge shape). Not size, colour, behaviour or habitat, which vary.",
+                          "q":  "Which features are good for a dichotomous key?"
                       },
                       {
-                          "q":  "Who was Carl Linnaeus?",
-                          "a":  "Swedish scientist (1707–1778) who published Systema Naturae (1735), invented the binomial naming system and the hierarchy of ranks."
+                          "a":  "Swedish scientist (1707–1778) who published Systema Naturae (1735), invented the binomial naming system and the hierarchy of ranks.",
+                          "q":  "Who was Carl Linnaeus?"
                       },
                       {
-                          "q":  "What did Linnaeus base his classification on, and how is modern classification different?",
-                          "a":  "Linnaeus used shared physical features (morphology); modern classification uses DNA and evolutionary relationships."
+                          "a":  "Linnaeus used shared physical features (morphology); modern classification uses DNA and evolutionary relationships.",
+                          "q":  "What did Linnaeus base his classification on, and how is modern classification different?"
                       },
                       {
-                          "q":  "How many pairs of statements does a key for 6 organisms need?",
-                          "a":  "5 (always n − 1)."
+                          "a":  "5 (always n − 1).",
+                          "q":  "How many pairs of statements does a key for 6 organisms need?"
                       },
                       {
-                          "q":  "Steps to construct a dichotomous key?",
-                          "a":  "1 Table of observable features. 2 Pick a feature that splits the group in two; write a contrasting pair. 3 Split each half again until each branch ends in one organism. 4 Number the steps with \u0027go to\u0027. 5 Test every organism through the key."
+                          "a":  "1 Table of observable features. 2 Pick a feature that splits the group in two; write a contrasting pair. 3 Split each half again until each branch ends in one organism. 4 Number the steps with \u0027go to\u0027. 5 Test every organism through the key.",
+                          "q":  "Steps to construct a dichotomous key?"
                       },
                       {
-                          "q":  "Why must both statements in a pair be about the same feature?",
-                          "a":  "So the choice is a clear either/or: \u0027has wings / no wings\u0027, not \u0027has wings / has six legs\u0027."
+                          "a":  "So the choice is a clear either/or: \u0027has wings / no wings\u0027, not \u0027has wings / has six legs\u0027.",
+                          "q":  "Why must both statements in a pair be about the same feature?"
                       },
                       {
-                          "q":  "Why is \u0027is large\u0027 a bad statement in a key?",
-                          "a":  "Size changes with age and is relative; a key needs fixed features that give the same answer for every individual."
+                          "a":  "Size changes with age and is relative; a key needs fixed features that give the same answer for every individual.",
+                          "q":  "Why is \u0027is large\u0027 a bad statement in a key?"
                       }
                   ],
+        "chapter":  1,
+        "exam":  "Exam 1 · October",
+        "notes":  "# 1.1 Characteristics of living organisms — MRS GREN\n\n| | Process | Definition (learn word for word) |\n|---|---|---|\n| **M** | Movement | An action by an organism or part of an organism causing a change of position or place |\n| **R** | Respiration | The chemical reactions in cells that break down nutrient molecules and release energy for metabolism |\n| **S** | Sensitivity | The ability to detect and respond to changes in the internal or external environment |\n| **G** | Growth | A permanent increase in size and dry mass |\n| **R** | Reproduction | The processes that make more of the same kind of organism |\n| **E** | Excretion | The removal of the waste products of metabolism and substances in excess of requirements |\n| **N** | Nutrition | The taking in of materials for energy, growth and development |\n\n\u003e A car moves, uses fuel and gives off waste, but it does not grow, reproduce or respond — it is not alive. All seven are needed.\n\n# 1.2 Concept and use of a classification system\n\n## Carl Linnaeus — the father of classification\n\n- **Carl Linnaeus** (1707–1778), a Swedish botanist and doctor, published *Systema Naturae* in **1735**.\n- He invented the **binomial system** of naming (two Latin names: genus + species) that we still use, replacing long descriptive names that differed from country to country.\n- He grouped organisms into a **hierarchy** of ranks (kingdom → class → order → genus → species; phylum and family were added later) based on **shared physical features** (morphology).\n- His system was **artificial** — based on appearance only. Modern classification is **natural**, based on evolutionary relationships shown by DNA. Linnaeus grouped whales with fish at first; DNA shows they are mammals.\n\n\u003e Why it matters: before Linnaeus, the same plant could have five different names in five countries. One agreed Latin name lets scientists everywhere know exactly which organism is meant.\n\n- Organisms are classified into groups by the **features they share**.\n- **Species:** a group of organisms that can reproduce to produce **fertile** offspring. (A horse and a donkey produce a mule, which is infertile — so they are different species.)\n- **Binomial system:** an internationally agreed system in which the scientific name of an organism is made up of two parts: the **genus** and the **species**.\n  - Genus first with a capital letter, species second in lowercase; the whole name in *italics* (or underlined when handwritten): *Homo sapiens*, *Panthera leo*.\n  - Why? The same name is used worldwide in every language; it shows which organisms are closely related (same genus).\n- **Hierarchy of classification** (biggest to smallest): Kingdom → Phylum → Class → Order → Family → Genus → Species. *\"King Philip Came Over For Good Soup.\"*\n- **Dichotomous keys:** a series of paired statements; at each step you choose the one that matches, until you reach the name. Used to identify unfamiliar organisms.\n\n## Classification and evolution\n\n- Traditionally, classification used **morphology** (shape) and **anatomy** (internal structure).\n- Now scientists use **DNA base sequences** and the **amino acid sequences of proteins**. Organisms that share a more recent common ancestor have more similar DNA sequences → this reveals **evolutionary relationships** more accurately than appearance.\n\n# 1.3 Features of organisms\n\n## Features of all living organisms\n\nAll living things are made of **cells**. Cells contain cytoplasm, a cell membrane, ribosomes, enzymes and DNA as genetic material.\n\n## The five kingdoms\n\n| Kingdom | Cell type | Cell wall | Nutrition | Examples |\n|---|---|---|---|---|\n| **Animals** | Multicellular, nucleus | None | Heterotrophic (eat other organisms); most have nervous coordination and can move | Humans, insects, fish |\n| **Plants** | Multicellular, nucleus | Cellulose | Autotrophic (photosynthesis); chloroplasts; store starch | Moss, ferns, flowering plants |\n| **Fungi** | Multicellular (or unicellular yeast), nucleus, made of hyphae | Chitin (not cellulose) | Saprotrophic (secrete enzymes onto dead matter, absorb the products) or parasitic | Mushrooms, mould, yeast |\n| **Protoctists** | Mostly unicellular, nucleus | Some have | Some photosynthesise (algae), some feed like animals | Amoeba, Paramecium, Plasmodium (malaria) |\n| **Prokaryotes** | Unicellular, **no nucleus**; circular DNA + plasmids | Yes (not cellulose) | Various | Bacteria, e.g. E. coli |\n\n**Viruses** are not in any kingdom: not made of cells, only a protein coat around genetic material (DNA or RNA), and can only reproduce inside a host cell → not considered living.\n\n## Animal kingdom\n\n### Vertebrates (backbone)\n\n| Class | Body covering | Breathing | Reproduction | Temperature | Example |\n|---|---|---|---|---|---|\n| Fish | Scales | Gills | Eggs in water (external fertilisation) | Cold-blooded | Salmon |\n| Amphibians | Moist smooth skin | Gills as larvae, lungs + skin as adults | Eggs in water | Cold-blooded | Frog |\n| Reptiles | Dry scaly skin | Lungs | Soft-shelled eggs on land | Cold-blooded | Snake, lizard |\n| Birds | Feathers, beak, wings | Lungs | Hard-shelled eggs | Warm-blooded | Eagle |\n| Mammals | Hair/fur | Lungs | Live young; feed milk from mammary glands | Warm-blooded | Human, whale |\n\n### Arthropods (invertebrates with jointed legs and an exoskeleton)\n\n| Group | Legs | Body parts | Antennae | Other | Example |\n|---|---|---|---|---|---|\n| Insects | 6 (3 pairs) | 3 (head, thorax, abdomen) | 1 pair | Usually 2 pairs of wings | Butterfly, ant |\n| Arachnids | 8 (4 pairs) | 2 (cephalothorax, abdomen) | None | Many have simple eyes | Spider, scorpion |\n| Crustaceans | 10 or more (5+ pairs) | 2 | 2 pairs | Hard shell, mostly aquatic | Crab, woodlouse |\n| Myriapods | Many (1 or 2 pairs per segment) | Many segments | 1 pair | Long bodies | Centipede, millipede |\n\n## Plant kingdom\n\n- **Ferns:** roots, stems and leaves (fronds); no flowers; reproduce with **spores** on the underside of leaves.\n- **Flowering plants:** roots, stems, leaves, flowers; reproduce with **seeds** inside fruits.\n\n| | Monocotyledons | Dicotyledons |\n|---|---|---|\n| Seed leaves (cotyledons) | One | Two |\n| Leaf veins | Parallel | Branching network |\n| Flower parts | In multiples of 3 | In multiples of 4 or 5 |\n| Roots | Fibrous | Tap root |\n| Examples | Grass, wheat, maize, lily | Bean, rose, oak, sunflower |\n\n# 1.4 Dichotomous keys\n\n\"Dichotomous\" means **dividing into two**. Each step gives two contrasting statements; you pick the one that fits and follow it.\n\n## Using a key\n\n1. Start at statement 1; decide which of the two options matches your organism.\n2. Follow the instruction at the end of that line (go to another number, or read the name).\n3. Repeat until you reach a name. Always start again from 1 for the next organism.\n\nExample key for four arthropods:\n\n```\n1 a  Has wings ........................ go to 2\n  b  No wings ......................... go to 3\n2 a  One pair of wings ................ housefly\n  b  Two pairs of wings ............... butterfly\n3 a  Six legs ......................... ant\n  b  Eight legs ....................... spider\n```\n\n## Constructing (making) a key — step by step\n\n1. **List** the organisms and draw up a table of their **observable features** (legs, wings, antennae, shell, body segments, leaf shape, flower colour count…).\n2. Pick a feature that **splits the group into two** (ideally roughly in half). Write it as a pair of **contrasting** statements: *a) has a shell / b) no shell*.\n3. For each half, pick another feature that splits it again. Keep going until every branch ends with **one organism**.\n4. Number the steps and add \"go to …\" instructions or the organism\u0027s name.\n5. **Check** by running every organism through the key — each must reach the correct name and only that name.\n\n**Rules for good statements**\n\n- Use features that are **fixed and easy to observe**: number of legs, wings present/absent, leaf edge smooth/toothed, shape.\n- **Avoid** size, colour, behaviour, habitat or anything that changes with age or environment (\"big\", \"green\", \"lives in water\").\n- Both statements in a pair must be about the **same feature** and must be **opposites** (\"has fins / no fins\", not \"has fins / has legs\").\n- Use **yes/no** or **either/or** wording, never \"usually\" or \"sometimes\".\n- A key for *n* organisms needs **n − 1** pairs of statements.\n\n**Worked example** — make a key for: oak leaf (lobed edge, single leaf), holly leaf (spiky edge, single, shiny), rose leaf (toothed edge, made of several leaflets), pine (needle-shaped).\n\n```\n1 a  Leaf needle-shaped ............... pine\n  b  Leaf flat and broad .............. go to 2\n2 a  Leaf made of several leaflets .... rose\n  b  Leaf is a single blade ........... go to 3\n3 a  Edge has spikes .................. holly\n  b  Edge is lobed (rounded) .......... oak\n```\n\nFour organisms → three pairs of statements ✓. Every organism is reached ✓. No colour or size used ✓.\n\n**Keys can also be drawn as a branching diagram** (a \"tree\"): each branch point is one pair of statements. The exam may ask you to convert between the two forms.\n\n\u003e **Exam tip:** in a question comparing groups, quote **two or three specific features** from the tables above, e.g. \"insects have 6 legs and 3 body parts; arachnids have 8 legs and 2 body parts\".",
+        "order":  1,
         "quiz":  [
                      {
-                         "q":  "Which feature separates living things from a fire (which moves, uses fuel and gives off waste)?",
+                         "answer":  2,
+                         "explain":  "Fire never grows in dry mass or reproduces copies of itself in the biological sense; all seven characteristics are needed.",
                          "options":  [
                                          "Movement",
                                          "Excretion",
                                          "Growth and reproduction of the same kind",
                                          "Respiration"
                                      ],
-                         "answer":  2,
-                         "explain":  "Fire never grows in dry mass or reproduces copies of itself in the biological sense; all seven characteristics are needed."
+                         "q":  "Which feature separates living things from a fire (which moves, uses fuel and gives off waste)?"
                      },
                      {
-                         "q":  "A horse and a donkey produce a mule, which cannot breed. Horses and donkeys are:",
+                         "answer":  1,
+                         "explain":  "Species must produce FERTILE offspring.",
                          "options":  [
                                          "The same species",
                                          "Different species",
                                          "The same genus and species",
                                          "Different kingdoms"
                                      ],
-                         "answer":  1,
-                         "explain":  "Species must produce FERTILE offspring."
+                         "q":  "A horse and a donkey produce a mule, which cannot breed. Horses and donkeys are:"
                      },
                      {
-                         "q":  "In *Panthera leo*, \u0027Panthera\u0027 is the:",
+                         "answer":  2,
+                         "explain":  "First word = genus, second = species.",
                          "options":  [
                                          "Species",
                                          "Family",
                                          "Genus",
                                          "Kingdom"
                                      ],
-                         "answer":  2,
-                         "explain":  "First word = genus, second = species."
+                         "q":  "In *Panthera leo*, \u0027Panthera\u0027 is the:"
                      },
                      {
-                         "q":  "Which kingdom has cell walls made of chitin?",
+                         "answer":  1,
+                         "explain":  "Plant walls are cellulose; fungal walls are chitin.",
                          "options":  [
                                          "Plants",
                                          "Fungi",
                                          "Prokaryotes",
                                          "Animals"
                                      ],
-                         "answer":  1,
-                         "explain":  "Plant walls are cellulose; fungal walls are chitin."
+                         "q":  "Which kingdom has cell walls made of chitin?"
                      },
                      {
-                         "q":  "An animal has 8 legs, 2 body parts and no antennae. It is:",
+                         "answer":  3,
+                         "explain":  "Arachnids: spiders, scorpions, ticks.",
                          "options":  [
                                          "An insect",
                                          "A crustacean",
                                          "A myriapod",
                                          "An arachnid"
                                      ],
-                         "answer":  3,
-                         "explain":  "Arachnids: spiders, scorpions, ticks."
+                         "q":  "An animal has 8 legs, 2 body parts and no antennae. It is:"
                      },
                      {
-                         "q":  "A plant has parallel leaf veins and flower parts in threes. It is a:",
+                         "answer":  2,
+                         "explain":  "Parallel veins and multiples of 3 are monocot features (grasses, lilies).",
                          "options":  [
                                          "Fern",
                                          "Dicotyledon",
                                          "Monocotyledon",
                                          "Fungus"
                                      ],
-                         "answer":  2,
-                         "explain":  "Parallel veins and multiples of 3 are monocot features (grasses, lilies)."
+                         "q":  "A plant has parallel leaf veins and flower parts in threes. It is a:"
                      },
                      {
-                         "q":  "Which vertebrate group lays soft-shelled eggs on land?",
+                         "answer":  1,
+                         "explain":  "Reptiles lay leathery eggs on land; birds lay hard-shelled eggs.",
                          "options":  [
                                          "Amphibians",
                                          "Reptiles",
                                          "Birds",
                                          "Fish"
                                      ],
-                         "answer":  1,
-                         "explain":  "Reptiles lay leathery eggs on land; birds lay hard-shelled eggs."
+                         "q":  "Which vertebrate group lays soft-shelled eggs on land?"
                      },
                      {
-                         "q":  "Why do scientists now prefer DNA sequences for classification?",
+                         "answer":  1,
+                         "explain":  "Similar DNA means a recent common ancestor, even if organisms look different.",
                          "options":  [
                                          "DNA is easier to see",
                                          "DNA shows evolutionary relationships more accurately than appearance",
                                          "All species have identical DNA",
                                          "It is cheaper than looking"
                                      ],
-                         "answer":  1,
-                         "explain":  "Similar DNA means a recent common ancestor, even if organisms look different."
+                         "q":  "Why do scientists now prefer DNA sequences for classification?"
                      },
                      {
-                         "q":  "Which is NOT a feature of all living cells?",
+                         "answer":  2,
+                         "explain":  "Prokaryotes have no nucleus but are still living cells.",
                          "options":  [
                                          "Cytoplasm",
                                          "Cell membrane",
                                          "Nucleus",
                                          "Ribosomes"
                                      ],
-                         "answer":  2,
-                         "explain":  "Prokaryotes have no nucleus but are still living cells."
+                         "q":  "Which is NOT a feature of all living cells?"
                      },
                      {
-                         "q":  "Ferns reproduce using:",
+                         "answer":  1,
+                         "explain":  "Spores form on the underside of fern fronds.",
                          "options":  [
                                          "Seeds in fruits",
                                          "Spores",
                                          "Flowers",
                                          "Cones"
                                      ],
-                         "answer":  1,
-                         "explain":  "Spores form on the underside of fern fronds."
+                         "q":  "Ferns reproduce using:"
                      },
                      {
-                         "q":  "Carl Linnaeus is famous for:",
+                         "answer":  1,
+                         "explain":  "Linnaeus (1735, Systema Naturae) gave every species a two-part Latin name.",
                          "options":  [
                                          "Discovering DNA",
                                          "Inventing the binomial naming system",
                                          "Discovering cells",
                                          "Inventing the microscope"
                                      ],
-                         "answer":  1,
-                         "explain":  "Linnaeus (1735, Systema Naturae) gave every species a two-part Latin name."
+                         "q":  "Carl Linnaeus is famous for:"
                      },
                      {
-                         "q":  "Which is the BEST pair of statements for a dichotomous key?",
+                         "answer":  2,
+                         "explain":  "Number of legs is fixed and observable; size, colour and habitat vary and the last pair isn\u0027t even about the same feature.",
                          "options":  [
                                          "a) large  b) small",
                                          "a) green  b) brown",
                                          "a) has 6 legs  b) has 8 legs",
                                          "a) lives in trees  b) is fast"
                                      ],
-                         "answer":  2,
-                         "explain":  "Number of legs is fixed and observable; size, colour and habitat vary and the last pair isn\u0027t even about the same feature."
+                         "q":  "Which is the BEST pair of statements for a dichotomous key?"
                      },
                      {
-                         "q":  "A dichotomous key for 9 organisms needs how many pairs of statements?",
+                         "answer":  1,
+                         "explain":  "n − 1 = 8.",
                          "options":  [
                                          "9",
                                          "8",
                                          "10",
                                          "18"
                                      ],
-                         "answer":  1,
-                         "explain":  "n − 1 = 8."
+                         "q":  "A dichotomous key for 9 organisms needs how many pairs of statements?"
                      },
                      {
-                         "q":  "Using the leaf key: a broad single leaf with a spiky edge is:",
+                         "answer":  2,
+                         "explain":  "1b → 2b → 3a → holly.",
                          "options":  [
                                          "Pine",
                                          "Rose",
                                          "Holly",
                                          "Oak"
                                      ],
-                         "answer":  2,
-                         "explain":  "1b → 2b → 3a → holly."
+                         "q":  "Using the leaf key: a broad single leaf with a spiky edge is:"
                      }
                  ],
+        "subject":  "biology",
+        "title":  "Unit 1: Characteristics \u0026 classification of living organisms",
+        "updated":  "Full unit notes",
         "id":  "bio-classification"
     },
     {
@@ -631,6 +633,7 @@
                           "q":  "Give two examples of active transport."
                       }
                   ],
+        "chapter":  3,
         "exam":  "Exam 1 · October",
         "notes":  "# Diffusion\n\n**Definition:** the net movement of particles from a region of their **higher concentration** to a region of their **lower concentration**, down a concentration gradient, as a result of their random movement.\n\n- Needs **no energy** from the cell (passive).\n- Examples: oxygen into cells, carbon dioxide out of cells, oxygen into blood in the lungs.\n\n**Factors that increase the rate of diffusion**\n\n1. Larger **surface area**\n2. Higher **temperature** (particles move faster)\n3. Steeper **concentration gradient**\n4. Shorter **distance** (thinner membrane)\n\n# Osmosis\n\n**Definition:** the net movement of **water molecules** from a region of higher water potential (dilute solution) to a region of lower water potential (concentrated solution), through a **partially permeable membrane**.\n\n| Solution around cell | Animal cell | Plant cell |\n|---|---|---|\n| Dilute (water enters) | Swells and may **burst** (lysis) | Becomes **turgid** — cell wall stops bursting |\n| Same concentration | No change | No change |\n| Concentrated (water leaves) | Shrinks, **crenated** | **Flaccid**, then **plasmolysed** (membrane pulls away from wall) |\n\n\u003e Turgor pressure keeps plants upright. Wilting = cells lose water and become flaccid.\n\n**Osmosis experiment:** potato cylinders in different sucrose concentrations → measure mass change. Gain in mass = water entered (solution more dilute than cell); loss = water left. Where the line crosses zero change, the solution has the same concentration as the potato.\n\n# Active transport\n\n**Definition:** the movement of particles through a cell membrane from a region of **lower** concentration to a region of **higher** concentration (against the gradient) **using energy from respiration**.\n\n- Uses **carrier proteins** in the membrane.\n- Examples: root hair cells absorbing mineral ions from soil; glucose absorbed in the small intestine.\n- Cells doing lots of active transport have **many mitochondria**.\n\n## Comparing the three\n\n| | Diffusion | Osmosis | Active transport |\n|---|---|---|---|\n| What moves | Any particles | Water only | Ions/molecules |\n| Direction | High → low | High water potential → low | Low → high |\n| Energy needed | No | No | Yes (ATP) |\n| Membrane needed | No | Yes, partially permeable | Yes, with carrier proteins |",
         "order":  3,
@@ -754,6 +757,7 @@
                           "q":  "Ar of chlorine given 75% Cl-35 and 25% Cl-37?"
                       }
                   ],
+        "chapter":  2,
         "exam":  "Exam 1 · October",
         "notes":  "# Inside the atom\n\n| Particle | Relative mass | Relative charge | Where |\n|---|---|---|---|\n| Proton | 1 | +1 | Nucleus |\n| Neutron | 1 | 0 | Nucleus |\n| Electron | 1/1840 (≈ 0) | −1 | Shells around nucleus |\n\n- **Proton (atomic) number Z** = number of protons = number of electrons in a neutral atom.\n- **Nucleon (mass) number A** = protons + neutrons.\n- Neutrons = A − Z.\n\nNotation: ²³₁₁Na → 11 protons, 11 electrons, 23 − 11 = 12 neutrons.\n\n## Isotopes\n\nAtoms of the **same element** (same number of protons) with **different numbers of neutrons**. E.g. ³⁵Cl and ³⁷Cl. Isotopes have identical chemical properties because they have the same electron arrangement.\n\n**Relative atomic mass (Ar)** is the weighted average of the isotopes. Chlorine: 75% ³⁵Cl, 25% ³⁷Cl → Ar = (35×75 + 37×25)/100 = 35.5.\n\n## Electron shells\n\nElectrons fill the shells nearest the nucleus first: **2, 8, 8** (for the first 20 elements).\n\n| Element | Z | Electronic configuration |\n|---|---|---|\n| Lithium | 3 | 2,1 |\n| Carbon | 6 | 2,4 |\n| Neon | 10 | 2,8 |\n| Sodium | 11 | 2,8,1 |\n| Chlorine | 17 | 2,8,7 |\n| Calcium | 20 | 2,8,8,2 |\n\n\u003e **Outer-shell electrons = group number.** Number of shells = period number. Noble gases have full outer shells → unreactive.\n\n## The periodic table\n\n- Arranged in order of **increasing proton number**.\n- **Groups** (columns): same number of outer electrons → similar chemical properties.\n- **Periods** (rows): same number of shells.\n- Metals on the left/centre, non-metals on the right; the stepped line separates them.\n- Group I = alkali metals (very reactive, reactivity **increases** down the group).\n- Group VII = halogens (reactivity **decreases** down the group; more reactive halogen displaces a less reactive one from its salt).\n- Group VIII/0 = noble gases (unreactive, full outer shell).\n- Transition elements: hard, dense, high melting points, coloured compounds, act as catalysts, variable oxidation states.",
         "order":  2,
@@ -913,6 +917,7 @@
                           "q":  "Why do metals conduct electricity?"
                       }
                   ],
+        "chapter":  3,
         "exam":  "Exam 1 · October",
         "notes":  "# Why atoms bond\n\nAtoms react to get a **full outer shell** (like a noble gas). They can **lose**, **gain** or **share** electrons.\n\n# Ions and ionic bonding\n\nAn **ion** is an atom (or group of atoms) that has lost or gained electrons and so has a charge.\n\n- **Metals lose** electrons → **positive ions (cations)**: Na → Na⁺ + e⁻; Mg → Mg²⁺ + 2e⁻\n- **Non-metals gain** electrons → **negative ions (anions)**: Cl + e⁻ → Cl⁻; O + 2e⁻ → O²⁻\n\n| Group | Electrons in outer shell | Ion formed |\n|---|---|---|\n| I | 1 | 1+ (Li⁺, Na⁺, K⁺) |\n| II | 2 | 2+ (Mg²⁺, Ca²⁺) |\n| III | 3 | 3+ (Al³⁺) |\n| V | 5 | 3− (N³⁻) |\n| VI | 6 | 2− (O²⁻, S²⁻) |\n| VII | 7 | 1− (F⁻, Cl⁻, Br⁻) |\n\n**Ionic bond** = the strong electrostatic attraction between **oppositely charged ions**. Formed between a **metal and a non-metal**.\n\nExample NaCl: sodium (2,8,1) gives 1 electron to chlorine (2,8,7) → Na⁺ (2,8) and Cl⁻ (2,8,8). Draw dot-and-cross diagrams showing only the outer shells, the charges in square brackets.\n\nExample MgO: Mg (2,8,2) gives 2 electrons to O (2,6) → Mg²⁺ and O²⁻.\n\n**Working out ionic formulae:** charges must cancel. Ca²⁺ + Cl⁻ → CaCl₂. Al³⁺ + O²⁻ → Al₂O₃ (swap the charges as subscripts).\n\n## Properties of ionic compounds (giant ionic lattice)\n\n- **High melting and boiling points** — many strong ionic bonds need lots of energy to break.\n- **Conduct electricity when molten or dissolved** (ions free to move) but **not when solid** (ions fixed in the lattice).\n- Often soluble in water; hard, brittle crystals.\n\n# Covalent bonding\n\nA **covalent bond** = a shared pair of electrons between two **non-metal** atoms. Each atom counts the shared pair as its own.\n\n| Molecule | Bonds | Outer-shell picture |\n|---|---|---|\n| H₂ | 1 single | H:H |\n| Cl₂ | 1 single | each Cl shares 1 pair, keeps 3 lone pairs |\n| H₂O | 2 single | O shares one pair with each H, 2 lone pairs |\n| CH₄ | 4 single | C shares a pair with each of 4 H |\n| NH₃ | 3 single | N shares with 3 H, 1 lone pair |\n| HCl | 1 single | |\n| O₂ | 1 double (2 shared pairs) | O=O |\n| CO₂ | 2 double | O=C=O |\n| N₂ | 1 triple (3 shared pairs) | N≡N |\n\n## Properties of simple molecular (covalent) substances\n\n- **Low melting and boiling points** — the covalent bonds are strong, but the forces **between molecules** (intermolecular forces) are weak and easily overcome. Many are gases or liquids at room temperature.\n- **Do not conduct electricity** — no ions or free electrons.\n\n## Giant covalent structures\n\n| | Diamond | Graphite |\n|---|---|---|\n| Structure | Each C bonded to **4** others, tetrahedral, giant 3-D lattice | Each C bonded to **3** others in flat layers of hexagons; weak forces between layers |\n| Hardness | Very hard | Soft, slippery — layers slide |\n| Conducts? | No (no free electrons) | Yes — each C has one delocalised electron |\n| Uses | Cutting tools, drills | Lubricant, pencils, electrodes |\n\nBoth have **very high melting points** (many strong covalent bonds). Silicon(IV) oxide (SiO₂, sand) has a diamond-like structure: each Si bonded to 4 O, each O to 2 Si.\n\n# Metallic bonding\n\nA lattice of **positive metal ions** in a **\"sea\" of delocalised electrons**; the attraction between them is the metallic bond.\n\n- **Conduct electricity** — delocalised electrons move.\n- **Malleable/ductile** — layers of ions slide over each other.\n- High melting points (strong attraction).\n\n\u003e **Quick identification:** metal + non-metal → ionic. Non-metal + non-metal → covalent. Metal only → metallic.",
         "order":  4,
@@ -1210,6 +1215,7 @@
                           "q":  "How do you separate oil and water?"
                       }
                   ],
+        "chapter":  21,
         "exam":  "Exam 1 · October",
         "notes":  "# Elements, compounds, mixtures\n\n- **Element:** one type of atom only (O₂, Fe, He). Cannot be broken down chemically.\n- **Compound:** two or more elements **chemically bonded** in a fixed ratio (H₂O, NaCl). Properties differ from its elements; needs a chemical reaction to separate.\n- **Mixture:** substances **not chemically bonded**, in any proportion (air, sea water, alloys). Can be separated by physical methods; each part keeps its own properties.\n\n\u003e **Pure substance** = one element or one compound only. A pure substance has a **sharp** melting/boiling point; impurities lower the m.p. and raise the b.p. and spread it over a range.\n\n# Separation techniques\n\n| Technique | Separates | Example |\n|---|---|---|\n| Filtration | Insoluble solid from liquid | Sand from water |\n| Evaporation / crystallisation | Soluble solid from solution | Salt from salt water; copper sulfate crystals |\n| Simple distillation | Solvent from a solution | Pure water from sea water |\n| Fractional distillation | Liquids with **different boiling points** | Ethanol from water; crude oil |\n| Paper chromatography | Dissolved substances (dyes, inks) | Colours in food dye |\n| Separating funnel | Immiscible liquids | Oil and water |\n| Magnet | Magnetic solid | Iron filings from sulfur |\n\n**Key words:** solvent (the liquid), solute (what dissolves), solution, residue (stays on the filter paper), filtrate (passes through), saturated solution (no more solute can dissolve).\n\n## Distillation details\n\n- Thermometer bulb sits at the **side arm** to measure the vapour temperature.\n- Condenser: cold water enters at the **bottom** and leaves at the top.\n- Fractional distillation uses a **fractionating column**; the liquid with the lowest b.p. comes off first.\n\n## Paper chromatography\n\n1. Draw the baseline in **pencil** (ink would dissolve and run).\n2. Put a spot of the mixture on the line; stand the paper in solvent **below** the line.\n3. Solvent rises; more soluble substances travel further.\n4. **Rf = distance moved by substance ÷ distance moved by solvent** (always \u003c 1, no units).\n5. A pure substance gives **one spot**. Colourless substances are shown with a **locating agent**.",
         "order":  3,
@@ -1325,6 +1331,7 @@
                           "q":  "What happens to the rate of diffusion when temperature rises?"
                       }
                   ],
+        "chapter":  1,
         "exam":  "Exam 1 · October",
         "notes":  "# The three states of matter\n\n| | Solid | Liquid | Gas |\n|---|---|---|---|\n| Arrangement | Regular, closely packed | Close together, random | Far apart, random |\n| Movement | Vibrate about fixed positions | Slide past each other | Move fast and freely in all directions |\n| Forces between particles | Strong | Weaker | Very weak / negligible |\n| Shape | Fixed | Takes shape of container | Fills the container |\n| Volume | Fixed | Fixed | Not fixed (compressible) |\n\n## Changes of state\n\n- **Melting** solid → liquid (at the *melting point*)\n- **Freezing** liquid → solid\n- **Boiling** liquid → gas (at the *boiling point*), throughout the liquid\n- **Evaporation** liquid → gas from the surface only, at any temperature\n- **Condensation** gas → liquid\n- **Sublimation** solid → gas directly (e.g. dry ice, iodine)\n\n\u003e During a change of state the **temperature stays constant** — the energy goes into breaking (or forming) the forces between particles, not into moving them faster. This gives the flat parts on a heating/cooling curve.\n\n## Kinetic particle theory\n\nAll matter is made of tiny particles that are constantly moving. Higher temperature → more kinetic energy → faster movement.\n\n**Effect of temperature and pressure on gases**\n\n- Heating a gas: particles move faster, hit the walls harder and more often → **pressure increases** (fixed volume) or **volume increases** (fixed pressure).\n- Compressing a gas: particles closer together → more collisions with the walls → **pressure increases**.\n\n## Diffusion\n\nThe net movement of particles from a region of **higher concentration** to a region of **lower concentration** because of their random motion. No energy input needed.\n\n- Evidence: bromine vapour spreads through a gas jar; potassium manganate(VII) colour spreads through water.\n- **Lighter molecules diffuse faster.** Classic experiment: ammonia (Mr 17) and hydrogen chloride (Mr 36.5) in a tube — the white ring of ammonium chloride forms **closer to the HCl end** because NH₃ travels faster.\n- Diffusion is faster at higher temperatures.",
         "order":  1,
@@ -1452,6 +1459,7 @@
                           "q":  "Two\u0027s complement of −1 in 8 bits?"
                       }
                   ],
+        "chapter":  1,
         "exam":  "Exam 1 · October",
         "notes":  "# Why binary?\n\nComputers use **binary** (base 2) because the hardware is made of switches/transistors that are either **on (1)** or **off (0)**. One binary digit is a **bit**; 8 bits = 1 **byte**; 4 bits = a **nibble**.\n\n# Binary ↔ denary\n\nPlace values for 8 bits:\n\n| 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |\n|---|---|---|---|---|---|---|---|\n\n- **Binary → denary:** add the place values under each 1. `10110010` = 128+32+16+2 = **178**.\n- **Denary → binary:** subtract the biggest place value you can, repeat. 205 → 128 (77 left) → 64 (13) → 8 (5) → 4 (1) → 1 → `11001101`.\n- Biggest 8-bit number = 255 (all ones). An n-bit register holds 2ⁿ values (0 to 2ⁿ − 1).\n\n# Binary addition\n\nRules: 0+0=0, 0+1=1, 1+1=**10** (write 0 carry 1), 1+1+1=**11** (write 1 carry 1).\n\n```\n  0 1 1 0 1 1 0 1   (109)\n+ 0 0 1 1 0 1 1 0   ( 54)\n-----------------\n  1 0 1 0 0 0 1 1   (163)\n```\n\n**Overflow:** if the answer needs more bits than the register has (e.g. 9 bits in an 8-bit register), the carry is lost → wrong result.\n\n# Hexadecimal (base 16)\n\nDigits **0–9, A–F** (A=10, B=11, C=12, D=13, E=14, F=15). Each hex digit = **one nibble (4 bits)**.\n\n- **Binary → hex:** split into groups of 4 from the right. `1011 0110` → B 6 → **B6**.\n- **Hex → binary:** each digit to 4 bits. 3F → 0011 1111.\n- **Hex → denary:** place values 16, 1. 2A = 2×16 + 10 = **42**.\n\n**Why programmers use hex:** shorter and easier to read/remember than long binary strings, fewer errors, easy to convert (1 digit = 4 bits). Used in: colour codes (#FF0000), MAC addresses, memory addresses, error messages, HTML.\n\n# Logical shifts\n\n- **Left shift** by 1 = multiply by 2. `00001100` (12) → `00011000` (24).\n- **Right shift** by 1 = divide by 2 (integer). `00001100` → `00000110` (6).\n- Bits shifted off the end are lost; zeros fill in.\n\n# Two\u0027s complement (negative numbers)\n\nThe leftmost bit is worth **−128**. To negate: flip all bits, add 1. −5 → 5 = 00000101 → flip 11111010 → +1 = **11111011**. Range for 8 bits: −128 to +127.",
         "order":  1,
@@ -1630,6 +1638,7 @@
                           "q":  "RLE of \u0027AAAAAAABBBBC\u0027?"
                       }
                   ],
+        "chapter":  1,
         "exam":  "Exam 1 · October",
         "notes":  "# Storage units — how much is each one?\n\n| Unit | Equals | In bytes | In bits |\n|---|---|---|---|\n| bit (b) | one 0 or 1 | 1/8 byte | 1 |\n| nibble | 4 bits | ½ byte | 4 |\n| byte (B) | 8 bits | 1 | 8 |\n| kibibyte (KiB) | 1024 bytes (2¹⁰) | 1 024 | 8 192 |\n| mebibyte (MiB) | 1024 KiB (2²⁰ bytes) | 1 048 576 | 8 388 608 |\n| gibibyte (GiB) | 1024 MiB (2³⁰ bytes) | 1 073 741 824 | ≈ 8.59 × 10⁹ |\n| tebibyte (TiB) | 1024 GiB (2⁴⁰ bytes) | ≈ 1.1 × 10¹² | ≈ 8.8 × 10¹² |\n| pebibyte (PiB) | 1024 TiB (2⁵⁰ bytes) | ≈ 1.13 × 10¹⁵ | |\n| exbibyte (EiB) | 1024 PiB (2⁶⁰ bytes) | ≈ 1.15 × 10¹⁸ | |\n\n**Decimal prefixes** (used by hard-drive makers and in everyday speech): kilobyte KB = 1000 bytes, megabyte MB = 1000 KB = 10⁶ bytes, gigabyte GB = 10⁹ bytes, terabyte TB = 10¹² bytes.\n\n\u003e Cambridge exams use the **binary** units (KiB, MiB, GiB) and 1 KiB = 1024 bytes. To convert: bits ÷ 8 = bytes; bytes ÷ 1024 = KiB; KiB ÷ 1024 = MiB.\n\nExample: 3 MiB in bits = 3 × 1024 × 1024 × 8 = **25 165 824 bits**. 40 000 bits = 5000 bytes = 5000 ÷ 1024 ≈ **4.88 KiB**.\n\n# Text\n\nEvery character (letter, digit, symbol, space) is stored as a binary code from a **character set**.\n\n| Character set | Bits per character | Characters | Notes |\n|---|---|---|---|\n| ASCII | 7 | 128 | English letters, digits, punctuation, control codes |\n| Extended ASCII | 8 | 256 | Adds some accented letters and symbols |\n| Unicode (UTF-8/16/32) | up to 32 | over 1 million | Every language: Georgian, Russian, Chinese, emoji |\n\n- In ASCII, upper-case and lower-case letters have different codes: \u0027A\u0027 = 65, \u0027a\u0027 = 97 (they differ by 32).\n- Codes are in order, so \u0027B\u0027 = 66, \u0027C\u0027 = 67 — you can work out a code from a nearby one.\n- **Why Unicode?** ASCII cannot represent non-English characters. **Cost:** Unicode files are larger because each character uses more bits.\n\n# Images (bitmaps)\n\nA bitmap image is a grid of **pixels**; each pixel\u0027s colour is stored as a binary number.\n\n- **Resolution** = width × height in pixels (e.g. 1920 × 1080). Higher resolution → more detail, bigger file.\n- **Colour depth** = bits per pixel. 1 bit → 2 colours; 8 bits → 256 colours; 24 bits → 16.7 million colours (\"true colour\").\n- **File size (bits) = width × height × colour depth.** Divide by 8 for bytes, then by 1024 for KiB.\n\nExample: 800 × 600 pixels, 24-bit colour → 800 × 600 × 24 = 11 520 000 bits = 1 440 000 bytes ≈ 1406 KiB ≈ 1.37 MiB.\n\n**Metadata** stored with the image: dimensions, colour depth, date, camera settings, GPS.\n\n# Sound\n\nSound is an analogue wave; a computer stores it as a series of **samples** (measurements of the wave height).\n\n- **Sample rate**: samples per second (Hz). CD quality = 44 100 Hz.\n- **Sample resolution (bit depth)**: bits per sample. CD = 16 bits.\n- Higher sample rate and resolution → more accurate sound, **bigger file**.\n- **File size (bits) = sample rate × sample resolution × seconds** (× 2 for stereo).\n\nExample: 30 s, 44 100 Hz, 16-bit, mono → 44 100 × 16 × 30 = 21 168 000 bits ≈ 2.52 MiB.\n\n# Compression\n\n| | Lossless | Lossy |\n|---|---|---|\n| Data lost? | No — original fully restored | Yes — permanently removed |\n| How | Finds repeated patterns (RLE), stores them more efficiently | Removes detail humans barely notice: sounds outside hearing range, similar colours |\n| Examples | PNG, GIF, ZIP, FLAC | JPEG, MP3, MP4, AAC |\n| Use when | Text, program code, spreadsheets — every bit matters | Photos, music, video — small size matters more than perfection |\n\n**Run-length encoding (RLE)** — lossless. Replace runs of the same value with (count, value):\n\n```\nWWWWWBBBWW  →  5W 3B 2W\n```\nWorks well for images with big blocks of one colour; poorly for photos with few repeats.\n\n**Lossy methods** in the exam: reduce resolution, reduce colour depth, reduce sample rate or resolution, remove frequencies humans can\u0027t hear (perceptual music shaping).",
         "order":  3,
@@ -1960,6 +1969,7 @@
                           "q":  "What is 1 XOR 1?"
                       }
                   ],
+        "chapter":  10,
         "exam":  "Exam 1 · October",
         "notes":  "# The six logic gates\n\n| Gate | Symbol shape | Output is 1 when… | Expression |\n|---|---|---|---|\n| NOT | Triangle with circle | input is 0 | X = NOT A |\n| AND | D-shape | **both** inputs are 1 | X = A AND B |\n| OR | Curved arrow shape | **at least one** input is 1 | X = A OR B |\n| NAND | AND + circle | NOT both 1 (opposite of AND) | X = NOT (A AND B) |\n| NOR | OR + circle | both inputs are 0 (opposite of OR) | X = NOT (A OR B) |\n| XOR | OR with extra curve | inputs are **different** | X = A XOR B |\n\n## Truth tables (two inputs)\n\n| A | B | AND | OR | NAND | NOR | XOR |\n|---|---|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 1 | 1 | 0 |\n| 0 | 1 | 0 | 1 | 1 | 0 | 1 |\n| 1 | 0 | 0 | 1 | 1 | 0 | 1 |\n| 1 | 1 | 1 | 1 | 0 | 0 | 0 |\n\n\u003e A small circle on the output means NOT. NAND = AND then NOT; NOR = OR then NOT.\n\n# Building circuits from a description\n\nExample: \"An alarm X sounds if the door sensor A is 1 AND (the window sensor B is 1 OR the motion sensor C is 1).\"\n\n1. Write the expression: **X = A AND (B OR C)**\n2. Draw: B and C go into an **OR** gate; its output and A go into an **AND** gate.\n3. Truth table: 3 inputs → 2³ = **8 rows**. Add a column for the intermediate result (B OR C), then the final output.\n\n| A | B | C | B OR C | X |\n|---|---|---|---|---|\n| 0 | 0 | 0 | 0 | 0 |\n| 0 | 0 | 1 | 1 | 0 |\n| 0 | 1 | 0 | 1 | 0 |\n| 0 | 1 | 1 | 1 | 0 |\n| 1 | 0 | 0 | 0 | 0 |\n| 1 | 0 | 1 | 1 | 1 |\n| 1 | 1 | 0 | 1 | 1 |\n| 1 | 1 | 1 | 1 | 1 |\n\n**Exam tips**\n\n- Always list inputs in binary counting order (000, 001, 010, …) so you don\u0027t miss a row.\n- Work through the circuit gate by gate; add a column for every intermediate output.\n- Read \"NOT A AND B\" carefully — the NOT applies only to A unless brackets say otherwise.",
         "order":  2,
@@ -3059,6 +3069,7 @@
                           "q":  "First step when factorising anything?"
                       }
                   ],
+        "chapter":  6,
         "exam":  "Exam 1 · October",
         "notes":  "# Expanding brackets\n\n**Single bracket:** multiply everything inside by the term outside.\n\n- 3(2x − 5) = 6x − 15\n- −2(x + 4) = −2x − 8 (watch the signs!)\n\n**Double brackets (FOIL):** First, Outer, Inner, Last.\n\n```\n(x + 3)(x − 5) = x² − 5x + 3x − 15 = x² − 2x − 15\n(2x + 1)(x + 4) = 2x² + 8x + x + 4 = 2x² + 9x + 4\n```\n\n**Special cases to memorise**\n\n- (a + b)² = a² + 2ab + b²\n- (a − b)² = a² − 2ab + b²\n- (a + b)(a − b) = a² − b²  ← *difference of two squares*\n\n# Factorising\n\nFactorising is expanding in reverse. **Always take out the highest common factor first.**\n\n1. **Common factor:** 6x² + 9x = 3x(2x + 3)\n2. **Difference of two squares:** x² − 49 = (x + 7)(x − 7); 4x² − 25 = (2x + 5)(2x − 5)\n3. **Quadratic x² + bx + c:** find two numbers that **multiply to c** and **add to b**.\n   - x² + 7x + 12 → 3 and 4 → (x + 3)(x + 4)\n   - x² − x − 6 → −3 and 2 → (x − 3)(x + 2)\n4. **Grouping (four terms):** ax + ay + bx + by = a(x + y) + b(x + y) = (a + b)(x + y)\n\n\u003e Check by expanding your answer back out.\n\n# Solving linear equations\n\nDo the same thing to both sides. Aim to get x on its own.\n\n```\n5x − 7 = 3x + 9\n5x − 3x = 9 + 7\n2x = 16\nx = 8\n```\n\nWith brackets: expand first. With fractions: multiply every term by the denominator.\n\n```\n(x + 2)/3 = 4  →  x + 2 = 12  →  x = 10\n```\n\n# Solving quadratics by factorising\n\nIf a product equals zero, one of the factors must be zero.\n\n```\nx² − 5x + 6 = 0\n(x − 2)(x − 3) = 0\nx = 2  or  x = 3\n```\n\n\u003e The equation **must equal 0** before you factorise. Rearrange first if it doesn\u0027t.\n\n# Rearranging formulae\n\nTreat the subject like x in an equation. Example: make r the subject of A = πr²\n\nA/π = r² → r = √(A/π)",
         "order":  3,
@@ -3198,6 +3209,7 @@
                           "q":  "3 kg of apples cost £4.50. Cost of 7 kg?"
                       }
                   ],
+        "chapter":  5,
         "exam":  "Exam 1 · October",
         "notes":  "# Fractions\n\n- **Simplify:** divide top and bottom by the HCF. 18/24 = 3/4.\n- **Add/subtract:** make the denominators the same first. 2/3 + 1/4 = 8/12 + 3/12 = 11/12.\n- **Multiply:** top × top, bottom × bottom (cancel first if you can). 2/3 × 9/10 = 18/30 = 3/5.\n- **Divide:** flip the second fraction and multiply. 3/4 ÷ 2/5 = 3/4 × 5/2 = 15/8 = 1⅞.\n- **Mixed ↔ improper:** 2¾ = 11/4 (2×4+3 over 4). Convert to improper before multiplying or dividing.\n- **Fraction of an amount:** 3/5 of 40 = 40 ÷ 5 × 3 = 24.\n\n# Converting\n\n| Fraction | Decimal | Percentage |\n|---|---|---|\n| 1/2 | 0.5 | 50% |\n| 1/4 | 0.25 | 25% |\n| 3/4 | 0.75 | 75% |\n| 1/5 | 0.2 | 20% |\n| 1/8 | 0.125 | 12.5% |\n| 1/3 | 0.333… | 33.3% |\n| 2/3 | 0.666… | 66.7% |\n| 1/10 | 0.1 | 10% |\n\n- Fraction → decimal: divide top by bottom. Decimal → percentage: × 100. Percentage → fraction: over 100 then simplify (35% = 35/100 = 7/20).\n- **Recurring decimals → fractions:** let x = 0.454545…, 100x = 45.4545…, subtract: 99x = 45, x = 45/99 = 5/11.\n\n# Percentages\n\n- **Percentage of an amount:** 15% of 80 = 0.15 × 80 = 12.\n- **Increase/decrease:** use a **multiplier**. +20% → × 1.2; −35% → × 0.65. 250 increased by 20% = 250 × 1.2 = 300.\n- **Percentage change** = (change ÷ original) × 100. From 40 to 46: 6/40 × 100 = 15% increase.\n- **Reverse percentage:** a price after a 20% discount is £48. Original = 48 ÷ 0.8 = £60. (Never take 20% of 48!)\n- **Simple interest:** I = P × R × T ÷ 100. **Compound interest:** final = P × (1 + r/100)ⁿ. £1000 at 5% for 3 years = 1000 × 1.05³ = £1157.63.\n\n# Ratio\n\n- **Simplify** like a fraction: 12 : 18 = 2 : 3. Same units first: 50 cm : 2 m = 50 : 200 = 1 : 4.\n- **Share in a ratio:** share £120 in 2 : 3. Total parts = 5; one part = 24; shares = £48 and £72.\n- **Given one part:** A : B = 3 : 7 and B = 35 → one part = 5 → A = 15.\n- **Given the difference:** A : B = 2 : 5, B is 12 more than A → 3 parts = 12 → 1 part = 4 → A = 8, B = 20.\n- Form 1 : n → divide both by the first number. 4 : 10 = 1 : 2.5.\n\n# Direct and inverse proportion\n\n- **Direct:** y = kx; doubling x doubles y. 5 pens cost £3 → 8 pens cost 3/5 × 8 = £4.80 (unitary method).\n- **Inverse:** y = k/x; doubling x halves y. 4 workers take 6 days → 8 workers take 3 days (4 × 6 = 24 worker-days; 24 ÷ 8 = 3).\n\n\u003e **Exam trap:** \"best value\" questions — find the price **per unit** (per gram, per item) for each option and compare.",
         "order":  4,
@@ -3332,6 +3344,7 @@
                           "q":  "Simplify (3x²)³."
                       }
                   ],
+        "chapter":  2,
         "exam":  "Exam 1 · October",
         "notes":  "# Laws of indices\n\nIn aⁿ, **a** is the base and **n** is the index (power/exponent).\n\n| Law | Rule | Example |\n|---|---|---|\n| Multiplying | aᵐ × aⁿ = aᵐ⁺ⁿ | 2³ × 2⁴ = 2⁷ |\n| Dividing | aᵐ ÷ aⁿ = aᵐ⁻ⁿ | 5⁶ ÷ 5² = 5⁴ |\n| Power of a power | (aᵐ)ⁿ = aᵐⁿ | (3²)⁴ = 3⁸ |\n| Zero index | a⁰ = 1 | 17⁰ = 1 |\n| Negative index | a⁻ⁿ = 1/aⁿ | 2⁻³ = 1/8 |\n| Fractional index | a^(1/n) = ⁿ√a | 27^(1/3) = 3 |\n| Fractional index (general) | a^(m/n) = (ⁿ√a)ᵐ | 8^(2/3) = (³√8)² = 4 |\n\n\u003e The laws only work when the **bases are the same**. 2³ × 3² cannot be simplified with index laws.\n\n**Common mistakes**\n\n- (2x)³ = 8x³, not 2x³ — the power applies to everything in the bracket.\n- 3⁻² = 1/9, **not** −9.\n- a negative index does not make the answer negative.\n\n## Standard form\n\nA number written as **A × 10ⁿ** where **1 ≤ A \u003c 10** and n is an integer.\n\n- 340 000 = 3.4 × 10⁵ (decimal point moves 5 places left)\n- 0.00072 = 7.2 × 10⁻⁴ (decimal point moves 4 places right)\n- 5 × 10³ = 5000, 2.5 × 10⁻² = 0.025\n\n**Multiplying / dividing:** deal with the numbers and the powers of 10 separately, then fix the answer so A is between 1 and 10.\n\n```\n(3 × 10⁴) × (4 × 10⁵) = 12 × 10⁹ = 1.2 × 10¹⁰\n(8 × 10⁷) ÷ (2 × 10³) = 4 × 10⁴\n```\n\n**Adding / subtracting:** convert to the same power of 10 first (or to ordinary numbers).\n\n```\n3 × 10⁵ + 2 × 10⁴ = 30 × 10⁴ + 2 × 10⁴ = 32 × 10⁴ = 3.2 × 10⁵\n```\n\n\u003e **Calculator:** use the ×10ˣ (or EXP) key, never type \u0027×10^\u0027. Check your calculator gives answers in standard form when needed (SCI mode).",
         "order":  2,
@@ -3451,6 +3464,7 @@
                           "q":  "Word problem: \u0027when do two events next happen together?\u0027 — HCF or LCM?"
                       }
                   ],
+        "chapter":  1,
         "exam":  "Exam 1 · October",
         "notes":  "# Types of numbers\n\n| Type | Meaning | Examples |\n|---|---|---|\n| Natural numbers | Counting numbers | 1, 2, 3, … |\n| Integers | Whole numbers, positive, negative and zero | −3, 0, 7 |\n| Rational numbers | Can be written as a fraction a/b with integers a, b (b ≠ 0) | ½, −4, 0.75, 0.333… |\n| Irrational numbers | Cannot be written as a fraction; decimals never repeat or end | √2, π |\n| Real numbers | All rational and irrational numbers | everything above |\n\n\u003e **Trick:** every terminating or recurring decimal is rational. Only never-ending, never-repeating decimals are irrational.\n\n## Primes, factors and multiples\n\n- A **factor** divides exactly into a number: factors of 12 are 1, 2, 3, 4, 6, 12.\n- A **multiple** is in the times table: multiples of 4 are 4, 8, 12, 16, …\n- A **prime** has exactly two factors: 1 and itself. ==1 is not prime.== First primes: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.\n- **Square numbers**: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144.\n- **Cube numbers**: 1, 8, 27, 64, 125, 216, 1000.\n\n## Prime factorisation\n\nUse a factor tree. Always write the answer with **index notation**.\n\n```\n360 = 2 × 180\n    = 2 × 2 × 90\n    = 2 × 2 × 2 × 45\n    = 2 × 2 × 2 × 3 × 15\n    = 2 × 2 × 2 × 3 × 3 × 5\n360 = 2³ × 3² × 5\n```\n\n## HCF and LCM\n\n- **HCF** (highest common factor): biggest number that divides into both.\n- **LCM** (lowest common multiple): smallest number that is in both times tables.\n\n**Method with prime factors** (works every time):\n\n1. Write each number as a product of primes.\n2. HCF = multiply the primes they **share** (lowest power of each).\n3. LCM = multiply **every** prime that appears (highest power of each).\n\nExample: 24 = 2³ × 3 and 36 = 2² × 3².\n\n- HCF = 2² × 3 = **12**\n- LCM = 2³ × 3² = **72**\n\n\u003e Check: HCF × LCM = 12 × 72 = 864 = 24 × 36 ✓ (this always works for two numbers).\n\n## Typical exam questions\n\n- \"Write 84 as a product of its prime factors\" → 2² × 3 × 7.\n- \"Two buses leave at 8:00; one every 12 min, one every 18 min. When do they next leave together?\" → LCM(12, 18) = 36 → 8:36.\n- \"Ribbons of 24 cm and 36 cm are cut into equal pieces of the largest possible length\" → HCF = 12 cm.",
         "order":  1,
@@ -3614,6 +3628,7 @@
                           "q":  "What makes an object stable?"
                       }
                   ],
+        "chapter":  3,
         "exam":  "Exam 1 · October",
         "notes":  "# Mass and weight\n\n| | Mass | Weight |\n|---|---|---|\n| What it is | The amount of matter in an object; a measure of its resistance to change in motion (inertia) | The **force** of gravity acting on a mass |\n| Unit | kg | N (newton) |\n| Changes with location? | No — same on the Moon | Yes — gravity differs |\n| Measured with | Balance | Force meter (newton meter) |\n\n**W = m × g** where g = gravitational field strength ≈ **9.8 N/kg** (often 10 N/kg). A 5 kg bag on Earth weighs 5 × 9.8 = 49 N; on the Moon (g = 1.6 N/kg) it weighs 8 N but its mass is still 5 kg.\n\n# Density\n\n**Density = mass ÷ volume**, ρ = m / V. Units: **kg/m³** or **g/cm³** (1 g/cm³ = 1000 kg/m³). Water = 1 g/cm³ = 1000 kg/m³.\n\n- Regular solid: measure sides with a ruler, V = l × w × h; mass on a balance.\n- Irregular solid: displacement of water in a measuring cylinder.\n- Liquid: mass of empty cylinder, add liquid, subtract; read volume.\n- An object **floats** if its density is **less** than the liquid\u0027s.\n\nExample: 200 g of a metal has volume 25 cm³ → ρ = 200/25 = **8 g/cm³**.\n\n# Forces\n\nA force is a push or a pull, measured in **newtons (N)**. It is a **vector**. Forces can change an object\u0027s **speed, direction or shape**.\n\n**Types:** weight (gravity), friction, air resistance (drag), tension, normal (contact) force, thrust, upthrust, electrostatic, magnetic.\n\n## Resultant force\n\nThe single force that has the same effect as all the forces acting together.\n\n- Same direction: add. Opposite: subtract.\n- **Balanced** (resultant = 0): the object stays still **or keeps moving at constant velocity** (Newton\u0027s 1st law).\n- **Unbalanced** (resultant ≠ 0): the object accelerates in the direction of the resultant force.\n\n## Newton\u0027s second law: F = m × a\n\nResultant force (N) = mass (kg) × acceleration (m/s²).\n\n- Bigger force → bigger acceleration. Bigger mass → smaller acceleration for the same force.\n- Example: 1200 kg car, resultant force 3000 N → a = 3000/1200 = **2.5 m/s²**.\n- Example: a 2 kg trolley with 6 N forward and 2 N friction → resultant 4 N → a = 2 m/s².\n\n## Friction\n\n- A force that **opposes motion** between surfaces in contact. It **produces heat**.\n- Air resistance / drag is friction with air or water; it **increases with speed**.\n- Useful: brakes, walking, tyres. Unwanted: engine wear (reduce with lubricants, streamlining).\n\n## Hooke\u0027s law and springs\n\n- **Extension** = stretched length − original length.\n- **Hooke\u0027s law:** extension is directly proportional to the load, **up to the limit of proportionality**: **F = k × x** (k = spring constant, N/m or N/cm).\n- A force–extension graph is a straight line through the origin until the limit of proportionality, then it curves.\n- Beyond the **elastic limit** the spring is permanently deformed.\n\nExample: a spring extends 4 cm with 2 N → k = 2/4 = 0.5 N/cm. With 3 N it extends 6 cm.\n\n# Turning effect (moments)\n\n**Moment = force × perpendicular distance from the pivot** (N m).\n\n**Principle of moments:** for an object in equilibrium, the sum of clockwise moments = sum of anticlockwise moments about any pivot.\n\nExample: a 300 N child sits 2 m from the pivot of a see-saw. Where must a 600 N adult sit to balance? 300 × 2 = 600 × d → d = **1 m**.\n\n**Centre of gravity:** the point where all the weight seems to act. An object topples if a vertical line from its centre of gravity falls outside its base. Low centre of gravity + wide base = stable.",
         "order":  3,
@@ -3919,6 +3934,7 @@
                           "q":  "Convert 2.5 km to m and 45 cm to m."
                       }
                   ],
+        "chapter":  1,
         "exam":  "Exam 1 · October",
         "notes":  "# SI units\n\n| Quantity | Unit | Symbol |\n|---|---|---|\n| Length | metre | m |\n| Mass | kilogram | kg |\n| Time | second | s |\n| Temperature | kelvin | K |\n| Current | ampere | A |\n\n**Derived units:** speed m/s, acceleration m/s², force newton (N), energy joule (J), power watt (W), pressure pascal (Pa), density kg/m³.\n\n**Prefixes:** kilo (k) ×1000 · centi (c) ÷100 · milli (m) ÷1000 · micro (µ) ÷1 000 000 · mega (M) ×1 000 000.\n\n\u003e Convert before calculating: 25 cm = 0.25 m; 300 g = 0.3 kg; 5 minutes = 300 s.\n\n# Measuring length and volume\n\n- **Ruler** — read at eye level to avoid parallax error; precision 1 mm.\n- **Micrometer screw gauge** — small lengths (wire diameter), precision 0.01 mm.\n- **Measuring cylinder** — volume of liquid; read the bottom of the **meniscus** at eye level.\n- **Irregular solid volume** — displacement: volume = final reading − initial reading.\n\n# Measuring time\n\n- Stopwatch (human reaction time ≈ 0.2 s causes error).\n- **Pendulum:** period T = time for **one complete swing** (there and back). Time 20 swings and divide by 20 to reduce error.\n- Period depends on **length** only (not mass, not amplitude for small swings). Longer pendulum → longer period.\n\n# Reducing errors\n\n- Repeat and take the **average**.\n- Measure many (e.g. 10 sheets of paper) and divide.\n- Avoid **parallax** by reading perpendicular to the scale.\n- **Zero error:** check the instrument reads 0 with nothing measured; subtract the zero error.\n\n# Scalars and vectors\n\n- **Scalar** — magnitude (size) only: distance, speed, mass, time, energy, temperature, volume.\n- **Vector** — magnitude **and direction**: displacement, velocity, acceleration, force, weight, momentum.\n\n**Adding vectors at right angles:** use Pythagoras for the size and trigonometry for the angle. Forces 3 N east and 4 N north → resultant 5 N at 53° from east (tan⁻¹(4/3)).\n\nVectors in the same line: add if same direction, subtract if opposite. Two forces 10 N left and 4 N right → 6 N left.",
         "order":  1,
@@ -4046,6 +4062,7 @@
                           "q":  "Convert 90 km/h to m/s."
                       }
                   ],
+        "chapter":  2,
         "exam":  "Exam 1 · October",
         "notes":  "# Key definitions\n\n- **Speed** = distance ÷ time (m/s). Scalar.\n- **Velocity** = speed in a stated direction (displacement ÷ time). Vector.\n- **Average speed** = total distance ÷ total time.\n- **Acceleration** = change in velocity ÷ time taken: **a = (v − u) / t** (m/s²). Vector. Negative acceleration = deceleration.\n\n\u003e u = initial velocity, v = final velocity, t = time.\n\nExample: a car goes from 5 m/s to 25 m/s in 4 s → a = (25 − 5)/4 = **5 m/s²**.\n\n# Distance–time graphs\n\n| Shape | Meaning |\n|---|---|\n| Horizontal line | Stationary |\n| Straight sloping line | Constant speed |\n| Steeper line | Faster |\n| Curve getting steeper | Accelerating |\n| Curve flattening | Decelerating |\n\n**Gradient = speed.** Gradient = rise ÷ run = distance ÷ time.\n\n# Speed–time (velocity–time) graphs\n\n| Shape | Meaning |\n|---|---|\n| Horizontal line | Constant speed |\n| Horizontal line at 0 | Stationary |\n| Straight line up | Constant acceleration |\n| Straight line down | Constant deceleration |\n| Curve | Changing acceleration |\n\n- **Gradient = acceleration.**\n- **Area under the graph = distance travelled.** Split into rectangles and triangles: area of triangle = ½ × base × height.\n\nExample: accelerates from 0 to 10 m/s in 5 s, then constant for 10 s. Distance = ½×5×10 + 10×10 = 25 + 100 = **125 m**.\n\n# Free fall\n\n- Near Earth\u0027s surface all objects fall with acceleration **g ≈ 9.8 m/s²** (often 10 m/s²) when air resistance is ignored.\n- With air resistance: as speed increases, air resistance increases until it **equals weight** → resultant force zero → **terminal velocity** (constant speed).\n- A parachute increases air resistance → decelerates to a lower terminal velocity.\n\n# Common exam traps\n\n- Distance–time gradient is **speed**; speed–time gradient is **acceleration** — don\u0027t mix them.\n- \"Constant velocity\" means acceleration = 0 and resultant force = 0.\n- Convert km/h to m/s: divide by 3.6 (72 km/h = 20 m/s).",
         "order":  2,

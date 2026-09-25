@@ -191,6 +191,15 @@ a{color:var(--accent)}
 .tbl td.n{font-variant-numeric:tabular-nums}
 .tw{overflow-x:auto}
 @media (max-width:700px){.auth{grid-template-columns:1fr}}
+/* books & chapters */
+.books{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px;margin-bottom:6px}
+.book{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 14px;border-left:4px solid var(--accent)}
+.bk-role{font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.bk-title{font-weight:600;font-size:14px;margin-top:2px}
+.bk-meta{font-size:12px;color:var(--muted)}
+.chn{display:inline-grid;place-items:center;min-width:24px;height:22px;padding:0 6px;border-radius:6px;background:var(--surface2);color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums;vertical-align:middle;margin-right:2px}
+.trow.soon{opacity:.75;cursor:default;background:transparent;border-style:dashed}
+.trow.soon:hover{border-color:var(--line)}
 /* to-do */
 .todo-form{display:grid;grid-template-columns:1fr auto auto auto;gap:8px;margin-bottom:14px}
 .todo-form input,.todo-form select{font:inherit;color:inherit;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:9px 12px;min-width:0}
@@ -378,9 +387,19 @@ function renderSubject(){
   const ts=subjectTopics(s.id);const ka=s.lang==='ka';
   let h=`<div class="crumb"><button data-nav="home">All subjects</button><span class="sep">›</span><span>${esc(s.name)}</span></div>`;
   h+=`<div class="hero" ${ka?'lang="ka"':''}><div><h2>${esc(s.name)}</h2><p>${esc(s.teacher?s.teacher+' · ':'')}${ts.length} topic${ts.length===1?'':'s'}${s.note?' · '+esc(s.note):''}</p></div>${ring(subjectMastery(s.id))}</div>`;
+  const row=t=>{const kc=(t.cards||[]).length,qc=(t.quiz||[]).length,b=quizBest(t);
+    return `<button class="trow" data-topic="${esc(t.id)}"><div><h3>${t.chapter?`<span class="chn">${esc(String(t.chapter))}</span> `:''}${esc(t.title)}</h3><div class="sub">${t.exam?`<span class="tag exam">${esc(t.exam)}</span>`:''}${kc?`<span>${knownCount(t)}/${kc} cards known</span>`:''}${qc?`<span>quiz best ${b==null?'—':b+'%'}</span>`:''}${t.updated?`<span>${esc(t.updated)}</span>`:''}</div></div>${ring(topicMastery(t))}</button>`;};
+  if(s.books&&s.books.length)h+=`<div class="books">${s.books.map(b=>`<div class="book"><div class="bk-role">${esc(b.role||'Book')}</div><div class="bk-title">${esc(b.title)}</div><div class="bk-meta">${esc([b.authors,b.edition,b.publisher].filter(Boolean).join(' · '))}</div></div>`).join('')}</div>`;
+  if(s.chapters&&s.chapters.length){
+    const all=S.topics.filter(t=>t.subject===s.id);const loose=ts.filter(t=>!t.chapter);
+    h+=`<h3 class="h3">${ka?'თავები წიგნის მიხედვით':'Chapters, as in the book'}</h3><div class="topics" ${ka?'lang="ka"':''}>`;
+    if(loose.length)h+=loose.map(row).join('');
+    h+=s.chapters.map(c=>{const mine=ts.filter(t=>String(t.chapter)===String(c.n));const any=all.filter(t=>String(t.chapter)===String(c.n));
+      if(mine.length)return mine.map(row).join('');
+      return `<div class="trow soon"><div><h3><span class="chn">${esc(String(c.n))}</span> ${esc(c.title)}</h3><div class="sub"><span class="tag">${any.length?'Hidden by the exam filter':(c.status||'Not written yet · send the pages or say "do this chapter"')}</span></div></div></div>`;}).join('');
+    return h+`</div>`;}
   if(!ts.length)return h+`<div class="empty">${ka?'ამ საგანში ჯერ ჩანაწერები არ არის. გამოუგზავნე Claude-ს სახელმძღვანელოს ან რვეულის ფოტოები.':'No notes for this class yet. Send Claude photos of your book or notebook pages and they will appear here.'}</div>`;
-  h+=`<div class="topics" ${ka?'lang="ka"':''}>`+ts.map(t=>{const kc=(t.cards||[]).length,qc=(t.quiz||[]).length,b=quizBest(t);
-    return `<button class="trow" data-topic="${esc(t.id)}"><div><h3>${esc(t.title)}</h3><div class="sub">${t.exam?`<span class="tag exam">${esc(t.exam)}</span>`:''}${kc?`<span>${knownCount(t)}/${kc} cards known</span>`:''}${qc?`<span>quiz best ${b==null?'—':b+'%'}</span>`:''}${t.updated?`<span>${esc(t.updated)}</span>`:''}</div></div>${ring(topicMastery(t))}</button>`;}).join('')+`</div>`;
+  h+=`<div class="topics" ${ka?'lang="ka"':''}>`+ts.map(row).join('')+`</div>`;
   return h;
 }
 function renderTopic(){
@@ -449,7 +468,7 @@ function renderTodo(){
 /* ---------- actions ---------- */
 function go(view,extra={}){Object.assign(S,{view},extra);S.q='';$('#q').value='';S.fc={i:0,flip:false,order:[],onlyLearn:false};S.qz={i:0,picked:null,score:0,done:false,answers:[]};
   if(view==='topic'){S.progress.seen[S.topic]=true;saveProgress();}
-  try{history.replaceState(null,'','#'+(view==='home'?'':view==='subject'?S.subject:S.topic));}catch(e){}
+  try{const hash=view==='subject'?S.subject:view==='topic'?S.topic:(view==='home'?'':view);history.replaceState(null,'',location.pathname+location.search+(hash?'#'+hash:''));}catch(e){}
   render();}
 document.addEventListener('click',e=>{
   const b=e.target.closest('[data-nav],[data-subject],[data-topic],[data-tab],[data-exam],[data-fc],[data-qz],[data-opt],[data-todo]');if(!b)return;
@@ -592,7 +611,7 @@ function renderStudents(){
 
 /* ---------- boot ---------- */
 loadLocal();
-function applyHash(){const h=(location.hash||'').slice(1);if(!h)return;if(S.subjects.some(s=>s.id===h)){S.view='subject';S.subject=h;}else{const t=S.topics.find(x=>x.id===h);if(t){S.view='topic';S.topic=t.id;S.subject=t.subject;}}}
+function applyHash(){const h=(location.hash||'').slice(1);if(!h)return;if(['todo','account','students'].includes(h)){S.view=h;return;}if(S.subjects.some(s=>s.id===h)){S.view='subject';S.subject=h;}else{const t=S.topics.find(x=>x.id===h);if(t){S.view='topic';S.topic=t.id;S.subject=t.subject;}}}
 render();
 let hashApplied=false;
 async function boot(){
