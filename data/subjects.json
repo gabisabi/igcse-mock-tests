@@ -212,6 +212,15 @@
         "id":  "chemistry"
     },
     {
+        "books":  [
+                      {
+                          "authors":  "David Watson, Helen Williams",
+                          "edition":  "2nd edition (white robot cover)",
+                          "publisher":  "Hodder Education",
+                          "role":  "Textbook",
+                          "title":  "Cambridge IGCSE and O Level Computer Science"
+                      }
+                  ],
         "chapters":  [
                          {
                              "n":  1,
@@ -267,7 +276,6 @@
         "color":  "#1F9A63",
         "lang":  "en",
         "name":  "IGCSE Computer Science",
-        "note":  "Chapters follow the Cambridge 0478 syllabus · tell Claude which textbook you use",
         "order":  4,
         "short":  "9",
         "teacher":  "Irma Marghania",

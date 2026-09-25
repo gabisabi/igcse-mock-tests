@@ -1635,6 +1635,308 @@
     {
         "cards":  [
                       {
+                          "a":  "Metals have delocalised electrons; in a solid ionic compound the ions are fixed in the lattice.",
+                          "q":  "Why do metals conduct but solid ionic compounds do not?"
+                      },
+                      {
+                          "a":  "When molten or dissolved in water — ions are free to move.",
+                          "q":  "When do ionic compounds conduct electricity?"
+                      },
+                      {
+                          "a":  "The decomposition of an ionic compound, molten or in aqueous solution, by the passage of an electric current.",
+                          "q":  "Define electrolysis."
+                      },
+                      {
+                          "a":  "Anode positive, cathode negative (PANIC).",
+                          "q":  "Which electrode is positive? negative?"
+                      },
+                      {
+                          "a":  "Cations (positive ions: metals and hydrogen); they gain electrons (reduction).",
+                          "q":  "Which ions go to the cathode?"
+                      },
+                      {
+                          "a":  "Oxidation Is Loss of electrons; Reduction Is Gain of electrons.",
+                          "q":  "What is OIL RIG?"
+                      },
+                      {
+                          "a":  "Lead at the cathode (Pb²⁺ + 2e⁻ → Pb), bromine at the anode (2Br⁻ → Br₂ + 2e⁻).",
+                          "q":  "Products of electrolysing molten lead(II) bromide?"
+                      },
+                      {
+                          "a":  "The less reactive element is discharged: copper/silver deposited; for reactive metals hydrogen forms instead.",
+                          "q":  "Cathode rule for aqueous solutions?"
+                      },
+                      {
+                          "a":  "Concentrated halide → halogen; otherwise oxygen from hydroxide ions.",
+                          "q":  "Anode rule for aqueous solutions?"
+                      },
+                      {
+                          "a":  "Hydrogen (cathode), chlorine (anode), sodium hydroxide left in solution.",
+                          "q":  "Products of electrolysing concentrated brine?"
+                      },
+                      {
+                          "a":  "Hydrogen at the cathode, oxygen at the anode, in a 2 : 1 volume ratio.",
+                          "q":  "Products of electrolysing dilute sulfuric acid?"
+                      },
+                      {
+                          "a":  "Copper anode dissolves, copper deposits on the cathode; solution stays blue. Used to purify copper.",
+                          "q":  "Copper sulfate with copper electrodes — what happens?"
+                      },
+                      {
+                          "a":  "Spoon = cathode, silver = anode, electrolyte = silver nitrate solution.",
+                          "q":  "Set-up for electroplating a spoon with silver?"
+                      },
+                      {
+                          "a":  "It dissolves aluminium oxide and lowers the melting point, saving energy.",
+                          "q":  "Why is cryolite used in aluminium extraction?"
+                      },
+                      {
+                          "a":  "Hydrogen: lit splint gives a squeaky pop. Chlorine: bleaches damp litmus paper.",
+                          "q":  "Test for hydrogen? for chlorine?"
+                      },
+                      {
+                          "a":  "Electricity and water only (no CO₂).",
+                          "q":  "What does a hydrogen–oxygen fuel cell produce?"
+                      }
+                  ],
+        "chapter":  6,
+        "exam":  "Exam 1 · October",
+        "notes":  "# Conductors and electrolytes\n\n- **Metals and graphite** conduct because of **delocalised electrons**; they are not changed by the current.\n- **Electrolytes** are ionic compounds that conduct when **molten or dissolved** because their **ions are free to move**; they are decomposed by the current. Solid ionic compounds do not conduct.\n- Covalent substances (sugar, ethanol, pure water) do not conduct.\n\n# Electrolysis\n\n**Definition:** the decomposition of an ionic compound, when molten or in aqueous solution, by the passage of an electric current.\n\n- **Electrodes** (usually inert **graphite** or platinum): **anode = positive** electrode, **cathode = negative** electrode.\n- **Cations** (positive ions, usually metals or H⁺) move to the **cathode**; **anions** (negative ions) move to the **anode**. *\"PANIC: Positive Anode, Negative Is Cathode.\"*\n- At the cathode ions **gain** electrons (reduction); at the anode ions **lose** electrons (oxidation). **OIL RIG**: Oxidation Is Loss, Reduction Is Gain.\n\n## Molten compounds — simple\n\n| Electrolyte | Cathode (−) | Anode (+) |\n|---|---|---|\n| Molten lead(II) bromide PbBr₂ | Lead: Pb²⁺ + 2e⁻ → Pb | Bromine: 2Br⁻ → Br₂ + 2e⁻ |\n| Molten sodium chloride | Sodium: Na⁺ + e⁻ → Na | Chlorine: 2Cl⁻ → Cl₂ + 2e⁻ |\n| Molten aluminium oxide (with cryolite) | Aluminium: Al³⁺ + 3e⁻ → Al | Oxygen: 2O²⁻ → O₂ + 4e⁻ |\n\n## Aqueous solutions — water\u0027s ions compete\n\nWater provides H⁺ and OH⁻ as well.\n\n- **Cathode:** the **less reactive** element is discharged. Metals below hydrogen in the reactivity series (Cu, Ag) are deposited; if the metal is more reactive (Na, K, Mg…), **hydrogen** is given off: 2H⁺ + 2e⁻ → H₂.\n- **Anode:** if a **halide** (Cl⁻, Br⁻, I⁻) is present in a concentrated solution, the **halogen** forms; otherwise **oxygen** forms from hydroxide: 4OH⁻ → O₂ + 2H₂O + 4e⁻.\n\n| Electrolyte (aqueous) | Cathode | Anode | Left in solution |\n|---|---|---|---|\n| Concentrated NaCl (brine) | Hydrogen | Chlorine | Sodium hydroxide |\n| Dilute sulfuric acid | Hydrogen | Oxygen | (ratio 2 : 1 by volume) |\n| Copper(II) sulfate (graphite electrodes) | Copper | Oxygen | Solution goes paler, becomes acidic |\n| Copper(II) sulfate (**copper** electrodes) | Copper deposited | Copper anode **dissolves** | Solution stays blue — used for **purification of copper** |\n\n**Tests for the gases:** hydrogen — lit splint gives a squeaky pop; oxygen — relights a glowing splint; chlorine — bleaches damp blue litmus paper.\n\n# Uses\n\n- **Extraction of aluminium** from bauxite (aluminium oxide dissolved in cryolite to lower the melting point; carbon anodes burn away as CO₂ forms).\n- **Electrolysis of brine** → hydrogen, chlorine, sodium hydroxide (all industrially useful).\n- **Electroplating:** object to be plated = **cathode**; plating metal = **anode**; electrolyte contains ions of the plating metal (e.g. silver nitrate for silver plating). Purpose: appearance and corrosion protection.\n- **Purification of copper** (copper electrodes, copper sulfate solution).\n\n# Hydrogen–oxygen fuel cell\n\nHydrogen and oxygen react to produce **electricity and water** only (2H₂ + O₂ → 2H₂O). Advantages: no CO₂, quiet, efficient. Disadvantages: hydrogen is explosive and hard to store; producing hydrogen may use fossil fuels; few filling stations.",
+        "order":  6,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "Positive ions gain electrons at the negative cathode.",
+                         "options":  [
+                                         "Anode",
+                                         "Cathode",
+                                         "Both",
+                                         "Neither"
+                                     ],
+                         "q":  "During electrolysis, reduction happens at the:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "2Cl⁻ → Cl₂ + 2e⁻ at the positive electrode.",
+                         "options":  [
+                                         "Sodium",
+                                         "Hydrogen",
+                                         "Chlorine",
+                                         "Oxygen"
+                                     ],
+                         "q":  "Electrolysis of molten sodium chloride gives at the anode:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Sodium is more reactive than hydrogen, so hydrogen is discharged.",
+                         "options":  [
+                                         "Sodium",
+                                         "Hydrogen",
+                                         "Oxygen",
+                                         "Sulfur"
+                                     ],
+                         "q":  "Electrolysing aqueous sodium sulfate with graphite electrodes gives at the cathode:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "The anode dissolves and pure copper plates onto the cathode.",
+                         "options":  [
+                                         "Cathode",
+                                         "Anode",
+                                         "Electrolyte",
+                                         "Cryolite"
+                                     ],
+                         "q":  "In copper purification the impure copper is the:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Molten ionic compound → free ions.",
+                         "options":  [
+                                         "Solid NaCl",
+                                         "Sugar solution",
+                                         "Molten NaCl",
+                                         "Ethanol"
+                                     ],
+                         "q":  "Which substance conducts electricity?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Copper ions gain two electrons.",
+                         "options":  [
+                                         "Cu → Cu²⁺ + 2e⁻",
+                                         "Cu²⁺ + 2e⁻ → Cu",
+                                         "Cu²⁺ → Cu + 2e⁻",
+                                         "Cu + 2e⁻ → Cu²⁺"
+                                     ],
+                         "q":  "The half-equation at the cathode when copper is deposited is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "2H₂ + O₂ → 2H₂O.",
+                         "options":  [
+                                         "Carbon dioxide",
+                                         "Water",
+                                         "Hydrogen",
+                                         "Oxygen"
+                                     ],
+                         "q":  "A fuel cell\u0027s only chemical product is:"
+                     }
+                 ],
+        "subject":  "chemistry",
+        "title":  "Electrochemistry: electrolysis",
+        "updated":  "Chapter notes",
+        "id":  "chem-electrochemistry"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "A reaction that transfers thermal energy to the surroundings, so the temperature rises; ΔH negative.",
+                          "q":  "Define exothermic."
+                      },
+                      {
+                          "a":  "A reaction that takes in thermal energy from the surroundings, so the temperature falls; ΔH positive.",
+                          "q":  "Define endothermic."
+                      },
+                      {
+                          "a":  "Combustion, neutralisation, respiration (also metal + acid, rusting).",
+                          "q":  "Three exothermic examples?"
+                      },
+                      {
+                          "a":  "Thermal decomposition, photosynthesis, dissolving ammonium nitrate (cold packs).",
+                          "q":  "Three endothermic examples?"
+                      },
+                      {
+                          "a":  "The minimum energy that colliding particles must have in order to react.",
+                          "q":  "Define activation energy."
+                      },
+                      {
+                          "a":  "Below the reactants (energy released), ΔH negative.",
+                          "q":  "On an energy level diagram, where are the products in an exothermic reaction?"
+                      },
+                      {
+                          "a":  "Lowers activation energy by providing an alternative pathway; ΔH is unchanged.",
+                          "q":  "What does a catalyst do to activation energy and to ΔH?"
+                      },
+                      {
+                          "a":  "Endothermic — energy must be supplied to break bonds. Bond making is exothermic.",
+                          "q":  "Is bond breaking exothermic or endothermic?"
+                      },
+                      {
+                          "a":  "ΔH = sum of bond energies broken − sum of bond energies formed.",
+                          "q":  "Formula for ΔH from bond energies?"
+                      },
+                      {
+                          "a":  "678 − 862 = −184 kJ/mol (exothermic).",
+                          "q":  "H₂ + Cl₂ → 2HCl with H–H 436, Cl–Cl 242, H–Cl 431. ΔH?"
+                      },
+                      {
+                          "a":  "Energy = mass × 4.2 × temperature change (J).",
+                          "q":  "How do you calculate energy from a temperature rise in water?"
+                      },
+                      {
+                          "a":  "Burns to give only water. Problems: explosive, difficult to store, energy needed to produce it.",
+                          "q":  "Why is hydrogen a \u0027clean\u0027 fuel? Two problems?"
+                      },
+                      {
+                          "a":  "Always exothermic.",
+                          "q":  "What type of energy change is combustion?"
+                      },
+                      {
+                          "a":  "Positive.",
+                          "q":  "What is the sign of ΔH for an endothermic reaction?"
+                      }
+                  ],
+        "chapter":  7,
+        "exam":  "Exam 1 · October",
+        "notes":  "# Exothermic and endothermic reactions\n\n| | Exothermic | Endothermic |\n|---|---|---|\n| Energy | **Released** to the surroundings | **Absorbed** from the surroundings |\n| Temperature of surroundings | **Rises** | **Falls** |\n| ΔH (enthalpy change) | **Negative** | **Positive** |\n| Examples | Combustion, neutralisation, respiration, metals + acid, hand warmers, rusting | Thermal decomposition (CaCO₃ → CaO + CO₂), photosynthesis, dissolving ammonium nitrate (cold packs), electrolysis |\n\n# Energy level (reaction pathway) diagrams\n\n- Vertical axis = energy; horizontal = progress of reaction.\n- **Exothermic:** products are **lower** than reactants; ΔH is negative (arrow down).\n- **Endothermic:** products are **higher** than reactants; ΔH is positive (arrow up).\n- The \"hump\" between them is the **activation energy (Eₐ)**: the **minimum energy that colliding particles must have to react**. It is measured from the reactants up to the top of the hump.\n- A **catalyst** lowers the activation energy (provides an alternative pathway) — it does **not** change ΔH.\n\n# Bond energies — why reactions release or absorb energy\n\n- **Breaking bonds needs energy** (endothermic).\n- **Making bonds releases energy** (exothermic).\n- **ΔH = energy in (bonds broken) − energy out (bonds formed)**\n  - If more energy is released making new bonds than was used breaking old ones → exothermic (ΔH negative).\n  - If more energy is needed to break bonds than is released → endothermic (ΔH positive).\n\n**Worked example:** H₂ + Cl₂ → 2HCl. Bond energies (kJ/mol): H–H 436, Cl–Cl 242, H–Cl 431.\n\n- Bonds broken: 436 + 242 = 678 kJ\n- Bonds formed: 2 × 431 = 862 kJ\n- ΔH = 678 − 862 = **−184 kJ/mol** → exothermic\n\n**Example 2:** CH₄ + 2O₂ → CO₂ + 2H₂O. Broken: 4 C–H (4 × 413) + 2 O=O (2 × 498) = 1652 + 996 = 2648. Formed: 2 C=O (2 × 805) + 4 O–H (4 × 464) = 1610 + 1856 = 3466. ΔH = 2648 − 3466 = **−818 kJ/mol**.\n\n# Measuring energy changes\n\n- Measure the temperature change of a known volume of solution in an insulated cup (calorimetry).\n- **Energy (J) = mass of water (g) × 4.2 × temperature rise (°C)**   (4.2 J/g°C is the specific heat capacity of water).\n- Example: 50 g of solution rises by 6 °C → 50 × 4.2 × 6 = 1260 J.\n\n# Fuels\n\n- A **fuel** is a substance that releases energy when burned. Fossil fuels: coal, oil, natural gas (methane). **Hydrogen** as a fuel: 2H₂ + O₂ → 2H₂O — only water is produced, no CO₂, but it is explosive and hard to store.\n- **Radioactive isotopes** (uranium-235) release energy by nuclear fission — not a chemical reaction.\n- **Combustion** is always exothermic; complete combustion of a hydrocarbon: hydrocarbon + oxygen → carbon dioxide + water.",
+        "order":  7,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "Energy is taken in from the surroundings.",
+                         "options":  [
+                                         "Exothermic",
+                                         "Endothermic",
+                                         "A combustion",
+                                         "Neutralisation"
+                                     ],
+                         "q":  "A reaction makes the test tube feel cold. It is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "It is the extra energy the reactants need to reach the transition point.",
+                         "options":  [
+                                         "Products to the top of the hump",
+                                         "Reactants to products",
+                                         "Reactants to the top of the hump",
+                                         "Zero to products"
+                                     ],
+                         "q":  "On an energy level diagram, the activation energy is measured from:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "1200 − 1500 = −300 kJ, exothermic.",
+                         "options":  [
+                                         "+300 kJ",
+                                         "−300 kJ",
+                                         "+2700 kJ",
+                                         "−2700 kJ"
+                                     ],
+                         "q":  "Bonds broken require 1200 kJ; bonds formed release 1500 kJ. ΔH ="
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "A catalyst provides a lower-energy route and is not consumed.",
+                         "options":  [
+                                         "They increase ΔH",
+                                         "They lower the activation energy",
+                                         "They make reactions endothermic",
+                                         "They are used up"
+                                     ],
+                         "q":  "Which statement about catalysts is correct?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Heat must be supplied continuously.",
+                         "options":  [
+                                         "Exothermic",
+                                         "Endothermic",
+                                         "Neither",
+                                         "Combustion"
+                                     ],
+                         "q":  "Thermal decomposition of calcium carbonate is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "100 × 4.2 × 5 = 2100 J.",
+                         "options":  [
+                                         "500 J",
+                                         "2100 J",
+                                         "21 J",
+                                         "4.2 J"
+                                     ],
+                         "q":  "100 g of water warms by 5 °C. Energy released:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "All bond breaking is endothermic.",
+                         "options":  [
+                                         "Releases energy",
+                                         "Requires energy",
+                                         "Has no energy change",
+                                         "Is exothermic"
+                                     ],
+                         "q":  "Breaking the O=O bond in oxygen:"
+                     }
+                 ],
+        "subject":  "chemistry",
+        "title":  "Chemical energetics",
+        "updated":  "Chapter notes",
+        "id":  "chem-energetics"
+    },
+    {
+        "cards":  [
+                      {
                           "a":  "H₂, O₂, F₂, Br₂, I₂, N₂, Cl₂ — HOFBrINCl.",
                           "q":  "Which seven elements exist as diatomic molecules?"
                       },
@@ -2212,6 +2514,153 @@
     {
         "cards":  [
                       {
+                          "a":  "Volume of gas in a gas syringe against time; loss of mass on a balance; time for a fixed volume to be produced.",
+                          "q":  "Three ways to measure the rate of a reaction that gives off a gas?"
+                      },
+                      {
+                          "a":  "From the gradient — steeper = faster. When the line goes flat the reaction has finished.",
+                          "q":  "How is rate found from a graph of product vs time?"
+                      },
+                      {
+                          "a":  "Concentration of reactants is highest, so collisions are most frequent.",
+                          "q":  "Why is the rate fastest at the start?"
+                      },
+                      {
+                          "a":  "Particles must collide with energy ≥ the activation energy for a reaction to occur; rate depends on frequency and energy of collisions.",
+                          "q":  "State collision theory."
+                      },
+                      {
+                          "a":  "Faster — more particles per volume → more frequent collisions.",
+                          "q":  "Effect of increasing concentration and why?"
+                      },
+                      {
+                          "a":  "Faster — particles move faster so collisions are more frequent AND more energetic, so more exceed the activation energy.",
+                          "q":  "Effect of increasing temperature and why (two reasons)?"
+                      },
+                      {
+                          "a":  "Faster — more particles exposed on the surface → more frequent collisions.",
+                          "q":  "Effect of increasing surface area and why?"
+                      },
+                      {
+                          "a":  "Faster — particles closer together → more frequent collisions.",
+                          "q":  "Effect of increasing pressure on a gas reaction?"
+                      },
+                      {
+                          "a":  "Provides an alternative pathway with lower activation energy, so more collisions are successful; it is not used up.",
+                          "q":  "How does a catalyst increase rate?"
+                      },
+                      {
+                          "a":  "Only temperature.",
+                          "q":  "Which factor changes the ENERGY of collisions?"
+                      },
+                      {
+                          "a":  "Manganese(IV) oxide (H₂O₂ decomposition), iron (Haber process), enzymes, platinum (catalytic converter).",
+                          "q":  "Give two examples of catalysts."
+                      },
+                      {
+                          "a":  "Very large surface area → extremely fast combustion.",
+                          "q":  "Why can flour dust explode?"
+                      },
+                      {
+                          "a":  "Rate ∝ 1 ÷ time for the cross to disappear.",
+                          "q":  "In the thiosulfate experiment, how is rate calculated?"
+                      },
+                      {
+                          "a":  "Mass of marble, volume and concentration of acid (and temperature).",
+                          "q":  "Two variables to control when comparing marble chip sizes?"
+                      }
+                  ],
+        "chapter":  8,
+        "exam":  "Exam 1 · October",
+        "notes":  "# Measuring rate\n\n**Rate = amount of reactant used (or product formed) ÷ time.**\n\nWays to measure:\n\n- **Volume of gas** collected in a gas syringe or inverted measuring cylinder over time (e.g. Mg + HCl → H₂).\n- **Loss of mass** on a balance as a gas escapes (cotton wool in the flask neck) — e.g. marble chips + acid → CO₂.\n- **Time for a cross to disappear** (sodium thiosulfate + HCl → cloudy sulfur precipitate); rate ∝ 1/time.\n- Colour change, pH change, temperature change.\n\n**Graphs of amount of product vs time:** steep at the start (most reactant, most collisions), gradient decreases, then **flat when the reaction is finished** (a reactant is used up). The **gradient = rate**. A faster reaction gives a steeper line that levels off sooner at the **same** final amount (if the same amount of limiting reactant).\n\n# Collision theory\n\nFor a reaction to happen, particles must **collide** with **enough energy** (at least the **activation energy**) and in the right orientation. Rate increases if collisions are **more frequent** or **more energetic**.\n\n# Factors affecting rate\n\n| Factor | Effect | Explanation (write both parts!) |\n|---|---|---|\n| **Concentration** (solutions) ↑ | Rate ↑ | More particles per unit volume → **more frequent collisions** |\n| **Pressure** (gases) ↑ | Rate ↑ | Particles closer together → more frequent collisions |\n| **Temperature** ↑ | Rate ↑ (roughly doubles per 10 °C) | Particles move faster → collisions **more frequent** AND **more energetic**, so more collisions have ≥ activation energy |\n| **Surface area** ↑ (smaller pieces, powder) | Rate ↑ | More particles exposed on the surface → more frequent collisions |\n| **Catalyst** added | Rate ↑ | Provides an alternative route with **lower activation energy**, so more collisions are successful; catalyst not used up |\n| Light (photochemical reactions) | Rate ↑ | e.g. photosynthesis, silver salts in photographic film |\n\n\u003e **Temperature is the only factor that changes the energy of collisions.** Concentration, pressure and surface area only change the frequency.\n\n# Catalysts\n\n- Speed up a reaction without being used up (the same mass is left at the end).\n- Lower the activation energy.\n- Examples: manganese(IV) oxide decomposing hydrogen peroxide; iron in the Haber process; **enzymes** (biological catalysts, e.g. in yeast fermentation); catalytic converters in cars (platinum).\n\n# Explosions from powders\n\nFlour, coal dust and custard powder can explode in factories and mines because the tiny particles have a huge surface area, so combustion is extremely fast.\n\n# Typical practical: marble chips and hydrochloric acid\n\nCaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂. Compare large chips vs small chips vs powder with the same mass and the same acid: measure CO₂ volume every 30 s. Powder reacts fastest. **Control variables:** mass of marble, volume and concentration of acid, temperature.",
+        "order":  8,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "Lower concentration means fewer collisions.",
+                         "options":  [
+                                         "Using zinc powder instead of lumps",
+                                         "Warming the acid",
+                                         "Diluting the acid",
+                                         "Adding a catalyst"
+                                     ],
+                         "q":  "Which change does NOT increase the rate of reaction between zinc and acid?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Faster particles collide more often and with more energy.",
+                         "options":  [
+                                         "More frequent only",
+                                         "More energetic only",
+                                         "Both more frequent and more energetic",
+                                         "Less frequent but more energetic"
+                                     ],
+                         "q":  "Increasing temperature increases rate because collisions are:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "No reactant left → no more product.",
+                         "options":  [
+                                         "The catalyst runs out",
+                                         "A reactant is used up",
+                                         "The temperature falls",
+                                         "The gas escapes"
+                                     ],
+                         "q":  "On a volume–time graph, the line becomes horizontal when:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Alternative route with lower Eₐ.",
+                         "options":  [
+                                         "Increasing the temperature",
+                                         "Increasing concentration",
+                                         "Lowering the activation energy",
+                                         "Adding more reactant"
+                                     ],
+                         "q":  "A catalyst works by:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Faster rate, same amount of limiting reactant → same final volume.",
+                         "options":  [
+                                         "More gas in total",
+                                         "A steeper curve and the same final volume",
+                                         "Less gas in total",
+                                         "The same curve"
+                                     ],
+                         "q":  "Two experiments use the same mass of marble with excess acid: one uses chips, one uses powder. Compared with the chips, the powder gives:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "The gas escapes so the flask gets lighter.",
+                         "options":  [
+                                         "Neutralisation of acid with alkali",
+                                         "Marble chips + acid producing CO₂",
+                                         "Precipitation of sulfur",
+                                         "Dissolving sugar"
+                                     ],
+                         "q":  "Which reaction rate can be measured by loss of mass?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "They speed up reactions in living things and are not used up.",
+                         "options":  [
+                                         "Reactants",
+                                         "Biological catalysts",
+                                         "Products",
+                                         "Solvents"
+                                     ],
+                         "q":  "Enzymes are:"
+                     }
+                 ],
+        "subject":  "chemistry",
+        "title":  "Rates of reaction",
+        "updated":  "Chapter notes",
+        "id":  "chem-rates"
+    },
+    {
+        "cards":  [
+                      {
                           "a":  "Hardware uses transistors/switches with two states: on (1) and off (0).",
                           "q":  "Why do computers use binary?"
                       },
@@ -2552,6 +3001,184 @@
     {
         "cards":  [
                       {
+                          "a":  "Instructions and data are stored together in the same memory and fetched by a single processor one at a time.",
+                          "q":  "What is the stored program concept (Von Neumann)?"
+                      },
+                      {
+                          "a":  "Decodes instructions and sends control signals to coordinate the CPU, memory and devices, synchronised by the clock.",
+                          "q":  "Job of the control unit?"
+                      },
+                      {
+                          "a":  "Performs arithmetic (+ − × ÷) and logic (comparisons, AND/OR) operations.",
+                          "q":  "Job of the ALU?"
+                      },
+                      {
+                          "a":  "PC: address of the next instruction. MAR: address being accessed. MDR: data being transferred. CIR: current instruction. ACC: ALU results.",
+                          "q":  "What do PC, MAR, MDR, CIR and ACC hold?"
+                      },
+                      {
+                          "a":  "Address bus (addresses, one way), data bus (data, two way), control bus (control signals such as read/write).",
+                          "q":  "Three buses and what they carry?"
+                      },
+                      {
+                          "a":  "PC → MAR; the instruction at that address is read via the data bus into MDR, then CIR; PC is incremented.",
+                          "q":  "Describe the fetch stage."
+                      },
+                      {
+                          "a":  "Clock speed, cache size, number of cores, bus width.",
+                          "q":  "Four factors affecting CPU performance?"
+                      },
+                      {
+                          "a":  "Small, very fast memory close to the CPU that stores frequently used instructions/data to avoid slow RAM access.",
+                          "q":  "What is cache memory?"
+                      },
+                      {
+                          "a":  "A computer system built into a device for one dedicated purpose: washing machine controller, car engine management, thermostat.",
+                          "q":  "What is an embedded system? Give two examples."
+                      },
+                      {
+                          "a":  "RAM: volatile, read/write, holds running programs and data. ROM: non-volatile, read only, holds start-up instructions.",
+                          "q":  "RAM vs ROM?"
+                      },
+                      {
+                          "a":  "Contents are lost when the power is switched off.",
+                          "q":  "What does \u0027volatile\u0027 mean?"
+                      },
+                      {
+                          "a":  "Magnetic (HDD), optical (DVD), solid state (SSD/flash drive).",
+                          "q":  "Three types of secondary storage with an example of each?"
+                      },
+                      {
+                          "a":  "No moving parts (robust, quiet), faster access, lower power, lighter.",
+                          "q":  "Three advantages of SSD over HDD?"
+                      },
+                      {
+                          "a":  "A laser reads pits and lands on a spiral track; changes in reflection represent 1s and 0s.",
+                          "q":  "How does an optical disc store data?"
+                      },
+                      {
+                          "a":  "Part of secondary storage used as extra RAM when RAM is full; pages are swapped in and out (slow; thrashing if overused).",
+                          "q":  "What is virtual memory?"
+                      },
+                      {
+                          "a":  "A unique 48-bit hexadecimal address fixed to a network interface card; first 24 bits identify the manufacturer.",
+                          "q":  "What is a MAC address?"
+                      },
+                      {
+                          "a":  "IPv4: 32-bit, four denary numbers (192.168.0.1). IPv6: 128-bit hexadecimal with colons, many more addresses.",
+                          "q":  "IPv4 vs IPv6?"
+                      },
+                      {
+                          "a":  "Analogue-to-digital converter: turns the sensor\u0027s analogue signal into digital data the computer can process.",
+                          "q":  "What does an ADC do and why is it needed for sensors?"
+                      },
+                      {
+                          "a":  "Temperature, light, pressure, moisture, pH, motion, gas, acoustic; e.g. a temperature sensor controlling a greenhouse heater.",
+                          "q":  "Give five sensors and a use for one."
+                      }
+                  ],
+        "chapter":  3,
+        "exam":  "Exam 1 · October",
+        "notes":  "# 3.1 Computer architecture\n\n**Von Neumann architecture:** a single processor, with **data and instructions stored together** in the same memory, using the **stored program** concept; instructions are fetched one at a time.\n\n## Components of the CPU (central processing unit)\n\n| Component | Job |\n|---|---|\n| **Control unit (CU)** | Decodes instructions, sends control signals, synchronises everything with the clock |\n| **Arithmetic logic unit (ALU)** | Does arithmetic (+ − × ÷) and logic (AND, OR, comparisons) |\n| **Registers** | Tiny, very fast storage inside the CPU |\n| **Buses** | Wires carrying signals between components |\n\n**Registers to know:**\n\n- **PC** — Program Counter: address of the **next** instruction.\n- **MAR** — Memory Address Register: the address currently being read from or written to.\n- **MDR** — Memory Data Register: the data just read from or about to be written to memory.\n- **CIR** — Current Instruction Register: the instruction being decoded/executed.\n- **ACC** — Accumulator: holds results of ALU calculations.\n\n**Buses:** **address bus** (carries addresses, CPU → memory, one-way), **data bus** (carries data, two-way), **control bus** (control signals, e.g. read/write, clock).\n\n## Fetch–decode–execute cycle\n\n1. **Fetch:** PC address copied to MAR; instruction at that address copied via the data bus into MDR, then to CIR; PC incremented.\n2. **Decode:** CU decodes the instruction in the CIR.\n3. **Execute:** the instruction is carried out (ALU calculates, data moved, jump changes the PC…).\n\n## CPU performance\n\n- **Clock speed** (GHz): cycles per second; higher = more instructions per second. **Overclocking** raises it but causes overheating/instability.\n- **Cache:** small fast memory inside/near the CPU holding frequently used instructions and data → fewer slow trips to RAM.\n- **Number of cores:** each core can run its own instructions; dual/quad core → more tasks at once (but not automatically 2× or 4× faster).\n- **Bus width:** wider data bus moves more bits per cycle; wider address bus addresses more memory (16-bit → 2¹⁶ = 65 536 addresses).\n\n## Instruction sets and embedded systems\n\n- **Instruction set:** the list of all commands a CPU can process (opcode + operand).\n- **Embedded system:** a computer built into a device to do a dedicated job (washing machine, car engine management, thermostat). Small, cheap, low power, hard to update, no general user interface.\n\n# 3.2 Input and output devices\n\n**Input:** keyboard, mouse, touch screen (resistive, capacitive, infrared), microphone, digital camera, scanner (2-D: flatbed; 3-D), barcode reader, QR code reader, sensors.\n\n**Output:** monitor/LCD/LED screen, printers (inkjet, laser, 3-D), speakers, projectors (DLP, LCD), actuators (motors, lights, heaters — controlled by a computer).\n\n**Sensors** (with **ADC** to convert analogue readings to digital): temperature, light, pressure, moisture/humidity, pH, motion/infrared, gas, magnetic field, acoustic, accelerometer, proximity, flow, level. Used in monitoring (report) and control (act) systems — e.g. a greenhouse: temperature sensor → microprocessor compares with set value → turns heater on/off.\n\n# 3.3 Data storage\n\n**Primary memory (directly accessed by the CPU):**\n\n| | RAM | ROM |\n|---|---|---|\n| Full name | Random access memory | Read only memory |\n| Volatile? | **Yes** — lost when power is off | **No** — permanent |\n| Can be changed? | Read and write | Read only (normally) |\n| Holds | Programs and data currently in use | Start-up instructions (BIOS/bootstrap), firmware |\n\n**Secondary storage (not directly accessed by the CPU; non-volatile):**\n\n| Type | Examples | How it works | Notes |\n|---|---|---|---|\n| **Magnetic** | Hard disk drive (HDD), magnetic tape | Magnetised spots on spinning platters read by a moving head | Large, cheap per GB, moving parts, slower, fragile |\n| **Optical** | CD, DVD, Blu-ray | Laser reads pits and lands on a spiral track | Cheap, portable, low capacity, scratches |\n| **Solid state** | SSD, USB flash drive, SD card | Flash memory: electrons trapped in floating-gate transistors (NAND) | No moving parts, fast, robust, quiet, low power, more expensive per GB, limited write cycles |\n\n**Virtual memory:** when RAM is full, the OS uses part of the secondary storage as extra memory, swapping pages in and out. Lets larger programs run but is slow; too much swapping = **disk thrashing**.\n\n**Cloud storage:** data stored on remote servers accessed via the internet. Pros: access anywhere, automatic backup, no need for own hardware. Cons: needs internet, security/privacy concerns, ongoing cost, dependence on the provider.\n\n# 3.4 Network hardware\n\n- **NIC (network interface card):** lets a device connect to a network; has a unique **MAC address** (48-bit, shown in hex, e.g. 00-1A-2B-3C-4D-5E; first half = manufacturer, second = device). MAC addresses are fixed; IP addresses can change.\n- **IPv4:** 32-bit, four numbers 0–255 (192.168.1.10). **IPv6:** 128-bit, hexadecimal with colons — far more addresses.\n- **Router:** sends packets to their destination across networks; assigns IP addresses; connects a LAN to the internet.",
+        "order":  5,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "Program counter.",
+                         "options":  [
+                                         "MAR",
+                                         "MDR",
+                                         "PC",
+                                         "CIR"
+                                     ],
+                         "q":  "Which register holds the address of the next instruction to be fetched?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Only the CPU sends addresses.",
+                         "options":  [
+                                         "Data bus",
+                                         "Address bus",
+                                         "Control bus",
+                                         "USB"
+                                     ],
+                         "q":  "Which bus is one-directional (CPU to memory)?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "RAM loses its contents without power.",
+                         "options":  [
+                                         "ROM",
+                                         "HDD",
+                                         "RAM",
+                                         "SSD"
+                                     ],
+                         "q":  "Which is volatile?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Dedicated computer built into a device.",
+                         "options":  [
+                                         "A supercomputer",
+                                         "An embedded system",
+                                         "Cloud storage",
+                                         "Virtual memory"
+                                     ],
+                         "q":  "A washing machine\u0027s controller is an example of:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Optical storage.",
+                         "options":  [
+                                         "Hard disk",
+                                         "SSD",
+                                         "DVD",
+                                         "RAM chip"
+                                     ],
+                         "q":  "Data is stored as pits and lands on a:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Multiple cores run instructions in parallel, but not all software benefits fully.",
+                         "options":  [
+                                         "Always doubles the speed",
+                                         "Lets the CPU handle more tasks at once",
+                                         "Doubles the RAM",
+                                         "Removes the need for cache"
+                                     ],
+                         "q":  "Doubling the number of cores:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Four 8-bit numbers = 32 bits.",
+                         "options":  [
+                                         "48 bits",
+                                         "32 bits",
+                                         "128 bits",
+                                         "8 bits"
+                                     ],
+                         "q":  "An IPv4 address is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Too little RAM causes constant swapping and a big slowdown.",
+                         "options":  [
+                                         "The HDD is full",
+                                         "The OS constantly swaps pages between RAM and virtual memory",
+                                         "The CPU overheats",
+                                         "Cache is too big"
+                                     ],
+                         "q":  "Disk thrashing happens when:"
+                     }
+                 ],
+        "subject":  "cs",
+        "title":  "Hardware: CPU, memory, storage, devices",
+        "updated":  "Chapter notes",
+        "id":  "cs-hardware"
+    },
+    {
+        "cards":  [
+                      {
                           "a":  "A base-2 number system that uses only the digits 0 and 1.",
                           "q":  "Define binary."
                       },
@@ -2846,6 +3473,176 @@
         "title":  "Logic gates \u0026 truth tables",
         "updated":  "Starter notes",
         "id":  "cs-logic"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "A small unit of data sent over a network: header (addresses, sequence number), payload (data), trailer (end marker, error check).",
+                          "q":  "What is a data packet and what are its three parts?"
+                      },
+                      {
+                          "a":  "Sender\u0027s IP address, receiver\u0027s IP address, sequence number, packet size.",
+                          "q":  "What is in a packet header?"
+                      },
+                      {
+                          "a":  "Data is split into packets that travel independently by different routes chosen by routers; they are reassembled in order at the destination using sequence numbers.",
+                          "q":  "Describe packet switching."
+                      },
+                      {
+                          "a":  "Packets arrive out of order and must be reassembled; packets can be lost or delayed and need resending.",
+                          "q":  "Two disadvantages of packet switching?"
+                      },
+                      {
+                          "a":  "Serial: one bit at a time on one wire, slower but reliable over long distances. Parallel: many bits at once on many wires, faster but short distances only.",
+                          "q":  "Serial vs parallel transmission?"
+                      },
+                      {
+                          "a":  "In parallel transmission, bits on different wires arrive at slightly different times, causing errors over long distances.",
+                          "q":  "What is data skew?"
+                      },
+                      {
+                          "a":  "Simplex: one way only. Half-duplex: both ways but not at once. Full-duplex: both ways simultaneously.",
+                          "q":  "Simplex, half-duplex, full-duplex?"
+                      },
+                      {
+                          "a":  "Universal standard, automatically detected/drivers installed, cannot be inserted wrongly, supplies power, backwards compatible.",
+                          "q":  "Three advantages of USB?"
+                      },
+                      {
+                          "a":  "A parity bit makes the number of 1s in each byte even (or odd); the receiver counts and detects an error if the count is wrong.",
+                          "q":  "How does a parity check work?"
+                      },
+                      {
+                          "a":  "An even number of bit flips (e.g. two bits changed), and it cannot say which bit is wrong.",
+                          "q":  "What errors can a parity check NOT detect?"
+                      },
+                      {
+                          "a":  "Four 1s already → parity bit 0.",
+                          "q":  "Byte 0110 1010 with even parity — what parity bit?"
+                      },
+                      {
+                          "a":  "Sender computes a value from the data and sends it; receiver recomputes and compares; mismatch means resend.",
+                          "q":  "How does a checksum work?"
+                      },
+                      {
+                          "a":  "Receiver sends the data back for comparison; can\u0027t tell whether the error occurred on the way there or on the way back.",
+                          "q":  "How does an echo check work and what is its weakness?"
+                      },
+                      {
+                          "a":  "Detecting data-entry errors in codes like ISBNs and barcodes.",
+                          "q":  "What is a check digit used for?"
+                      },
+                      {
+                          "a":  "Receiver sends an acknowledgement if data is correct; if the sender gets no ACK before a timeout, it resends.",
+                          "q":  "How does ARQ work?"
+                      },
+                      {
+                          "a":  "Symmetric: one shared key encrypts and decrypts. Asymmetric: public key encrypts, private key decrypts.",
+                          "q":  "Symmetric vs asymmetric encryption?"
+                      },
+                      {
+                          "a":  "Intercepted data being understood — it does not stop interception itself.",
+                          "q":  "What does encryption protect against?"
+                      }
+                  ],
+        "chapter":  2,
+        "exam":  "Exam 1 · October",
+        "notes":  "# 2.1 Types and methods of data transmission\n\n## Packets\n\nData sent over a network is split into **packets** (typically ~64 KiB). Each packet has:\n\n- **Header:** IP address of sender, IP address of receiver, sequence number (so packets can be reassembled in order), packet size.\n- **Payload:** the actual data.\n- **Trailer:** marks the end; includes an error check (e.g. cyclic redundancy check, CRC).\n\n**Packet switching:** each packet may take a **different route** through routers to the destination; routers choose the fastest path at that moment. At the destination packets are **reordered** using sequence numbers; missing ones are re-requested.\n\n- Advantages: no need for a single continuous line; routes around failures; efficient use of the network.\n- Disadvantages: packets may arrive out of order and must be reassembled; delay (latency); packets can be lost and must be resent.\n\n## Serial vs parallel\n\n| | Serial | Parallel |\n|---|---|---|\n| How | One bit at a time down **one** wire | Several bits (e.g. 8) at once down **several** wires |\n| Speed | Slower | Faster over short distances |\n| Distance | Reliable over **long** distances | Only short distances (data **skew**: bits arrive at slightly different times; interference between wires) |\n| Cost | Cheaper | More expensive |\n| Example | USB, telephone, internet | Internal buses in a computer (CPU to memory), older printers |\n\n## Direction\n\n- **Simplex:** one direction only (keyboard → computer, radio broadcast).\n- **Half-duplex:** both directions but **not at the same time** (walkie-talkie).\n- **Full-duplex:** both directions **at the same time** (phone call, broadband).\n\n## USB (Universal Serial Bus)\n\nAsynchronous **serial** transmission. Advantages: standard connector, automatically detected, drivers install automatically, cannot be inserted the wrong way, backwards compatible, supplies power. Disadvantages: cable length limited (~5 m), slower than some other connections.\n\n# 2.2 Methods of error detection\n\nErrors happen because of interference, wire problems, or packet loss. Methods:\n\n| Method | How it works |\n|---|---|\n| **Parity check** | One bit per byte is set so the number of 1s is **even** (even parity) or **odd** (odd parity). The receiver counts the 1s; a wrong count = error. Cannot detect **two** bits flipped (still even) or say **which** bit is wrong. |\n| **Parity block** | Bytes arranged in a block with parity bits for every row and column; a single error can be **located** (the row and column that fail) and corrected. |\n| **Checksum** | Sender calculates a value from all the data using an algorithm and sends it with the data; receiver recalculates; mismatch = error, resend. |\n| **Echo check** | Receiver sends the data **back** to the sender, who compares it with the original. Cannot tell where the error happened (sending or echo). |\n| **Check digit** | An extra digit calculated from the other digits, used for data entry (ISBN-13, barcodes). Detects mistyped or transposed digits. |\n| **Automatic Repeat reQuest (ARQ)** | Uses **acknowledgement** and **timeout**: receiver sends an ACK if the data passes its check; if the sender gets no ACK before the timeout, it **resends**. Repeats until ACK received or a limit is hit. |\n\n**Even parity example:** byte 1 0 1 1 0 0 1 0 has four 1s → parity bit = 0 (already even). Byte 1 1 1 0 0 0 0 0 has three 1s → parity bit = 1.\n\n# 2.3 Encryption\n\n**Encryption** scrambles data so that it is meaningless if intercepted. Plaintext → (encryption algorithm + key) → ciphertext. It does not stop interception; it stops the intercepted data being understood.\n\n- **Symmetric encryption:** the **same key** encrypts and decrypts. Problem: the key must be sent to the receiver securely (key distribution).\n- **Asymmetric encryption:** two keys — a **public key** (shared with everyone, used to **encrypt**) and a **private key** (kept secret, used to **decrypt**). Anyone can send you a secret message with your public key; only you can read it. Used in HTTPS/SSL.\n\n\u003e **Exam tip:** \"Describe how the data is protected\" → say: data is encrypted using a key; if intercepted it cannot be understood; the receiver uses the (private) key to decrypt.",
+        "order":  4,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "The header holds addresses and the sequence number.",
+                         "options":  [
+                                         "Payload",
+                                         "Header",
+                                         "Trailer",
+                                         "Key"
+                                     ],
+                         "q":  "Which part of a packet contains the sequence number?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Skew and interference make it unreliable over long distances.",
+                         "options":  [
+                                         "Long-distance internet links",
+                                         "Short distances inside a computer",
+                                         "Telephone lines",
+                                         "Wireless"
+                                     ],
+                         "q":  "Parallel transmission is best for:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Both directions, but only one person can talk at a time.",
+                         "options":  [
+                                         "Simplex",
+                                         "Half-duplex",
+                                         "Full-duplex",
+                                         "Parallel"
+                                     ],
+                         "q":  "A walkie-talkie uses:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "A 1 makes the total four (even).",
+                         "options":  [
+                                         "0",
+                                         "1",
+                                         "Cannot tell",
+                                         "2"
+                                     ],
+                         "q":  "With even parity, the byte 1 1 0 1 0 0 0 0 (three 1s) gets parity bit:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "The failing row and column pinpoint the bit.",
+                         "options":  [
+                                         "Parity check on one byte",
+                                         "Parity block",
+                                         "Echo check",
+                                         "Checksum"
+                                     ],
+                         "q":  "Which method can LOCATE a single wrong bit?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Timeout with no acknowledgement triggers a resend.",
+                         "options":  [
+                                         "It receives an ACK",
+                                         "No ACK arrives before the timeout",
+                                         "The data is encrypted",
+                                         "The parity is even"
+                                     ],
+                         "q":  "In ARQ, the sender resends when:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Public encrypts, private decrypts.",
+                         "options":  [
+                                         "Public key",
+                                         "Private key",
+                                         "Checksum",
+                                         "Parity key"
+                                     ],
+                         "q":  "In asymmetric encryption, the key used to decrypt is the:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "It catches typing errors in the code.",
+                         "options":  [
+                                         "USB cables",
+                                         "ISBN book codes",
+                                         "Parity blocks",
+                                         "Full-duplex links"
+                                     ],
+                         "q":  "A check digit is used in:"
+                     }
+                 ],
+        "subject":  "cs",
+        "title":  "Data transmission",
+        "updated":  "Chapter notes",
+        "id":  "cs-transmission"
     },
     {
         "cards":  [
@@ -3574,6 +4371,153 @@
     {
         "cards":  [
                       {
+                          "a":  "1815 წლის შემდეგ ძველი მონარქიების აღდგენა და რევოლუციური იდეების დევნა ევროპაში (მეტერნიხის სისტემა).",
+                          "q":  "რა არის რესტავრაცია?"
+                      },
+                      {
+                          "a":  "კონსტიტუციას, პარლამენტს, პიროვნების თავისუფლებას, თავისუფალ ვაჭრობას.",
+                          "q":  "რას მოითხოვდა ლიბერალიზმი?"
+                      },
+                      {
+                          "a":  "თითოეული ერის უფლებას საკუთარ სახელმწიფოზე — გერმანელებისა და იტალიელების გაერთიანებას, პოლონელების, უნგრელების დამოუკიდებლობას.",
+                          "q":  "რას მოითხოვდა ნაციონალიზმი?"
+                      },
+                      {
+                          "a":  "1825 წ. 14 დეკემბერი, პეტერბურგი; ოფიცრები კონსტიტუციასა და ბატონყმობის გაუქმებას მოითხოვდნენ; ნიკოლოზ I-მა ჩაახშო.",
+                          "q":  "დეკაბრისტების აჯანყება — როდის, სად, რას მოითხოვდნენ?"
+                      },
+                      {
+                          "a":  "1821–1829, ოსმალეთის წინააღმდეგ; 1830 წელს საბერძნეთი დამოუკიდებელი გახდა.",
+                          "q":  "საბერძნეთის დამოუკიდებლობის ომი?"
+                      },
+                      {
+                          "a":  "კარლ X დაემხო; ტახტზე ლუი-ფილიპი, „მეფე-მოქალაქე“ — ივლისის მონარქია.",
+                          "q":  "1830 წლის ივლისის რევოლუცია საფრანგეთში — შედეგი?"
+                      },
+                      {
+                          "a":  "ბელგია.",
+                          "q":  "რომელი ქვეყანა გახდა დამოუკიდებელი 1830 წელს ნიდერლანდებისგან?"
+                      },
+                      {
+                          "a":  "1846–47 წლების ეკონომიკური კრიზისი და შიმშილი, პოლიტიკური თავისუფლების ნაკლებობა, ეროვნული ჩაგვრა.",
+                          "q":  "1848 წლის რევოლუციების საერთო მიზეზები?"
+                      },
+                      {
+                          "a":  "ლუი-ფილიპი დაემხო, გამოცხადდა მეორე რესპუბლიკა; დეკემბერში პრეზიდენტად აირჩიეს ლუი-ნაპოლეონი (1852-დან ნაპოლეონ III).",
+                          "q":  "რა მოხდა საფრანგეთში 1848 წელს?"
+                      },
+                      {
+                          "a":  "ლაიოშ კოშუტი; ჩაახშეს ავსტრიამ რუსეთის ჯარის დახმარებით.",
+                          "q":  "ვინ ხელმძღვანელობდა უნგრეთის რევოლუციას 1848–49?"
+                      },
+                      {
+                          "a":  "1848–49 წწ. სრულიად გერმანიის კრება, რომელმაც გაერთიანებული გერმანიის კონსტიტუცია შეადგინა; პრუსიის მეფემ გვირგვინი არ მიიღო და კრება დაიშალა.",
+                          "q":  "რა იყო ფრანკფურტის პარლამენტი?"
+                      },
+                      {
+                          "a":  "ლიბერალები და მუშები გაიყვნენ, ერები ერთმანეთს უპირისპირდებოდნენ, ჯარი მონარქებს დარჩა ერთგული, რუსეთი ჩაერია.",
+                          "q":  "რატომ დამარცხდა 1848 წლის რევოლუციები?"
+                      },
+                      {
+                          "a":  "ბატონყმობის გაუქმება ავსტრიაში; საყოველთაო საარჩევნო უფლება (მამაკაცებისთვის) საფრანგეთში; კონსტიტუციები პრუსიასა და პიემონტში.",
+                          "q":  "1848 წლის ორი შედეგი?"
+                      },
+                      {
+                          "a":  "მარქსისა და ენგელსის „კომუნისტური პარტიის მანიფესტი“.",
+                          "q":  "რა გამოქვეყნდა 1848 წელს სოციალიზმის ისტორიაში?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "lang":  "ka",
+        "notes":  "# ვენის სისტემა და მისი მოწინააღმდეგეები\n\nვენის კონგრესის შემდეგ (1815) ევროპაში დამყარდა **რესტავრაციის** ეპოქა — ძველი მონარქიების აღდგენა, რევოლუციური იდეების დევნა („მეტერნიხის სისტემა“, ცენზურა, საიდუმლო პოლიცია).\n\nმის წინააღმდეგ სამი ძალა მოქმედებდა:\n\n| იდეოლოგია | რას მოითხოვდა | ვინ |\n|---|---|---|\n| **ლიბერალიზმი** | კონსტიტუცია, პარლამენტი, პიროვნების თავისუფლება, თავისუფალი ვაჭრობა | ბურჟუაზია, ინტელიგენცია |\n| **ნაციონალიზმი** | ერების უფლება საკუთარ სახელმწიფოზე; დაქუცმაცებული ერების (გერმანელები, იტალიელები) გაერთიანება; დაპყრობილთა (პოლონელები, უნგრელები) დამოუკიდებლობა | სტუდენტები, ოფიცრები, ინტელიგენცია |\n| **სოციალიზმი** | მუშათა უფლებები, საკუთრების გადანაწილება | მუშები, უტოპისტი მოაზროვნეები (სენ-სიმონი, ფურიე, ოუენი) |\n\n# 1820-იანი წლების აჯანყებები\n\n- **ესპანეთი 1820**, **ნეაპოლი 1820**, **პიემონტი 1821** — ლიბერალური აჯანყებები, ჩაახშო წმინდა კავშირმა.\n- **საბერძნეთის დამოუკიდებლობის ომი (1821–1829)** — ოსმალეთის წინააღმდეგ; ევროპა თანაუგრძნობდა (ბაირონი); 1830 — საბერძნეთი დამოუკიდებელი.\n- **დეკაბრისტების აჯანყება რუსეთში (1825 14 დეკემბერი)** — ოფიცრები კონსტიტუციისა და ბატონყმობის გაუქმების მოთხოვნით; ნიკოლოზ I-მა ჩაახშო.\n\n# 1830 წლის რევოლუციები\n\n- **საფრანგეთი — ივლისის რევოლუცია (1830):** კარლ X-ის რეაქციული განკარგულებები → პარიზის „სამი დიდებული დღე“ → ბურბონები დაემხო; ტახტზე **ლუი-ფილიპი** („მეფე-მოქალაქე“, ივლისის მონარქია, 1830–1848) — ბურჟუაზიის ინტერესების მონარქია.\n- **ბელგია 1830** — გამოეყო ნიდერლანდებს, დამოუკიდებელი კონსტიტუციური მონარქია (1831).\n- **პოლონეთი 1830–1831** — ნოემბრის აჯანყება რუსეთის წინააღმდეგ; ჩაახშეს, ავტონომია გაუქმდა.\n\n# 1848 — „ხალხთა გაზაფხული“\n\n**საერთო მიზეზები:** ეკონომიკური კრიზისი 1846–47 (მოსავლის უკმარისობა, კარტოფილის ავადმყოფობა, უმუშევრობა), პოლიტიკური თავისუფლების ნაკლებობა, ეროვნული ჩაგვრა.\n\n| ქვეყანა | რა მოხდა | შედეგი |\n|---|---|---|\n| **საფრანგეთი** (თებერვალი) | ლუი-ფილიპი დაემხო; **მეორე რესპუბლიკა**; საყოველთაო საარჩევნო უფლება მამაკაცებისთვის; ივნისის მუშათა აჯანყება ჩაახშეს | დეკემბერში პრეზიდენტად აირჩიეს **ლუი-ნაპოლეონ ბონაპარტი**, 1852 — იმპერატორი ნაპოლეონ III (მეორე იმპერია) |\n| **ავსტრიის იმპერია** (მარტი) | ვენის აჯანყება, **მეტერნიხი გაიქცა**; უნგრეთის რევოლუცია (**ლაიოშ კოშუტი**), ჩეხების, იტალიელების გამოსვლები | ჩაახშეს რუსეთის ჯარის დახმარებით (1849); ბატონყმობა გაუქმდა |\n| **პრუსია / გერმანია** | ბერლინის აჯანყება; **ფრანკფურტის პარლამენტი** — გერმანიის გაერთიანების და კონსტიტუციის პროექტი; გვირგვინი შესთავაზეს ფრიდრიხ ვილჰელმ IV-ს | მეფემ გვირგვინი „ტალახიდან“ არ მიიღო; პარლამენტი დაიშალა (1849) |\n| **იტალია** | აჯანყებები მილანში, ვენეციაში, რომში; პიემონტის ომი ავსტრიასთან | დამარცხდა; ავსტრიის ბატონობა აღდგა |\n\n**რატომ დამარცხდა 1848?** ლიბერალები და მუშები გაიყვნენ; ეროვნული მოძრაობები ერთმანეთს ეწინააღმდეგებოდნენ; ჯარი მონარქების ერთგული დარჩა; რუსეთის ჩარევა.\n\n**მაინც შედეგები:** ბატონყმობის გაუქმება ავსტრიაში, კონსტიტუცია პრუსიასა და პიემონტში, საყოველთაო საარჩევნო უფლება საფრანგეთში, ნაციონალიზმის გაძლიერება → 1860-იან წლებში იტალიისა და გერმანიის გაერთიანება. 1848 წელს გამოქვეყნდა **„კომუნისტური პარტიის მანიფესტი“** (მარქსი, ენგელსი).\n\n\u003e **ცნებები:** რესტავრაცია, ლიბერალიზმი, ნაციონალიზმი, სოციალიზმი, კონსტიტუციური მონარქია, რესპუბლიკა, საყოველთაო საარჩევნო უფლება.",
+        "order":  7,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "1830–1848 წწ. ივლისის მონარქიის მეფე.",
+                         "options":  [
+                                         "კარლ X-ს",
+                                         "ლუი-ფილიპს",
+                                         "ნაპოლეონ III-ს",
+                                         "ლუი XVIII-ს"
+                                     ],
+                         "q":  "„მეფე-მოქალაქე“ ეწოდებოდა:"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "ერთდროულად ევროპის მრავალ ქვეყანაში.",
+                         "options":  [
+                                         "ხალხთა გაზაფხულს",
+                                         "ტერორს",
+                                         "რესტავრაციას",
+                                         "დიდებულ რევოლუციას"
+                                     ],
+                         "q":  "1848 წლის რევოლუციებს უწოდებენ:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "1825 წლის დეკემბერი, პეტერბურგი.",
+                         "options":  [
+                                         "საფრანგეთში 1830",
+                                         "რუსეთში 1825",
+                                         "პოლონეთში 1831",
+                                         "ავსტრიაში 1848"
+                                     ],
+                         "q":  "დეკაბრისტების აჯანყება მოხდა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "ვენის მარტის აჯანყებამ რესტავრაციის სისტემის ავტორი განდევნა.",
+                         "options":  [
+                                         "ფრანც იოსები",
+                                         "მეტერნიხი",
+                                         "კოშუტი",
+                                         "ბისმარკი"
+                                     ],
+                         "q":  "1848 წელს ავსტრიიდან გაიქცა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "ერის უფლება თვითგამორკვევაზე.",
+                         "options":  [
+                                         "ლიბერალიზმი",
+                                         "ნაციონალიზმი",
+                                         "სოციალიზმი",
+                                         "კონსერვატიზმი"
+                                     ],
+                         "q":  "რომელი იდეოლოგია ითხოვდა ერების საკუთარ სახელმწიფოებს?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "1848 დეკემბერი; 1852-ში იმპერატორი ნაპოლეონ III.",
+                         "options":  [
+                                         "ლუი-ფილიპი",
+                                         "ლუი-ნაპოლეონ ბონაპარტი",
+                                         "ლაფაიეტი",
+                                         "ტიერი"
+                                     ],
+                         "q":  "საფრანგეთის მეორე რესპუბლიკის პრეზიდენტი გახდა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "გერმანია მხოლოდ 1871 წელს გაერთიანდა.",
+                         "options":  [
+                                         "ბატონყმობის გაუქმება ავსტრიაში",
+                                         "გერმანიის გაერთიანება",
+                                         "საყოველთაო საარჩევნო უფლება საფრანგეთში",
+                                         "ნაციონალიზმის გაძლიერება"
+                                     ],
+                         "q":  "რომელი არ იყო 1848 წლის შედეგი?"
+                     }
+                 ],
+        "subject":  "history",
+        "title":  "ევროპა 1815–1848: რესტავრაცია და „ხალხთა გაზაფხული“",
+        "updated":  "თავის ნომერი დასაზუსტებელია",
+        "id":  "hist-1848"
+    },
+    {
+        "cards":  [
+                      {
                           "a":  "I სასულიერო, II თავადაზნაურობა, III მესამე წოდება (ბურჟუაზია, გლეხები, ქალაქის ღარიბები — ~97%).",
                           "q":  "რომელი სამი წოდება იყო რევოლუციამდელ საფრანგეთში?"
                       },
@@ -3872,6 +4816,157 @@
         "title":  "საქართველო რუსეთის იმპერიაში: 1801–1832",
         "updated":  "თავის ნომერი დასაზუსტებელია",
         "id":  "hist-georgia-1801"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "ალექსანდრე II, 1861 წლის 19 თებერვალი.",
+                          "q":  "რომელმა იმპერატორმა გააუქმა ბატონყმობა და როდის რუსეთში?"
+                      },
+                      {
+                          "a":  "1864 წლის 13 ოქტომბერს (ქუთაისის გუბერნიაში — 1865).",
+                          "q":  "როდის გაუქმდა ბატონყმობა თბილისის გუბერნიაში?"
+                      },
+                      {
+                          "a":  "პიროვნული თავისუფლება — კი; მიწა — არა, ის მემამულეს დარჩა და გამოსყიდვა უნდა.",
+                          "q":  "რა მიიღო გლეხმა ბატონყმობის გაუქმებით და რა არა?"
+                      },
+                      {
+                          "a":  "გათავისუფლებული გლეხი, რომელიც მიწის გამოსყიდვამდე მემამულეს ღალას უხდიდა ან ბეგარას ასრულებდა.",
+                          "q":  "ვინ არის „დროებით ვალდებული“ გლეხი?"
+                      },
+                      {
+                          "a":  "ზემსტვო (სოფლის თვითმმართველობა).",
+                          "q":  "რომელი რეფორმა არ შემოუღიათ საქართველოში?"
+                      },
+                      {
+                          "a":  "1872 წელს.",
+                          "q":  "როდის აშენდა ფოთი–თბილისის რკინიგზა?"
+                      },
+                      {
+                          "a":  "1860-იანი წლების ახალგაზრდა ქართველი ინტელიგენცია, რომელიც რუსეთში (პეტერბურგში) სწავლობდა: ილია, აკაკი, ნიკო ნიკოლაძე, იაკობ გოგებაშვილი.",
+                          "q":  "ვინ არიან თერგდალეულები?"
+                      },
+                      {
+                          "a":  "თერგდალეულების დაპირისპირება ძველ თაობასთან ენის, ლიტერატურისა და საზოგადოების განახლების საკითხებზე (1861-დან).",
+                          "q":  "რა იყო „მამათა და შვილთა ბრძოლა“?"
+                      },
+                      {
+                          "a":  "მამული, ენა, სარწმუნოება.",
+                          "q":  "ილიას „სამი საუნჯე“?"
+                      },
+                      {
+                          "a":  "1879 წელს; ილია ჭავჭავაძე თავმჯდომარე 1885-დან.",
+                          "q":  "როდის დაარსდა წერა-კითხვის გამავრცელებელი საზოგადოება?"
+                      },
+                      {
+                          "a":  "იაკობ გოგებაშვილი, 1876.",
+                          "q":  "„დედა ენა“ — ვინ და როდის?"
+                      },
+                      {
+                          "a":  "„საქართველოს მოამბე“ (1863), „დროება“ (1866), „ივერია“ (1877).",
+                          "q":  "დაასახელე თერგდალეულების პრესის ორგანოები."
+                      },
+                      {
+                          "a":  "1878 წელს, რუსეთ-ოსმალეთის ომის შემდეგ (სან-სტეფანო, ბერლინის კონგრესი).",
+                          "q":  "როდის და როგორ დაუბრუნდა აჭარა საქართველოს?"
+                      },
+                      {
+                          "a":  "1890-იანი წლების მარქსისტული ჯგუფი (ნოე ჟორდანია, ფილიპე მახარაძე).",
+                          "q":  "რა იყო მესამე დასი?"
+                      },
+                      {
+                          "a":  "1907 წელს, წიწამურთან.",
+                          "q":  "როდის და სად მოკლეს ილია ჭავჭავაძე?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "lang":  "ka",
+        "notes":  "# რეფორმების ეპოქა რუსეთის იმპერიაში\n\nყირიმის ომში (1853–1856) დამარცხების შემდეგ იმპერატორმა **ალექსანდრე II**-მ („მეფე-განმათავისუფლებელი“) დაიწყო **დიდი რეფორმები**:\n\n| რეფორმა | რუსეთში | საქართველოში |\n|---|---|---|\n| **ბატონყმობის გაუქმება** | 1861 19 თებერვალი | **1864 13 ოქტომბერი — თბილისის გუბერნიაში**; 1865 ქუთაისის გუბერნიაში; 1866 სამეგრელო; 1871 აფხაზეთი; სვანეთი — 1871 |\n| ადგილობრივი თვითმმართველობა (ზემსტვო) | 1864 | საქართველოში ზემსტვო არ შემოუღიათ; **ქალაქის თვითმმართველობა** — თბილისში 1874 (ქალაქის საბჭო, თავი) |\n| სასამართლო | 1864 — ნაფიც მსაჯულთა სასამართლო | 1868 — ახალი სასამართლოები, ნაფიცი მსაჯულების გარეშე |\n| სამხედრო | 1874 — საყოველთაო სამხედრო ვალდებულება | გავრცელდა შემდგომ |\n\n## ბატონყმობის გაუქმება საქართველოში — პირობები\n\n- გლეხი **პიროვნულად თავისუფალი** გახდა, მაგრამ მიწა **მემამულეს დარჩა**.\n- გლეხს შეეძლო მიწის ნაკვეთის **გამოსყიდვა**; მანამდე იხდიდა **ღალას** ან ასრულებდა **ბეგარას** („დროებით ვალდებული“).\n- **სახასო (სახელმწიფო) გლეხები** უკეთეს მდგომარეობაში იყვნენ.\n- შედეგი: გლეხთა უმიწობა, გამოსყიდვის მძიმე პირობები — უკმაყოფილება; მაგრამ გზა გაეხსნა კაპიტალიზმს და თავისუფალ შრომას.\n\n# ეკონომიკური განვითარება\n\n- **ფოთი–თბილისის რკინიგზა (1872)**, თბილისი–ბაქო (1883), ბათუმის პორტი (1878 წლიდან რუსეთის, პორტო-ფრანკო 1878–1886).\n- **ჭიათურის მარგანეცი** (1879-დან), **ტყიბულის ქვანახშირი**, ბაქოს ნავთობი — ბათუმზე გადის.\n- თბილისი — კავკასიის ადმინისტრაციული და სავაჭრო ცენტრი; ქარხნები, ბანკები (თბილისის სათავადაზნაურო ბანკი, 1875 — ილიას თავმჯდომარეობით).\n- მუშათა კლასის ჩამოყალიბება; მოსახლეობის ეთნიკური ცვლილება ქალაქებში.\n\n# თერგდალეულები — ეროვნული მოძრაობა\n\n**ვინ:** 1860-იან წლებში პეტერბურგის უნივერსიტეტში ნასწავლი ახალგაზრდები, რომლებმაც თერგი (მდინარე) გადალახეს — **ილია ჭავჭავაძე**, **აკაკი წერეთელი**, **ნიკო ნიკოლაძე**, **იაკობ გოგებაშვილი**, კირილე ლორთქიფანიძე, გიორგი წერეთელი.\n\n**„მამათა და შვილთა ბრძოლა“** — თერგდალეულების (შვილები) დაპირისპირება ძველ თაობასთან (მამები — გრიგოლ ორბელიანი და სხვ.) ენის, ლიტერატურისა და საზოგადოებრივი როლის საკითხებზე. ილიას სტატია „ორიოდე სიტყვა თავად რევაზ შალვას ძის ერისთავის მიერ...“ (1861) — ბრძოლის დასაწყისი.\n\n**პროგრამა — ილიას სამი საუნჯე: „მამული, ენა, სარწმუნოება“:**\n\n1. ეროვნული თვითშეგნების გაღვიძება, ქართული ენის დაცვა და განვითარება.\n2. **განათლება** — 1879 **ქართველთა შორის წერა-კითხვის გამავრცელებელი საზოგადოება** (ილია — თავმჯდომარე 1885-დან); იაკობ გოგებაშვილის **„დედა ენა“** (1876) და „ბუნების კარი“.\n3. **პრესა** — ჟურნალი **„საქართველოს მოამბე“** (1863, ილია), გაზეთი **„დროება“** (1866), **„ივერია“** (1877–1906, ილია).\n4. ეკონომიკური დამოუკიდებლობა — ბანკი, თეატრი (ქართული დრამატული საზოგადოება, 1879), ისტორიისა და ეთნოგრაფიის შესწავლა.\n\n**ილია ჭავჭავაძე (1837–1907)** — მწერალი, პუბლიცისტი, საზოგადო მოღვაწე, „ერის მამა“; მოკლეს 1907 წელს წიწამურთან.\n\n# 1870–1890-იანი წლები\n\n- **მესამე დასი** (1890-იანი) — მარქსისტული ჯგუფი (ნოე ჟორდანია, ფილიპე მახარაძე), მუშათა მოძრაობა; **მეორე დასი** — ნიკო ნიკოლაძე, გიორგი წერეთელი (ლიბერალები, ეკონომიკური განვითარება).\n- **1877–1878 რუსეთ-ოსმალეთის ომი** — **აჭარა და ბათუმი** დაუბრუნდა საქართველოს (სან-სტეფანოს ზავი, ბერლინის კონგრესი).\n- რუსიფიკაციის პოლიტიკა (ალექსანდრე III) — ქართული ენის შეზღუდვა სკოლებში; ეროვნული მოძრაობის გაძლიერება.\n\n\u003e **ცნებები:** ბატონყმობა, დროებით ვალდებული გლეხი, გამოსყიდვა, თერგდალეული, მამათა და შვილთა ბრძოლა, რუსიფიკაცია, პორტო-ფრანკო.",
+        "order":  9,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "1864 წლის 13 ოქტომბერი.",
+                         "options":  [
+                                         "1861",
+                                         "1864",
+                                         "1872",
+                                         "1878"
+                                     ],
+                         "q":  "ბატონყმობა თბილისის გუბერნიაში გაუქმდა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "სიმბოლურად — რუსეთის უნივერსიტეტებში განათლებამიღებული თაობა.",
+                         "options":  [
+                                         "თერგის სანაპიროზე ცხოვრობდნენ",
+                                         "რუსეთში სასწავლებლად თერგი გადალახეს",
+                                         "თერგზე იბრძოდნენ",
+                                         "თერგში ბანაობდნენ"
+                                     ],
+                         "q":  "თერგდალეულებს ეწოდებათ, რადგან:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "1861 წლის სტატია რევაზ ერისთავის თარგმანის შესახებ.",
+                         "options":  [
+                                         "1832",
+                                         "1861",
+                                         "1879",
+                                         "1907"
+                                     ],
+                         "q":  "„მამათა და შვილთა ბრძოლა“ დაიწყო ილიას სტატიით:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "1879 წელი.",
+                         "options":  [
+                                         "1863",
+                                         "1872",
+                                         "1879",
+                                         "1885"
+                                     ],
+                         "q":  "წერა-კითხვის გამავრცელებელი საზოგადოება დაარსდა:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "1876 წელს გამოიცა.",
+                         "options":  [
+                                         "ილია ჭავჭავაძე",
+                                         "აკაკი წერეთელი",
+                                         "იაკობ გოგებაშვილი",
+                                         "ნიკო ნიკოლაძე"
+                                     ],
+                         "q":  "„დედა ენის“ ავტორია:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "1877–78 წლების რუსეთ-ოსმალეთის ომის შემდეგ.",
+                         "options":  [
+                                         "1864",
+                                         "1872",
+                                         "1878",
+                                         "1901"
+                                     ],
+                         "q":  "აჭარა საქართველოს დაუბრუნდა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "„ივერია“ 1877–1906 (ასევე „საქართველოს მოამბე“ 1863).",
+                         "options":  [
+                                         "„ცისკარი“",
+                                         "„ივერია“",
+                                         "„კვალი“",
+                                         "„მოგზაური“"
+                                     ],
+                         "q":  "რომელი გაზეთი/ჟურნალი გამოსცემდა ილია ჭავჭავაძე?"
+                     }
+                 ],
+        "subject":  "history",
+        "title":  "საქართველო XIX საუკუნის მეორე ნახევარში: რეფორმები და თერგდალეულები",
+        "updated":  "თავის ნომერი დასაზუსტებელია",
+        "id":  "hist-georgia-1860s"
     },
     {
         "cards":  [
@@ -4418,6 +5513,153 @@
         "title":  "ისტორიული წყაროები და ქრონოლოგია",
         "updated":  "საწყისი ჩანაწერები",
         "id":  "hist-sources"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "იტალიის ეროვნული აღორძინებისა და გაერთიანების მოძრაობა XIX საუკუნეში.",
+                          "q":  "რა არის რისორჯიმენტო?"
+                      },
+                      {
+                          "a":  "პიემონტ-სარდინიის სამეფო.",
+                          "q":  "რომელი სახელმწიფო გახდა იტალიის გაერთიანების ცენტრი?"
+                      },
+                      {
+                          "a":  "მაძინი — იდეოლოგი („ახალგაზრდა იტალია“); კავური — პიემონტის პრემიერი, დიპლომატი; გარიბალდი — სამხედრო ლიდერი, წითელპერანგელები.",
+                          "q":  "მაძინი, კავური, გარიბალდი — თითოეულის როლი?"
+                      },
+                      {
+                          "a":  "1860 წ. გარიბალდის ლაშქრობა სიცილიასა და ნეაპოლში; დაპყრობილი სამხრეთი ვიქტორ-ემანუელ II-ს გადასცა.",
+                          "q":  "რა იყო „ათასის ლაშქრობა“?"
+                      },
+                      {
+                          "a":  "1861 წლის 17 მარტი; ვიქტორ-ემანუელ II.",
+                          "q":  "როდის გამოცხადდა იტალიის სამეფო და ვინ იყო მეფე?"
+                      },
+                      {
+                          "a":  "1870 წელს; 1871-დან დედაქალაქი.",
+                          "q":  "როდის შეუერთდა რომი იტალიას?"
+                      },
+                      {
+                          "a":  "პრუსიის მინისტრ-პრეზიდენტი (1862-დან), შემდეგ გერმანიის კანცლერი; გაერთიანება „რკინითა და სისხლით“ — ომებით.",
+                          "q":  "ვინ იყო ბისმარკი და რა იყო მისი პოლიტიკა?"
+                      },
+                      {
+                          "a":  "1834 წლის საბაჟო კავშირი გერმანულ სახელმწიფოებს შორის პრუსიის გარშემო, ავსტრიის გარეშე.",
+                          "q":  "რა იყო ცოლფერაინი?"
+                      },
+                      {
+                          "a":  "1864 დანიასთან; 1866 ავსტრიასთან; 1870–71 საფრანგეთთან.",
+                          "q":  "გერმანიის გაერთიანების სამი ომი?"
+                      },
+                      {
+                          "a":  "1866, პრუსიამ დაამარცხა ავსტრია; ავსტრია გამოირიცხა გერმანიის საქმეებიდან.",
+                          "q":  "სადოვას ბრძოლა?"
+                      },
+                      {
+                          "a":  "1870 წლის 2 სექტემბერი, ნაპოლეონ III ტყვედ ჩავარდა; საფრანგეთის მეორე იმპერია დაემხო.",
+                          "q":  "სედანის ბრძოლა?"
+                      },
+                      {
+                          "a":  "1871 წლის 18 იანვარს ვერსალის სასახლის სარკეთა დარბაზში; კაიზერი ვილჰელმ I.",
+                          "q":  "როდის და სად გამოცხადდა გერმანიის იმპერია?"
+                      },
+                      {
+                          "a":  "ელზასი და ლოტარინგია — ფრანგულ-გერმანული მტრობის მიზეზი.",
+                          "q":  "რომელი ტერიტორიები დაკარგა საფრანგეთმა 1871 წელს?"
+                      },
+                      {
+                          "a":  "იტალია — დიპლომატია + სახალხო მოძრაობა; გერმანია — პრუსიის ომები.",
+                          "q":  "რით განსხვავდებოდა იტალიისა და გერმანიის გაერთიანების მეთოდი?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "lang":  "ka",
+        "notes":  "# იტალიის გაერთიანება (რისორჯიმენტო, 1859–1870)\n\n**ვითარება:** იტალია დაქუცმაცებული იყო — ჩრდილოეთი (ლომბარდია, ვენეცია) ავსტრიის ხელში; ცენტრში პაპის სახელმწიფო; სამხრეთით ორივე სიცილიის სამეფო (ბურბონები); დამოუკიდებელი და კონსტიტუციური — მხოლოდ **პიემონტ-სარდინიის სამეფო**.\n\n**სამი მთავარი ფიგურა:**\n\n| ვინ | როლი |\n|---|---|\n| **ჯუზეპე მაძინი** | „ახალგაზრდა იტალიის“ დამაარსებელი (1831), რესპუბლიკელი, გაერთიანების იდეოლოგი — „სული“ |\n| **კამილო კავური** | პიემონტის პრემიერ-მინისტრი (1852–61), დიპლომატი, რეფორმატორი — „გონება“ |\n| **ჯუზეპე გარიბალდი** | რევოლუციონერი მეთაური, „წითელპერანგელები“ — „მახვილი“ |\n\n**ეტაპები:**\n\n1. 1858 — კავურის შეთანხმება ნაპოლეონ III-თან (პლომბიერი): საფრანგეთი დაეხმარება ავსტრიის წინააღმდეგ, სანაცვლოდ მიიღებს სავოიასა და ნიცას.\n2. **1859** — ომი ავსტრიასთან: მაჯენტა, სოლფერინო; პიემონტმა მიიღო **ლომბარდია**.\n3. 1860 — ცენტრალური იტალიის სახელმწიფოები პლებისციტით შეუერთდნენ პიემონტს.\n4. **1860** — გარიბალდის „**ათასის ლაშქრობა**“: სიცილია და ნეაპოლი დაიპყრო და ვიქტორ-ემანუელ II-ს გადასცა.\n5. **1861 17 მარტი** — გამოცხადდა **იტალიის სამეფო**, მეფე **ვიქტორ-ემანუელ II**.\n6. 1866 — ვენეცია (ავსტრია-პრუსიის ომის შემდეგ).\n7. **1870** — **რომი** (ფრანგული გარნიზონი წავიდა პრუსიასთან ომის გამო); რომი — დედაქალაქი (1871). პაპი ვატიკანში ჩაიკეტა.\n\n# გერმანიის გაერთიანება (1864–1871)\n\n**ვითარება:** გერმანიის კავშირი — 39 სახელმწიფო; ორი ლიდერი — **ავსტრია** და **პრუსია**. 1834 — **ცოლფერაინი** (საბაჟო კავშირი) პრუსიის გარშემო ავსტრიის გარეშე — ეკონომიკური საფუძველი.\n\n**ოტო ფონ ბისმარკი** — პრუსიის მინისტრ-პრეზიდენტი 1862 წლიდან; პოლიტიკა „**რკინითა და სისხლით**“ (Blut und Eisen): გაერთიანება არა პარლამენტით, არამედ ჯარით და ომებით. მეფე — **ვილჰელმ I**.\n\n**სამი ომი:**\n\n| წელი | ომი | შედეგი |\n|---|---|---|\n| **1864** | დანიასთან (ავსტრიასთან ერთად) | შლეზვიგი და ჰოლშტაინი ჩამოერთვა დანიას |\n| **1866** | ავსტრიასთან („შვიდკვირიანი ომი“) — **სადოვა (კენიგრეცი)** | ავსტრია გამოირიცხა გერმანიის საქმეებიდან; შეიქმნა **ჩრდილოგერმანული კავშირი** პრუსიის ხელმძღვანელობით |\n| **1870–1871** | საფრანგეთთან (ემსის დეპეშა — პროვოკაცია) — **სედანი** (1870 2 სექტემბერი), ნაპოლეონ III ტყვედ ჩავარდა | საფრანგეთმა დაკარგა **ელზასი და ლოტარინგია**; საფრანგეთში — მესამე რესპუბლიკა; **1871 18 იანვარი — ვერსალის სარკეთა დარბაზში გამოცხადდა გერმანიის იმპერია**, კაიზერი ვილჰელმ I, კანცლერი ბისმარკი |\n\n# შედარება\n\n| | იტალია | გერმანია |\n|---|---|---|\n| ცენტრი | პიემონტი | პრუსია |\n| ლიდერი | კავური, გარიბალდი | ბისმარკი |\n| მეთოდი | დიპლომატია + სახალხო მოძრაობა (გარიბალდი) | ომები „რკინითა და სისხლით“ |\n| დასრულება | 1870 (რომი) | 1871 (იმპერია) |\n| მმართველობა | კონსტიტუციური მონარქია | იმპერია ძლიერი კაიზერითა და კანცლერით |\n\n**მნიშვნელობა:** ევროპის რუკაზე გაჩნდა ორი დიდი ეროვნული სახელმწიფო; გერმანია გახდა კონტინენტის უძლიერესი ძალა → ფრანგულ-გერმანული მტრობა (ელზას-ლოტარინგია) → I მსოფლიო ომის ერთ-ერთი წინაპირობა.",
+        "order":  8,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "ბისმარკის 1862 წლის სიტყვა პრუსიის ლანდტაგში.",
+                         "options":  [
+                                         "კავურის",
+                                         "ბისმარკის",
+                                         "გარიბალდის",
+                                         "მეტერნიხის"
+                                     ],
+                         "q":  "„რკინითა და სისხლით“ — ვისი პოლიტიკაა?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "1860, სიცილია და ნეაპოლი.",
+                         "options":  [
+                                         "მაძინიმ",
+                                         "კავურმა",
+                                         "გარიბალდიმ",
+                                         "ვიქტორ-ემანუელმა"
+                                     ],
+                         "q":  "„ათასის ლაშქრობა“ განახორციელა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "1861 წლის 17 მარტი.",
+                         "options":  [
+                                         "1859",
+                                         "1861",
+                                         "1866",
+                                         "1870"
+                                     ],
+                         "q":  "იტალიის სამეფო გამოცხადდა:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "სადოვასთან.",
+                         "options":  [
+                                         "დანია",
+                                         "საფრანგეთი",
+                                         "ავსტრია",
+                                         "რუსეთი"
+                                     ],
+                         "q":  "1866 წლის ომში პრუსიამ დაამარცხა:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "1871 წლის 18 იანვარი, სარკეთა დარბაზი.",
+                         "options":  [
+                                         "ბერლინში",
+                                         "ვენაში",
+                                         "ვერსალში",
+                                         "ფრანკფურტში"
+                                     ],
+                         "q":  "გერმანიის იმპერია გამოცხადდა:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "ფრანგული გარნიზონის წასვლის შემდეგ.",
+                         "options":  [
+                                         "1861",
+                                         "1866",
+                                         "1870",
+                                         "1878"
+                                     ],
+                         "q":  "რომი იტალიის ნაწილი გახდა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "გერმანიის ეკონომიკური გაერთიანება პრუსიის გარშემო.",
+                         "options":  [
+                                         "სამხედრო კავშირი",
+                                         "საბაჟო კავშირი",
+                                         "პარლამენტი",
+                                         "რკინიგზა"
+                                     ],
+                         "q":  "ცოლფერაინი იყო:"
+                     }
+                 ],
+        "subject":  "history",
+        "title":  "იტალიისა და გერმანიის გაერთიანება",
+        "updated":  "თავის ნომერი დასაზუსტებელია",
+        "id":  "hist-unification"
     },
     {
         "cards":  [
@@ -5126,6 +6368,168 @@
     {
         "cards":  [
                       {
+                          "a":  "½ × base × perpendicular height.",
+                          "q":  "Area of a triangle?"
+                      },
+                      {
+                          "a":  "½ (a + b) × h, where a and b are the parallel sides.",
+                          "q":  "Area of a trapezium?"
+                      },
+                      {
+                          "a":  "base × perpendicular height.",
+                          "q":  "Area of a parallelogram?"
+                      },
+                      {
+                          "a":  "A = πr²; C = 2πr = πd.",
+                          "q":  "Area and circumference of a circle?"
+                      },
+                      {
+                          "a":  "(θ/360) × 2πr",
+                          "q":  "Arc length of a sector?"
+                      },
+                      {
+                          "a":  "(θ/360) × πr²",
+                          "q":  "Area of a sector?"
+                      },
+                      {
+                          "a":  "Area of cross-section × length.",
+                          "q":  "Volume of a prism?"
+                      },
+                      {
+                          "a":  "V = πr²h; SA = 2πr² + 2πrh.",
+                          "q":  "Volume and surface area of a cylinder?"
+                      },
+                      {
+                          "a":  "Cone ⅓πr²h; pyramid ⅓ × base area × height.",
+                          "q":  "Volume of a cone? of a pyramid?"
+                      },
+                      {
+                          "a":  "V = 4/3 πr³; SA = 4πr².",
+                          "q":  "Volume and surface area of a sphere?"
+                      },
+                      {
+                          "a":  "πrl, where l is the slant height (find it by Pythagoras).",
+                          "q":  "Curved surface area of a cone?"
+                      },
+                      {
+                          "a":  "2(lw + lh + wh).",
+                          "q":  "Surface area of a cuboid?"
+                      },
+                      {
+                          "a":  "10 000 cm²; 1000 cm³.",
+                          "q":  "1 m² = ? cm². 1 litre = ? cm³."
+                      },
+                      {
+                          "a":  "½ × d₁ × d₂.",
+                          "q":  "Area of a rhombus from its diagonals?"
+                      },
+                      {
+                          "a":  "Arc = ¼ × 2π × 10 = 5π ≈ 15.7; area = ¼ × 100π = 25π ≈ 78.5.",
+                          "q":  "Sector r = 10, θ = 90°: arc and area?"
+                      }
+                  ],
+        "chapter":  7,
+        "exam":  "Exam 1 · October",
+        "notes":  "# Perimeter and area of 2-D shapes\n\n| Shape | Area | Notes |\n|---|---|---|\n| Rectangle | length × width | perimeter = 2(l + w) |\n| Square | side² | |\n| Triangle | ½ × base × **perpendicular** height | use the height at 90° to the base, not a slanted side |\n| Parallelogram | base × perpendicular height | |\n| Trapezium | ½ (a + b) × h | a, b are the parallel sides |\n| Kite / rhombus | ½ × d₁ × d₂ | product of the diagonals |\n| Circle | π r² | circumference = 2πr = πd |\n\n**Compound shapes:** split into rectangles/triangles, find each area, add (or subtract a cut-out). Perimeter = go round the **outside** only — cut-out edges count if they are on the boundary.\n\n**Units:** area is in cm², m², … 1 m² = 10 000 cm² (100 × 100), 1 cm² = 100 mm².\n\n# Circles: arcs and sectors\n\n- **Arc length** = (θ / 360) × 2πr\n- **Sector area** = (θ / 360) × πr²\n- Perimeter of a sector = arc + 2r.\n\nExample: sector with r = 6 cm, θ = 60°: arc = 60/360 × 2π × 6 = 2π ≈ 6.28 cm; area = 60/360 × π × 36 = 6π ≈ 18.8 cm².\n\nLeave answers in terms of π when the question says so; otherwise use the π button and round at the end.\n\n# Volume and surface area of 3-D shapes\n\n| Solid | Volume | Surface area |\n|---|---|---|\n| Cuboid | l × w × h | 2(lw + lh + wh) |\n| Cube | s³ | 6s² |\n| **Prism** (uniform cross-section) | area of cross-section × length | sum of all faces |\n| Cylinder | π r² h | 2πr² + 2πrh (two circles + the curved rectangle) |\n| Pyramid | ⅓ × base area × height | base + triangular faces |\n| Cone | ⅓ π r² h | πr² + πr**l** (l = slant height) |\n| Sphere | 4/3 π r³ | 4πr² |\n| Hemisphere | ⅔ π r³ | 2πr² (+ πr² if the flat face counts) |\n\n**Units:** 1 litre = 1000 cm³; 1 m³ = 1 000 000 cm³; 1 cm³ = 1000 mm³.\n\n**Triangular prism:** volume = (½ × b × h) × length. **Cylinder** is a prism with a circular cross-section.\n\n# Worked examples\n\n1. Trapezium, parallel sides 8 and 12, height 5: A = ½ (8 + 12) × 5 = **50**.\n2. Cylinder r = 4, h = 10: V = π × 16 × 10 = 160π ≈ **502.7 cm³**; SA = 2π(16) + 2π(4)(10) = 32π + 80π = 112π ≈ **351.9 cm²**.\n3. Cone r = 3, h = 4 → slant l = 5 (Pythagoras): V = ⅓ π × 9 × 4 = 12π; curved SA = π × 3 × 5 = 15π.\n4. How many 250 ml cups from a 2-litre jug? 2000 ÷ 250 = **8**.\n\n# Exam tips\n\n- Draw and label the shape; write the formula before substituting.\n- Check the height is **perpendicular**.\n- Don\u0027t round until the final answer; give units (cm² or cm³).\n- For \"find the radius given the area\", rearrange: r = √(A/π).",
+        "order":  7,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "½ × 12 × 5 = 30.",
+                         "options":  [
+                                         "60 cm²",
+                                         "30 cm²",
+                                         "17 cm²",
+                                         "120 cm²"
+                                     ],
+                         "q":  "A triangle has base 12 cm and perpendicular height 5 cm. Its area is:"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "2πr = 14π.",
+                         "options":  [
+                                         "14π",
+                                         "49π",
+                                         "7π",
+                                         "28π"
+                                     ],
+                         "q":  "A circle has radius 7 cm. Its circumference is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "½ × 16 × 4 = 32.",
+                         "options":  [
+                                         "64",
+                                         "40",
+                                         "32",
+                                         "24"
+                                     ],
+                         "q":  "The area of a trapezium with parallel sides 6 and 10 and height 4 is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "π × 4 × 5 = 20π.",
+                         "options":  [
+                                         "10π",
+                                         "20π",
+                                         "40π",
+                                         "4π"
+                                     ],
+                         "q":  "Volume of a cylinder with r = 2 and h = 5:"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "120/360 × 81π = 27π.",
+                         "options":  [
+                                         "27π",
+                                         "81π",
+                                         "9π",
+                                         "54π"
+                                     ],
+                         "q":  "A sector has angle 120° and radius 9. Its area is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "4/3 × π × 27 = 36π.",
+                         "options":  [
+                                         "12π",
+                                         "36π",
+                                         "27π",
+                                         "108π"
+                                     ],
+                         "q":  "A sphere has radius 3. Its volume is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "2(20 + 15 + 12) = 94.",
+                         "options":  [
+                                         "60",
+                                         "94",
+                                         "47",
+                                         "120"
+                                     ],
+                         "q":  "A cuboid is 5 × 4 × 3. Its surface area is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "1 litre = 1000 cm³.",
+                         "options":  [
+                                         "35",
+                                         "350",
+                                         "3500",
+                                         "35 000"
+                                     ],
+                         "q":  "A tank holds 3.5 litres. In cm³ that is:"
+                     }
+                 ],
+        "subject":  "maths",
+        "title":  "Perimeter, area and volume",
+        "updated":  "Chapter notes",
+        "id":  "maths-mensuration"
+    },
+    {
+        "cards":  [
+                      {
                           "a":  "**No.** A prime has exactly two factors. 1 has only one factor (itself).",
                           "q":  "Is 1 a prime number?"
                       },
@@ -5242,6 +6646,481 @@
         "title":  "Number: types, factors, HCF \u0026 LCM",
         "updated":  "Starter notes",
         "id":  "maths-number"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "From 0 (impossible) to 1 (certain), written as a fraction, decimal or percentage.",
+                          "q":  "Probability scale?"
+                      },
+                      {
+                          "a":  "Favourable outcomes ÷ total equally likely outcomes.",
+                          "q":  "Formula for theoretical probability?"
+                      },
+                      {
+                          "a":  "1 − P(A).",
+                          "q":  "P(not A) = ?"
+                      },
+                      {
+                          "a":  "Events that cannot happen at the same time; P(A or B) = P(A) + P(B).",
+                          "q":  "What are mutually exclusive events?"
+                      },
+                      {
+                          "a":  "Number of times an event occurs ÷ number of trials (experimental probability).",
+                          "q":  "Define relative frequency."
+                      },
+                      {
+                          "a":  "It gets closer to the true (theoretical) probability.",
+                          "q":  "How does relative frequency change with more trials?"
+                      },
+                      {
+                          "a":  "Probability × number of trials.",
+                          "q":  "Expected frequency formula?"
+                      },
+                      {
+                          "a":  "36 (6 × 6). Use a sample space grid.",
+                          "q":  "How many outcomes when two dice are rolled?"
+                      },
+                      {
+                          "a":  "6/36 = 1/6.",
+                          "q":  "P(total of 7 with two dice)?"
+                      },
+                      {
+                          "a":  "P(A and B) = P(A) × P(B).",
+                          "q":  "Rule for independent events A and B?"
+                      },
+                      {
+                          "a":  "Multiply along a path (and); add different paths (or).",
+                          "q":  "On a tree diagram, when do you multiply and when add?"
+                      },
+                      {
+                          "a":  "4/10 × 3/9 = 12/90 = 2/15.",
+                          "q":  "Bag: 4 white, 6 black, no replacement. P(white then white)?"
+                      },
+                      {
+                          "a":  "P(A) + P(B) − P(A ∩ B).",
+                          "q":  "P(A ∪ B) formula?"
+                      },
+                      {
+                          "a":  "4/52 = 1/13.",
+                          "q":  "P(ace from a pack of 52)?"
+                      }
+                  ],
+        "chapter":  8,
+        "exam":  "Exam 1 · October",
+        "notes":  "# Basics\n\n**Probability** measures how likely an event is, from **0** (impossible) to **1** (certain). Write it as a fraction, decimal or percentage — never as \"1 in 6\" or a ratio in exam answers.\n\n\u003e **P(event) = number of favourable outcomes ÷ total number of equally likely outcomes**\n\n- Rolling a 3 on a fair die: 1/6. Rolling an even number: 3/6 = 1/2.\n- Picking a red card from a pack of 52: 26/52 = 1/2. Picking an ace: 4/52 = 1/13.\n\n**Complement:** P(not A) = 1 − P(A). If P(rain) = 0.3, P(no rain) = 0.7.\n\n**Mutually exclusive** events cannot happen together (rolling a 2 and rolling a 5). For mutually exclusive events **P(A or B) = P(A) + P(B)**. The probabilities of all possible outcomes add up to **1**.\n\n# Experimental probability (relative frequency)\n\n**Relative frequency = number of times the event happened ÷ number of trials.**\n\n- A drawing pin lands point-up 32 times in 50 throws → relative frequency = 0.64.\n- More trials → the relative frequency gets **closer to the true probability**.\n- **Expected number** of outcomes = probability × number of trials. A die rolled 300 times: expect a six 300 × 1/6 = **50** times.\n- Use relative frequency to test if a die or coin is **biased**.\n\n# Listing outcomes\n\n**Sample space diagram / possibility space** for two dice: a 6 × 6 grid = **36 equally likely outcomes**.\n\n- P(total = 7) = 6/36 = 1/6 (1+6, 2+5, 3+4, 4+3, 5+2, 6+1).\n- P(both the same) = 6/36 = 1/6.\n- P(total \u003e 10) = 3/36 = 1/12 (5+6, 6+5, 6+6).\n\nTwo coins: HH, HT, TH, TT → P(exactly one head) = 2/4 = 1/2.\n\n# Combined events (introduction — full treatment in Chapter 24)\n\n- **Independent** events: one does not affect the other (coin then die). **P(A and B) = P(A) × P(B).** P(head and 6) = ½ × 1/6 = 1/12.\n- **Tree diagrams:** write probabilities on branches; multiply along a path (\"and\"); add the paths you want (\"or\"). Each set of branches from a point adds to 1.\n\nExample: bag with 3 red and 2 blue; pick one, replace it, pick again. P(red, red) = 3/5 × 3/5 = 9/25. P(one of each) = (3/5 × 2/5) + (2/5 × 3/5) = 12/25.\n\n**Without replacement** the second probability changes: P(red, red) = 3/5 × 2/4 = 6/20 = 3/10.\n\n# Venn diagram probabilities\n\nP(A ∩ B) = both; P(A ∪ B) = either or both. From a Venn diagram, probability = numbers in the region ÷ total. **P(A ∪ B) = P(A) + P(B) − P(A ∩ B)**.\n\n# Common errors\n\n- Writing 1 : 6 instead of 1/6.\n- Forgetting the total changes when picking without replacement.\n- Adding when you should multiply (\"and\" = multiply, \"or\" = add for exclusive events).",
+        "order":  8,
+        "quiz":  [
+                     {
+                         "answer":  0,
+                         "explain":  "5 non-red out of 10.",
+                         "options":  [
+                                         "1/2",
+                                         "5/10",
+                                         "3/10",
+                                         "1/5"
+                                     ],
+                         "q":  "A bag has 5 red, 3 blue and 2 green counters. P(not red) ="
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "1 − 0.75 = 0.25.",
+                         "options":  [
+                                         "0.75",
+                                         "0.25",
+                                         "0.05",
+                                         "0.65"
+                                     ],
+                         "q":  "A spinner has P(red) = 0.35 and P(blue) = 0.4. P(neither) ="
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "90 ÷ 200 = 0.45.",
+                         "options":  [
+                                         "0.9",
+                                         "0.45",
+                                         "0.5",
+                                         "90"
+                                     ],
+                         "q":  "A coin is flipped 200 times and lands heads 90 times. The relative frequency of heads is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "600 × 1/6 = 100.",
+                         "options":  [
+                                         "60",
+                                         "100",
+                                         "150",
+                                         "400"
+                                     ],
+                         "q":  "A fair die is rolled 600 times. Expected number of 4s:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "1/6 × 1/6.",
+                         "options":  [
+                                         "1/6",
+                                         "1/12",
+                                         "1/36",
+                                         "2/6"
+                                     ],
+                         "q":  "Two dice are rolled. P(both show 6) ="
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "1/2 × 3/6 = 1/4.",
+                         "options":  [
+                                         "1/2",
+                                         "1/4",
+                                         "1/3",
+                                         "2/3"
+                                     ],
+                         "q":  "P(head on a coin AND an even number on a die) ="
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "3/6 × 2/5 = 6/30 = 1/5.",
+                         "options":  [
+                                         "1/4",
+                                         "1/5",
+                                         "1/6",
+                                         "1/2"
+                                     ],
+                         "q":  "A bag has 3 red and 3 blue balls. Two are taken without replacement. P(red, red) ="
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Fractions, decimals or percentages only.",
+                         "options":  [
+                                         "1 in 4",
+                                         "1 : 4",
+                                         "0.25",
+                                         "1 out of 4 chance"
+                                     ],
+                         "q":  "Which is a correct way to write a probability?"
+                     }
+                 ],
+        "subject":  "maths",
+        "title":  "Introduction to probability",
+        "updated":  "Chapter notes",
+        "id":  "maths-probability"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "4n + 3",
+                          "q":  "nth term of 7, 11, 15, 19 …?"
+                      },
+                      {
+                          "a":  "−4n + 34 (or 34 − 4n)",
+                          "q":  "nth term of 30, 26, 22, 18 …?"
+                      },
+                      {
+                          "a":  "difference × n + (first term − difference).",
+                          "q":  "How do you find the nth term of a linear sequence?"
+                      },
+                      {
+                          "a":  "The second differences are constant; nth term contains n² (coefficient = second difference ÷ 2).",
+                          "q":  "How do you recognise a quadratic sequence?"
+                      },
+                      {
+                          "a":  "n² + 2n (differences 5, 7, 9, 11; second difference 2; subtract n² leaves 2, 4, 6, 8 = 2n).",
+                          "q":  "nth term of 3, 8, 15, 24, 35 …?"
+                      },
+                      {
+                          "a":  "1, 3, 6, 10, 15; ½n(n + 1).",
+                          "q":  "First five triangular numbers and formula?"
+                      },
+                      {
+                          "a":  "5 × 2ⁿ⁻¹",
+                          "q":  "nth term of a geometric sequence 5, 10, 20, 40?"
+                      },
+                      {
+                          "a":  "A root that cannot be written as an exact fraction or terminating decimal, e.g. √2.",
+                          "q":  "What is a surd?"
+                      },
+                      {
+                          "a":  "√(16 × 3) = 4√3",
+                          "q":  "Simplify √48."
+                      },
+                      {
+                          "a":  "2√2 + 3√2 = 5√2",
+                          "q":  "Simplify √8 + √18."
+                      },
+                      {
+                          "a":  "10√5 ÷ 5 = 2√5",
+                          "q":  "Rationalise 10/√5."
+                      },
+                      {
+                          "a":  "9 − 2 = 7",
+                          "q":  "Expand (3 + √2)(3 − √2)."
+                      },
+                      {
+                          "a":  "Intersection (in both), union (in either or both), complement (not in A).",
+                          "q":  "Meaning of A ∩ B, A ∪ B, A′?"
+                      },
+                      {
+                          "a":  "The universal set: all elements under consideration.",
+                          "q":  "What is ξ?"
+                      },
+                      {
+                          "a":  "A is a subset of B — every element of A is also in B.",
+                          "q":  "What does A ⊂ B mean?"
+                      },
+                      {
+                          "a":  "Tea only 8, coffee only 6, both 6 → 20 → neither = 5.",
+                          "q":  "25 people: 14 like tea, 12 like coffee, 6 like both. How many like neither?"
+                      }
+                  ],
+        "chapter":  9,
+        "exam":  "Exam 1 · October",
+        "notes":  "# Sequences\n\nA **sequence** is an ordered list of numbers (terms). The **nth term** is a formula that gives any term from its position n.\n\n## Linear (arithmetic) sequences — constant difference\n\n5, 8, 11, 14, … difference **+3** → nth term = **3n + 2** (check: n = 1 → 5 ✓).\n\n**Method:** nth term = (difference) × n + (first term − difference). For 20, 17, 14, …: difference −3 → −3n + 23.\n\n- \"Is 62 in the sequence 3n + 2?\" → 3n + 2 = 62 → n = 20, a whole number → **yes**, it is the 20th term.\n\n## Quadratic sequences — constant second difference\n\n2, 6, 12, 20, 30 … first differences 4, 6, 8, 10; second difference **2** → nth term starts with **n²** (second difference ÷ 2 = 1). Subtract n² from each term: 1, 2, 3, 4, 5 = n → nth term **n² + n**.\n\nIf the second difference is 4, the nth term starts 2n²; if 6, 3n².\n\n## Other sequences\n\n- **Square numbers** n²: 1, 4, 9, 16 … **Cube numbers** n³: 1, 8, 27 … **Triangular numbers** ½n(n+1): 1, 3, 6, 10, 15 …\n- **Geometric:** multiply by a constant ratio each time: 3, 6, 12, 24 (×2) → nth term 3 × 2ⁿ⁻¹.\n- **Fibonacci:** each term is the sum of the previous two: 1, 1, 2, 3, 5, 8, 13.\n- **Term-to-term rule** (e.g. \"add 4\") vs **position-to-term rule** (the nth term).\n\n# Surds (Extended)\n\nA **surd** is a root that cannot be written exactly as a fraction or terminating decimal: √2, √3, √5 (but √4 = 2 and √9 = 3 are not surds).\n\n**Rules:** √a × √b = √(ab);  √a ÷ √b = √(a/b);  (√a)² = a. **But** √a + √b ≠ √(a+b).\n\n- **Simplify:** find the largest square factor. √50 = √(25 × 2) = **5√2**. √72 = √(36 × 2) = 6√2. √12 + √27 = 2√3 + 3√3 = 5√3.\n- **Expand:** (2 + √3)(2 − √3) = 4 − 3 = **1** (difference of two squares). (1 + √2)² = 1 + 2√2 + 2 = 3 + 2√2.\n- **Rationalise the denominator** (no surd on the bottom): 6/√3 = 6√3/3 = **2√3**. 1/(2 + √3): multiply top and bottom by (2 − √3) → (2 − √3)/1 = 2 − √3.\n\n# Sets\n\n**Notation**\n\n| Symbol | Meaning | Example |\n|---|---|---|\n| A = {…} | the set with elements … | A = {2, 4, 6, 8} |\n| ξ (or 𝒰) | universal set — everything being considered | ξ = {1, 2, …, 10} |\n| n(A) | number of elements in A | n(A) = 4 |\n| ∈ / ∉ | is / is not an element of | 4 ∈ A, 5 ∉ A |\n| A ∩ B | **intersection** — in both | |\n| A ∪ B | **union** — in A or B or both | |\n| A′ | **complement** — not in A | |\n| ∅ or { } | empty set | |\n| A ⊂ B | A is a **subset** of B (every element of A is in B) | |\n\n**Venn diagrams:** two overlapping circles inside a rectangle (ξ). Put the intersection numbers in first, then work outwards; anything in neither set goes outside the circles.\n\nExample: 30 students; 18 study French (F), 15 Spanish (S), 8 both. Both = 8; French only = 10; Spanish only = 7; neither = 30 − 25 = **5**. n(F ∪ S) = 25; n(F′) = 12.\n\n**Set-builder notation:** {x : x is an even number less than 10} = {2, 4, 6, 8}.",
+        "order":  9,
+        "quiz":  [
+                     {
+                         "answer":  0,
+                         "explain":  "Difference 7; 7 × 1 − 5 = 2.",
+                         "options":  [
+                                         "7n − 5",
+                                         "7n + 2",
+                                         "n + 7",
+                                         "2n + 7"
+                                     ],
+                         "q":  "The nth term of 2, 9, 16, 23 … is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "5n − 1 = 50 → n = 10.2, not a whole number.",
+                         "options":  [
+                                         "24",
+                                         "39",
+                                         "50",
+                                         "99"
+                                     ],
+                         "q":  "Which number is NOT in the sequence 5n − 1?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Square numbers.",
+                         "options":  [
+                                         "2n − 1",
+                                         "n²",
+                                         "n + 3",
+                                         "3n − 2"
+                                     ],
+                         "q":  "The sequence 1, 4, 9, 16, 25 has nth term:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "√(25 × 3) = 5√3.",
+                         "options":  [
+                                         "3√5",
+                                         "5√3",
+                                         "25√3",
+                                         "√25 + √3"
+                                     ],
+                         "q":  "√75 simplifies to:"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "4√2 ÷ 2 = 2√2.",
+                         "options":  [
+                                         "2√2",
+                                         "4√2",
+                                         "√2",
+                                         "8"
+                                     ],
+                         "q":  "4/√2 with a rational denominator is:"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "Only 6 is in both.",
+                         "options":  [
+                                         "{6}",
+                                         "{2, 3, 4, 6, 8, 9, 10}",
+                                         "{3, 9}",
+                                         "∅"
+                                     ],
+                         "q":  "ξ = {1,…,10}, A = {2, 4, 6, 8, 10}, B = {3, 6, 9}. A ∩ B ="
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "{2, 3, 4, 6, 8, 9, 10} has 7 elements.",
+                         "options":  [
+                                         "5",
+                                         "7",
+                                         "8",
+                                         "3"
+                                     ],
+                         "q":  "With the sets above, n(A ∪ B) ="
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "½ × 6 × 7 = 21.",
+                         "options":  [
+                                         "15",
+                                         "18",
+                                         "21",
+                                         "36"
+                                     ],
+                         "q":  "The 6th triangular number is:"
+                     }
+                 ],
+        "subject":  "maths",
+        "title":  "Sequences, surds and sets",
+        "updated":  "Chapter notes",
+        "id":  "maths-sequences"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Renewable: replaced as fast as it is used, will not run out (wind, solar). Non-renewable: finite, will run out (coal, oil, gas, uranium).",
+                          "q":  "Renewable vs non-renewable?"
+                      },
+                      {
+                          "a":  "Chemical (fuel) → thermal (steam) → kinetic (turbine) → electrical (generator).",
+                          "q":  "Energy transfers in a fossil-fuel power station?"
+                      },
+                      {
+                          "a":  "CO₂ → global warming; sulfur dioxide → acid rain (also mining damage, oil spills).",
+                          "q":  "Two environmental problems of burning fossil fuels?"
+                      },
+                      {
+                          "a":  "Nuclear fission of uranium-235 releases thermal energy to make steam.",
+                          "q":  "How does a nuclear power station release energy?"
+                      },
+                      {
+                          "a":  "Radioactive waste that stays dangerous for thousands of years (also accident risk, cost).",
+                          "q":  "Main disadvantage of nuclear power?"
+                      },
+                      {
+                          "a":  "Nuclear fusion — hydrogen nuclei join to form helium.",
+                          "q":  "How does the Sun release its energy?"
+                      },
+                      {
+                          "a":  "Geothermal, nuclear, tidal.",
+                          "q":  "Which three energy resources do NOT come from the Sun?"
+                      },
+                      {
+                          "a":  "Solar cell: light → electricity directly. Solar panel: sunlight heats water.",
+                          "q":  "Solar cell vs solar heating panel?"
+                      },
+                      {
+                          "a":  "No pollution and free fuel; but unreliable (needs wind), noisy, spoils views.",
+                          "q":  "Advantage and disadvantage of wind power?"
+                      },
+                      {
+                          "a":  "Reliable and quick to switch on; but floods valleys and destroys habitats.",
+                          "q":  "Advantage and disadvantage of hydroelectric power?"
+                      },
+                      {
+                          "a":  "Water is pumped into hot rocks underground and returns as steam to drive turbines.",
+                          "q":  "How does geothermal energy work?"
+                      },
+                      {
+                          "a":  "The CO₂ released when burned equals the CO₂ absorbed while the plants grew (if replanted).",
+                          "q":  "Why are biofuels called carbon-neutral?"
+                      },
+                      {
+                          "a":  "The Sun heats the air unevenly, creating pressure differences that drive winds.",
+                          "q":  "Why is wind energy really solar energy?"
+                      },
+                      {
+                          "a":  "It can supply power whenever it is needed, regardless of weather or time of day.",
+                          "q":  "What does \u0027reliable\u0027 mean for an energy resource?"
+                      },
+                      {
+                          "a":  "About 35%; most energy is dissipated as thermal energy in cooling towers.",
+                          "q":  "Efficiency of a typical coal power station?"
+                      }
+                  ],
+        "chapter":  7,
+        "exam":  "Exam 1 · October",
+        "notes":  "# Where our energy comes from\n\nAlmost all energy resources on Earth come originally from the **Sun** — the exceptions are **geothermal**, **nuclear** and **tidal** energy.\n\n- **Renewable:** will not run out (replaced naturally as fast as we use it).\n- **Non-renewable:** finite; will run out (fossil fuels, nuclear fuel).\n\n# Fossil fuels — coal, oil, natural gas\n\n- Formed from the remains of plants and animals over millions of years; the energy was originally stored by photosynthesis (from the Sun).\n- **Burned** in a power station: chemical → thermal (boiler makes steam) → kinetic (turbine) → electrical (generator).\n- **Advantages:** reliable, available at any time, high energy output, existing infrastructure.\n- **Disadvantages:** non-renewable; **CO₂** (global warming); **sulfur dioxide** (acid rain); mining damage; oil spills.\n\n# Nuclear\n\n- **Nuclear fission** of uranium-235 releases huge amounts of thermal energy; the rest of the power station is the same as a fossil-fuel one.\n- Advantages: no CO₂ during operation, very large energy from a tiny mass of fuel, reliable.\n- Disadvantages: **radioactive waste** stays dangerous for thousands of years, risk of accidents (Chernobyl 1986, Fukushima 2011), expensive to build and decommission, non-renewable fuel.\n- The **Sun** releases energy by **nuclear fusion** (hydrogen nuclei join to make helium) — the source of solar, wind, wave, hydro and biofuel energy.\n\n# Renewable resources\n\n| Resource | How it works | Advantages | Disadvantages |\n|---|---|---|---|\n| **Solar cells (photovoltaic)** | Light → electricity directly | No pollution, no fuel, works in remote places | Only in daylight; weather-dependent; large area; expensive per unit |\n| **Solar heating panels** | Sunlight heats water in black pipes | Simple, cheap to run | Weather and daytime only |\n| **Wind** | Wind turns turbine blades → generator | No pollution, cheap once built | Unreliable (no wind = no power); noise; spoils views; kills birds |\n| **Hydroelectric** | Water stored behind a dam flows through turbines | Reliable, can respond fast to demand, large output | Floods valleys, destroys habitats, only in hilly wet areas |\n| **Tidal** | Tides flow through turbines in a barrage | Predictable, large | Few suitable sites, affects estuary wildlife, expensive |\n| **Wave** | Wave motion drives generators | No pollution | Hard to build, damaged by storms, small output |\n| **Geothermal** | Cold water pumped into hot rocks underground, steam returns | Reliable, no CO₂ | Only where rocks are hot near the surface (Iceland, New Zealand) |\n| **Biofuels (biomass)** | Burn wood, plant oils, ethanol from sugar cane, methane from waste | Renewable, carbon-neutral if replanted | Land used for fuel instead of food; still produces CO₂ when burned |\n\n# Comparing resources — what examiners ask\n\n- **Reliability:** can it supply power on demand? (fossil, nuclear, hydro, geothermal: yes; wind, solar, wave: no)\n- **Environmental impact:** CO₂, other pollution, land use, wildlife.\n- **Cost:** building (capital) vs running; renewables cost a lot to build but little to run.\n- **Scale / power output:** a nuclear station gives thousands of MW; a wind turbine a few MW.\n\n# Efficiency of power stations\n\nA typical coal power station is about 35% efficient — most energy is wasted as thermal energy in the cooling towers. Combined-cycle gas stations reach ~55%. Hydroelectric can be ~90%.\n\n# The Sun as the ultimate source\n\n- Fossil fuels → ancient photosynthesis.\n- Wind → Sun heats air unevenly → pressure differences.\n- Waves → wind. Hydro → Sun evaporates water → rain fills reservoirs.\n- Biofuels → photosynthesis now.\n- **Not from the Sun:** geothermal (radioactive decay inside the Earth), nuclear (uranium), tidal (Moon\u0027s gravity).",
+        "order":  7,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "Fossil fuels take millions of years to form.",
+                         "options":  [
+                                         "Wind",
+                                         "Tidal",
+                                         "Natural gas",
+                                         "Geothermal"
+                                     ],
+                         "q":  "Which energy resource is non-renewable?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Tides are caused by the Moon\u0027s gravity.",
+                         "options":  [
+                                         "Hydroelectric",
+                                         "Biofuel",
+                                         "Tidal",
+                                         "Wind"
+                                     ],
+                         "q":  "Which does NOT get its energy from the Sun?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "SO₂ from burning coal and oil dissolves in rain.",
+                         "options":  [
+                                         "Carbon dioxide",
+                                         "Sulfur dioxide",
+                                         "Oxygen",
+                                         "Water vapour"
+                                     ],
+                         "q":  "Acid rain is mainly caused by:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Fusion of hydrogen into helium.",
+                         "options":  [
+                                         "Burning hydrogen",
+                                         "Nuclear fission",
+                                         "Nuclear fusion",
+                                         "Chemical reactions"
+                                     ],
+                         "q":  "The energy in the Sun comes from:"
+                     },
+                     {
+                         "answer":  3,
+                         "explain":  "Stored water can be released whenever power is needed.",
+                         "options":  [
+                                         "Solar",
+                                         "Wind",
+                                         "Wave",
+                                         "Hydroelectric"
+                                     ],
+                         "q":  "Which is the MOST reliable renewable resource?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Waste must be stored safely for thousands of years.",
+                         "options":  [
+                                         "They produce a lot of CO₂",
+                                         "They produce radioactive waste",
+                                         "They only work in daylight",
+                                         "They need wind"
+                                     ],
+                         "q":  "A disadvantage of nuclear power stations is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Photovoltaic cells produce electricity directly from light.",
+                         "options":  [
+                                         "Light to thermal energy",
+                                         "Light to electrical energy",
+                                         "Thermal to electrical",
+                                         "Chemical to electrical"
+                                     ],
+                         "q":  "Solar cells convert:"
+                     }
+                 ],
+        "subject":  "physics",
+        "title":  "Energy resources",
+        "updated":  "Chapter notes",
+        "id":  "phys-energy-resources"
     },
     {
         "cards":  [
@@ -5886,6 +7765,157 @@
     {
         "cards":  [
                       {
+                          "a":  "Far apart, negligible forces, moving fast and randomly in straight lines between collisions.",
+                          "q":  "Describe particles in a gas."
+                      },
+                      {
+                          "a":  "Gas particles have large spaces between them; solid particles are already touching.",
+                          "q":  "Why can gases be compressed but solids cannot?"
+                      },
+                      {
+                          "a":  "The random zig-zag movement of smoke particles (or pollen) caused by collisions with fast-moving, invisible air (or water) molecules.",
+                          "q":  "What is Brownian motion?"
+                      },
+                      {
+                          "a":  "That gas/liquid molecules are in constant random motion and are much smaller and faster than the visible particles.",
+                          "q":  "What does Brownian motion prove?"
+                      },
+                      {
+                          "a":  "The average kinetic energy of the particles.",
+                          "q":  "What is temperature a measure of?"
+                      },
+                      {
+                          "a":  "−273 °C (0 K): the lowest possible temperature, where particles have minimum energy.",
+                          "q":  "What is absolute zero?"
+                      },
+                      {
+                          "a":  "298 K; 77 °C.",
+                          "q":  "Convert 25 °C to kelvin; 350 K to °C."
+                      },
+                      {
+                          "a":  "Particles colliding with the container walls, exerting a force over the wall area.",
+                          "q":  "What causes gas pressure?"
+                      },
+                      {
+                          "a":  "Particles move faster, so they hit the walls harder and more often.",
+                          "q":  "Why does pressure rise when a gas is heated at constant volume?"
+                      },
+                      {
+                          "a":  "Particles have less space, so they hit the walls more often.",
+                          "q":  "Why does pressure rise when volume is reduced at constant temperature?"
+                      },
+                      {
+                          "a":  "For a fixed mass of gas at constant temperature, pressure × volume is constant: p₁V₁ = p₂V₂.",
+                          "q":  "State Boyle\u0027s law."
+                      },
+                      {
+                          "a":  "100 × 200 = 400 × V → V = 50 cm³.",
+                          "q":  "200 cm³ at 100 kPa → volume at 400 kPa?"
+                      },
+                      {
+                          "a":  "The most energetic molecules escape from the surface, lowering the average kinetic energy (temperature) of those left.",
+                          "q":  "Why does evaporation cool a liquid?"
+                      },
+                      {
+                          "a":  "Higher temperature, larger surface area, moving air (draught).",
+                          "q":  "Three factors that speed up evaporation?"
+                      },
+                      {
+                          "a":  "Evaporation: surface only, any temperature, no bubbles. Boiling: throughout the liquid, at the boiling point, bubbles form.",
+                          "q":  "Evaporation vs boiling?"
+                      }
+                  ],
+        "chapter":  9,
+        "exam":  "Exam 1 · October",
+        "notes":  "# States of matter\n\n| | Solid | Liquid | Gas |\n|---|---|---|---|\n| Arrangement | Regular, close-packed | Close, random | Far apart, random |\n| Motion | Vibrate about fixed positions | Move around each other | Fast, random, in straight lines between collisions |\n| Forces between particles | Strong | Weaker | Negligible |\n| Density | High | High | Low (~1000× less) |\n| Compressible? | No | No | Yes |\n\n**Changes of state:** melting/freezing (solid ↔ liquid, at the melting point); boiling/condensing (liquid ↔ gas, at the boiling point); evaporation (liquid → gas from the surface at any temperature). During a change of state the **temperature stays constant** while energy is used to break (or form) bonds.\n\n# Brownian motion — evidence for the kinetic model\n\n- Smoke particles in air (or pollen in water) seen through a microscope move in a **random, jerky, zig-zag** way.\n- Explanation: the smoke particles are hit by **fast-moving, invisible air molecules** from random directions. The air molecules are far smaller and lighter than the smoke particles but move very fast.\n- Shows that gas molecules are in constant random motion.\n\n# Temperature and the kinetic model\n\n- Heating a substance gives its particles more **kinetic energy** — they move (or vibrate) faster.\n- **Temperature** is a measure of the **average kinetic energy** of the particles.\n- **Absolute zero** (−273 °C = 0 K) is the temperature at which particles have the **least possible** energy.\n- **Kelvin scale:** T(K) = θ(°C) + 273. A change of 1 K = a change of 1 °C. 20 °C = 293 K; 300 K = 27 °C.\n\n# Gas pressure\n\nGas particles collide with the walls of their container; each collision exerts a tiny force. **Pressure = total force of collisions ÷ wall area.**\n\n| Change | What happens to particles | Effect on pressure |\n|---|---|---|\n| **Increase temperature** (fixed volume) | Move faster → hit walls harder and more often | Pressure **increases** |\n| **Decrease volume** (fixed temperature) | Same speed but less space → hit walls more often | Pressure **increases** |\n| **Increase temperature** (free to expand, fixed pressure) | Faster particles push the walls outward | Volume **increases** |\n\n**Boyle\u0027s law** (fixed mass of gas at constant temperature): **p V = constant** → **p₁V₁ = p₂V₂**\n\nExample: 100 cm³ of gas at 150 kPa is compressed to 60 cm³ → p₂ = 150 × 100 / 60 = **250 kPa**.\n\nA graph of p against V is a curve (inverse proportion); p against 1/V is a straight line through the origin.\n\n# Evaporation\n\n- The **most energetic** molecules at the surface escape → the average energy of the remaining liquid **falls** → the liquid **cools**. This is why sweating cools you and why you feel cold after swimming.\n- Evaporation is faster with: higher **temperature**, larger **surface area**, a **draught** (moving air removes vapour), lower humidity.\n- **Evaporation vs boiling:** evaporation happens only at the surface, at any temperature, slowly; boiling happens throughout the liquid, only at the boiling point, with bubbles.",
+        "order":  9,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "Brownian motion.",
+                         "options":  [
+                                         "They are alive",
+                                         "Air molecules bump into them from random directions",
+                                         "They are charged",
+                                         "Light pushes them"
+                                     ],
+                         "q":  "Smoke particles are seen jiggling randomly under a microscope because:"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "−73 + 273 = 200 K.",
+                         "options":  [
+                                         "200 K",
+                                         "346 K",
+                                         "73 K",
+                                         "−346 K"
+                                     ],
+                         "q":  "−73 °C in kelvin is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Faster particles collide harder and more often with the walls.",
+                         "options":  [
+                                         "Falls",
+                                         "Stays the same",
+                                         "Rises",
+                                         "Becomes zero"
+                                     ],
+                         "q":  "A gas in a sealed rigid container is heated. Its pressure:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "120 × 300 ÷ 100 = 360 kPa.",
+                         "options":  [
+                                         "40 kPa",
+                                         "360 kPa",
+                                         "120 kPa",
+                                         "36 kPa"
+                                     ],
+                         "q":  "A gas at 120 kPa occupies 300 cm³. At constant temperature it is compressed to 100 cm³. New pressure:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "0 K is the lowest possible temperature.",
+                         "options":  [
+                                         "Move fastest",
+                                         "Have the least possible energy",
+                                         "Turn into gas",
+                                         "Have infinite energy"
+                                     ],
+                         "q":  "At absolute zero, particles:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "A draught speeds up evaporation.",
+                         "options":  [
+                                         "Wind heats the water",
+                                         "Moving air removes water vapour so more molecules can escape",
+                                         "Wind makes water boil",
+                                         "Wind increases humidity"
+                                     ],
+                         "q":  "Wet clothes dry faster on a windy day because:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "pV = constant gives a hyperbola.",
+                         "options":  [
+                                         "A straight line through the origin",
+                                         "A straight horizontal line",
+                                         "A curve showing inverse proportion",
+                                         "A straight line with positive gradient"
+                                     ],
+                         "q":  "A graph of pressure against volume for a fixed mass of gas at constant temperature is:"
+                     }
+                 ],
+        "subject":  "physics",
+        "title":  "The kinetic particle model of matter",
+        "updated":  "Chapter notes",
+        "id":  "phys-kinetic-model"
+    },
+    {
+        "cards":  [
+                      {
                           "a":  "metre (m), kilogram (kg), second (s).",
                           "q":  "SI units for length, mass, time?"
                       },
@@ -6277,6 +8307,149 @@
         "title":  "Turning effects",
         "updated":  "Chapter notes",
         "id":  "phys-turning"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "When a force moves an object in the direction of the force.",
+                          "q":  "When is work done?"
+                      },
+                      {
+                          "a":  "W = F × d (joules = newtons × metres).",
+                          "q":  "Formula for work done?"
+                      },
+                      {
+                          "a":  "No — there is a force but no distance moved.",
+                          "q":  "Is work done holding a 10 kg box still?"
+                      },
+                      {
+                          "a":  "25 × 8 = 200 J",
+                          "q":  "Work done pushing with 25 N for 8 m?"
+                      },
+                      {
+                          "a":  "The rate of doing work, or the rate of energy transfer: P = W/t.",
+                          "q":  "Define power."
+                      },
+                      {
+                          "a":  "Watt (W) = one joule per second.",
+                          "q":  "Unit of power and its meaning?"
+                      },
+                      {
+                          "a":  "1000 W; 1 000 000 W.",
+                          "q":  "1 kW in W? 1 MW in W?"
+                      },
+                      {
+                          "a":  "3000/6 = 500 W",
+                          "q":  "A motor does 3000 J of work in 6 s. Power?"
+                      },
+                      {
+                          "a":  "100 × 60 = 6000 J",
+                          "q":  "Energy transferred by a 100 W lamp in 1 minute?"
+                      },
+                      {
+                          "a":  "Power = weight × vertical height ÷ time taken; measure mass, height of stairs and time.",
+                          "q":  "How would you measure your power running upstairs?"
+                      },
+                      {
+                          "a":  "Force = 40 N; W = 40 × 3 = 120 J (= GPE gained).",
+                          "q":  "Work done lifting 4 kg by 3 m (g = 10 N/kg)?"
+                      },
+                      {
+                          "a":  "1500 × 600 = 900 000 J = 900 kJ",
+                          "q":  "A 1.5 kW heater runs for 10 minutes. Energy?"
+                      },
+                      {
+                          "a":  "Work done = energy transferred (both in joules).",
+                          "q":  "What is the link between work and energy?"
+                      }
+                  ],
+        "chapter":  8,
+        "exam":  "Exam 1 · October",
+        "notes":  "# Work done\n\nIn physics, **work is done when a force moves an object in the direction of the force**. Work done = energy transferred.\n\n\u003e **W = F × d**   work (J) = force (N) × distance moved in the direction of the force (m)\n\n- 1 joule = the work done when a force of 1 N moves something 1 m.\n- Holding a heavy bag still does **no work** in the physics sense — no distance moved.\n- Carrying a bag horizontally at constant speed does no work against gravity (force is vertical, movement is horizontal).\n\n**Examples**\n\n- Pushing a box 5 m with a 40 N force: W = 40 × 5 = **200 J**.\n- Lifting a 3 kg object 2 m: force = weight = 3 × 9.8 = 29.4 N; W = 29.4 × 2 = **58.8 J** — the same as the GPE gained (mgh).\n- A car\u0027s brakes apply 5000 N over 20 m: work done = 100 000 J → the car loses 100 000 J of kinetic energy (KE = F × d, the braking distance idea).\n\n# Power\n\n**Power is the rate of doing work** (or the rate of transferring energy).\n\n\u003e **P = W / t**   power (W) = work done or energy transferred (J) ÷ time (s)\n\n- Unit: **watt (W)** = 1 joule per second. 1 kW = 1000 W; 1 MW = 1 000 000 W.\n- A 60 W lamp transfers 60 J every second.\n\n**Examples**\n\n- A crane lifts 2000 J worth of load in 4 s → P = 2000/4 = **500 W**.\n- A student of mass 50 kg runs up 4 m of stairs in 5 s: W = mgh = 50 × 9.8 × 4 = 1960 J → P = 1960/5 = **392 W**.\n- A 2 kW kettle running for 3 minutes (180 s) transfers 2000 × 180 = **360 000 J** (360 kJ).\n\n**Rearrangements:** W = P × t;  t = W / P.\n\n# Measuring your own power\n\n1. Measure your mass (kg) → weight = mg.\n2. Measure the vertical height of a flight of stairs (m).\n3. Time yourself running up (s).\n4. Power = weight × height ÷ time.\n\nRepeat and average; the main error is timing (reaction time ≈ 0.2 s).\n\n# Efficiency again\n\nEfficiency = useful power output ÷ total power input (× 100%). A motor drawing 800 W that lifts loads at 600 W is 75% efficient; the other 200 W heats the motor and surroundings.\n\n# Common mistakes\n\n- Mixing up **work (J)** and **power (W)** — power always has \"per second\" in it.\n- Forgetting to convert minutes to seconds and kW to W.\n- Using the distance along a slope when the force is vertical: work against gravity uses **vertical height**.",
+        "order":  8,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "50 × 4 = 200 J.",
+                         "options":  [
+                                         "12.5 J",
+                                         "54 J",
+                                         "200 J",
+                                         "0.08 J"
+                                     ],
+                         "q":  "A force of 50 N moves a trolley 4 m. Work done:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "1200 ÷ 4 = 300 W.",
+                         "options":  [
+                                         "4800 W",
+                                         "300 W",
+                                         "1204 W",
+                                         "0.003 W"
+                                     ],
+                         "q":  "A machine transfers 1200 J in 4 s. Its power is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Power in watts = J/s.",
+                         "options":  [
+                                         "Newton",
+                                         "Watt",
+                                         "Pascal",
+                                         "Hertz"
+                                     ],
+                         "q":  "Which unit is the same as a joule per second?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "2000 W × 300 s = 600 000 J.",
+                         "options":  [
+                                         "10 J",
+                                         "10 kJ",
+                                         "600 kJ",
+                                         "600 J"
+                                     ],
+                         "q":  "A 2 kW appliance runs for 5 minutes. Energy transferred:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Same work, half the time → double the power.",
+                         "options":  [
+                                         "A does more work",
+                                         "B has more power",
+                                         "A has twice the power of B",
+                                         "They have the same power"
+                                     ],
+                         "q":  "Two students of equal weight climb the same stairs; A takes 6 s, B takes 12 s. Which is true?"
+                     },
+                     {
+                         "answer":  3,
+                         "explain":  "No movement, so no work in the physics sense.",
+                         "options":  [
+                                         "1000 J",
+                                         "9800 J",
+                                         "98 J",
+                                         "0 J"
+                                     ],
+                         "q":  "A weightlifter holds 100 kg above his head without moving for 10 s. Work done against gravity during those 10 s:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "400 ÷ 500 = 0.8.",
+                         "options":  [
+                                         "125%",
+                                         "80%",
+                                         "20%",
+                                         "100 W"
+                                     ],
+                         "q":  "A motor uses 500 W and delivers 400 W of useful power. Its efficiency is:"
+                     }
+                 ],
+        "subject":  "physics",
+        "title":  "Work and power",
+        "updated":  "Chapter notes",
+        "id":  "phys-work-power"
     },
     {
         "cards":  [
