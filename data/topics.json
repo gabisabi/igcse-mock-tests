@@ -129,121 +129,396 @@
                           "q":  "What does MRS GREN stand for?"
                       },
                       {
-                          "a":  "Removal from organisms of the waste products of metabolism, and of substances in excess of requirements.",
-                          "q":  "Define excretion."
+                          "a":  "An action by an organism or part of an organism causing a change of position or place.",
+                          "q":  "Define movement."
+                      },
+                      {
+                          "a":  "The chemical reactions in cells that break down nutrient molecules and release energy for metabolism.",
+                          "q":  "Define respiration."
+                      },
+                      {
+                          "a":  "The ability to detect and respond to changes in the internal or external environment.",
+                          "q":  "Define sensitivity."
                       },
                       {
                           "a":  "A permanent increase in size and dry mass.",
                           "q":  "Define growth."
                       },
                       {
+                          "a":  "The processes that make more of the same kind of organism.",
+                          "q":  "Define reproduction."
+                      },
+                      {
+                          "a":  "The removal of the waste products of metabolism and substances in excess of requirements.",
+                          "q":  "Define excretion."
+                      },
+                      {
+                          "a":  "The taking in of materials for energy, growth and development.",
+                          "q":  "Define nutrition."
+                      },
+                      {
                           "a":  "A group of organisms that can reproduce to produce fertile offspring.",
                           "q":  "Define a species."
                       },
                       {
-                          "a":  "Genus (capital) + species (lowercase), in italics: *Panthera leo*.",
-                          "q":  "How is a binomial name written?"
+                          "a":  "An internationally agreed system giving each organism a two-part scientific name: genus then species, e.g. Homo sapiens.",
+                          "q":  "What is the binomial system?"
                       },
                       {
-                          "a":  "No nucleus (DNA is loose in the cytoplasm); single-celled, e.g. bacteria.",
-                          "q":  "What is the main feature of prokaryotes?"
+                          "a":  "Same name used worldwide in every language; shows which organisms are closely related (same genus).",
+                          "q":  "Two advantages of the binomial system?"
                       },
                       {
-                          "a":  "Fungi have no chloroplasts and don\u0027t photosynthesise; they feed saprophytically; cell walls are not cellulose.",
-                          "q":  "Difference between fungi and plants?"
+                          "a":  "Kingdom, Phylum, Class, Order, Family, Genus, Species.",
+                          "q":  "Order of the classification hierarchy?"
                       },
                       {
-                          "a":  "Insect: 6 legs, 3 body parts, antennae. Arachnid: 8 legs, 2 body parts, no antennae.",
-                          "q":  "Insect vs arachnid?"
+                          "a":  "DNA base sequences (and amino acid sequences): more similar sequences mean a more recent common ancestor, so it shows true evolutionary relationships.",
+                          "q":  "What do scientists now use to classify organisms and why?"
                       },
                       {
-                          "a":  "Hair/fur, feed young on milk, warm-blooded (constant body temperature).",
+                          "a":  "Animals, plants, fungi, protoctists, prokaryotes.",
+                          "q":  "Five kingdoms?"
+                      },
+                      {
+                          "a":  "Cell walls of chitin, no chloroplasts, saprotrophic nutrition (enzymes onto dead matter, absorb products), made of hyphae; e.g. mushrooms, yeast.",
+                          "q":  "Key features of fungi?"
+                      },
+                      {
+                          "a":  "Unicellular, no nucleus, circular DNA and plasmids, cell wall not made of cellulose; e.g. bacteria.",
+                          "q":  "Key features of prokaryotes?"
+                      },
+                      {
+                          "a":  "Not made of cells (protein coat + DNA/RNA), and only reproduce inside a host cell.",
+                          "q":  "Why are viruses not classified as living?"
+                      },
+                      {
+                          "a":  "Moist skin; larvae (tadpoles) breathe with gills, adults with lungs and skin; lay eggs in water; cold-blooded.",
+                          "q":  "Features of amphibians?"
+                      },
+                      {
+                          "a":  "Dry scaly skin, lungs, lay soft-shelled eggs on land, cold-blooded.",
+                          "q":  "Features of reptiles?"
+                      },
+                      {
+                          "a":  "Feathers, beak, wings, lay hard-shelled eggs, warm-blooded.",
+                          "q":  "Features of birds?"
+                      },
+                      {
+                          "a":  "Hair or fur, feed young on milk from mammary glands, live young, warm-blooded.",
                           "q":  "Features of mammals?"
                       },
                       {
-                          "a":  "They are not made of cells and can only reproduce inside a host cell — not considered living.",
-                          "q":  "Why are viruses not classified in a kingdom?"
+                          "a":  "Insects 6, arachnids 8, crustaceans 10 or more, myriapods many (per segment).",
+                          "q":  "Four arthropod groups and leg counts?"
                       },
                       {
-                          "a":  "A tool of paired contrasting statements used to identify organisms step by step.",
+                          "a":  "3 body parts (head, thorax, abdomen), 6 legs, 1 pair of antennae, usually wings.",
+                          "q":  "Insect body features?"
+                      },
+                      {
+                          "a":  "Two pairs of antennae, 5 or more pairs of legs, hard exoskeleton, mostly aquatic (crab, woodlouse).",
+                          "q":  "Crustacean features?"
+                      },
+                      {
+                          "a":  "By spores, produced on the underside of the fronds; no flowers or seeds.",
+                          "q":  "How do ferns reproduce?"
+                      },
+                      {
+                          "a":  "Monocot: parallel veins, one cotyledon. Dicot: branching veins, two cotyledons.",
+                          "q":  "Monocot vs dicot: leaf veins and cotyledons?"
+                      },
+                      {
+                          "a":  "Monocot: petals in 3s, fibrous roots. Dicot: petals in 4s or 5s, tap root.",
+                          "q":  "Monocot vs dicot: flower parts and roots?"
+                      },
+                      {
+                          "a":  "A series of paired contrasting statements used step by step to identify an organism.",
                           "q":  "What is a dichotomous key?"
+                      },
+                      {
+                          "a":  "Fixed, easy-to-see features (legs, wings, shell), not size or colour, which vary.",
+                          "q":  "Which features are good for a dichotomous key?"
                       }
                   ],
         "exam":  "Exam 1 · October",
-        "notes":  "# Characteristics of living organisms — MRS GREN\n\n| Letter | Process | Definition |\n|---|---|---|\n| **M** | Movement | An action by an organism causing a change of position or place |\n| **R** | Respiration | Chemical reactions in cells that break down nutrient molecules and release energy |\n| **S** | Sensitivity | Ability to detect and respond to changes in the environment |\n| **G** | Growth | A permanent increase in size and dry mass |\n| **R** | Reproduction | Processes that make more of the same kind of organism |\n| **E** | Excretion | Removal of the waste products of metabolism and substances in excess |\n| **N** | Nutrition | Taking in materials for energy, growth and development |\n\n\u003e Learn the exact definitions — exam questions often ask for them word for word.\n\n# Classification\n\n- **Species:** a group of organisms that can reproduce to produce **fertile** offspring.\n- **Binomial system:** every species has a two-part Latin name: *Genus species* (e.g. *Homo sapiens*). Genus has a capital letter, species lowercase, whole name in italics or underlined.\n- Organisms are classified by shared features; modern classification uses **DNA base sequences** — the more similar the DNA, the more closely related.\n\n## The five kingdoms\n\n| Kingdom | Key features |\n|---|---|\n| Animals | Multicellular, no cell walls, no chloroplasts, feed on other organisms |\n| Plants | Multicellular, cellulose cell walls, chloroplasts, photosynthesise |\n| Fungi | Cell walls (not cellulose), no chloroplasts, feed by saprophytic or parasitic nutrition, e.g. mushrooms, yeast |\n| Protoctists | Mostly single-celled with a nucleus, e.g. Amoeba, Paramecium |\n| Prokaryotes | Single-celled, **no nucleus**, no membrane-bound organelles, e.g. bacteria |\n\n**Viruses** are not in any kingdom — they are not living (no cells, only reproduce inside host cells).\n\n## Vertebrates (animals with a backbone)\n\n| Group | Features |\n|---|---|\n| Fish | Scales, gills, fins, lay eggs in water |\n| Amphibians | Moist skin, lay eggs in water, larvae have gills, adults have lungs |\n| Reptiles | Dry scaly skin, lay soft-shelled eggs on land |\n| Birds | Feathers, beak, wings, hard-shelled eggs, warm-blooded |\n| Mammals | Hair/fur, feed young on milk, warm-blooded |\n\n## Arthropods (jointed legs, exoskeleton)\n\n- **Insects:** 6 legs, 3 body parts, usually wings, one pair of antennae\n- **Arachnids:** 8 legs, 2 body parts, no antennae\n- **Crustaceans:** more than 4 pairs of legs, 2 pairs of antennae\n- **Myriapods:** many segments, each with legs\n\n## Dichotomous keys\n\nA series of paired statements (yes/no) that lead you to the name of an organism. Each pair splits the group in two.",
+        "notes":  "# 1.1 Characteristics of living organisms — MRS GREN\n\n| | Process | Definition (learn word for word) |\n|---|---|---|\n| **M** | Movement | An action by an organism or part of an organism causing a change of position or place |\n| **R** | Respiration | The chemical reactions in cells that break down nutrient molecules and release energy for metabolism |\n| **S** | Sensitivity | The ability to detect and respond to changes in the internal or external environment |\n| **G** | Growth | A permanent increase in size and dry mass |\n| **R** | Reproduction | The processes that make more of the same kind of organism |\n| **E** | Excretion | The removal of the waste products of metabolism and substances in excess of requirements |\n| **N** | Nutrition | The taking in of materials for energy, growth and development |\n\n\u003e A car moves, uses fuel and gives off waste, but it does not grow, reproduce or respond — it is not alive. All seven are needed.\n\n# 1.2 Concept and use of a classification system\n\n- Organisms are classified into groups by the **features they share**.\n- **Species:** a group of organisms that can reproduce to produce **fertile** offspring. (A horse and a donkey produce a mule, which is infertile — so they are different species.)\n- **Binomial system:** an internationally agreed system in which the scientific name of an organism is made up of two parts: the **genus** and the **species**.\n  - Genus first with a capital letter, species second in lowercase; the whole name in *italics* (or underlined when handwritten): *Homo sapiens*, *Panthera leo*.\n  - Why? The same name is used worldwide in every language; it shows which organisms are closely related (same genus).\n- **Hierarchy of classification** (biggest to smallest): Kingdom → Phylum → Class → Order → Family → Genus → Species. *\"King Philip Came Over For Good Soup.\"*\n- **Dichotomous keys:** a series of paired statements; at each step you choose the one that matches, until you reach the name. Used to identify unfamiliar organisms.\n\n## Classification and evolution\n\n- Traditionally, classification used **morphology** (shape) and **anatomy** (internal structure).\n- Now scientists use **DNA base sequences** and the **amino acid sequences of proteins**. Organisms that share a more recent common ancestor have more similar DNA sequences → this reveals **evolutionary relationships** more accurately than appearance.\n\n# 1.3 Features of organisms\n\n## Features of all living organisms\n\nAll living things are made of **cells**. Cells contain cytoplasm, a cell membrane, ribosomes, enzymes and DNA as genetic material.\n\n## The five kingdoms\n\n| Kingdom | Cell type | Cell wall | Nutrition | Examples |\n|---|---|---|---|---|\n| **Animals** | Multicellular, nucleus | None | Heterotrophic (eat other organisms); most have nervous coordination and can move | Humans, insects, fish |\n| **Plants** | Multicellular, nucleus | Cellulose | Autotrophic (photosynthesis); chloroplasts; store starch | Moss, ferns, flowering plants |\n| **Fungi** | Multicellular (or unicellular yeast), nucleus, made of hyphae | Chitin (not cellulose) | Saprotrophic (secrete enzymes onto dead matter, absorb the products) or parasitic | Mushrooms, mould, yeast |\n| **Protoctists** | Mostly unicellular, nucleus | Some have | Some photosynthesise (algae), some feed like animals | Amoeba, Paramecium, Plasmodium (malaria) |\n| **Prokaryotes** | Unicellular, **no nucleus**; circular DNA + plasmids | Yes (not cellulose) | Various | Bacteria, e.g. E. coli |\n\n**Viruses** are not in any kingdom: not made of cells, only a protein coat around genetic material (DNA or RNA), and can only reproduce inside a host cell → not considered living.\n\n## Animal kingdom\n\n### Vertebrates (backbone)\n\n| Class | Body covering | Breathing | Reproduction | Temperature | Example |\n|---|---|---|---|---|---|\n| Fish | Scales | Gills | Eggs in water (external fertilisation) | Cold-blooded | Salmon |\n| Amphibians | Moist smooth skin | Gills as larvae, lungs + skin as adults | Eggs in water | Cold-blooded | Frog |\n| Reptiles | Dry scaly skin | Lungs | Soft-shelled eggs on land | Cold-blooded | Snake, lizard |\n| Birds | Feathers, beak, wings | Lungs | Hard-shelled eggs | Warm-blooded | Eagle |\n| Mammals | Hair/fur | Lungs | Live young; feed milk from mammary glands | Warm-blooded | Human, whale |\n\n### Arthropods (invertebrates with jointed legs and an exoskeleton)\n\n| Group | Legs | Body parts | Antennae | Other | Example |\n|---|---|---|---|---|---|\n| Insects | 6 (3 pairs) | 3 (head, thorax, abdomen) | 1 pair | Usually 2 pairs of wings | Butterfly, ant |\n| Arachnids | 8 (4 pairs) | 2 (cephalothorax, abdomen) | None | Many have simple eyes | Spider, scorpion |\n| Crustaceans | 10 or more (5+ pairs) | 2 | 2 pairs | Hard shell, mostly aquatic | Crab, woodlouse |\n| Myriapods | Many (1 or 2 pairs per segment) | Many segments | 1 pair | Long bodies | Centipede, millipede |\n\n## Plant kingdom\n\n- **Ferns:** roots, stems and leaves (fronds); no flowers; reproduce with **spores** on the underside of leaves.\n- **Flowering plants:** roots, stems, leaves, flowers; reproduce with **seeds** inside fruits.\n\n| | Monocotyledons | Dicotyledons |\n|---|---|---|\n| Seed leaves (cotyledons) | One | Two |\n| Leaf veins | Parallel | Branching network |\n| Flower parts | In multiples of 3 | In multiples of 4 or 5 |\n| Roots | Fibrous | Tap root |\n| Examples | Grass, wheat, maize, lily | Bean, rose, oak, sunflower |\n\n# 1.4 Dichotomous keys — how to use one\n\n1. Start at statement 1; decide which of the two options matches.\n2. Follow the instruction (go to another number, or read the name).\n3. Repeat until you reach a name.\n\nWhen **making** a key, use features that are easy to see and don\u0027t change (number of legs, wings or no wings) — not size or colour.\n\n\u003e **Exam tip:** in a question comparing groups, quote **two or three specific features** from the tables above, e.g. \"insects have 6 legs and 3 body parts; arachnids have 8 legs and 2 body parts\".",
         "order":  1,
         "quiz":  [
                      {
-                         "answer":  1,
-                         "explain":  "Dry mass is used because water content changes quickly.",
+                         "answer":  2,
+                         "explain":  "Fire never grows in dry mass or reproduces copies of itself in the biological sense; all seven characteristics are needed.",
                          "options":  [
-                                         "Nutrition",
-                                         "Growth",
-                                         "Reproduction",
-                                         "Movement"
+                                         "Movement",
+                                         "Excretion",
+                                         "Growth and reproduction of the same kind",
+                                         "Respiration"
                                      ],
-                         "q":  "\u0027A permanent increase in size and dry mass\u0027 defines:"
+                         "q":  "Which feature separates living things from a fire (which moves, uses fuel and gives off waste)?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Species must produce FERTILE offspring.",
+                         "options":  [
+                                         "The same species",
+                                         "Different species",
+                                         "The same genus and species",
+                                         "Different kingdoms"
+                                     ],
+                         "q":  "A horse and a donkey produce a mule, which cannot breed. Horses and donkeys are:"
                      },
                      {
                          "answer":  2,
-                         "explain":  "Prokaryotes (bacteria) have DNA free in the cytoplasm.",
+                         "explain":  "First word = genus, second = species.",
                          "options":  [
+                                         "Species",
+                                         "Family",
+                                         "Genus",
+                                         "Kingdom"
+                                     ],
+                         "q":  "In *Panthera leo*, \u0027Panthera\u0027 is the:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Plant walls are cellulose; fungal walls are chitin.",
+                         "options":  [
+                                         "Plants",
                                          "Fungi",
-                                         "Protoctists",
                                          "Prokaryotes",
-                                         "Plants"
+                                         "Animals"
                                      ],
-                         "q":  "Which kingdom has cells with no nucleus?"
+                         "q":  "Which kingdom has cell walls made of chitin?"
                      },
                      {
-                         "answer":  2,
-                         "explain":  "Genus capitalised, species lowercase, italics.",
-                         "options":  [
-                                         "homo Sapiens",
-                                         "Homo Sapiens",
-                                         "*Homo sapiens*",
-                                         "HOMO SAPIENS"
-                                     ],
-                         "q":  "Which is written correctly?"
-                     },
-                     {
-                         "answer":  1,
-                         "explain":  "Spiders and scorpions are arachnids.",
+                         "answer":  3,
+                         "explain":  "Arachnids: spiders, scorpions, ticks.",
                          "options":  [
                                          "An insect",
-                                         "An arachnid",
                                          "A crustacean",
-                                         "A myriapod"
+                                         "A myriapod",
+                                         "An arachnid"
                                      ],
-                         "q":  "An animal has 8 legs and 2 body parts. It is:"
+                         "q":  "An animal has 8 legs, 2 body parts and no antennae. It is:"
                      },
                      {
                          "answer":  2,
-                         "explain":  "Frogs and newts: larvae with gills, adults with lungs.",
+                         "explain":  "Parallel veins and multiples of 3 are monocot features (grasses, lilies).",
                          "options":  [
-                                         "Reptiles",
-                                         "Fish",
+                                         "Fern",
+                                         "Dicotyledon",
+                                         "Monocotyledon",
+                                         "Fungus"
+                                     ],
+                         "q":  "A plant has parallel leaf veins and flower parts in threes. It is a:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Reptiles lay leathery eggs on land; birds lay hard-shelled eggs.",
+                         "options":  [
                                          "Amphibians",
-                                         "Birds"
+                                         "Reptiles",
+                                         "Birds",
+                                         "Fish"
                                      ],
-                         "q":  "Which vertebrate group has moist skin and lays eggs in water?"
+                         "q":  "Which vertebrate group lays soft-shelled eggs on land?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Similar DNA means a recent common ancestor, even if organisms look different.",
+                         "options":  [
+                                         "DNA is easier to see",
+                                         "DNA shows evolutionary relationships more accurately than appearance",
+                                         "All species have identical DNA",
+                                         "It is cheaper than looking"
+                                     ],
+                         "q":  "Why do scientists now prefer DNA sequences for classification?"
                      },
                      {
                          "answer":  2,
-                         "explain":  "Similar DNA sequences show a recent common ancestor.",
+                         "explain":  "Prokaryotes have no nucleus but are still living cells.",
                          "options":  [
-                                         "Colour",
-                                         "Size",
-                                         "DNA base sequences",
-                                         "Habitat"
+                                         "Cytoplasm",
+                                         "Cell membrane",
+                                         "Nucleus",
+                                         "Ribosomes"
                                      ],
-                         "q":  "Modern classification of species mainly uses:"
+                         "q":  "Which is NOT a feature of all living cells?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Spores form on the underside of fern fronds.",
+                         "options":  [
+                                         "Seeds in fruits",
+                                         "Spores",
+                                         "Flowers",
+                                         "Cones"
+                                     ],
+                         "q":  "Ferns reproduce using:"
                      }
                  ],
         "subject":  "biology",
-        "title":  "Characteristics \u0026 classification of living things",
-        "updated":  "Starter notes",
+        "title":  "Unit 1: Characteristics \u0026 classification of living organisms",
+        "updated":  "Full unit notes",
         "id":  "bio-classification"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "A group of organisms that can reproduce to produce fertile offspring.",
+                          "q":  "Define species."
+                      },
+                      {
+                          "a":  "An internationally agreed system in which the scientific name of an organism is made up of two parts showing the genus and species.",
+                          "q":  "Define the binomial system."
+                      },
+                      {
+                          "a":  "A group of cells with similar structures working together to perform a shared function.",
+                          "q":  "Define tissue."
+                      },
+                      {
+                          "a":  "A structure made up of a group of tissues working together to perform specific functions.",
+                          "q":  "Define organ."
+                      },
+                      {
+                          "a":  "A group of organs with related functions working together to perform body functions.",
+                          "q":  "Define organ system."
+                      },
+                      {
+                          "a":  "Contains the genetic material (DNA/chromosomes) and controls the activities of the cell.",
+                          "q":  "Function of the nucleus?"
+                      },
+                      {
+                          "a":  "Partially permeable; controls what enters and leaves the cell.",
+                          "q":  "Function of the cell membrane?"
+                      },
+                      {
+                          "a":  "Site of aerobic respiration, releasing energy.",
+                          "q":  "Function of mitochondria?"
+                      },
+                      {
+                          "a":  "Protein synthesis.",
+                          "q":  "Function of ribosomes?"
+                      },
+                      {
+                          "a":  "Contain chlorophyll; site of photosynthesis.",
+                          "q":  "Function of chloroplasts?"
+                      },
+                      {
+                          "a":  "Made of cellulose; gives the plant cell support and shape.",
+                          "q":  "Function of the cell wall?"
+                      },
+                      {
+                          "a":  "The net movement of particles from a region of their higher concentration to a region of their lower concentration, down a concentration gradient, as a result of their random movement.",
+                          "q":  "Define diffusion (full definition)."
+                      },
+                      {
+                          "a":  "The net movement of water molecules from a region of higher water potential (dilute solution) to a region of lower water potential (concentrated solution), through a partially permeable membrane.",
+                          "q":  "Define osmosis (full definition)."
+                      },
+                      {
+                          "a":  "The movement of particles through a cell membrane from a region of lower concentration to a region of higher concentration, against a gradient, using energy from respiration.",
+                          "q":  "Define active transport (full definition)."
+                      },
+                      {
+                          "a":  "A membrane that allows some molecules (like water) to pass through but not others.",
+                          "q":  "What is a partially permeable membrane?"
+                      },
+                      {
+                          "a":  "Turgid: plant cell full of water, firm. Flaccid: cell has lost water, soft.",
+                          "q":  "Turgid vs flaccid?"
+                      },
+                      {
+                          "a":  "When a plant cell loses so much water that the cell membrane and cytoplasm pull away from the cell wall.",
+                          "q":  "Define plasmolysis."
+                      },
+                      {
+                          "a":  "The difference in concentration of a substance between two regions.",
+                          "q":  "Define concentration gradient."
+                      },
+                      {
+                          "a":  "Magnification = image size ÷ actual size.",
+                          "q":  "Magnification formula?"
+                      },
+                      {
+                          "a":  "Vertebrate: animal with a backbone. Arthropod: invertebrate with jointed legs and an exoskeleton.",
+                          "q":  "Define vertebrate and arthropod."
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# Definitions the mark scheme wants\n\nThese are the exact definitions from the Cambridge IGCSE Biology (0610) syllabus for the first three units. If a question says **\"Define\"** or **\"State what is meant by\"**, write these.\n\n## Unit 1 — Characteristics \u0026 classification\n\n| Term | Definition |\n|---|---|\n| **Movement** | An action by an organism or part of an organism causing a change of position or place |\n| **Respiration** | The chemical reactions in cells that break down nutrient molecules and release energy for metabolism |\n| **Sensitivity** | The ability to detect and respond to changes in the internal or external environment |\n| **Growth** | A permanent increase in size and dry mass |\n| **Reproduction** | The processes that make more of the same kind of organism |\n| **Excretion** | The removal of the waste products of metabolism and substances in excess of requirements |\n| **Nutrition** | The taking in of materials for energy, growth and development |\n| **Species** | A group of organisms that can reproduce to produce fertile offspring |\n| **Binomial system** | An internationally agreed system in which the scientific name of an organism is made up of two parts showing the genus and species |\n| **Dichotomous key** | A way of identifying organisms using a series of paired, contrasting statements |\n| **Vertebrate** | An animal with a backbone |\n| **Arthropod** | An invertebrate with jointed legs and an exoskeleton |\n\n## Unit 2 — Cells\n\n| Term | Definition |\n|---|---|\n| **Cell membrane** | Partially permeable layer that controls what enters and leaves the cell |\n| **Cell wall** | Rigid layer of cellulose around plant cells that gives support and shape |\n| **Cytoplasm** | Jelly-like substance where chemical reactions take place |\n| **Nucleus** | Contains the genetic material (chromosomes/DNA) and controls cell activities |\n| **Mitochondrion** | Organelle where aerobic respiration takes place, releasing energy |\n| **Ribosome** | Site of protein synthesis |\n| **Chloroplast** | Organelle containing chlorophyll where photosynthesis takes place |\n| **Vacuole** | Space filled with cell sap; keeps the plant cell turgid |\n| **Tissue** | A group of cells with similar structures, working together to perform a shared function |\n| **Organ** | A structure made up of a group of tissues, working together to perform specific functions |\n| **Organ system** | A group of organs with related functions, working together to perform body functions |\n| **Magnification** | Image size ÷ actual size |\n\n## Unit 3 — Movement into and out of cells\n\n| Term | Definition |\n|---|---|\n| **Diffusion** | The net movement of particles from a region of their higher concentration to a region of their lower concentration, down a concentration gradient, as a result of their random movement |\n| **Osmosis** | The net movement of water molecules from a region of higher water potential (dilute solution) to a region of lower water potential (concentrated solution), through a partially permeable membrane |\n| **Active transport** | The movement of particles through a cell membrane from a region of lower concentration to a region of higher concentration (against a concentration gradient), using energy from respiration |\n| **Partially permeable membrane** | A membrane that lets some molecules (e.g. water) through but not others |\n| **Turgid** | A plant cell that is firm because it is full of water; the contents push against the cell wall |\n| **Flaccid** | A plant cell that has lost water and is soft |\n| **Plasmolysis** | The cell membrane and cytoplasm pull away from the cell wall as a plant cell loses water |\n| **Concentration gradient** | The difference in concentration between two regions |\n\n\u003e **Trick for the three transport processes:** diffusion = *anything*, high → low, no energy; osmosis = *water only*, through a membrane, no energy; active transport = low → high, *needs energy*.",
+        "order":  0,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "Tissue is the level just above cells.",
+                         "options":  [
+                                         "Organ",
+                                         "Tissue",
+                                         "Organ system",
+                                         "Organism"
+                                     ],
+                         "q":  "\u0027A group of cells with similar structures working together to perform a shared function\u0027 is a:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Active transport works against the concentration gradient.",
+                         "options":  [
+                                         "Diffusion",
+                                         "Osmosis",
+                                         "Active transport",
+                                         "Evaporation"
+                                     ],
+                         "q":  "Which process needs energy from respiration?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Osmosis is always about water crossing a partially permeable membrane.",
+                         "options":  [
+                                         "Any particle",
+                                         "Water molecules",
+                                         "Oxygen",
+                                         "Glucose"
+                                     ],
+                         "q":  "Osmosis is the movement of:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Water leaves, the membrane pulls away from the wall.",
+                         "options":  [
+                                         "Turgid",
+                                         "Plasmolysed",
+                                         "Bigger",
+                                         "Unchanged"
+                                     ],
+                         "q":  "A plant cell placed in a strong salt solution becomes:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Mitochondria are the site of aerobic respiration.",
+                         "options":  [
+                                         "Ribosome",
+                                         "Chloroplast",
+                                         "Mitochondrion",
+                                         "Nucleus"
+                                     ],
+                         "q":  "The organelle that releases energy in aerobic respiration:"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "Drinking water increases mass without any real growth.",
+                         "options":  [
+                                         "Water content changes and would give misleading results",
+                                         "Plants have no water",
+                                         "Dry things are heavier",
+                                         "It is easier to spell"
+                                     ],
+                         "q":  "The \u0027dry mass\u0027 in the definition of growth is used because:"
+                     }
+                 ],
+        "subject":  "biology",
+        "title":  "Biology key terms (Units 1–3)",
+        "updated":  "Glossary",
+        "id":  "bio-keywords"
     },
     {
         "cards":  [
@@ -486,6 +761,343 @@
         "title":  "Atomic structure \u0026 the periodic table",
         "updated":  "Starter notes",
         "id":  "chem-atoms"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "To get a full outer shell of electrons (a stable noble-gas arrangement).",
+                          "q":  "Why do atoms form bonds?"
+                      },
+                      {
+                          "a":  "An atom or group of atoms that has lost or gained electrons and so carries a charge.",
+                          "q":  "What is an ion?"
+                      },
+                      {
+                          "a":  "Metals lose electrons (positive ions); non-metals gain electrons (negative ions).",
+                          "q":  "Which atoms lose electrons and which gain?"
+                      },
+                      {
+                          "a":  "The strong electrostatic attraction between oppositely charged ions.",
+                          "q":  "Define an ionic bond."
+                      },
+                      {
+                          "a":  "Mg²⁺ — it loses 2 electrons.",
+                          "q":  "Ion formed by magnesium (2,8,2)?"
+                      },
+                      {
+                          "a":  "O²⁻ — it gains 2 electrons.",
+                          "q":  "Ion formed by oxygen (2,6)?"
+                      },
+                      {
+                          "a":  "Al₂O₃ — charges must cancel (2×3+ = 3×2−).",
+                          "q":  "Formula of the compound of Al³⁺ and O²⁻?"
+                      },
+                      {
+                          "a":  "CaCl₂ (Ca²⁺ needs two Cl⁻).",
+                          "q":  "Formula of calcium chloride?"
+                      },
+                      {
+                          "a":  "Many strong electrostatic attractions between oppositely charged ions in a giant lattice need a lot of energy to break.",
+                          "q":  "Why do ionic compounds have high melting points?"
+                      },
+                      {
+                          "a":  "When molten or dissolved in water — the ions are free to move. Not when solid.",
+                          "q":  "When do ionic compounds conduct electricity?"
+                      },
+                      {
+                          "a":  "A shared pair of electrons between two non-metal atoms.",
+                          "q":  "Define a covalent bond."
+                      },
+                      {
+                          "a":  "CH₄ four single; H₂O two single; NH₃ three single.",
+                          "q":  "How many covalent bonds in CH₄, H₂O, NH₃?"
+                      },
+                      {
+                          "a":  "O₂ and CO₂ have double bonds; N₂ has a triple bond.",
+                          "q":  "Which molecules have double or triple bonds?"
+                      },
+                      {
+                          "a":  "Weak intermolecular forces between molecules are easily overcome (the covalent bonds inside molecules are NOT broken).",
+                          "q":  "Why do simple molecular substances have low melting points?"
+                      },
+                      {
+                          "a":  "No ions or free (delocalised) electrons to carry charge.",
+                          "q":  "Why don\u0027t covalent substances conduct electricity?"
+                      },
+                      {
+                          "a":  "Each carbon bonded to 4 others in a giant tetrahedral lattice; very hard, very high m.p., does not conduct. Used for cutting tools.",
+                          "q":  "Diamond structure and properties?"
+                      },
+                      {
+                          "a":  "Each carbon bonded to 3 others in flat layers; weak forces between layers so soft/slippery; conducts (delocalised electrons). Used as lubricant, electrodes.",
+                          "q":  "Graphite structure and properties?"
+                      },
+                      {
+                          "a":  "A lattice of positive metal ions in a sea of delocalised electrons, attracted to each other.",
+                          "q":  "Describe metallic bonding."
+                      },
+                      {
+                          "a":  "Layers of positive ions can slide over each other without breaking the metallic bond.",
+                          "q":  "Why are metals malleable?"
+                      },
+                      {
+                          "a":  "Delocalised electrons are free to move and carry charge.",
+                          "q":  "Why do metals conduct electricity?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# Why atoms bond\n\nAtoms react to get a **full outer shell** (like a noble gas). They can **lose**, **gain** or **share** electrons.\n\n# Ions and ionic bonding\n\nAn **ion** is an atom (or group of atoms) that has lost or gained electrons and so has a charge.\n\n- **Metals lose** electrons → **positive ions (cations)**: Na → Na⁺ + e⁻; Mg → Mg²⁺ + 2e⁻\n- **Non-metals gain** electrons → **negative ions (anions)**: Cl + e⁻ → Cl⁻; O + 2e⁻ → O²⁻\n\n| Group | Electrons in outer shell | Ion formed |\n|---|---|---|\n| I | 1 | 1+ (Li⁺, Na⁺, K⁺) |\n| II | 2 | 2+ (Mg²⁺, Ca²⁺) |\n| III | 3 | 3+ (Al³⁺) |\n| V | 5 | 3− (N³⁻) |\n| VI | 6 | 2− (O²⁻, S²⁻) |\n| VII | 7 | 1− (F⁻, Cl⁻, Br⁻) |\n\n**Ionic bond** = the strong electrostatic attraction between **oppositely charged ions**. Formed between a **metal and a non-metal**.\n\nExample NaCl: sodium (2,8,1) gives 1 electron to chlorine (2,8,7) → Na⁺ (2,8) and Cl⁻ (2,8,8). Draw dot-and-cross diagrams showing only the outer shells, the charges in square brackets.\n\nExample MgO: Mg (2,8,2) gives 2 electrons to O (2,6) → Mg²⁺ and O²⁻.\n\n**Working out ionic formulae:** charges must cancel. Ca²⁺ + Cl⁻ → CaCl₂. Al³⁺ + O²⁻ → Al₂O₃ (swap the charges as subscripts).\n\n## Properties of ionic compounds (giant ionic lattice)\n\n- **High melting and boiling points** — many strong ionic bonds need lots of energy to break.\n- **Conduct electricity when molten or dissolved** (ions free to move) but **not when solid** (ions fixed in the lattice).\n- Often soluble in water; hard, brittle crystals.\n\n# Covalent bonding\n\nA **covalent bond** = a shared pair of electrons between two **non-metal** atoms. Each atom counts the shared pair as its own.\n\n| Molecule | Bonds | Outer-shell picture |\n|---|---|---|\n| H₂ | 1 single | H:H |\n| Cl₂ | 1 single | each Cl shares 1 pair, keeps 3 lone pairs |\n| H₂O | 2 single | O shares one pair with each H, 2 lone pairs |\n| CH₄ | 4 single | C shares a pair with each of 4 H |\n| NH₃ | 3 single | N shares with 3 H, 1 lone pair |\n| HCl | 1 single | |\n| O₂ | 1 double (2 shared pairs) | O=O |\n| CO₂ | 2 double | O=C=O |\n| N₂ | 1 triple (3 shared pairs) | N≡N |\n\n## Properties of simple molecular (covalent) substances\n\n- **Low melting and boiling points** — the covalent bonds are strong, but the forces **between molecules** (intermolecular forces) are weak and easily overcome. Many are gases or liquids at room temperature.\n- **Do not conduct electricity** — no ions or free electrons.\n\n## Giant covalent structures\n\n| | Diamond | Graphite |\n|---|---|---|\n| Structure | Each C bonded to **4** others, tetrahedral, giant 3-D lattice | Each C bonded to **3** others in flat layers of hexagons; weak forces between layers |\n| Hardness | Very hard | Soft, slippery — layers slide |\n| Conducts? | No (no free electrons) | Yes — each C has one delocalised electron |\n| Uses | Cutting tools, drills | Lubricant, pencils, electrodes |\n\nBoth have **very high melting points** (many strong covalent bonds). Silicon(IV) oxide (SiO₂, sand) has a diamond-like structure: each Si bonded to 4 O, each O to 2 Si.\n\n# Metallic bonding\n\nA lattice of **positive metal ions** in a **\"sea\" of delocalised electrons**; the attraction between them is the metallic bond.\n\n- **Conduct electricity** — delocalised electrons move.\n- **Malleable/ductile** — layers of ions slide over each other.\n- High melting points (strong attraction).\n\n\u003e **Quick identification:** metal + non-metal → ionic. Non-metal + non-metal → covalent. Metal only → metallic.",
+        "order":  4,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "Metal + non-metal → ionic. The others are non-metal pairs (covalent).",
+                         "options":  [
+                                         "C and O",
+                                         "H and Cl",
+                                         "Na and Cl",
+                                         "N and H"
+                                     ],
+                         "q":  "Which pair forms an ionic compound?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Group I metals lose one electron.",
+                         "options":  [
+                                         "K⁻",
+                                         "K⁺",
+                                         "K²⁺",
+                                         "K²⁻"
+                                     ],
+                         "q":  "The ion formed by potassium (2,8,8,1) is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Ions are locked in the lattice; they move only when molten or dissolved.",
+                         "options":  [
+                                         "It has no ions",
+                                         "Its ions cannot move",
+                                         "It has no electrons",
+                                         "It is covalent"
+                                     ],
+                         "q":  "Solid sodium chloride does not conduct electricity because:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Nitrogen has 5 outer electrons and needs 3 more, so it forms a triple bond.",
+                         "options":  [
+                                         "1",
+                                         "2",
+                                         "3",
+                                         "4"
+                                     ],
+                         "q":  "How many shared pairs of electrons are in a nitrogen molecule, N₂?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Diamond\u0027s 3-D lattice has no weak layers to slide.",
+                         "options":  [
+                                         "Graphite has ionic bonds",
+                                         "Graphite has weak forces between its layers, so they slide",
+                                         "Diamond has more electrons",
+                                         "Graphite is a metal"
+                                     ],
+                         "q":  "Why is graphite soft but diamond hard?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Small molecules have weak intermolecular forces, so they separate easily.",
+                         "options":  [
+                                         "Its covalent bonds are weak",
+                                         "Forces between its molecules are weak",
+                                         "It has ions",
+                                         "It is very light"
+                                     ],
+                         "q":  "Methane (CH₄) is a gas at room temperature because:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "3 × 2+ = 6+ balances 2 × 3− = 6−.",
+                         "options":  [
+                                         "MgN",
+                                         "Mg₂N₃",
+                                         "Mg₃N₂",
+                                         "MgN₂"
+                                     ],
+                         "q":  "Formula of magnesium nitride from Mg²⁺ and N³⁻:"
+                     }
+                 ],
+        "subject":  "chemistry",
+        "title":  "Ions, ionic \u0026 covalent bonding",
+        "updated":  "Starter notes",
+        "id":  "chem-bonding"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "A substance made of only one type of atom that cannot be broken down by chemical means.",
+                          "q":  "Define element."
+                      },
+                      {
+                          "a":  "A substance made of two or more different elements chemically bonded in a fixed ratio.",
+                          "q":  "Define compound."
+                      },
+                      {
+                          "a":  "Two or more substances not chemically bonded, in any proportion, separable by physical methods.",
+                          "q":  "Define mixture."
+                      },
+                      {
+                          "a":  "Two or more atoms chemically bonded together.",
+                          "q":  "Define molecule."
+                      },
+                      {
+                          "a":  "The number of protons in the nucleus of an atom.",
+                          "q":  "Define proton number."
+                      },
+                      {
+                          "a":  "The total number of protons and neutrons in the nucleus.",
+                          "q":  "Define nucleon number."
+                      },
+                      {
+                          "a":  "Atoms of the same element with the same number of protons but different numbers of neutrons.",
+                          "q":  "Define isotopes."
+                      },
+                      {
+                          "a":  "The average mass of the isotopes of an element compared with 1/12 of the mass of a carbon-12 atom.",
+                          "q":  "Define relative atomic mass."
+                      },
+                      {
+                          "a":  "The sum of the relative atomic masses of all the atoms in a molecule.",
+                          "q":  "Define relative molecular mass."
+                      },
+                      {
+                          "a":  "All matter is made of tiny particles in constant motion; higher temperature means faster movement.",
+                          "q":  "Define kinetic particle theory."
+                      },
+                      {
+                          "a":  "The net movement of particles from a region of higher concentration to lower concentration because of their random motion.",
+                          "q":  "Define diffusion."
+                      },
+                      {
+                          "a":  "A change directly from solid to gas without becoming liquid.",
+                          "q":  "Sublimation?"
+                      },
+                      {
+                          "a":  "Cation: positive ion (metal lost electrons). Anion: negative ion (non-metal gained electrons).",
+                          "q":  "Cation vs anion?"
+                      },
+                      {
+                          "a":  "A shared pair of electrons between two non-metal atoms.",
+                          "q":  "Define covalent bond."
+                      },
+                      {
+                          "a":  "The strong electrostatic attraction between oppositely charged ions.",
+                          "q":  "Define ionic bond."
+                      },
+                      {
+                          "a":  "The attraction between positive metal ions and a sea of delocalised electrons.",
+                          "q":  "Define metallic bond."
+                      },
+                      {
+                          "a":  "Weak forces of attraction between molecules (not the bonds inside them).",
+                          "q":  "What are intermolecular forces?"
+                      },
+                      {
+                          "a":  "Solute dissolves in the solvent to make a solution.",
+                          "q":  "Solute, solvent, solution?"
+                      },
+                      {
+                          "a":  "Residue: solid left on the filter paper. Filtrate: liquid that passes through.",
+                          "q":  "Residue vs filtrate?"
+                      },
+                      {
+                          "a":  "A solution in which no more solute can dissolve at that temperature.",
+                          "q":  "Define saturated solution."
+                      },
+                      {
+                          "a":  "Miscible liquids mix completely; immiscible liquids form separate layers.",
+                          "q":  "Miscible vs immiscible?"
+                      },
+                      {
+                          "a":  "Distance moved by the substance divided by distance moved by the solvent front.",
+                          "q":  "Define Rf value."
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# Definitions for the first units\n\n## States of matter\n\n| Term | Definition |\n|---|---|\n| **Melting** | Change from solid to liquid at the melting point |\n| **Boiling** | Change from liquid to gas at the boiling point, throughout the liquid |\n| **Evaporation** | Change from liquid to gas from the surface only, below the boiling point |\n| **Condensation** | Change from gas to liquid |\n| **Freezing** | Change from liquid to solid |\n| **Sublimation** | Change directly from solid to gas (or gas to solid) |\n| **Kinetic particle theory** | All matter is made of particles that are constantly moving; the higher the temperature, the faster they move |\n| **Diffusion** | The net movement of particles from a region of higher concentration to a region of lower concentration, due to random motion |\n\n## Atoms and elements\n\n| Term | Definition |\n|---|---|\n| **Atom** | The smallest particle of an element that can exist |\n| **Element** | A substance made of only one type of atom; cannot be broken down by chemical means |\n| **Compound** | A substance made of two or more different elements chemically bonded in a fixed ratio |\n| **Mixture** | Two or more substances not chemically bonded, in any proportion, separable by physical means |\n| **Molecule** | Two or more atoms chemically bonded together (H₂, H₂O) |\n| **Proton number (atomic number)** | The number of protons in the nucleus of an atom |\n| **Nucleon number (mass number)** | The total number of protons and neutrons in the nucleus |\n| **Isotopes** | Atoms of the same element with the same number of protons but different numbers of neutrons |\n| **Relative atomic mass (Ar)** | The average mass of the isotopes of an element compared to 1/12 of the mass of a carbon-12 atom |\n| **Relative molecular mass (Mr)** | The sum of the relative atomic masses of all atoms in a molecule |\n| **Electronic configuration** | The arrangement of electrons in shells, e.g. 2,8,1 |\n| **Group** | A vertical column of the periodic table; elements have the same number of outer electrons |\n| **Period** | A horizontal row; elements have the same number of electron shells |\n| **Noble gases** | Group VIII elements; unreactive because they have full outer shells |\n\n## Bonding\n\n| Term | Definition |\n|---|---|\n| **Ion** | An atom or group of atoms with a charge, formed by losing or gaining electrons |\n| **Cation** | A positive ion (formed by metals losing electrons) |\n| **Anion** | A negative ion (formed by non-metals gaining electrons) |\n| **Ionic bond** | The strong electrostatic attraction between oppositely charged ions |\n| **Covalent bond** | A shared pair of electrons between two non-metal atoms |\n| **Metallic bond** | The attraction between positive metal ions and a sea of delocalised electrons |\n| **Delocalised electron** | An electron not attached to one particular atom, free to move through the structure |\n| **Intermolecular forces** | The weak forces of attraction between molecules |\n| **Giant lattice** | A regular repeating 3-D arrangement of very many particles (ions or atoms) |\n\n## Separation and purity\n\n| Term | Definition |\n|---|---|\n| **Solvent** | The liquid in which a solute dissolves |\n| **Solute** | The substance that dissolves |\n| **Solution** | A solute dissolved in a solvent |\n| **Saturated solution** | A solution that cannot dissolve any more solute at that temperature |\n| **Residue** | The solid left on the filter paper |\n| **Filtrate** | The liquid that passes through the filter paper |\n| **Pure substance** | A single element or compound, not mixed with anything else; has a sharp melting/boiling point |\n| **Rf value** | Distance moved by the substance ÷ distance moved by the solvent front |\n| **Locating agent** | A chemical used to show up colourless substances on a chromatogram |\n| **Miscible** | Liquids that mix completely (ethanol and water); **immiscible** = form separate layers (oil and water) |",
+        "order":  0,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "Same protons, different neutrons.",
+                         "options":  [
+                                         "Ions",
+                                         "Isotopes",
+                                         "Molecules",
+                                         "Allotropes"
+                                     ],
+                         "q":  "\u0027Atoms of the same element with different numbers of neutrons\u0027 defines:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Water and dissolved salts, not chemically bonded, in variable amounts.",
+                         "options":  [
+                                         "An element",
+                                         "A compound",
+                                         "A mixture",
+                                         "A molecule"
+                                     ],
+                         "q":  "Sea water is best described as:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Residue stays behind.",
+                         "options":  [
+                                         "Residue",
+                                         "Solute",
+                                         "Filtrate",
+                                         "Solvent front"
+                                     ],
+                         "q":  "The liquid that passes through filter paper is the:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Cations are positive; anions are negative.",
+                         "options":  [
+                                         "An anion",
+                                         "A cation",
+                                         "A proton",
+                                         "An isotope"
+                                     ],
+                         "q":  "A positive ion is called:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Carbon-12 is the standard.",
+                         "options":  [
+                                         "Hydrogen-1",
+                                         "Oxygen-16",
+                                         "1/12 of a carbon-12 atom",
+                                         "A proton"
+                                     ],
+                         "q":  "Relative atomic mass is measured against:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Period = row = number of shells.",
+                         "options":  [
+                                         "Number of outer electrons",
+                                         "Number of shells",
+                                         "Mass number",
+                                         "Reactivity"
+                                     ],
+                         "q":  "Elements in the same period have the same:"
+                     }
+                 ],
+        "subject":  "chemistry",
+        "title":  "Chemistry key terms (Units 1–2)",
+        "updated":  "Glossary",
+        "id":  "chem-keywords"
     },
     {
         "cards":  [
@@ -858,6 +1470,384 @@
         "title":  "Data representation: binary, denary, hexadecimal",
         "updated":  "Starter notes",
         "id":  "cs-binary"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Byte = 8 bits; nibble = 4 bits.",
+                          "q":  "How many bits in a byte? in a nibble?"
+                      },
+                      {
+                          "a":  "1024 bytes = 8192 bits.",
+                          "q":  "1 KiB in bytes and in bits?"
+                      },
+                      {
+                          "a":  "1024 KiB = 1 048 576 bytes = 8 388 608 bits.",
+                          "q":  "1 MiB in KiB, bytes and bits?"
+                      },
+                      {
+                          "a":  "1024 MiB = 1 073 741 824 bytes (2³⁰).",
+                          "q":  "1 GiB in MiB and bytes?"
+                      },
+                      {
+                          "a":  "bit, nibble, byte, KiB, MiB, GiB, TiB, PiB, EiB — each step (after byte) is × 1024.",
+                          "q":  "Order of the binary units from smallest?"
+                      },
+                      {
+                          "a":  "KB = 1000 bytes (decimal prefix); KiB = 1024 bytes (binary prefix). Exams use KiB.",
+                          "q":  "KB vs KiB?"
+                      },
+                      {
+                          "a":  "16 384 ÷ 8 = 2048 bytes ÷ 1024 = 2 KiB.",
+                          "q":  "Convert 16 384 bits to KiB."
+                      },
+                      {
+                          "a":  "2 × 1 048 576 × 8 = 16 777 216 bits.",
+                          "q":  "Convert 2 MiB to bits."
+                      },
+                      {
+                          "a":  "ASCII has only 128 codes, enough for English letters, digits and symbols. Unicode is needed for other alphabets.",
+                          "q":  "Why can\u0027t ASCII represent Georgian letters?"
+                      },
+                      {
+                          "a":  "68 — codes are consecutive.",
+                          "q":  "ASCII code for \u0027A\u0027 is 65. What is \u0027D\u0027?"
+                      },
+                      {
+                          "a":  "97 — lowercase letters are 32 higher.",
+                          "q":  "\u0027A\u0027 = 65 in ASCII. What is \u0027a\u0027?"
+                      },
+                      {
+                          "a":  "An image stored as a grid of pixels, each with a binary colour value.",
+                          "q":  "What is a bitmap image?"
+                      },
+                      {
+                          "a":  "2²⁴ ≈ 16.7 million.",
+                          "q":  "24-bit colour depth gives how many colours?"
+                      },
+                      {
+                          "a":  "640 × 480 × 8 = 2 457 600 bits = 307 200 bytes (300 KiB).",
+                          "q":  "Image: 640 × 480, 8-bit colour. File size in bytes?"
+                      },
+                      {
+                          "a":  "Data about the image stored with it: dimensions, colour depth, date taken, camera settings, location.",
+                          "q":  "What is image metadata?"
+                      },
+                      {
+                          "a":  "Sound is captured more accurately (closer to the original wave) but the file is larger.",
+                          "q":  "Effect of increasing sample rate?"
+                      },
+                      {
+                          "a":  "44 100 Hz and 16 bits.",
+                          "q":  "CD-quality sample rate and resolution?"
+                      },
+                      {
+                          "a":  "8000 × 8 × 10 = 640 000 bits = 80 000 bytes.",
+                          "q":  "Sound: 10 s, 8000 Hz, 8-bit, mono. Size in bytes?"
+                      },
+                      {
+                          "a":  "When every bit matters: text documents, program code, spreadsheets, database files.",
+                          "q":  "When must you use lossless compression?"
+                      },
+                      {
+                          "a":  "Lossy: removes sounds outside the range of human hearing and quieter sounds masked by louder ones.",
+                          "q":  "How does MP3 make files smaller?"
+                      },
+                      {
+                          "a":  "Lossy: groups similar colours together and removes fine detail the eye barely notices.",
+                          "q":  "How does JPEG make files smaller?"
+                      },
+                      {
+                          "a":  "7A 4B 1C",
+                          "q":  "RLE of \u0027AAAAAAABBBBC\u0027?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# Storage units — how much is each one?\n\n| Unit | Equals | In bytes | In bits |\n|---|---|---|---|\n| bit (b) | one 0 or 1 | 1/8 byte | 1 |\n| nibble | 4 bits | ½ byte | 4 |\n| byte (B) | 8 bits | 1 | 8 |\n| kibibyte (KiB) | 1024 bytes (2¹⁰) | 1 024 | 8 192 |\n| mebibyte (MiB) | 1024 KiB (2²⁰ bytes) | 1 048 576 | 8 388 608 |\n| gibibyte (GiB) | 1024 MiB (2³⁰ bytes) | 1 073 741 824 | ≈ 8.59 × 10⁹ |\n| tebibyte (TiB) | 1024 GiB (2⁴⁰ bytes) | ≈ 1.1 × 10¹² | ≈ 8.8 × 10¹² |\n| pebibyte (PiB) | 1024 TiB (2⁵⁰ bytes) | ≈ 1.13 × 10¹⁵ | |\n| exbibyte (EiB) | 1024 PiB (2⁶⁰ bytes) | ≈ 1.15 × 10¹⁸ | |\n\n**Decimal prefixes** (used by hard-drive makers and in everyday speech): kilobyte KB = 1000 bytes, megabyte MB = 1000 KB = 10⁶ bytes, gigabyte GB = 10⁹ bytes, terabyte TB = 10¹² bytes.\n\n\u003e Cambridge exams use the **binary** units (KiB, MiB, GiB) and 1 KiB = 1024 bytes. To convert: bits ÷ 8 = bytes; bytes ÷ 1024 = KiB; KiB ÷ 1024 = MiB.\n\nExample: 3 MiB in bits = 3 × 1024 × 1024 × 8 = **25 165 824 bits**. 40 000 bits = 5000 bytes = 5000 ÷ 1024 ≈ **4.88 KiB**.\n\n# Text\n\nEvery character (letter, digit, symbol, space) is stored as a binary code from a **character set**.\n\n| Character set | Bits per character | Characters | Notes |\n|---|---|---|---|\n| ASCII | 7 | 128 | English letters, digits, punctuation, control codes |\n| Extended ASCII | 8 | 256 | Adds some accented letters and symbols |\n| Unicode (UTF-8/16/32) | up to 32 | over 1 million | Every language: Georgian, Russian, Chinese, emoji |\n\n- In ASCII, upper-case and lower-case letters have different codes: \u0027A\u0027 = 65, \u0027a\u0027 = 97 (they differ by 32).\n- Codes are in order, so \u0027B\u0027 = 66, \u0027C\u0027 = 67 — you can work out a code from a nearby one.\n- **Why Unicode?** ASCII cannot represent non-English characters. **Cost:** Unicode files are larger because each character uses more bits.\n\n# Images (bitmaps)\n\nA bitmap image is a grid of **pixels**; each pixel\u0027s colour is stored as a binary number.\n\n- **Resolution** = width × height in pixels (e.g. 1920 × 1080). Higher resolution → more detail, bigger file.\n- **Colour depth** = bits per pixel. 1 bit → 2 colours; 8 bits → 256 colours; 24 bits → 16.7 million colours (\"true colour\").\n- **File size (bits) = width × height × colour depth.** Divide by 8 for bytes, then by 1024 for KiB.\n\nExample: 800 × 600 pixels, 24-bit colour → 800 × 600 × 24 = 11 520 000 bits = 1 440 000 bytes ≈ 1406 KiB ≈ 1.37 MiB.\n\n**Metadata** stored with the image: dimensions, colour depth, date, camera settings, GPS.\n\n# Sound\n\nSound is an analogue wave; a computer stores it as a series of **samples** (measurements of the wave height).\n\n- **Sample rate**: samples per second (Hz). CD quality = 44 100 Hz.\n- **Sample resolution (bit depth)**: bits per sample. CD = 16 bits.\n- Higher sample rate and resolution → more accurate sound, **bigger file**.\n- **File size (bits) = sample rate × sample resolution × seconds** (× 2 for stereo).\n\nExample: 30 s, 44 100 Hz, 16-bit, mono → 44 100 × 16 × 30 = 21 168 000 bits ≈ 2.52 MiB.\n\n# Compression\n\n| | Lossless | Lossy |\n|---|---|---|\n| Data lost? | No — original fully restored | Yes — permanently removed |\n| How | Finds repeated patterns (RLE), stores them more efficiently | Removes detail humans barely notice: sounds outside hearing range, similar colours |\n| Examples | PNG, GIF, ZIP, FLAC | JPEG, MP3, MP4, AAC |\n| Use when | Text, program code, spreadsheets — every bit matters | Photos, music, video — small size matters more than perfection |\n\n**Run-length encoding (RLE)** — lossless. Replace runs of the same value with (count, value):\n\n```\nWWWWWBBBWW  →  5W 3B 2W\n```\nWorks well for images with big blocks of one colour; poorly for photos with few repeats.\n\n**Lossy methods** in the exam: reduce resolution, reduce colour depth, reduce sample rate or resolution, remove frequencies humans can\u0027t hear (perceptual music shaping).",
+        "order":  3,
+        "quiz":  [
+                     {
+                         "answer":  3,
+                         "explain":  "1024 bytes × 8 bits = 8192 bits.",
+                         "options":  [
+                                         "1000",
+                                         "1024",
+                                         "8000",
+                                         "8192"
+                                     ],
+                         "q":  "How many bits are in 1 KiB?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Each binary step is × 1024.",
+                         "options":  [
+                                         "1000 MiB",
+                                         "1024 KiB",
+                                         "1024 MiB",
+                                         "1 000 000 bytes"
+                                     ],
+                         "q":  "1 GiB is equal to:"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "4096 ÷ 1024 = 4.",
+                         "options":  [
+                                         "4 KiB",
+                                         "4.096 KiB",
+                                         "0.5 KiB",
+                                         "40 KiB"
+                                     ],
+                         "q":  "A file is 4096 bytes. In KiB that is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Losing any character in code would break it.",
+                         "options":  [
+                                         "A holiday photo",
+                                         "A music track",
+                                         "A Python program",
+                                         "A YouTube video"
+                                     ],
+                         "q":  "Which file type would you compress with a LOSSLESS method?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Twice as wide AND twice as tall = 4 times as many pixels.",
+                         "options":  [
+                                         "2× bigger",
+                                         "4× bigger",
+                                         "Half the size",
+                                         "The same"
+                                     ],
+                         "q":  "Doubling the resolution (width and height) of a bitmap makes the file:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Each sample uses twice as many bits.",
+                         "options":  [
+                                         "Half the size",
+                                         "Twice the size",
+                                         "Four times the size",
+                                         "Unchanged"
+                                     ],
+                         "q":  "A sound file is recorded at 16 bits instead of 8 bits per sample. The file will be:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Compression never improves quality; lossy compression reduces it.",
+                         "options":  [
+                                         "Faster downloads",
+                                         "Less storage used",
+                                         "Better quality",
+                                         "Less bandwidth"
+                                     ],
+                         "q":  "Which is NOT an advantage of compression?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "M=77, N=78, O=79, P=80.",
+                         "options":  [
+                                         "78",
+                                         "79",
+                                         "80",
+                                         "81"
+                                     ],
+                         "q":  "In ASCII \u0027M\u0027 is 77. What is \u0027P\u0027?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "RLE needs long runs of repeated values.",
+                         "options":  [
+                                         "A photograph",
+                                         "A logo with large blocks of one colour",
+                                         "Random noise",
+                                         "Encrypted data"
+                                     ],
+                         "q":  "Run-length encoding works best on:"
+                     }
+                 ],
+        "subject":  "cs",
+        "title":  "Text, images, sound \u0026 compression",
+        "updated":  "Starter notes",
+        "id":  "cs-data-storage"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "A base-2 number system that uses only the digits 0 and 1.",
+                          "q":  "Define binary."
+                      },
+                      {
+                          "a":  "A base-16 number system using digits 0–9 and letters A–F.",
+                          "q":  "Define hexadecimal."
+                      },
+                      {
+                          "a":  "The base-10 number system using digits 0–9.",
+                          "q":  "Define denary."
+                      },
+                      {
+                          "a":  "Bit = one binary digit; nibble = 4 bits; byte = 8 bits.",
+                          "q":  "Bit, nibble, byte?"
+                      },
+                      {
+                          "a":  "A small, very fast storage location inside the CPU that holds binary data being processed.",
+                          "q":  "Define a register."
+                      },
+                      {
+                          "a":  "When the result of a calculation needs more bits than the register can hold, so the extra bit is lost.",
+                          "q":  "Define overflow."
+                      },
+                      {
+                          "a":  "All bits move one place left, a 0 fills the right end; the value is multiplied by 2.",
+                          "q":  "What is a logical left shift by 1?"
+                      },
+                      {
+                          "a":  "A way to represent negative binary numbers where the most significant bit has a negative value (−128 in 8 bits).",
+                          "q":  "What is two\u0027s complement?"
+                      },
+                      {
+                          "a":  "1 KiB = 1024 bytes; 1 MiB = 1024 KiB = 1 048 576 bytes.",
+                          "q":  "How many bytes in 1 KiB? 1 MiB?"
+                      },
+                      {
+                          "a":  "All the characters a computer can represent, each with a unique binary code.",
+                          "q":  "Define character set."
+                      },
+                      {
+                          "a":  "ASCII: 7-bit, 128 characters, English only. Unicode: up to 32 bits, all languages and symbols, but larger files.",
+                          "q":  "ASCII vs Unicode?"
+                      },
+                      {
+                          "a":  "The smallest element of an image (picture element).",
+                          "q":  "Define pixel."
+                      },
+                      {
+                          "a":  "The number of pixels in an image, given as width × height.",
+                          "q":  "Define resolution (image)."
+                      },
+                      {
+                          "a":  "The number of bits used to store the colour of each pixel.",
+                          "q":  "Define colour depth."
+                      },
+                      {
+                          "a":  "Resolution (width × height) × colour depth, in bits; ÷ 8 for bytes.",
+                          "q":  "Formula for image file size?"
+                      },
+                      {
+                          "a":  "The number of sound samples taken per second, measured in hertz (Hz).",
+                          "q":  "Define sample rate."
+                      },
+                      {
+                          "a":  "The number of bits used to store each sound sample.",
+                          "q":  "Define sample resolution."
+                      },
+                      {
+                          "a":  "Sample rate × sample resolution × length in seconds (× 2 for stereo), in bits.",
+                          "q":  "Formula for sound file size?"
+                      },
+                      {
+                          "a":  "Lossless: no data lost, original can be restored (PNG, ZIP). Lossy: data permanently removed, smaller file (JPEG, MP3).",
+                          "q":  "Lossless vs lossy compression?"
+                      },
+                      {
+                          "a":  "Repeated identical values are replaced by the value and a count: AAAABB → 4A2B. It is lossless.",
+                          "q":  "How does run-length encoding work?"
+                      },
+                      {
+                          "a":  "Less storage needed; faster upload/download; less bandwidth; fits more on a device.",
+                          "q":  "Give three reasons to compress a file."
+                      },
+                      {
+                          "a":  "Most significant bit: the leftmost bit with the highest place value.",
+                          "q":  "What is the MSB?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# Key terms you must be able to define\n\nExam questions often start with **\"Define…\"**, **\"Describe…\"** or **\"State…\"**. Learn these word for word; the flashcards test every one.\n\n## Number systems\n\n| Term | Definition |\n|---|---|\n| **Binary** | Base-2 number system using only the digits 0 and 1 |\n| **Denary** | Base-10 number system (the normal decimal system, digits 0–9) |\n| **Hexadecimal** | Base-16 number system using digits 0–9 and letters A–F |\n| **Bit** | A single binary digit: 0 or 1 |\n| **Nibble** | 4 bits |\n| **Byte** | 8 bits |\n| **Register** | A small, fast storage location inside the CPU that holds binary data |\n| **Overflow** | When the result of a calculation is too large to be stored in the number of bits available |\n| **Logical shift** | Moving all bits in a register left or right; a left shift multiplies by 2, a right shift divides by 2 |\n| **Two\u0027s complement** | A method of representing negative numbers in binary; the most significant bit is negative (−128 in 8 bits) |\n| **Most significant bit (MSB)** | The leftmost bit, with the highest place value |\n| **Least significant bit (LSB)** | The rightmost bit, with place value 1 |\n\n## Storage units\n\n| Unit | Size |\n|---|---|\n| Kibibyte (KiB) | 1024 bytes (2¹⁰) |\n| Mebibyte (MiB) | 1024 KiB |\n| Gibibyte (GiB) | 1024 MiB |\n| Tebibyte (TiB) | 1024 GiB |\n| Kilobyte (KB) | 1000 bytes (10³) |\n| Megabyte (MB) | 1000 KB |\n\n\u003e The Cambridge syllabus uses the **binary prefixes** (KiB, MiB, GiB) for exam calculations. 1 KiB = 1024 bytes.\n\n## Text, images and sound\n\n| Term | Definition |\n|---|---|\n| **Character set** | The list of all characters a computer can represent, each with a unique binary code |\n| **ASCII** | A 7-bit character set of 128 characters (English letters, digits, symbols) |\n| **Extended ASCII** | 8-bit, 256 characters |\n| **Unicode** | A character set that can represent characters from all languages (including Georgian!) using up to 32 bits |\n| **Pixel** | The smallest element of an image (\"picture element\") |\n| **Resolution** | The number of pixels in an image, width × height |\n| **Colour depth** | The number of bits used to store the colour of one pixel |\n| **Sample** | A measurement of the amplitude of a sound wave at a point in time |\n| **Sample rate** | The number of samples taken per second (Hz) |\n| **Sample resolution** | The number of bits used to store each sample |\n| **File size of an image** | resolution × colour depth (in bits) |\n| **File size of a sound** | sample rate × sample resolution × length in seconds (× 2 for stereo) |\n\n## Compression\n\n| Term | Definition |\n|---|---|\n| **Compression** | Reducing the size of a file |\n| **Lossless compression** | File size is reduced but **no data is lost**; the original can be perfectly restored (e.g. RLE, ZIP, PNG) |\n| **Lossy compression** | File size is reduced by **permanently removing** data, e.g. MP3, JPEG; the original cannot be restored |\n| **Run-length encoding (RLE)** | Lossless method: replaces repeated values with the value and a count, e.g. AAAAABBB → 5A3B |\n\n**Why compress?** Smaller files: less storage space, faster to upload/download, less bandwidth needed, fit more on a device.",
+        "order":  0,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "RLE keeps all the data. JPEG, MP3 and MPEG are lossy.",
+                         "options":  [
+                                         "JPEG",
+                                         "MP3",
+                                         "Run-length encoding",
+                                         "MPEG"
+                                     ],
+                         "q":  "Which is a lossless compression method?"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "100 × 50 × 8 = 40 000 bits ÷ 8 = 5000 bytes.",
+                         "options":  [
+                                         "5000",
+                                         "40 000",
+                                         "400",
+                                         "625"
+                                     ],
+                         "q":  "An image is 100 × 50 pixels with a colour depth of 8 bits. File size in bytes?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "2⁷ = 128.",
+                         "options":  [
+                                         "7",
+                                         "64",
+                                         "128",
+                                         "256"
+                                     ],
+                         "q":  "How many characters can 7-bit ASCII represent?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "More bits per character means every character takes more space.",
+                         "options":  [
+                                         "It stores colours",
+                                         "It uses more bits per character (up to 32)",
+                                         "It is compressed",
+                                         "It is base 16"
+                                     ],
+                         "q":  "Why does Unicode use more storage per character than ASCII?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Binary prefixes go up in steps of 1024.",
+                         "options":  [
+                                         "1000 MiB",
+                                         "1024 MiB",
+                                         "1024 KiB",
+                                         "1 000 000 bytes"
+                                     ],
+                         "q":  "1 GiB equals:"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "1000 × 8 × 5 = 40 000 bits (5000 bytes).",
+                         "options":  [
+                                         "40 000 bits",
+                                         "5000 bits",
+                                         "8000 bits",
+                                         "1000 bits"
+                                     ],
+                         "q":  "A 5-second mono sound is sampled at 1000 Hz with 8-bit resolution. File size?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Overflow happens when a result is too big for the register.",
+                         "options":  [
+                                         "Underflow",
+                                         "A logical shift",
+                                         "Overflow",
+                                         "Two\u0027s complement"
+                                     ],
+                         "q":  "\u0027The result needs 9 bits but the register holds 8\u0027 describes:"
+                     }
+                 ],
+        "subject":  "cs",
+        "title":  "Computer Science key terms (Unit 1: data)",
+        "updated":  "Glossary",
+        "id":  "cs-keywords"
     },
     {
         "cards":  [
@@ -2080,6 +3070,156 @@
     {
         "cards":  [
                       {
+                          "a":  "6/15 + 5/15 = 11/15",
+                          "q":  "2/5 + 1/3 = ?"
+                      },
+                      {
+                          "a":  "3/4 × 5/2 = 15/8 = 1⅞",
+                          "q":  "3/4 ÷ 2/5 = ?"
+                      },
+                      {
+                          "a":  "17/5",
+                          "q":  "Write 3⅖ as an improper fraction."
+                      },
+                      {
+                          "a":  "0.125 and 12.5%",
+                          "q":  "1/8 as a decimal and percentage?"
+                      },
+                      {
+                          "a":  "x = 0.3636…, 100x = 36.36…, 99x = 36 → 36/99 = 4/11",
+                          "q":  "Write 0.363636… as a fraction."
+                      },
+                      {
+                          "a":  "× 1.15 and × 0.7",
+                          "q":  "Multiplier for a 15% increase? For a 30% decrease?"
+                      },
+                      {
+                          "a":  "20/80 × 100 = 25% increase",
+                          "q":  "Percentage change from 80 to 100?"
+                      },
+                      {
+                          "a":  "60 ÷ 0.75 = £80",
+                          "q":  "After a 25% discount a jacket costs £60. Original price?"
+                      },
+                      {
+                          "a":  "Final amount = P × (1 + r/100)ⁿ",
+                          "q":  "Compound interest formula?"
+                      },
+                      {
+                          "a":  "500 × 1.04² = £540.80",
+                          "q":  "£500 at 4% compound interest for 2 years?"
+                      },
+                      {
+                          "a":  "9 parts, 1 part = £10 → £40 and £50",
+                          "q":  "Share £90 in the ratio 4 : 5."
+                      },
+                      {
+                          "a":  "45 : 120 = 3 : 8",
+                          "q":  "Simplify 45 min : 2 hours."
+                      },
+                      {
+                          "a":  "1 part = 7 → B = 35",
+                          "q":  "A : B = 3 : 5 and A = 21. Find B."
+                      },
+                      {
+                          "a":  "Inverse proportion: 6 × 10 = 60 worker-days → 60 ÷ 15 = 4 days",
+                          "q":  "6 workers take 10 days. How long for 15 workers?"
+                      },
+                      {
+                          "a":  "£1.50 per kg → £10.50",
+                          "q":  "3 kg of apples cost £4.50. Cost of 7 kg?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# Fractions\n\n- **Simplify:** divide top and bottom by the HCF. 18/24 = 3/4.\n- **Add/subtract:** make the denominators the same first. 2/3 + 1/4 = 8/12 + 3/12 = 11/12.\n- **Multiply:** top × top, bottom × bottom (cancel first if you can). 2/3 × 9/10 = 18/30 = 3/5.\n- **Divide:** flip the second fraction and multiply. 3/4 ÷ 2/5 = 3/4 × 5/2 = 15/8 = 1⅞.\n- **Mixed ↔ improper:** 2¾ = 11/4 (2×4+3 over 4). Convert to improper before multiplying or dividing.\n- **Fraction of an amount:** 3/5 of 40 = 40 ÷ 5 × 3 = 24.\n\n# Converting\n\n| Fraction | Decimal | Percentage |\n|---|---|---|\n| 1/2 | 0.5 | 50% |\n| 1/4 | 0.25 | 25% |\n| 3/4 | 0.75 | 75% |\n| 1/5 | 0.2 | 20% |\n| 1/8 | 0.125 | 12.5% |\n| 1/3 | 0.333… | 33.3% |\n| 2/3 | 0.666… | 66.7% |\n| 1/10 | 0.1 | 10% |\n\n- Fraction → decimal: divide top by bottom. Decimal → percentage: × 100. Percentage → fraction: over 100 then simplify (35% = 35/100 = 7/20).\n- **Recurring decimals → fractions:** let x = 0.454545…, 100x = 45.4545…, subtract: 99x = 45, x = 45/99 = 5/11.\n\n# Percentages\n\n- **Percentage of an amount:** 15% of 80 = 0.15 × 80 = 12.\n- **Increase/decrease:** use a **multiplier**. +20% → × 1.2; −35% → × 0.65. 250 increased by 20% = 250 × 1.2 = 300.\n- **Percentage change** = (change ÷ original) × 100. From 40 to 46: 6/40 × 100 = 15% increase.\n- **Reverse percentage:** a price after a 20% discount is £48. Original = 48 ÷ 0.8 = £60. (Never take 20% of 48!)\n- **Simple interest:** I = P × R × T ÷ 100. **Compound interest:** final = P × (1 + r/100)ⁿ. £1000 at 5% for 3 years = 1000 × 1.05³ = £1157.63.\n\n# Ratio\n\n- **Simplify** like a fraction: 12 : 18 = 2 : 3. Same units first: 50 cm : 2 m = 50 : 200 = 1 : 4.\n- **Share in a ratio:** share £120 in 2 : 3. Total parts = 5; one part = 24; shares = £48 and £72.\n- **Given one part:** A : B = 3 : 7 and B = 35 → one part = 5 → A = 15.\n- **Given the difference:** A : B = 2 : 5, B is 12 more than A → 3 parts = 12 → 1 part = 4 → A = 8, B = 20.\n- Form 1 : n → divide both by the first number. 4 : 10 = 1 : 2.5.\n\n# Direct and inverse proportion\n\n- **Direct:** y = kx; doubling x doubles y. 5 pens cost £3 → 8 pens cost 3/5 × 8 = £4.80 (unitary method).\n- **Inverse:** y = k/x; doubling x halves y. 4 workers take 6 days → 8 workers take 3 days (4 × 6 = 24 worker-days; 24 ÷ 8 = 3).\n\n\u003e **Exam trap:** \"best value\" questions — find the price **per unit** (per gram, per item) for each option and compare.",
+        "order":  4,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "6/24 simplifies to 1/4.",
+                         "options":  [
+                                         "6/24",
+                                         "1/4",
+                                         "5/11",
+                                         "9/16"
+                                     ],
+                         "q":  "Work out 2/3 × 3/8 in its simplest form."
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "5/8 = 0.625, bigger than 0.6, 0.62 and 0.6.",
+                         "options":  [
+                                         "0.6",
+                                         "5/8",
+                                         "62%",
+                                         "3/5"
+                                     ],
+                         "q":  "Which is the largest?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "240 ÷ 1.2 = 200. Reverse percentage divides by the multiplier.",
+                         "options":  [
+                                         "£192",
+                                         "£200",
+                                         "£288",
+                                         "£220"
+                                     ],
+                         "q":  "A phone costs £240 after a 20% price rise. The original price was:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "7 parts, 1 part = 12, larger share = 4 × 12 = 48.",
+                         "options":  [
+                                         "36",
+                                         "48",
+                                         "56",
+                                         "63"
+                                     ],
+                         "q":  "Share 84 sweets in the ratio 3 : 4. The larger share is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "2000 × 1.03² = 2121.80.",
+                         "options":  [
+                                         "£2120",
+                                         "£2060",
+                                         "£2121.80",
+                                         "£2180"
+                                     ],
+                         "q":  "£2000 invested at 3% compound interest for 2 years becomes:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "x = 0.777…, 10x = 7.777…, 9x = 7, x = 7/9.",
+                         "options":  [
+                                         "7/10",
+                                         "7/9",
+                                         "77/100",
+                                         "7/8"
+                                     ],
+                         "q":  "0.777… as a fraction is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Direct proportion: 100 ÷ 8 = 12.5 km per litre × 30 = 375 km.",
+                         "options":  [
+                                         "240 km",
+                                         "375 km",
+                                         "300 km",
+                                         "3.75 km"
+                                     ],
+                         "q":  "A car uses 8 litres per 100 km. How far on 30 litres?"
+                     }
+                 ],
+        "subject":  "maths",
+        "title":  "Fractions, decimals, percentages \u0026 ratio",
+        "updated":  "Starter notes",
+        "id":  "maths-fdp"
+    },
+    {
+        "cards":  [
+                      {
                           "a":  "aᵐ⁺ⁿ — add the indices when multiplying with the same base.",
                           "q":  "aᵐ × aⁿ = ?"
                       },
@@ -2318,6 +3458,347 @@
         "title":  "Number: types, factors, HCF \u0026 LCM",
         "updated":  "Starter notes",
         "id":  "maths-number"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Mass = amount of matter (kg), same everywhere. Weight = force of gravity on a mass (N), changes with g.",
+                          "q":  "Mass vs weight?"
+                      },
+                      {
+                          "a":  "W = m × g, with g ≈ 9.8 N/kg on Earth.",
+                          "q":  "Formula for weight?"
+                      },
+                      {
+                          "a":  "120 N",
+                          "q":  "Weight of a 12 kg object on Earth (g = 10 N/kg)?"
+                      },
+                      {
+                          "a":  "ρ = m ÷ V; g/cm³ or kg/m³. 1 g/cm³ = 1000 kg/m³.",
+                          "q":  "Formula and units for density?"
+                      },
+                      {
+                          "a":  "1 g/cm³ = 1000 kg/m³.",
+                          "q":  "Density of water?"
+                      },
+                      {
+                          "a":  "When its density is less than the density of the liquid.",
+                          "q":  "When does an object float?"
+                      },
+                      {
+                          "a":  "Displacement: drop it in a measuring cylinder of water; volume = rise in water level.",
+                          "q":  "How do you find the volume of an irregular solid?"
+                      },
+                      {
+                          "a":  "Change its speed, its direction, or its shape.",
+                          "q":  "What can a force do to an object?"
+                      },
+                      {
+                          "a":  "The single force that has the same effect as all the forces acting on an object combined.",
+                          "q":  "What is a resultant force?"
+                      },
+                      {
+                          "a":  "Resultant force is zero: the object stays at rest or keeps moving at constant velocity.",
+                          "q":  "What happens when forces are balanced?"
+                      },
+                      {
+                          "a":  "F = m × a (resultant force = mass × acceleration).",
+                          "q":  "Newton\u0027s second law formula?"
+                      },
+                      {
+                          "a":  "a = F/m = 20/5 = 4 m/s².",
+                          "q":  "A 5 kg object has a resultant force of 20 N. Acceleration?"
+                      },
+                      {
+                          "a":  "A force opposing motion between surfaces in contact; it produces heat.",
+                          "q":  "What is friction and what does it produce?"
+                      },
+                      {
+                          "a":  "It increases as speed increases.",
+                          "q":  "How does air resistance change with speed?"
+                      },
+                      {
+                          "a":  "The extension of a spring is directly proportional to the load, up to the limit of proportionality: F = kx.",
+                          "q":  "State Hooke\u0027s law."
+                      },
+                      {
+                          "a":  "Stretched length minus the original (unstretched) length.",
+                          "q":  "Define extension."
+                      },
+                      {
+                          "a":  "k = F/x = 6/3 = 2 N/cm.",
+                          "q":  "A spring stretches 3 cm under 6 N. Spring constant?"
+                      },
+                      {
+                          "a":  "Moment = force × perpendicular distance from the pivot (N m).",
+                          "q":  "Formula for a moment?"
+                      },
+                      {
+                          "a":  "For a body in equilibrium, total clockwise moments = total anticlockwise moments about a pivot.",
+                          "q":  "State the principle of moments."
+                      },
+                      {
+                          "a":  "The point through which the whole weight of an object appears to act.",
+                          "q":  "What is the centre of gravity?"
+                      },
+                      {
+                          "a":  "A low centre of gravity and a wide base.",
+                          "q":  "What makes an object stable?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# Mass and weight\n\n| | Mass | Weight |\n|---|---|---|\n| What it is | The amount of matter in an object; a measure of its resistance to change in motion (inertia) | The **force** of gravity acting on a mass |\n| Unit | kg | N (newton) |\n| Changes with location? | No — same on the Moon | Yes — gravity differs |\n| Measured with | Balance | Force meter (newton meter) |\n\n**W = m × g** where g = gravitational field strength ≈ **9.8 N/kg** (often 10 N/kg). A 5 kg bag on Earth weighs 5 × 9.8 = 49 N; on the Moon (g = 1.6 N/kg) it weighs 8 N but its mass is still 5 kg.\n\n# Density\n\n**Density = mass ÷ volume**, ρ = m / V. Units: **kg/m³** or **g/cm³** (1 g/cm³ = 1000 kg/m³). Water = 1 g/cm³ = 1000 kg/m³.\n\n- Regular solid: measure sides with a ruler, V = l × w × h; mass on a balance.\n- Irregular solid: displacement of water in a measuring cylinder.\n- Liquid: mass of empty cylinder, add liquid, subtract; read volume.\n- An object **floats** if its density is **less** than the liquid\u0027s.\n\nExample: 200 g of a metal has volume 25 cm³ → ρ = 200/25 = **8 g/cm³**.\n\n# Forces\n\nA force is a push or a pull, measured in **newtons (N)**. It is a **vector**. Forces can change an object\u0027s **speed, direction or shape**.\n\n**Types:** weight (gravity), friction, air resistance (drag), tension, normal (contact) force, thrust, upthrust, electrostatic, magnetic.\n\n## Resultant force\n\nThe single force that has the same effect as all the forces acting together.\n\n- Same direction: add. Opposite: subtract.\n- **Balanced** (resultant = 0): the object stays still **or keeps moving at constant velocity** (Newton\u0027s 1st law).\n- **Unbalanced** (resultant ≠ 0): the object accelerates in the direction of the resultant force.\n\n## Newton\u0027s second law: F = m × a\n\nResultant force (N) = mass (kg) × acceleration (m/s²).\n\n- Bigger force → bigger acceleration. Bigger mass → smaller acceleration for the same force.\n- Example: 1200 kg car, resultant force 3000 N → a = 3000/1200 = **2.5 m/s²**.\n- Example: a 2 kg trolley with 6 N forward and 2 N friction → resultant 4 N → a = 2 m/s².\n\n## Friction\n\n- A force that **opposes motion** between surfaces in contact. It **produces heat**.\n- Air resistance / drag is friction with air or water; it **increases with speed**.\n- Useful: brakes, walking, tyres. Unwanted: engine wear (reduce with lubricants, streamlining).\n\n## Hooke\u0027s law and springs\n\n- **Extension** = stretched length − original length.\n- **Hooke\u0027s law:** extension is directly proportional to the load, **up to the limit of proportionality**: **F = k × x** (k = spring constant, N/m or N/cm).\n- A force–extension graph is a straight line through the origin until the limit of proportionality, then it curves.\n- Beyond the **elastic limit** the spring is permanently deformed.\n\nExample: a spring extends 4 cm with 2 N → k = 2/4 = 0.5 N/cm. With 3 N it extends 6 cm.\n\n# Turning effect (moments)\n\n**Moment = force × perpendicular distance from the pivot** (N m).\n\n**Principle of moments:** for an object in equilibrium, the sum of clockwise moments = sum of anticlockwise moments about any pivot.\n\nExample: a 300 N child sits 2 m from the pivot of a see-saw. Where must a 600 N adult sit to balance? 300 × 2 = 600 × d → d = **1 m**.\n\n**Centre of gravity:** the point where all the weight seems to act. An object topples if a vertical line from its centre of gravity falls outside its base. Low centre of gravity + wide base = stable.",
+        "order":  3,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "Mass never changes; her weight would be 128 N.",
+                         "options":  [
+                                         "13 kg",
+                                         "80 kg",
+                                         "128 kg",
+                                         "784 kg"
+                                     ],
+                         "q":  "An astronaut\u0027s mass is 80 kg on Earth. On the Moon (g = 1.6 N/kg) her mass is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "540 ÷ 200 = 2.7 g/cm³ (aluminium).",
+                         "options":  [
+                                         "0.37 g/cm³",
+                                         "2.7 g/cm³",
+                                         "108 000 g/cm³",
+                                         "340 g/cm³"
+                                     ],
+                         "q":  "A block has mass 540 g and volume 200 cm³. Its density is:"
+                     },
+                     {
+                         "answer":  3,
+                         "explain":  "F = ma = 4 × 3 = 12 N.",
+                         "options":  [
+                                         "0.75 N",
+                                         "1.33 N",
+                                         "7 N",
+                                         "12 N"
+                                     ],
+                         "q":  "A 4 kg object accelerates at 3 m/s². The resultant force is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Constant velocity means the resultant force is zero; the forces exist but cancel.",
+                         "options":  [
+                                         "Unbalanced forwards",
+                                         "Balanced",
+                                         "Unbalanced backwards",
+                                         "Zero"
+                                     ],
+                         "q":  "A car travels at a constant 20 m/s. The forces on it are:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "k = 10/5 = 2 N/cm; x = 4/2 = 2 cm.",
+                         "options":  [
+                                         "1 cm",
+                                         "2 cm",
+                                         "2.5 cm",
+                                         "4 cm"
+                                     ],
+                         "q":  "A spring extends 5 cm with a 10 N load. With 4 N it extends:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "200 × 3 = 400 × d → d = 1.5 m.",
+                         "options":  [
+                                         "6 m away",
+                                         "3 m away",
+                                         "1.5 m away",
+                                         "0.5 m away"
+                                     ],
+                         "q":  "A 200 N weight is 3 m from a pivot. To balance it, a 400 N weight must be placed:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Low centre of gravity and wide base resist toppling.",
+                         "options":  [
+                                         "Putting luggage on the roof",
+                                         "Making it taller",
+                                         "Lowering its centre of gravity",
+                                         "Making the wheels closer together"
+                                     ],
+                         "q":  "Which change makes a bus MORE stable?"
+                     }
+                 ],
+        "subject":  "physics",
+        "title":  "Mass, weight, density \u0026 forces",
+        "updated":  "Starter notes",
+        "id":  "phys-forces"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Magnitude only: speed, distance, mass, time, energy, temperature.",
+                          "q":  "Define scalar and give 3 examples."
+                      },
+                      {
+                          "a":  "Magnitude and direction: velocity, displacement, acceleration, force, weight.",
+                          "q":  "Define vector and give 3 examples."
+                      },
+                      {
+                          "a":  "Distance travelled per unit time.",
+                          "q":  "Define speed."
+                      },
+                      {
+                          "a":  "Speed in a stated direction.",
+                          "q":  "Define velocity."
+                      },
+                      {
+                          "a":  "Change in velocity per unit time.",
+                          "q":  "Define acceleration."
+                      },
+                      {
+                          "a":  "The constant maximum velocity reached when air resistance equals the weight, so the resultant force is zero.",
+                          "q":  "Define terminal velocity."
+                      },
+                      {
+                          "a":  "The amount of matter in an object; a measure of its inertia.",
+                          "q":  "Define mass."
+                      },
+                      {
+                          "a":  "The force of gravity acting on an object (W = mg).",
+                          "q":  "Define weight."
+                      },
+                      {
+                          "a":  "The force per unit mass, about 9.8 N/kg on Earth.",
+                          "q":  "Define gravitational field strength."
+                      },
+                      {
+                          "a":  "Mass per unit volume.",
+                          "q":  "Define density."
+                      },
+                      {
+                          "a":  "The single force that has the same effect as all the forces acting on an object.",
+                          "q":  "Define resultant force."
+                      },
+                      {
+                          "a":  "A force that opposes motion between surfaces in contact.",
+                          "q":  "Define friction."
+                      },
+                      {
+                          "a":  "The tendency of an object to resist a change in its motion.",
+                          "q":  "Define inertia."
+                      },
+                      {
+                          "a":  "The point beyond which the extension of a spring is no longer proportional to the load.",
+                          "q":  "Define limit of proportionality."
+                      },
+                      {
+                          "a":  "The turning effect of a force: force × perpendicular distance from the pivot.",
+                          "q":  "Define moment."
+                      },
+                      {
+                          "a":  "No resultant force and no resultant moment acting on an object.",
+                          "q":  "Define equilibrium."
+                      },
+                      {
+                          "a":  "The point through which the whole weight of an object seems to act.",
+                          "q":  "Define centre of gravity."
+                      },
+                      {
+                          "a":  "Divide by 3.6 (36 km/h = 10 m/s).",
+                          "q":  "km/h to m/s?"
+                      },
+                      {
+                          "a":  "1000 kg/m³",
+                          "q":  "1 g/cm³ in kg/m³?"
+                      },
+                      {
+                          "a":  "a = (v − u) / t",
+                          "q":  "Formula for acceleration?"
+                      },
+                      {
+                          "a":  "ρ = m / V",
+                          "q":  "Formula for density?"
+                      },
+                      {
+                          "a":  "W = m × g",
+                          "q":  "Formula for weight?"
+                      }
+                  ],
+        "exam":  "Exam 1 · October",
+        "notes":  "# Formula sheet\n\n| Quantity | Formula | Units |\n|---|---|---|\n| Speed | v = distance ÷ time | m/s |\n| Acceleration | a = (v − u) ÷ t | m/s² |\n| Weight | W = m × g | N |\n| Density | ρ = m ÷ V | kg/m³, g/cm³ |\n| Resultant force | F = m × a | N |\n| Hooke\u0027s law | F = k × x | N (k in N/m) |\n| Moment | force × perpendicular distance | N m |\n| Pendulum period | T = time for n swings ÷ n | s |\n| Distance from v–t graph | area under the graph | m |\n\n\u003e Always: write the formula, substitute with units, calculate, give the unit. Marks are given for each step.\n\n# Definitions\n\n| Term | Definition |\n|---|---|\n| **Scalar** | A quantity with magnitude (size) only, e.g. speed, distance, mass, time, energy, temperature |\n| **Vector** | A quantity with magnitude and direction, e.g. velocity, displacement, acceleration, force, weight |\n| **Speed** | Distance travelled per unit time |\n| **Velocity** | Speed in a stated direction |\n| **Acceleration** | Change in velocity per unit time |\n| **Deceleration** | Negative acceleration — slowing down |\n| **Terminal velocity** | The constant maximum velocity reached when air resistance equals weight so the resultant force is zero |\n| **Mass** | The amount of matter in an object; a measure of inertia |\n| **Weight** | The force of gravity on an object |\n| **Gravitational field strength (g)** | The force per unit mass, ≈ 9.8 N/kg on Earth |\n| **Density** | Mass per unit volume |\n| **Force** | A push or pull that can change an object\u0027s speed, direction or shape |\n| **Resultant force** | The single force equivalent to all forces acting on an object |\n| **Friction** | A force that opposes motion between surfaces in contact |\n| **Inertia** | The tendency of an object to keep doing what it is doing (stay still or keep moving) |\n| **Extension** | Increase in length of a spring from its original length |\n| **Limit of proportionality** | The point beyond which extension is no longer proportional to load |\n| **Elastic limit** | The point beyond which a material does not return to its original shape |\n| **Spring constant (k)** | Force needed per unit extension |\n| **Moment** | The turning effect of a force |\n| **Equilibrium** | No resultant force and no resultant moment |\n| **Centre of gravity** | The point where the whole weight of an object appears to act |\n| **Parallax error** | Error from reading a scale at an angle instead of straight on |\n| **Zero error** | An instrument not reading zero when it should |\n\n# Unit conversions\n\n- 1 km = 1000 m; 1 m = 100 cm = 1000 mm\n- 1 hour = 3600 s; 1 minute = 60 s\n- km/h → m/s: **÷ 3.6**\n- 1 kg = 1000 g; 1 tonne = 1000 kg\n- 1 m³ = 1 000 000 cm³; 1 litre = 1000 cm³\n- 1 g/cm³ = 1000 kg/m³",
+        "order":  0,
+        "quiz":  [
+                     {
+                         "answer":  3,
+                         "explain":  "Energy has no direction.",
+                         "options":  [
+                                         "Force",
+                                         "Velocity",
+                                         "Displacement",
+                                         "Energy"
+                                     ],
+                         "q":  "Which is a scalar?"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "54 ÷ 3.6 = 15.",
+                         "options":  [
+                                         "15 m/s",
+                                         "194 m/s",
+                                         "0.9 m/s",
+                                         "5.4 m/s"
+                                     ],
+                         "q":  "54 km/h in m/s is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Moment = force × distance from pivot.",
+                         "options":  [
+                                         "Weight",
+                                         "Moment",
+                                         "Inertia",
+                                         "Density"
+                                     ],
+                         "q":  "The turning effect of a force is called its:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Beyond the elastic limit deformation is permanent.",
+                         "options":  [
+                                         "Limit of proportionality",
+                                         "Elastic limit",
+                                         "Spring constant",
+                                         "Extension"
+                                     ],
+                         "q":  "\u0027The point beyond which a spring will not return to its original length\u0027 is the:"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "Divide by 1000.",
+                         "options":  [
+                                         "2.5",
+                                         "25",
+                                         "250",
+                                         "0.25"
+                                     ],
+                         "q":  "2500 kg/m³ in g/cm³ is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "About 9.8 N per kilogram (often rounded to 10).",
+                         "options":  [
+                                         "1 N/kg",
+                                         "9.8 N/kg",
+                                         "98 N/kg",
+                                         "9.8 kg/N"
+                                     ],
+                         "q":  "The gravitational field strength on Earth is approximately:"
+                     }
+                 ],
+        "subject":  "physics",
+        "title":  "Physics key terms \u0026 formulas (Unit 1: motion, forces)",
+        "updated":  "Glossary",
+        "id":  "phys-keywords"
     },
     {
         "cards":  [
@@ -2576,133 +4057,161 @@
     {
         "cards":  [
                       {
-                          "a":  "кто? что? — подлежащее, без предлога.",
-                          "q":  "Вопросы именительного падежа?"
+                          "a":  "кто? что? = who? what? — the subject, no preposition.",
+                          "q":  "Именительный падеж — вопросы? (nominative)"
                       },
                       {
-                          "a":  "кого? чего? — «нет» (нет стола, нет книги).",
-                          "q":  "Вопросы родительного падежа и слово-помощник?"
+                          "a":  "кого? чего? = of whom? of what? — helper **нет** (there is no): нет стола, нет книги.",
+                          "q":  "Родительный падеж — вопросы и слово-помощник? (genitive)"
                       },
                       {
-                          "a":  "кому? чему? — «дать» (дать другу, дать маме).",
-                          "q":  "Вопросы дательного падежа и слово-помощник?"
+                          "a":  "кому? чему? = to whom? to what? — helper **дать** (give to): дать другу, дать маме.",
+                          "q":  "Дательный падеж — вопросы и слово-помощник? (dative)"
                       },
                       {
-                          "a":  "кого? что? — «вижу» (вижу брата, вижу книгу).",
-                          "q":  "Вопросы винительного падежа и слово-помощник?"
+                          "a":  "кого? что? = whom? what? — helper **вижу** (I see): вижу брата, вижу книгу.",
+                          "q":  "Винительный падеж — вопросы и слово-помощник? (accusative)"
                       },
                       {
-                          "a":  "кем? чем? — «горжусь» (горжусь братом, столом).",
-                          "q":  "Вопросы творительного падежа и слово-помощник?"
+                          "a":  "кем? чем? = with whom? with what? — helper **горжусь** (proud of): горжусь братом.",
+                          "q":  "Творительный падеж — вопросы и слово-помощник? (instrumental)"
                       },
                       {
-                          "a":  "о ком? о чём? — всегда с предлогом (о маме, в школе, на столе).",
-                          "q":  "Вопросы предложного падежа?"
+                          "a":  "о ком? о чём? = about whom? about what? — always with a preposition: о маме, в школе.",
+                          "q":  "Предложный падеж — вопросы? (prepositional)"
                       },
                       {
-                          "a":  "Ж.р. и м.р. на -а/-я: мама, папа, земля, дядя.",
-                          "q":  "Какие слова относятся к 1-му склонению?"
+                          "a":  "Feminine and masculine nouns ending in -а/-я: мама, папа, земля, дядя.",
+                          "q":  "Какие слова в 1-м склонении? (1st declension)"
                       },
                       {
-                          "a":  "М.р. с нулевым окончанием и ср.р. на -о/-е: стол, конь, окно, море.",
-                          "q":  "Какие слова относятся ко 2-му склонению?"
+                          "a":  "Masculine nouns with no ending and neuter nouns in -о/-е: стол, конь, окно, море.",
+                          "q":  "Какие слова во 2-м склонении? (2nd declension)"
                       },
                       {
-                          "a":  "Ж.р. с ь на конце: ночь, мышь, тетрадь.",
-                          "q":  "Какие слова относятся к 3-му склонению?"
+                          "a":  "Feminine nouns ending in ь (soft sign): ночь, мышь, тетрадь.",
+                          "q":  "Какие слова в 3-м склонении? (3rd declension)"
                       },
                       {
-                          "a":  "В школу — винительный (куда?); в школе — предложный (где?).",
+                          "a":  "в школу = accusative (where to? movement); в школе = prepositional (where? location).",
                           "q":  "«Иду в школу» и «сижу в школе» — какие падежи?"
                       },
                       {
-                          "a":  "-и: (нет) ночи, (дать) ночи, (о) ночи.",
+                          "a":  "-и in all three: (нет) ночи, (дать) ночи, (о) ночи.",
                           "q":  "Окончание 3-го склонения в Р.п., Д.п., П.п.?"
                       },
                       {
-                          "a":  "Винительный (читаю что? книгу; окончание -у).",
+                          "a":  "Accusative (винительный): I read *what?* — книгу, ending -у.",
                           "q":  "«Я читаю книгу» — падеж слова «книгу»?"
                       },
                       {
-                          "a":  "По роли: подлежащее (стол стоит) — И.п.; дополнение (вижу стол) — В.п.",
+                          "a":  "Genitive (родительный): для (for) always takes genitive.",
+                          "q":  "«Подарок для брата» — падеж слова «брата»?"
+                      },
+                      {
+                          "a":  "Dative (дательный): wrote *to whom?* — маме, 1st declension ending -е.",
+                          "q":  "«Я написал письмо маме» — падеж слова «маме»?"
+                      },
+                      {
+                          "a":  "By its job: subject (стол стоит = the table stands) → nominative; object (вижу стол = I see the table) → accusative.",
                           "q":  "Как отличить В.п. от И.п. у слова «стол»?"
+                      },
+                      {
+                          "a":  "без (without), у (at), от (from), до (until), из (out of), для (for), около (near), после (after).",
+                          "q":  "Предлоги родительного падежа?"
+                      },
+                      {
+                          "a":  "с (with), за (behind), над (above), под (under), перед (in front of), между (between).",
+                          "q":  "Предлоги творительного падежа?"
                       }
                   ],
         "exam":  "Exam 1 · October",
         "lang":  "ru",
-        "notes":  "# Шесть падежей\n\nПадеж показывает роль существительного в предложении. Чтобы определить падеж, задай **вопрос** от слова, к которому оно относится.\n\n| Падеж | Вопросы | Слово-помощник | Пример (стол / книга) |\n|---|---|---|---|\n| **Именительный** (И.п.) | кто? что? | есть | стол, книга |\n| **Родительный** (Р.п.) | кого? чего? | нет | стола, книги |\n| **Дательный** (Д.п.) | кому? чему? | дать | столу, книге |\n| **Винительный** (В.п.) | кого? что? | вижу | стол, книгу |\n| **Творительный** (Т.п.) | кем? чем? | горжусь | столом, книгой |\n| **Предложный** (П.п.) | о ком? о чём? | думаю о | о столе, о книге |\n\n\u003e Запомни порядок по фразе: **И**ван **Р**одил **Д**евчонку, **В**елел **Т**ащить **П**елёнку.\n\n## Именительный и винительный — как не перепутать\n\n- Именительный — всегда **подлежащее**, без предлога: *Брат читает.*\n- Винительный — **дополнение** (кого? что?): *Я вижу брата.* *Я читаю книгу.*\n- У **неодушевлённых** слов мужского рода И.п. = В.п. (вижу стол), у **одушевлённых** В.п. = Р.п. (вижу брата = нет брата).\n\n## Предлоги-подсказки\n\n| Падеж | Типичные предлоги |\n|---|---|\n| Родительный | без, у, от, до, из, для, около, после |\n| Дательный | к, по |\n| Винительный | в, на, за, через, про (при движении: иду **в школу**) |\n| Творительный | с, за, над, под, перед, между |\n| Предложный | о, об, в, на (при месте: сижу **в школе**) |\n\n\u003e **в / на:** куда? → винительный (*в школу*); где? → предложный (*в школе*).\n\n# Три склонения\n\n| Склонение | Какие слова | Примеры |\n|---|---|---|\n| 1-е | ж.р. и м.р. на **-а / -я** | мама, папа, земля, дядя |\n| 2-е | м.р. с нулевым окончанием, ср.р. на **-о / -е** | стол, конь, окно, море |\n| 3-е | ж.р. с **ь** на конце | ночь, мышь, тетрадь, дочь |\n\n## Окончания в единственном числе\n\n| Падеж | 1-е скл. (мама) | 2-е скл. (стол / окно) | 3-е скл. (ночь) |\n|---|---|---|---|\n| И.п. | мам**а** | стол / окн**о** | ночь |\n| Р.п. | мам**ы** | стол**а** / окн**а** | ноч**и** |\n| Д.п. | мам**е** | стол**у** / окн**у** | ноч**и** |\n| В.п. | мам**у** | стол / окн**о** | ночь |\n| Т.п. | мам**ой** | стол**ом** / окн**ом** | ноч**ью** |\n| П.п. | о мам**е** | о стол**е** / об окн**е** | о ноч**и** |\n\n**Частые ошибки**\n\n- 1-е скл. Д.п. и П.п. — **-е** (маме, о маме), а Р.п. — **-ы/-и** (мамы).\n- 3-е скл. Р.п., Д.п., П.п. — всегда **-и** (ночи, о ночи).\n- Слова на **-ия, -ий, -ие** (армия, гений, здание) в П.п. имеют **-и**: об армии, о гении, о здании.\n\n# Алгоритм определения падежа\n\n1. Найди слово, от которого зависит существительное.\n2. Задай **оба** вопроса падежа (кого? чего?).\n3. Подставь слово-помощник (*нет* кого? — родительный).\n4. Проверь предлог.\n5. Проверь окончание по таблице склонений.",
+        "notes":  "# Шесть падежей\n\nПадеж показывает роль существительного в предложении. Чтобы определить падеж, задай **вопрос** от слова, к которому оно относится.\n\n| Падеж | Вопросы | Слово-помощник | Пример (стол / книга) |\n|---|---|---|---|\n| **Именительный** (И.п.) | кто? что? | есть | стол, книга |\n| **Родительный** (Р.п.) | кого? чего? | нет | стола, книги |\n| **Дательный** (Д.п.) | кому? чему? | дать | столу, книге |\n| **Винительный** (В.п.) | кого? что? | вижу | стол, книгу |\n| **Творительный** (Т.п.) | кем? чем? | горжусь | столом, книгой |\n| **Предложный** (П.п.) | о ком? о чём? | думаю о | о столе, о книге |\n\n\u003e Запомни порядок: **И**ван **Р**одил **Д**евчонку, **В**елел **Т**ащить **П**елёнку.\n\n## Именительный и винительный\n\n- Именительный — всегда **подлежащее**: *Брат читает.*\n- Винительный — **дополнение** (кого? что?): *Я вижу брата. Я читаю книгу.*\n- У **неодушевлённых** слов м.р. И.п. = В.п. (вижу стол); у **одушевлённых** В.п. = Р.п. (вижу брата = нет брата).\n\n## Предлоги-подсказки\n\n| Падеж | Предлоги |\n|---|---|\n| Родительный | без, у, от, до, из, для, около, после |\n| Дательный | к, по |\n| Винительный | в, на, за, через, про (куда? — иду **в школу**) |\n| Творительный | с, за, над, под, перед, между |\n| Предложный | о, об, в, на (где? — сижу **в школе**) |\n\n## Три склонения\n\n| Склонение | Какие слова | Примеры |\n|---|---|---|\n| 1-е | ж.р. и м.р. на **-а / -я** | мама, папа, земля, дядя |\n| 2-е | м.р. с нулевым окончанием, ср.р. на **-о / -е** | стол, конь, окно, море |\n| 3-е | ж.р. с **ь** на конце | ночь, мышь, тетрадь |\n\n## Окончания (ед. число)\n\n| Падеж | 1-е (мама) | 2-е (стол / окно) | 3-е (ночь) |\n|---|---|---|---|\n| И.п. | мам**а** | стол / окн**о** | ночь |\n| Р.п. | мам**ы** | стол**а** / окн**а** | ноч**и** |\n| Д.п. | мам**е** | стол**у** / окн**у** | ноч**и** |\n| В.п. | мам**у** | стол / окн**о** | ночь |\n| Т.п. | мам**ой** | стол**ом** / окн**ом** | ноч**ью** |\n| П.п. | о мам**е** | о стол**е** / об окн**е** | о ноч**и** |\n\n**Частые ошибки**\n\n- 1-е скл.: Д.п. и П.п. — **-е** (маме), Р.п. — **-ы/-и** (мамы).\n- 3-е скл.: Р.п., Д.п., П.п. — всегда **-и**.\n- Слова на **-ия, -ий, -ие** в П.п. — **-и**: об армии, о здании.\n\n## Алгоритм\n\n1. Найди слово, от которого зависит существительное.\n2. Задай **оба** вопроса падежа.\n3. Подставь слово-помощник.\n4. Проверь предлог.\n5. Проверь окончание по таблице.",
+        "notesEn":  "# The six cases\n\nA **case** (падеж) is the form a noun takes to show its job in the sentence. English does this with word order and prepositions (\"the dog\", \"to the dog\", \"of the dog\"); Russian changes the **ending** of the noun instead. To find the case, ask the **case question** from the word the noun depends on.\n\n| Case | Questions | Helper word | Example (стол = table / книга = book) |\n|---|---|---|---|\n| **Nominative** | who? what? | *есть* = there is | стол, книга |\n| **Genitive** | of whom? of what? | *нет* = there is no… | стола, книги |\n| **Dative** | to whom? to what? | *дать* = to give (to) | столу, книге |\n| **Accusative** | whom? what? (the object) | *вижу* = I see | стол, книгу |\n| **Instrumental** | by/with whom? with what? | *горжусь* = I\u0027m proud of | столом, книгой |\n| **Prepositional** | about whom? about what? | *думаю о* = I think about | о столе, о книге |\n\n\u003e The Russian rhyme (\"Ivan gave birth to a girl, told her to drag a nappy\") is just a memory trick for the order: Nominative, Genitive, Dative, Accusative, Instrumental, Prepositional.\n\n## Nominative vs accusative\n\n- Nominative = the **subject** (the doer): *Брат читает* = The brother reads.\n- Accusative = the **direct object** (the thing the action is done to): *Я вижу брата* = I see the brother; *Я читаю книгу* = I read a book.\n- For **non-living** masculine nouns the accusative looks the same as the nominative (стол → вижу стол). For **living** masculine nouns the accusative looks like the genitive (брат → вижу брата).\n\n## Prepositions as clues\n\n| Case | Prepositions (with meanings) |\n|---|---|\n| Genitive | без (without), у (at/by), от (from), до (until), из (out of), для (for), около (near), после (after) |\n| Dative | к (towards), по (along/by) |\n| Accusative | в (into), на (onto), за (behind, movement), через (through/across), про (about) — used for **direction**: иду в школу = I\u0027m going *to* school |\n| Instrumental | с (with), за (behind), над (above), под (under), перед (in front of), между (between) |\n| Prepositional | о/об (about), в (in), на (on) — used for **location**: сижу в школе = I\u0027m sitting *in* school |\n\n\u003e **в / на trick:** \"where to?\" (movement) → accusative; \"where?\" (location) → prepositional.\n\n## The three declensions\n\nA **declension** is a group of nouns that take the same set of endings. You need to know a noun\u0027s declension to pick the right ending.\n\n| Declension | Which nouns | Examples |\n|---|---|---|\n| 1st | feminine and masculine nouns ending in **-а / -я** | мама (mum), папа (dad), земля (earth), дядя (uncle) |\n| 2nd | masculine nouns with no ending, neuter nouns ending in **-о / -е** | стол (table), конь (horse), окно (window), море (sea) |\n| 3rd | feminine nouns ending in a soft sign **ь** | ночь (night), мышь (mouse), тетрадь (notebook) |\n\n## Endings (singular)\n\n| Case | 1st (мама) | 2nd (стол / окно) | 3rd (ночь) |\n|---|---|---|---|\n| Nom. | мам**а** | стол / окн**о** | ночь |\n| Gen. | мам**ы** | стол**а** / окн**а** | ноч**и** |\n| Dat. | мам**е** | стол**у** / окн**у** | ноч**и** |\n| Acc. | мам**у** | стол / окн**о** | ночь |\n| Instr. | мам**ой** | стол**ом** / окн**ом** | ноч**ью** |\n| Prep. | о мам**е** | о стол**е** / об окн**е** | о ноч**и** |\n\n**Common mistakes**\n\n- 1st declension: dative and prepositional both end in **-е** (маме), but genitive ends in **-ы/-и** (мамы).\n- 3rd declension: genitive, dative and prepositional are all **-и**.\n- Nouns ending in **-ия, -ий, -ие** (армия army, гений genius, здание building) take **-и** in the prepositional: об армии, о здании.\n\n## Step-by-step method\n\n1. Find the word the noun depends on (usually the verb).\n2. Ask **both** case questions (e.g. of whom? of what?).\n3. Try the helper word (*нет* + noun → genitive).\n4. Check the preposition.\n5. Check the ending in the table.",
         "order":  1,
         "quiz":  [
                      {
                          "answer":  1,
-                         "explain":  "Гордимся чем? школой — творительный (-ой).",
+                         "explain":  "Гордимся чем? (proud of what?) → школой, ending -ой = instrumental.",
                          "options":  [
-                                         "Дательный",
-                                         "Творительный",
-                                         "Предложный",
-                                         "Родительный"
+                                         "Дательный (dative)",
+                                         "Творительный (instrumental)",
+                                         "Предложный (prepositional)",
+                                         "Родительный (genitive)"
                                      ],
-                         "q":  "«Мы гордимся нашей школой». Падеж слова «школой»:"
+                         "q":  "«Мы гордимся нашей школой» (We are proud of our school). Падеж слова «школой»:"
                      },
                      {
                          "answer":  2,
-                         "explain":  "Предлог «для» + вопрос «для кого?» → родительный.",
+                         "explain":  "The preposition для (for) always takes the genitive.",
                          "options":  [
-                                         "Винительный",
-                                         "Именительный",
-                                         "Родительный",
-                                         "Дательный"
+                                         "Винительный (accusative)",
+                                         "Именительный (nominative)",
+                                         "Родительный (genitive)",
+                                         "Дательный (dative)"
                                      ],
-                         "q":  "«Подарок для брата». Падеж слова «брата»:"
+                         "q":  "«Подарок для брата» (a present for the brother). Падеж слова «брата»:"
                      },
                      {
                          "answer":  2,
-                         "explain":  "Женский род, оканчивается на ь → 3-е склонение.",
+                         "explain":  "Feminine, ends in a soft sign ь → 3rd declension.",
                          "options":  [
-                                         "1-е",
-                                         "2-е",
-                                         "3-е",
-                                         "Не склоняется"
+                                         "1-е (1st)",
+                                         "2-е (2nd)",
+                                         "3-е (3rd)",
+                                         "Не склоняется (does not decline)"
                                      ],
-                         "q":  "К какому склонению относится слово «тетрадь»?"
+                         "q":  "К какому склонению относится слово «тетрадь» (notebook)?"
                      },
                      {
                          "answer":  2,
-                         "explain":  "Написал кому? маме — дательный, 1-е склонение → -е.",
+                         "explain":  "Wrote to whom? → dative; 1st declension dative ending is -е: маме.",
                          "options":  [
                                          "мамы",
                                          "маму",
                                          "маме",
                                          "мамой"
                                      ],
-                         "q":  "Выбери правильное окончание: «Я написал письмо (мама)»."
+                         "q":  "Выбери правильное окончание: «Я написал письмо (мама)» — I wrote a letter to mum."
                      },
                      {
                          "answer":  0,
-                         "explain":  "Слова на -ие в предложном падеже имеют окончание -и: о здании.",
+                         "explain":  "Nouns ending in -ие take -и in the prepositional: о здании.",
                          "options":  [
                                          "о здании",
                                          "о здание",
-                                         "о здании",
-                                         "о зданию"
+                                         "о зданию",
+                                         "о зданием"
                                      ],
-                         "q":  "«Мы говорили о (здание)»."
+                         "q":  "«Мы говорили о (здание)» — We talked about the building."
                      },
                      {
                          "answer":  1,
-                         "explain":  "Поймала кого? мышь — винительный; у 3-го склонения И.п. и В.п. совпадают.",
+                         "explain":  "Caught what? → accusative. For 3rd-declension nouns nominative and accusative look the same.",
                          "options":  [
-                                         "Именительный",
-                                         "Винительный",
-                                         "Родительный",
-                                         "Предложный"
+                                         "Именительный (nominative)",
+                                         "Винительный (accusative)",
+                                         "Родительный (genitive)",
+                                         "Предложный (prepositional)"
                                      ],
-                         "q":  "«Кошка поймала мышь». Падеж слова «мышь»:"
+                         "q":  "«Кошка поймала мышь» (The cat caught a mouse). Падеж слова «мышь»:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Movement towards → accusative (-у). Location (в школе) would be prepositional.",
+                         "options":  [
+                                         "Предложный (prepositional)",
+                                         "Винительный (accusative)",
+                                         "Дательный (dative)",
+                                         "Творительный (instrumental)"
+                                     ],
+                         "q":  "«Иду в школу» (I\u0027m going to school). Падеж слова «школу»:"
                      }
                  ],
         "subject":  "rb",
-        "title":  "Падежи имён существительных",
-        "updated":  "Стартовые заметки",
+        "title":  "Падежи · The six cases of nouns",
+        "updated":  "Bilingual notes",
         "id":  "rus-cases"
     }
 ]

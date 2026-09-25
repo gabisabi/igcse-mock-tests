@@ -159,6 +159,27 @@ a{color:var(--accent)}
 .qa-a{color:var(--muted)}
 .qa-row p{margin:0}
 @media (max-width:600px){.qa-row{grid-template-columns:1fr;gap:4px}}
+/* bilingual notes */
+.panel.wide{max-width:1240px}
+.bi{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+.bi .notes{max-width:none;font-size:14.5px}
+.bi .en{border-left:1px solid var(--line);padding-left:28px}
+.bi-label{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:10px}
+@media (max-width:900px){.bi{grid-template-columns:1fr}.bi .en{border-left:0;padding-left:0;border-top:1px solid var(--line);padding-top:18px}}
+/* to-do */
+.todo-form{display:grid;grid-template-columns:1fr auto auto auto;gap:8px;margin-bottom:14px}
+.todo-form input,.todo-form select{font:inherit;color:inherit;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:9px 12px;min-width:0}
+.todos{display:flex;flex-direction:column;gap:8px}
+.todo{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:10px 14px}
+.todo.done .tt{opacity:.5;text-decoration:line-through}
+.todo .chk{width:26px;height:26px;border-radius:8px;border:2px solid var(--line);display:grid;place-items:center;font-size:14px;color:var(--know);flex:none}
+.todo.done .chk{background:var(--know-soft);border-color:var(--know)}
+.todo .sub{font-size:12px;color:var(--muted);display:flex;gap:10px;margin-top:2px;flex-wrap:wrap}
+.todo .late{color:var(--again);font-weight:600}
+.todo .del{color:var(--faint);font-size:22px;padding:0 6px;line-height:1}
+.todo .del:hover{color:var(--again)}
+.h3{margin:26px 0 10px;font-size:15px}
+@media (max-width:600px){.todo-form{grid-template-columns:1fr 1fr}.todo-form #todo-text{grid-column:1/-1}}
 @media (prefers-reduced-motion:reduce){.fc .inner,.card,.bar b{transition:none}}
 /* quiz */
 .qz{max-width:680px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
@@ -204,6 +225,7 @@ a{color:var(--accent)}
   <aside class="side" id="side">
     <div class="brand"><div class="logo">IX</div><div><h1>IGCSE Mock Tests and Notes</h1><small>Grade 9 · IGCSE</small></div></div>
     <button class="navbtn active" id="nav-home" data-nav="home"><span class="dot" style="background:var(--accent)">⌂</span><span class="nm"><span>All subjects</span></span></button>
+    <button class="navbtn" id="nav-todo" data-nav="todo"><span class="dot" style="background:var(--warn)">✓</span><span class="nm"><span>To-do</span></span><span class="pct" id="todo-count"></span></button>
     <div class="label">Classes</div>
     <div id="nav-subjects"></div>
   </aside>
@@ -260,7 +282,7 @@ function md(src){
 }
 
 /* ---------- progress ---------- */
-function loadLocal(){try{const j=localStorage.getItem('rd-progress');if(j)S.progress=Object.assign({cards:{},quiz:{},seen:{}},JSON.parse(j));}catch(e){}}
+function loadLocal(){try{const j=localStorage.getItem('rd-progress');if(j)S.progress=Object.assign({cards:{},quiz:{},seen:{},todos:[]},JSON.parse(j));}catch(e){}}
 function saveLocal(){try{localStorage.setItem('rd-progress',JSON.stringify(S.progress));}catch(e){}}
 let saveT=null,saving=Promise.resolve();
 function saveProgress(){
@@ -291,6 +313,8 @@ function renderNav(){
   const sorted=[...S.subjects].sort((a,b)=>(a.order??99)-(b.order??99));
   $('#nav-subjects').innerHTML=sorted.map((s,i)=>`<button class="navbtn ${S.view!=='home'&&S.subject===s.id?'active':''}" data-subject="${esc(s.id)}" ${s.lang==='ka'?'lang="ka"':''}><span class="dot" style="background:${color(s,i)}">${esc(initial(s))}</span><span class="nm"><span>${esc(s.name)}</span>${s.teacher?`<small>${esc(s.teacher)}</small>`:''}</span><span class="pct">${Math.round(subjectMastery(s.id)*100)}%</span></button>`).join('');
   $('#nav-home').classList.toggle('active',S.view==='home');
+  $('#nav-todo').classList.toggle('active',S.view==='todo');
+  const open=(S.progress.todos||[]).filter(t=>!t.done).length;$('#todo-count').textContent=open?open+' open':'';
   const exams=[...new Set(S.topics.map(t=>t.exam).filter(Boolean))].sort();
   $('#exam-chips').innerHTML=exams.length?[`<button class="chip ${S.exam==='all'?'on':''}" data-exam="all">Everything</button>`,...exams.map(e=>`<button class="chip ${S.exam===e?'on':''}" data-exam="${esc(e)}">${esc(e)}</button>`)].join(''):'';
 }
@@ -299,6 +323,7 @@ function render(){
   const v=$('#view');
   if(S.q.trim())return v.innerHTML=renderSearch();
   if(S.view==='home')v.innerHTML=renderHome();
+  else if(S.view==='todo')v.innerHTML=renderTodo();
   else if(S.view==='subject')v.innerHTML=renderSubject();
   else if(S.view==='topic')v.innerHTML=renderTopic();
   window.scrollTo({top:0});
@@ -332,8 +357,10 @@ function renderTopic(){
   let h=`<div class="crumb"><button data-nav="home">All subjects</button><span class="sep">›</span><button data-subject="${esc(s.id||'')}">${esc(s.name||'')}</button><span class="sep">›</span><span ${ka?'lang="ka"':''}>${esc(t.title)}</span></div>`;
   h+=`<div class="hero" ${ka?'lang="ka"':''}><div><h2>${esc(t.title)}</h2><p>${t.exam?`<span class="tag exam">${esc(t.exam)}</span> `:''}${t.source?esc(t.source):''}</p></div>${ring(topicMastery(t))}</div>`;
   h+=`<div class="tabs" role="tablist"><button class="${S.tab==='notes'?'on':''}" data-tab="notes">${ka?'ჩანაწერები':'Notes'}</button><button class="${S.tab==='cards'?'on':''}" data-tab="cards" ${nc?'':'disabled'}>${ka?'ბარათები':'Flashcards'}<small>${nc}</small></button><button class="${S.tab==='quiz'?'on':''}" data-tab="quiz" ${nq?'':'disabled'}>${ka?'ტესტი':'Quiz'}<small>${nq}</small></button></div>`;
-  h+=`<div class="panel" ${ka?'lang="ka"':''}>`;
-  if(S.tab==='notes')h+=`<div class="notes">${t.notes?md(t.notes):'<p style="color:var(--muted)">No notes yet for this topic.</p>'}</div>`;
+  const bi=S.tab==='notes'&&t.notesEn;
+  h+=`<div class="panel ${bi?'wide':''}" ${ka?'lang="ka"':''}>`;
+  if(bi)h+=`<div class="bi"><div class="notes" lang="${esc(t.lang||'ru')}"><div class="bi-label">${esc(t.lang==='ka'?'ქართულად':'По-русски · original')}</div>${md(t.notes)}</div><div class="notes en" lang="en"><div class="bi-label">In English</div>${md(t.notesEn)}</div></div>`;
+  else if(S.tab==='notes')h+=`<div class="notes">${t.notes?md(t.notes):'<p style="color:var(--muted)">No notes yet for this topic.</p>'}</div>`;
   else if(S.tab==='cards')h+=renderCards(t);
   else h+=renderQuiz(t);
   return h+`</div>`;
@@ -372,15 +399,31 @@ function renderSearch(){
   return `<div class="results">${hits.slice(0,40).map(h=>`<button class="hit" data-topic="${esc(h.t.id)}" data-gotab="${h.tab}"><div class="p">${esc(h.p)} · ${h.tab}</div><div class="s">${hl(h.s.replace(/[#*`>|]/g,''))}</div></button>`).join('')}</div>`;
 }
 
+function renderTodo(){
+  const todos=S.progress.todos||[];
+  const sorted=[...todos].sort((a,b)=>(a.done-b.done)||((a.due||'9999')<(b.due||'9999')?-1:1));
+  const today=new Date().toISOString().slice(0,10);
+  const subjOpts=[...S.subjects].sort((a,b)=>(a.order??99)-(b.order??99)).map(s=>`<option value="${esc(s.id)}">${esc(s.name)}</option>`).join('');
+  let h=`<div class="hero"><div><h2>To-do</h2><p>Homework, revision and deadlines in one list. Tick things off as you go.</p></div></div>`;
+  h+=`<form class="todo-form" id="todo-form"><input id="todo-text" placeholder="What do you need to do? e.g. Chemistry worksheet p.12" required autocomplete="off"><select id="todo-subject" aria-label="Class"><option value="">Any class</option>${subjOpts}</select><input id="todo-due" type="date" aria-label="Due date"><button class="btn primary" type="submit">Add</button></form>`;
+  h+=`<div class="todos">`+(sorted.length?sorted.map(t=>{const s=subj(t.subject);const late=!t.done&&t.due&&t.due<today;
+    return `<div class="todo ${t.done?'done':''}"><button class="chk" data-todo="toggle" data-id="${esc(t.id)}" aria-label="Mark done">${t.done?'✓':''}</button><div class="tt"><div>${esc(t.text)}</div><div class="sub">${s?`<span class="tag" style="color:${esc(s.color||'')}">${esc(s.name)}</span>`:''}${t.due?`<span class="${late?'late':''}">${late?'Overdue · ':'Due '}${esc(t.due)}</span>`:''}</div></div><button class="del" data-todo="del" data-id="${esc(t.id)}" aria-label="Delete">×</button></div>`;}).join(''):`<div class="empty">Nothing here yet. Add homework above, or pick from the suggestions below.</div>`)+`</div>`;
+  const weak=S.topics.filter(t=>topicMastery(t)<0.8).sort((a,b)=>topicMastery(a)-topicMastery(b)).slice(0,8);
+  if(weak.length)h+=`<h3 class="h3">Suggested revision · weakest topics first</h3><div class="topics">`+weak.map(t=>{const s=subj(t.subject)||{};return `<button class="trow" data-topic="${esc(t.id)}" ${s.lang==='ka'?'lang="ka"':''}><div><h3>${esc(t.title)}</h3><div class="sub"><span>${esc(s.name||'')}</span>${t.exam?`<span class="tag exam">${esc(t.exam)}</span>`:''}</div></div>${ring(topicMastery(t))}</button>`;}).join('')+`</div>`;
+  return h;
+}
+
 /* ---------- actions ---------- */
 function go(view,extra={}){Object.assign(S,{view},extra);S.q='';$('#q').value='';S.fc={i:0,flip:false,order:[],onlyLearn:false};S.qz={i:0,picked:null,score:0,done:false,answers:[]};
   if(view==='topic'){S.progress.seen[S.topic]=true;saveProgress();}
   try{history.replaceState(null,'','#'+(view==='home'?'':view==='subject'?S.subject:S.topic));}catch(e){}
   render();}
 document.addEventListener('click',e=>{
-  const b=e.target.closest('[data-nav],[data-subject],[data-topic],[data-tab],[data-exam],[data-fc],[data-qz],[data-opt]');if(!b)return;
+  const b=e.target.closest('[data-nav],[data-subject],[data-topic],[data-tab],[data-exam],[data-fc],[data-qz],[data-opt],[data-todo]');if(!b)return;
   const d=b.dataset;
   if(d.nav==='home')return go('home');
+  if(d.nav==='todo')return go('todo');
+  if(d.todo){const L=S.progress.todos||[];const i=L.findIndex(x=>x.id===d.id);if(i>=0){if(d.todo==='toggle')L[i].done=!L[i].done;else L.splice(i,1);S.progress.todos=L;saveProgress();render();}return;}
   if(d.subject!=null&&!d.topic)return go('subject',{subject:d.subject});
   if(d.topic!=null){const t=S.topics.find(x=>x.id===d.topic);return go('topic',{topic:d.topic,subject:t?t.subject:S.subject,tab:d.gotab||'notes'});}
   if(d.exam){S.exam=d.exam;S.fc.order=[];return render();}
@@ -405,6 +448,8 @@ document.addEventListener('click',e=>{
     return render();}
 });
 $('#q').addEventListener('input',e=>{S.q=e.target.value;render();});
+document.addEventListener('submit',e=>{if(e.target.id!=='todo-form')return;e.preventDefault();const text=$('#todo-text').value.trim();if(!text)return;
+  S.progress.todos=S.progress.todos||[];S.progress.todos.push({id:Date.now().toString(36),text,subject:$('#todo-subject').value,due:$('#todo-due').value,done:false});saveProgress();render();toast('Added to your list');});
 document.addEventListener('keydown',e=>{if(S.view!=='topic'||S.tab!=='cards'||e.target.tagName==='INPUT')return;
   const map={' ':'flip','ArrowRight':'next','ArrowLeft':'prev','1':'again','2':'know'};if(map[e.key]){e.preventDefault();document.querySelector(`[data-fc="${map[e.key]}"]`)?.click();}});
 
