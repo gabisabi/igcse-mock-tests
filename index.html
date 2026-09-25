@@ -150,6 +150,15 @@ a{color:var(--accent)}
 .btn.again{background:var(--again-soft);color:var(--again);border-color:transparent}
 .btn.sm{padding:6px 12px;font-size:13px;font-weight:500}
 .btn:disabled{opacity:.5;cursor:default}
+.fc .face .hint{position:absolute;bottom:12px;left:0;right:0;font-size:11px;color:var(--faint)}
+.qa{display:flex;flex-direction:column;gap:8px}
+.qa-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface2);font-size:14px;text-align:left}
+.qa-row.know{border-color:var(--know)}
+.qa-row.learn{border-color:var(--again)}
+.qa-q{font-weight:600}
+.qa-a{color:var(--muted)}
+.qa-row p{margin:0}
+@media (max-width:600px){.qa-row{grid-template-columns:1fr;gap:4px}}
 @media (prefers-reduced-motion:reduce){.fc .inner,.card,.bar b{transition:none}}
 /* quiz */
 .qz{max-width:680px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
@@ -333,11 +342,14 @@ function fcOrder(t){const st=cardStates(t);let idx=t.cards.map((c,i)=>i);if(S.fc
 function renderCards(t){
   const st=cardStates(t);const order=S.fc.order.length?S.fc.order:fcOrder(t);S.fc.order=order;
   if(S.fc.i>=order.length)S.fc.i=0;
-  const ci=order[S.fc.i];const c=t.cards[ci];const known=knownCount(t);
-  const state=st[ci];
-  return `<div class="fc-wrap"><div class="fc-top"><span>Card ${S.fc.i+1} of ${order.length} · <b style="color:var(--know)">${known}</b>/${t.cards.length} known</span><span style="display:flex;gap:6px"><button class="btn sm ${S.fc.onlyLearn?'primary':''}" data-fc="learn">Only still learning</button><button class="btn sm" data-fc="shuffle">Shuffle</button><button class="btn sm" data-fc="reset">Reset</button></span></div>
-  <div class="bar"><b class="k" style="width:${Math.round(known/t.cards.length*100)}%"></b></div>
-  <button class="fc ${S.fc.flip?'flip':''}" data-fc="flip" aria-label="Flip card"><div class="inner"><div class="face front"><small>Question${state?' · '+(state==='know'?'known':'learning'):''}</small><div>${md(c.q)}</div></div><div class="face back"><small>Answer</small><div>${md(c.a)}</div></div></div></button>
+  const known=knownCount(t);
+  const top=`<div class="fc-top"><span>${S.fc.list?`${t.cards.length} cards`:`Card ${S.fc.i+1} of ${order.length}`} · <b style="color:var(--know)">${known}</b>/${t.cards.length} known</span><span style="display:flex;gap:6px;flex-wrap:wrap"><button class="btn sm ${S.fc.list?'primary':''}" data-fc="list">${S.fc.list?'Back to cards':'All answers'}</button><button class="btn sm ${S.fc.onlyLearn?'primary':''}" data-fc="learn">Only still learning</button><button class="btn sm" data-fc="shuffle">Shuffle</button><button class="btn sm" data-fc="reset">Reset</button></span></div>
+  <div class="bar"><b class="k" style="width:${Math.round(known/t.cards.length*100)}%"></b></div>`;
+  if(S.fc.list)return `<div class="fc-wrap">${top}<div class="qa">${t.cards.map((c,i)=>`<div class="qa-row ${st[i]||''}"><div class="qa-q">${i+1}. ${md(c.q)}</div><div class="qa-a">${md(c.a)}</div></div>`).join('')}</div></div>`;
+  const ci=order[S.fc.i];const c=t.cards[ci];const state=st[ci];
+  return `<div class="fc-wrap">${top}
+  <button class="fc ${S.fc.flip?'flip':''}" data-fc="flip" aria-label="Flip card"><div class="inner"><div class="face front"><small>Question${state?' · '+(state==='know'?'known':'learning'):''}</small><div>${md(c.q)}</div><span class="hint">Tap the card or press Show answer</span></div><div class="face back"><small>Answer</small><div>${md(c.a)}</div><span class="hint">Tap to go back to the question</span></div></div></button>
+  <div class="fc-actions"><button class="btn primary" data-fc="flip">${S.fc.flip?'Show question':'Show answer'}</button></div>
   <div class="fc-actions"><button class="btn" data-fc="prev">‹ Back</button><button class="btn again" data-fc="again">Still learning</button><button class="btn know" data-fc="know">Got it ✓</button><button class="btn" data-fc="next">Next ›</button></div></div>`;
 }
 function renderQuiz(t){
@@ -383,6 +395,7 @@ document.addEventListener('click',e=>{
       if(d.fc==='know'&&knownCount(t)===t.cards.length)toast('All cards known 🎉');}
     else if(d.fc==='shuffle'){f.order=fcOrder(t).sort(()=>Math.random()-.5);f.i=0;f.flip=false;}
     else if(d.fc==='learn'){f.onlyLearn=!f.onlyLearn;f.order=fcOrder(t);f.i=0;f.flip=false;}
+    else if(d.fc==='list'){f.list=!f.list;f.flip=false;}
     else if(d.fc==='reset'){delete S.progress.cards[t.id];saveProgress();f.order=fcOrder(t);f.i=0;f.flip=false;toast('Card progress reset');}
     return render();}
   if(d.opt!=null&&t){const q=S.qz;if(q.picked!=null)return;q.picked=+d.opt;q.answers[q.i]=q.picked;if(q.picked===t.quiz[q.i].answer)q.score++;return render();}
