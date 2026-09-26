@@ -435,32 +435,68 @@ function renderCards(t){
 function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 // A fresh quiz every attempt: the topic's own questions in a new order with shuffled options,
 // plus a few new questions built from the flashcards (answer + 3 other cards' answers).
+function clozeFromNotes(t){
+  // Turn the notes into "fill the gap" questions: a sentence or table row with one bold term blanked out,
+  // the other bold terms from the same topic as distractors. Keeps the surrounding text as context.
+  const md=t.notes||"";if(!md)return [];const T=(t.lang==='ka')?{gap:'ჩასვი გამოტოვებული: ',rev:'რომელი კითხვის პასუხია: '}:(t.lang==='ru')?{gap:'Вставь пропущенное: ',rev:'На какой вопрос это ответ: '}:{gap:'Fill the gap: ',rev:'Which of these is answered by: '};
+  const lines=md.split(/\r?\n/);const items=[];const termsAll=[];
+  const clean=s=>s.replace(/^\s*[-*]\s+/,"").replace(/^\s*\d+\.\s+/,"").replace(/^\|/,"").replace(/\|\s*$/,"").replace(/\s*\|\s*/g," — ").replace(/^>\s*/,"").trim();
+  for(let i=0;i<lines.length;i++){
+    const L=lines[i];if(!L.trim()||/^#/.test(L)||/^\|?\s*:?-{3,}/.test(L))continue;
+    if(/^\|/.test(L)&&/^\|?\s*:?-{3,}/.test(lines[i+1]||""))continue; // table header row
+    const bolds=[...L.matchAll(/\*\*([^*\n]{2,60})\*\*/g)].map(m=>m[1].trim()).filter(b=>/[\p{L}\d]/u.test(b));
+    bolds.forEach(b=>termsAll.push(b));
+    const text=clean(L);if(text.length<35||text.length>320)continue;
+    bolds.slice(0,3).forEach(b=>items.push({line:L,term:b,text}));
+  }
+  const uniqTerms=[...new Map(termsAll.map(b=>[b.toLowerCase(),b])).values()];
+  const isNum=s=>/\d/.test(s);
+  const out=[];
+  items.forEach((it,idx)=>{
+    const numeric=isNum(it.term);const lt=it.term.toLowerCase();
+    let pool=uniqTerms.filter(x=>{const lx=x.toLowerCase();return lx!==lt&&isNum(x)===numeric&&!lt.includes(lx)&&!lx.includes(lt);});
+    if(pool.length<3)pool=uniqTerms.filter(x=>x.toLowerCase()!==lt);
+    if(pool.length<3)return;
+    pool=shuffle(pool).sort((a,b)=>Math.abs(a.length-it.term.length)-Math.abs(b.length-it.term.length)).slice(0,8);
+    const others=shuffle(pool).slice(0,3);
+    const stem=clean(it.line.replace("**"+it.term+"**","**______**"));
+    const opts=shuffle([it.term,...others]);
+    out.push({q:T.gap+stem,options:opts,answer:opts.indexOf(it.term),explain:it.text,src:"cloze",key:"n:"+idx+":"+it.term});
+  });
+  return out;
+}
 function newQuiz(t){
   // Build a big pool: the topic's own bank (options shuffled) + one question per flashcard
-  // (its answer against 3 other cards' answers) + "which term is described" questions built the other way round.
-  const pool=[];
-  (t.quiz||[]).forEach(x=>{const ord=shuffle(x.options.map((o,k)=>k));pool.push({q:x.q,options:ord.map(k=>x.options[k]),answer:ord.indexOf(x.answer),explain:x.explain||"",src:"quiz",key:"q:"+x.q});});
+  // (its answer against 3 other cards' answers) + reverse card questions + gap-fill questions from the notes.
+  const bank=[],cardQ=[],rev=[];const T=(t.lang==='ka')?{gap:'ჩასვი გამოტოვებული: ',rev:'რომელი კითხვის პასუხია: '}:(t.lang==='ru')?{gap:'Вставь пропущенное: ',rev:'На какой вопрос это ответ: '}:{gap:'Fill the gap: ',rev:'Which of these is answered by: '};
+  (t.quiz||[]).forEach(x=>{const ord=shuffle(x.options.map((o,k)=>k));bank.push({q:x.q,options:ord.map(k=>x.options[k]),answer:ord.indexOf(x.answer),explain:x.explain||"",src:"quiz",key:"q:"+x.q});});
   const NL=String.fromCharCode(10);
   const cards=(t.cards||[]).filter(c=>c.q&&c.a&&c.a.length<=160&&!c.a.includes(NL));
   const seen=new Set();const uniq=cards.filter(c=>{const k=c.a.trim().toLowerCase();if(seen.has(k))return false;seen.add(k);return true;});
   if(uniq.length>=4){
-    uniq.forEach(c=>{const others=shuffle(uniq.filter(o=>o!==c)).slice(0,3).map(o=>o.a);const opts=shuffle([c.a,...others]);pool.push({q:c.q,options:opts,answer:opts.indexOf(c.a),explain:"",src:"card",key:"c:"+c.q});});
+    uniq.forEach(c=>{const others=shuffle(uniq.filter(o=>o!==c)).slice(0,3).map(o=>o.a);const opts=shuffle([c.a,...others]);cardQ.push({q:c.q,options:opts,answer:opts.indexOf(c.a),explain:"",src:"card",key:"c:"+c.q});});
     const shortQ=uniq.filter(c=>c.q.length<=110);
-    if(shortQ.length>=4)shortQ.forEach(c=>{const others=shuffle(shortQ.filter(o=>o!==c)).slice(0,3).map(o=>o.q);const opts=shuffle([c.q,...others]);pool.push({q:"Which of these is answered by: “"+c.a+"”?",options:opts,answer:opts.indexOf(c.q),explain:"",src:"rev",key:"r:"+c.q});});
+    if(shortQ.length>=4)shortQ.forEach(c=>{const others=shuffle(shortQ.filter(o=>o!==c)).slice(0,3).map(o=>o.q);const opts=shuffle([c.q,...others]);rev.push({q:T.rev+"“"+c.a+"”?",options:opts,answer:opts.indexOf(c.q),explain:"",src:"rev",key:"r:"+c.q});});
   }
-  // Pick a fresh set: questions not asked in the last attempts first, then the rest at random.
-  const n=Math.min(10,pool.length);
+  const cloze=clozeFromNotes(t);
+  const pool=bank.concat(cardQ,rev,cloze);
+  const n=Math.min(15,pool.length);
   S.qzHist=S.qzHist||{};const hist=S.qzHist[t.id]||[];
-  const fresh=shuffle(pool.filter(p=>!hist.includes(p.key)));const old=shuffle(pool.filter(p=>hist.includes(p.key)));
-  const set=fresh.slice(0,n);if(set.length<n)set.push(...old.slice(0,n-set.length));
-  const chosen=shuffle(set);
+  const fresh=g=>shuffle(g.filter(p=>!hist.includes(p.key)));const stale=g=>shuffle(g.filter(p=>hist.includes(p.key)));
+  // stratified: some bank, some card, the rest gap-fill and reverse — fresh ones first
+  const want=[[bank,4],[cardQ,3],[cloze,6],[rev,2]];const set=[];
+  want.forEach(([g,k])=>{set.push(...fresh(g).slice(0,k));});
+  const used=new Set(set.map(p=>p.key));
+  const rest=fresh(pool).filter(p=>!used.has(p.key)).concat(stale(pool).filter(p=>!used.has(p.key)));
+  while(set.length<n&&rest.length)set.push(rest.shift());
+  const chosen=shuffle(set.slice(0,n));
   S.qzHist[t.id]=chosen.map(p=>p.key).concat(hist).slice(0,Math.max(0,pool.length-n));
   return chosen;
 }
 function renderQuiz(t){
   const q=S.qz;if(!q.set||q.topic!==t.id){q.set=newQuiz(t);q.topic=t.id;}const qs=q.set;
   if(q.done){const pct=Math.round(q.score/qs.length*100);const best=quizBest(t);
-    return `<div class="qz"><div class="score"><div class="big">${pct}%</div><p>${q.score} of ${qs.length} correct${best!=null?` · best ${best}%`:''}</p><button class="btn primary" data-qz="restart">New quiz ›</button><p style="font-size:12px;margin-top:8px;color:var(--faint)">Every attempt is a new test: 10 questions drawn from a larger pool (question bank + flashcards), avoiding the ones you just had.</p></div><div class="results">${qs.map((x,i)=>`<div class="hit"><div class="p">${q.answers[i]===x.answer?'✓':'✗'} Q${i+1}</div><div>${inline(x.q)}</div><div class="s">${inline(x.options[x.answer])}${x.explain?' — '+inline(x.explain):''}</div></div>`).join('')}</div></div>`;}
+    return `<div class="qz"><div class="score"><div class="big">${pct}%</div><p>${q.score} of ${qs.length} correct${best!=null?` · best ${best}%`:''}</p><button class="btn primary" data-qz="restart">New quiz ›</button><p style="font-size:12px;margin-top:8px;color:var(--faint)">Every attempt is a new test: 15 questions drawn from a large pool (question bank, flashcards and gap-fill questions built from the notes), avoiding the ones you just had.</p></div><div class="results">${qs.map((x,i)=>`<div class="hit"><div class="p">${q.answers[i]===x.answer?'✓':'✗'} Q${i+1}</div><div>${inline(x.q)}</div><div class="s">${inline(x.options[x.answer])}${x.explain?' — '+inline(x.explain):''}</div></div>`).join('')}</div></div>`;}
   const x=qs[q.i];const picked=q.picked;
   return `<div class="qz"><div class="bar"><b style="width:${Math.round(q.i/qs.length*100)}%"></b></div><div class="qn">Question ${q.i+1} of ${qs.length}</div><div class="qt">${inline(x.q)}</div><div class="opts">${x.options.map((o,k)=>{let cls='opt';if(picked!=null){if(k===x.answer)cls+=' right';else if(k===picked)cls+=' wrong';}return `<button class="${cls}" data-opt="${k}" ${picked!=null?'disabled':''}><span class="k">${String.fromCharCode(65+k)}</span><span>${inline(o)}</span></button>`;}).join('')}</div>${picked!=null?`<div class="explain">${picked===x.answer?'<b>Correct.</b> ':'<b>Not quite.</b> '}${x.explain?inline(x.explain):''}</div><div style="text-align:right"><button class="btn primary" data-qz="next">${q.i+1<qs.length?'Next question ›':'See score'}</button></div>`:''}</div>`;
 }
