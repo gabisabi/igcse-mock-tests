@@ -1,4 +1,4 @@
-rules_version = '2';
+﻿rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
 
@@ -7,7 +7,7 @@ service cloud.firestore {
     function isAdmin() {
       return signedIn()
         && request.auth.token.email != null
-        && request.auth.token.email.lower() in ['beka@suada.com', 'gabriel.tomashvili@bga.ge'];
+        && request.auth.token.email.lower() in ['beka@suada.com', 'gabriel.tomashvili@bga.ge', 'gabrieltomashvili@gmail.com'];
     }
 
     // Each user's profile + progress. Only the owner can write it;
@@ -18,7 +18,7 @@ service cloud.firestore {
       allow delete: if false;
     }
 
-    // Username → account lookup so people can sign in with a username.
+    // Username â†’ account lookup so people can sign in with a username.
     // Anyone can look up ONE exact username (needed before sign-in), nobody can list them all,
     // and a username can only be claimed once, by the account that owns it.
     match /usernames/{name} {

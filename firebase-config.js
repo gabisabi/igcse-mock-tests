@@ -1,20 +1,14 @@
-// Accounts are powered by Firebase (free plan).
-// 1. Create a project at https://console.firebase.google.com
-// 2. Authentication → Sign-in method → enable "Email/Password"
-// 3. Firestore Database → Create database (production mode) → Rules tab → paste firestore.rules
-// 4. Project settings → Your apps → Web app → copy the config object below
-// Until this is filled in, the site works without accounts (progress saved in the browser only).
+// Firebase web config for the public site. Firebase web API keys are public by design;
+// the Firestore security rules (firestore.rules) are what protect the data.
+window.FIREBASE_CONFIG = {
+  apiKey: "AIzaSyDQdNPyxDeoxBjBFCvm8G4XuJlnGncW7G8",
+  authDomain: "igcse-mock-tests-ec711.firebaseapp.com",
+  projectId: "igcse-mock-tests-ec711",
+  storageBucket: "igcse-mock-tests-ec711.firebasestorage.app",
+  messagingSenderId: "950397200459",
+  appId: "1:950397200459:web:e683bf6b9432278bfd45ce"
+};
 
-window.FIREBASE_CONFIG = null;
-// Example:
-// window.FIREBASE_CONFIG = {
-//   apiKey: "AIza...",
-//   authDomain: "igcse-mock-tests.firebaseapp.com",
-//   projectId: "igcse-mock-tests",
-//   storageBucket: "igcse-mock-tests.appspot.com",
-//   messagingSenderId: "1234567890",
-//   appId: "1:1234567890:web:abcdef"
-// };
-
-// Emails that can open the Students page and see everyone's progress.
-window.ADMIN_EMAILS = ["beka@suada.com", "gabriel.tomashvili@bga.ge"];
+// Emails that can open the Students page and see everyone's progress
+// (keep in sync with isAdmin() in firestore.rules).
+window.ADMIN_EMAILS = ["beka@suada.com", "gabriel.tomashvili@bga.ge", "gabrieltomashvili@gmail.com"];
