@@ -436,19 +436,31 @@ function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor
 // A fresh quiz every attempt: the topic's own questions in a new order with shuffled options,
 // plus a few new questions built from the flashcards (answer + 3 other cards' answers).
 function newQuiz(t){
-  const base=shuffle(t.quiz||[]).map(x=>{const idx=x.options.map((o,k)=>k);const ord=shuffle(idx);return {q:x.q,options:ord.map(k=>x.options[k]),answer:ord.indexOf(x.answer),explain:x.explain||"",src:"quiz"};});
-  const cards=(t.cards||[]).filter(c=>c.q&&c.a&&c.a.length<=140&&!c.a.includes(String.fromCharCode(10)));
+  // Build a big pool: the topic's own bank (options shuffled) + one question per flashcard
+  // (its answer against 3 other cards' answers) + "which term is described" questions built the other way round.
+  const pool=[];
+  (t.quiz||[]).forEach(x=>{const ord=shuffle(x.options.map((o,k)=>k));pool.push({q:x.q,options:ord.map(k=>x.options[k]),answer:ord.indexOf(x.answer),explain:x.explain||"",src:"quiz",key:"q:"+x.q});});
+  const NL=String.fromCharCode(10);
+  const cards=(t.cards||[]).filter(c=>c.q&&c.a&&c.a.length<=160&&!c.a.includes(NL));
   const seen=new Set();const uniq=cards.filter(c=>{const k=c.a.trim().toLowerCase();if(seen.has(k))return false;seen.add(k);return true;});
-  const extra=[];
-  if(uniq.length>=4){const pick=shuffle(uniq).slice(0,Math.min(5,Math.max(3,Math.round(base.length/2))));
-    for(const c of pick){const others=shuffle(uniq.filter(o=>o!==c)).slice(0,3).map(o=>o.a);const opts=shuffle([c.a,...others]);extra.push({q:c.q,options:opts,answer:opts.indexOf(c.a),explain:"",src:"card"});}}
-  const all=base.slice();extra.forEach(e=>all.splice(Math.floor(Math.random()*(all.length+1)),0,e));
-  return all;
+  if(uniq.length>=4){
+    uniq.forEach(c=>{const others=shuffle(uniq.filter(o=>o!==c)).slice(0,3).map(o=>o.a);const opts=shuffle([c.a,...others]);pool.push({q:c.q,options:opts,answer:opts.indexOf(c.a),explain:"",src:"card",key:"c:"+c.q});});
+    const shortQ=uniq.filter(c=>c.q.length<=110);
+    if(shortQ.length>=4)shortQ.forEach(c=>{const others=shuffle(shortQ.filter(o=>o!==c)).slice(0,3).map(o=>o.q);const opts=shuffle([c.q,...others]);pool.push({q:"Which of these is answered by: “"+c.a+"”?",options:opts,answer:opts.indexOf(c.q),explain:"",src:"rev",key:"r:"+c.q});});
+  }
+  // Pick a fresh set: questions not asked in the last attempts first, then the rest at random.
+  const n=Math.min(10,pool.length);
+  S.qzHist=S.qzHist||{};const hist=S.qzHist[t.id]||[];
+  const fresh=shuffle(pool.filter(p=>!hist.includes(p.key)));const old=shuffle(pool.filter(p=>hist.includes(p.key)));
+  const set=fresh.slice(0,n);if(set.length<n)set.push(...old.slice(0,n-set.length));
+  const chosen=shuffle(set);
+  S.qzHist[t.id]=chosen.map(p=>p.key).concat(hist).slice(0,Math.max(0,pool.length-n));
+  return chosen;
 }
 function renderQuiz(t){
   const q=S.qz;if(!q.set||q.topic!==t.id){q.set=newQuiz(t);q.topic=t.id;}const qs=q.set;
   if(q.done){const pct=Math.round(q.score/qs.length*100);const best=quizBest(t);
-    return `<div class="qz"><div class="score"><div class="big">${pct}%</div><p>${q.score} of ${qs.length} correct${best!=null?` · best ${best}%`:''}</p><button class="btn primary" data-qz="restart">New quiz ›</button><p style="font-size:12px;margin-top:8px;color:var(--faint)">Every attempt is a new test: new order, shuffled answers, and extra questions drawn from the flashcards.</p></div><div class="results">${qs.map((x,i)=>`<div class="hit"><div class="p">${q.answers[i]===x.answer?'✓':'✗'} Q${i+1}</div><div>${inline(x.q)}</div><div class="s">${inline(x.options[x.answer])}${x.explain?' — '+inline(x.explain):''}</div></div>`).join('')}</div></div>`;}
+    return `<div class="qz"><div class="score"><div class="big">${pct}%</div><p>${q.score} of ${qs.length} correct${best!=null?` · best ${best}%`:''}</p><button class="btn primary" data-qz="restart">New quiz ›</button><p style="font-size:12px;margin-top:8px;color:var(--faint)">Every attempt is a new test: 10 questions drawn from a larger pool (question bank + flashcards), avoiding the ones you just had.</p></div><div class="results">${qs.map((x,i)=>`<div class="hit"><div class="p">${q.answers[i]===x.answer?'✓':'✗'} Q${i+1}</div><div>${inline(x.q)}</div><div class="s">${inline(x.options[x.answer])}${x.explain?' — '+inline(x.explain):''}</div></div>`).join('')}</div></div>`;}
   const x=qs[q.i];const picked=q.picked;
   return `<div class="qz"><div class="bar"><b style="width:${Math.round(q.i/qs.length*100)}%"></b></div><div class="qn">Question ${q.i+1} of ${qs.length}</div><div class="qt">${inline(x.q)}</div><div class="opts">${x.options.map((o,k)=>{let cls='opt';if(picked!=null){if(k===x.answer)cls+=' right';else if(k===picked)cls+=' wrong';}return `<button class="${cls}" data-opt="${k}" ${picked!=null?'disabled':''}><span class="k">${String.fromCharCode(65+k)}</span><span>${inline(o)}</span></button>`;}).join('')}</div>${picked!=null?`<div class="explain">${picked===x.answer?'<b>Correct.</b> ':'<b>Not quite.</b> '}${x.explain?inline(x.explain):''}</div><div style="text-align:right"><button class="btn primary" data-qz="next">${q.i+1<qs.length?'Next question ›':'See score'}</button></div>`:''}</div>`;
 }
