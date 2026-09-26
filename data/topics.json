@@ -3179,6 +3179,180 @@
     {
         "cards":  [
                       {
+                          "a":  "Internet: the global physical network of networks. WWW: the web pages and sites accessed over the internet using browsers and HTTP.",
+                          "q":  "Internet vs World Wide Web?"
+                      },
+                      {
+                          "a":  "The text address of a web resource: protocol, domain name, path and file name.",
+                          "q":  "What is a URL?"
+                      },
+                      {
+                          "a":  "HTTPS is HTTP with SSL/TLS encryption, so data between browser and server cannot be read if intercepted.",
+                          "q":  "HTTP vs HTTPS?"
+                      },
+                      {
+                          "a":  "Converts a domain name (www.example.com) into the IP address of the web server.",
+                          "q":  "What does a DNS server do?"
+                      },
+                      {
+                          "a":  "Browser sends the URL to a DNS → gets the IP address → sends an HTTP request to the web server → server returns HTML → browser renders it.",
+                          "q":  "Describe how a web page is retrieved."
+                      },
+                      {
+                          "a":  "Session: deleted when the browser closes (basket). Persistent: stored until expiry (login, preferences, tracking).",
+                          "q":  "Session cookie vs persistent cookie?"
+                      },
+                      {
+                          "a":  "A decentralised ledger of transactions in linked blocks; each block stores the previous block\u0027s hash, so tampering breaks the chain.",
+                          "q":  "What is a blockchain?"
+                      },
+                      {
+                          "a":  "Changing a block changes its hash, breaking every later block, and copies exist on many computers.",
+                          "q":  "Why is a blockchain hard to tamper with?"
+                      },
+                      {
+                          "a":  "Fake messages pretending to be a trusted organisation to trick users into giving personal data or clicking malicious links.",
+                          "q":  "What is phishing?"
+                      },
+                      {
+                          "a":  "Phishing needs the user to click a fake link; pharming redirects to a fake site automatically via malicious code or DNS poisoning.",
+                          "q":  "Phishing vs pharming?"
+                      },
+                      {
+                          "a":  "Many infected computers (a botnet) flood a server with requests so it cannot serve real users.",
+                          "q":  "What is a DDoS attack?"
+                      },
+                      {
+                          "a":  "Virus: attaches to a file, needs user action. Worm: self-replicates across networks. Trojan: disguised as legitimate software.",
+                          "q":  "Virus vs worm vs Trojan?"
+                      },
+                      {
+                          "a":  "Malware that encrypts the victim\u0027s files and demands payment for the key.",
+                          "q":  "What is ransomware?"
+                      },
+                      {
+                          "a":  "Checks incoming/outgoing packets against rules and blocks unauthorised traffic between a network and the internet.",
+                          "q":  "What does a firewall do?"
+                      },
+                      {
+                          "a":  "A server between users and the internet that filters requests, caches pages and hides internal IP addresses.",
+                          "q":  "What is a proxy server?"
+                      },
+                      {
+                          "a":  "Proving identity with two different things, e.g. a password plus a code sent to your phone.",
+                          "q":  "What is two-factor authentication?"
+                      },
+                      {
+                          "a":  "Fingerprint, face recognition, retina/iris scan, voice.",
+                          "q":  "Give three biometric methods."
+                      },
+                      {
+                          "a":  "Browser requests secure connection → server sends digital certificate → browser verifies it → session key agreed → data encrypted.",
+                          "q":  "Outline the SSL/TLS handshake."
+                      }
+                  ],
+        "chapter":  5,
+        "exam":  "Exam 1 · October",
+        "notes":  "# 5.1 Internet vs World Wide Web\n\n- **Internet:** the global **network of networks** — the physical infrastructure (cables, routers, servers) using TCP/IP.\n- **World Wide Web (WWW):** the collection of **web pages and websites** accessed over the internet using browsers and HTTP. The web is one *service* on the internet; email and online games are others.\n\n## URLs, HTTP and HTTPS\n\n- **URL** (uniform resource locator): the text address of a web resource. `https://www.example.com/folder/page.html` → protocol, domain name, path, file name.\n- **HTTP** (hypertext transfer protocol): rules for transferring web pages. **HTTPS** = HTTP + **encryption** (SSL/TLS) — padlock in the browser; used for banking, shopping, logins.\n- **Web browser:** software that renders HTML into a page; features: address bar, bookmarks, tabs, history, cookies, back/forward, runs JavaScript, downloads.\n\n## How a page loads (DNS)\n\n1. User types a URL. 2. Browser asks the **DNS (domain name server)** for the **IP address** of the domain name. 3. DNS returns the IP (or passes the request to another DNS). 4. Browser sends an HTTP request to that IP; the **web server** sends back the HTML; browser renders it.\n\n**Cookies:** small text files stored by the browser. **Session cookies** are deleted when the browser closes (shopping basket). **Persistent cookies** stay until they expire (remember login, language, preferences, tracking for adverts).\n\n# 5.2 Digital currency and blockchain\n\n- **Digital currency:** money that exists only electronically (bank transfers, PayPal, cryptocurrency). **Cryptocurrency** (Bitcoin) is not controlled by a central bank; it uses **cryptography** and a **blockchain**.\n- **Blockchain:** a decentralised digital **ledger** of transactions. Each **block** holds data, a **timestamp**, and the **hash of the previous block**, so the blocks form a chain. Changing one block changes its hash and breaks every later link, and the chain is copied on many computers — so it is very hard to tamper with. Used in cryptocurrency, smart contracts, supply-chain tracking, medical records.\n\n# 5.3 Cyber security\n\n| Threat | What it is | Prevention |\n|---|---|---|\n| **Brute-force attack** | Trying every possible password combination | Strong long passwords, limit attempts, two-factor authentication |\n| **Data interception** | Capturing data as it travels (packet sniffing, wardriving on Wi-Fi) | Encryption, HTTPS, secure Wi-Fi (WPA2/3) |\n| **DDoS** (distributed denial of service) | Flooding a server with requests from many infected computers (a botnet) so it can\u0027t respond | Firewall, filtering traffic, proxy server, monitoring |\n| **Hacking** | Unauthorised access to a system | Firewalls, strong passwords, keeping software updated, intrusion detection |\n| **Malware** | Malicious software — see below | Antivirus, don\u0027t open unknown attachments, updates |\n| **Phishing** | Fake emails/messages pretending to be a trusted company to trick you into giving passwords or card details | Check the sender and links, don\u0027t click, spam filters, awareness |\n| **Pharming** | Malicious code redirects you to a fake website even when you type the correct address (DNS poisoning) | Antivirus, check the URL and padlock, use trusted DNS |\n| **Social engineering** | Manipulating people (phone calls, fake IT support, baiting with a USB stick) | Training, verify identities, policies |\n\n**Types of malware:** **virus** (attaches to files, replicates, needs a host program and user action), **worm** (replicates by itself across networks), **Trojan horse** (disguised as useful software), **spyware** (records keystrokes/activity), **adware** (unwanted adverts), **ransomware** (encrypts your files and demands payment).\n\n# 5.4 Keeping data safe\n\n- **Access levels:** different users see different data (admin vs student).\n- **Antivirus / anti-spyware:** scan and quarantine.\n- **Authentication:** proving identity — passwords, **biometrics** (fingerprint, face, retina), **two-factor authentication** (password + code on phone).\n- **Automatic software updates** (patch security holes).\n- **Checking spelling and tone of communications / URLs** to spot phishing.\n- **Firewall:** hardware or software between a computer/network and the internet; examines incoming and outgoing packets against rules and blocks unauthorised ones; can log attempts.\n- **Proxy server:** sits between users and the internet; filters traffic, caches pages (faster), hides internal IP addresses, can block sites.\n- **Privacy settings, SSL/TLS encryption, strong passwords** (long, mixed characters, changed regularly, not reused).\n\n**SSL/TLS handshake:** browser requests a secure connection → server sends its digital **certificate** → browser checks it is valid → session key agreed → encrypted communication (HTTPS).",
+        "order":  7,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "The web is a service that runs on the internet.",
+                         "options":  [
+                                         "The same as the internet",
+                                         "The collection of web pages accessed via the internet",
+                                         "A type of cable",
+                                         "A browser"
+                                     ],
+                         "q":  "The World Wide Web is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Domain name → IP address.",
+                         "options":  [
+                                         "IP addresses to MAC addresses",
+                                         "Domain names to IP addresses",
+                                         "HTML to text",
+                                         "HTTP to HTTPS"
+                                     ],
+                         "q":  "A DNS server converts:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Fake message tricking you into giving data.",
+                         "options":  [
+                                         "Pharming",
+                                         "Phishing",
+                                         "A DDoS attack",
+                                         "A worm"
+                                     ],
+                         "q":  "An email claiming to be from your bank asks you to click a link and enter your password. This is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Ransomware.",
+                         "options":  [
+                                         "Spyware",
+                                         "Adware",
+                                         "Ransomware",
+                                         "Worm"
+                                     ],
+                         "q":  "Which malware encrypts your files and demands money?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "The previous hash links the blocks.",
+                         "options":  [
+                                         "Only the transaction",
+                                         "The hash of the previous block",
+                                         "The user\u0027s password",
+                                         "A cookie"
+                                     ],
+                         "q":  "Each block in a blockchain contains:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "More combinations and lockouts make guessing impractical.",
+                         "options":  [
+                                         "Cookies",
+                                         "Long complex passwords and limited attempts",
+                                         "Defragmentation",
+                                         "A proxy cache"
+                                     ],
+                         "q":  "Which of these best prevents brute-force attacks?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Padlock = SSL/TLS certificate in use.",
+                         "options":  [
+                                         "A cookie",
+                                         "A padlock icon",
+                                         "A red screen",
+                                         "The word \u0027secure\u0027 in the title"
+                                     ],
+                         "q":  "HTTPS is shown in the browser by:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "It filters packets in and out.",
+                         "options":  [
+                                         "Speeds up the internet",
+                                         "Blocks unauthorised network traffic based on rules",
+                                         "Stores web pages",
+                                         "Converts domain names"
+                                     ],
+                         "q":  "A firewall:"
+                     }
+                 ],
+        "subject":  "cs",
+        "title":  "The internet and its uses",
+        "updated":  "Chapter notes",
+        "id":  "cs-internet"
+    },
+    {
+        "cards":  [
+                      {
                           "a":  "A base-2 number system that uses only the digits 0 and 1.",
                           "q":  "Define binary."
                       },
@@ -3473,6 +3647,168 @@
         "title":  "Logic gates \u0026 truth tables",
         "updated":  "Starter notes",
         "id":  "cs-logic"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "System software runs the computer (OS, drivers, utilities); application software lets the user do tasks (word processor, browser).",
+                          "q":  "System software vs application software?"
+                      },
+                      {
+                          "a":  "Antivirus, defragmenter, backup, file compression (also disk repair, security).",
+                          "q":  "Give four utility programs."
+                      },
+                      {
+                          "a":  "Rearranges file blocks on a hard disk so each file is stored contiguously, making reading faster.",
+                          "q":  "What does defragmentation do?"
+                      },
+                      {
+                          "a":  "User interface, memory management, file management, managing I/O devices, multitasking, security (also interrupts, running applications).",
+                          "q":  "List six functions of an operating system."
+                      },
+                      {
+                          "a":  "GUI: windows, icons, menus, pointer — easy for beginners, needs more memory. CLI: typed commands — faster for experts, less memory.",
+                          "q":  "GUI vs CLI?"
+                      },
+                      {
+                          "a":  "On secondary storage; firmware in ROM runs the bootstrap loader, which copies the OS into RAM at start-up.",
+                          "q":  "Where is the OS stored and how does it start?"
+                      },
+                      {
+                          "a":  "A signal from hardware or software that makes the CPU pause its current task, run an interrupt service routine, then resume.",
+                          "q":  "What is an interrupt?"
+                      },
+                      {
+                          "a":  "Hardware: key press, printer out of paper. Software: division by zero, file not found.",
+                          "q":  "Give a hardware and a software interrupt."
+                      },
+                      {
+                          "a":  "High-level: English-like, portable, easy (Python). Low-level: assembly/machine code, close to hardware, fast but hard.",
+                          "q":  "High-level vs low-level language?"
+                      },
+                      {
+                          "a":  "Translates assembly language mnemonics into machine code.",
+                          "q":  "What does an assembler do?"
+                      },
+                      {
+                          "a":  "Compiler: whole program at once into an executable. Interpreter: one line at a time, each run.",
+                          "q":  "Compiler vs interpreter — how they translate?"
+                      },
+                      {
+                          "a":  "Fast-running executable; source code not needed to distribute the program.",
+                          "q":  "Two advantages of a compiler?"
+                      },
+                      {
+                          "a":  "Easy to test and debug small changes; stops at the first error showing where it is.",
+                          "q":  "Two advantages of an interpreter?"
+                      },
+                      {
+                          "a":  "Software for writing programs: code editor with syntax highlighting, translator, debugger with breakpoints, error diagnostics, auto-completion.",
+                          "q":  "What is an IDE and name three features?"
+                      },
+                      {
+                          "a":  "Software that lets the OS communicate with a specific hardware device (printer, graphics card).",
+                          "q":  "What is a device driver?"
+                      }
+                  ],
+        "chapter":  4,
+        "exam":  "Exam 1 · October",
+        "notes":  "# 4.1 Types of software\n\n| | System software | Application software |\n|---|---|---|\n| Purpose | Runs and manages the computer\u0027s hardware | Lets the user do a task |\n| Examples | Operating system, device drivers, utilities (antivirus, backup, disk defragmenter, compression), compilers/interpreters | Word processor, spreadsheet, database, browser, games, video editor, apps |\n\n**Utility software** does housekeeping: **virus checkers** (scan files against a database of known malware, quarantine), **defragmentation** (rearranges file blocks on an HDD so each file is contiguous → faster), **disk contents analysis and repair**, **file compression**, **backup** (copy of files, scheduled, full or incremental).\n\n# 4.2 The operating system (OS)\n\nSoftware that manages the hardware and provides a platform for applications. Main functions:\n\n- **User interface:** GUI (windows, icons, menus, pointer — WIMP) or CLI (command line, faster for experts, less memory).\n- **Memory management:** allocates RAM to programs, keeps them apart, uses virtual memory when RAM is full.\n- **File management:** creating, naming, moving, deleting files and folders; access rights.\n- **Managing input/output devices** via device drivers.\n- **Multitasking:** switches the CPU between programs so several appear to run at once.\n- **Security:** user accounts, passwords, permissions, updates.\n- **Managing interrupts** and running software (loading, ending, error handling).\n- **Platform for applications** — apps call the OS to use hardware.\n\n**Bootstrap:** the OS is stored on secondary storage. When the computer switches on, the **BIOS / firmware in ROM** runs a small **bootstrap loader** that copies the OS into RAM. Only then can applications run.\n\n**Interrupts:** signals sent to the CPU by hardware (printer out of paper, key pressed, mouse moved) or software (division by zero, file not found) to get attention. The CPU saves what it is doing, runs an **interrupt service routine**, then continues. Interrupts have priorities; this is how the CPU handles many devices and multitasking.\n\n# 4.3 Programming languages\n\n| | High-level language | Low-level language |\n|---|---|---|\n| Examples | Python, Java, C++, Visual Basic | Assembly language, machine code |\n| Looks like | English-like statements: `IF x \u003e 5 THEN` | Mnemonics `LDA 34`, `ADD 35` or binary |\n| Advantages | Easy to read, write, debug; portable across computers; faster to develop | Direct hardware control; fast and small programs; used for device drivers and embedded systems |\n| Disadvantages | Must be translated; less control of hardware; may run slower | Hard to learn and debug; machine-specific |\n\n**Machine code** = the binary the CPU executes directly. **Assembly** = one mnemonic per machine instruction, translated by an **assembler**.\n\n## Translators\n\n| | Compiler | Interpreter |\n|---|---|---|\n| How | Translates the **whole** program into machine code once; produces an executable file | Translates and runs **one line at a time**, every time the program runs |\n| Errors | Reports all errors at the end of compiling; program will not run until fixed | Stops at the first error; easy to test small changes |\n| Speed | Compiled program runs fast | Slower (translating every run) |\n| Distribution | Executable can be given out without the source code | Source code needed to run; interpreter must be installed |\n| Used for | Finished software (C++, games) | Development, scripting (Python, JavaScript) |\n\n# 4.4 Integrated development environment (IDE)\n\nSoftware for writing programs, providing: a **code editor** (syntax highlighting, auto-completion), a **translator** (run/compile button), **run-time environment**, **error diagnostics** (marks errors, explains), **debugger** (breakpoints, step through, watch variables), **auto-documentation** and **pretty printing** (indentation). Examples: IDLE, Visual Studio Code, Thonny, PyCharm.",
+        "order":  6,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "Utilities are system software.",
+                         "options":  [
+                                         "A spreadsheet",
+                                         "An antivirus program",
+                                         "A web browser",
+                                         "A game"
+                                     ],
+                         "q":  "Which is system software?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "It must be available before the OS loads, so it lives in ROM.",
+                         "options":  [
+                                         "RAM",
+                                         "ROM",
+                                         "The hard disk",
+                                         "Cache"
+                                     ],
+                         "q":  "The bootstrap loader is stored in:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Rapid switching makes programs appear to run simultaneously.",
+                         "options":  [
+                                         "File management",
+                                         "Multitasking",
+                                         "Memory management",
+                                         "User interface"
+                                     ],
+                         "q":  "Which OS function shares the CPU between running programs?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "It produces an executable file.",
+                         "options":  [
+                                         "Runs one line at a time",
+                                         "Translates the whole program into machine code",
+                                         "Only works with Python",
+                                         "Corrects errors automatically"
+                                     ],
+                         "q":  "A compiler:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Interpreters run immediately and stop at the first error.",
+                         "options":  [
+                                         "Compiler",
+                                         "Assembler",
+                                         "Interpreter",
+                                         "Linker"
+                                     ],
+                         "q":  "A programmer wants to test a change quickly while writing code. The best translator is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Mnemonics are assembly language.",
+                         "options":  [
+                                         "Python",
+                                         "Machine code",
+                                         "Assembly language",
+                                         "HTML"
+                                     ],
+                         "q":  "`LDA 34` is an instruction in:"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "A hardware interrupt.",
+                         "options":  [
+                                         "An interrupt",
+                                         "A compiler",
+                                         "A device driver",
+                                         "Defragmentation"
+                                     ],
+                         "q":  "A printer signalling that it has run out of paper is an example of:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Breakpoints stop execution so you can inspect variables.",
+                         "options":  [
+                                         "Syntax highlighting",
+                                         "Pretty printing",
+                                         "Breakpoint in the debugger",
+                                         "Auto-completion"
+                                     ],
+                         "q":  "Which IDE feature lets you pause the program at a chosen line?"
+                     }
+                 ],
+        "subject":  "cs",
+        "title":  "Software: system software, operating systems, languages",
+        "updated":  "Chapter notes",
+        "id":  "cs-software"
     },
     {
         "cards":  [
@@ -4427,6 +4763,7 @@
                           "q":  "რა გამოქვეყნდა 1848 წელს სოციალიზმის ისტორიაში?"
                       }
                   ],
+        "chapter":  "§22",
         "exam":  "Exam 1 · October",
         "lang":  "ka",
         "notes":  "# ვენის სისტემა და მისი მოწინააღმდეგეები\n\nვენის კონგრესის შემდეგ (1815) ევროპაში დამყარდა **რესტავრაციის** ეპოქა — ძველი მონარქიების აღდგენა, რევოლუციური იდეების დევნა („მეტერნიხის სისტემა“, ცენზურა, საიდუმლო პოლიცია).\n\nმის წინააღმდეგ სამი ძალა მოქმედებდა:\n\n| იდეოლოგია | რას მოითხოვდა | ვინ |\n|---|---|---|\n| **ლიბერალიზმი** | კონსტიტუცია, პარლამენტი, პიროვნების თავისუფლება, თავისუფალი ვაჭრობა | ბურჟუაზია, ინტელიგენცია |\n| **ნაციონალიზმი** | ერების უფლება საკუთარ სახელმწიფოზე; დაქუცმაცებული ერების (გერმანელები, იტალიელები) გაერთიანება; დაპყრობილთა (პოლონელები, უნგრელები) დამოუკიდებლობა | სტუდენტები, ოფიცრები, ინტელიგენცია |\n| **სოციალიზმი** | მუშათა უფლებები, საკუთრების გადანაწილება | მუშები, უტოპისტი მოაზროვნეები (სენ-სიმონი, ფურიე, ოუენი) |\n\n# 1820-იანი წლების აჯანყებები\n\n- **ესპანეთი 1820**, **ნეაპოლი 1820**, **პიემონტი 1821** — ლიბერალური აჯანყებები, ჩაახშო წმინდა კავშირმა.\n- **საბერძნეთის დამოუკიდებლობის ომი (1821–1829)** — ოსმალეთის წინააღმდეგ; ევროპა თანაუგრძნობდა (ბაირონი); 1830 — საბერძნეთი დამოუკიდებელი.\n- **დეკაბრისტების აჯანყება რუსეთში (1825 14 დეკემბერი)** — ოფიცრები კონსტიტუციისა და ბატონყმობის გაუქმების მოთხოვნით; ნიკოლოზ I-მა ჩაახშო.\n\n# 1830 წლის რევოლუციები\n\n- **საფრანგეთი — ივლისის რევოლუცია (1830):** კარლ X-ის რეაქციული განკარგულებები → პარიზის „სამი დიდებული დღე“ → ბურბონები დაემხო; ტახტზე **ლუი-ფილიპი** („მეფე-მოქალაქე“, ივლისის მონარქია, 1830–1848) — ბურჟუაზიის ინტერესების მონარქია.\n- **ბელგია 1830** — გამოეყო ნიდერლანდებს, დამოუკიდებელი კონსტიტუციური მონარქია (1831).\n- **პოლონეთი 1830–1831** — ნოემბრის აჯანყება რუსეთის წინააღმდეგ; ჩაახშეს, ავტონომია გაუქმდა.\n\n# 1848 — „ხალხთა გაზაფხული“\n\n**საერთო მიზეზები:** ეკონომიკური კრიზისი 1846–47 (მოსავლის უკმარისობა, კარტოფილის ავადმყოფობა, უმუშევრობა), პოლიტიკური თავისუფლების ნაკლებობა, ეროვნული ჩაგვრა.\n\n| ქვეყანა | რა მოხდა | შედეგი |\n|---|---|---|\n| **საფრანგეთი** (თებერვალი) | ლუი-ფილიპი დაემხო; **მეორე რესპუბლიკა**; საყოველთაო საარჩევნო უფლება მამაკაცებისთვის; ივნისის მუშათა აჯანყება ჩაახშეს | დეკემბერში პრეზიდენტად აირჩიეს **ლუი-ნაპოლეონ ბონაპარტი**, 1852 — იმპერატორი ნაპოლეონ III (მეორე იმპერია) |\n| **ავსტრიის იმპერია** (მარტი) | ვენის აჯანყება, **მეტერნიხი გაიქცა**; უნგრეთის რევოლუცია (**ლაიოშ კოშუტი**), ჩეხების, იტალიელების გამოსვლები | ჩაახშეს რუსეთის ჯარის დახმარებით (1849); ბატონყმობა გაუქმდა |\n| **პრუსია / გერმანია** | ბერლინის აჯანყება; **ფრანკფურტის პარლამენტი** — გერმანიის გაერთიანების და კონსტიტუციის პროექტი; გვირგვინი შესთავაზეს ფრიდრიხ ვილჰელმ IV-ს | მეფემ გვირგვინი „ტალახიდან“ არ მიიღო; პარლამენტი დაიშალა (1849) |\n| **იტალია** | აჯანყებები მილანში, ვენეციაში, რომში; პიემონტის ომი ავსტრიასთან | დამარცხდა; ავსტრიის ბატონობა აღდგა |\n\n**რატომ დამარცხდა 1848?** ლიბერალები და მუშები გაიყვნენ; ეროვნული მოძრაობები ერთმანეთს ეწინააღმდეგებოდნენ; ჯარი მონარქების ერთგული დარჩა; რუსეთის ჩარევა.\n\n**მაინც შედეგები:** ბატონყმობის გაუქმება ავსტრიაში, კონსტიტუცია პრუსიასა და პიემონტში, საყოველთაო საარჩევნო უფლება საფრანგეთში, ნაციონალიზმის გაძლიერება → 1860-იან წლებში იტალიისა და გერმანიის გაერთიანება. 1848 წელს გამოქვეყნდა **„კომუნისტური პარტიის მანიფესტი“** (მარქსი, ენგელსი).\n\n\u003e **ცნებები:** რესტავრაცია, ლიბერალიზმი, ნაციონალიზმი, სოციალიზმი, კონსტიტუციური მონარქია, რესპუბლიკა, საყოველთაო საარჩევნო უფლება.",
@@ -4512,7 +4849,7 @@
                  ],
         "subject":  "history",
         "title":  "ევროპა 1815–1848: რესტავრაცია და „ხალხთა გაზაფხული“",
-        "updated":  "თავის ნომერი დასაზუსტებელია",
+        "updated":  "თავი VI · ასევე §31",
         "id":  "hist-1848"
     },
     {
@@ -4582,6 +4919,7 @@
                           "q":  "რომელი განმანათლებლების იდეებმა იმოქმედა რევოლუციაზე?"
                       }
                   ],
+        "chapter":  "§14-16",
         "exam":  "Exam 1 · October",
         "lang":  "ka",
         "notes":  "# რევოლუციის მიზეზები\n\n**საფრანგეთი XVIII საუკუნის ბოლოს** — აბსოლუტური მონარქია, მეფე **ლუი XVI** (1774–1792).\n\n**წოდებრივი საზოგადოება — სამი წოდება:**\n\n| წოდება | ვინ | უფლებები |\n|---|---|---|\n| I — სასულიერო | ეპისკოპოსები, მღვდლები (~1%) | გადასახადებისგან თავისუფალი, ფლობდნენ მიწას |\n| II — თავადაზნაურობა | არისტოკრატია (~2%) | გადასახადებისგან თავისუფალი, პრივილეგიები |\n| III — მესამე წოდება | ბურჟუაზია, გლეხები, ქალაქის ღარიბები (~97%) | იხდიდნენ ყველა გადასახადს, პოლიტიკური უფლებები არ ჰქონდათ |\n\n**მიზეზები:**\n\n1. **ფინანსური კრიზისი** — სახელმწიფო ხაზინა ცარიელი იყო (ომები, მათ შორის ამერიკის დამოუკიდებლობის ომში მონაწილეობა, სასახლის ხარჯები — ვერსალი).\n2. **სოციალური უსამართლობა** — მესამე წოდება იხდიდა ყველაფერს, პრივილეგირებული წოდებები — არაფერს.\n3. **განმანათლებლობის იდეები** — ვოლტერი, მონტესკიე (ხელისუფლების დანაწილება), რუსო (ხალხის სუვერენიტეტი): თანასწორობა, თავისუფლება, გონება.\n4. **მოსავლის უკმარისობა 1788 წ.** — პურის ფასი გაიზარდა, შიმშილი.\n5. **ამერიკის რევოლუციის მაგალითი** (1776).\n\n# ძირითადი მოვლენები\n\n| თარიღი | მოვლენა |\n|---|---|\n| 1789 მაისი | **გენერალური შტატების** მოწვევა (1614 წლის შემდეგ პირველად) — მეფეს ფული სჭირდებოდა |\n| 1789 17 ივნისი | მესამე წოდებამ თავი **ეროვნულ კრებად** გამოაცხადა; **ბურთის სათამაშო დარბაზის ფიცი** — არ დაიშლებიან კონსტიტუციის მიღებამდე |\n| **1789 14 ივლისი** | **ბასტილიის აღება** — რევოლუციის დასაწყისი; დღეს საფრანგეთის ეროვნული დღესასწაული |\n| 1789 4 აგვისტო | ფეოდალური პრივილეგიების გაუქმება |\n| 1789 26 აგვისტო | **ადამიანისა და მოქალაქის უფლებათა დეკლარაცია** — „ადამიანები იბადებიან და რჩებიან თავისუფალნი და თანასწორნი უფლებებში“ |\n| 1791 | პირველი კონსტიტუცია — კონსტიტუციური მონარქია |\n| 1792 აგვისტო–სექტემბერი | მონარქიის დამხობა, **რესპუბლიკის** გამოცხადება (21 სექტემბერი) |\n| 1793 21 იანვარი | **ლუი XVI-ის სიკვდილით დასჯა** გილიოტინაზე |\n| 1793–1794 | **იაკობინელთა დიქტატურა**, **ტერორი** — რობესპიერი, საზოგადოებრივი ხსნის კომიტეტი; ათასობით სიკვდილით დასჯილი |\n| 1794 27 ივლისი (9 თერმიდორი) | თერმიდორის გადატრიალება — რობესპიერის დაპატიმრება და სიკვდილით დასჯა |\n| 1795–1799 | **დირექტორია** — ხუთი დირექტორის მმართველობა, კორუფცია, არასტაბილურობა |\n| **1799 9 ნოემბერი (18 ბრიუმერი)** | **ნაპოლეონ ბონაპარტის** გადატრიალება — რევოლუციის დასასრული |\n\n# პოლიტიკური ჯგუფები\n\n- **ჟირონდისტები** — ზომიერი რესპუბლიკელები, მდიდარი ბურჟუაზიის ინტერესები.\n- **იაკობინელები** — რადიკალები (რობესპიერი, დანტონი, მარატი), ეყრდნობოდნენ ქალაქის ღარიბებს — **სანკიულოტებს**.\n- ტერმინი „**მემარცხენე**“ და „**მემარჯვენე**“ სწორედ საფრანგეთის კრებაში დაბადა — ვინ სად იჯდა.\n\n# შედეგები და მნიშვნელობა\n\n- დაემხო აბსოლუტიზმი და წოდებრივი წყობა; დამკვიდრდა კანონის წინაშე **თანასწორობა**.\n- უფლებათა დეკლარაცია გახდა თანამედროვე დემოკრატიის საფუძველი.\n- დევიზი: **„თავისუფლება, თანასწორობა, ძმობა“**; სამფეროვანი დროშა; „მარსელიეზა“.\n- მეტრული სისტემა, ახალი კალენდარი (დროებით).\n- რევოლუციური ომები გავრცელდა ევროპაში → ნაპოლეონის ეპოქა.\n\n\u003e **ცნებები:** აბსოლუტიზმი, წოდება, კონსტიტუცია, რესპუბლიკა, დეკლარაცია, ტერორი, დიქტატურა, სანკიულოტი, გილიოტინა.",
@@ -4667,7 +5005,7 @@
                  ],
         "subject":  "history",
         "title":  "საფრანგეთის დიდი რევოლუცია (1789–1799)",
-        "updated":  "თავის ნომერი დასაზუსტებელია",
+        "updated":  "თავი IV",
         "id":  "hist-french-revolution"
     },
     {
@@ -4729,6 +5067,7 @@
                           "q":  "ვინ გააგრძელა 1832 წლის შეთქმულების იდეები?"
                       }
                   ],
+        "chapter":  "§23-24",
         "exam":  "Exam 1 · October",
         "lang":  "ka",
         "notes":  "# ქართლ-კახეთის სამეფოს გაუქმება\n\n**წინაპირობა:** 1783 წ. **გეორგიევსკის ტრაქტატი** — ერეკლე II-მ რუსეთის მფარველობა მიიღო: რუსეთი პირობას დებდა, დაეცვა სამეფო და შეენარჩუნებინა ბაგრატიონთა ტახტი. 1795 წ. **კრწანისის ბრძოლა** — აღა-მაჰმად-ხანმა თბილისი დაანგრია, რუსეთმა დახმარება არ გამოგზავნა.\n\n- 1798 — ერეკლე II გარდაიცვალა; მეფე გახდა **გიორგი XII**, ავადმყოფი და სუსტი; ტახტისთვის ბრძოლა ერეკლეს ვაჟებთან (იულონი, ალექსანდრე).\n- 1800 — გიორგი XII-მ რუსეთს სთხოვა სამეფოს მიღება იმპერიის შემადგენლობაში ბაგრატიონთა მემკვიდრეობითი მეფობის შენარჩუნებით; დეკემბერში გარდაიცვალა.\n- **1801 18 იანვარი** — პავლე I-ის მანიფესტი; **1801 12 სექტემბერი** — **ალექსანდრე I-ის მანიფესტი**: ქართლ-კახეთის სამეფო **გაუქმდა** და რუსეთის იმპერიის გუბერნიად იქცა. ბაგრატიონთა დინასტიის მეფობა შეწყდა; სამეფო ოჯახის წევრები რუსეთში გადაასახლეს.\n\n\u003e ტრაქტატის პირობა — ტახტის შენარჩუნება — დაირღვა. ეს არის ძირითადი არგუმენტი, რომ 1801 წლის აქტი **ანექსია** იყო.\n\n# რუსული მმართველობა\n\n- **მთავარმართებელი** — იმპერიის უმაღლესი წარმომადგენელი კავკასიაში (პირველი: კარლ კნორინგი; შემდეგ პავლე ციციანოვი 1802–1806, რომელიც ბაქოსთან მოკლეს).\n- ქართული სამართლის (ვახტანგ VI-ის სამართალი) თანდათანობით ჩანაცვლება რუსულით; რუსული ენა ადმინისტრაციაში; ქართული ეკლესიის **ავტოკეფალიის გაუქმება (1811)** — ეგზარქოსი რუსეთის სინოდიდან.\n- დასავლეთ საქართველოს შეერთება: **იმერეთის სამეფო — 1810** (სოლომონ II-ის წინააღმდეგობა, გაქცევა თურქეთში); სამეგრელო (1803, მფარველობა), გურია (1810), აფხაზეთი (1810), სვანეთი (1833/1858).\n\n# აჯანყებები რუსული მმართველობის წინააღმდეგ\n\n| წელი | აჯანყება | მიზეზი და შედეგი |\n|---|---|---|\n| 1804 | მთიულეთის აჯანყება | გადასახადები, საგზაო სამუშაოები; ჩაახშეს |\n| **1812** | **კახეთის აჯანყება** | პურის სავალდებულო მიწოდება ჯარისთვის, ჩინოვნიკთა ძალადობა; ალექსანდრე ბატონიშვილის მონაწილეობა; სასტიკად ჩაახშეს |\n| **1819–1820** | **იმერეთის აჯანყება** | საეკლესიო რეფორმა — მონასტრების დახურვა, ქართველი ეპისკოპოსების გადაყენება; ჩაახშო ერმოლოვმა |\n\n# 1832 წლის შეთქმულება\n\n- **მიზანი:** სამეფოს დამოუკიდებლობის აღდგენა, ბაგრატიონთა ტახტზე დაბრუნება.\n- **მონაწილეები:** თავადაზნაურობა და ინტელიგენცია — **ალექსანდრე ორბელიანი, სოლომონ დოდაშვილი** (განმანათლებელი, ჟურნალისტი), ელიზბარ ერისთავი, გრიგოლ ორბელიანი, დიმიტრი ყიფიანი, ფილადელფოს კიკნაძე; სულიერი ლიდერი — **ალექსანდრე ბატონიშვილი** (ერეკლეს ძე, სპარსეთში).\n- **გეგმა:** ბალზე მიეწვიათ რუსი მოხელეები და დაეპატიმრებინათ; შემდეგ აჯანყება.\n- **დამხობა:** ერთ-ერთმა მონაწილემ (**იასე ფალავანდიშვილი**) გასცა; 1832 დეკემბერში დაპატიმრებები დაიწყო.\n- **სასჯელი:** სიკვდილით დასჯა შეცვალეს გადასახლებით რუსეთის შიდა გუბერნიებში; **სოლომონ დოდაშვილი** გადასახლებაში გარდაიცვალა (1836, ვიატკა).\n- **მნიშვნელობა:** ეროვნულ-განმათავისუფლებელი მოძრაობის ბოლო „თავადაზნაურული“ ეტაპი; მისი იდეები გააგრძელეს **თერგდალეულებმა** (ილია ჭავჭავაძე, აკაკი წერეთელი) 1860-იან წლებში.\n\n\u003e **ცნებები:** მფარველობა, ანექსია, მანიფესტი, გუბერნია, მთავარმართებელი, ეგზარქოსი, ავტოკეფალია, შეთქმულება.",
@@ -4814,7 +5153,7 @@
                  ],
         "subject":  "history",
         "title":  "საქართველო რუსეთის იმპერიაში: 1801–1832",
-        "updated":  "თავის ნომერი დასაზუსტებელია",
+        "updated":  "თავი VI",
         "id":  "hist-georgia-1801"
     },
     {
@@ -4880,6 +5219,7 @@
                           "q":  "როდის და სად მოკლეს ილია ჭავჭავაძე?"
                       }
                   ],
+        "chapter":  "§35-40",
         "exam":  "Exam 1 · October",
         "lang":  "ka",
         "notes":  "# რეფორმების ეპოქა რუსეთის იმპერიაში\n\nყირიმის ომში (1853–1856) დამარცხების შემდეგ იმპერატორმა **ალექსანდრე II**-მ („მეფე-განმათავისუფლებელი“) დაიწყო **დიდი რეფორმები**:\n\n| რეფორმა | რუსეთში | საქართველოში |\n|---|---|---|\n| **ბატონყმობის გაუქმება** | 1861 19 თებერვალი | **1864 13 ოქტომბერი — თბილისის გუბერნიაში**; 1865 ქუთაისის გუბერნიაში; 1866 სამეგრელო; 1871 აფხაზეთი; სვანეთი — 1871 |\n| ადგილობრივი თვითმმართველობა (ზემსტვო) | 1864 | საქართველოში ზემსტვო არ შემოუღიათ; **ქალაქის თვითმმართველობა** — თბილისში 1874 (ქალაქის საბჭო, თავი) |\n| სასამართლო | 1864 — ნაფიც მსაჯულთა სასამართლო | 1868 — ახალი სასამართლოები, ნაფიცი მსაჯულების გარეშე |\n| სამხედრო | 1874 — საყოველთაო სამხედრო ვალდებულება | გავრცელდა შემდგომ |\n\n## ბატონყმობის გაუქმება საქართველოში — პირობები\n\n- გლეხი **პიროვნულად თავისუფალი** გახდა, მაგრამ მიწა **მემამულეს დარჩა**.\n- გლეხს შეეძლო მიწის ნაკვეთის **გამოსყიდვა**; მანამდე იხდიდა **ღალას** ან ასრულებდა **ბეგარას** („დროებით ვალდებული“).\n- **სახასო (სახელმწიფო) გლეხები** უკეთეს მდგომარეობაში იყვნენ.\n- შედეგი: გლეხთა უმიწობა, გამოსყიდვის მძიმე პირობები — უკმაყოფილება; მაგრამ გზა გაეხსნა კაპიტალიზმს და თავისუფალ შრომას.\n\n# ეკონომიკური განვითარება\n\n- **ფოთი–თბილისის რკინიგზა (1872)**, თბილისი–ბაქო (1883), ბათუმის პორტი (1878 წლიდან რუსეთის, პორტო-ფრანკო 1878–1886).\n- **ჭიათურის მარგანეცი** (1879-დან), **ტყიბულის ქვანახშირი**, ბაქოს ნავთობი — ბათუმზე გადის.\n- თბილისი — კავკასიის ადმინისტრაციული და სავაჭრო ცენტრი; ქარხნები, ბანკები (თბილისის სათავადაზნაურო ბანკი, 1875 — ილიას თავმჯდომარეობით).\n- მუშათა კლასის ჩამოყალიბება; მოსახლეობის ეთნიკური ცვლილება ქალაქებში.\n\n# თერგდალეულები — ეროვნული მოძრაობა\n\n**ვინ:** 1860-იან წლებში პეტერბურგის უნივერსიტეტში ნასწავლი ახალგაზრდები, რომლებმაც თერგი (მდინარე) გადალახეს — **ილია ჭავჭავაძე**, **აკაკი წერეთელი**, **ნიკო ნიკოლაძე**, **იაკობ გოგებაშვილი**, კირილე ლორთქიფანიძე, გიორგი წერეთელი.\n\n**„მამათა და შვილთა ბრძოლა“** — თერგდალეულების (შვილები) დაპირისპირება ძველ თაობასთან (მამები — გრიგოლ ორბელიანი და სხვ.) ენის, ლიტერატურისა და საზოგადოებრივი როლის საკითხებზე. ილიას სტატია „ორიოდე სიტყვა თავად რევაზ შალვას ძის ერისთავის მიერ...“ (1861) — ბრძოლის დასაწყისი.\n\n**პროგრამა — ილიას სამი საუნჯე: „მამული, ენა, სარწმუნოება“:**\n\n1. ეროვნული თვითშეგნების გაღვიძება, ქართული ენის დაცვა და განვითარება.\n2. **განათლება** — 1879 **ქართველთა შორის წერა-კითხვის გამავრცელებელი საზოგადოება** (ილია — თავმჯდომარე 1885-დან); იაკობ გოგებაშვილის **„დედა ენა“** (1876) და „ბუნების კარი“.\n3. **პრესა** — ჟურნალი **„საქართველოს მოამბე“** (1863, ილია), გაზეთი **„დროება“** (1866), **„ივერია“** (1877–1906, ილია).\n4. ეკონომიკური დამოუკიდებლობა — ბანკი, თეატრი (ქართული დრამატული საზოგადოება, 1879), ისტორიისა და ეთნოგრაფიის შესწავლა.\n\n**ილია ჭავჭავაძე (1837–1907)** — მწერალი, პუბლიცისტი, საზოგადო მოღვაწე, „ერის მამა“; მოკლეს 1907 წელს წიწამურთან.\n\n# 1870–1890-იანი წლები\n\n- **მესამე დასი** (1890-იანი) — მარქსისტული ჯგუფი (ნოე ჟორდანია, ფილიპე მახარაძე), მუშათა მოძრაობა; **მეორე დასი** — ნიკო ნიკოლაძე, გიორგი წერეთელი (ლიბერალები, ეკონომიკური განვითარება).\n- **1877–1878 რუსეთ-ოსმალეთის ომი** — **აჭარა და ბათუმი** დაუბრუნდა საქართველოს (სან-სტეფანოს ზავი, ბერლინის კონგრესი).\n- რუსიფიკაციის პოლიტიკა (ალექსანდრე III) — ქართული ენის შეზღუდვა სკოლებში; ეროვნული მოძრაობის გაძლიერება.\n\n\u003e **ცნებები:** ბატონყმობა, დროებით ვალდებული გლეხი, გამოსყიდვა, თერგდალეული, მამათა და შვილთა ბრძოლა, რუსიფიკაცია, პორტო-ფრანკო.",
@@ -4965,7 +5305,7 @@
                  ],
         "subject":  "history",
         "title":  "საქართველო XIX საუკუნის მეორე ნახევარში: რეფორმები და თერგდალეულები",
-        "updated":  "თავის ნომერი დასაზუსტებელია",
+        "updated":  "თავი VII",
         "id":  "hist-georgia-1860s"
     },
     {
@@ -5155,6 +5495,7 @@
                           "q":  "ინდუსტრიული განვითარების ნიშნები საქართველოში?"
                       }
                   ],
+        "chapter":  "§28-30",
         "exam":  "Exam 1 · October",
         "lang":  "ka",
         "notes":  "# რა არის ინდუსტრიული რევოლუცია?\n\n**ინდუსტრიული (სამრეწველო) რევოლუცია** — გადასვლა **ხელით შრომიდან მანქანურ წარმოებაზე**, მანუფაქტურიდან **ფაბრიკაზე**; აგრარული საზოგადოება ინდუსტრიულად იქცა. დაიწყო **ინგლისში XVIII საუკუნის 60-იან წლებში** და XIX საუკუნეში ევროპასა და ამერიკაში გავრცელდა.\n\n# რატომ ინგლისში?\n\n1. **კაპიტალი** — მდიდარი ვაჭრები და კოლონიური ვაჭრობის შემოსავალი.\n2. **თავისუფალი მუშახელი** — „შემოღობვების“ შედეგად მიწააყრილი გლეხები ქალაქებში წავიდნენ.\n3. **ბუნებრივი რესურსები** — ქვანახშირი და რკინა.\n4. **კოლონიები** — ნედლეული (ბამბა) და ბაზარი.\n5. **პოლიტიკური სტაბილურობა**, კერძო საკუთრების დაცვა, პარლამენტი (1688 წლის „დიდებული რევოლუციის“ შემდეგ).\n6. **აგრარული რევოლუცია** — ახალი მეთოდებით მეტი საკვები, მოსახლეობის ზრდა.\n\n# მთავარი გამოგონებები\n\n| წელი | გამოგონება | ავტორი |\n|---|---|---|\n| 1733 | „მფრინავი მაქო“ (ქსოვის დაჩქარება) | ჯონ კეი |\n| 1764 | სართავი მანქანა „ჯენი“ | ჯეიმზ ჰარგრივსი |\n| 1769 | წყლის ძალით მომუშავე სართავი მანქანა | რიჩარდ არკრაითი |\n| **1769/1784** | **გაუმჯობესებული ორთქლის მანქანა** | **ჯეიმზ უატი** |\n| 1785 | მექანიკური საქსოვი დაზგა | ედმუნდ კარტრაითი |\n| 1807 | ორთქლის გემი | რობერტ ფულტონი (აშშ) |\n| **1825/1830** | **პირველი რკინიგზა** (სტოქტონი–დარლინგტონი; ლივერპული–მანჩესტერი), ორთქლმავალი „რაკეტა“ | **ჯორჯ სტეფენსონი** |\n| 1837 | ტელეგრაფი | სამუელ მორზე |\n| 1856 | ფოლადის იაფი წარმოება (ბესემერის მეთოდი) | ჰენრი ბესემერი |\n\nორთქლის მანქანა გახდა რევოლუციის „ძრავა“: ფაბრიკები აღარ იყო დამოკიდებული მდინარეებზე.\n\n# შედეგები\n\n**ეკონომიკური:** ფაბრიკული წარმოება, წარმოების მკვეთრი ზრდა, ტრანსპორტის რევოლუცია (რკინიგზა, ორთქლის გემი), ბანკები, აქციონერული საზოგადოებები, კაპიტალიზმის დამკვიდრება.\n\n**სოციალური:**\n\n- **ურბანიზაცია** — ქალაქების სწრაფი ზრდა (მანჩესტერი, ბირმინგემი); ჭუჭყი, ეპიდემიები, სლამები.\n- ორი ახალი კლასი: **ბურჟუაზია** (ფაბრიკების მფლობელები) და **პროლეტარიატი** (მუშათა კლასი).\n- **მუშათა მდგომარეობა:** 12–16-საათიანი სამუშაო დღე, დაბალი ხელფასი, **ბავშვთა შრომა**, საშიში მანქანები, სოციალური დაცვის არარსებობა.\n- **ლუდიტები** (1811–1816) — მუშები, რომლებიც მანქანებს ამსხვრევდნენ, რადგან სამუშაოს ართმევდნენ.\n- **პროფკავშირები** და მუშათა მოძრაობა; **ჩარტიზმი** ინგლისში (1838–1848) — საარჩევნო უფლების მოთხოვნა; **ფაბრიკული კანონები** — ბავშვთა შრომის შეზღუდვა (1833, 1847 — 10-საათიანი დღე).\n- ახალი იდეოლოგიები: **ლიბერალიზმი** (ადამ სმიტი — თავისუფალი ბაზარი), **სოციალიზმი** და **მარქსიზმი** (კარლ მარქსი, ფრიდრიხ ენგელსი — „კომუნისტური პარტიის მანიფესტი“, 1848).\n\n**გავრცელება:** ბელგია, საფრანგეთი, გერმანია (XIX ს. შუა), აშშ, რუსეთი (XIX ს. ბოლო). საქართველოში — XIX ს. მეორე ნახევარი: **ფოთი–თბილისის რკინიგზა (1872)**, ბათუმის პორტი, ჭიათურის მარგანეცი, ტყიბულის ქვანახშირი, ბაქო–ბათუმის ნავთობსადენი (1906).\n\n\u003e **ცნებები:** მანუფაქტურა, ფაბრიკა, ურბანიზაცია, ბურჟუაზია, პროლეტარიატი, კაპიტალიზმი, პროფკავშირი, ლუდიტები, ჩარტიზმი.",
@@ -5240,7 +5581,7 @@
                  ],
         "subject":  "history",
         "title":  "ინდუსტრიული რევოლუცია",
-        "updated":  "თავის ნომერი დასაზუსტებელია",
+        "updated":  "თავი VII",
         "id":  "hist-industrial"
     },
     {
@@ -5302,6 +5643,7 @@
                           "q":  "რომელი დინასტია აღდგა საფრანგეთში 1814 წელს?"
                       }
                   ],
+        "chapter":  "§17-21",
         "exam":  "Exam 1 · October",
         "lang":  "ka",
         "notes":  "# ნაპოლეონ ბონაპარტი (1769–1821)\n\n- დაიბადა კორსიკაზე; არტილერიის ოფიცერი; გაითქვა სახელი ტულონთან (1793) და იტალიის ლაშქრობაში (1796–97); ეგვიპტის ექსპედიცია (1798–99).\n- **1799, 18 ბრიუმერი** — გადატრიალება, **პირველი კონსული**.\n- **1804** — თავი **იმპერატორად** გამოაცხადა (ნოტრ-დამის ტაძარში გვირგვინი თვითონ დაიდგა).\n\n# შიდა რეფორმები\n\n| რეფორმა | არსი |\n|---|---|\n| **სამოქალაქო კოდექსი (1804, „ნაპოლეონის კოდექსი“)** | კანონის წინაშე თანასწორობა, საკუთრების ხელშეუხებლობა, სამოქალაქო ქორწინება; ევროპის მრავალი ქვეყნის სამართლის საფუძველი |\n| საფრანგეთის ბანკი (1800) | ფინანსების სტაბილიზაცია, ფრანკი |\n| კონკორდატი პაპთან (1801) | ეკლესიასთან შერიგება |\n| განათლება | ლიცეუმები, ცენტრალიზებული სისტემა |\n| ადმინისტრაცია | პრეფექტები დეპარტამენტებში — მკაცრი ცენტრალიზაცია |\n| საპატიო ლეგიონის ორდენი | დამსახურების მიხედვით დაწინაურება |\n\nუარყოფითი მხარე: ცენზურა, პოლიციური კონტროლი (ფუშე), პოლიტიკური თავისუფლების შეზღუდვა.\n\n# ნაპოლეონის ომები\n\n| წელი | მოვლენა |\n|---|---|\n| 1805 | **ტრაფალგარი** — ინგლისის ფლოტმა (ნელსონი) დაამარცხა ფრანგები ზღვაზე; **აუსტერლიცი** („სამი იმპერატორის ბრძოლა“) — ნაპოლეონის უდიდესი გამარჯვება ავსტრია-რუსეთზე |\n| 1806 | **კონტინენტური ბლოკადა** — ევროპას აეკრძალა ვაჭრობა ინგლისთან; პრუსიის დამარცხება (იენა) |\n| 1807 | ტილზიტის ზავი რუსეთთან (ალექსანდრე I) |\n| 1808–1814 | ესპანეთის ომი — პარტიზანული წინააღმდეგობა („გერილია“) |\n| **1812** | **რუსეთის ლაშქრობა** — ბოროდინო, მოსკოვის ხანძარი, „დიდი არმიის“ დაღუპვა უკანდახევისას |\n| 1813 | **ლაიფციგი — „ხალხთა ბრძოლა“**, კოალიციის გამარჯვება |\n| 1814 | პარიზის დაცემა, ნაპოლეონის გადადგომა, გადასახლება **ელბაზე**; ბურბონების რესტავრაცია — ლუი XVIII |\n| 1815 | **„ასი დღე“** — დაბრუნება; **ვატერლოო (18 ივნისი)** — საბოლოო დამარცხება (ველინგტონი, ბლიუხერი); გადასახლება **წმ. ელენეს კუნძულზე**, სადაც 1821 წ. გარდაიცვალა |\n\n# ვენის კონგრესი (1814–1815)\n\n- მონაწილეები: ავსტრია (**მეტერნიხი** — თავმჯდომარე), რუსეთი (ალექსანდრე I), პრუსია, დიდი ბრიტანია, საფრანგეთი (ტალეირანი).\n- **პრინციპები:** **ლეგიტიმიზმი** (ძველი დინასტიების აღდგენა), **ძალთა ბალანსი**, რევოლუციების აღკვეთა.\n- შედეგები: საფრანგეთი 1792 წლის საზღვრებში; რუსეთმა მიიღო პოლონეთის დიდი ნაწილი; პრუსიამ — რაინის მიწები; ავსტრიამ — ჩრდილოეთ იტალია; შეიქმნა **გერმანიის კავშირი**; შვეიცარია — ნეიტრალური.\n- **წმინდა კავშირი** (1815) — რუსეთი, ავსტრია, პრუსია — რევოლუციური მოძრაობების ჩასახშობად.\n\n# მნიშვნელობა\n\n- ნაპოლეონმა გაავრცელა რევოლუციის იდეები (თანასწორობა, კოდექსი) მთელ ევროპაში, თუმცა დაპყრობებით.\n- ეროვნული თვითშეგნების გაღვიძება გერმანიაში, იტალიაში, ესპანეთში.\n- ვენის სისტემა ევროპაში ~40 წლის მშვიდობის საფუძველი გახდა.",
@@ -5387,8 +5729,1169 @@
                  ],
         "subject":  "history",
         "title":  "ნაპოლეონის ეპოქა და ვენის კონგრესი (1799–1815)",
-        "updated":  "თავის ნომერი დასაზუსტებელია",
+        "updated":  "თავი V",
         "id":  "hist-napoleon"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "ოსმალეთი, სეფიანთა ირანი და (სულ უფრო მეტად) რუსეთი.",
+                          "q":  "რომელი სამი დიდი იმპერია განსაზღვრავდა საქართველოს ბედს XVII საუკუნეში?"
+                      },
+                      {
+                          "a":  "ირანმა და ოსმალეთმა საქართველო გავლენის სფეროებად გაიყვეს: აღმოსავლეთი — ირანს, დასავლეთი და სამცხის ნაწილი — ოსმალეთს.",
+                          "q":  "რა გადაწყდა 1555 წლის ამასიის ზავით?"
+                      },
+                      {
+                          "a":  "სამეფოები: ქართლი, კახეთი, იმერეთი. სამთავროები: სამეგრელო, გურია, აფხაზეთი, სვანეთი. სამცხე — ოსმალეთის ახალციხის საფაშო.",
+                          "q":  "ჩამოთვალე ქართული სამეფოები და სამთავროები XVII საუკუნეში."
+                      },
+                      {
+                          "a":  "შაჰ აბას I-მა კახეთი დაარბია, ათიათასობით ქართველი ირანში (ფერეიდანში) გადაასახლა.",
+                          "q":  "რა მოხდა კახეთში 1614–1617 წლებში?"
+                      },
+                      {
+                          "a":  "1625, გიორგი სააკაძე; მარტყოფთან გამარჯვება, მარაბდასთან დამარცხება.",
+                          "q":  "მარტყოფისა და მარაბდის ბრძოლები — წელი და მეთაური?"
+                      },
+                      {
+                          "a":  "1626 — თეიმურაზ I-მა დაამარცხა გიორგი სააკაძე, რომელიც ოსმალეთში გაიქცა.",
+                          "q":  "ბაზალეთის ბრძოლა?"
+                      },
+                      {
+                          "a":  "თეიმურაზ I-ის დედა; შაჰ აბასმა შირაზში 1624 წელს აწამა, რადგან ქრისტიანობა არ უარყო — წმინდანი.",
+                          "q":  "ვინ იყო ქეთევან დედოფალი?"
+                      },
+                      {
+                          "a":  "გამაჰმადიანებული ბაგრატიონი მეფეები, რომლებიც ქართლს ირანის შაჰის სახელით მართავდნენ (მაგ. როსტომი, 1633–1658).",
+                          "q":  "ვინ იყვნენ ვალიები?"
+                      },
+                      {
+                          "a":  "დასავლეთ საქართველოდან ადამიანების ოსმალეთში მონებად გაყიდვა — XVII–XVIII სს. დიდი უბედურება.",
+                          "q":  "რა იყო ტყვეთა სყიდვა?"
+                      },
+                      {
+                          "a":  "ჟან შარდენი (ფრანგი მოგზაური), არქანჯელო ლამბერტი (იტალიელი მისიონერი), კასტელი, ევლია ჩელები.",
+                          "q":  "დაასახელე XVII საუკუნის საქართველოს შესახებ ორი უცხოური წყარო."
+                      },
+                      {
+                          "a":  "ფარსადან გორგიჯანიძის ისტორია, ბერი ეგნატაშვილის „ახალი ქართლის ცხოვრება“, საბუთები.",
+                          "q":  "რომელი ქართული წყაროები აღწერს XVII საუკუნეს?"
+                      },
+                      {
+                          "a":  "აბრეშუმი.",
+                          "q":  "რა იყო კახეთისა და ირანის მთავარი საექსპორტო საქონელი?"
+                      },
+                      {
+                          "a":  "აბრეშუმის გზის განშტოება: თავრიზი → თბილისი → შავი ზღვა, ან კასპიით ვოლგა-ასტრახანის გზა რუსეთისკენ.",
+                          "q":  "რომელი სავაჭრო გზა გადიოდა სამხრეთ კავკასიაზე?"
+                      },
+                      {
+                          "a":  "ეძებდნენ ხმელეთის გზას ირანის აბრეშუმისკენ და ინდოეთისკენ.",
+                          "q":  "რატომ დაინტერესდნენ ევროპელი ვაჭრები კავკასიით?"
+                      },
+                      {
+                          "a":  "ვინ წერს, რა მიზნით, ვის ინტერესებს იცავს, რამდენად კარგად იცნობდა ქვეყანას.",
+                          "q":  "რა კითხვები უნდა დაუსვა უცხოელი მისიონერის ცნობას?"
+                      }
+                  ],
+        "chapter":  "§1-2",
+        "exam":  "Exam 1 · October",
+        "lang":  "ka",
+        "notes":  "# XVII საუკუნის მსოფლიო: სამი დიდი იმპერია\n\n| იმპერია | ცენტრი | რელიგია | რას ნიშნავდა საქართველოსთვის |\n|---|---|---|---|\n| **ოსმალეთის იმპერია** | სტამბოლი (კონსტანტინოპოლი, 1453-დან) | სუნიტური ისლამი | ბატონობდა დასავლეთ საქართველოზე, სამცხე-საათაბაგოზე; ტყვეებით ვაჭრობა |\n| **სეფიანთა ირანი (სპარსეთი)** | ისპაჰანი | შიიტური ისლამი | ბატონობდა ქართლსა და კახეთზე; შაჰ აბას I-ის ლაშქრობები |\n| **რუსეთი (მოსკოვის სამეფო)** | მოსკოვი | მართლმადიდებლობა | ჯერ შორეული ერთმორწმუნე მოკავშირე; XVIII ს-დან — მთავარი ძალა კავკასიაში |\n\n**1555 — ამასიის ზავი:** ირანმა და ოსმალეთმა საქართველო გავლენის სფეროებად გაიყვეს: **აღმოსავლეთი** (ქართლი, კახეთი) — ირანს, **დასავლეთი** (იმერეთი, სამეგრელო, გურია, აფხაზეთი) და სამცხის ნაწილი — ოსმალეთს. 1639 წლის ზავმა ეს გაყოფა დაადასტურა.\n\n# ქართული სამეფო-სამთავროები XVII საუკუნეში\n\nერთიანი საქართველო XV საუკუნის ბოლოს დაიშალა. XVII საუკუნეში არსებობდა:\n\n- **სამეფოები:** ქართლი (თბილისი), კახეთი (თელავი/გრემი), იმერეთი (ქუთაისი).\n- **სამთავროები:** სამეგრელო (დადიანები), გურია (გურიელები), აფხაზეთი (შერვაშიძეები), სვანეთი.\n- **სამცხე-საათაბაგო** — XVII ს. დასაწყისში ოსმალეთმა საბოლოოდ დაიპყრო და **ახალციხის საფაშოდ** აქცია; მოსახლეობის ნაწილი გამაჰმადიანდა.\n\n## შაჰ აბას I და კახეთის აოხრება (1614–1617)\n\n- შაჰ აბას I-მა (1587–1629) რამდენჯერმე დაარბია კახეთი და ქართლი; **ათიათასობით ქართველი ირანში (ფერეიდანში) გადაასახლა**, ასობით სოფელი დაცარიელდა; ბევრი დაიღუპა.\n- **1615** — კახეთის აჯანყება; **1625 — მარტყოფისა და მარაბდის ბრძოლები** (გიორგი სააკაძე): მარტყოფთან გამარჯვება, მარაბდასთან დამარცხება; **1626 ბაზალეთის ბრძოლა** — თეიმურაზ I-ის ჯარმა სააკაძე დაამარცხა, ის ოსმალეთში გაიქცა.\n- **ქეთევან დედოფალი** — შაჰმა შირაზში 1624 წელს აწამა ქრისტიანობის უარყოფაზე უარის გამო; ეკლესიამ წმინდანად შერაცხა.\n- შედეგი: **ვალიები** (გამაჰმადიანებული ბაგრატიონები, მაგ. როსტომი 1633–1658) ქართლს ირანის სახელით მართავდნენ; ქართლში სპარსული გავლენა გაძლიერდა, თუმცა როსტომმა მშვიდობა და აღორძინება მოიტანა.\n\n## დასავლეთ საქართველო\n\n- იმერეთის მეფეები (ალექსანდრე III, გიორგი III) და სამთავროები ერთმანეთს ებრძოდნენ; ოსმალეთი ამ დაპირისპირებას იყენებდა.\n- **ლევან II დადიანი** (1611–1657) — სამეგრელოს ძლიერი მთავარი, თითქმის დამოუკიდებელი.\n- **ტყვეთა სყიდვა** — დასავლეთ საქართველოს უდიდესი უბედურება: ადამიანებს ოსმალეთში ყიდდნენ; მოსახლეობა შემცირდა.\n\n# რას მოგვითხრობს წყაროები?\n\n- **ქართული:** ფარსადან გორგიჯანიძის ისტორია, ბერი ეგნატაშვილის „ახალი ქართლის ცხოვრება“, საბუთები, სიგელები.\n- **უცხოური:** ევროპელი მოგზაურები და მისიონერები — **ჟან შარდენი** (ფრანგი, 1670-იანი), **არქანჯელო ლამბერტი** (იტალიელი მისიონერი სამეგრელოში), **კრისტოფორო კასტელი** (ნახატები), **ევლია ჩელები** (ოსმალო მოგზაური); სპარსული ქრონიკები (ისქანდერ მუნში).\n- წყაროს კრიტიკა: ვინ წერს, რა მიზნით, რა ინტერესები აქვს (მისიონერი კათოლიკური ეკლესიის ინტერესებით, სპარსელი — შაჰის სადიდებლად).\n\n# §2. აღმოსავლეთისა და ევროპის დამაკავშირებელი სავაჭრო გზები\n\n- **დიდი აბრეშუმის გზა** — ჩინეთიდან ხმელთაშუა ზღვამდე; ერთ-ერთი განშტოება **სამხრეთ კავკასიაზე** გადიოდა (თავრიზი → ერევანი → თბილისი → შავი ზღვა ან → დერბენტი → ვოლგა).\n- **აბრეშუმი** — ირანის (გილანი, შირვანი) და კახეთის მთავარი საექსპორტო საქონელი; ევროპაში ძალიან ძვირი. კახეთსა და ქართლში აბრეშუმის ჭიას აშენებდნენ.\n- **ვოლგა-ასტრახანის გზა** — კასპიის ზღვით ასტრახანში, ვოლგით მოსკოვსა და ევროპაში; რუსეთი ცდილობდა ირანის აბრეშუმით ვაჭრობის კონტროლს.\n- **თბილისი** — სავაჭრო კვანძი: ქარვასლები, ბაზრები, სომეხი და ქართველი ვაჭრები; XVII ს. ბოლოს ~20 000 მცხოვრები.\n- ევროპული კომპანიები (ინგლისის „მოსკოვის კომპანია“, ჰოლანდიელები) ეძებდნენ გზას სპარსეთისკენ — ამიტომ გაჩნდა ინტერესი კავკასიის მიმართ.\n- დიდი გეოგრაფიული აღმოჩენების შემდეგ (ინდოეთისკენ საზღვაო გზა, 1498) ხმელეთის გზების მნიშვნელობა შემცირდა, მაგრამ კავკასიური მარშრუტი XVII ს-ში ჯერ კიდევ აქტიური იყო.\n\n\u003e **ცნებები:** გავლენის სფერო, ვალი, ტყვეთა სყიდვა, ქარვასლა, აბრეშუმის გზა, წყაროს კრიტიკა, მისიონერი.",
+        "order":  0.1,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "1555 — ირან-ოსმალეთის ზავი, საქართველოს გაყოფა გავლენის სფეროებად.",
+                         "options":  [
+                                         "1453",
+                                         "1555",
+                                         "1614",
+                                         "1639"
+                                     ],
+                         "q":  "ამასიის ზავი დაიდო:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "ქართლი და კახეთი — სეფიანთა ირანს.",
+                         "options":  [
+                                         "ოსმალეთის",
+                                         "ირანის",
+                                         "რუსეთის",
+                                         "ავსტრიის"
+                                     ],
+                         "q":  "აღმოსავლეთ საქართველო XVII საუკუნეში რომელი იმპერიის გავლენის სფეროში იყო?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "კახეთის მოსახლეობის დიდი ნაწილი ფერეიდანში გადაასახლა.",
+                         "options":  [
+                                         "1555–1560",
+                                         "1614–1617",
+                                         "1625–1626",
+                                         "1683–1699"
+                                     ],
+                         "q":  "შაჰ აბას I-მა კახეთი დაარბია:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "1625 — მარტყოფი გამარჯვება, მარაბდა და ბაზალეთი — დამარცხება.",
+                         "options":  [
+                                         "მარაბდასთან",
+                                         "ბაზალეთთან",
+                                         "მარტყოფთან",
+                                         "ასპინძასთან"
+                                     ],
+                         "q":  "გიორგი სააკაძემ გაიმარჯვა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "მაგ. როსტომ-ხანი ქართლში.",
+                         "options":  [
+                                         "ოსმალო ფაშა",
+                                         "გამაჰმადიანებული ქართველი მეფე ირანის სამსახურში",
+                                         "რუსი გუბერნატორი",
+                                         "ევროპელი მისიონერი"
+                                     ],
+                         "q":  "ვალი იყო:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "1670-იან წლებში იმოგზაურა საქართველოსა და ირანში.",
+                         "options":  [
+                                         "სპარსელი ისტორიკოსი",
+                                         "ფრანგი მოგზაური, რომელმაც საქართველო აღწერა",
+                                         "ოსმალო სარდალი",
+                                         "ქართველი მემატიანე"
+                                     ],
+                         "q":  "ჟან შარდენი იყო:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "გილანის, შირვანისა და კახეთის აბრეშუმი ევროპაში ძვირად იყიდებოდა.",
+                         "options":  [
+                                         "ჩაი",
+                                         "აბრეშუმი",
+                                         "ნავთობი",
+                                         "ბამბა"
+                                     ],
+                         "q":  "XVII საუკუნეში კავკასიაზე გამავალი მთავარი საექსპორტო საქონელი იყო:"
+                     }
+                 ],
+        "subject":  "history",
+        "title":  "დიდი იმპერიები და ქართული სამეფო-სამთავროები XVII საუკუნეში · სავაჭრო გზები",
+        "updated":  "თავი I",
+        "id":  "hist-p1-2"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "1783 წლის 24 ივლისი, ციხე გეორგიევსკი, ჩრდილოეთ კავკასია.",
+                          "q":  "გეორგიევსკის ტრაქტატი — თარიღი და ადგილი?"
+                      },
+                      {
+                          "a":  "იოანე ბაგრატიონ-მუხრანელი და გარსევან ჭავჭავაძე; რუსეთის მხრიდან — პავლე პოტიომკინი.",
+                          "q":  "ვინ მოაწერა ხელი ტრაქტატს ქართული მხრიდან?"
+                      },
+                      {
+                          "a":  "ქართლ-კახეთის დაცვა, ერეკლესა და მემკვიდრეების ტახტის შენარჩუნება, შიდა საქმეებში ჩაურევლობა, ჯარის განლაგება.",
+                          "q":  "რა ვალდებულებები აიღო რუსეთმა ტრაქტატით?"
+                      },
+                      {
+                          "a":  "უარი ირანსა და ოსმალეთზე დამოკიდებულებაზე, საგარეო პოლიტიკა რუსეთთან შეთანხმებით, ომში დახმარება.",
+                          "q":  "რა ვალდებულებები აიღო ქართლ-კახეთმა?"
+                      },
+                      {
+                          "a":  "რუსეთმა ოსმალეთთან ომის გამო ჯარი საქართველოდან გაიყვანა — ტრაქტატის პირობა დაარღვია.",
+                          "q":  "რა მოხდა 1787 წელს?"
+                      },
+                      {
+                          "a":  "1795 წლის 11 სექტემბერი, აღა-მაჰმად-ხანი; თბილისი დაანგრიეს და გადაწვეს; 300 არაგველის თავგანწირვა; რუსეთი არ დაეხმარა.",
+                          "q":  "კრწანისის ბრძოლა — თარიღი, მოწინააღმდეგე, შედეგი?"
+                      },
+                      {
+                          "a":  "რუსეთის მფარველობაზე უარის თქმას და ირანის მორჩილებას.",
+                          "q":  "რას მოითხოვდა აღა-მაჰმად-ხანი ერეკლესგან?"
+                      },
+                      {
+                          "a":  "1798 წლის 11 იანვარი, თელავი.",
+                          "q":  "როდის გარდაიცვალა ერეკლე II?"
+                      },
+                      {
+                          "a":  "ტახტისთვის ბრძოლა სამეფო ოჯახში, კრწანისის შემდეგ დანგრეული ქვეყანა, სუსტი ჯარი, ლეკიანობა, ნაწილი თავადაზნაურობის რუსოფილობა.",
+                          "q":  "რა შიდა მიზეზები დაეხმარა სახელმწიფოებრიობის დაკარგვას?"
+                      },
+                      {
+                          "a":  "სამეფოს მიღებას მფარველობაში ბაგრატიონთა მემკვიდრეობითი მეფობის შენარჩუნებით.",
+                          "q":  "რას სთხოვდა გიორგი XII რუსეთს 1800 წელს?"
+                      },
+                      {
+                          "a":  "18 იანვარი — პავლე I-ის მანიფესტი შეერთებაზე; 12 სექტემბერი — ალექსანდრე I-ის მანიფესტი: სამეფო გაუქმდა, გუბერნია შეიქმნა.",
+                          "q":  "რა მოხდა 1801 წლის 18 იანვარს და 12 სექტემბერს?"
+                      },
+                      {
+                          "a":  "რუსეთმა ტრაქტატით ნაკისრი ვალდებულება — ტახტის შენარჩუნება — დაარღვია და სამეფო ცალმხრივად გააუქმა.",
+                          "q":  "რატომ არის 1801 წლის აქტი ანექსია?"
+                      },
+                      {
+                          "a":  "დარეჯან დედოფალი და ბატონიშვილები რუსეთში გადაასახლეს; ალექსანდრე ბატონიშვილი ირანში ბრძოლას განაგრძობდა.",
+                          "q":  "რა ბედი ეწია სამეფო ოჯახს?"
+                      },
+                      {
+                          "a":  "1800 — ქართულ-რუსულმა ჯარმა ომარ-ხანის ლეკები დაამარცხა.",
+                          "q":  "ნიორის ველის ბრძოლა?"
+                      }
+                  ],
+        "chapter":  "§11-12",
+        "exam":  "Exam 1 · October",
+        "lang":  "ka",
+        "notes":  "# §11. რა მოუტანა გეორგიევსკის ტრაქტატმა ქართლ-კახეთს?\n\n## რატომ დათანხმდა ერეკლე?\n\n- ლეკიანობა, ირანის ქაოსი, ოსმალეთის საფრთხე, ევროპისგან დახმარების იმედის არარსებობა.\n- რუსეთს (ეკატერინე II) კავკასიაში პლაცდარმი სჭირდებოდა ირანისა და ოსმალეთის წინააღმდეგ; **1783** — ყირიმის შეერთება, კავკასიის ხაზის გაძლიერება.\n\n## ტრაქტატი — 1783 წლის 24 ივლისი, ციხე გეორგიევსკი (ჩრდ. კავკასია)\n\nხელი მოაწერეს: რუსეთის მხრიდან **პავლე პოტიომკინი**, ქართლ-კახეთის მხრიდან **იოანე ბაგრატიონ-მუხრანელი და გარსევან ჭავჭავაძე**.\n\n| ქართლ-კახეთის ვალდებულებები | რუსეთის ვალდებულებები |\n|---|---|\n| უარი სხვა სახელმწიფოებზე დამოკიდებულებაზე (ირანი, ოსმალეთი) | ქართლ-კახეთის **დაცვა** მტრებისგან, ომში დახმარება |\n| საგარეო პოლიტიკა რუსეთთან შეთანხმებით | **ერეკლესა და მისი მემკვიდრეების ტახტის შენარჩუნება** (რუსეთი მეფეს ამტკიცებს) |\n| რუსეთის ჯარის დახმარება ომში | **შიდა დამოუკიდებლობა** — რუსეთი შიდა საქმეებში არ ერევა |\n| მეფის ტიტულის დამტკიცება იმპერატორის მიერ | ორი ბატალიონი ჯარის განლაგება საქართველოში; ქართველი თავადაზნაურობის უფლებების გათანაბრება რუსულთან |\n\n**რაც ხდება:** 1783 — რუსული ორი ბატალიონი თბილისში; **1784 — დარიალის გზის** (საქართველოს სამხედრო გზა) გაყვანა.\n\n## შედეგები\n\n- **ირანი და ოსმალეთი** განრისხდნენ: ლეკების თავდასხმები გაძლიერდა; ოსმალეთმა 1787 წელს რუსეთს ომი გამოუცხადა.\n- **1787** — რუსეთმა ოსმალეთთან ომის გამო **ჯარი საქართველოდან გაიყვანა** — ტრაქტატის პირობა დაირღვა.\n- ერეკლე მარტო დარჩა ორივე იმპერიის წინაშე; 1790 — ქართველ მეფე-მთავართა „ტრაქტატი“ ერთიანობაზე (სუსტი).\n- **1795 11 სექტემბერი — კრწანისის ბრძოლა:** **აღა-მაჰმად-ხანმა** (ირანის ახალი მბრძანებელი, ყაჯარი) ერეკლეს მოსთხოვა რუსეთზე უარი; ერეკლემ არ დათმო; 35 000 ირანელი 5 000 ქართველის წინააღმდეგ; **300 არაგველის** თავგანწირვა; **თბილისი დაანგრიეს და გადაწვეს**, ათასობით ტყვე. რუსეთი არ დაეხმარა.\n- 1796 — რუსეთის დაგვიანებული ლაშქრობა ირანში (ზუბოვი), ეკატერინეს სიკვდილის შემდეგ შეწყდა.\n- **1798 11 იანვარი** — ერეკლე II გარდაიცვალა თელავში.\n\n# §12. რატომ დაკარგა საქართველომ სახელმწიფოებრიობა?\n\n## შიდა მიზეზები\n\n- **გიორგი XII** (1798–1800) — ავადმყოფი, სუსტი; **ტახტისთვის ბრძოლა**: ერეკლეს ანდერძით ტახტი ძმებს (იულონს, ალექსანდრეს) უნდა გადასცემოდა, გიორგიმ კი შვილს — დავითს უნდოდა → სამეფო ოჯახის განხეთქილება, ალექსანდრე ბატონიშვილი ირანთან.\n- ქვეყანა კრწანისის შემდეგ **დანგრეული და დაცარიელებული**; ეკონომიკა და ჯარი სუსტი; ლეკიანობა.\n- თავადაზნაურობის ერთი ნაწილი რუსეთს ემხრობოდა (მშვიდობის იმედით).\n\n## გარე მიზეზები\n\n- **ირანი** (ფათჰ-ალი შაჰი) და **ოსმალეთი** საქართველოს დამორჩილებას ცდილობდნენ.\n- **რუსეთს** ტრაქტატით მიღებული „მფარველობა“ აღარ აკმაყოფილებდა — სურდა **სრული შეერთება**, რომ კავკასია დაეკავებინა.\n\n## როგორ მოხდა\n\n1. 1799 — გიორგი XII-ის თხოვნით რუსული ჯარი (ლაზარევი) თბილისში დაბრუნდა; 1800 — **ნიორის ველთან** ომარ-ხანის ლეკების დამარცხება ქართულ-რუსული ჯარით.\n2. 1800 — გიორგი XII-ის ელჩობა პეტერბურგში: **„სამეფოს მიღება მფარველობაში, ბაგრატიონთა მემკვიდრეობითი მეფობის შენარჩუნებით“** — პავლე I-მა პრინციპულად დათანხმდა, მაგრამ 1800 დეკემბერში გიორგი გარდაიცვალა.\n3. **1801 18 იანვარი — პავლე I-ის მანიფესტი** ქართლ-კახეთის რუსეთთან შეერთების შესახებ (მეფის ხსენების გარეშე); მარტში პავლე მოკლეს.\n4. **1801 12 სექტემბერი — ალექსანდრე I-ის მანიფესტი:** სამეფო **გაუქმდა**, ბაგრატიონები ტახტიდან ჩამოაშორეს; შეიქმნა **ქართლ-კახეთის (თბილისის) გუბერნია**; **1802 12 აპრილი** — მანიფესტი თბილისში სიონში წაიკითხეს, თავადაზნაურობას ფიცი დაადებინეს (ზოგი დააპატიმრეს).\n5. სამეფო ოჯახის წევრები **რუსეთში გადაასახლეს** (დარეჯან დედოფალი, ბატონიშვილები).\n\n\u003e **დასკვნა:** სახელმწიფოებრიობა დაიკარგა **გარე ძალების ინტერესებისა და შიდა სისუსტის** ერთობლიობით. რუსეთმა ტრაქტატი დაარღვია — ტახტის შენარჩუნების ნაცვლად სამეფო გააუქმა. ეს **ანექსია** იყო, არა „ნებაყოფლობითი შეერთება“ — თუმცა რუსული ისტორიოგრაფია მას ასე წარმოაჩენდა.\n\n\u003e **ცნებები:** ტრაქტატი, მფარველობა (პროტექტორატი), სუვერენიტეტი, საგარეო პოლიტიკა, მანიფესტი, ანექსია, გუბერნია.",
+        "order":  0.7,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "სწორედ ეს პირობა დაირღვა 1801 წელს.",
+                         "options":  [
+                                         "სამეფო გაეუქმებინა",
+                                         "ბაგრატიონთა ტახტი შეენარჩუნებინა და ქართლ-კახეთი დაეცვა",
+                                         "ქართლ-კახეთი ირანისთვის გადაეცა",
+                                         "საქართველოში გუბერნია შეექმნა"
+                                     ],
+                         "q":  "გეორგიევსკის ტრაქტატით რუსეთი ვალდებული იყო:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "ოსმალეთთან ომის დაწყების გამო.",
+                         "options":  [
+                                         "1783",
+                                         "1787",
+                                         "1795",
+                                         "1801"
+                                     ],
+                         "q":  "რუსეთმა ჯარი საქართველოდან გაიყვანა:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "1795 წლის 11 სექტემბერი.",
+                         "options":  [
+                                         "1783",
+                                         "1790",
+                                         "1795",
+                                         "1798"
+                                     ],
+                         "q":  "კრწანისის ბრძოლა მოხდა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "ყაჯართა დინასტიის დამაარსებელი.",
+                         "options":  [
+                                         "ოსმალეთის სულთანი",
+                                         "ირანის ყაჯარი მბრძანებელი",
+                                         "დაღესტნელი ხანი",
+                                         "რუსი გენერალი"
+                                     ],
+                         "q":  "აღა-მაჰმად-ხანი იყო:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "1798–1800.",
+                         "options":  [
+                                         "ერეკლე II",
+                                         "გიორგი XII",
+                                         "დავით ბატონიშვილი",
+                                         "სოლომონ II"
+                                     ],
+                         "q":  "ქართლ-კახეთის უკანასკნელი მეფე იყო:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "სამეფოს გაუქმება; თბილისში 1802 აპრილში წაიკითხეს.",
+                         "options":  [
+                                         "1798 იანვარი",
+                                         "1800 დეკემბერი",
+                                         "1801 12 სექტემბერი",
+                                         "1802 12 აპრილი"
+                                     ],
+                         "q":  "ალექსანდრე I-ის მანიფესტი გამოქვეყნდა:"
+                     },
+                     {
+                         "answer":  3,
+                         "explain":  "ევროპა კავკასიაში არ ერეოდა.",
+                         "options":  [
+                                         "სამეფო ოჯახის განხეთქილება",
+                                         "კრწანისის ბრძოლის შემდეგ ქვეყნის განადგურება",
+                                         "რუსეთის სურვილი კავკასიის დაკავებისა",
+                                         "ევროპის სახელმწიფოების შემოჭრა"
+                                     ],
+                         "q":  "რომელი არ იყო სახელმწიფოებრიობის დაკარგვის მიზეზი?"
+                     }
+                 ],
+        "subject":  "history",
+        "title":  "გეორგიევსკის ტრაქტატი · რატომ დაკარგა საქართველომ სახელმწიფოებრიობა?",
+        "updated":  "თავი III",
+        "id":  "hist-p11-12"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "არ იყო ბურჟუაზია და ძლიერი ქალაქები; იდეები სამეფო კარმა და სასულიერო-თავადურმა ინტელიგენციამ მიიღო, რუსეთისა და ირანის გავლით.",
+                          "q":  "რით განსხვავდებოდა ქართული განმანათლებლობა ევროპულისგან?"
+                      },
+                      {
+                          "a":  "სკოლებისა და სტამბების გავრცელება, ენისა და მეცნიერების განვითარება (ლექსიკონი, გეოგრაფია, გრამატიკა), სამართლის სისტემატიზაცია და მმართველობის რეფორმის იდეები.",
+                          "q":  "დაასახელე ქართული განმანათლებლობის სამი ნიშანი."
+                      },
+                      {
+                          "a":  "„აღწერა სამეფოსა საქართველოსა“ (1745) — საქართველოს პირველი მეცნიერული გეოგრაფია და ისტორია, რუკებით.",
+                          "q":  "ვახუშტი ბატონიშვილის მთავარი ნაშრომი?"
+                      },
+                      {
+                          "a":  "„ქართული ღრამატიკა“ (1753), ფილოსოფიური ნაშრომები, სასულიერო სკოლების განვითარება.",
+                          "q":  "ანტონ I კათოლიკოსის წვლილი?"
+                      },
+                      {
+                          "a":  "იოანე ბატონიშვილის ენციკლოპედიური ნაწარმოები (XIX ს. დასაწყისი) — ცოდნა ისტორიაზე, ფილოსოფიაზე, მედიცინაზე, გრამატიკაზე.",
+                          "q":  "რა არის „კალმასობა“ და ვინ დაწერა?"
+                      },
+                      {
+                          "a":  "იოანე ბატონიშვილის 1799 წლის მმართველობის რეფორმის პროექტი: სახელმწიფო საბჭო, მინისტრები, ვაჭრობის განვითარება.",
+                          "q":  "რა იყო „სჯულდება“?"
+                      },
+                      {
+                          "a":  "1800 წლის კანონთა კრებული ევროპული სამართლის გავლენით.",
+                          "q":  "დავით ბატონიშვილის სამართალი?"
+                      },
+                      {
+                          "a":  "თავადი, ერეკლე II-ის ოპოზიციონერი, 1783-ში რუსეთში გადასახლებული; „ბრძენი აღმოსავლეთისა“-ს ავტორი.",
+                          "q":  "ვინ იყო ალექსანდრე ამილახვარი?"
+                      },
+                      {
+                          "a":  "მეფის ძალაუფლება კანონითა და საბჭოთი უნდა შეიზღუდოს; მართვა გონებასა და სამართლიანობას უნდა ეყრდნობოდეს; აკრიტიკებდა ერეკლეს რუსულ ორიენტაციას.",
+                          "q":  "რას ამტკიცებდა ამილახვარი „ბრძენ აღმოსავლეთისაში“?"
+                      },
+                      {
+                          "a":  "პირადი წყენა და თავადური პრივილეგიების დაცვა ერეკლეს ცენტრალიზაციის წინააღმდეგ.",
+                          "q":  "არგუმენტი, რომ ამილახვარი ოპოზიციონერი იყო?"
+                      },
+                      {
+                          "a":  "კანონის უზენაესობის, შეზღუდული მონარქიისა და განათლების იდეები ევროპელ განმანათლებელთა ენით.",
+                          "q":  "არგუმენტი, რომ ამილახვარი განმანათლებელი იყო?"
+                      },
+                      {
+                          "a":  "ერეკლე II — სკოლები, სემინარიები, ეკონომიკური და სამხედრო რეფორმები.",
+                          "q":  "რომელი ქართველი მეფე ითვლება „განათლებული მონარქის“ ტიპად?"
+                      }
+                  ],
+        "chapter":  "§13",
+        "exam":  "Exam 1 · October",
+        "lang":  "ka",
+        "notes":  "# როგორ იყო განმანათლებლობის იდეა გაგებული საქართველოში?\n\nსაქართველოში განმანათლებლობა ევროპულისგან განსხვავებული პირობებით მოვიდა: არ იყო ბურჟუაზია და ძლიერი ქალაქები; იდეები **სამეფო კარმა და სასულიერო-თავადურმა ინტელიგენციამ** მიიღო, ძირითადად **რუსეთისა და ირანის** გავლით, ნაწილობრივ — კათოლიკე მისიონერებისა და ევროპაში ნამყოფი ქართველების მეშვეობით.\n\n## ქართული განმანათლებლობის ნიშნები\n\n1. **განათლების გავრცელება** — სკოლები, სემინარიები (თბილისი 1755, თელავი 1782), სტამბები (თბილისი 1709, აღდგენილი 1749).\n2. **ენა და ლექსიკოგრაფია** — სულხან-საბას „სიტყვის კონა“; ანტონ I კათოლიკოსის „ქართული ღრამატიკა“ (1753).\n3. **მეცნიერება** — ვახუშტი ბატონიშვილის „**აღწერა სამეფოსა საქართველოსა**“ (1745) — გეოგრაფია, ისტორია, რუკები; ასტრონომია, მედიცინა (დავით ბატონიშვილის „იადიგარ დაუდი“ — XVI ს. სამედიცინო წიგნი, გავრცელებული).\n4. **სამართლის სისტემატიზაცია** — ვახტანგის სამართალი; დავით ბატონიშვილის „**სამართალი ბატონიშვილის დავითისა**“ (1800) — ევროპული სამართლის (ფრანგული, რუსული კოდექსების) გავლენით.\n5. **მმართველობის რეფორმის იდეები** — მონარქიის შეზღუდვის, კანონის უზენაესობის, ხელისუფლების დანაწილების იდეები.\n\n## მთავარი ფიგურები\n\n| ვინ | წვლილი |\n|---|---|\n| **ვახტანგ VI** | სამართალი, სტამბა, სწავლულ კაცთა კომისია |\n| **სულხან-საბა ორბელიანი** | ლექსიკონი, იგავ-არაკები, ევროპის აღწერა |\n| **ვახუშტი ბატონიშვილი** (1696–1757) | პირველი მეცნიერული გეოგრაფია და ისტორია საქართველოსი (მოსკოვში) |\n| **ანტონ I კათოლიკოსი** (1720–1788) | გრამატიკა, ფილოსოფია, სასულიერო სკოლები; „ევროპეიზმის“ და აღმოსავლური ტრადიციის შერწყმა |\n| **ერეკლე II** | სკოლები, მორიგე ჯარი, ეკონომიკური რეფორმები — „განათლებული მონარქის“ ტიპი |\n| **დავით ბატონიშვილი** (1767–1819) | სამართლის კოდექსი, კონსტიტუციური იდეები, თარგმანები |\n| **იოანე ბატონიშვილი** (1768–1830) | „**კალმასობა**“ — ენციკლოპედიური ნაწარმოები; „სჯულდება“ — მმართველობის რეფორმის პროექტი (1799): სახელმწიფო საბჭო, მინისტრები, ვაჭრობის განვითარება |\n| **ალექსანდრე ამილახვარი** (1750–1802) | „**ბრძენი აღმოსავლეთისა**“ — ერეკლეს კრიტიკა და მმართველობის რეფორმის მოთხოვნა |\n\n# ამილახვარი — ოპოზიციონერი თუ განმანათლებელი?\n\n- **ვინ იყო:** თავადი, ერეკლე II-ის დროს პოლიტიკური ოპოზიციის წევრი; 1783 წელს ერეკლემ **რუსეთში გადაასახლა** (შეთქმულების ბრალდებით); იქ დაწერა „**ბრძენი აღმოსავლეთისა**“ (~1786) — ფილოსოფიური დიალოგი განმანათლებლური იდეებით.\n- **რას ამტკიცებდა:** მეფის ძალაუფლება უნდა შეიზღუდოს **კანონითა და საბჭოთი**; მართვა უნდა ეყრდნობოდეს **გონებას, სამართლიანობასა და განათლებას**; აკრიტიკებდა ერეკლეს **რუსული ორიენტაციისა** და თავადების ჩაგვრის გამო; ეყრდნობოდა ევროპელ განმანათლებელთა (მონტესკიე, ვოლტერი) იდეებს.\n- **არგუმენტები „ოპოზიციონერისთვის“:** პირადი წყენა (გადასახლება), თავადური პრივილეგიების დაცვა, ერეკლეს ცენტრალიზაციის წინააღმდეგობა — ე.ი. ძველი წესრიგის დაცვა.\n- **არგუმენტები „განმანათლებლისთვის“:** კანონის უზენაესობის, შეზღუდული მონარქიის, განათლების იდეები — ევროპული განმანათლებლობის ენით; საქართველოში პოლიტიკური კრიტიკის პირველი ნიმუშებიდან.\n- **დასკვნა (სადისკუსიო):** ორივე ერთდროულად — თავადური ოპოზიცია, რომელმაც განმანათლებლური იდეები საკუთარი მიზნებისთვის გამოიყენა, მაგრამ ამით ქართული პოლიტიკური აზრი გაამდიდრა.\n\n\u003e **ცნებები:** განმანათლებლობა, განათლებული მონარქი, სჯულდება, ლექსიკოგრაფია, ოპოზიცია, კანონის უზენაესობა.",
+        "order":  0.8,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "1745, მოსკოვში — გეოგრაფია და ისტორია რუკებით.",
+                         "options":  [
+                                         "სულხან-საბამ",
+                                         "ვახუშტი ბატონიშვილმა",
+                                         "ანტონ I-მა",
+                                         "იოანე ბატონიშვილმა"
+                                     ],
+                         "q":  "„აღწერა სამეფოსა საქართველოსა“ დაწერა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "რუსეთში გადასახლებაში დაწერა.",
+                         "options":  [
+                                         "დავით ბატონიშვილი",
+                                         "ალექსანდრე ამილახვარი",
+                                         "ერეკლე II",
+                                         "ვახტანგ VI"
+                                     ],
+                         "q":  "„ბრძენი აღმოსავლეთისა“-ს ავტორია:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "იოანე ბატონიშვილის 1799 წლის პროექტი.",
+                         "options":  [
+                                         "ლექსიკონი",
+                                         "მმართველობის რეფორმის პროექტი",
+                                         "ისტორიული ქრონიკა",
+                                         "სამედიცინო წიგნი"
+                                     ],
+                         "q":  "„სჯულდება“ არის:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "მოითხოვდა კანონით შეზღუდულ მონარქიას.",
+                         "options":  [
+                                         "ოსმალეთთან კავშირის გამო",
+                                         "რუსული ორიენტაციისა და თავადების ჩაგვრის გამო",
+                                         "სკოლების დაარსების გამო",
+                                         "ლეკებთან ბრძოლის გამო"
+                                     ],
+                         "q":  "ამილახვარი აკრიტიკებდა ერეკლეს:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "ევროპასთან პირდაპირი კავშირი სუსტი იყო.",
+                         "options":  [
+                                         "ინგლისიდან პირდაპირ",
+                                         "რუსეთისა და ირანის გავლით, მისიონერებითა და ევროპაში ნამყოფებით",
+                                         "ამერიკიდან",
+                                         "ჩინეთიდან"
+                                     ],
+                         "q":  "ქართული განმანათლებლობის იდეები ძირითადად შემოვიდა:"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "კათოლიკოს-პატრიარქი ანტონ I.",
+                         "options":  [
+                                         "ანტონ I კათოლიკოსმა",
+                                         "სულხან-საბამ",
+                                         "ვახტანგ VI-მ",
+                                         "დავით ბატონიშვილმა"
+                                     ],
+                         "q":  "„ქართული ღრამატიკა“ (1753) დაწერა:"
+                     }
+                 ],
+        "subject":  "history",
+        "title":  "განმანათლებლობა საქართველოში · ამილახვარი — ოპოზიციონერი თუ განმანათლებელი?",
+        "updated":  "თავი III",
+        "id":  "hist-p13"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "ქართლის გამგებელი 1703–1712, მეფე 1716–1724.",
+                          "q":  "როდის მეფობდა ვახტანგ VI?"
+                      },
+                      {
+                          "a":  "ვახტანგ VI-ის სახელმწიფო მართვის წესდება (სამეფო კარის, გადასახადების, თანამდებობათა წესები).",
+                          "q":  "რა არის „დასტურლამალი“?"
+                      },
+                      {
+                          "a":  "ვახტანგ VI-ის მიერ შედგენილი კანონთა კრებული, რომელიც საქართველოში XIX საუკუნემდე მოქმედებდა.",
+                          "q":  "რა არის „ვახტანგის სამართალი“?"
+                      },
+                      {
+                          "a":  "1709 წელს თბილისში, ვახტანგ VI-ის ინიციატივით.",
+                          "q":  "როდის და სად დაარსდა პირველი ქართული სტამბა?"
+                      },
+                      {
+                          "a":  "1712 წელს, თბილისში, ვახტანგ VI-ის კომენტარებით.",
+                          "q":  "როდის დაიბეჭდა პირველად „ვეფხისტყაოსანი“?"
+                      },
+                      {
+                          "a":  "ვახტანგ VI-ის მიერ შექმნილი ჯგუფი, რომელმაც „ქართლის ცხოვრება“ შეკრიბა, გაასწორა და გააგრძელა.",
+                          "q":  "რა იყო „სწავლულ კაცთა კომისია“?"
+                      },
+                      {
+                          "a":  "ოსმალებმა თბილისი დაიკავეს — დაიწყო „ოსმალობა“ (1723–1735).",
+                          "q":  "რა მოხდა 1723 წელს ქართლში?"
+                      },
+                      {
+                          "a":  "1724 წელს, ოსმალების შემოსევისა და პეტრე I-ის უკან დახევის შემდეგ; ასტრახანში გარდაიცვალა 1737-ში.",
+                          "q":  "როდის და რატომ წავიდა ვახტანგ VI რუსეთში?"
+                      },
+                      {
+                          "a":  "„სიბრძნე სიცრუისა“, „სიტყვის კონა“ (ლექსიკონი), „მოგზაურობა ევროპაში“.",
+                          "q":  "დაასახელე სულხან-საბას სამი ნაწარმოები."
+                      },
+                      {
+                          "a":  "ვახტანგ VI-ის ტყვეობიდან გათავისუფლებისა და ქართლის დახმარებისთვის ევროპის (საფრანგეთის, პაპის) მხარდაჭერის მოსაპოვებლად.",
+                          "q":  "რა მიზნით იმოგზაურა სულხან-საბამ ევროპაში 1713–1716?"
+                      },
+                      {
+                          "a":  "ლუი XIV-ს ვერსალში (1714) და პაპ კლიმენტი XI-ს რომში.",
+                          "q":  "ვის შეხვდა სულხან-საბა ევროპაში?"
+                      },
+                      {
+                          "a":  "რეალური დახმარება არ მიიღო — საფრანგეთს ირანთან ვაჭრობის ინტერესები ჰქონდა; მაინც პირველი ქართული დიპლომატიური მისია იყო დასავლეთში.",
+                          "q":  "რა შედეგი მოჰყვა სულხან-საბას მისიას?"
+                      },
+                      {
+                          "a":  "სულხან-საბა ვახტანგის აღმზრდელი და ბიძა იყო.",
+                          "q":  "რა კავშირი იყო ვახტანგ VI-სა და სულხან-საბას შორის?"
+                      }
+                  ],
+        "chapter":  "§3",
+        "exam":  "Exam 1 · October",
+        "lang":  "ka",
+        "notes":  "# ვახტანგ VI (1675–1737)\n\n- ქართლის **გამგებელი (ჯანიშინი) 1703–1712**, მეფე **1716–1724**. განათლებული, რეფორმატორი მეფე, „**სჯულმდებელი**“.\n- 1712 წელს შაჰმა ისპაჰანში დაიბარა და მოსთხოვა გამაჰმადიანება; ვახტანგმა უარი თქვა და 4 წელი ტყვეობაში იყო; 1716-ში იძულებით მიიღო ისლამი და დაბრუნდა მეფედ.\n\n## რეფორმები და კულტურული საქმიანობა\n\n| სფერო | რა გააკეთა |\n|---|---|\n| **კანონმდებლობა** | **„დასტურლამალი“** (სახელმწიფო მართვის წესდება, ~1707–1709) და **„ვახტანგის სამართალი“** — კანონთა კრებული, რომელიც XIX საუკუნემდე მოქმედებდა |\n| **ბეჭდვა** | **1709 — თბილისში პირველი ქართული სტამბა**; 1709 — პირველი ნაბეჭდი წიგნი „სახარება“; 1712 — **„ვეფხისტყაოსნის“ პირველი ბეჭდური გამოცემა** ვახტანგის კომენტარებით |\n| **ისტორია** | „**სწავლულ კაცთა კომისია**“ — „ქართლის ცხოვრების“ შეკრება და გაგრძელება; ბერი ეგნატაშვილი |\n| **მეურნეობა** | არხები, სოფლების აღდგენა, ვაჭრობის წახალისება |\n| **მეცნიერება** | ასტრონომია, ქიმია, თარგმანები სპარსულიდან („ქილილა და დამანა“) |\n\n## ვახტანგის ბედი\n\n- 1722 — **პეტრე I-ის კასპიისპირეთის ლაშქრობა**; ვახტანგმა რუსეთის მხარე დაიჭირა, ჯარი განჯასთან შეკრიბა, მაგრამ პეტრე უკან გაბრუნდა და ვახტანგი მარტო დარჩა.\n- 1723 — ოსმალებმა თბილისი დაიკავეს („**ოსმალობა**“, 1723–1735); ვახტანგი 1724 წელს **რუსეთში გადასახლდა** დიდი ამალით (~1200 კაცი). ასტრახანში გარდაიცვალა 1737 წელს.\n- ემიგრაციაში ქართული კულტურული კერა შეიქმნა: მოსკოვში ქართული სტამბა, სულხან-საბას მოღვაწეობა.\n\n# სულხან-საბა ორბელიანი (1658–1725)\n\n- მწერალი, ლექსიკოგრაფი, დიპლომატი, ვახტანგ VI-ის აღმზრდელი და ბიძა. 1698 წელს ბერად აღიკვეცა (საბა). კათოლიკობა მიიღო.\n- ნაწარმოებები: **„სიბრძნე სიცრუისა“** (იგავ-არაკების კრებული, ~1686–1695), **„სიტყვის კონა“** (პირველი ქართული განმარტებითი ლექსიკონი, 1685–1716), „მოგზაურობა ევროპაში“ (დღიური).\n\n## რატომ იმოგზაურა ევროპაში? (1713–1716)\n\n**მიზანი:** ვახტანგ VI-ის ტყვეობიდან გათავისუფლება და ქართლისთვის დახმარება — ევროპის კათოლიკური სახელმწიფოების, პირველ რიგში საფრანგეთისა და პაპის, მეშვეობით შაჰზე ზეგავლენა.\n\n**მარშრუტი:** სტამბოლი → მარსელი → **პარიზი, ვერსალი** (1714 — აუდიენცია **ლუი XIV**-თან) → **რომი** (პაპი კლიმენტი XI) → უკან სტამბოლის გავლით.\n\n**შედეგი:** ევროპამ თბილად მიიღო, მაგრამ **რეალური დახმარება არ გაუწია** — საფრანგეთს ირანთან ვაჭრობის ინტერესები ჰქონდა და შაჰთან კონფლიქტი არ სურდა. სამშობლოში დაბრუნებულს კათოლიკობის გამო წინააღმდეგობა შეხვდა. 1724 წელს ვახტანგთან ერთად რუსეთში წავიდა, სადაც 1725 წელს გარდაიცვალა.\n\n**მნიშვნელობა:** პირველი ქართული დიპლომატიური მისია დასავლეთ ევროპაში ახალ დროში; „მოგზაურობა ევროპაში“ — უნიკალური წყარო ევროპის შესახებ ქართველის თვალით; საქართველოს ევროპული ორიენტაციის ადრეული მაგალითი.\n\n\u003e **ცნებები:** სჯულმდებელი, დასტურლამალი, სტამბა, სწავლულ კაცთა კომისია, ოსმალობა, ემიგრაცია, დიპლომატიური მისია.",
+        "order":  0.2,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "ვახტანგ VI-ის ინიციატივით, 1709.",
+                         "options":  [
+                                         "1629 რომში",
+                                         "1709 თბილისში",
+                                         "1712 მოსკოვში",
+                                         "1737 ასტრახანში"
+                                     ],
+                         "q":  "პირველი ქართული სტამბა დაარსდა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "კანონები, რომლებიც XIX საუკუნემდე გამოიყენებოდა.",
+                         "options":  [
+                                         "ისტორიული ქრონიკა",
+                                         "კანონთა კრებული",
+                                         "ლექსიკონი",
+                                         "სამხედრო წესდება"
+                                     ],
+                         "q":  "„ვახტანგის სამართალი“ არის:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "სამწლიანი დიპლომატიური მისია საფრანგეთსა და რომში.",
+                         "options":  [
+                                         "1686–1695",
+                                         "1703–1712",
+                                         "1713–1716",
+                                         "1723–1725"
+                                     ],
+                         "q":  "სულხან-საბა ევროპაში იმოგზაურა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "ლუი XIV-ისა და პაპის ზეგავლენა შაჰზე სურდა.",
+                         "options":  [
+                                         "ვაჭრობის დაწყება",
+                                         "ვახტანგ VI-ის გათავისუფლება და ქართლისთვის დახმარება",
+                                         "კათოლიკობის მიღება",
+                                         "ევროპის აღწერა"
+                                     ],
+                         "q":  "სულხან-საბას მისიის მთავარი მიზანი იყო:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "იგავ-არაკების კრებული.",
+                         "options":  [
+                                         "„ვეფხისტყაოსანი“",
+                                         "„სიბრძნე სიცრუისა“",
+                                         "„დასტურლამალი“",
+                                         "„ქართლის ცხოვრება“"
+                                     ],
+                         "q":  "რომელი ნაწარმოებია სულხან-საბასი?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "ოსმალებმა თბილისი 1723 წელს დაიკავეს.",
+                         "options":  [
+                                         "1709",
+                                         "1716",
+                                         "1723",
+                                         "1735"
+                                     ],
+                         "q":  "„ოსმალობა“ ქართლში დაიწყო:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "ეკონომიკური ინტერესი გადაწონა.",
+                         "options":  [
+                                         "ომობდა ინგლისთან",
+                                         "ირანთან სავაჭრო ინტერესები ჰქონდა და შაჰთან კონფლიქტი არ სურდა",
+                                         "არ იცოდა საქართველოს არსებობა",
+                                         "პაპმა აუკრძალა"
+                                     ],
+                         "q":  "რატომ ვერ დაეხმარა საფრანგეთი სულხან-საბას?"
+                     }
+                 ],
+        "subject":  "history",
+        "title":  "ვახტანგ VI · რატომ იმოგზაურა სულხან-საბამ ევროპაში?",
+        "updated":  "თავი I",
+        "id":  "hist-p3"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "ივანე IV მრისხანე, 1547.",
+                          "q":  "ვინ იყო რუსეთის პირველი ცარი და როდის?"
+                      },
+                      {
+                          "a":  "ყაზანი (1552) და ასტრახანი (1556) — გაიხსნა გზა ვოლგითა და კასპიით კავკასიისკენ.",
+                          "q":  "რომელი სახანოები დაიპყრო ივანე IV-მ და რატომ იყო ეს მნიშვნელოვანი?"
+                      },
+                      {
+                          "a":  "1613 წელს (მიხეილ რომანოვი).",
+                          "q":  "როდის მოვიდა ხელისუფლებაში რომანოვების დინასტია?"
+                      },
+                      {
+                          "a":  "რუსეთის ევროპულ ძლიერ სახელმწიფოდ ქცევა — ზღვებზე გასვლა, „ფანჯარა ევროპაში“.",
+                          "q":  "რა იყო პეტრე I-ის მთავარი მიზანი?"
+                      },
+                      {
+                          "a":  "1700–1721, შვედეთი; პოლტავა 1709; რუსეთმა ბალტიის ზღვაზე გასვლა მოიპოვა.",
+                          "q":  "ჩრდილოეთის ომი — წლები, მოწინააღმდეგე, გადამწყვეტი ბრძოლა?"
+                      },
+                      {
+                          "a":  "1703; 1712-დან დედაქალაქი.",
+                          "q":  "როდის დაარსდა სანკტ-პეტერბურგი?"
+                      },
+                      {
+                          "a":  "1722 წლის კანონი: სამსახურებრივი დაწინაურება წარმომავლობის ნაცვლად დამსახურებით.",
+                          "q":  "რა არის წოდებათა ტაბელი?"
+                      },
+                      {
+                          "a":  "გააუქმა პატრიარქობა და შექმნა სინოდი — ეკლესია სახელმწიფოს დაუქვემდებარა.",
+                          "q":  "რა შეცვალა პეტრემ ეკლესიაში?"
+                      },
+                      {
+                          "a":  "1721 წელს, ჩრდილოეთის ომის გამარჯვების შემდეგ.",
+                          "q":  "როდის გამოცხადდა რუსეთი იმპერიად?"
+                      },
+                      {
+                          "a":  "1722–23, პეტრე I-მა დერბენტი და ბაქო აიღო; ვახტანგ VI მას დაუკავშირდა, მაგრამ რუსეთი უკან დაიხია.",
+                          "q":  "რა იყო კასპიისპირეთის ლაშქრობა?"
+                      },
+                      {
+                          "a":  "ზღვებზე გასვლა და ირან-ოსმალეთის შესუსტება; აღმოსავლური ვაჭრობის კონტროლი; მართლმადიდებელთა „მფარველობა“ როგორც გამართლება.",
+                          "q":  "რუსეთის სამი ინტერესი კავკასიაში?"
+                      },
+                      {
+                          "a":  "ალექსანდრე II კახელი (1587), თეიმურაზ I (1658, მოსკოვი), ვახტანგ VI (1722), ერეკლე II (1783).",
+                          "q":  "რომელმა ქართველმა მეფეებმა სთხოვეს დახმარება რუსეთს XVI–XVIII სს.?"
+                      },
+                      {
+                          "a":  "რუსეთი საკუთარი ინტერესებით მოქმედებდა; როცა ომი ხელსაყრელი არ იყო, დახმარებას წყვეტდა.",
+                          "q":  "რატომ არ ამართლებდა რუსეთის დახმარების იმედი?"
+                      },
+                      {
+                          "a":  "რუსეთის იმპერატორი 1762–1796; აბსოლუტური მონარქია, რომელიც განმანათლებლობის იდეებს იყენებდა რეფორმებისთვის.",
+                          "q":  "ვინ იყო ეკატერინე II და რა არის „განათლებული აბსოლუტიზმი“?"
+                      }
+                  ],
+        "chapter":  "§4-5",
+        "exam":  "Exam 1 · October",
+        "lang":  "ka",
+        "notes":  "# §4. რუსეთის იმპერიის ჩამოყალიბება\n\n## მოსკოვის სამეფოდან იმპერიამდე\n\n- XVI ს. — **ივანე IV მრისხანე** (1547 — პირველი „ცარი“): ყაზანისა და ასტრახანის სახანოების დაპყრობა (1552, 1556) — გზა ვოლგითა და კასპიით კავკასიისკენ; **1585 — თერგის ციხე** კავკასიაში.\n- 1613 — **რომანოვების** დინასტია (მიხეილ რომანოვი).\n- XVII ს. — ციმბირის ათვისება, უკრაინის ნაწილის შეერთება (1654).\n\n## პეტრე I დიდი (1682–1725)\n\n**მიზანი:** რუსეთი ევროპულ ძლიერ სახელმწიფოდ ექცია — „ფანჯარა ევროპაში“.\n\n| სფერო | რეფორმა |\n|---|---|\n| **ჯარი და ფლოტი** | რეგულარული არმია, რეკრუტობა, სამხედრო ფლოტის შექმნა |\n| **ომები** | **აზოვის ლაშქრობები** (1695–96) — ოსმალეთისგან აზოვის აღება; **ჩრდილოეთის ომი შვედეთთან (1700–1721)** — **პოლტავის ბრძოლა 1709**, ბალტიის ზღვაზე გასვლა |\n| **დედაქალაქი** | **1703 — სანკტ-პეტერბურგის დაარსება**, 1712-დან დედაქალაქი |\n| **მართვა** | სენატი, კოლეგიები (მინისტრების ნაცვლად), გუბერნიები, „**წოდებათა ტაბელი**“ (1722) — დაწინაურება დამსახურებით |\n| **ეკლესია** | პატრიარქობა გაუქმდა → **სინოდი** (ეკლესია სახელმწიფოს დაექვემდებარა) |\n| **კულტურა** | ევროპული ჩაცმულობა, წვერის მოპარსვა, ახალი კალენდარი, პირველი გაზეთი, მეცნიერებათა აკადემია (1724) |\n\n- **1721** — რუსეთი **იმპერიად** გამოცხადდა, პეტრე — იმპერატორი.\n- **1722–1723 — კასპიისპირეთის (სპარსეთის) ლაშქრობა**: დერბენტისა და ბაქოს აღება; შედეგად ირანი დასუსტდა, მაგრამ რუსეთი შემდეგ უკან დაიხია.\n\nპეტრეს შემდეგ: „**სასახლის გადატრიალებების ხანა**“; **ეკატერინე II დიდი (1762–1796)** — „განათლებული აბსოლუტიზმი“, ყირიმის შეერთება (1783), პოლონეთის გაყოფები, კავკასიისკენ აქტიური პოლიტიკა.\n\n# §5. რატომ აღმოჩნდა საქართველო რუსეთის ინტერესების სფეროში?\n\n## რუსეთის ინტერესები\n\n1. **გეოპოლიტიკური:** გასვლა შავ და კასპიის ზღვებზე, ოსმალეთისა და ირანის შესუსტება, გზა ინდოეთისკენ.\n2. **ეკონომიკური:** აბრეშუმისა და აღმოსავლური ვაჭრობის კონტროლი (ვოლგა-კასპია).\n3. **რელიგიურ-იდეოლოგიური:** მართლმადიდებელი ქართველების „მფარველი“ — გამართლება ჩარევისთვის.\n\n## ქართული მხარის იმედები\n\n- ერთმორწმუნე, ძლიერი ჩრდილოელი მეზობელი, რომელიც მუსლიმური იმპერიების წინააღმდეგ დაეხმარებოდა — ეს იმედი კახეთის მეფეებს **XVI საუკუნიდან** ჰქონდათ (ალექსანდრე II კახელი — 1587 ფიცი რუსეთის ერთგულებაზე).\n- **თეიმურაზ I** 1658 წელს მოსკოვში ჩავიდა დახმარების სათხოვნელად — უშედეგოდ.\n- **ვახტანგ VI** 1722 წელს პეტრეს ლაშქრობას დაუკავშირდა — რუსეთმა მიატოვა.\n- **ერეკლე II** — 1783 გეორგიევსკის ტრაქტატი.\n\n## რატომ არ ამართლებდა იმედები?\n\n- რუსეთს საქართველო **საკუთარი ინტერესებისთვის** სჭირდებოდა, არა ქართველების დასაცავად; როცა ომი ოსმალეთთან/ირანთან არ იყო ხელსაყრელი, დახმარება ჩერდებოდა.\n- ქართველი მეფეები ხშირად **ზედმეტად ენდობოდნენ** დაპირებებს და არ ჰქონდათ ალტერნატივა — ევროპა შორს იყო (სულხან-საბას მისიის მარცხი).\n- საბოლოო შედეგი — XIX საუკუნის დასაწყისში სამეფოების **ანექსია**.\n\n\u003e **ცნებები:** ცარი, იმპერატორი, რეკრუტობა, სინოდი, წოდებათა ტაბელი, განათლებული აბსოლუტიზმი, გეოპოლიტიკური ინტერესი, მფარველობა.",
+        "order":  0.3,
+        "quiz":  [
+                     {
+                         "answer":  3,
+                         "explain":  "ჩრდილოეთის ომის დასრულების შემდეგ პეტრე I იმპერატორი გახდა.",
+                         "options":  [
+                                         "1613",
+                                         "1703",
+                                         "1709",
+                                         "1721"
+                                     ],
+                         "q":  "რუსეთი იმპერიად გამოცხადდა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "ჩრდილოეთის ომის გადამწყვეტი ბრძოლა.",
+                         "options":  [
+                                         "ოსმალეთთან",
+                                         "შვედეთთან",
+                                         "ირანთან",
+                                         "პოლონეთთან"
+                                     ],
+                         "q":  "პოლტავის ბრძოლა (1709) გაიმართა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "1703, ნევის შესართავთან.",
+                         "options":  [
+                                         "1682",
+                                         "1703",
+                                         "1712",
+                                         "1721"
+                                     ],
+                         "q":  "სანკტ-პეტერბურგი დაარსდა:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "პატრიარქობის ნაცვლად სინოდი.",
+                         "options":  [
+                                         "წოდებათა ტაბელი",
+                                         "სენატის შექმნა",
+                                         "სინოდის დაარსება",
+                                         "რეკრუტობა"
+                                     ],
+                         "q":  "რომელი რეფორმა ეხებოდა ეკლესიას?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "განჯასთან ჯარი შეკრიბა, მაგრამ პეტრე უკან გაბრუნდა.",
+                         "options":  [
+                                         "აზოვის 1696",
+                                         "კასპიისპირეთის 1722",
+                                         "პოლტავის 1709",
+                                         "ყირიმის 1783"
+                                     ],
+                         "q":  "ვახტანგ VI დაუკავშირდა რუსეთის ლაშქრობას:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "რუსეთი საკუთარი გაფართოებით იყო დაინტერესებული.",
+                         "options":  [
+                                         "ზღვებზე გასვლა",
+                                         "აბრეშუმით ვაჭრობის კონტროლი",
+                                         "ქართველების დამოუკიდებლობის განმტკიცება",
+                                         "ირანისა და ოსმალეთის შესუსტება"
+                                     ],
+                         "q":  "რომელი არ იყო რუსეთის ინტერესი კავკასიაში?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "ვოლგის მთელი გზა რუსეთის ხელში გადავიდა.",
+                         "options":  [
+                                         "ბალტიაზე გასვლა",
+                                         "გზა ვოლგითა და კასპიით კავკასიისკენ",
+                                         "ციმბირის ათვისება",
+                                         "შვედეთის დამარცხება"
+                                     ],
+                         "q":  "ყაზანისა და ასტრახანის დაპყრობის მნიშვნელობა:"
+                     }
+                 ],
+        "subject":  "history",
+        "title":  "როგორ ჩამოყალიბდა რუსეთში იმპერია? · საქართველო რუსეთის ინტერესების სფეროში",
+        "updated":  "თავი I",
+        "id":  "hist-p4-5"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "გადასახადების დამტკიცება — მეფე მის თანხმობის გარეშე გადასახადებს ვერ შემოიღებდა (Magna Carta 1215).",
+                          "q":  "რა უფლება ჰქონდა ინგლისის პარლამენტს XIII საუკუნიდან?"
+                      },
+                      {
+                          "a":  "სტიუარტები — იაკობ I და კარლ I, აბსოლუტიზმის მომხრეები.",
+                          "q":  "რომელი დინასტია მართავდა ინგლისს 1603-დან?"
+                      },
+                      {
+                          "a":  "მკაცრი პროტესტანტები, ანგლიკანური ეკლესიისა და მეფის მოწინააღმდეგეები; ბევრი პარლამენტში იჯდა.",
+                          "q":  "ვინ იყვნენ პურიტანები?"
+                      },
+                      {
+                          "a":  "პარლამენტის მოთხოვნა: არ შემოიღოს გადასახადები და არ დააპატიმროს ადამიანები კანონის გარეშე.",
+                          "q":  "რა იყო „უფლებათა პეტიცია“ (1628)?"
+                      },
+                      {
+                          "a":  "1642, კარლ I-ის მიერ პარლამენტის ლიდერების დაპატიმრების მცდელობის შემდეგ; როიალისტები ↔ პარლამენტი.",
+                          "q":  "როდის და რატომ დაიწყო სამოქალაქო ომი ინგლისში?"
+                      },
+                      {
+                          "a":  "პარლამენტის არმიის მეთაური (ახალი მოდელის არმია, ნეიზბი 1645), 1653–1658 ლორდ-პროტექტორი.",
+                          "q":  "ვინ იყო ოლივერ კრომველი?"
+                      },
+                      {
+                          "a":  "კარლ I სიკვდილით დასაჯეს; ინგლისი რესპუბლიკად გამოცხადდა.",
+                          "q":  "რა მოხდა 1649 წლის 30 იანვარს?"
+                      },
+                      {
+                          "a":  "მონარქიის აღდგენა — კარლ II ტახტზე დაბრუნდა პარლამენტის უფლებების აღიარებით.",
+                          "q":  "რა იყო რესტავრაცია 1660 წელს?"
+                      },
+                      {
+                          "a":  "უსისხლოდ მოხდა: იაკობ II გაიქცა, ვილჰელმ ორანელი პარლამენტმა მოიწვია.",
+                          "q":  "რატომ ეწოდება 1688 წლის რევოლუციას „დიდებული“?"
+                      },
+                      {
+                          "a":  "მეფე პარლამენტის გარეშე ვერ აუქმებს კანონებს, ვერ იღებს გადასახადებს და ვერ ინახავს ჯარს; პარლამენტი რეგულარულად იკრიბება.",
+                          "q":  "რა დაადგინა „უფლებათა ბილმა“ (1689)?"
+                      },
+                      {
+                          "a":  "მონარქიის ფორმა, სადაც მეფის ძალაუფლება კანონით (კონსტიტუციით) და პარლამენტით არის შეზღუდული — „მეფე მეფობს, მაგრამ არ მართავს“.",
+                          "q":  "რა არის კონსტიტუციური მონარქია?"
+                      },
+                      {
+                          "a":  "ინგლისის პირველი პარტიები: ტორები — მეფის მომხრეები (კონსერვატორები), ვიგები — პარლამენტისა და ვაჭრობის მომხრეები (ლიბერალები).",
+                          "q":  "ტორები და ვიგები?"
+                      },
+                      {
+                          "a":  "ხელისუფლება ხალხის თანხმობით არსებობს და ბუნებრივ უფლებებს (სიცოცხლე, თავისუფლება, საკუთრება) უნდა იცავდეს.",
+                          "q":  "ჯონ ლოკის მთავარი იდეა?"
+                      }
+                  ],
+        "chapter":  "§6",
+        "exam":  "Exam 1 · October",
+        "lang":  "ka",
+        "notes":  "# წინაპირობები\n\n- ინგლისში XIII საუკუნიდან არსებობდა **პარლამენტი** (1215 — „დიდი ქარტია“, Magna Carta; 1265 — პირველი პარლამენტი): ლორდთა და თემთა პალატა; მეფეს **გადასახადების შემოღება პარლამენტის თანხმობის გარეშე არ შეეძლო**.\n- 1603 — ტიუდორების შემდეგ ტახტზე **სტიუარტები**: **იაკობ I** (1603–1625) და **კარლ I** (1625–1649) — აბსოლუტური მონარქიის მომხრეები („მეფის ღვთაებრივი უფლება“).\n- რელიგიური კონფლიქტი: ანგლიკანური ეკლესია (მეფე) ↔ **პურიტანები** (მკაცრი პროტესტანტები, პარლამენტის მრავალი წევრი).\n- **1628 — „უფლებათა პეტიცია“** — პარლამენტმა მოსთხოვა მეფეს არ შემოეღო გადასახადები და არ დაეპატიმრებინა ადამიანები კანონის გარეშე. კარლმა 1629-ში პარლამენტი დაითხოვა და **11 წელი მის გარეშე მართავდა**.\n\n# ინგლისის რევოლუცია (1640–1660)\n\n| თარიღი | მოვლენა |\n|---|---|\n| 1640 | შოტლანდიის აჯანყების გამო კარლს ფული დასჭირდა — მოიწვია **„გრძელი პარლამენტი“** (1640–1653), რომელმაც მეფის ხელისუფლება შეზღუდა |\n| **1642** | კარლმა პარლამენტის ლიდერების დაპატიმრება სცადა → **სამოქალაქო ომი** დაიწყო: **როიალისტები („კავალერები“)** ↔ **პარლამენტის მომხრეები („მრგვალთავიანები“)** |\n| 1645 | **ოლივერ კრომველის** „**ახალი მოდელის არმია**“ — **ნეიზბის ბრძოლა**, მეფის დამარცხება |\n| **1649 30 იანვარი** | **კარლ I-ის სიკვდილით დასჯა** — მონარქიის გაუქმება, **რესპუბლიკის** გამოცხადება |\n| 1653–1658 | **კრომველი — ლორდ-პროტექტორი**, ფაქტობრივი დიქტატურა; ირლანდიისა და შოტლანდიის დამორჩილება; საზღვაო აქტი (ვაჭრობის დაცვა) |\n| **1660** | **რესტავრაცია** — **კარლ II** ტახტზე დაბრუნდა (პარლამენტის მოწვევით), მაგრამ პარლამენტის უფლებების აღიარებით |\n\n# „დიდებული რევოლუცია“ (1688–1689)\n\n- **იაკობ II** (1685–1688) კათოლიკობისა და აბსოლუტიზმის აღდგენას ცდილობდა.\n- პარლამენტმა ჰოლანდიელი **ვილჰელმ ორანელი** (იაკობის სიძე) მოიწვია; იაკობი უსისხლოდ გაიქცა — ამიტომ „**დიდებული**“ (უსისხლო) რევოლუცია.\n- **1689 — „უფლებათა ბილი“ (Bill of Rights):** მეფეს პარლამენტის გარეშე არ შეუძლია კანონების გაუქმება, გადასახადების შემოღება, ჯარის შენახვა; პარლამენტის რეგულარული მოწვევა, სიტყვის თავისუფლება პარლამენტში.\n\n# შედეგი: კონსტიტუციური მონარქია\n\n- ინგლისი გახდა **კონსტიტუციური (პარლამენტური) მონარქია**: „მეფე მეფობს, მაგრამ არ მართავს“.\n- ძალაუფლება — **პარლამენტსა და მთავრობას** (XVIII ს-დან პრემიერ-მინისტრი — რობერტ უოლპოლი).\n- ორი პარტია: **ტორები** (მეფის მომხრეები, კონსერვატორები) და **ვიგები** (პარლამენტისა და ვაჭრობის მომხრეები, ლიბერალები).\n- **ჯონ ლოკი** — „ორი ტრაქტატი მმართველობაზე“ (1690): ხელისუფლება ხალხის თანხმობით, ბუნებრივი უფლებები (სიცოცხლე, თავისუფლება, საკუთრება) — განმანათლებლობისა და ამერიკის დამოუკიდებლობის დეკლარაციის საფუძველი.\n- ინგლისი გახდა ევროპის ყველაზე თავისუფალი და ეკონომიკურად ძლიერი ქვეყანა → ინდუსტრიული რევოლუციის წინაპირობა.\n\n\u003e **ცნებები:** პარლამენტი, პურიტანი, როიალისტი, რესპუბლიკა, ლორდ-პროტექტორი, რესტავრაცია, უფლებათა ბილი, კონსტიტუციური მონარქია, ტორები და ვიგები.",
+        "order":  0.4,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "1642 — მეფე და პარლამენტი ომში ჩაებნენ.",
+                         "options":  [
+                                         "1628",
+                                         "1640",
+                                         "1642",
+                                         "1649"
+                                     ],
+                         "q":  "ინგლისის სამოქალაქო ომი დაიწყო:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "1649 წლის 30 იანვარი.",
+                         "options":  [
+                                         "1642",
+                                         "1645",
+                                         "1649",
+                                         "1660"
+                                     ],
+                         "q":  "კარლ I სიკვდილით დასაჯეს:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "1653–1658.",
+                         "options":  [
+                                         "კარლ II",
+                                         "ვილჰელმ ორანელი",
+                                         "ოლივერ კრომველი",
+                                         "ჯონ ლოკი"
+                                     ],
+                         "q":  "ლორდ-პროტექტორი იყო:"
+                     },
+                     {
+                         "answer":  3,
+                         "explain":  "დიდებული რევოლუციის შემდეგ.",
+                         "options":  [
+                                         "1215",
+                                         "1628",
+                                         "1660",
+                                         "1689"
+                                     ],
+                         "q":  "„უფლებათა ბილი“ მიღებულ იქნა:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "ძალაუფლება პარლამენტს გადაეცა.",
+                         "options":  [
+                                         "აბსოლუტური მონარქია",
+                                         "რესპუბლიკა",
+                                         "კონსტიტუციური მონარქია",
+                                         "დიქტატურა"
+                                     ],
+                         "q":  "დიდებული რევოლუციის შედეგად ინგლისი გახდა:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "იაკობ II კათოლიკობის აღდგენას ცდილობდა.",
+                         "options":  [
+                                         "კარლ I",
+                                         "კარლ II",
+                                         "იაკობ II",
+                                         "იაკობ I"
+                                     ],
+                         "q":  "რომელი მეფე გაიქცა 1688 წელს?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "ლიბერალური პარტიის წინამორბედი.",
+                         "options":  [
+                                         "მეფის აბსოლუტურ ძალაუფლებას",
+                                         "პარლამენტსა და ვაჭრობის თავისუფლებას",
+                                         "კათოლიკურ ეკლესიას",
+                                         "რესპუბლიკის აღდგენას"
+                                     ],
+                         "q":  "ვიგები მხარს უჭერდნენ:"
+                     }
+                 ],
+        "subject":  "history",
+        "title":  "როგორ დასრულდა დაპირისპირება მეფესა და პარლამენტს შორის ინგლისში?",
+        "updated":  "თავი II",
+        "id":  "hist-p6"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "მმართველობის ფორმა, სადაც მთელი ძალაუფლება მონარქის ხელშია და მას არავინ ზღუდავს.",
+                          "q":  "რა არის აბსოლუტიზმი?"
+                      },
+                      {
+                          "a":  "რევოლუციამდელი (1789-მდე) საფრანგეთის აბსოლუტისტური და წოდებრივი წყობა.",
+                          "q":  "რას ნიშნავს „ძველი წესრიგი“?"
+                      },
+                      {
+                          "a":  "1598, ანრი IV — ჰუგენოტებს რწმენის თავისუფლება მისცა; 1685 წელს ლუი XIV-მ გააუქმა.",
+                          "q":  "რა იყო ნანტის ედიქტი და ვინ გააუქმა?"
+                      },
+                      {
+                          "a":  "გააძლიერა მეფის ძალაუფლება: თავადების ციხეები დაანგრია, ჰუგენოტების პოლიტიკური ძალა მოსპო, ინტენდანტები დანიშნა.",
+                          "q":  "რა გააკეთა კარდინალმა რიშელიემ?"
+                      },
+                      {
+                          "a":  "1648–1653 წწ. თავადებისა და პარლამენტის აჯანყება მაზარინისა და მეფის წინააღმდეგ; ჩაახშეს.",
+                          "q":  "რა იყო ფრონდა?"
+                      },
+                      {
+                          "a":  "ლუი XIV-ს — აბსოლუტიზმის არსი: მეფე და სახელმწიფო ერთია.",
+                          "q":  "ვის ეკუთვნის „სახელმწიფო მე ვარ“ და რას ნიშნავს?"
+                      },
+                      {
+                          "a":  "ლუი XIV-ის სასახლე, სადაც თავადაზნაურობა კარზე მიაბა და პოლიტიკურად უვნებელი გახადა.",
+                          "q":  "რა როლი ჰქონდა ვერსალს?"
+                      },
+                      {
+                          "a":  "ეკონომიკური პოლიტიკა (კოლბერი): ოქროს დაგროვება, ექსპორტის წახალისება, იმპორტის შეზღუდვა, მანუფაქტურები.",
+                          "q":  "რა არის მერკანტილიზმი?"
+                      },
+                      {
+                          "a":  "XVII–XVIII სს. მოძრაობა, რომელიც გონებას, მეცნიერებასა და განათლებას მიიჩნევდა პროგრესის წყაროდ და აბსოლუტიზმსა და ცრურწმენას აკრიტიკებდა.",
+                          "q":  "რა არის განმანათლებლობა?"
+                      },
+                      {
+                          "a":  "ჭეშმარიტების წყარო გონებაა, არა რწმენა ან ავტორიტეტი.",
+                          "q":  "რას ნიშნავს რაციონალიზმი?"
+                      },
+                      {
+                          "a":  "ხელისუფლების დანაწილება საკანონმდებლო, აღმასრულებელ და სასამართლო შტოებად („კანონთა გონი“, 1748).",
+                          "q":  "მონტესკიეს მთავარი იდეა?"
+                      },
+                      {
+                          "a":  "ხალხის სუვერენიტეტი და საზოგადოებრივი ხელშეკრულება — ხელისუფლება ხალხის ნებით არსებობს.",
+                          "q":  "რუსოს მთავარი იდეა?"
+                      },
+                      {
+                          "a":  "რწმენისა და სიტყვის თავისუფლებას, ეკლესიის ფანატიზმის კრიტიკას.",
+                          "q":  "რას ქადაგებდა ვოლტერი?"
+                      },
+                      {
+                          "a":  "დიდროსა და დ\u0027ალამბერის 28-ტომეული (1751–1772) — ეპოქის მთელი ცოდნის კრებული განმანათლებლური სულისკვეთებით.",
+                          "q":  "რა იყო „ენციკლოპედია“?"
+                      },
+                      {
+                          "a":  "მონარქები, რომლებიც განმანათლებელთა იდეებს რეფორმებისთვის იყენებდნენ ძალაუფლების დათმობის გარეშე: ფრიდრიხ II, ეკატერინე II, იოსებ II.",
+                          "q":  "რა არის „განათლებული აბსოლუტიზმი“? მაგალითები."
+                      },
+                      {
+                          "a":  "„გქონდეს გამბედაობა, ისარგებლო საკუთარი გონებით!“",
+                          "q":  "განმანათლებლობის დევიზი კანტის მიხედვით?"
+                      }
+                  ],
+        "chapter":  "§7-8",
+        "exam":  "Exam 1 · October",
+        "lang":  "ka",
+        "notes":  "# §7. „ძველი წესრიგი“ — რატომ უწოდებენ XVII–XVIII საუკუნეებს აბსოლუტიზმის ხანას?\n\n**აბსოლუტიზმი** — მმართველობის ფორმა, სადაც მთელი ძალაუფლება (კანონმდებლობა, სასამართლო, ჯარი, ფინანსები) **მონარქის ხელშია** და მას არავინ ზღუდავს (არც პარლამენტი, არც წოდებები). „**ძველი წესრიგი**“ (Ancien Régime) — რევოლუციამდელი საფრანგეთის საზოგადოებრივ-პოლიტიკური წყობა.\n\n## საფრანგეთის აბსოლუტიზმის ჩამოყალიბება\n\n| ვინ | რა გააკეთა |\n|---|---|\n| **ანრი IV** (1589–1610) | რელიგიური ომების დასრულება — **ნანტის ედიქტი (1598)**: ჰუგენოტებს (პროტესტანტებს) რწმენის თავისუფლება |\n| **კარდინალი რიშელიე** (ლუი XIII-ის პირველი მინისტრი, 1624–1642) | „მეფის ძალაუფლება ყველაფერზე მაღლა“: თავადების ციხე-სიმაგრეების დანგრევა, ჰუგენოტების პოლიტიკური ძალის მოსპობა (ლა-როშელი 1628), **ინტენდანტები** პროვინციებში, ცენტრალიზაცია |\n| **კარდინალი მაზარინი** | ლუი XIV-ის ბავშვობაში; **ფრონდა** (1648–1653) — თავადებისა და პარლამენტის აჯანყება, ჩაახშო |\n| **ლუი XIV „მზე-მეფე“** (1643–1715, პირადად მართავდა 1661-დან) | აბსოლუტიზმის მწვერვალი: „**სახელმწიფო მე ვარ**“; **ვერსალის** სასახლე — თავადაზნაურობა კარზე მიაბა; **კოლბერი** — მერკანტილიზმი (მანუფაქტურები, ექსპორტი, კოლონიები); მუდმივი ომები; **1685 — ნანტის ედიქტის გაუქმება**, ჰუგენოტების ემიგრაცია |\n\n## ძველი წესრიგის საზოგადოება\n\n- **სამი წოდება:** სასულიერო, თავადაზნაურობა (პრივილეგირებული, გადასახადებისგან თავისუფალი) და მესამე წოდება (ყველა დანარჩენი — გადასახადების მთელი ტვირთი).\n- **გენერალური შტატები** (წოდებრივი კრება) 1614–1789 არ მოუწვევიათ.\n- **მერკანტილიზმი** — ეკონომიკური პოლიტიკა: ოქროს დაგროვება, ექსპორტის წახალისება, იმპორტის შეზღუდვა, სახელმწიფო მანუფაქტურები.\n\n**ლუი XV** (1715–1774) და **ლუი XVI** (1774–1792) დროს — ფინანსური კრიზისი, წაგებული ომები (შვიდწლიანი ომი 1756–63 — კოლონიების დაკარგვა), სასახლის ფუფუნება → რევოლუციის წინაპირობები.\n\n# §8. ვინ იყვნენ განმანათლებლები? რატომ უწოდებენ ახალ დროს რაციონალიზმის ხანას?\n\n**განმანათლებლობა** — XVII–XVIII საუკუნეების ინტელექტუალური მოძრაობა, რომელიც **გონებას (რაციოს)**, მეცნიერებასა და განათლებას მიიჩნევდა პროგრესის წყაროდ, ხოლო ტრადიციას, ცრურწმენას და აბსოლუტიზმს აკრიტიკებდა. **რაციონალიზმი** — შეხედულება, რომ ჭეშმარიტების წყარო გონებაა, არა რწმენა ან ავტორიტეტი.\n\n**წინამორბედები — მეცნიერული რევოლუცია:** კოპერნიკი (ჰელიოცენტრიზმი), გალილეი, **ისააკ ნიუტონი** (მიზიდულობის კანონი, 1687), **რენე დეკარტი** („ვაზროვნებ, მაშასადამე ვარსებობ“), **ჯონ ლოკი** (ბუნებრივი უფლებები).\n\n| განმანათლებელი | ქვეყანა | მთავარი იდეა |\n|---|---|---|\n| **ვოლტერი** (1694–1778) | საფრანგეთი | რწმენისა და სიტყვის თავისუფლება, ეკლესიის ფანატიზმის კრიტიკა, „განათლებული მონარქი“ |\n| **მონტესკიე** (1689–1755) | საფრანგეთი | „კანონთა გონი“ (1748): **ხელისუფლების დანაწილება** საკანონმდებლო, აღმასრულებელ და სასამართლო შტოებად |\n| **ჟან-ჟაკ რუსო** (1712–1778) | ჟენევა/საფრანგეთი | „საზოგადოებრივი ხელშეკრულება“ (1762): **ხალხის სუვერენიტეტი**, თანასწორობა; „ემილი“ — ბუნებრივი აღზრდა |\n| **დიდრო და დ\u0027ალამბერი** | საფრანგეთი | **„ენციკლოპედია“** (1751–1772, 28 ტომი) — მთელი ცოდნის კრებული, განმანათლებლობის „ბიბლია“ |\n| **ჯონ ლოკი** | ინგლისი | ბუნებრივი უფლებები, ხელისუფლება ხალხის თანხმობით |\n| **ადამ სმიტი** | შოტლანდია | „ხალხთა სიმდიდრე“ (1776): თავისუფალი ბაზარი, „უხილავი ხელი“ |\n| **იმანუელ კანტი** | პრუსია | „გქონდეს გამბედაობა, ისარგებლო საკუთარი გონებით!“ — განმანათლებლობის დევიზი |\n\n**„განათლებული აბსოლუტიზმი“** — მონარქები, რომლებმაც განმანათლებელთა იდეები რეფორმებისთვის გამოიყენეს, ძალაუფლების დათმობის გარეშე: **ფრიდრიხ II** (პრუსია), **ეკატერინე II** (რუსეთი), **იოსებ II** (ავსტრია).\n\n**გავლენა:** ამერიკის დამოუკიდებლობის დეკლარაცია (1776), საფრანგეთის რევოლუცია და უფლებათა დეკლარაცია (1789), თანამედროვე დემოკრატია, საერო განათლება, რელიგიური შემწყნარებლობა; საქართველოში — ვახტანგ VI, დავით ბატონიშვილი, სოლომონ დოდაშვილი (§13).\n\n\u003e **ცნებები:** აბსოლუტიზმი, ძველი წესრიგი, ინტენდანტი, მერკანტილიზმი, ჰუგენოტი, განმანათლებლობა, რაციონალიზმი, ხელისუფლების დანაწილება, საზოგადოებრივი ხელშეკრულება, ენციკლოპედია.",
+        "order":  0.5,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "მზე-მეფის აბსოლუტიზმის ფორმულა.",
+                         "options":  [
+                                         "რიშელიე",
+                                         "ლუი XIV",
+                                         "ლუი XVI",
+                                         "ანრი IV"
+                                     ],
+                         "q":  "„სახელმწიფო მე ვარ“ — ვისი სიტყვებია?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "რელიგიური ომების დასრულება.",
+                         "options":  [
+                                         "გადასახადებს",
+                                         "ჰუგენოტების რწმენის თავისუფლებას",
+                                         "ვერსალის მშენებლობას",
+                                         "კოლონიებს"
+                                     ],
+                         "q":  "ნანტის ედიქტი (1598) ეხებოდა:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "„კანონთა გონი“, 1748.",
+                         "options":  [
+                                         "ვოლტერს",
+                                         "რუსოს",
+                                         "მონტესკიეს",
+                                         "დიდროს"
+                                     ],
+                         "q":  "ხელისუფლების სამ შტოდ დანაწილების იდეა ეკუთვნის:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "1762 — ხალხის სუვერენიტეტი.",
+                         "options":  [
+                                         "ლოკი",
+                                         "რუსო",
+                                         "კანტი",
+                                         "სმიტი"
+                                     ],
+                         "q":  "„საზოგადოებრივი ხელშეკრულების“ ავტორია:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "1751–1772, 28 ტომი.",
+                         "options":  [
+                                         "ვოლტერმა და რუსომ",
+                                         "დიდრომ და დ\u0027ალამბერმა",
+                                         "მონტესკიემ და ლოკმა",
+                                         "ნიუტონმა და დეკარტმა"
+                                     ],
+                         "q":  "„ენციკლოპედია“ გამოსცეს:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "რუსეთის იმპერატორი, ვოლტერთან მიმოწერაში იყო.",
+                         "options":  [
+                                         "ლუი XIV",
+                                         "კარლ I",
+                                         "ეკატერინე II",
+                                         "იაკობ II"
+                                     ],
+                         "q":  "რომელი მონარქი ითვლება „განათლებული აბსოლუტიზმის“ წარმომადგენლად?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "გენერალური შტატები 1614–1789 არ მოუწვევიათ.",
+                         "options":  [
+                                         "წოდებრივი უთანასწორობა",
+                                         "აბსოლუტური მონარქია",
+                                         "პარლამენტის რეგულარული მოწვევა",
+                                         "პრივილეგირებული წოდებების გათავისუფლება გადასახადებისგან"
+                                     ],
+                         "q":  "რომელი არ იყო ძველი წესრიგის ნიშანი?"
+                     }
+                 ],
+        "subject":  "history",
+        "title":  "„ძველი წესრიგი“ და აბსოლუტიზმი საფრანგეთში · განმანათლებლები",
+        "updated":  "თავი II",
+        "id":  "hist-p7-8"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "1762 წელს, თეიმურაზ II-ის გარდაცვალების შემდეგ ერეკლე II-მ ქართლი და კახეთი გააერთიანა.",
+                          "q":  "როდის და როგორ შეიქმნა ქართლ-კახეთის სამეფო?"
+                      },
+                      {
+                          "a":  "დაღესტნელი მთიელების მუდმივი თავდასხმები აღმოსავლეთ საქართველოზე — ძარცვა, ტყვეების წაყვანა.",
+                          "q":  "რა იყო ლეკიანობა?"
+                      },
+                      {
+                          "a":  "ერეკლე II-ის 1773 წლის რეფორმა: ყველა მამაკაცი წელიწადში ერთ თვეს მსახურობდა — მუდმივი დაცვა ლეკებისგან.",
+                          "q":  "რა იყო მორიგე ჯარი?"
+                      },
+                      {
+                          "a":  "1770 წლის 20 აპრილი — ერეკლე II-მ ოსმალო-ლეკების ჯარი დაამარცხა, თუმცა ტოტლებენმა ბრძოლის წინ მიატოვა.",
+                          "q":  "ასპინძის ბრძოლა?"
+                      },
+                      {
+                          "a":  "1757 — სოლომონ I-მა (ერეკლეს დახმარებით) ოსმალები დაამარცხა.",
+                          "q":  "ხრესილის ბრძოლა?"
+                      },
+                      {
+                          "a":  "ოსმალეთს, ტყვეთა სყიდვას (1759 აკრძალვა) და ურჩ თავადებს/მთავრებს; დასავლეთ საქართველოს გაერთიანება სურდა.",
+                          "q":  "რას ებრძოდა სოლომონ I?"
+                      },
+                      {
+                          "a":  "ახტალის ვერცხლისა და სპილენძის სამთო საწარმოები (ბერძენი მადნეულებით).",
+                          "q":  "რომელი ეკონომიკური საწარმო აღადგინა ერეკლემ?"
+                      },
+                      {
+                          "a":  "რუსეთმა ჯარით დახმარება და ომის შემდეგ საქართველოს ინტერესების დაცვა დაპირდა; ერეკლეს სამცხისა და ზღვისპირეთის გათავისუფლების იმედი ჰქონდა.",
+                          "q":  "რატომ ჩაება ერეკლე რუსეთ-ოსმალეთის ომში 1768–74?"
+                      },
+                      {
+                          "a":  "რუსი გენერალი, 1769–72 წწ. ექსპედიციის მეთაური საქართველოში; ასპინძის წინ ერეკლე მიატოვა და მის წინააღმდეგ ინტრიგებს აწყობდა.",
+                          "q":  "ვინ იყო ტოტლებენი?"
+                      },
+                      {
+                          "a":  "1774; ყირიმის დამოუკიდებლობა ოსმალეთისგან, შავ ზღვაზე გასვლა; ოსმალეთმა იმერეთისგან ტყვეების ხარკი უნდა შეეწყვიტა.",
+                          "q":  "ქუჩუკ-კაინარჯის ზავი — წელი და რა მიიღო რუსეთმა?"
+                      },
+                      {
+                          "a":  "თითქმის არაფერი: სამცხე ოსმალეთს დარჩა, ლეკების თავდასხმები გაძლიერდა; ერეკლემ დაინახა, რომ რუსეთი მას იყენებდა.",
+                          "q":  "რა შედეგი მოუტანა 1768–74 წლების ომმა საქართველოს?"
+                      },
+                      {
+                          "a":  "თბილისისა და თელავის სემინარიები (1755/1782).",
+                          "q":  "რომელი სკოლები დააარსა ერეკლემ?"
+                      }
+                  ],
+        "chapter":  "§9-10",
+        "exam":  "Exam 1 · October",
+        "lang":  "ka",
+        "notes":  "# §9. რა სირთულეების წინაშე იდგნენ ერეკლე II და სოლომონ I?\n\n## აღმოსავლეთ საქართველო\n\n- **თეიმურაზ II** (ქართლი) და მისი ვაჟი **ერეკლე II** (კახეთი, 1744-დან) — ნადირ-შაჰმა ორივე ქრისტიან მეფედ დაამტკიცა (1744) — ქართლში ვალიების ხანა დასრულდა.\n- **1762** — თეიმურაზ II გარდაიცვალა; **ერეკლე II-მ ქართლი და კახეთი გააერთიანა** — ქართლ-კახეთის სამეფო (დედაქალაქი თბილისი).\n\n**სირთულეები:**\n\n1. **ლეკიანობა** — დაღესტნელი მთიელების მუდმივი თავდასხმები, ტყვეების წაყვანა, სოფლების აოხრება. ერეკლემ **მორიგე ჯარი** (1773) შექმნა — ყველა მამაკაცი წელიწადში ერთ თვეს ემსახურებოდა.\n2. **ირანის ქაოსი** ნადირ-შაჰის სიკვდილის (1747) შემდეგ — სახანოების (განჯა, ერევანი, ნახიჩევანი) მორჩილებაში ყოლა; ერეკლემ ისინი მოხარკეებად აქცია.\n3. **ოსმალეთისა და ახალციხის საფაშოს** მტრობა.\n4. **მოსახლეობის სიმცირე**, ეკონომიკის სისუსტე; ერეკლემ **ახტალის სამთო საწარმოები** (ბერძენი მადნეულები), სკოლები (თბილისისა და თელავის სემინარიები), სტამბა აღადგინა.\n5. **შინაური ოპოზიცია** — თავადების უკმაყოფილება ცენტრალიზაციით.\n\n**ერეკლეს გამარჯვებები:** ხრესილი (1757, თურქებზე, სოლომონთან ერთად), **ასპინძა (1770)** — ოსმალო-ლეკების ჯარის დამარცხება.\n\n## დასავლეთ საქართველო — სოლომონ I (იმერეთი, 1752–1784)\n\n- იბრძოდა **ოსმალეთისა** და **ტყვეთა სყიდვის** წინააღმდეგ: 1759 წელს საეკლესიო კრებამ ტყვეთა სყიდვა აკრძალა.\n- **1757 — ხრესილის ბრძოლა** — ოსმალთა ჯარის დამარცხება.\n- ებრძოდა ურჩ თავადებსა და მთავრებს (დადიანი, გურიელი), რომლებიც ოსმალეთს ემხრობოდნენ; ცდილობდა დასავლეთ საქართველოს გაერთიანებას.\n- ერეკლესთან კავშირი — საერთო ბრძოლა ოსმალეთის წინააღმდეგ.\n\n# §10. რატომ ჩაება ერეკლე II რუსეთ-ოსმალეთის ომში?\n\n- **1768–1774 — რუსეთ-ოსმალეთის ომი** (ეკატერინე II). რუსეთმა ქართველ მეფეებს **ოსმალეთის წინააღმდეგ გამოსვლა** სთხოვა — ჯარით დახმარებისა და ომის შემდეგ ინტერესების დაცვის დაპირებით.\n- **მიზეზი:** ერეკლესა და სოლომონს ერთმორწმუნე რუსეთის დახმარებით ოსმალეთისგან სამცხე-ჯავახეთისა და შავი ზღვისპირეთის გათავისუფლების იმედი ჰქონდათ.\n- **1769–1772 — გენერალ ტოტლებენის ექსპედიცია** — მცირე რუსული რაზმი (~3000 კაცი); ტოტლებენმა **ასპინძის ბრძოლის წინ (1770 20 აპრილი) ერეკლე მიატოვა** და უკან წავიდა; ერეკლემ მაინც გაიმარჯვა. ტოტლებენი ერეკლეს წინააღმდეგ ინტრიგებს აწყობდა.\n- **1774 — ქუჩუკ-კაინარჯის ზავი**: რუსეთმა მიიღო ყირიმის დამოუკიდებლობა, შავ ზღვაზე გასვლა; **საქართველოს შესახებ** — ოსმალეთმა იმერეთისგან ხარკის (ტყვეების) აღება უნდა შეეწყვიტა, მაგრამ სამცხე ოსმალეთს დარჩა.\n- **შედეგი ქართველებისთვის:** ომმა ოსმალეთისა და ლეკების რისხვა გამოიწვია, რეალური შენაძენი — მინიმალური. ერეკლემ პირველად იგრძნო, რომ რუსეთი მოკავშირეს **საკუთარი ინტერესებისთვის** იყენებდა, მაგრამ ალტერნატივა ვერ ნახა → 1783.\n\n\u003e **ცნებები:** ლეკიანობა, მორიგე ჯარი, მოხარკე სახანო, ტყვეთა სყიდვა, ექსპედიცია, ზავი.",
+        "order":  0.6,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "ერეკლე II-მ ორი სამეფო გააერთიანა.",
+                         "options":  [
+                                         "1744",
+                                         "1752",
+                                         "1762",
+                                         "1783"
+                                     ],
+                         "q":  "ქართლ-კახეთის სამეფო შეიქმნა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "1773 — მუდმივი მზადყოფნა მთიელთა თავდასხმებისთვის.",
+                         "options":  [
+                                         "ტყვეთა სყიდვის წინააღმდეგ",
+                                         "ლეკიანობის წინააღმდეგ",
+                                         "ოსმალეთთან ომისთვის",
+                                         "რუსეთის დასახმარებლად"
+                                     ],
+                         "q":  "მორიგე ჯარი შეიქმნა:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "1770 წლის 20 აპრილი.",
+                         "options":  [
+                                         "1757",
+                                         "1762",
+                                         "1770",
+                                         "1774"
+                                     ],
+                         "q":  "ასპინძის ბრძოლა მოხდა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "რუსული რაზმი უკან წავიდა; ერეკლემ მარტო გაიმარჯვა.",
+                         "options":  [
+                                         "დაეხმარა ერეკლეს ასპინძასთან",
+                                         "ბრძოლის წინ ერეკლე მიატოვა",
+                                         "სამცხე გაათავისუფლა",
+                                         "თბილისი დაიცვა ლეკებისგან"
+                                     ],
+                         "q":  "ტოტლებენის ექსპედიცია:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "რუსეთ-ოსმალეთის ომის დასასრული.",
+                         "options":  [
+                                         "1768",
+                                         "1770",
+                                         "1774",
+                                         "1783"
+                                     ],
+                         "q":  "ქუჩუკ-კაინარჯის ზავი დაიდო:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "იმერეთის მეფე 1752–1784.",
+                         "options":  [
+                                         "ქართლში",
+                                         "კახეთში",
+                                         "იმერეთში",
+                                         "სამეგრელოში"
+                                     ],
+                         "q":  "სოლომონ I მეფობდა:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "სოლომონ I-ის ინიციატივით.",
+                         "options":  [
+                                         "შეიქმნა მორიგე ჯარი",
+                                         "საეკლესიო კრებამ ტყვეთა სყიდვა აკრძალა",
+                                         "დაიდო ზავი ოსმალეთთან",
+                                         "დაარსდა სემინარია"
+                                     ],
+                         "q":  "1759 წელს დასავლეთ საქართველოში:"
+                     }
+                 ],
+        "subject":  "history",
+        "title":  "ერეკლე II და სოლომონ I · რუსეთ-ოსმალეთის ომი 1768–1774",
+        "updated":  "თავი III",
+        "id":  "hist-p9-10"
     },
     {
         "cards":  [
@@ -5573,6 +7076,7 @@
                           "q":  "რით განსხვავდებოდა იტალიისა და გერმანიის გაერთიანების მეთოდი?"
                       }
                   ],
+        "chapter":  "§42-43",
         "exam":  "Exam 1 · October",
         "lang":  "ka",
         "notes":  "# იტალიის გაერთიანება (რისორჯიმენტო, 1859–1870)\n\n**ვითარება:** იტალია დაქუცმაცებული იყო — ჩრდილოეთი (ლომბარდია, ვენეცია) ავსტრიის ხელში; ცენტრში პაპის სახელმწიფო; სამხრეთით ორივე სიცილიის სამეფო (ბურბონები); დამოუკიდებელი და კონსტიტუციური — მხოლოდ **პიემონტ-სარდინიის სამეფო**.\n\n**სამი მთავარი ფიგურა:**\n\n| ვინ | როლი |\n|---|---|\n| **ჯუზეპე მაძინი** | „ახალგაზრდა იტალიის“ დამაარსებელი (1831), რესპუბლიკელი, გაერთიანების იდეოლოგი — „სული“ |\n| **კამილო კავური** | პიემონტის პრემიერ-მინისტრი (1852–61), დიპლომატი, რეფორმატორი — „გონება“ |\n| **ჯუზეპე გარიბალდი** | რევოლუციონერი მეთაური, „წითელპერანგელები“ — „მახვილი“ |\n\n**ეტაპები:**\n\n1. 1858 — კავურის შეთანხმება ნაპოლეონ III-თან (პლომბიერი): საფრანგეთი დაეხმარება ავსტრიის წინააღმდეგ, სანაცვლოდ მიიღებს სავოიასა და ნიცას.\n2. **1859** — ომი ავსტრიასთან: მაჯენტა, სოლფერინო; პიემონტმა მიიღო **ლომბარდია**.\n3. 1860 — ცენტრალური იტალიის სახელმწიფოები პლებისციტით შეუერთდნენ პიემონტს.\n4. **1860** — გარიბალდის „**ათასის ლაშქრობა**“: სიცილია და ნეაპოლი დაიპყრო და ვიქტორ-ემანუელ II-ს გადასცა.\n5. **1861 17 მარტი** — გამოცხადდა **იტალიის სამეფო**, მეფე **ვიქტორ-ემანუელ II**.\n6. 1866 — ვენეცია (ავსტრია-პრუსიის ომის შემდეგ).\n7. **1870** — **რომი** (ფრანგული გარნიზონი წავიდა პრუსიასთან ომის გამო); რომი — დედაქალაქი (1871). პაპი ვატიკანში ჩაიკეტა.\n\n# გერმანიის გაერთიანება (1864–1871)\n\n**ვითარება:** გერმანიის კავშირი — 39 სახელმწიფო; ორი ლიდერი — **ავსტრია** და **პრუსია**. 1834 — **ცოლფერაინი** (საბაჟო კავშირი) პრუსიის გარშემო ავსტრიის გარეშე — ეკონომიკური საფუძველი.\n\n**ოტო ფონ ბისმარკი** — პრუსიის მინისტრ-პრეზიდენტი 1862 წლიდან; პოლიტიკა „**რკინითა და სისხლით**“ (Blut und Eisen): გაერთიანება არა პარლამენტით, არამედ ჯარით და ომებით. მეფე — **ვილჰელმ I**.\n\n**სამი ომი:**\n\n| წელი | ომი | შედეგი |\n|---|---|---|\n| **1864** | დანიასთან (ავსტრიასთან ერთად) | შლეზვიგი და ჰოლშტაინი ჩამოერთვა დანიას |\n| **1866** | ავსტრიასთან („შვიდკვირიანი ომი“) — **სადოვა (კენიგრეცი)** | ავსტრია გამოირიცხა გერმანიის საქმეებიდან; შეიქმნა **ჩრდილოგერმანული კავშირი** პრუსიის ხელმძღვანელობით |\n| **1870–1871** | საფრანგეთთან (ემსის დეპეშა — პროვოკაცია) — **სედანი** (1870 2 სექტემბერი), ნაპოლეონ III ტყვედ ჩავარდა | საფრანგეთმა დაკარგა **ელზასი და ლოტარინგია**; საფრანგეთში — მესამე რესპუბლიკა; **1871 18 იანვარი — ვერსალის სარკეთა დარბაზში გამოცხადდა გერმანიის იმპერია**, კაიზერი ვილჰელმ I, კანცლერი ბისმარკი |\n\n# შედარება\n\n| | იტალია | გერმანია |\n|---|---|---|\n| ცენტრი | პიემონტი | პრუსია |\n| ლიდერი | კავური, გარიბალდი | ბისმარკი |\n| მეთოდი | დიპლომატია + სახალხო მოძრაობა (გარიბალდი) | ომები „რკინითა და სისხლით“ |\n| დასრულება | 1870 (რომი) | 1871 (იმპერია) |\n| მმართველობა | კონსტიტუციური მონარქია | იმპერია ძლიერი კაიზერითა და კანცლერით |\n\n**მნიშვნელობა:** ევროპის რუკაზე გაჩნდა ორი დიდი ეროვნული სახელმწიფო; გერმანია გახდა კონტინენტის უძლიერესი ძალა → ფრანგულ-გერმანული მტრობა (ელზას-ლოტარინგია) → I მსოფლიო ომის ერთ-ერთი წინაპირობა.",
@@ -5658,7 +7162,7 @@
                  ],
         "subject":  "history",
         "title":  "იტალიისა და გერმანიის გაერთიანება",
-        "updated":  "თავის ნომერი დასაზუსტებელია",
+        "updated":  "თავი VII",
         "id":  "hist-unification"
     },
     {
@@ -5942,6 +7446,168 @@
         "title":  "Lines, angles and shapes",
         "updated":  "Chapter notes",
         "id":  "maths-angles"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Add all the values and divide by how many there are.",
+                          "q":  "How do you find the mean?"
+                      },
+                      {
+                          "a":  "Put the values in order and take the middle one; with an even number of values, average the two middle ones.",
+                          "q":  "How do you find the median?"
+                      },
+                      {
+                          "a":  "The most frequent value; there can be none, one or several.",
+                          "q":  "What is the mode?"
+                      },
+                      {
+                          "a":  "Spread: largest − smallest. A small range means consistent data.",
+                          "q":  "What does the range measure?"
+                      },
+                      {
+                          "a":  "The mean.",
+                          "q":  "Which average is affected most by an outlier?"
+                      },
+                      {
+                          "a":  "Mean 5, median 3, mode 3, range 10.",
+                          "q":  "Mean, median, mode and range of 2, 3, 3, 5, 12?"
+                      },
+                      {
+                          "a":  "Total 36 − 27 = 9.",
+                          "q":  "The mean of 4 numbers is 9. Three are 7, 8, 12. The fourth?"
+                      },
+                      {
+                          "a":  "Σ(f × x) ÷ Σf.",
+                          "q":  "Mean from a frequency table?"
+                      },
+                      {
+                          "a":  "Find the (n + 1)/2 th value by adding up frequencies until you reach it.",
+                          "q":  "How do you find the median from a frequency table?"
+                      },
+                      {
+                          "a":  "You use the midpoint of each class instead of the real values.",
+                          "q":  "Why is the mean of grouped data only an estimate?"
+                      },
+                      {
+                          "a":  "The class interval with the highest frequency.",
+                          "q":  "What is the modal class?"
+                      },
+                      {
+                          "a":  "Q₃ − Q₁: the spread of the middle half of the data; unaffected by outliers.",
+                          "q":  "Define the interquartile range."
+                      },
+                      {
+                          "a":  "Mode.",
+                          "q":  "Which average for shoe sizes a shop should stock most of?"
+                      },
+                      {
+                          "a":  "Median.",
+                          "q":  "Which average for salaries when one person earns far more than the rest?"
+                      },
+                      {
+                          "a":  "An average (mean/median) and a measure of spread (range/IQR).",
+                          "q":  "When comparing two classes\u0027 results, what two things should you compare?"
+                      }
+                  ],
+        "chapter":  12,
+        "exam":  "Exam 1 · October",
+        "notes":  "# The three averages\n\n| Average | How to find it | Good for | Weakness |\n|---|---|---|---|\n| **Mean** | Add all values ÷ number of values | Uses every value | Distorted by extreme values (outliers) |\n| **Median** | Middle value when in order (average the two middle ones if even count) | Not affected by outliers | Ignores most values |\n| **Mode** | Most frequent value (can be none or more than one) | Categorical data (favourite colour) | May not exist or be unrepresentative |\n\nData: 3, 7, 7, 8, 10, 25 → mean = 60/6 = 10; median = (7 + 8)/2 = 7.5; mode = 7. The 25 pulls the mean up — the median is the fairer average here.\n\n**Range** = largest − smallest = 22. A measure of **spread** (consistency), not an average. Small range = consistent.\n\n# Reverse mean problems\n\n- Mean of 5 numbers is 12 → total = 60. A sixth number makes the mean 13 → new total 78 → sixth number = **18**.\n- Combined mean: class A (20 students, mean 60) and class B (10 students, mean 75): total = 1200 + 750 = 1950 ÷ 30 = **65**.\n\n# Averages from a frequency table\n\n| Score x | Frequency f | f × x |\n|---|---|---|\n| 1 | 4 | 4 |\n| 2 | 7 | 14 |\n| 3 | 6 | 18 |\n| 4 | 3 | 12 |\n| **Total** | **20** | **48** |\n\n- **Mean** = Σfx ÷ Σf = 48 ÷ 20 = **2.4**.\n- **Mode** = the value with the highest frequency = **2**.\n- **Median** = the (n + 1)/2 th value = 10.5th → count up the frequencies: values 1–4 are \"1\", 5–11 are \"2\" → the 10th and 11th are both 2 → median **2**.\n- **Range** = 4 − 1 = 3.\n\n# Grouped (continuous) data\n\n| Height h (cm) | f | Midpoint | f × mid |\n|---|---|---|---|\n| 140 ≤ h \u003c 150 | 5 | 145 | 725 |\n| 150 ≤ h \u003c 160 | 12 | 155 | 1860 |\n| 160 ≤ h \u003c 170 | 8 | 165 | 1320 |\n| Total | 25 | | 3905 |\n\n- **Estimated mean** = 3905 ÷ 25 = **156.2 cm**. It is an *estimate* because we use midpoints, not the actual values.\n- **Modal class** = 150 ≤ h \u003c 160 (highest frequency).\n- **Class containing the median** = the 13th value → in 150–160.\n\n# Quartiles and interquartile range (Extended)\n\nOrder the data. **Lower quartile Q₁** = value ¼ of the way; **upper quartile Q₃** = ¾ of the way; **median Q₂** = half way. **Interquartile range (IQR) = Q₃ − Q₁** — spread of the middle 50%, not affected by outliers.\n\nData (11 values): 2, 4, 5, 6, 7, 8, 9, 11, 12, 15, 20 → Q₁ = 3rd value = 5, Q₂ = 6th = 8, Q₃ = 9th = 12, IQR = 7.\n\n**Cumulative frequency** curves and **box-and-whisker plots** (min, Q₁, median, Q₃, max) are in Chapter 20.\n\n# Which average to use?\n\n- Salaries in a company with one millionaire → **median**.\n- Shoe sizes to stock → **mode**.\n- Test scores with no outliers → **mean**.\n- Comparing two data sets: quote an **average** (which is higher) **and** a measure of **spread** (which is more consistent).",
+        "order":  12,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "Ordered 2 4 6 7 9 10 → (6 + 7)/2.",
+                         "options":  [
+                                         "6",
+                                         "6.5",
+                                         "7",
+                                         "5"
+                                     ],
+                         "q":  "The median of 9, 2, 7, 4, 10, 6 is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Total 36 − 24 = 12.",
+                         "options":  [
+                                         "10",
+                                         "12",
+                                         "9",
+                                         "8"
+                                     ],
+                         "q":  "The mean of 5, 8, x, 11 is 9. x ="
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "150 ÷ 30.",
+                         "options":  [
+                                         "4500",
+                                         "5",
+                                         "0.2",
+                                         "180"
+                                     ],
+                         "q":  "A frequency table gives Σfx = 150 and Σf = 30. The mean is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "The mode is the most common actual value.",
+                         "options":  [
+                                         "Mean",
+                                         "Median (for even n)",
+                                         "Mode",
+                                         "Range"
+                                     ],
+                         "q":  "Which average must be a value in the data set?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Same average, smaller range → more consistent.",
+                         "options":  [
+                                         "A scores higher",
+                                         "B is more consistent",
+                                         "A is more consistent",
+                                         "They are identical"
+                                     ],
+                         "q":  "Team A: mean 20, range 4. Team B: mean 20, range 15. Which statement is right?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Midpoint of each class.",
+                         "options":  [
+                                         "0, 10, 20",
+                                         "5, 15, 25",
+                                         "10, 20, 30",
+                                         "3, 9, 8"
+                                     ],
+                         "q":  "Grouped data classes 0–10, 10–20, 20–30 with frequencies 3, 9, 8. Estimated mean uses midpoints:"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "Q₁ = 3 (2nd value), Q₃ = 9 (6th value), 9 − 3 = 6.",
+                         "options":  [
+                                         "6",
+                                         "11",
+                                         "3",
+                                         "9"
+                                     ],
+                         "q":  "For the data 1, 3, 4, 6, 8, 9, 12, the interquartile range is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "The 40 is an outlier; median 6 is typical, mean 12.6 is not.",
+                         "options":  [
+                                         "Mean",
+                                         "Median",
+                                         "Range",
+                                         "Total"
+                                     ],
+                         "q":  "Scores 5, 5, 6, 7, 40. The best average to describe a typical score is the:"
+                     }
+                 ],
+        "subject":  "maths",
+        "title":  "Averages and measures of spread",
+        "updated":  "Chapter notes",
+        "id":  "maths-averages"
     },
     {
         "cards":  [
@@ -6364,6 +8030,168 @@
         "title":  "Indices and standard form",
         "updated":  "Starter notes",
         "id":  "maths-indices"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "m = gradient, c = y-intercept.",
+                          "q":  "In y = mx + c, what are m and c?"
+                      },
+                      {
+                          "a":  "(13 − 5)/(6 − 2) = 2",
+                          "q":  "Gradient between (2, 5) and (6, 13)?"
+                      },
+                      {
+                          "a":  "Parallel: same gradient. Perpendicular: gradients multiply to −1.",
+                          "q":  "Gradient rule for parallel and perpendicular lines?"
+                      },
+                      {
+                          "a":  "−1/3",
+                          "q":  "Gradient of a line perpendicular to y = 3x − 2?"
+                      },
+                      {
+                          "a":  "(2, 1)",
+                          "q":  "Midpoint of (−2, 4) and (6, −2)?"
+                      },
+                      {
+                          "a":  "√(9 + 16) = 5",
+                          "q":  "Length of the line from (0, 0) to (3, 4)?"
+                      },
+                      {
+                          "a":  "y = −2x + 4 → gradient −2.",
+                          "q":  "Gradient of 4x + 2y = 8?"
+                      },
+                      {
+                          "a":  "(2x + 3)(x + 1) — split 5x into 2x + 3x.",
+                          "q":  "Factorise 2x² + 5x + 3."
+                      },
+                      {
+                          "a":  "3x(x − 4)",
+                          "q":  "Factorise 3x² − 12x."
+                      },
+                      {
+                          "a":  "(x + 4)(x − 2) = 0 → x = −4 or x = 2.",
+                          "q":  "Solve x² + 2x − 8 = 0 by factorising."
+                      },
+                      {
+                          "a":  "x = (−b ± √(b² − 4ac)) / 2a",
+                          "q":  "State the quadratic formula."
+                      },
+                      {
+                          "a":  "(x + 4)² − 13",
+                          "q":  "Complete the square: x² + 8x + 3."
+                      },
+                      {
+                          "a":  "(1, 5), a minimum.",
+                          "q":  "Turning point of y = (x − 1)² + 5?"
+                      },
+                      {
+                          "a":  "\u003e 0 two solutions, = 0 one repeated solution, \u003c 0 no real solutions.",
+                          "q":  "What does the discriminant b² − 4ac tell you?"
+                      },
+                      {
+                          "a":  "Roots x = −1 and x = 5; y-intercept −5.",
+                          "q":  "Roots and y-intercept of y = (x + 1)(x − 5)?"
+                      }
+                  ],
+        "chapter":  10,
+        "exam":  "Exam 1 · October",
+        "notes":  "# Straight-line graphs\n\n**y = mx + c** — m is the **gradient**, c is the **y-intercept** (where the line crosses the y-axis).\n\n- **Gradient** = rise ÷ run = (y₂ − y₁) ÷ (x₂ − x₁). Positive slopes up, negative slopes down, 0 is horizontal (y = c), vertical lines are x = k (gradient undefined).\n- Through (1, 3) and (4, 9): m = (9 − 3)/(4 − 1) = 2. Then 3 = 2(1) + c → c = 1 → **y = 2x + 1**.\n- **Parallel lines** have the **same gradient**. **Perpendicular lines** have gradients that multiply to −1 (m₂ = −1/m₁): perpendicular to y = 2x + 1 has gradient −½.\n- **Midpoint** of (x₁, y₁) and (x₂, y₂) = ((x₁ + x₂)/2, (y₁ + y₂)/2). **Length** = √((x₂ − x₁)² + (y₂ − y₁)²).\n- Rearrange to y = mx + c to read the gradient: 2x + 3y = 6 → y = −⅔x + 2.\n- **Drawing:** make a table of 3 values of x (one as a check), plot, join with a ruler.\n\n**Intercepts:** x-intercept: put y = 0. y-intercept: put x = 0.\n\n# Quadratic expressions\n\n**Expanding:** (x + 3)(x − 5) = x² − 2x − 15. (2x − 1)² = 4x² − 4x + 1.\n\n**Factorising** (reverse):\n\n1. x² + bx + c → two numbers that multiply to c and add to b. x² + 7x + 10 = (x + 2)(x + 5). x² − 4x − 12 = (x − 6)(x + 2).\n2. ax² + bx + c (a ≠ 1) — **split the middle term**: 2x² + 7x + 3 → need two numbers multiplying to 2 × 3 = 6 and adding to 7 → 6 and 1 → 2x² + 6x + x + 3 = 2x(x + 3) + 1(x + 3) = **(2x + 1)(x + 3)**.\n3. Difference of two squares: 9x² − 16 = (3x + 4)(3x − 4).\n\n# Solving quadratic equations\n\nAlways rearrange to **= 0** first.\n\n**1. Factorising:** x² − 5x + 6 = 0 → (x − 2)(x − 3) = 0 → x = 2 or x = 3. 3x² = 12x → 3x² − 12x = 0 → 3x(x − 4) = 0 → x = 0 or 4.\n\n**2. Quadratic formula** (for ax² + bx + c = 0): **x = (−b ± √(b² − 4ac)) / 2a**. Always given on the formula sheet.\n\n2x² + 3x − 4 = 0: a = 2, b = 3, c = −4 → x = (−3 ± √(9 + 32))/4 = (−3 ± √41)/4 → x = 0.85 or x = −2.35 (2 d.p.). Write the whole substitution — method marks.\n\n**3. Completing the square:** x² + 6x + 2 = (x + 3)² − 9 + 2 = (x + 3)² − 7. To solve = 0: (x + 3)² = 7 → x = −3 ± √7. The turning point of y = (x + 3)² − 7 is (−3, −7).\n\n**Discriminant** b² − 4ac: positive → 2 solutions; zero → 1 (repeated); negative → no real solutions.\n\n# Quadratic graphs\n\n- y = x² is a U-shaped **parabola**; y = −x² is ∩-shaped. Symmetric about a vertical line through the **turning point (vertex)**.\n- Roots (where y = 0) are where the curve crosses the x-axis — the solutions of the equation.\n- To sketch y = (x − 2)(x + 4): roots at x = 2 and x = −4, y-intercept (x = 0) at −8, turning point midway at x = −1 → y = (−3)(3) = −9.\n\n# Word problems\n\nA rectangle has length 3 cm more than its width and area 40 cm²: w(w + 3) = 40 → w² + 3w − 40 = 0 → (w + 8)(w − 5) = 0 → w = 5 (reject −8). Always reject impossible (negative) answers and give units.",
+        "order":  10,
+        "quiz":  [
+                     {
+                         "answer":  0,
+                         "explain":  "m = 6/2 = 3; 2 = 3(1) + c → c = −1.",
+                         "options":  [
+                                         "y = 3x − 1",
+                                         "y = 3x + 1",
+                                         "y = 2x + 2",
+                                         "y = 6x − 4"
+                                     ],
+                         "q":  "The line through (1, 2) and (3, 8) has equation:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Same gradient −2.",
+                         "options":  [
+                                         "y = 2x + 4",
+                                         "y = −2x + 7",
+                                         "y = ½x",
+                                         "y = −½x + 4"
+                                     ],
+                         "q":  "Which line is parallel to y = 4 − 2x?"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "½ × −2 = −1.",
+                         "options":  [
+                                         "y = ½x − 3",
+                                         "y = 2x + 1",
+                                         "y = −2x + 5",
+                                         "y = −½x"
+                                     ],
+                         "q":  "Which line is perpendicular to y = ½x + 1?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "(x − 4)(x + 3) = 0.",
+                         "options":  [
+                                         "3 and 4",
+                                         "−3 and 4",
+                                         "3 and −4",
+                                         "−3 and −4"
+                                     ],
+                         "q":  "The solutions of x² − x − 12 = 0 are:"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "(−4 ± √(16 − 4))/2 = (−4 ± √12)/2 = −2 ± √3.",
+                         "options":  [
+                                         "−2 ± √3",
+                                         "−4 ± √3",
+                                         "2 ± √3",
+                                         "−2 ± √5"
+                                     ],
+                         "q":  "Using the formula, x² + 4x + 1 = 0 gives x ="
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "(x − 3)² = x² − 6x + 9; add 2.",
+                         "options":  [
+                                         "(x − 3)² + 2",
+                                         "(x − 3)² − 2",
+                                         "(x − 6)² + 11",
+                                         "(x + 3)² + 2"
+                                     ],
+                         "q":  "x² − 6x + 11 written as (x − a)² + b is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "9 − 40 = −31 → no real roots.",
+                         "options":  [
+                                         "49",
+                                         "−31",
+                                         "31",
+                                         "−49"
+                                     ],
+                         "q":  "For 2x² + 3x + 5 = 0, the discriminant is:"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "(x − 2)² − 3 → (2, −3).",
+                         "options":  [
+                                         "(2, −3)",
+                                         "(−2, 13)",
+                                         "(4, 1)",
+                                         "(2, 1)"
+                                     ],
+                         "q":  "The turning point of y = x² − 4x + 1 is at:"
+                     }
+                 ],
+        "subject":  "maths",
+        "title":  "Straight lines and quadratic equations",
+        "updated":  "Chapter notes",
+        "id":  "maths-lines-quadratics"
     },
     {
         "cards":  [
@@ -6804,6 +8632,168 @@
         "title":  "Introduction to probability",
         "updated":  "Chapter notes",
         "id":  "maths-probability"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "In a right-angled triangle c² = a² + b², where c is the hypotenuse.",
+                          "q":  "State Pythagoras\u0027 theorem."
+                      },
+                      {
+                          "a":  "The longest side, opposite the right angle.",
+                          "q":  "Which side is the hypotenuse?"
+                      },
+                      {
+                          "a":  "√(81 + 144) = √225 = 15",
+                          "q":  "Hypotenuse when the other sides are 9 and 12?"
+                      },
+                      {
+                          "a":  "√(289 − 64) = √225 = 15",
+                          "q":  "Shorter side when hypotenuse is 17 and one side is 8?"
+                      },
+                      {
+                          "a":  "3-4-5, 5-12-13, 8-15-17 (and multiples such as 6-8-10).",
+                          "q":  "Name three Pythagorean triples."
+                      },
+                      {
+                          "a":  "25² = 625; 7² + 24² = 49 + 576 = 625 → yes.",
+                          "q":  "How do you test whether a triangle with sides 7, 24, 25 is right-angled?"
+                      },
+                      {
+                          "a":  "√(9 + 16 + 144) = √169 = 13",
+                          "q":  "Diagonal of a cuboid 3 × 4 × 12?"
+                      },
+                      {
+                          "a":  "Equal corresponding angles and corresponding sides in the same ratio (one is an enlargement of the other).",
+                          "q":  "What makes two shapes similar?"
+                      },
+                      {
+                          "a":  "Two (the third is then automatically equal).",
+                          "q":  "How many equal angles prove two triangles similar?"
+                      },
+                      {
+                          "a":  "Area × 16, volume × 64.",
+                          "q":  "Length scale factor 4 → area and volume factors?"
+                      },
+                      {
+                          "a":  "√36 = 6",
+                          "q":  "Area factor 36 → length factor?"
+                      },
+                      {
+                          "a":  "∛27 = 3",
+                          "q":  "Volume factor 27 → length factor?"
+                      },
+                      {
+                          "a":  "Identical in shape and size (rotation/reflection allowed).",
+                          "q":  "What does congruent mean?"
+                      },
+                      {
+                          "a":  "SSS, SAS, ASA, RHS.",
+                          "q":  "Four conditions for congruent triangles?"
+                      },
+                      {
+                          "a":  "Equal angles only give similarity; sizes can differ.",
+                          "q":  "Why is AAA not a congruence condition?"
+                      }
+                  ],
+        "chapter":  11,
+        "exam":  "Exam 1 · October",
+        "notes":  "# Pythagoras\u0027 theorem\n\nIn a **right-angled** triangle, the square of the **hypotenuse** (longest side, opposite the right angle) equals the sum of the squares of the other two sides:\n\n\u003e **c² = a² + b²**\n\n- Find the hypotenuse: a = 6, b = 8 → c = √(36 + 64) = √100 = **10**.\n- Find a shorter side: c = 13, a = 5 → b = √(169 − 25) = √144 = **12**.\n- **Pythagorean triples** (whole-number sets): 3-4-5, 5-12-13, 8-15-17, 7-24-25 and their multiples (6-8-10).\n- **Check for a right angle:** if the longest side squared equals the sum of the other two squared, the triangle is right-angled.\n\n**Applications:** ladder against a wall, diagonal of a rectangle, distance between two coordinates, height of an isosceles triangle (split it into two right-angled triangles), diagonal of a cuboid (**3-D**: d² = l² + w² + h²).\n\nExample: isosceles triangle with equal sides 10 and base 12 → half base 6 → height = √(100 − 36) = **8** → area = ½ × 12 × 8 = 48.\n\n# Similar shapes\n\nTwo shapes are **similar** if one is an **enlargement** of the other: **all corresponding angles are equal** and **corresponding sides are in the same ratio** (the scale factor k).\n\n**Similar triangles:** two equal angles are enough (the third must match). Watch for: parallel lines creating equal alternate/corresponding angles; a shared angle; vertically opposite angles.\n\n**Finding a length:** set up the ratio of corresponding sides.\n\nTriangles ABC and PQR similar, AB = 4, PQ = 6 (so k = 1.5); BC = 5 → QR = 5 × 1.5 = **7.5**.\n\n\u003e **Tip:** write the two triangles as separate sketches with matching vertices in the same order; pair up the sides carefully (shortest with shortest).\n\n## Area and volume of similar shapes\n\nIf lengths are multiplied by **k**:\n\n- **Areas** are multiplied by **k²**\n- **Volumes** (and masses of the same material) by **k³**\n\n| Given | Find | Rule |\n|---|---|---|\n| Length scale factor 3 | Area factor | 9 |\n| Area factor 25 | Length factor | √25 = 5 |\n| Volume factor 8 | Length factor | ∛8 = 2 |\n| Length factor 2 | Volume factor | 8 |\n\nExample: two similar bottles, heights 10 cm and 15 cm; the small one holds 200 ml → k = 1.5, volume factor 1.5³ = 3.375 → large holds 200 × 3.375 = **675 ml**.\n\nExample: two similar photos, areas 24 cm² and 54 cm²; the small width is 4 cm → area factor 54/24 = 2.25 → k = 1.5 → width 6 cm.\n\n# Congruent shapes\n\n**Congruent** = exactly the same shape and size (scale factor 1; may be rotated or reflected). Triangle congruence conditions: **SSS**, **SAS** (two sides and the included angle), **ASA** (two angles and the included side), **RHS** (right angle, hypotenuse, side). AAA is **not** enough (that\u0027s similarity).",
+        "order":  11,
+        "quiz":  [
+                     {
+                         "answer":  0,
+                         "explain":  "25 + 144 = 169 = 13².",
+                         "options":  [
+                                         "13",
+                                         "17",
+                                         "7",
+                                         "169"
+                                     ],
+                         "q":  "A right-angled triangle has shorter sides 5 and 12. The hypotenuse is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "√(42.25 − 36) = √6.25 = 2.5.",
+                         "options":  [
+                                         "0.5 m",
+                                         "2.5 m",
+                                         "3.5 m",
+                                         "12.25 m"
+                                     ],
+                         "q":  "A ladder 6.5 m long reaches 6 m up a wall. Its foot is from the wall:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "36 + 64 = 100.",
+                         "options":  [
+                                         "4, 5, 6",
+                                         "6, 8, 10",
+                                         "5, 6, 7",
+                                         "7, 8, 9"
+                                     ],
+                         "q":  "Which set of sides makes a right-angled triangle?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "k = 1.5; 8 × 1.5 = 12.",
+                         "options":  [
+                                         "11",
+                                         "12",
+                                         "13.5",
+                                         "10"
+                                     ],
+                         "q":  "Two similar triangles have sides 6 and 9 corresponding. If another side of the small triangle is 8, the matching side is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "k = 3, k³ = 27.",
+                         "options":  [
+                                         "3",
+                                         "9",
+                                         "27",
+                                         "6"
+                                     ],
+                         "q":  "Two similar cubes have edges 2 cm and 6 cm. The volume of the larger is how many times the smaller?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Area factor 2.25 → √2.25 = 1.5.",
+                         "options":  [
+                                         "2.25",
+                                         "1.5",
+                                         "25",
+                                         "4.5"
+                                     ],
+                         "q":  "Two similar shapes have areas 20 cm² and 45 cm². The length scale factor is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Two sides and the included angle.",
+                         "options":  [
+                                         "AAA",
+                                         "SSA",
+                                         "SAS",
+                                         "Same area"
+                                     ],
+                         "q":  "Which condition proves two triangles congruent?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "√(36 + 64) = 10.",
+                         "options":  [
+                                         "8",
+                                         "10",
+                                         "14",
+                                         "√52"
+                                     ],
+                         "q":  "The distance between (1, 1) and (7, 9) is:"
+                     }
+                 ],
+        "subject":  "maths",
+        "title":  "Pythagoras\u0027 theorem and similar shapes",
+        "updated":  "Chapter notes",
+        "id":  "maths-pythagoras"
     },
     {
         "cards":  [
