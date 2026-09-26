@@ -401,22 +401,11 @@
                          },
                          {
                              "n":  4,
-                             "status":  "Not written yet · say \"do chapter 4\"",
-                             "title":  "Reflection"
-                         },
-                         {
-                             "n":  5,
-                             "status":  "Not written yet",
-                             "title":  "Collaboration"
-                         },
-                         {
-                             "n":  6,
-                             "status":  "Not written yet",
-                             "title":  "Communication"
+                             "title":  "Reflection, collaboration and communication"
                          },
                          {
                              "n":  7,
-                             "status":  "Not written yet · confirm chapter numbers from the contents page",
+                             "status":  "Covered in the chapters 4–6 topic · confirm numbering from the contents page",
                              "title":  "The written examination, team project and individual report"
                          }
                      ],

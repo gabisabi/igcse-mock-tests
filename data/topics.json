@@ -585,6 +585,176 @@
     {
         "cards":  [
                       {
+                          "a":  "One containing all nutrients in the right amounts for a person\u0027s age, sex and activity.",
+                          "q":  "What is a balanced diet?"
+                      },
+                      {
+                          "a":  "Scurvy; rickets; anaemia; kwashiorkor.",
+                          "q":  "Deficiency disease from lack of vitamin C? vitamin D? iron? protein?"
+                      },
+                      {
+                          "a":  "Adds bulk to food so peristalsis works and prevents constipation.",
+                          "q":  "Why is fibre needed?"
+                      },
+                      {
+                          "a":  "Mouth → oesophagus → stomach → small intestine (duodenum, ileum) → large intestine (colon, rectum) → anus.",
+                          "q":  "Order of the alimentary canal?"
+                      },
+                      {
+                          "a":  "Breaking down large insoluble food molecules into small soluble molecules that can be absorbed.",
+                          "q":  "Define digestion."
+                      },
+                      {
+                          "a":  "Absorption: digested molecules pass through the intestine wall into the blood. Assimilation: cells use them to build new molecules.",
+                          "q":  "Define absorption and assimilation."
+                      },
+                      {
+                          "a":  "Egestion: removing undigested food (faeces) — never inside cells. Excretion: removing waste products of metabolism (urea, CO₂).",
+                          "q":  "Egestion vs excretion?"
+                      },
+                      {
+                          "a":  "Waves of muscle contraction in the gut wall that push food along.",
+                          "q":  "What is peristalsis?"
+                      },
+                      {
+                          "a":  "Kills bacteria in food; provides the acidic pH (2) that pepsin needs.",
+                          "q":  "Two functions of hydrochloric acid in the stomach?"
+                      },
+                      {
+                          "a":  "Neutralises stomach acid; emulsifies fats into droplets, increasing surface area for lipase.",
+                          "q":  "Two roles of bile?"
+                      },
+                      {
+                          "a":  "Made in the liver, stored in the gall bladder, released into the duodenum.",
+                          "q":  "Where is bile made and stored?"
+                      },
+                      {
+                          "a":  "Amylase, trypsin (protease), lipase.",
+                          "q":  "Which enzymes are in pancreatic juice?"
+                      },
+                      {
+                          "a":  "Maltose → glucose, in the wall of the small intestine.",
+                          "q":  "What does maltase do and where?"
+                      },
+                      {
+                          "a":  "Very long; villi and microvilli (huge surface area); one-cell-thick wall; rich blood supply and lacteals.",
+                          "q":  "Four adaptations of the small intestine for absorption?"
+                      },
+                      {
+                          "a":  "Water.",
+                          "q":  "What does the colon absorb?"
+                      },
+                      {
+                          "a":  "Bacteria in plaque feed on sugar and make acid that dissolves enamel.",
+                          "q":  "What causes tooth decay?"
+                      },
+                      {
+                          "a":  "Brush with fluoride toothpaste, eat less sugar, visit the dentist regularly.",
+                          "q":  "Three ways to prevent tooth decay?"
+                      }
+                  ],
+        "chapter":  7,
+        "exam":  "Exam 1 · October",
+        "notes":  "# 7.1 Diet\n\nA **balanced diet** contains the right amounts of all nutrients for age, sex and activity level.\n\n| Nutrient | Main sources | Why needed | Deficiency |\n|---|---|---|---|\n| **Carbohydrates** | Bread, rice, potatoes, sugar | Energy (respiration) | Lack of energy |\n| **Fats** | Butter, oils, nuts | Energy store, insulation, cell membranes | — |\n| **Proteins** | Meat, fish, eggs, beans | Growth and repair, enzymes, antibodies | **Kwashiorkor** (swollen belly, stunted growth) |\n| **Vitamin C** | Citrus fruit, peppers | Healthy skin, gums, wound healing | **Scurvy** (bleeding gums) |\n| **Vitamin D** | Oily fish, eggs, sunlight on skin | Absorbing calcium → strong bones | **Rickets** (soft, bent bones) |\n| **Calcium** | Milk, cheese, green vegetables | Bones and teeth, blood clotting | Rickets, weak bones |\n| **Iron** | Red meat, liver, spinach | Making **haemoglobin** | **Anaemia** (tiredness, pale) |\n| **Fibre (roughage)** | Vegetables, wholegrain cereals | Adds bulk, prevents **constipation** | Constipation, bowel problems |\n| **Water** | Drinks, food | Solvent, transport, sweating | Dehydration |\n\n**Malnutrition** = an unbalanced diet: starvation, **obesity** (too much energy intake → heart disease, diabetes), **coronary heart disease** (too much saturated fat/cholesterol blocks coronary arteries).\n\n# 7.2 The alimentary canal (digestive system)\n\n**Mouth → oesophagus → stomach → small intestine (duodenum, ileum) → large intestine (colon, rectum) → anus.** Associated organs: salivary glands, liver, gall bladder, pancreas.\n\n| Part | What happens |\n|---|---|\n| Mouth | Teeth chew (**mechanical digestion**); saliva contains **amylase** (starch → maltose); food formed into a bolus |\n| Oesophagus | **Peristalsis** — waves of muscle contraction push food along |\n| Stomach | Muscular churning; **hydrochloric acid** kills bacteria and gives pH 2 for **pepsin** (protease: protein → polypeptides) |\n| Duodenum | **Bile** from the liver (stored in the gall bladder) neutralises acid and **emulsifies fats** (breaks into droplets → larger surface area for lipase); **pancreatic juice**: amylase, trypsin (protease), lipase |\n| Ileum | Enzymes in the wall finish digestion (maltase: maltose → glucose); **absorption** of nutrients |\n| Colon | Absorbs **water** |\n| Rectum / anus | Faeces stored, then egested |\n\n**Key definitions**\n\n- **Ingestion:** taking food into the body. **Digestion:** breaking large insoluble molecules into small soluble ones. **Absorption:** movement of digested food molecules through the wall of the intestine into the blood. **Assimilation:** using absorbed molecules in cells. **Egestion:** removing undigested food as faeces.\n- **Mechanical digestion:** breaking food into smaller pieces without chemical change (teeth, stomach churning) — increases surface area. **Chemical digestion:** enzymes break large molecules into small ones.\n\n# 7.3 Enzymes of digestion\n\n| Enzyme | Where made | Substrate → Product |\n|---|---|---|\n| Amylase | Salivary glands, pancreas | Starch → maltose |\n| Maltase | Small intestine wall | Maltose → glucose |\n| Protease (pepsin, trypsin) | Stomach, pancreas | Protein → amino acids |\n| Lipase | Pancreas | Fats → fatty acids + glycerol |\n\n# 7.4 Absorption — the small intestine is adapted\n\n- Very **long** (about 5 m) and lined with millions of **villi** (finger-like projections) with **microvilli** → **huge surface area**.\n- Wall one cell thick → **short diffusion distance**.\n- Rich blood supply (**capillaries**) maintains the concentration gradient; **lacteal** in each villus absorbs fats into the lymph.\n- Absorption by diffusion **and active transport**.\n\n# 7.5 Teeth\n\n- **Incisors** (cut), **canines** (tear), **premolars and molars** (grind). Structure: enamel (hardest substance in the body), dentine, pulp (nerves, blood), cement, root.\n- **Tooth decay:** bacteria in plaque feed on sugar → **acid** dissolves enamel → cavity reaches dentine and pulp (pain). Prevention: brush with **fluoride** toothpaste, less sugar, regular dentist visits.",
+        "order":  7,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "Vitamin D is needed to absorb calcium for bones.",
+                         "options":  [
+                                         "Iron",
+                                         "Vitamin C",
+                                         "Vitamin D or calcium",
+                                         "Protein"
+                                     ],
+                         "q":  "Rickets is caused by a lack of:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "It breaks food into smaller pieces without changing the molecules.",
+                         "options":  [
+                                         "Chemical digestion",
+                                         "Mechanical digestion",
+                                         "Absorption",
+                                         "Assimilation"
+                                     ],
+                         "q":  "Chewing food is an example of:"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "Stomach acid.",
+                         "options":  [
+                                         "pH 2",
+                                         "pH 7",
+                                         "pH 9",
+                                         "pH 12"
+                                     ],
+                         "q":  "Pepsin works best at:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Larger surface area for lipase — no chemical change.",
+                         "options":  [
+                                         "Digests fats into fatty acids",
+                                         "Breaks fat into small droplets",
+                                         "Dissolves fat in water",
+                                         "Removes fat from the body"
+                                     ],
+                         "q":  "Bile emulsifies fats. This means it:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "The ileum has villi and a huge surface area.",
+                         "options":  [
+                                         "Stomach",
+                                         "Ileum",
+                                         "Colon",
+                                         "Oesophagus"
+                                     ],
+                         "q":  "Most absorption of digested food happens in the:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Short distance → fast diffusion.",
+                         "options":  [
+                                         "They can move",
+                                         "Diffusion distance is short",
+                                         "They can make enzymes",
+                                         "They store fat"
+                                     ],
+                         "q":  "Villi are one cell thick so that:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Undigested food never entered cells, so it is not excretion.",
+                         "options":  [
+                                         "Excretion",
+                                         "Egestion",
+                                         "Ingestion",
+                                         "Assimilation"
+                                     ],
+                         "q":  "Removing faeces from the body is called:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Made by the salivary glands and pancreas.",
+                         "options":  [
+                                         "Lipase",
+                                         "Pepsin",
+                                         "Amylase",
+                                         "Maltase"
+                                     ],
+                         "q":  "Which enzyme breaks starch into maltose?"
+                     }
+                 ],
+        "subject":  "biology",
+        "title":  "Human nutrition: diet and digestion",
+        "updated":  "Chapter notes",
+        "id":  "bio-human-nutrition"
+    },
+    {
+        "cards":  [
+                      {
                           "a":  "A group of organisms that can reproduce to produce fertile offspring.",
                           "q":  "Define species."
                       },
@@ -1046,6 +1216,161 @@
         "title":  "Plant nutrition: photosynthesis",
         "updated":  "Chapter notes",
         "id":  "bio-plant-nutrition"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Water and mineral ions, upwards from roots to leaves.",
+                          "q":  "What does xylem transport and in which direction?"
+                      },
+                      {
+                          "a":  "Sucrose and amino acids, in both directions (from leaves to any part that needs them).",
+                          "q":  "What does phloem transport and in which direction?"
+                      },
+                      {
+                          "a":  "Dead hollow tubes with no end walls and thick lignified walls; also provide support.",
+                          "q":  "Describe the structure of xylem."
+                      },
+                      {
+                          "a":  "Movement of sucrose and amino acids through the phloem from sources (leaves) to sinks (roots, fruits, growing regions).",
+                          "q":  "What is translocation?"
+                      },
+                      {
+                          "a":  "In a ring near the outside — gives support against bending.",
+                          "q":  "Where are the vascular bundles in a stem and why?"
+                      },
+                      {
+                          "a":  "By osmosis — soil water has a higher water potential than the cell.",
+                          "q":  "How does water enter root hair cells?"
+                      },
+                      {
+                          "a":  "Long thin extension for large surface area, thin wall, many mitochondria for active transport of ions.",
+                          "q":  "How are root hair cells adapted?"
+                      },
+                      {
+                          "a":  "By active transport against the concentration gradient, using energy from respiration.",
+                          "q":  "How are mineral ions absorbed?"
+                      },
+                      {
+                          "a":  "Loss of water vapour from leaves through the stomata by evaporation from mesophyll cell surfaces then diffusion out of the leaf.",
+                          "q":  "Define transpiration."
+                      },
+                      {
+                          "a":  "Water evaporating from the leaf pulls the continuous column of water up the xylem; water molecules stick together (cohesion).",
+                          "q":  "Explain the transpiration pull."
+                      },
+                      {
+                          "a":  "Higher temperature, lower humidity, more wind, more light.",
+                          "q":  "Four factors that increase transpiration rate?"
+                      },
+                      {
+                          "a":  "It blows away humid air around the leaf, keeping the concentration gradient steep.",
+                          "q":  "Why does wind increase transpiration?"
+                      },
+                      {
+                          "a":  "The rate of water uptake by a shoot (bubble movement per minute).",
+                          "q":  "What does a potometer measure?"
+                      },
+                      {
+                          "a":  "Water loss exceeds uptake; cells lose turgor and leaves droop.",
+                          "q":  "Why does a plant wilt?"
+                      },
+                      {
+                          "a":  "Waxy cuticle, stomata on the lower surface, sunken/hairy stomata or rolled leaves, fewer/smaller leaves.",
+                          "q":  "Three adaptations that reduce water loss?"
+                      },
+                      {
+                          "a":  "In the light when guard cells take in water and become turgid.",
+                          "q":  "When do stomata open?"
+                      }
+                  ],
+        "chapter":  8,
+        "exam":  "Exam 1 · October",
+        "notes":  "# 8.1 Xylem and phloem\n\n| | Xylem | Phloem |\n|---|---|---|\n| Transports | **Water and mineral ions** | **Sucrose and amino acids** |\n| Direction | **Up only** — roots → stem → leaves | **Both ways** — from leaves (source) to wherever needed (sink: roots, fruits, growing tips) |\n| Structure | Dead, hollow tubes with no end walls; thick walls strengthened with **lignin** | Living cells (sieve tubes) with sieve plates; companion cells |\n| Also | Gives **support** | — |\n\n- **Translocation** = movement of sucrose and amino acids in the phloem.\n- Together xylem and phloem form **vascular bundles**: in the **root** the xylem is a central X/star with phloem between the arms; in the **stem** bundles are arranged in a ring near the outside (support); in the **leaf** they are the veins (xylem on top, phloem below).\n\n# 8.2 Water uptake\n\n1. Water enters **root hair cells** by **osmosis** (soil water has a higher water potential than the cell).\n2. Root hairs: long thin extensions → **large surface area**; thin walls; many of them.\n3. Water moves across the root cortex cell to cell (osmosis) into the **xylem**.\n4. **Mineral ions** are absorbed by **active transport** (against the gradient, using energy) — root hair cells have many mitochondria.\n\n**Experiment:** put a plant (or celery) in water with a coloured dye; after some hours cut the stem — the dye is only in the xylem, showing the pathway.\n\n# 8.3 Transpiration\n\n**Definition:** the **loss of water vapour** from the leaves through the **stomata** by evaporation from the surfaces of the mesophyll cells followed by diffusion out of the leaf.\n\n**How water moves up the plant (the transpiration stream):**\n\n- Water evaporates from the spongy mesophyll cells into the air spaces and diffuses out through the stomata.\n- This pulls water out of the xylem in the leaf; water molecules stick together (**cohesion**), so a continuous column is pulled up the xylem from the roots — the **transpiration pull**.\n\n**Factors that increase the rate of transpiration**\n\n| Factor | Effect | Why |\n|---|---|---|\n| Higher **temperature** | Faster | More evaporation, faster diffusion |\n| Lower **humidity** | Faster | Steeper water-vapour concentration gradient out of the leaf |\n| **Wind** | Faster | Removes humid air from around the leaf |\n| More **light** | Faster | Stomata open wider for photosynthesis |\n\n**Measuring:** a **potometer** measures water **uptake** (bubble moves along a scale); rate = distance ÷ time. Cut the shoot under water and keep joints airtight so no air enters the xylem.\n\n**Wilting:** when water loss exceeds uptake, cells lose turgor and the leaves droop; stomata close, which reduces further loss.\n\n**Why plants need transpiration:** it delivers water for photosynthesis and mineral ions, keeps cells turgid, and evaporation **cools** the leaf.\n\n# 8.4 Adaptations\n\n- **Reducing water loss:** waxy cuticle, stomata mostly on the lower surface, fewer stomata, sunken or hairy stomata (xerophytes like cacti), rolled leaves, small leaves/spines, thick stems to store water.\n- **Stomata** open in the light when guard cells take in water (turgid, curved) and close in the dark or when the plant is short of water.",
+        "order":  8,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "Lignin strengthens the dead xylem vessels.",
+                         "options":  [
+                                         "Phloem",
+                                         "Xylem",
+                                         "Root hairs",
+                                         "Guard cells"
+                                     ],
+                         "q":  "Lignin is found in the walls of:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Translocation in the phloem.",
+                         "options":  [
+                                         "Xylem",
+                                         "Phloem",
+                                         "Cuticle",
+                                         "Stomata"
+                                     ],
+                         "q":  "Sucrose is transported in the:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Down the water potential gradient.",
+                         "options":  [
+                                         "Active transport",
+                                         "Osmosis",
+                                         "Translocation",
+                                         "Transpiration"
+                                     ],
+                         "q":  "Water enters the root by:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Humid air reduces the concentration gradient.",
+                         "options":  [
+                                         "Higher temperature",
+                                         "Windier conditions",
+                                         "Higher humidity",
+                                         "Brighter light"
+                                     ],
+                         "q":  "Which change would DECREASE transpiration?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Bubble movement shows water taken up by the shoot.",
+                         "options":  [
+                                         "Photosynthesis",
+                                         "Water uptake",
+                                         "Sugar transport",
+                                         "Root growth"
+                                     ],
+                         "q":  "A potometer measures:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Less evaporation from the shaded underside.",
+                         "options":  [
+                                         "It is closer to the roots",
+                                         "It is cooler and shaded, reducing water loss",
+                                         "Light enters from below",
+                                         "Phloem is there"
+                                     ],
+                         "q":  "Most stomata are on the lower leaf surface because:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Central X with phloem between the arms.",
+                         "options":  [
+                                         "In a ring",
+                                         "As a central star shape",
+                                         "Only in the epidermis",
+                                         "Randomly"
+                                     ],
+                         "q":  "In a root cross-section, xylem is arranged:"
+                     }
+                 ],
+        "subject":  "biology",
+        "title":  "Transport in plants",
+        "updated":  "Chapter notes",
+        "id":  "bio-transport-plants"
     },
     {
         "cards":  [
@@ -1937,6 +2262,169 @@
     {
         "cards":  [
                       {
+                          "a":  "A reversible reaction — it can go forwards and backwards.",
+                          "q":  "What does the symbol ⇌ mean?"
+                      },
+                      {
+                          "a":  "Blue hydrated CuSO₄·5H₂O ⇌ white anhydrous CuSO₄ + 5H₂O; heat removes water (endothermic), adding water restores blue (exothermic). Test for water.",
+                          "q":  "Describe the copper sulfate reversible reaction."
+                      },
+                      {
+                          "a":  "Blue anhydrous cobalt chloride turns pink when water is added.",
+                          "q":  "How does cobalt chloride paper test for water?"
+                      },
+                      {
+                          "a":  "Endothermic, by the same amount of energy.",
+                          "q":  "If the forward reaction is exothermic, what is the backward reaction?"
+                      },
+                      {
+                          "a":  "In a closed system, the forward and backward reactions occur at the same rate, so concentrations stay constant.",
+                          "q":  "Define dynamic equilibrium."
+                      },
+                      {
+                          "a":  "So that no reactants or products can escape or enter.",
+                          "q":  "Why must the system be closed for equilibrium?"
+                      },
+                      {
+                          "a":  "If a change is made to a system at equilibrium, the position of equilibrium moves to oppose the change.",
+                          "q":  "State Le Chatelier\u0027s principle."
+                      },
+                      {
+                          "a":  "Shifts in the endothermic direction to absorb the extra heat.",
+                          "q":  "Effect of increasing temperature on equilibrium position?"
+                      },
+                      {
+                          "a":  "Shifts to the side with fewer gas molecules.",
+                          "q":  "Effect of increasing pressure on a gas equilibrium?"
+                      },
+                      {
+                          "a":  "No change in position — equilibrium is reached faster.",
+                          "q":  "Effect of a catalyst on equilibrium?"
+                      },
+                      {
+                          "a":  "N₂ + 3H₂ ⇌ 2NH₃; 450 °C, 200 atm, iron catalyst.",
+                          "q":  "Haber process equation and conditions?"
+                      },
+                      {
+                          "a":  "Nitrogen from the air; hydrogen from methane (natural gas) and steam.",
+                          "q":  "Sources of nitrogen and hydrogen for the Haber process?"
+                      },
+                      {
+                          "a":  "Lower temperature gives a higher yield (exothermic forward reaction) but too slow a rate; 450 °C balances yield and rate.",
+                          "q":  "Why is 450 °C a compromise in the Haber process?"
+                      },
+                      {
+                          "a":  "High pressure increases yield and rate (fewer molecules on the right), but very high pressures are expensive and dangerous.",
+                          "q":  "Why is 200 atm used, not higher?"
+                      },
+                      {
+                          "a":  "2SO₂ + O₂ ⇌ 2SO₃; 450 °C, 1–2 atm, vanadium(V) oxide catalyst.",
+                          "q":  "Contact process key step and conditions?"
+                      },
+                      {
+                          "a":  "The reaction is too violent; SO₃ is dissolved in concentrated sulfuric acid (oleum) then diluted.",
+                          "q":  "Why isn\u0027t SO₃ added directly to water?"
+                      },
+                      {
+                          "a":  "Ammonia: fertilisers, nitric acid, cleaning products. Sulfuric acid: fertilisers, detergents, car batteries.",
+                          "q":  "Three uses of ammonia? of sulfuric acid?"
+                      },
+                      {
+                          "a":  "Fertiliser runoff causes algal blooms; decay uses up oxygen; aquatic animals die.",
+                          "q":  "What is eutrophication?"
+                      }
+                  ],
+        "chapter":  9,
+        "exam":  "Exam 1 · October",
+        "notes":  "# Reversible reactions\n\nSome reactions can go both ways, shown by **⇌**. The forward reaction makes products; the backward reaction re-forms reactants.\n\n**Examples**\n\n- **Hydrated copper(II) sulfate:** CuSO₄·5H₂O (blue) ⇌ CuSO₄ (white) + 5H₂O. Heating drives water off (endothermic, turns white); adding water re-forms the blue hydrated salt (exothermic, gets hot). Used as a **test for water** (white → blue).\n- **Cobalt(II) chloride paper:** blue (anhydrous) ⇌ pink (hydrated) — also a test for water.\n- **Ammonium chloride:** NH₄Cl(s) ⇌ NH₃(g) + HCl(g) on heating; recombines on cooling.\n- If the forward reaction is exothermic, the backward reaction is **endothermic by the same amount**.\n\n# Dynamic equilibrium\n\nIn a **closed system** (nothing can enter or leave) a reversible reaction reaches **equilibrium**:\n\n- The **forward and backward reactions happen at the same rate**.\n- The **concentrations of reactants and products stay constant** (not necessarily equal).\n- It is **dynamic**: both reactions are still going on, they just cancel out.\n\n# Le Chatelier\u0027s principle\n\n\u003e If a change is made to a system at equilibrium, the position of equilibrium **moves to oppose the change**.\n\n| Change | Equilibrium shifts | Reason |\n|---|---|---|\n| **Increase concentration** of a reactant | To the **right** (more product) | Uses up the extra reactant |\n| Remove a product | To the right | Replaces the product |\n| **Increase temperature** | In the **endothermic** direction | Absorbs the extra heat |\n| Decrease temperature | In the **exothermic** direction | Releases heat |\n| **Increase pressure** (gases) | To the side with **fewer gas molecules** | Reduces the pressure |\n| Decrease pressure | To the side with more gas molecules | |\n| Add a **catalyst** | **No shift** — equilibrium reached faster | Speeds both reactions equally |\n\n# The Haber process — making ammonia\n\n**N₂(g) + 3H₂(g) ⇌ 2NH₃(g)**   ΔH = −92 kJ/mol (forward reaction exothermic)\n\n- **Raw materials:** nitrogen from the **air** (fractional distillation of liquid air); hydrogen from **natural gas (methane) and steam** or cracking hydrocarbons.\n- **Conditions:** **450 °C**, **200 atmospheres**, **iron catalyst**.\n- Why these? \n  - **Pressure:** 4 gas molecules → 2, so high pressure pushes equilibrium right and increases rate; but very high pressure is expensive and dangerous → 200 atm is a compromise.\n  - **Temperature:** the forward reaction is exothermic, so a **low** temperature gives a higher yield, but the rate would be too slow; 450 °C is a **compromise** between yield and rate.\n  - **Catalyst:** iron speeds up reaching equilibrium without changing the yield.\n- The ammonia is **cooled and liquefied**; unreacted N₂ and H₂ are **recycled**. Yield per pass ≈ 15%.\n- **Uses of ammonia:** fertilisers (ammonium nitrate, ammonium sulfate), nitric acid, explosives, cleaning products.\n\n# The Contact process — making sulfuric acid\n\n1. Sulfur burned in air: S + O₂ → SO₂.\n2. **2SO₂ + O₂ ⇌ 2SO₃** — **450 °C, 1–2 atm, vanadium(V) oxide (V₂O₅) catalyst**. Forward reaction exothermic; low pressure is enough because the yield is already ~98%.\n3. SO₃ absorbed in concentrated H₂SO₄ to give oleum, then diluted with water → H₂SO₄ (adding SO₃ directly to water is too violent).\n\n**Uses of sulfuric acid:** fertilisers (superphosphate), detergents, car batteries, paints, dyes, processing metals.\n\n# Fertilisers (link)\n\nPlants need **N** (leaf growth, made into proteins), **P** (roots), **K** (flowers, fruit, disease resistance) — \"NPK\". Ammonium salts and nitrates supply N. Overuse causes **eutrophication**: fertiliser washes into rivers → algae bloom → algae die → bacteria use up oxygen → fish die.",
+        "order":  9,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "It re-forms the hydrated salt.",
+                         "options":  [
+                                         "Oxygen",
+                                         "Carbon dioxide",
+                                         "Water",
+                                         "Hydrogen"
+                                     ],
+                         "q":  "Anhydrous copper sulfate turning blue shows the presence of:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Dynamic equilibrium: both continue at the same rate.",
+                         "options":  [
+                                         "The reaction has stopped",
+                                         "Reactants and products have equal concentrations",
+                                         "Forward and backward rates are equal",
+                                         "Only the forward reaction occurs"
+                                     ],
+                         "q":  "At equilibrium:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Right has fewer gas molecules (2 vs 4).",
+                         "options":  [
+                                         "Shifts left",
+                                         "Shifts right",
+                                         "Has no effect",
+                                         "Stops the reaction"
+                                     ],
+                         "q":  "For N₂ + 3H₂ ⇌ 2NH₃, increasing pressure:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Equilibrium shifts in the endothermic (backward) direction.",
+                         "options":  [
+                                         "Increases the yield of ammonia",
+                                         "Decreases the yield of ammonia",
+                                         "Does not change the yield",
+                                         "Stops the reaction"
+                                     ],
+                         "q":  "The forward reaction of the Haber process is exothermic. Raising the temperature:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Iron; V₂O₅ is for the Contact process.",
+                         "options":  [
+                                         "Platinum",
+                                         "Vanadium(V) oxide",
+                                         "Iron",
+                                         "Nickel"
+                                     ],
+                         "q":  "The catalyst in the Haber process is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Both directions are sped up equally.",
+                         "options":  [
+                                         "Increases yield",
+                                         "Decreases yield",
+                                         "Speeds up reaching equilibrium without changing yield",
+                                         "Shifts it right"
+                                     ],
+                         "q":  "Adding a catalyst to an equilibrium:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Sulfur → SO₂ → SO₃ → H₂SO₄.",
+                         "options":  [
+                                         "Nitrogen",
+                                         "Sulfur",
+                                         "Ammonia",
+                                         "Hydrogen"
+                                     ],
+                         "q":  "Which is a raw material for the Contact process?"
+                     }
+                 ],
+        "subject":  "chemistry",
+        "title":  "Reversible reactions and equilibrium",
+        "updated":  "Chapter notes",
+        "id":  "chem-equilibrium"
+    },
+    {
+        "cards":  [
+                      {
                           "a":  "H₂, O₂, F₂, Br₂, I₂, N₂, Cl₂ — HOFBrINCl.",
                           "q":  "Which seven elements exist as diatomic molecules?"
                       },
@@ -2657,6 +3145,165 @@
         "title":  "Rates of reaction",
         "updated":  "Chapter notes",
         "id":  "chem-rates"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Gain of oxygen; loss of electrons.",
+                          "q":  "Define oxidation in terms of oxygen and electrons."
+                      },
+                      {
+                          "a":  "Loss of oxygen; gain of electrons.",
+                          "q":  "Define reduction in terms of oxygen and electrons."
+                      },
+                      {
+                          "a":  "Oxidation Is Loss (of electrons), Reduction Is Gain.",
+                          "q":  "What does OIL RIG stand for?"
+                      },
+                      {
+                          "a":  "Reduction and oxidation always happen together in the same reaction.",
+                          "q":  "Why is a reaction called redox?"
+                      },
+                      {
+                          "a":  "H₂ is oxidised (gains O); CuO is reduced (loses O).",
+                          "q":  "In CuO + H₂ → Cu + H₂O, what is oxidised and what is reduced?"
+                      },
+                      {
+                          "a":  "A substance that oxidises another and is itself reduced; oxygen, chlorine, acidified potassium manganate(VII), potassium dichromate(VI).",
+                          "q":  "What is an oxidising agent? Give two examples."
+                      },
+                      {
+                          "a":  "A substance that reduces another and is itself oxidised; hydrogen, carbon monoxide, reactive metals, potassium iodide.",
+                          "q":  "What is a reducing agent? Give two examples."
+                      },
+                      {
+                          "a":  "Purple → colourless.",
+                          "q":  "Colour change of acidified potassium manganate(VII) with a reducing agent?"
+                      },
+                      {
+                          "a":  "Orange → green.",
+                          "q":  "Colour change of potassium dichromate(VI) with a reducing agent?"
+                      },
+                      {
+                          "a":  "Colourless → brown (iodine formed).",
+                          "q":  "Colour change of potassium iodide with an oxidising agent?"
+                      },
+                      {
+                          "a":  "0",
+                          "q":  "Oxidation state of an uncombined element?"
+                      },
+                      {
+                          "a":  "H +1, O −2.",
+                          "q":  "Usual oxidation states of hydrogen and oxygen in compounds?"
+                      },
+                      {
+                          "a":  "+7 (4 × −2 = −8; −8 + x = −1).",
+                          "q":  "Oxidation state of Mn in MnO₄⁻?"
+                      },
+                      {
+                          "a":  "+6 (2 + x − 8 = 0).",
+                          "q":  "Oxidation state of S in H₂SO₄?"
+                      },
+                      {
+                          "a":  "Iron\u0027s oxidation state is +3 → Fe₂O₃.",
+                          "q":  "What does the Roman numeral in iron(III) oxide tell you?"
+                      },
+                      {
+                          "a":  "Zn → Zn²⁺ + 2e⁻ (oxidation); Cu²⁺ + 2e⁻ → Cu (reduction).",
+                          "q":  "Write the half-equations for Zn + Cu²⁺ → Zn²⁺ + Cu."
+                      },
+                      {
+                          "a":  "Oxygen and water.",
+                          "q":  "Two conditions needed for rusting?"
+                      }
+                  ],
+        "chapter":  10,
+        "exam":  "Exam 1 · October",
+        "notes":  "# Oxidation and reduction — four ways to define them\n\n| | Oxidation | Reduction |\n|---|---|---|\n| Oxygen | **Gain** of oxygen | **Loss** of oxygen |\n| Hydrogen | Loss of hydrogen | Gain of hydrogen |\n| Electrons | **Loss** of electrons | **Gain** of electrons (**OIL RIG**) |\n| Oxidation state | **Increases** | **Decreases** |\n\nOxidation and reduction always happen **together** → a **redox** reaction.\n\n**Examples**\n\n- 2Mg + O₂ → 2MgO: magnesium gains oxygen (oxidised); Mg → Mg²⁺ + 2e⁻ loses electrons (oxidised); O gains electrons (reduced).\n- CuO + H₂ → Cu + H₂O: copper oxide loses oxygen (reduced); hydrogen gains oxygen (oxidised).\n- Fe₂O₃ + 3CO → 2Fe + 3CO₂ (blast furnace): iron oxide reduced, carbon monoxide oxidised.\n- Zn + Cu²⁺ → Zn²⁺ + Cu (displacement): Zn loses electrons (oxidised), Cu²⁺ gains electrons (reduced).\n\n# Oxidising and reducing agents\n\n- **Oxidising agent:** oxidises something else and is itself **reduced** (gains electrons). Examples: oxygen, chlorine, **acidified potassium manganate(VII)** (purple → colourless), **potassium dichromate(VI)** (orange → green), hydrogen peroxide.\n- **Reducing agent:** reduces something else and is itself **oxidised** (loses electrons). Examples: hydrogen, carbon, carbon monoxide, reactive metals, **potassium iodide** (colourless → brown as iodine forms).\n\n**Tests:** acidified KMnO₄ turns from purple to colourless in the presence of a reducing agent; KI solution turns brown (iodine) in the presence of an oxidising agent.\n\n# Oxidation states (oxidation numbers)\n\nRules:\n\n1. Uncombined element = **0** (Fe, O₂, Cl₂).\n2. Simple ion = its charge (Na⁺ = +1, Cl⁻ = −1, Al³⁺ = +3).\n3. In compounds: Group I metals +1, Group II +2, **hydrogen +1** (except metal hydrides −1), **oxygen −2** (except peroxides −1), fluorine −1.\n4. The oxidation states in a neutral compound **add to 0**; in a polyatomic ion they add to the **ion\u0027s charge**.\n\nWorked: Fe₂O₃ → O is −2 × 3 = −6, so 2Fe = +6, Fe = **+3**. MnO₄⁻ → 4 O = −8; total = −1 → Mn = **+7**. SO₄²⁻ → S = +6. Roman numerals in names give the oxidation state: iron(III) chloride FeCl₃, copper(II) oxide CuO, manganese(IV) oxide MnO₂.\n\n**Identifying redox with oxidation states:** in Zn + 2HCl → ZnCl₂ + H₂, Zn goes 0 → +2 (oxidised), H goes +1 → 0 (reduced).\n\n# Half-equations and ionic equations\n\nA redox reaction can be split into two **half-equations** showing the electrons:\n\n- Oxidation: Zn → Zn²⁺ + 2e⁻\n- Reduction: Cu²⁺ + 2e⁻ → Cu\n- Add them (electrons cancel): Zn + Cu²⁺ → Zn²⁺ + Cu\n\nAt the electrodes in electrolysis: cathode = reduction (Cu²⁺ + 2e⁻ → Cu), anode = oxidation (2Cl⁻ → Cl₂ + 2e⁻).\n\n# Everyday redox\n\n- **Combustion** (fuel oxidised), **rusting** (iron oxidised: 4Fe + 3O₂ + 6H₂O → 4Fe(OH)₃; needs oxygen AND water), **respiration**, **bleaching** (oxidising agents), **metal extraction** (ores reduced with carbon or by electrolysis), **batteries** (electrons flow from the oxidised to the reduced substance).",
+        "order":  10,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "It gains oxygen and loses electrons.",
+                         "options":  [
+                                         "Reduced",
+                                         "Oxidised",
+                                         "A catalyst",
+                                         "Unchanged"
+                                     ],
+                         "q":  "In 2Mg + O₂ → 2MgO, magnesium is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "RIG — reduction is gain.",
+                         "options":  [
+                                         "Oxidised",
+                                         "Reduced",
+                                         "An acid",
+                                         "A reducing agent"
+                                     ],
+                         "q":  "A substance that gains electrons is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Chloride ion.",
+                         "options":  [
+                                         "0",
+                                         "+1",
+                                         "−1",
+                                         "−2"
+                                     ],
+                         "q":  "The oxidation state of Cl in NaCl is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "7 × −2 = −14; 2Cr = +12; Cr = +6.",
+                         "options":  [
+                                         "+3",
+                                         "+6",
+                                         "+7",
+                                         "+12"
+                                     ],
+                         "q":  "The oxidation state of Cr in Cr₂O₇²⁻ is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Manganate(VII) was reduced by a reducing agent.",
+                         "options":  [
+                                         "An oxidising agent",
+                                         "A reducing agent",
+                                         "An acid",
+                                         "A base"
+                                     ],
+                         "q":  "Acidified potassium manganate(VII) changes from purple to colourless. The other substance was:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "CO removes oxygen from iron oxide and is itself oxidised.",
+                         "options":  [
+                                         "Fe₂O₃",
+                                         "CO",
+                                         "Fe",
+                                         "CO₂"
+                                     ],
+                         "q":  "In Fe₂O₃ + 3CO → 2Fe + 3CO₂ the reducing agent is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Electrons are lost.",
+                         "options":  [
+                                         "Cu²⁺ + 2e⁻ → Cu",
+                                         "Cl₂ + 2e⁻ → 2Cl⁻",
+                                         "Mg → Mg²⁺ + 2e⁻",
+                                         "Ag⁺ + e⁻ → Ag"
+                                     ],
+                         "q":  "Which half-equation shows oxidation?"
+                     }
+                 ],
+        "subject":  "chemistry",
+        "title":  "Redox reactions",
+        "updated":  "Chapter notes",
+        "id":  "chem-redox"
     },
     {
         "cards":  [
@@ -4584,6 +5231,142 @@
         "title":  "Key concepts \u0026 the Global Perspectives skills",
         "updated":  "Starter notes",
         "id":  "gp-concepts"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Thinking about how and why your view changed after considering evidence and other perspectives, and what you would do differently.",
+                          "q":  "What is reflection in Global Perspectives?"
+                      },
+                      {
+                          "a":  "Starting view; what evidence changed it and why; current justified view; limits of your knowledge; personal and wider impact.",
+                          "q":  "Five parts of a strong reflection?"
+                      },
+                      {
+                          "a":  "It names no evidence and no change in thinking.",
+                          "q":  "Why is \u0027I learned a lot\u0027 weak reflection?"
+                      },
+                      {
+                          "a":  "A team of 2–5 chooses a global issue, sets an aim, researches and produces an outcome; each member writes an individual reflective paper.",
+                          "q":  "What is the Team Project?"
+                      },
+                      {
+                          "a":  "Specific, achievable and measurable, e.g. reduce canteen food waste by 10%.",
+                          "q":  "What makes a good team aim?"
+                      },
+                      {
+                          "a":  "Assign roles by strength, keep a plan with deadlines, communicate regularly and keep a log.",
+                          "q":  "Three ways a team works well?"
+                      },
+                      {
+                          "a":  "Return to the aim and the evidence, discuss options and compromise — not personal arguments.",
+                          "q":  "How should a team resolve disagreement?"
+                      },
+                      {
+                          "a":  "Compare with the aim using evidence (before/after survey, numbers reached) and identify what would be improved.",
+                          "q":  "How do you evaluate whether a team outcome worked?"
+                      },
+                      {
+                          "a":  "Introduction, perspectives with evidence, analysis, evaluation, conclusion/judgement, reflection and references.",
+                          "q":  "Six sections of a good GP report?"
+                      },
+                      {
+                          "a":  "Because, therefore, as a result, however, on the other hand, this suggests that.",
+                          "q":  "Give four connectives that show reasoning."
+                      },
+                      {
+                          "a":  "Name the source, author/organisation and date: \u0027According to the WHO (2022)…\u0027.",
+                          "q":  "How do you attribute evidence?"
+                      },
+                      {
+                          "a":  "Author or organisation, title, date, and URL if online.",
+                          "q":  "What should a reference include?"
+                      },
+                      {
+                          "a":  "Identify issues/perspectives; explain causes and consequences; evaluate sources; compare perspectives; reflect; evaluate a course of action.",
+                          "q":  "Name four question types in the written exam."
+                      },
+                      {
+                          "a":  "A proposed solution to a problem; evaluate how effective, practical, affordable and fair it is.",
+                          "q":  "What is a course of action?"
+                      }
+                  ],
+        "chapter":  4,
+        "exam":  "Exam 1 · October",
+        "notes":  "# Chapter 4 — Reflection\n\n**Reflection** means thinking carefully about what you have learned, how your ideas changed, and what you would do differently. In Global Perspectives it is an assessed skill in the written exam, the team project and the individual report.\n\n**What good reflection includes**\n\n1. **Your starting view** — what you thought before researching.\n2. **What changed it** — a specific piece of evidence or a different perspective, and *why* it was convincing.\n3. **What you now think** — a clear, justified position (it is fine to keep your view if you explain why the counter-evidence did not persuade you).\n4. **Limits** — what you still don\u0027t know; what evidence would settle it.\n5. **Personal and wider impact** — how the issue affects you, your community and the world; what actions could follow.\n\n**Sentence frames:** *Before researching I assumed… / The source that most changed my thinking was… because… / I now believe… however… / To be more certain I would need…*\n\n\u003e Weak reflection = \"I learned a lot and it was interesting.\" Strong reflection names the evidence and explains the shift in thinking.\n\n# Chapter 5 — Collaboration (Team Project)\n\nThe **Team Project** (Component 3): a team of 2–5 students chooses a global issue, sets an aim, plans, researches, and produces a **team outcome** (a campaign, video, website, event, leaflet) plus each member writes an **individual reflective paper** (about 800 words).\n\n**Working well in a team**\n\n- Agree an **aim** that is specific and achievable (\"raise awareness among Year 7 of food waste and reduce canteen waste by 10%\").\n- **Assign roles** by strength (researcher, designer, presenter, organiser) and write a **plan** with deadlines.\n- **Communicate**: regular meetings, shared documents, minutes of decisions.\n- **Resolve disagreements** by returning to the aim and to evidence, not personalities; compromise.\n- Keep a **log**: what you did, problems, how you solved them — this feeds the reflective paper.\n\n**Evaluating the outcome and the team:** Did we achieve the aim? What evidence shows it (survey before/after, numbers reached)? What worked, what didn\u0027t, what would we change? How did *I* contribute and what did *I* learn about working with others and about the issue?\n\n# Chapter 6 — Communication\n\nPresenting research so that a reader or listener understands the issue, the perspectives and your reasoning.\n\n**Structure of a good written answer / report**\n\n1. **Introduction** — the issue, why it matters, the question you are answering.\n2. **Perspectives** — at least two (personal / national / global, or different stakeholders), each with **evidence** and a source.\n3. **Analysis** — causes and consequences, how the perspectives differ and why.\n4. **Evaluation** — strengths and weaknesses of the evidence and of possible courses of action.\n5. **Conclusion / your judgement** — clearly stated and justified.\n6. **Reflection** and **references** (author, title, date, URL).\n\n**Language of communication**\n\n- Use **connectives** that show reasoning: *because, therefore, as a result, however, on the other hand, this suggests that, in contrast*.\n- Be **precise**: \"a 2022 WHO report found that 1 in 8 people…\" beats \"lots of people\".\n- **Attribute** evidence: \"According to Oxfam (2021)…\".\n- Keep to the **word limit** and the **audience** (formal register for the examiner; simpler, persuasive language for a public campaign).\n\n**Presentations (team project):** clear aim on the first slide, one idea per slide, images with sources, speak to the audience not the screen, finish with a call to action.\n\n# The written exam (Component 1) in brief\n\nYou get a source booklet on a topic. Questions typically ask you to: identify an issue and perspectives; explain causes/consequences; **evaluate sources** (reliability, bias); compare two perspectives and say which is more convincing; **reflect** on your own view; and propose/evaluate a **course of action**. Use PEEL paragraphs and quote the sources.",
+        "order":  3,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "It names evidence and explains the change.",
+                         "options":  [
+                                         "I found the topic interesting.",
+                                         "My opinion did not change.",
+                                         "The UN report\u0027s statistics on child labour made me realise the problem is far larger than I assumed, so I now support stronger trade rules.",
+                                         "I learned about many perspectives."
+                                     ],
+                         "q":  "Which is the best reflection sentence?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "So you can judge whether you achieved it.",
+                         "options":  [
+                                         "As broad as possible",
+                                         "Specific and measurable",
+                                         "Chosen by the teacher",
+                                         "Kept secret from the team"
+                                     ],
+                         "q":  "A team project aim should be:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Measurable change linked to the aim.",
+                         "options":  [
+                                         "The team enjoyed it",
+                                         "A survey showed 40% more students recycle than before",
+                                         "The poster looked good",
+                                         "It took a long time"
+                                     ],
+                         "q":  "Which is evidence that a campaign worked?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Naming the source of evidence.",
+                         "options":  [
+                                         "Reflection",
+                                         "Attributing evidence",
+                                         "Bias",
+                                         "A course of action"
+                                     ],
+                         "q":  "\u0027According to a 2021 Oxfam report…\u0027 is an example of:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "It introduces a counter-perspective.",
+                         "options":  [
+                                         "Cause",
+                                         "A contrasting point",
+                                         "A conclusion",
+                                         "A statistic"
+                                     ],
+                         "q":  "The connective \u0027however\u0027 signals:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Personal reflection on both content and collaboration.",
+                         "options":  [
+                                         "Only the issue",
+                                         "Only the team",
+                                         "Your own contribution, what you learned about the issue and about teamwork",
+                                         "The teacher\u0027s opinion"
+                                     ],
+                         "q":  "The individual reflective paper should focus on:"
+                     }
+                 ],
+        "subject":  "gp",
+        "title":  "Reflection, collaboration \u0026 communication (chapters 4–6)",
+        "updated":  "Chapter notes",
+        "id":  "gp-reflection-comm"
     },
     {
         "cards":  [
@@ -10158,6 +10941,312 @@
         "title":  "Motion: speed, velocity, acceleration \u0026 graphs",
         "updated":  "Starter notes",
         "id":  "phys-motion"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "Particles gain kinetic energy, vibrate/move more and take up more space.",
+                          "q":  "Why do substances expand when heated?"
+                      },
+                      {
+                          "a":  "Gas most, then liquid, then solid.",
+                          "q":  "Which expands most for the same temperature rise: solid, liquid or gas?"
+                      },
+                      {
+                          "a":  "Two metals expand by different amounts, so the strip bends when heated — used in thermostats and fire alarms.",
+                          "q":  "How does a bimetallic strip work?"
+                      },
+                      {
+                          "a":  "Expansion gaps in railway lines/bridges; sag in overhead cables; loops in pipes.",
+                          "q":  "Give two ways engineers allow for expansion."
+                      },
+                      {
+                          "a":  "It expands on cooling; ice is less dense than water, so it floats and pipes can burst.",
+                          "q":  "What is unusual about water between 4 °C and 0 °C?"
+                      },
+                      {
+                          "a":  "The total kinetic and potential energy of all the particles in an object.",
+                          "q":  "Define internal energy."
+                      },
+                      {
+                          "a":  "The energy needed to raise the temperature of 1 kg of a substance by 1 °C; unit J/(kg °C).",
+                          "q":  "Define specific heat capacity."
+                      },
+                      {
+                          "a":  "E = m c ΔT",
+                          "q":  "Formula linking energy, mass, c and temperature change?"
+                      },
+                      {
+                          "a":  "About 4200 J/(kg °C) — very high, so water is a good coolant and heats/cools slowly.",
+                          "q":  "Specific heat capacity of water and why it matters?"
+                      },
+                      {
+                          "a":  "3 × 4200 × 20 = 252 000 J",
+                          "q":  "Energy to heat 3 kg of water by 20 °C?"
+                      },
+                      {
+                          "a":  "Energy needed to change 1 kg of solid into liquid at its melting point without a temperature change.",
+                          "q":  "Define specific latent heat of fusion."
+                      },
+                      {
+                          "a":  "Energy needed to change 1 kg of liquid into gas at its boiling point without a temperature change.",
+                          "q":  "Define specific latent heat of vaporisation."
+                      },
+                      {
+                          "a":  "E = m L",
+                          "q":  "Formula for latent heat energy?"
+                      },
+                      {
+                          "a":  "The supplied energy is used to break bonds between particles (latent heat), not to increase their kinetic energy.",
+                          "q":  "Why is the temperature constant during melting?"
+                      },
+                      {
+                          "a":  "Steam condensing on skin releases its latent heat of vaporisation as well as cooling.",
+                          "q":  "Why is a steam burn worse than a boiling-water burn?"
+                      },
+                      {
+                          "a":  "The boiling plateau, because L_v is much larger than L_f.",
+                          "q":  "On a heating curve, which plateau is longer and why?"
+                      }
+                  ],
+        "chapter":  10,
+        "exam":  "Exam 1 · October",
+        "notes":  "# 10.1 Thermal expansion\n\nWhen a substance is heated its particles gain kinetic energy, vibrate more and take up **more space** → the substance **expands**. Cooling → contracts.\n\n- **Solids** expand least, **liquids** more, **gases** most (for the same temperature rise).\n- **Uses:** bimetallic strip in thermostats and fire alarms (two metals expand by different amounts, so the strip bends); liquid-in-glass thermometers; shrink-fitting metal parts (heat the outer ring so it expands, slide on, cools and grips).\n- **Problems / allowances:** expansion gaps in railway tracks and bridges; overhead cables sag in summer; concrete roads have gaps; pipes have loops.\n\n**Water is unusual:** it contracts on cooling only down to 4 °C, then **expands** as it freezes — ice is less dense than water and floats; pipes burst in winter.\n\n# 10.2 Internal energy and specific heat capacity\n\n- **Internal energy** = total kinetic energy (movement) + potential energy (bonds) of all the particles in an object. Heating raises internal energy; higher temperature = higher average kinetic energy.\n- **Specific heat capacity (c)**: the energy required to raise the temperature of **1 kg** of a substance by **1 °C** (or 1 K). Unit **J/(kg °C)**.\n\n\u003e **E = m c ΔT**   energy (J) = mass (kg) × specific heat capacity × temperature change (°C)\n\n- Water: c ≈ **4200 J/(kg °C)** — very high, so water heats and cools slowly (good coolant, moderates climate).\n- Example: heating 2 kg of water from 20 °C to 70 °C: E = 2 × 4200 × 50 = **420 000 J**.\n- Example: 500 J raises 0.1 kg of a metal by 10 °C → c = 500 / (0.1 × 10) = **500 J/(kg °C)**.\n\n**Measuring c (experiment):** insulated block/water with a known mass, electric heater, thermometer; measure energy supplied (E = power × time, or joulemeter) and temperature rise; c = E / (m ΔT). Errors: heat lost to surroundings (insulate), thermometer lag, heater\u0027s own heat capacity.\n\n# 10.3 Melting, boiling and latent heat\n\n- **Melting point / boiling point:** temperature at which the state changes (water 0 °C and 100 °C at standard pressure). During the change the **temperature stays constant** although energy is still supplied.\n- **Latent heat** (\"hidden\" heat): the energy needed to change state **without a change in temperature**; it goes into breaking or forming the bonds between particles.\n- **Specific latent heat of fusion (L_f):** energy to change 1 kg of solid to liquid at the melting point (ice: 334 000 J/kg).\n- **Specific latent heat of vaporisation (L_v):** energy to change 1 kg of liquid to gas at the boiling point (water: 2 260 000 J/kg).\n\n\u003e **E = m L**   energy (J) = mass (kg) × specific latent heat (J/kg)\n\n- Example: melting 0.5 kg of ice: 0.5 × 334 000 = **167 000 J**.\n- Full problem: heat 0.2 kg of ice at 0 °C to steam at 100 °C = melt (0.2 × 334 000 = 66 800) + heat water (0.2 × 4200 × 100 = 84 000) + boil (0.2 × 2 260 000 = 452 000) = **602 800 J**.\n\n**Heating curve:** temperature rises (solid) → flat (melting) → rises (liquid) → flat (boiling) → rises (gas). Flat sections = latent heat; the boiling plateau is longer than the melting one because L_v \u003e L_f.\n\n# 10.4 Evaporation vs boiling (recap)\n\n| Evaporation | Boiling |\n|---|---|\n| Surface only | Throughout the liquid (bubbles) |\n| Any temperature | Only at the boiling point |\n| Faster with higher temperature, larger area, draught, lower humidity | At a fixed temperature |\n| Cools the liquid left behind | Temperature stays constant |\n\n**Condensation** releases latent heat — why steam burns are worse than boiling-water burns; **solidification** releases latent heat of fusion.",
+        "order":  10,
+        "quiz":  [
+                     {
+                         "answer":  1,
+                         "explain":  "Sag allows for contraction in cold weather without snapping.",
+                         "options":  [
+                                         "They are heavy",
+                                         "They expand in summer and contract in winter",
+                                         "Wind pushes them",
+                                         "Electricity stretches them"
+                                     ],
+                         "q":  "Overhead power cables are hung with a sag because:"
+                     },
+                     {
+                         "answer":  0,
+                         "explain":  "0.5 × 4200 × 30 = 63 000 J.",
+                         "options":  [
+                                         "63 000 J",
+                                         "126 000 J",
+                                         "4230 J",
+                                         "6300 J"
+                                     ],
+                         "q":  "How much energy raises 0.5 kg of water (c = 4200) by 30 °C?"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "8000 ÷ (2 × 10) = 400 J/(kg °C).",
+                         "options":  [
+                                         "160 000",
+                                         "400",
+                                         "1600",
+                                         "40"
+                                     ],
+                         "q":  "A 2 kg block absorbs 8000 J and warms by 10 °C. Its specific heat capacity is:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Latent heat of vaporisation.",
+                         "options":  [
+                                         "Increasing particle speed",
+                                         "Breaking bonds between particles",
+                                         "Raising the temperature",
+                                         "Nothing"
+                                     ],
+                         "q":  "During boiling, the energy supplied goes into:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "2 × 334 000.",
+                         "options":  [
+                                         "167 000 J",
+                                         "334 000 J",
+                                         "668 000 J",
+                                         "4 520 000 J"
+                                     ],
+                         "q":  "Energy to melt 2 kg of ice (L_f = 334 000 J/kg):"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Temperature is constant while melting or boiling.",
+                         "options":  [
+                                         "The substance cooling",
+                                         "Changes of state",
+                                         "Expansion",
+                                         "Increasing kinetic energy"
+                                     ],
+                         "q":  "On a heating curve the flat sections show:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "The fastest molecules escape, lowering the average energy.",
+                         "options":  [
+                                         "It happens only at 100 °C",
+                                         "It happens throughout the liquid",
+                                         "It cools the liquid left behind",
+                                         "It needs bubbles"
+                                     ],
+                         "q":  "Which statement about evaporation is correct?"
+                     }
+                 ],
+        "subject":  "physics",
+        "title":  "Thermal properties of matter",
+        "updated":  "Chapter notes",
+        "id":  "phys-thermal-props"
+    },
+    {
+        "cards":  [
+                      {
+                          "a":  "From hotter to colder.",
+                          "q":  "In which direction does thermal energy always flow?"
+                      },
+                      {
+                          "a":  "Vibrating particles pass energy to their neighbours, and free electrons move through the metal carrying energy quickly.",
+                          "q":  "Describe conduction in a metal."
+                      },
+                      {
+                          "a":  "Metals have free electrons that carry energy; plastics do not.",
+                          "q":  "Why are metals good conductors and plastics poor?"
+                      },
+                      {
+                          "a":  "Air is a poor conductor and trapping it stops convection: double glazing, wool, fur, loft insulation.",
+                          "q":  "Why is trapped air a good insulator? Give examples."
+                      },
+                      {
+                          "a":  "Heated fluid expands, becomes less dense and rises; cooler denser fluid sinks to replace it, forming a convection current.",
+                          "q":  "Explain convection using density."
+                      },
+                      {
+                          "a":  "Hot air rises from a low radiator to heat the room; cold air sinks from the top of a fridge to cool everything below.",
+                          "q":  "Why are radiators placed low and freezer compartments high?"
+                      },
+                      {
+                          "a":  "Land heats faster than sea by day; warm air over land rises; cooler air from the sea moves in to replace it.",
+                          "q":  "Explain a sea breeze."
+                      },
+                      {
+                          "a":  "Infrared electromagnetic waves emitted by all objects; it needs no particles so it crosses a vacuum.",
+                          "q":  "What is thermal radiation?"
+                      },
+                      {
+                          "a":  "Dull black.",
+                          "q":  "Which surface is the best emitter and absorber of radiation?"
+                      },
+                      {
+                          "a":  "Shiny silver or white — a good reflector.",
+                          "q":  "Which surface is the poorest emitter/absorber?"
+                      },
+                      {
+                          "a":  "Vacuum stops conduction and convection; silvered walls reduce radiation; the stopper reduces conduction and convection at the top.",
+                          "q":  "How does a vacuum flask reduce each type of transfer?"
+                      },
+                      {
+                          "a":  "Metal conducts heat away from your hand faster.",
+                          "q":  "Why does a metal object feel colder than wood at the same temperature?"
+                      },
+                      {
+                          "a":  "When it absorbs radiation at the same rate as it emits it.",
+                          "q":  "When does an object stay at a constant temperature?"
+                      },
+                      {
+                          "a":  "White reflects radiation, so the house absorbs less heat.",
+                          "q":  "Why are houses in hot countries painted white?"
+                      },
+                      {
+                          "a":  "That a dull black surface emits more infrared than a shiny one at the same temperature.",
+                          "q":  "What does Leslie\u0027s cube show?"
+                      }
+                  ],
+        "chapter":  11,
+        "exam":  "Exam 1 · October",
+        "notes":  "# Three ways thermal energy moves (always from hot to cold)\n\n| | Conduction | Convection | Radiation |\n|---|---|---|---|\n| Happens in | Mainly **solids** (also liquids/gases slowly) | **Liquids and gases** (fluids) only | Through **anything, including a vacuum** (no particles needed) |\n| How | Vibrating particles pass energy to neighbours; in metals **free electrons** carry energy fast | Heated fluid **expands, becomes less dense and rises**; cooler denser fluid sinks → **convection current** | **Infrared electromagnetic waves** emitted by every object |\n| Example | Metal spoon in hot tea | Heating a room with a radiator, sea breezes, hot-air balloon | Sun warming the Earth, feeling a fire on your face |\n\n# Conduction\n\n- **Good conductors:** metals (copper, aluminium) — free electrons move through the metal carrying energy quickly.\n- **Poor conductors (insulators):** wood, plastic, glass, air, wool, polystyrene — no free electrons; trapped air is an excellent insulator (double glazing, fur, feathers, fibreglass loft insulation).\n- **Experiment:** rods of different metals with wax-fixed drawing pins heated at one end; the pin falls first on the best conductor. Or: touch metal and wood at room temperature — metal feels colder because it conducts heat **away from your hand** faster.\n\n# Convection\n\n- Explanation must use **density**: \"the air near the heater is heated, expands, becomes **less dense** and **rises**; cooler, denser air moves in to replace it, forming a convection current.\"\n- Radiators are placed **low**; freezer compartments are at the **top** of a fridge (cold air sinks); chimneys draw smoke up.\n- **Sea breeze:** by day the land heats faster than the sea → air over land rises → cool air from the sea blows in. At night it reverses (land breeze).\n- **Experiment:** potassium manganate(VII) crystal in a beaker of water heated at one side — the purple colour shows the current.\n\n# Radiation\n\n- All objects emit **infrared radiation**; hotter objects emit more, and at shorter wavelengths.\n- **Surfaces:** **dull black** surfaces are the **best emitters and best absorbers**; **shiny silver/white** surfaces are **poor emitters and poor absorbers** (good reflectors).\n- Examples: black solar panels and car radiators; shiny foil behind radiators, silver survival blankets, white houses in hot countries; petrol tankers painted silver.\n- **Experiment (Leslie\u0027s cube):** cube with different surface faces filled with hot water; a detector shows the black face emits the most.\n- An object stays at constant temperature when it **absorbs radiation at the same rate as it emits** it (Earth\u0027s temperature; greenhouse effect: CO₂ traps re-emitted infrared).\n\n# Applications — explain each with the right process\n\n- **Vacuum flask:** vacuum between double walls stops **conduction and convection**; silvered surfaces reduce **radiation**; plastic stopper reduces conduction/convection at the top.\n- **Home insulation:** loft insulation (trapped air — conduction), cavity wall foam (conduction/convection), double glazing (air/argon gap), carpets, draught excluders (convection), reflective foil (radiation).\n- **Cooling fins** on engines/heat sinks: large surface area, black, metal → faster conduction and radiation.\n- **Clothing:** wool traps air; light colours in summer reflect radiation.\n\n\u003e **Exam tip:** name the process AND explain it with particles/density/waves. \"Heat rises\" scores nothing — \"hot air is less dense so it rises\" scores.",
+        "order":  11,
+        "quiz":  [
+                     {
+                         "answer":  2,
+                         "explain":  "Only radiation crosses the vacuum of space.",
+                         "options":  [
+                                         "Conduction",
+                                         "Convection",
+                                         "Radiation",
+                                         "Evaporation"
+                                     ],
+                         "q":  "Heat from the Sun reaches Earth by:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Particles in a solid cannot flow.",
+                         "options":  [
+                                         "Water",
+                                         "Air",
+                                         "A solid",
+                                         "A gas"
+                                     ],
+                         "q":  "Convection cannot happen in:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Warm air rises, cool air replaces it.",
+                         "options":  [
+                                         "Conduction through the floor",
+                                         "Convection currents in the air",
+                                         "Radiation only",
+                                         "Evaporation"
+                                     ],
+                         "q":  "A radiator heats a room mainly by:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Black absorbs and emits best.",
+                         "options":  [
+                                         "Shiny silver",
+                                         "White",
+                                         "Dull black",
+                                         "Transparent"
+                                     ],
+                         "q":  "The best absorber of infrared radiation is a surface that is:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Shiny surfaces are poor emitters and reflect radiation.",
+                         "options":  [
+                                         "Conduction",
+                                         "Convection",
+                                         "Radiation",
+                                         "Evaporation"
+                                     ],
+                         "q":  "The silvered walls in a vacuum flask reduce heat transfer by:"
+                     },
+                     {
+                         "answer":  1,
+                         "explain":  "Free electrons move and carry energy through the lattice.",
+                         "options":  [
+                                         "Their colour",
+                                         "Free electrons",
+                                         "Their density",
+                                         "Their high melting point"
+                                     ],
+                         "q":  "Metals conduct heat well because of:"
+                     },
+                     {
+                         "answer":  2,
+                         "explain":  "Density must be mentioned.",
+                         "options":  [
+                                         "Heat rises",
+                                         "Hot air rises",
+                                         "Hot air expands, becomes less dense and rises; cooler denser air sinks",
+                                         "Warm air floats on cold air"
+                                     ],
+                         "q":  "Which explanation of convection earns full marks?"
+                     }
+                 ],
+        "subject":  "physics",
+        "title":  "Thermal energy transfers: conduction, convection, radiation",
+        "updated":  "Chapter notes",
+        "id":  "phys-thermal-transfer"
     },
     {
         "cards":  [
