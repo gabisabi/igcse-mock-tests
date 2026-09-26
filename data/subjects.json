@@ -5,8 +5,9 @@
     "authors": "David Sang, Mike Follows, Sheila Tarpey",
     "edition": "3rd edition",
     "publisher": "Cambridge University Press",
-    "role": "Coursebook",
-    "title": "Cambridge IGCSE Physics Coursebook"
+    "role": "Coursebook · publisher page",
+    "title": "Cambridge IGCSE Physics Coursebook",
+    "url": "https://www.cambridge.org/gb/education/subject/science/physics/cambridge-igcse-physics-3rd-edition"
    }
   ],
   "chapters": [
@@ -125,15 +126,17 @@
     "authors": "Karen Morrison, Nick Hamshaw",
     "edition": "3rd edition",
     "publisher": "Cambridge University Press",
-    "role": "Coursebook",
-    "title": "Cambridge IGCSE Mathematics Core and Extended Coursebook"
+    "role": "Coursebook · publisher page",
+    "title": "Cambridge IGCSE Mathematics Core and Extended Coursebook",
+    "url": "https://www.cambridge.org/us/education/subject/mathematics/cambridge-igcse-mathematics-core-and-extended-3rd-edition"
    },
    {
     "authors": "Karen Morrison, Lucille Dunne",
     "edition": "3rd edition",
     "publisher": "Cambridge University Press",
-    "role": "Practice book",
-    "title": "Cambridge IGCSE Mathematics Core and Extended Practice Book"
+    "role": "Practice book · publisher page",
+    "title": "Cambridge IGCSE Mathematics Core and Extended Practice Book",
+    "url": "https://www.cambridge.org/us/education/subject/mathematics/cambridge-igcse-mathematics-core-and-extended-3rd-edition"
    }
   ],
   "chapters": [
@@ -248,8 +251,9 @@
     "authors": "Richard Harwood, Ian Lodge, Chris Millington",
     "edition": "5th edition",
     "publisher": "Cambridge University Press",
-    "role": "Coursebook",
-    "title": "Cambridge IGCSE Chemistry Coursebook"
+    "role": "Coursebook · publisher page",
+    "title": "Cambridge IGCSE Chemistry Coursebook",
+    "url": "https://www.cambridge.org/gb/education/subject/science/chemistry/cambridge-igcse-chemistry-5th-edition"
    }
   ],
   "chapters": [
@@ -356,8 +360,9 @@
     "authors": "David Watson, Helen Williams",
     "edition": "2nd edition (white robot cover)",
     "publisher": "Hodder Education",
-    "role": "Textbook",
-    "title": "Cambridge IGCSE and O Level Computer Science"
+    "role": "Textbook · Google Books page",
+    "title": "Cambridge IGCSE and O Level Computer Science",
+    "url": "https://books.google.com/books/about/Cambridge_IGCSE_and_O_Level_Computer_Sci.html?id=LyvbzQEACAAJ"
    }
   ],
   "chapters": [
@@ -426,8 +431,9 @@
     "authors": "Graham Elsdon, Helen Rees-Bidder",
     "edition": "6th edition",
     "publisher": "Cambridge University Press",
-    "role": "Coursebook",
-    "title": "First Language English for Cambridge IGCSE Coursebook"
+    "role": "Coursebook · publisher page",
+    "title": "First Language English for Cambridge IGCSE Coursebook",
+    "url": "https://www.cambridge.org/us/education/subject/english/cambridge-igcse-first-language-english-6th-edition"
    }
   ],
   "chapters": [
@@ -486,15 +492,25 @@
     "authors": "",
     "edition": "",
     "publisher": "ოცდამეერთე (Bukia 21st)",
-    "role": "Учебник · student book",
-    "title": "Русский язык 9 · книга для ученика"
+    "role": "Учебник · student book (PDF, издательство)",
+    "title": "Русский язык 9 · книга для ученика",
+    "url": "https://drive.google.com/file/d/1QyxeUxxbfLGeTiW0KUfciT_NsYcCzUJ0/view"
    },
    {
     "authors": "",
     "edition": "",
     "publisher": "ოცდამეერთე (Bukia 21st)",
-    "role": "Рабочая тетрадь · workbook",
-    "title": "Русский язык 9 · сборник упражнений"
+    "role": "Рабочая тетрадь · workbook (PDF, издательство)",
+    "title": "Русский язык 9 · сборник упражнений",
+    "url": "https://drive.google.com/file/d/1etJe3A26kjIDStH6NP-Eczn3KGe6lG3b/view"
+   },
+   {
+    "authors": "",
+    "edition": "",
+    "publisher": "Букия 21-й век",
+    "role": "Аудио · audio files (Drive folder)",
+    "title": "Русский язык 9 · аудиоматериалы",
+    "url": "https://drive.google.com/drive/folders/1U42VYPaI2lVfTClt7V-p2G6aCCA1r7ui"
    }
   ],
   "chapters": [
@@ -518,8 +534,9 @@
     "authors": "Keely Laycock",
     "edition": "",
     "publisher": "Cambridge University Press",
-    "role": "Coursebook",
-    "title": "Cambridge IGCSE and O Level Global Perspectives Coursebook"
+    "role": "Coursebook · publisher page",
+    "title": "Cambridge IGCSE and O Level Global Perspectives Coursebook",
+    "url": "https://www.cambridge.org/us/education/subject/humanities/global-perspectives/cambridge-igcse-and-o-level-global-perspectives-2nd-edition"
    }
   ],
   "chapters": [
@@ -731,15 +748,25 @@
     "authors": "",
     "edition": "",
     "publisher": "სულაკაურის გამომცემლობა",
-    "role": "მოსწავლის წიგნი",
-    "title": "ქართული ლიტერატურა 9, ნაწილი I"
+    "role": "მოსწავლის წიგნი · სრული ონლაინ ვერსია (გამომცემლობა)",
+    "title": "ქართული ლიტერატურა 9, ნაწილი I",
+    "url": "https://fliphtml5.com/njlgv/vejh/"
    },
    {
     "authors": "",
     "edition": "",
     "publisher": "სულაკაურის გამომცემლობა",
-    "role": "მოსწავლის წიგნი",
-    "title": "ქართული ენა 9"
+    "role": "მოსწავლის წიგნი · სრული ონლაინ ვერსია (გამომცემლობა)",
+    "title": "ქართული ენა 9",
+    "url": "https://fliphtml5.com/njlgv/oohj/"
+   },
+   {
+    "authors": "",
+    "edition": "237 გვ.",
+    "publisher": "სულაკაურის გამომცემლობა",
+    "role": "მოსწავლის წიგნი · სრული ონლაინ ვერსია (გამომცემლობა)",
+    "title": "ქართული ლიტერატურა 9, ნაწილი II",
+    "url": "https://fliphtml5.com/njlgv/dpvq/"
    }
   ],
   "chapters": [
@@ -763,8 +790,9 @@
     "authors": "Mary Jones, Geoff Jones",
     "edition": "4th edition",
     "publisher": "Cambridge University Press",
-    "role": "Coursebook",
-    "title": "Cambridge IGCSE Biology Coursebook"
+    "role": "Coursebook · publisher page",
+    "title": "Cambridge IGCSE Biology Coursebook",
+    "url": "https://www.cambridge.org/us/education/subject/science/biology/cambridge-igcse-biology-4th-edition"
    }
   ],
   "chapters": [
