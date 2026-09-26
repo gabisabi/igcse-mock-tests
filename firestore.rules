@@ -18,7 +18,7 @@ service cloud.firestore {
       allow delete: if false;
     }
 
-    // Username â†’ account lookup so people can sign in with a username.
+    // Username to account lookup so people can sign in with a username.
     // Anyone can look up ONE exact username (needed before sign-in), nobody can list them all,
     // and a username can only be claimed once, by the account that owns it.
     match /usernames/{name} {
