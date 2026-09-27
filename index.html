@@ -446,8 +446,8 @@ function clozeFromNotes(t){
     if(/^\|/.test(L)&&/^\|?\s*:?-{3,}/.test(lines[i+1]||""))continue; // table header row
     const bolds=[...L.matchAll(/\*\*([^*\n]{2,60})\*\*/g)].map(m=>m[1].trim()).filter(b=>/[\p{L}\d]/u.test(b));
     bolds.forEach(b=>termsAll.push(b));
-    const text=clean(L);if(text.length<35||text.length>320)continue;
-    bolds.slice(0,3).forEach(b=>items.push({line:L,term:b,text}));
+    const text=clean(L);if(text.length<50||text.length>320)continue;
+    bolds.filter(b=>{if(b.length<3||/[:：]$/.test(b))return false;const i=L.indexOf("**"+b+"**");const after=i<0?"":L.slice(i+b.length+4).replace(/^\s+/,"");return !/^[:：—-]/.test(after);}).slice(0,3).forEach(b=>items.push({line:L,term:b,text}));
   }
   const uniqTerms=[...new Map(termsAll.map(b=>[b.toLowerCase(),b])).values()];
   const isNum=s=>/\d/.test(s);
@@ -460,6 +460,7 @@ function clozeFromNotes(t){
     pool=shuffle(pool).sort((a,b)=>Math.abs(a.length-it.term.length)-Math.abs(b.length-it.term.length)).slice(0,8);
     const others=shuffle(pool).slice(0,3);
     const stem=clean(it.line.replace("**"+it.term+"**","**______**"));
+    if(stem.replace("**______**","").replace(/[s—:;,.|*_-]/g,"").length<40)return;
     const opts=shuffle([it.term,...others]);
     out.push({q:T.gap+stem,options:opts,answer:opts.indexOf(it.term),explain:it.text,src:"cloze",key:"n:"+idx+":"+it.term});
   });
@@ -479,12 +480,12 @@ function newQuiz(t){
     if(shortQ.length>=4)shortQ.forEach(c=>{const others=shuffle(shortQ.filter(o=>o!==c)).slice(0,3).map(o=>o.q);const opts=shuffle([c.q,...others]);rev.push({q:T.rev+"“"+c.a+"”?",options:opts,answer:opts.indexOf(c.q),explain:"",src:"rev",key:"r:"+c.q});});
   }
   const cloze=clozeFromNotes(t);
-  const pool=bank.concat(cardQ,rev,cloze);
+  const pool=bank.concat(cardQ,cloze);
   const n=Math.min(15,pool.length);
   S.qzHist=S.qzHist||{};const hist=S.qzHist[t.id]||[];
   const fresh=g=>shuffle(g.filter(p=>!hist.includes(p.key)));const stale=g=>shuffle(g.filter(p=>hist.includes(p.key)));
   // stratified: some bank, some card, the rest gap-fill and reverse — fresh ones first
-  const want=[[bank,4],[cardQ,3],[cloze,6],[rev,2]];const set=[];
+  const want=[[bank,5],[cardQ,4],[cloze,6]];const set=[];
   want.forEach(([g,k])=>{set.push(...fresh(g).slice(0,k));});
   const used=new Set(set.map(p=>p.key));
   const rest=fresh(pool).filter(p=>!used.has(p.key)).concat(stale(pool).filter(p=>!used.has(p.key)));
