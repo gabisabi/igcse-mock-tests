@@ -740,6 +740,14 @@
   "order": 8,
   "short": "ი",
   "teacher": "IX BLUE – HISTORY",
+  "tests": [
+   {
+    "date": "2026-09-30",
+    "title": "ფორმატივი 1",
+    "covers": "§1–§4",
+    "type": "formative"
+   }
+  ],
   "id": "history"
  },
  {

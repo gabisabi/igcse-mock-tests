@@ -252,6 +252,8 @@ a{color:var(--accent)}
   .fc .face{font-size:17px;padding:22px}
 }
 [hidden]{display:none!important}
+.trow.test .when{font-size:12px;font-weight:700;color:var(--faint);white-space:nowrap;margin-left:12px}
+.trow.test.soon .when{color:#c2410c}.trow.test.past{opacity:.6}.trow.test.past .when{font-weight:500}
 </style>
 </head>
 <body>
@@ -371,11 +373,30 @@ function render(){
   else if(S.view==='topic')v.innerHTML=renderTopic();
   window.scrollTo({top:0});
 }
+// Test dates: each subject may carry tests:[{date:"YYYY-MM-DD",title,covers,type}] (maintained from Classroom).
+function upcomingTests(subjectId){
+  const today=new Date();today.setHours(0,0,0,0);
+  const out=[];
+  for(const s of S.subjects){if(subjectId&&s.id!==subjectId)continue;
+    for(const t of (s.tests||[])){if(!t||!t.date)continue;const d=new Date(t.date+"T00:00:00");if(isNaN(d))continue;
+      const days=Math.round((d-today)/86400000);out.push(Object.assign({},t,{subject:s,days}));}}
+  return out.sort((a,b)=>a.days-b.days);
+}
+function fmtTestDate(iso){const d=new Date(iso+"T00:00:00");if(isNaN(d))return iso;return d.toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short"});}
+function testsPanel(list,showSubject){
+  const vis=list.filter(t=>t.days>=-14);
+  if(!vis.length)return "";
+  const row=t=>{const when=t.days<0?"done "+(-t.days)+" day"+(t.days===-1?"":"s")+" ago":t.days===0?"TODAY":t.days===1?"tomorrow":"in "+t.days+" days";
+    const cls=t.days<0?"past":t.days<=3?"soon":"";
+    return `<button class="trow test ${cls}" data-subject="${esc(t.subject.id)}" ${t.subject.lang==="ka"?'lang="ka"':''}><div><h3>${showSubject?`<span class="chn">${esc(t.subject.name)}</span> `:''}${esc(t.title||"Test")}${t.covers?` <span class="sub">· ${esc(t.covers)}</span>`:''}</h3><div class="sub">${esc(fmtTestDate(t.date))}${t.type?" · "+esc(t.type):""}</div></div><div class="when">${when}</div></button>`;};
+  return `<h3 class="h3">Test dates</h3><div class="topics tests">${vis.map(row).join("")}</div>`;
+}
 function renderHome(){
   const sorted=[...S.subjects].sort((a,b)=>(a.order??99)-(b.order??99));
   const total=S.topics.length,cards=S.topics.reduce((a,t)=>a+(t.cards||[]).length,0),qs=S.topics.reduce((a,t)=>a+(t.quiz||[]).length,0);
   const overall=sorted.length?sorted.reduce((a,s)=>a+subjectMastery(s.id),0)/sorted.length:0;
   let h=`<div class="hero"><div><h2>Everything for the next exam, in one place.</h2><p>Pick a class, read the notes, flip the flashcards, then take the quiz. Your progress is saved automatically.</p></div>${ring(overall)}</div>`;
+  h+=testsPanel(upcomingTests(),true);
   if(!S.ready&&!S.subjects.length)return h+`<div class="empty">Loading your notes…</div>`;
   if(!sorted.length)return h+`<div class="empty">No subjects yet. Send Claude photos of your notes or textbook and they will show up here.</div>`;
   h+=`<div class="grid">`+sorted.map((s,i)=>{const ts=S.topics.filter(t=>t.subject===s.id);const m=subjectMastery(s.id);
@@ -388,6 +409,7 @@ function renderSubject(){
   const ts=subjectTopics(s.id);const ka=s.lang==='ka';
   let h=`<div class="crumb"><button data-nav="home">All subjects</button><span class="sep">›</span><span>${esc(s.name)}</span></div>`;
   h+=`<div class="hero" ${ka?'lang="ka"':''}><div><h2>${esc(s.name)}</h2><p>${esc(s.teacher?s.teacher+' · ':'')}${ts.length} topic${ts.length===1?'':'s'}${s.note?' · '+esc(s.note):''}</p></div>${ring(subjectMastery(s.id))}</div>`;
+  h+=testsPanel(upcomingTests(s.id),false);
   const row=t=>{const kc=(t.cards||[]).length,qc=(t.quiz||[]).length,b=quizBest(t);
     return `<button class="trow" data-topic="${esc(t.id)}"><div><h3>${t.chapter?`<span class="chn">${esc(String(t.chapter))}</span> `:''}${esc(t.title)}</h3><div class="sub">${t.exam?`<span class="tag exam">${esc(t.exam)}</span>`:''}${kc?`<span>${knownCount(t)}/${kc} cards known</span>`:''}${qc?`<span>quiz best ${b==null?'—':b+'%'}</span>`:''}${t.updated?`<span>${esc(t.updated)}</span>`:''}</div></div>${ring(topicMastery(t))}</button>`;};
   if(s.books&&s.books.length)h+=`<div class="books">${s.books.map(b=>(b.url?`<a class="book link" href="${esc(b.url)}" target="_blank" rel="noopener">`:`<div class="book">`)+`<div class="bk-role">${esc(b.role||'Book')}${b.url?' · open ↗':''}</div><div class="bk-title">${esc(b.title)}</div><div class="bk-meta">${esc([b.authors,b.edition,b.publisher].filter(Boolean).join(' · '))}</div>`+(b.url?`</a>`:`</div>`)).join('')}</div>`;
@@ -514,7 +536,8 @@ function renderSearch(){
   return `<div class="results">${hits.slice(0,40).map(h=>`<button class="hit" data-topic="${esc(h.t.id)}" data-gotab="${h.tab}"><div class="p">${esc(h.p)} · ${h.tab}</div><div class="s">${hl(h.s.replace(/[#*`>|]/g,''))}</div></button>`).join('')}</div>`;
 }
 
-function renderTodo(){
+function renderTodo(){return testsPanel(upcomingTests(),true)+renderTodoInner();}
+function renderTodoInner(){
   const todos=S.progress.todos||[];
   const sorted=[...todos].sort((a,b)=>(a.done-b.done)||((a.due||'9999')<(b.due||'9999')?-1:1));
   const today=new Date().toISOString().slice(0,10);
