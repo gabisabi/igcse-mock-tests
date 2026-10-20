@@ -254,6 +254,52 @@ a{color:var(--accent)}
 [hidden]{display:none!important}
 .trow.test .when{font-size:12px;font-weight:700;color:var(--faint);white-space:nowrap;margin-left:12px}
 .trow.test.soon .when{color:#c2410c}.trow.test.past{opacity:.6}.trow.test.past .when{font-weight:500}
+.ex{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+.ex h3{font-family:var(--display);font-size:20px;margin:0}
+.ex h3 small{font-size:12px;color:var(--faint);font-weight:600;margin-left:8px}
+.ex .meta{font-size:13px;color:var(--muted);margin:0}
+.ex .exhead{display:flex;flex-direction:column;gap:6px}
+.ex .chk{display:flex;flex-direction:column;gap:6px}
+.ex .chki{display:flex;gap:10px;align-items:flex-start;text-align:left;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface2);font-size:14px;line-height:1.4}
+.ex .chki .box{flex:none;width:20px;height:20px;border-radius:6px;border:1px solid var(--line);background:var(--surface);display:grid;place-items:center;font-size:12px;font-weight:700}
+.ex .chki.on{background:var(--know-soft);border-color:var(--know)}
+.ex .chki.on .box{background:var(--know);color:#fff;border-color:var(--know)}
+.ex .exbar{display:flex;gap:10px;align-items:center;justify-content:flex-end;flex-wrap:wrap;padding-top:6px}
+.ex .exbar.center{justify-content:center}
+.ex .exi{padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface2);display:flex;flex-direction:column;gap:8px}
+.ex .exi.right{background:var(--know-soft);border-color:var(--know)}
+.ex .exi.wrong{background:var(--again-soft);border-color:var(--again)}
+.ex .exi .q{font-size:15px;line-height:1.45}
+.ex .exin{width:100%;padding:9px 11px;border:1px solid var(--line);border-radius:8px;background:var(--surface);font:inherit;font-size:14px;box-sizing:border-box}
+.ex textarea.exin{resize:vertical;min-height:44px}
+.ex .exsel{width:100%;padding:9px 11px;border:1px solid var(--line);border-radius:8px;background:var(--surface);font:inherit;font-size:14px}
+.ex .your{font-size:14px;color:var(--muted);padding:6px 10px;border-left:3px solid var(--line);white-space:pre-wrap}
+.ex .model{font-size:14px;line-height:1.5;padding:8px 10px;border-radius:8px;background:var(--surface);border:1px dashed var(--line)}
+.ex .model ol{margin:4px 0 0 18px;padding:0}
+.ex .pg{font-size:11px;color:var(--faint);border:1px solid var(--line);border-radius:6px;padding:1px 6px;margin-left:4px;white-space:nowrap}
+.ex .selfm{display:flex;gap:6px;align-items:center;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+.ex .btn.mini{padding:6px 12px;font-size:13px;border-radius:8px}
+.ex .btn.mini.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.ex .btn.mini.half{background:#fff3cd;color:#8a6100;border-color:transparent}
+.ex .legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);position:sticky;top:0;z-index:1}
+.ex .tfb{display:flex;gap:8px}
+.ex .chosen{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:4px;font-size:14px}
+.ex .chosen li{padding:4px 8px;border-radius:6px;background:var(--surface)}
+.ex .chosen li.right{background:var(--know-soft)}
+.ex .chosen li.wrong{background:var(--again-soft)}
+.ex .pool{display:flex;flex-wrap:wrap;gap:6px}
+.ex .chip{padding:7px 11px;border:1px solid var(--line);border-radius:999px;background:var(--surface);font-size:13px;text-align:left}
+.ex .chip:hover{border-color:var(--accent)}
+.ex .src{display:flex;flex-direction:column;gap:10px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.ex .src .cite{font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--faint)}
+.ex .src blockquote{margin:0;padding:10px 14px;border-left:3px solid var(--accent);background:var(--surface2);font-size:14px;line-height:1.55;border-radius:0 8px 8px 0}
+.ex .essay{display:flex;flex-direction:column;gap:8px}
+.ex .opt.on{border-color:var(--accent);background:var(--surface)}
+.ex .score{text-align:center;padding:18px 0 6px}
+.ex .score .big{font-family:var(--display);font-size:48px;font-weight:700}
+.ex .miss{display:flex;flex-direction:column;gap:6px}
+.ex .mi{padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface2);font-size:14px}
+.ex .mi .q{color:var(--muted);margin-bottom:4px}
 </style>
 </head>
 <body>
@@ -431,12 +477,13 @@ function renderTopic(){
   const nc=(t.cards||[]).length,nq=(t.quiz||[]).length;
   let h=`<div class="crumb"><button data-nav="home">All subjects</button><span class="sep">›</span><button data-subject="${esc(s.id||'')}">${esc(s.name||'')}</button><span class="sep">›</span><span ${ka?'lang="ka"':''}>${esc(t.title)}</span></div>`;
   h+=`<div class="hero" ${ka?'lang="ka"':''}><div><h2>${esc(t.title)}</h2><p>${t.exam?`<span class="tag exam">${esc(t.exam)}</span> `:''}${t.source?esc(t.source):''}</p></div>${ring(topicMastery(t))}</div>`;
-  h+=`<div class="tabs" role="tablist"><button class="${S.tab==='notes'?'on':''}" data-tab="notes">${ka?'ჩანაწერები':'Notes'}</button><button class="${S.tab==='cards'?'on':''}" data-tab="cards" ${nc?'':'disabled'}>${ka?'ბარათები':'Flashcards'}<small>${nc}</small></button><button class="${S.tab==='quiz'?'on':''}" data-tab="quiz" ${nq?'':'disabled'}>${ka?'ტესტი':'Quiz'}<small>${nq}</small></button></div>`;
+  h+=`<div class="tabs" role="tablist"><button class="${S.tab==='notes'?'on':''}" data-tab="notes">${ka?'ჩანაწერები':'Notes'}</button><button class="${S.tab==='cards'?'on':''}" data-tab="cards" ${nc?'':'disabled'}>${ka?'ბარათები':'Flashcards'}<small>${nc}</small></button><button class="${S.tab==='quiz'?'on':''}" data-tab="quiz" ${nq?'':'disabled'}>${ka?'ტესტი':'Quiz'}<small>${nq}</small></button>${t.paper?`<button class="${S.tab==='exam'?'on':''}" data-tab="exam">${ka?'გამოცდა':'Exam'}</button>`:''}</div>`;
   const bi=S.tab==='notes'&&t.notesEn;
   h+=`<div class="panel ${bi?'wide':''}" ${ka?'lang="ka"':''}>`;
   if(bi)h+=`<div class="bi"><div class="notes" lang="${esc(t.lang||'ru')}"><div class="bi-label">${esc(t.lang==='ka'?'ქართულად':'По-русски · original')}</div>${md(t.notes)}</div><div class="notes en" lang="en"><div class="bi-label">In English</div>${md(t.notesEn)}</div></div>`;
   else if(S.tab==='notes')h+=`<div class="notes">${t.notes?md(t.notes):'<p style="color:var(--muted)">No notes yet for this topic.</p>'}</div>`;
   else if(S.tab==='cards')h+=renderCards(t);
+  else if(S.tab==='exam'&&t.paper)h+=renderExam(t);
   else h+=renderQuiz(t);
   return h+`</div>`;
 }
@@ -516,6 +563,79 @@ function newQuiz(t){
   S.qzHist[t.id]=chosen.map(p=>p.key).concat(hist).slice(0,Math.max(0,pool.length-n));
   return chosen;
 }
+/* ---------- exam paper: revise → test ---------- */
+const EXT={ka:{revise:'გამეორება',ready:'მზად ვარ — დავიწყოთ ტესტი ›',check:'შეამოწმე',next:'შემდეგი სექცია ›',finish:'შედეგი ›',again:'ხელახლა — ახალი თანმიმდევრობა',toRevise:'‹ გამეორება',model:'სწორი პასუხი',self:'შეაფასე თავი:',yes:'სწორია',half:'ნახევრად',no:'არასწორია',pts:'ქულა',time:'დრო',tTrue:'სწორია',tFalse:'არასწორია',fix:'სწორად:',clear:'გასუფთავება',correctOrder:'სწორი თანმიმდევრობა',pick:'— აირჩიე —',score:'შენი შედეგი',weak:'რა გასამეორებელია',full:'სრული ჩანაწერები ›',page:'გვ.',rubric:'შეფასების კრიტერიუმები',essayMark:'რამდენი ქულა დაიმსახურე?',best:'საუკეთესო',unanswered:'უპასუხო',answerHere:'დაწერე პასუხი...',intro:'ტესტი 7 სექციისგან შედგება: ტერმინები, თარიღები, პირები, ქრონოლოგია, სწორი/არასწორი, წყაროები, ღია კითხვა. ჯერ მონიშნე, რაც უკვე იცი — რაც არ გახსოვს, ნახე ჩანაწერებში, მერე დაიწყე.',ofChk:'მონიშნული',sections:'სექცია',allGood:'ყველაფერი სწორია 🎉',needMark:'ჯერ შეაფასე ყველა პასუხი'},
+en:{revise:'Revise',ready:'I am ready — start the test ›',check:'Check',next:'Next section ›',finish:'Result ›',again:'Again — new order',toRevise:'‹ Revise',model:'Model answer',self:'Mark yourself:',yes:'Right',half:'Half',no:'Wrong',pts:'pts',time:'Time',tTrue:'True',tFalse:'False',fix:'Correction:',clear:'Clear',correctOrder:'Correct order',pick:'— choose —',score:'Your result',weak:'To revise',full:'Full notes ›',page:'p.',rubric:'Marking criteria',essayMark:'How many points did you earn?',best:'best',unanswered:'no answer',answerHere:'Type your answer...',intro:'The test has 7 sections: terms, dates, people, chronology, true/false, sources, essay. Tick what you already know, check the notes for the rest, then start.',ofChk:'ticked',sections:'section',allGood:'All correct 🎉',needMark:'Mark every answer first'}};
+function exShuf(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function exLang(t){const s=subj(t.subject)||{};return (s.lang==='ka'||t.lang==='ka')?EXT.ka:EXT.en;}
+function exInit(t,step){const P=t.paper;
+  const secs=P.sections.map(s=>{const idx=s.items.map((_,i)=>i);const sh=s.type==='essay'?idx:exShuf(idx);const disp={};if(s.type==='order')s.items.forEach((it,i)=>{disp[i]=exShuf(it.seq.map((_,k)=>k));});return {idx:sh,disp};});
+  S.ex={topic:t.id,step:step||'revise',si:0,ans:{},mark:{},rev:{},secs,checked:(S.ex&&S.ex.topic===t.id?S.ex.checked:{})||{}};}
+function exSecScore(t,si){const s=t.paper.sections[si],E=S.ex,L=exLang(t);let got=0,max=0;const miss=[];
+  const k=(ii,qi)=>si+'_'+ii+(qi!=null?'_'+qi:'');
+  if(s.type==='short'){s.items.forEach((it,ii)=>{max+=s.pts;const m=+(E.mark[k(ii)]||0);got+=m*s.pts;if(m<1)miss.push({q:it.q,a:it.a,p:it.p});});}
+  else if(s.type==='match'){s.items.forEach((it,ii)=>{max+=s.pts;if(+E.ans[k(ii)]===it.a&&E.ans[k(ii)]!=='')got+=s.pts;else miss.push({q:it.q,a:s.right[it.a],p:it.p});});}
+  else if(s.type==='tf'){s.items.forEach((it,ii)=>{max+=s.pts;const v=E.ans[k(ii)];if(v!=null&&(v==='1')===it.t)got+=s.pts;else miss.push({q:it.s,a:(it.t?L.tTrue:L.tFalse)+(it.fix?' — '+it.fix:''),p:it.p});});}
+  else if(s.type==='order'){s.items.forEach((it,ii)=>{max+=s.pts;const ch=E.ans[k(ii)]||[];let c=0;it.seq.forEach((_,pos)=>{if(ch[pos]===pos)c++;});const g=Math.round(c/it.seq.length*s.pts*2)/2;got+=g;if(g<s.pts)miss.push({q:it.q,a:it.seq.join(' → '),p:it.p});});}
+  else if(s.type==='source'){s.items.forEach((it,ii)=>{it.qs.forEach((q,qi)=>{max+=s.pts;const m=+(E.mark[k(ii,qi)]||0);got+=m*s.pts;if(m<1)miss.push({q:q.q,a:q.a,p:it.p});});});}
+  else if(s.type==='essay'){max+=s.pts;got+=+(E.mark[si+'_e']||0);}
+  return {got,max,miss};}
+function exTotal(t){let g=0,m=0;const per=t.paper.sections.map((s,si)=>{const r=exSecScore(t,si);g+=r.got;m+=r.max;return r;});return {got:g,max:m,per};}
+function renderExam(t){const P=t.paper;if(!P)return '';const L=exLang(t);if(!S.ex||S.ex.topic!==t.id)exInit(t);const E=S.ex;
+  const total=P.sections.reduce((n,s,si)=>n+exSecScore(t,si).max,0);
+  const rec=(S.progress.exam||{})[t.id];
+  if(E.step==='revise'){const n=P.checklist.length,c=P.checklist.filter((_,i)=>E.checked[i]).length;
+    return `<div class="ex"><div class="exhead"><div class="qn">${esc(L.revise)} · 1/2</div><h3>${esc(L.revise)}</h3><p class="meta">${esc(L.intro)}</p><p class="meta">${esc(L.time)}: ${esc(P.time||'')} · ${total} ${esc(L.pts)} · ${P.sections.length} ${esc(L.sections)}${rec?` · ${esc(L.best)} ${rec.best}%`:''}</p></div>
+      <div class="chk">${P.checklist.map((c,i)=>`<button class="chki ${E.checked[i]?'on':''}" data-ex="chk" data-i="${i}"><span class="box">${E.checked[i]?'✓':''}</span><span>${esc(c)}</span></button>`).join('')}</div>
+      <div class="exbar"><span class="meta">${c}/${n} ${esc(L.ofChk)}</span><button class="btn" data-tab="notes">${esc(L.full)}</button><button class="btn primary" data-ex="start">${esc(L.ready)}</button></div></div>`;}
+  if(E.step==='done'){const T=exTotal(t);const pct=Math.round(T.got/T.max*100);const miss=T.per.flatMap(r=>r.miss);
+    return `<div class="ex"><div class="score"><div class="big">${pct}%</div><p>${T.got} / ${T.max} ${esc(L.pts)}${rec?` · ${esc(L.best)} ${rec.best}%`:''}</p><div class="exbar center"><button class="btn primary" data-ex="again">${esc(L.again)}</button><button class="btn" data-ex="revise">${esc(L.toRevise)}</button></div></div>
+      <div class="tw"><table><tr><th>${esc(L.sections)}</th><th>${esc(L.pts)}</th></tr>${P.sections.map((s,si)=>`<tr><td>${esc(s.title)}</td><td><b>${T.per[si].got}</b> / ${T.per[si].max}</td></tr>`).join('')}</table></div>
+      ${miss.length?`<h3 class="h3">${esc(L.weak)}</h3><div class="miss">${miss.map(m=>`<div class="mi"><div class="q">${inline(m.q)}</div><div class="a">${inline(m.a)}${m.p?` <span class="pg">${esc(L.page)} ${m.p}</span>`:''}</div></div>`).join('')}</div>`:`<div class="empty">${esc(L.allGood)}</div>`}</div>`;}
+  const si=E.si,s=P.sections[si],rev=!!E.rev[si],sc=rev?exSecScore(t,si):null;
+  const key=(ii,qi)=>si+'_'+ii+(qi!=null?'_'+qi:'');
+  const mark=(k)=>`<div class="selfm"><span>${esc(L.self)}</span><button class="btn mini ${E.mark[k]==1?'know':''}" data-ex="mark" data-key="${k}" data-v="1">${esc(L.yes)}</button><button class="btn mini ${E.mark[k]==0.5?'half':''}" data-ex="mark" data-key="${k}" data-v="0.5">${esc(L.half)}</button><button class="btn mini ${E.mark[k]==0?'again':''}" data-ex="mark" data-key="${k}" data-v="0">${esc(L.no)}</button></div>`;
+  const pg=p=>p?`<span class="pg">${esc(L.page)} ${p}</span>`:'';
+  const cls=k=>rev?(E.mark[k]==null?'':(E.mark[k]>=1?'right':'wrong')):'';
+  let body='';
+  if(s.type==='short'){body=E.secs[si].idx.map((ii,n)=>{const it=s.items[ii],k=key(ii),v=E.ans[k]||'';
+    return `<div class="exi ${cls(k)}"><div class="q"><b>${n+1}.</b> ${inline(it.q)}</div>${rev?`<div class="your">${v?esc(v):`<i>${esc(L.unanswered)}</i>`}</div><div class="model"><b>${esc(L.model)}:</b> ${inline(it.a)} ${pg(it.p)}</div>${mark(k)}`:`<input class="exin" data-exin="${k}" value="${esc(v)}" placeholder="${esc(L.answerHere)}" autocomplete="off">`}</div>`;}).join('');}
+  else if(s.type==='match'){const letters=s.right.map((_,i)=>String.fromCharCode(0x10D0+i));
+    body=`<div class="legend">${s.right.map((r,i)=>`<span><b>${letters[i]})</b> ${esc(r)}</span>`).join('')}</div>`+E.secs[si].idx.map((ii,n)=>{const it=s.items[ii],k=key(ii),v=E.ans[k];const ok=rev&&v!==''&&v!=null&&+v===it.a;
+      return `<div class="exi ${rev?(ok?'right':'wrong'):''}"><div class="q"><b>${n+1}.</b> ${inline(it.q)}</div>${rev?`<div class="model">${ok?'✓':'✗'} <b>${letters[it.a]})</b> ${esc(s.right[it.a])}${!ok&&v!=null&&v!==''?` <span class="your">(${esc(letters[+v])})</span>`:''} ${pg(it.p)}</div>`:`<select class="exsel" data-exsel="${k}"><option value="">${esc(L.pick)}</option>${s.right.map((r,i)=>`<option value="${i}" ${v==i?'selected':''}>${letters[i]}) ${esc(r)}</option>`).join('')}</select>`}</div>`;}).join('');}
+  else if(s.type==='tf'){body=E.secs[si].idx.map((ii,n)=>{const it=s.items[ii],k=key(ii),v=E.ans[k];const ok=rev&&v!=null&&(v==='1')===it.t;
+    return `<div class="exi ${rev?(ok?'right':'wrong'):''}"><div class="q"><b>${n+1}.</b> ${inline(it.s)}</div><div class="tfb"><button class="btn mini ${v==='1'?'on':''}" data-ex="tf" data-key="${k}" data-v="1" ${rev?'disabled':''}>${esc(L.tTrue)}</button><button class="btn mini ${v==='0'?'on':''}" data-ex="tf" data-key="${k}" data-v="0" ${rev?'disabled':''}>${esc(L.tFalse)}</button></div>${rev?`<div class="model">${ok?'✓':'✗'} <b>${it.t?esc(L.tTrue):esc(L.tFalse)}</b>${it.fix?` · ${esc(L.fix)} ${inline(it.fix)}`:''} ${pg(it.p)}</div>`:''}</div>`;}).join('');}
+  else if(s.type==='order'){body=E.secs[si].idx.map((ii,n)=>{const it=s.items[ii],k=key(ii),ch=E.ans[k]||[],disp=E.secs[si].disp[ii];
+    return `<div class="exi"><div class="q"><b>${n+1}.</b> ${inline(it.q)} ${pg(it.p)}</div>
+      <ol class="chosen">${ch.map((c,pos)=>`<li class="${rev?(c===pos?'right':'wrong'):''}">${esc(it.seq[c])}</li>`).join('')}</ol>
+      ${rev?`<div class="model"><b>${esc(L.correctOrder)}:</b><ol>${it.seq.map(x=>`<li>${esc(x)}</li>`).join('')}</ol></div>`:`<div class="pool">${disp.filter(c=>!ch.includes(c)).map(c=>`<button class="chip" data-ex="ord" data-key="${k}" data-k="${c}">${esc(it.seq[c])}</button>`).join('')}</div>${ch.length?`<div><button class="btn mini" data-ex="ordclr" data-key="${k}">${esc(L.clear)}</button></div>`:''}`}</div>`;}).join('');}
+  else if(s.type==='source'){body=E.secs[si].idx.map((ii,n)=>{const it=s.items[ii];
+    return `<div class="src"><div class="cite">${esc(it.cite)}</div><blockquote>${esc(it.text)}</blockquote>${it.qs.map((q,qi)=>{const k=key(ii,qi),v=E.ans[k]||'';
+      return `<div class="exi ${cls(k)}"><div class="q"><b>${n+1}.${qi+1}</b> ${inline(q.q)}</div>${rev?`<div class="your">${v?esc(v):`<i>${esc(L.unanswered)}</i>`}</div><div class="model"><b>${esc(L.model)}:</b> ${inline(q.a)}</div>${mark(k)}`:`<textarea class="exin" data-exin="${k}" rows="2" placeholder="${esc(L.answerHere)}">${esc(v)}</textarea>`}</div>`;}).join('')}</div>`;}).join('');}
+  else if(s.type==='essay'){const k=si+'_e',pick=E.ans[k+'_pick'],v=E.ans[k]||'';
+    body=`<div class="essay">${s.items.map((it,i)=>`<button class="opt ${pick==i?'on':''}" data-ex="pickq" data-key="${k}_pick" data-v="${i}" ${rev?'disabled':''}><span class="k">${String.fromCharCode(0x10D0+i)}</span><span>${inline(it.q)}</span></button>`).join('')}
+      ${pick!=null?(rev?`<div class="your">${v?esc(v):`<i>${esc(L.unanswered)}</i>`}</div><div class="model"><b>${esc(L.model)}:</b> ${inline(s.items[pick].a)} ${pg(s.items[pick].p)}</div><div class="model"><b>${esc(L.rubric)}:</b> ${esc(s.rubric||'')}</div><div class="selfm"><span>${esc(L.essayMark)}</span>${[0,2,4,6,8,10].filter(x=>x<=s.pts).map(x=>`<button class="btn mini ${E.mark[k]==x?'on':''}" data-ex="mark" data-key="${k}" data-v="${x}">${x}</button>`).join('')}</div>`:`<textarea class="exin" data-exin="${k}" rows="8" placeholder="${esc(L.answerHere)}">${esc(v)}</textarea>`):''}</div>`;}
+  return `<div class="ex"><div class="bar"><b style="width:${Math.round(si/P.sections.length*100)}%"></b></div><div class="qn">${esc(L.sections)} ${si+1} / ${P.sections.length}</div><h3>${esc(s.title)} <small>${exSecScore(t,si).max} ${esc(L.pts)}</small></h3>${s.hint?`<p class="meta">${esc(s.hint)}</p>`:''}${body}
+    <div class="exbar">${rev?`<span class="meta"><b>${sc.got}</b> / ${sc.max} ${esc(L.pts)}</span><button class="btn primary" data-ex="next">${si+1<P.sections.length?esc(L.next):esc(L.finish)}</button>`:`<button class="btn primary" data-ex="check">${esc(L.check)}</button>`}</div></div>`;}
+function exClick(d){const t=S.topics.find(x=>x.id===S.topic);if(!t||!t.paper)return;if(!S.ex||S.ex.topic!==t.id)exInit(t);const E=S.ex;
+  if(d.ex==='chk'){E.checked[d.i]=!E.checked[d.i];}
+  else if(d.ex==='start'){E.step='sec';E.si=0;window.scrollTo(0,0);}
+  else if(d.ex==='revise'){E.step='revise';window.scrollTo(0,0);}
+  else if(d.ex==='again'){exInit(t,'sec');window.scrollTo(0,0);}
+  else if(d.ex==='check'){E.rev[E.si]=true;}
+  else if(d.ex==='next'){const s=t.paper.sections[E.si];
+    let un=0;if(s.type==='short')s.items.forEach((_,ii)=>{if(E.mark[E.si+'_'+ii]==null)un++;});else if(s.type==='source')s.items.forEach((it,ii)=>it.qs.forEach((_,qi)=>{if(E.mark[E.si+'_'+ii+'_'+qi]==null)un++;}));else if(s.type==='essay'&&E.ans[E.si+'_e_pick']!=null&&E.mark[E.si+'_e']==null)un++;
+    if(un){toast(exLang(t).needMark);return;}
+    if(E.si+1<t.paper.sections.length){E.si++;window.scrollTo(0,0);}
+    else{E.step='done';const T=exTotal(t);const pct=Math.round(T.got/T.max*100);S.progress.exam=S.progress.exam||{};const rec=S.progress.exam[t.id]||{best:0,attempts:0};rec.attempts++;rec.last=pct;rec.best=Math.max(rec.best||0,pct);S.progress.exam[t.id]=rec;saveProgress();window.scrollTo(0,0);}}
+  else if(d.ex==='mark'){E.mark[d.key]=+d.v;}
+  else if(d.ex==='tf'||d.ex==='pickq'){E.ans[d.key]=d.v;}
+  else if(d.ex==='ord'){const a=(E.ans[d.key]||[]).slice();a.push(+d.k);E.ans[d.key]=a;}
+  else if(d.ex==='ordclr'){E.ans[d.key]=[];}
+  render();}
+document.addEventListener('input',e=>{const k=e.target.dataset&&e.target.dataset.exin;if(k&&S.ex){S.ex.ans[k]=e.target.value;}});
+document.addEventListener('change',e=>{const k=e.target.dataset&&e.target.dataset.exsel;if(k&&S.ex){S.ex.ans[k]=e.target.value;}});
+
 function renderQuiz(t){
   const q=S.qz;if(!q.set||q.topic!==t.id){q.set=newQuiz(t);q.topic=t.id;}const qs=q.set;
   if(q.done){const pct=Math.round(q.score/qs.length*100);const best=quizBest(t);
@@ -557,7 +677,7 @@ function go(view,extra={}){Object.assign(S,{view},extra);S.q='';$('#q').value=''
   try{const hash=view==='subject'?S.subject:view==='topic'?S.topic:(view==='home'?'':view);history.replaceState(null,'',location.pathname+location.search+(hash?'#'+hash:''));}catch(e){}
   render();}
 document.addEventListener('click',e=>{
-  const b=e.target.closest('[data-nav],[data-subject],[data-topic],[data-tab],[data-exam],[data-fc],[data-qz],[data-opt],[data-todo]');if(!b)return;
+  const b=e.target.closest('[data-nav],[data-subject],[data-topic],[data-tab],[data-exam],[data-fc],[data-qz],[data-opt],[data-todo],[data-ex]');if(!b)return;
   const d=b.dataset;
   if(d.nav==='home')return go('home');
   if(d.nav==='todo')return go('todo');
@@ -570,8 +690,9 @@ document.addEventListener('click',e=>{
   if(d.students==='refresh'){S.students=null;return render();}
   if(d.todo){const L=S.progress.todos||[];const i=L.findIndex(x=>x.id===d.id);if(i>=0){if(d.todo==='toggle')L[i].done=!L[i].done;else L.splice(i,1);S.progress.todos=L;saveProgress();render();}return;}
   if(d.subject!=null&&!d.topic)return go('subject',{subject:d.subject});
-  if(d.topic!=null){const t=S.topics.find(x=>x.id===d.topic);return go('topic',{topic:d.topic,subject:t?t.subject:S.subject,tab:d.gotab||'notes'});}
+  if(d.topic!=null){const t=S.topics.find(x=>x.id===d.topic);return go('topic',{topic:d.topic,subject:t?t.subject:S.subject,tab:d.gotab||(t&&t.paper?'exam':'notes')});}
   if(d.exam){S.exam=d.exam;S.fc.order=[];return render();}
+  if(d.ex!=null)return exClick(d);
   if(d.tab){S.tab=d.tab;S.fc.flip=false;return render();}
   const t=S.topics.find(x=>x.id===S.topic);
   if(d.fc&&t){const f=S.fc;const ci=f.order[f.i];
